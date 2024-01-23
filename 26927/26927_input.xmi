@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
+  <uml:Model name="testUML" xmi:id="_SkdbMbkbEe6_WdsoSumY1A">
+    <packagedElement name="City" xmi:id="_SkepULkbEe6_WdsoSumY1A" xmi:type="uml:Class">
+      <ownedAttribute association="_SkepZLkbEe6_WdsoSumY1A" name="" type="_SkepU7kbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepUbkbEe6_WdsoSumY1A" xmi:type="uml:Property">
+        <upperValue value="*" xmi:id="_SkepUrkbEe6_WdsoSumY1A" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement name="Houses" xmi:id="_SkepU7kbEe6_WdsoSumY1A" xmi:type="uml:Class">
+      <ownedAttribute association="_SkepYLkbEe6_WdsoSumY1A" name="" type="_SkepV7kbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepVLkbEe6_WdsoSumY1A" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_SkepVbkbEe6_WdsoSumY1A" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_SkepVrkbEe6_WdsoSumY1A" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement name="Family" xmi:id="_SkepV7kbEe6_WdsoSumY1A" xmi:type="uml:Class">
+      <ownedAttribute name="Father" type="_SkepXbkbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepWLkbEe6_WdsoSumY1A" xmi:type="uml:Property"/>
+      <ownedAttribute name="Mother" type="_SkepXrkbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepWbkbEe6_WdsoSumY1A" xmi:type="uml:Property"/>
+      <ownedAttribute name="Children" type="_SkepX7kbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepWrkbEe6_WdsoSumY1A" xmi:type="uml:Property">
+        <lowerValue xmi:id="_SkepW7kbEe6_WdsoSumY1A" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="*" xmi:id="_SkepXLkbEe6_WdsoSumY1A" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement name="Father" xmi:id="_SkepXbkbEe6_WdsoSumY1A" xmi:type="uml:Class"/>
+    <packagedElement name="Mother" xmi:id="_SkepXrkbEe6_WdsoSumY1A" xmi:type="uml:Class"/>
+    <packagedElement name="Child" xmi:id="_SkepX7kbEe6_WdsoSumY1A" xmi:type="uml:Class"/>
+    <packagedElement memberEnd="_SkepYbkbEe6_WdsoSumY1A _SkepVLkbEe6_WdsoSumY1A" name="Family" xmi:id="_SkepYLkbEe6_WdsoSumY1A" xmi:type="uml:Association">
+      <ownedEnd association="_SkepYLkbEe6_WdsoSumY1A" name="" owningAssociation="_SkepYLkbEe6_WdsoSumY1A" type="_SkepU7kbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepYbkbEe6_WdsoSumY1A" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_SkepYrkbEe6_WdsoSumY1A" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_SkepY7kbEe6_WdsoSumY1A" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="_SkepZbkbEe6_WdsoSumY1A _SkepUbkbEe6_WdsoSumY1A" name="Houses" xmi:id="_SkepZLkbEe6_WdsoSumY1A" xmi:type="uml:Association">
+      <ownedEnd association="_SkepZLkbEe6_WdsoSumY1A" name="" owningAssociation="_SkepZLkbEe6_WdsoSumY1A" type="_SkepULkbEe6_WdsoSumY1A" visibility="private" xmi:id="_SkepZbkbEe6_WdsoSumY1A" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_SkepZrkbEe6_WdsoSumY1A" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_SkepZ7kbEe6_WdsoSumY1A" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement name="PrimitiveTypes" xmi:id="_SkepaLkbEe6_WdsoSumY1A" xmi:type="uml:Package"/>
+  </uml:Model>
+</xmi:XMI>

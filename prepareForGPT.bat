@@ -27,7 +27,7 @@ git commit -m "this is a message"
 git push
 
 timeout 1 > NUL
-python "%scriptpath%\GPT.py" "%var%\%var%_input.xmi"
+python "%scriptpath%\GPT.py" "%RAND%\%RAND%_input.xmi"
 timeout 1 > NUL
 
 ren "%scriptpath%\GPT_output.java" "%RAND%_output.java"

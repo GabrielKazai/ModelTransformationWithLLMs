@@ -1,15 +1,12 @@
 from openai import OpenAI
 import random
 import string
+import sys
 
 #Read the XMI file
-f = open(input(), "r")
+f = open(sys.argv[1], "r")
 XMI_var = f.read()
 print(XMI_var)
-
-N = 6
-promptID = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(N))
-print(promptID)
 
 #GPT
 
@@ -30,6 +27,6 @@ print(completion.choices[0].message.content)
 #GPT
 
 #Write result to XMI
-file = open(promptID + '_output.txt', 'w')
+file = open('GPT_output.java', 'w')
 file.write(completion.choices[0].message.content)
 file.close()

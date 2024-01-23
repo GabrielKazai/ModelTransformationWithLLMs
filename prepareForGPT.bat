@@ -26,3 +26,14 @@ git switch previousExecutions
 git commit -m "this is a message"
 git push
 
+timeout 1 > NUL
+python "%scriptpath%\GPT.py" "%var%\%var%_input.xmi"
+timeout 1 > NUL
+
+ren "%scriptpath%\GPT_output.java" "%RAND%_output.java"
+move "%scriptpath%\%RAND%_output.java" "%scriptpath%\%RAND%
+
+git add .
+git switch previousExecutions
+git commit -m "this is a message"
+git push

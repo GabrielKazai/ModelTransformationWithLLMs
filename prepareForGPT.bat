@@ -22,6 +22,6 @@ for %%f in (*.java) do (
 )
 
 git add .
-git switch history
+git switch previousExecutions
 git commit -m "this is a message"
 git push

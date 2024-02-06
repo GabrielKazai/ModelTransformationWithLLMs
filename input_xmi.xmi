@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-  <uml:Model name="testUML" xmi:id="_FDLhIbuEEe6lXMxGBjbpXg">
-    <packagedElement name="City" xmi:id="_FDMvQLuEEe6lXMxGBjbpXg" xmi:type="uml:Class">
-      <ownedAttribute association="_FDMvVLuEEe6lXMxGBjbpXg" name="" type="_FDMvQ7uEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvQbuEEe6lXMxGBjbpXg" xmi:type="uml:Property">
-        <upperValue value="*" xmi:id="_FDMvQruEEe6lXMxGBjbpXg" xmi:type="uml:LiteralUnlimitedNatural"/>
+  <uml:Model name="testUML" xmi:id="_4Ekh4cQkEe6JLNXTscXVnQ">
+    <packagedElement name="City" xmi:id="_4ElI8MQkEe6JLNXTscXVnQ" xmi:type="uml:Class">
+      <ownedAttribute association="_4ElwDsQkEe6JLNXTscXVnQ" name="" type="_4ElI88QkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElI8cQkEe6JLNXTscXVnQ" xmi:type="uml:Property">
+        <upperValue value="*" xmi:id="_4ElI8sQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement name="Houses" xmi:id="_FDMvQ7uEEe6lXMxGBjbpXg" xmi:type="uml:Class">
-      <ownedAttribute association="_FDMvULuEEe6lXMxGBjbpXg" name="" type="_FDMvR7uEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvRLuEEe6lXMxGBjbpXg" xmi:type="uml:Property">
-        <lowerValue value="1" xmi:id="_FDMvRbuEEe6lXMxGBjbpXg" xmi:type="uml:LiteralInteger"/>
-        <upperValue value="1" xmi:id="_FDMvRruEEe6lXMxGBjbpXg" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <packagedElement name="Houses" xmi:id="_4ElI88QkEe6JLNXTscXVnQ" xmi:type="uml:Class">
+      <ownedAttribute association="_4ElwCsQkEe6JLNXTscXVnQ" name="" type="_4ElwAcQkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElI9MQkEe6JLNXTscXVnQ" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_4ElI9cQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_4ElwAMQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement name="Family" xmi:id="_FDMvR7uEEe6lXMxGBjbpXg" xmi:type="uml:Class">
-      <ownedAttribute name="Father" type="_FDMvTbuEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvSLuEEe6lXMxGBjbpXg" xmi:type="uml:Property"/>
-      <ownedAttribute name="Mother" type="_FDMvTruEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvSbuEEe6lXMxGBjbpXg" xmi:type="uml:Property"/>
-      <ownedAttribute name="Children" type="_FDMvT7uEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvSruEEe6lXMxGBjbpXg" xmi:type="uml:Property">
-        <lowerValue xmi:id="_FDMvS7uEEe6lXMxGBjbpXg" xmi:type="uml:LiteralInteger"/>
-        <upperValue value="*" xmi:id="_FDMvTLuEEe6lXMxGBjbpXg" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <packagedElement name="Family" xmi:id="_4ElwAcQkEe6JLNXTscXVnQ" xmi:type="uml:Class">
+      <ownedAttribute name="Father" type="_4ElwB8QkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwAsQkEe6JLNXTscXVnQ" xmi:type="uml:Property"/>
+      <ownedAttribute name="Mother" type="_4ElwCMQkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwA8QkEe6JLNXTscXVnQ" xmi:type="uml:Property"/>
+      <ownedAttribute name="Children" type="_4ElwCcQkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwBMQkEe6JLNXTscXVnQ" xmi:type="uml:Property">
+        <lowerValue xmi:id="_4ElwBcQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="*" xmi:id="_4ElwBsQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement name="Father" xmi:id="_FDMvTbuEEe6lXMxGBjbpXg" xmi:type="uml:Class"/>
-    <packagedElement name="Mother" xmi:id="_FDMvTruEEe6lXMxGBjbpXg" xmi:type="uml:Class"/>
-    <packagedElement name="Child" xmi:id="_FDMvT7uEEe6lXMxGBjbpXg" xmi:type="uml:Class"/>
-    <packagedElement memberEnd="_FDMvUbuEEe6lXMxGBjbpXg _FDMvRLuEEe6lXMxGBjbpXg" name="Family" xmi:id="_FDMvULuEEe6lXMxGBjbpXg" xmi:type="uml:Association">
-      <ownedEnd association="_FDMvULuEEe6lXMxGBjbpXg" name="" owningAssociation="_FDMvULuEEe6lXMxGBjbpXg" type="_FDMvQ7uEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvUbuEEe6lXMxGBjbpXg" xmi:type="uml:Property">
-        <lowerValue value="1" xmi:id="_FDMvUruEEe6lXMxGBjbpXg" xmi:type="uml:LiteralInteger"/>
-        <upperValue value="1" xmi:id="_FDMvU7uEEe6lXMxGBjbpXg" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <packagedElement name="Father" xmi:id="_4ElwB8QkEe6JLNXTscXVnQ" xmi:type="uml:Class"/>
+    <packagedElement name="Mother" xmi:id="_4ElwCMQkEe6JLNXTscXVnQ" xmi:type="uml:Class"/>
+    <packagedElement name="Child" xmi:id="_4ElwCcQkEe6JLNXTscXVnQ" xmi:type="uml:Class"/>
+    <packagedElement memberEnd="_4ElwC8QkEe6JLNXTscXVnQ _4ElI9MQkEe6JLNXTscXVnQ" name="Family" xmi:id="_4ElwCsQkEe6JLNXTscXVnQ" xmi:type="uml:Association">
+      <ownedEnd association="_4ElwCsQkEe6JLNXTscXVnQ" name="" owningAssociation="_4ElwCsQkEe6JLNXTscXVnQ" type="_4ElI88QkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwC8QkEe6JLNXTscXVnQ" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_4ElwDMQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_4ElwDcQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement memberEnd="_FDMvVbuEEe6lXMxGBjbpXg _FDMvQbuEEe6lXMxGBjbpXg" name="Houses" xmi:id="_FDMvVLuEEe6lXMxGBjbpXg" xmi:type="uml:Association">
-      <ownedEnd association="_FDMvVLuEEe6lXMxGBjbpXg" name="" owningAssociation="_FDMvVLuEEe6lXMxGBjbpXg" type="_FDMvQLuEEe6lXMxGBjbpXg" visibility="private" xmi:id="_FDMvVbuEEe6lXMxGBjbpXg" xmi:type="uml:Property">
-        <lowerValue value="1" xmi:id="_FDMvVruEEe6lXMxGBjbpXg" xmi:type="uml:LiteralInteger"/>
-        <upperValue value="1" xmi:id="_FDMvV7uEEe6lXMxGBjbpXg" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <packagedElement memberEnd="_4ElwD8QkEe6JLNXTscXVnQ _4ElI8cQkEe6JLNXTscXVnQ" name="Houses" xmi:id="_4ElwDsQkEe6JLNXTscXVnQ" xmi:type="uml:Association">
+      <ownedEnd association="_4ElwDsQkEe6JLNXTscXVnQ" name="" owningAssociation="_4ElwDsQkEe6JLNXTscXVnQ" type="_4ElI8MQkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwD8QkEe6JLNXTscXVnQ" xmi:type="uml:Property">
+        <lowerValue value="1" xmi:id="_4ElwEMQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="_4ElwEcQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement name="PrimitiveTypes" xmi:id="_FDMvWLuEEe6lXMxGBjbpXg" xmi:type="uml:Package"/>
+    <packagedElement name="PrimitiveTypes" xmi:id="_4ElwEsQkEe6JLNXTscXVnQ" xmi:type="uml:Package"/>
   </uml:Model>
 </xmi:XMI>

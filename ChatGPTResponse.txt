@@ -1,0 +1,25 @@
+ChatGPT
+java
+Copy code
+public class City {
+    private java.util.List<House> ;
+}
+
+public class Houses {
+    private java.util.List<City> ;
+}
+
+public class Family {
+    private Father father;
+    private Mother mother;
+    private java.util.List<Child> children;
+}
+
+public class Father {
+}
+
+public class Mother {
+}
+
+public class Child {
+}

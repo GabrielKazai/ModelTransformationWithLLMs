@@ -1,10 +1,16 @@
 ﻿FileRead, myUrl, F:\Gabriel\github desktop\ModelTransformationWithLLMs\OutputFromGPTAHKURL.txt
+FileRead, response, F:\Gabriel\github desktop\ModelTransformationWithLLMs\comparison.txt
 
 Run, %myUrl%	
 
 sleep 5000
 
-Send, Please change any instances of arrays into lists, furthermore, start and end the response with the tag [[STARTEND]] as a java comment
+Clipboard := response
+
+Send, {shift down}{Enter}
+Send, {shift up}
+Send, {Ctrl down}{v down}
+Send, {Ctrl up}{v up}
 Send, {Enter}
 
 sleep 15000	

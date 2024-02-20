@@ -1,0 +1,3 @@
+Could you look over the following points in your generated code:
+	Please double check the names of the variables you've created
+	Please double check the capilization of the variables you've created

@@ -1,9 +1,8 @@
 import json
 
-
 def parseFromGPT():
     #read and parse gpt 
-    file = open('OutputFromGPTAHK.txt', 'r')
+    file = open('OutputFromGPTAHK.txt', 'r') #OutputFromGPTAHKSECONDITERATION
     fileListGPT = file.readlines()
     file.close()
     correctBit = False
@@ -56,12 +55,12 @@ def decideCollectionType(donelist):
     if "List" in donelist:
         typeCollection += donelist.split('<')[1].split('>')[0]
         typeCollection += "," + donelist
-        return typeCollection
+        return typeCollection, True
     elif "[]" in donelist:
         typeCollection += donelist.split('[')[0]
         typeCollection += "," + donelist
-        return typeCollection
-    return donelist
+        return typeCollection, True
+    return donelist, False
 
 def objectGPT(donelistGPT):
     classesGPT = []
@@ -108,19 +107,35 @@ def objectOracle(donelistOracle):
     classesOracle = []
     i = 0
     while i < len(donelistOracle):
+        breakwhile = False
         if donelistOracle[i] == 'class':
             nameindex = i+1
             variables = []
             while donelistOracle[i] != '{':
+                if donelistOracle[i] == '{}':
+                    breakwhile = True
+                    break 
                 i += 1
-            while donelistOracle[i+1] != '}':
+            while breakwhile == False and donelistOracle[i+1] != '}':
                 if donelistOracle[i+1] == 'private' or donelistOracle[i+1] == 'public':
                     st = ''
                     accessor = donelistOracle[i+1]
-                    resultOfCollectionType = decideCollectionType(donelistOracle[i+2])
+                    resultOfCollectionType, isCollection = decideCollectionType(donelistOracle[i+2])
                     type = donelistOracle[i+2]
                     name = donelistOracle[i+3].split(';')[0]
-                    i += 3
+                    
+                    if "()" in name:
+                        i += 3
+                        while donelistOracle[i] != '}':
+                            i += 1
+                    elif "(" in name:
+                        name += " " + donelistOracle[i+4]
+                        i += 4
+                        while donelistOracle[i] != '}':
+                            i += 1
+                    else:
+                        i += 3
+
                     try: 
                         if donelistOracle[i+1] == '=':
                             st1, j = setAssignment(donelistOracle, i, st)
@@ -134,9 +149,19 @@ def objectOracle(donelistOracle):
                     st = ''
                     accessor = ''
                     #type = donelistOracle[i+1]
-                    resultOfCollectionType = decideCollectionType(donelistOracle[i+1])
+                    resultOfCollectionType, isCollection = decideCollectionType(donelistOracle[i+1])
                     name = donelistOracle[i+2].split(';')[0]
-                    i += 2
+                    if "()" in name:
+                        i += 2
+                        while donelistOracle[i] != '}':
+                            i += 1
+                    elif "(" in name:
+                        name += " " + donelistOracle[i+3]
+                        i += 3
+                        while donelistOracle[i] != '}':
+                            i += 1
+                    else:
+                        i += 2
                     try: 
                         if donelistOracle[i+1] == '=':
                             st1, j = setAssignment(donelistOracle, i, st)
@@ -146,7 +171,6 @@ def objectOracle(donelistOracle):
                         pass
                     var = {'accessor': accessor, 'type': resultOfCollectionType, 'name': name, 'assignment': st}
                     variables.append(var)
-
             if donelistOracle[nameindex-2] == 'private' or donelistOracle[nameindex-2] == 'public' or donelistOracle[nameindex-2] == 'abstract':       
                 pushing = {'accessor': donelistOracle[nameindex-2], 'class': donelistOracle[nameindex], 'variables': variables}
             else:
@@ -159,6 +183,8 @@ def objectOracle(donelistOracle):
     return classesOracle
 
 def comparison(classesGPT, classesOracle):
+    founderrors = []
+    founderrors.append("Could you look over the following points in your generated code:") 
     for i in classesOracle:
         found = False
         for j in classesGPT:
@@ -166,31 +192,41 @@ def comparison(classesGPT, classesOracle):
                 found = True
                 if not i["accessor"] == j["accessor"]: #check if accessor is different within class 
                     print("accessor for class " + i["class"] + " are different")
+                    founderrors.append("\tPlease double check the accessors of the classes you've created")
                 if not i["variables"] == j["variables"]: #check if the variables within a class are different 
                     print("variables for class " + i["class"] + " are different, going deeper")
                     for k in i["variables"]: #go through the variables within the classes
                         for t in j["variables"]:
                             if k["type"] == t["type"]: #check if specific variable exists
+                                if not k["accessor"] == t["accessor"]: #accessor of variables
+                                    print("accessor for the variable " + k["name"] + " within class " + i["class"] + " are different, Oracle accessor: "+ k["accessor"] +  "ChatGPT: " + t["accessor"])
+                                    founderrors.append("\tPlease double check the accessors of the variables you've created")
                                 if not k["name"] == t["name"]: #the names are different
                                     if k["name"].upper() == t["name"].upper():
                                         print("the capitlization for the variable " + k["name"] + " is different, Oracle name: "+ k["name"] +  " ChatGPT: " + t["name"])
+                                        founderrors.append("\tPlease double check the capilization of the variables you've created")
                                     else:
                                         print("the names for the variable " + k["name"] + " is different, Oracle name: "+ k["name"] +  " ChatGPT: " + t["name"])
-                                if not k["accessor"] == t["accessor"]: #accessor of variables
-                                    print("accessor for the variable " + k["name"] + " within class " + k["class"] + " are different, Oracle accessor: "+ k["accessor"] +  "ChatGPT: " + t["accessor"])
+                                        founderrors.append("\tPlease double check the names of the variables you've created")
+                                break
                             elif k["type"].split(",")[0] == t["type"].split(",")[0]:
+                                if not k["accessor"] == t["accessor"]: #accessor of variables
+                                    print("accessor for the variable " + k["name"] + " within class " + i["class"] + " are different, Oracle accessor: "+ k["accessor"] +  "ChatGPT: " + t["accessor"])
+                                    founderrors.append("\tPlease double check the accessors of the variables you've created")
                                 if not k["name"] == t["name"]: #the names are different
                                     if k["name"].upper() == t["name"].upper():
                                         print("the capitlization for the variable " + k["name"] + " is different, Oracle name: "+ k["name"] +  " ChatGPT: " + t["name"])
+                                        founderrors.append("\tPlease double check the capilization of the variables you've created")
                                     else:
                                         print("the names for the variable " + k["name"] + " is different, Oracle name: "+ k["name"] +  " ChatGPT: " + t["name"])
-                                if not k["accessor"] == t["accessor"]: #accessor of variables
-                                    print("accessor for the variable " + k["name"] + " within class " + k["class"] + " are different, Oracle accessor: "+ k["accessor"] +  "ChatGPT: " + t["accessor"])
+                                        founderrors.append("\tPlease double check the names of the variables you've created")
                                 if not k["type"].split(",")[1] == t["type"].split(",")[1]:
-                                    print("The original collections were not the same, Oracle: " +  k["type"].split(",")[1] + "ChatGPT: " + t["type"].split(",")[1])
+                                    print("The original collections were not the same, Oracle: " +  k["type"].split(",")[1] + " ChatGPT: " + t["type"].split(",")[1])
+                                break
                  
         if not found:
             print("The class " + i["class"] + " does not exist within the generated solution")
+    return founderrors
 
 
 def main():
@@ -200,7 +236,15 @@ def main():
     classesOracle = objectOracle(donelistOracle)
     result = comparison(classesGPT, classesOracle)
 
-    print("done")
+    print("---")
+    result = list(dict.fromkeys(result))
+    print(result)
+
+    file = open('comparison.txt','w')
+    for row in result:
+	    file.write(row+"\n")
+        
+
 
 if __name__ == '__main__':
     main()

@@ -4,12 +4,9 @@ ChatGPT
 
 Explore GPTs
 Today
-Java Code From XMI
-
-
-Java Models for UML
-Java code creation.
 New chat
+
+
 New chat
 New chat
 Java Code UML Translation
@@ -36,6 +33,9 @@ Java Code from UML
 UML to Java Conversion
 Previous 30 Days
 Simple Python Calculator Program
+Java UML to Code
+UML to Java Code
+UML to Java Translation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -46,7 +46,7 @@ Close sidebar
 ChatGPT 4
 
 User
-The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
+The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, comments in the code, please generate the classes as if they were in separate files, include get/Set functions, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
   <uml:Model name="testUML" xmi:id="_4Ekh4cQkEe6JLNXTscXVnQ">
@@ -93,16 +93,56 @@ Copy code
 // [[STARTEND]]
 public class City {
     private List<Houses> houses;
+
+    public List<Houses> getHouses() {
+        return houses;
+    }
+
+    public void setHouses(List<Houses> houses) {
+        this.houses = houses;
+    }
 }
 
 public class Houses {
     private Family family;
+
+    public Family getFamily() {
+        return family;
+    }
+
+    public void setFamily(Family family) {
+        this.family = family;
+    }
 }
 
 public class Family {
     private Father father;
     private Mother mother;
     private List<Child> children;
+
+    public Father getFather() {
+        return father;
+    }
+
+    public void setFather(Father father) {
+        this.father = father;
+    }
+
+    public Mother getMother() {
+        return mother;
+    }
+
+    public void setMother(Mother mother) {
+        this.mother = mother;
+    }
+
+    public List<Child> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Child> children) {
+        this.children = children;
+    }
 }
 
 public class Father {
@@ -121,6 +161,10 @@ Message ChatGPT…
 
 
 ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
+ecking important information.
 
 ?
 ChatGPT

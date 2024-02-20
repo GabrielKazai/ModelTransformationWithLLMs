@@ -4,10 +4,9 @@ ChatGPT
 
 Explore GPTs
 Today
-Java Code From XMI
-
-
 Java Models for UML
+
+
 Java code creation.
 New chat
 New chat
@@ -36,6 +35,7 @@ Java Code from UML
 UML to Java Conversion
 Previous 30 Days
 Simple Python Calculator Program
+Java UML to Code
 Add Team workspace
 Collaborate on a Team plan
 
@@ -87,7 +87,11 @@ The following is an XMI file based on a UML diagram, please write corresponding 
     <packagedElement name="PrimitiveTypes" xmi:id="_4ElwEsQkEe6JLNXTscXVnQ" xmi:type="uml:Package"/>
   </uml:Model>
 </xmi:XMI>
+Which response do you prefer?
+Your choice will help make ChatGPT better.
+
 ChatGPT
+Response 1
 java
 Copy code
 // [[STARTEND]]
@@ -115,8 +119,34 @@ public class Child {
 }
 // [[STARTEND]]
 
+ChatGPT
+Response 2
+java
+Copy code
+// [[STARTEND]]
+class City {
+    private List<Houses> houses;
+}
 
+class Houses {
+    private Family family;
+}
 
+class Family {
+    private Father father;
+    private Mother mother;
+    private List<Child> children;
+}
+
+class Father {
+}
+
+class Mother {
+}
+
+class Child {
+}
+// [[STARTEND]]
 Message ChatGPT…
 
 

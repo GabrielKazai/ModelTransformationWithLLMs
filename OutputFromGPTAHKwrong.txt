@@ -4,11 +4,9 @@ ChatGPT
 
 Explore GPTs
 Today
-Java Code From XMI
-
-
-Java Models for UML
 Java code creation.
+
+
 New chat
 New chat
 New chat
@@ -36,6 +34,8 @@ Java Code from UML
 UML to Java Conversion
 Previous 30 Days
 Simple Python Calculator Program
+Java UML to Code
+UML to Java Code
 Add Team workspace
 Collaborate on a Team plan
 
@@ -105,14 +105,11 @@ public class Family {
     private List<Child> children;
 }
 
-public class Father {
-}
+public class Father {}
 
-public class Mother {
-}
+public class Mother {}
 
-public class Child {
-}
+public class Child {}
 // [[STARTEND]]
 
 

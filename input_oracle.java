@@ -1,17 +1,20 @@
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
-
-@objid ("f2f43d7c-e347-4bd7-bbc0-9f797f9b28d8")
-public class Child {
-}
-
 import java.util.ArrayList;
 import java.util.List;
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
-
-@objid ("6f74eda8-da4f-4164-8c1c-dec4fe92647f") 
+@objid ("6f74eda8-da4f-4164-8c1c-dec4fe92647f")
 public class City {
     @objid ("06e7e067-696c-45e0-922d-dfb5e99e7559")
-    private List<Houses> broken = new ArrayList<Houses> ();
+    private List<Houses> unspecified = new ArrayList<Houses> ();
+
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("ce46c156-7d2d-4f7e-81c0-4e8072baf0c4")
+public class Houses {
+    @objid ("2c2bc856-02cc-4926-8db6-0e1d0054a19d")
+    private Family family;
 
 }
 
@@ -38,16 +41,15 @@ public class Father {
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
-@objid ("ce46c156-7d2d-4f7e-81c0-4e8072baf0c4")
-public class Houses {
-    @objid ("2c2bc856-02cc-4926-8db6-0e1d0054a19d")
-    private Family family;
-
-}
-
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
-
 @objid ("01676551-b8fe-4c1d-9679-5958b3f084e4")
 public class Mother {
 }
 
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("f2f43d7c-e347-4bd7-bbc0-9f797f9b28d8")
+public class Child {
+}
+
+import java.util.ArrayList;
+import java.util.ArrayList;

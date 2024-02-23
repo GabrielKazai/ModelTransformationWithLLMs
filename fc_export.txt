@@ -1,0 +1,33 @@
+Comparing files cleanOracle.java and CLEANGPT.JAVA
+***** cleanOracle.java
+import java.util.ArrayList;
+import java.util.List;
+
+public class City {    private List<Houses> = new ArrayList<Houses> ();}
+
+***** CLEANGPT.JAVA
+public class City {
+    private List<Houses> houses;
+}
+
+*****
+
+***** cleanOracle.java
+public class Family {
+    private Father Father;
+    private Mother Mother;
+    private Child[] Children;
+}
+***** CLEANGPT.JAVA
+public class Family {
+    private Father father;
+    private Mother mother;
+    private List<Child> children;
+}
+*****
+
+***** cleanOracle.java
+***** CLEANGPT.JAVA
+
+*****
+

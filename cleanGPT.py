@@ -10,7 +10,7 @@ c = 0
 for line in fileListGPT:
     if correctBit == True and c < 3:
         if '[[STARTEND]]' not in line:
-            saveJavaGPT.append(line.strip())
+            saveJavaGPT.append(line.rstrip())
 
     if '[[STARTEND]]' in line:
         c += 1

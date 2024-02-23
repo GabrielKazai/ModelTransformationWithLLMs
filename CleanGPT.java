@@ -18,9 +18,6 @@ public class Father {
 public class Mother {
 }
 
-
-
-
-
 public class Child {
 }
+

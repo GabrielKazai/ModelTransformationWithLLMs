@@ -1,5 +1,5 @@
 f = open("input_oracle.java", "r")
-final = open("Oracle.java", "w")
+final = open("cleanOracle.java", "w")
 towrite = []
 duplicates = []
 

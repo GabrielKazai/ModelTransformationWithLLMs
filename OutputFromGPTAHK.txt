@@ -4,9 +4,11 @@ ChatGPT
 
 Explore GPTs
 Today
+Java UML Conversion
+
+
+Previous 7 Days
 UML to Java Translation
-
-
 Java UML Model Creation
 Java Models from UML
 UML Java Model
@@ -15,9 +17,7 @@ UML to Java
 Java Code Style Improvements
 Coding Styles Comparison
 Modern Java Class Comparison
-Yesterday
 Refactor Java class names
-Previous 7 Days
 Java UML Classes
 Java Models for UML
 Java code creation.
@@ -34,9 +34,8 @@ UML Classes Java Code
 New chat
 UML to Java Code
 Java code for UML.
-Java Code from UML
 Previous 30 Days
-Java UML Mapping
+Java Code from UML
 Add Team workspace
 Collaborate on a Team plan
 
@@ -106,12 +105,19 @@ public class Family {
     private List<Child> children;
 }
 
-public class Father {}
+public class Father {
+}
 
-public class Mother {}
+public class Mother {
+}
 
-public class Child {}
+public class Child {
+}
 // [[STARTEND]]
+
+
+
+Is this conversation helpful so far?
 
 
 

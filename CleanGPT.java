@@ -20,4 +20,3 @@ public class Mother {
 
 public class Child {
 }
-

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class City {
-    private List<Houses> unspecified = new ArrayList<Houses>();
+    private List<Houses> unspecifiedName = new ArrayList<Houses>();
 }
 
 public class Houses {

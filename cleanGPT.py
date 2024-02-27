@@ -21,7 +21,7 @@ for line in fileListGPT:
 #print(saveJavaGPT)
 donelistGPT = []
 
-writeto = open('CleanGPT.java', "w")
+writeto = open('cleanGPT.java', "w")
 
 for j in saveJavaGPT:
         writeto.write(j)

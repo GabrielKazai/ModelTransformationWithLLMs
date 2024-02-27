@@ -18,4 +18,4 @@ formatJava.ahk
 
 timeout /t 2
 
-fc cleanOracle.java cleanGPT.java > fc_export.txt
+"F:\Gabriel\Beyond Compare 4\BCompare.exe" "@F:\Gabriel\github desktop\ModelTransformationWithLLMs\bCompareScript.txt"

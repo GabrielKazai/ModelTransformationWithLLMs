@@ -1,0 +1,2 @@
+[2024-03-05 15:47:39]: Error : The element named "Boolean" of type ElementImport have not been imported because its parent named "Boolean" does not exist.
+[2024-03-05 15:47:39]: Error : The element named "String" of type ElementImport have not been imported because its parent named "String" does not exist.

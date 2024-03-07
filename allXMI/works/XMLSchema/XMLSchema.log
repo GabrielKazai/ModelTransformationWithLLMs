@@ -1,0 +1,2 @@
+[2024-03-07 19:39:05]: Error : The link " " of type "Generalization" cannot be linked between the element "HasChild" of type "AssociationImpl" and the element "HasChild" of type "AssociationImpl".
+[2024-03-07 19:39:05]: Error : The link " " of type "Generalization" cannot be linked between the element "HasText" of type "AssociationImpl" and the element "HasText" of type "AssociationImpl".

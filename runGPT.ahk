@@ -13,7 +13,7 @@ Send, {Ctrl down}{v down}
 Send, {Ctrl up}{v up}
 Send, {Enter}
 
-sleep 15000	
+sleep 30000	
 
 Send, {TAB}
 Send, {Ctrl down}{a down}

@@ -1,9 +1,9 @@
 Table Compare
-Produced: 2024-02-27 15:43:41
+Produced: 2024-03-11 12:46:28
 
 Mode:  Differences
 Left file: F:\Gabriel\github desktop\ModelTransformationWithLLMs\cleanOracle.java
-Right file: F:\Gabriel\github desktop\ModelTransformationWithLLMs\cleanGPT.java
+Right file: F:\Gabriel\github desktop\ModelTransformationWithLLMs\CleanGPT.java
 1:                                                             2:    1:                           2:
 ----------------------------------------------------------------------------------------------------
                                                                   +-

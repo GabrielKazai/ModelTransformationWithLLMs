@@ -1,5 +1,7 @@
-f = open("input_oracle.java", "r")
-final = open("cleanOracle.java", "w")
+import sys
+
+f = open(sys.argv[1], "r")
+final = open(sys.argv[2], "w")
 towrite = []
 duplicates = []
 

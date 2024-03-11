@@ -4,38 +4,33 @@ ChatGPT
 
 Explore GPTs
 Today
-UML Java Code Translation
-
-
-Java XMI UML Translation
-Yesterday
-UML Java Code Generation
-Java Classes From UML
-Previous 7 Days
-UML Java Conversion
-Training Mix: Zero, Few, Fine
-Java Code Generation
-XMI Analysis: Complex UML Model
-XMI Modeling Assistance
-UML Model Analysis
-UML Model Exported XMI
-Previous 30 Days
-Java Model: UML City, House
-Java Model Creation
-Java Code for UML.
-Java Models Based UML
-Java Code Generation
-Java Classes From XMI
+Java UML Class Code
+UML to Java Code
 Java Classes from XMI
-Generate Java code.
-UML to Java Translation
-New chat
-Modelo de Clases Java
-Java Model Response
-Java Classes From XMI
-Java Classes from UML
-Java Code Generation
+UML Java Conversion
+UML Java Code Creation
 UML Models to Java
+UML to Java
+Java UML Mapping
+Java UML Class.
+Java UML Conversion
+UML Java Code
+Java Class Creation
+UML Models to Java
+UML Java classes
+Java Code from UML
+Java Classes for UML
+Java Classes for UML
+UML Java conversion
+Java Classes from UML
+UML Java Code Creation
+Java UML Model Response
+Java Classes from XMI
+Java Classes for UML
+UML Java Code
+Java Class Creation
+Generate Java from XMI
+Java Models from UML.
 UML Java Code Creation
 Add Team workspace
 Collaborate on a Team plan
@@ -45,9 +40,27 @@ ThesisMDUGPT
 
 Close sidebar
 ChatGPT 4
+ChatGPT
+How can I help you today?
 
-User
-The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, please generate the classes as if they were in separate files, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
+Give me ideas
+for what to do with my kids' art
+
+Write a spreadsheet formula
+to convert a date to the weekday
+
+Plan an itinerary
+for a fashion-focused exploration of Paris
+
+Brainstorm content ideas
+for my new podcast on urban design
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+mment:
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
   <uml:Model name="testUML" xmi:id="_4Ekh4cQkEe6JLNXTscXVnQ">
@@ -119,6 +132,10 @@ public class Child {
 
 
 
+Is this conversation helpful so far?
+
+
+
 Message ChatGPT…
 
 
@@ -126,16 +143,9 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
-> children;
-
-    public Father getFather() {
-        return father;
-    }
-
-    public void se
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
+ormation.
 
 ?
+ChatGPT
+
+ChatGPT

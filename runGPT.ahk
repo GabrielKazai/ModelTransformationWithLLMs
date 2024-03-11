@@ -1,4 +1,8 @@
-﻿FileRead, myFile, F:\Gabriel\github desktop\ModelTransformationWithLLMs\input_xmi.xmi
+﻿filepath := A_Args[1]
+filepathOutput := A_Args[2]
+filepathOutputURL := A_Args[3]
+
+FileRead, myFile, %filepath%
 
 Run, https://chat.openai.com/
 
@@ -23,7 +27,7 @@ Send, {Ctrl up}{c up}
 
 myBoard := Clipboard
 
-FileObj := FileOpen("F:\Gabriel\github desktop\ModelTransformationWithLLMs\OutputFromGPTAHK.txt", "rw", "UTF-8")
+FileObj := FileOpen(filepathOutput, "rw", "UTF-8")
 FileObj.Write(Clipboard)
 
 Send, {Ctrl down}{l down}
@@ -31,7 +35,7 @@ Send, {Ctrl up}{l up}
 Send, {Ctrl down}{c down}
 Send, {Ctrl up}{c up}
 
-FileObjUrl := FileOpen("F:\Gabriel\github desktop\ModelTransformationWithLLMs\OutputFromGPTAHKURL.txt", "rw", "UTF-8")
+FileObjUrl := FileOpen(filepathOutputURL, "rw", "UTF-8")
 FileObjUrl.Write(Clipboard)
 
 Send, {alt down}{F4 down}

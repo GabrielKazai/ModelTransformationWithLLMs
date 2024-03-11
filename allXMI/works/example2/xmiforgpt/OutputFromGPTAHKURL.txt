@@ -1,0 +1,15 @@
+﻿The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set o
+set path=%1
+
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1
+
+runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\OutputFromGPTAHKURL.txt
+
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanOracle.py" %1\oracle\combinedOracle\combined_oracle_not_cleaned.java %1\oracle\combinedOracle\cleanOracle.java
+
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPT.py" %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\cleanGPT.java 
+
+formatJava.ahk %1\oracl	e\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java 
+
+goto :eof
+:End

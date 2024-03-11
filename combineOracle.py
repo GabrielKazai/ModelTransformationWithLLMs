@@ -1,26 +1,36 @@
 import os
+import sys
+from pathlib import Path
 cwd = os.getcwd()
 print(cwd)
 data = ""
 content = []
 
 xmilist = []
-xmifile = open("input_xmi.xmi", "r")
+xmifile = open(sys.argv[1] + "/xmiforgpt/Model.xmi", "r")
 
 for line in xmifile:
     if "<packagedElement" in line and 'xmi:type="uml:Class"' in line:
         xmilist.append(line)
 
-print(xmilist)
+#print(xmilist)
 
 namesofXMI = []
 for i in xmilist:
     x = i.find("name=")
     namesofXMI.append(i[x+6:].split('"')[0])
 
-print(namesofXMI)
+#print(namesofXMI)
 
-files = [f for f in os.listdir(cwd) if os.path.isfile(f)]
+pathForOracle = sys.argv[1] + "/oracle/"
+pathForOracleSave = sys.argv[1] + "/oracle/combinedOracle"
+
+pathForOracle = Path(pathForOracle)
+
+print("PATH FOR ORACLE")
+print(pathForOracle)
+
+files = [f for f in os.listdir(pathForOracle) if os.path.isfile(f)]
 for i in namesofXMI:
     for f in files:
         if f == i + ".java":
@@ -32,6 +42,10 @@ for i in namesofXMI:
 for i in content:
     data += i
 
-file = open('input_oracle.java', 'w')
+p = pathForOracleSave + '/combined_oracle_not_cleaned.java'
+
+print("THIS ONE")
+print(p)
+file = open(p, 'w')
 file.write(data)
 file.close()

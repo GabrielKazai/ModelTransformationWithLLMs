@@ -1,6 +1,6 @@
-
+import sys
 #read and parse gpt 
-file = open('OutputFromGPTAHK.txt', 'r') #OutputFromGPTAHKSECONDITERATION
+file = open(sys.argv[1], 'r') #OutputFromGPTAHKSECONDITERATION
 fileListGPT = file.readlines()
 file.close()
 correctBit = False
@@ -21,7 +21,7 @@ for line in fileListGPT:
 #print(saveJavaGPT)
 donelistGPT = []
 
-writeto = open('cleanGPT.java', "w")
+writeto = open(sys.argv[2], "w")
 
 for j in saveJavaGPT:
         writeto.write(j)

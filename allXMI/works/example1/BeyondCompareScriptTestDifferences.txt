@@ -1,9 +1,9 @@
 Text Compare
-Produced: 2024-03-11 12:46:28
+Produced: 2024-03-11 15:48:38
 
 Mode:  Differences
-Left file: F:\Gabriel\github desktop\ModelTransformationWithLLMs\cleanOracle.java
-Right file: F:\Gabriel\github desktop\ModelTransformationWithLLMs\CleanGPT.java
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\xmiforgpt\cleanGPT.java
 import java.util.ArrayList;                                         +-
 import java.util.List;
 

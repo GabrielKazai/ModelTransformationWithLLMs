@@ -4,9 +4,21 @@ ChatGPT
 
 Explore GPTs
 Today
+UML Java conversion
+
+
+Java Classes from UML
+UML Java Code Creation
+Java UML Model Response
+Java Classes from XMI
+Java Classes for UML
+UML Java Code
+Java Class Creation
+Generate Java from XMI
+Java Models from UML.
+UML Java Code Creation
+Model to Java.
 UML Java Code Translation
-
-
 Java XMI UML Translation
 Yesterday
 UML Java Code Generation
@@ -25,18 +37,6 @@ Java Model Creation
 Java Code for UML.
 Java Models Based UML
 Java Code Generation
-Java Classes From XMI
-Java Classes from XMI
-Generate Java code.
-UML to Java Translation
-New chat
-Modelo de Clases Java
-Java Model Response
-Java Classes From XMI
-Java Classes from UML
-Java Code Generation
-UML Models to Java
-UML Java Code Creation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -94,16 +94,56 @@ Copy code
 // [[STARTEND]]
 public class City {
     private List<Houses> houses;
+
+    public List<Houses> getHouses() {
+        return houses;
+    }
+
+    public void setHouses(List<Houses> houses) {
+        this.houses = houses;
+    }
 }
 
 public class Houses {
     private Family family;
+
+    public Family getFamily() {
+        return family;
+    }
+
+    public void setFamily(Family family) {
+        this.family = family;
+    }
 }
 
 public class Family {
     private Father father;
     private Mother mother;
     private List<Child> children;
+
+    public Father getFather() {
+        return father;
+    }
+
+    public void setFather(Father father) {
+        this.father = father;
+    }
+
+    public Mother getMother() {
+        return mother;
+    }
+
+    public void setMother(Mother mother) {
+        this.mother = mother;
+    }
+
+    public List<Child> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Child> children) {
+        this.children = children;
+    }
 }
 
 public class Father {
@@ -126,16 +166,3 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
-> children;
-
-    public Father getFather() {
-        return father;
-    }
-
-    public void se
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
-
-?

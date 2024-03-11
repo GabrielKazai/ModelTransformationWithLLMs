@@ -4,9 +4,20 @@ ChatGPT
 
 Explore GPTs
 Today
+Java Classes from UML
+
+
+UML Java Code Creation
+Java UML Model Response
+Java Classes from XMI
+Java Classes for UML
+UML Java Code
+Java Class Creation
+Generate Java from XMI
+Java Models from UML.
+UML Java Code Creation
+Model to Java.
 UML Java Code Translation
-
-
 Java XMI UML Translation
 Yesterday
 UML Java Code Generation
@@ -26,17 +37,6 @@ Java Code for UML.
 Java Models Based UML
 Java Code Generation
 Java Classes From XMI
-Java Classes from XMI
-Generate Java code.
-UML to Java Translation
-New chat
-Modelo de Clases Java
-Java Model Response
-Java Classes From XMI
-Java Classes from UML
-Java Code Generation
-UML Models to Java
-UML Java Code Creation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -119,6 +119,7 @@ public class Child {
 
 
 
+
 Message ChatGPT…
 
 
@@ -126,16 +127,3 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
-> children;
-
-    public Father getFather() {
-        return father;
-    }
-
-    public void se
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
-
-?

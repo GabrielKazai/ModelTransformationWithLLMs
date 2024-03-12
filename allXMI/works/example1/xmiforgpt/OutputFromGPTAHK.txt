@@ -4,6 +4,25 @@ ChatGPT
 
 Explore GPTs
 Today
+Java Class Generation
+
+
+UML Models to Java
+Java UML Conversion
+Java Classes from XMI
+Java Code for UML
+UML to Java
+Java Class UML Conversion
+Java Code from UML.
+Java Class Generation
+UML to Java Translation
+Java Classes from XMI
+Java UML Model Conversion
+Java Code from UML.
+UML Classes Java Code
+Help with summarizing.
+User Testing Request
+Java UML to Code
 Good, thanks. And you?
 UML to Java Conversion
 Java Class Generation
@@ -16,23 +35,6 @@ UML Java Code Creation
 UML Models to Java
 UML to Java
 Java UML Mapping
-Java UML Class.
-Java UML Conversion
-UML Java Code
-Java Class Creation
-UML Models to Java
-UML Java classes
-Java Code from UML
-Java Classes for UML
-Java Classes for UML
-UML Java conversion
-Java Classes from UML
-UML Java Code Creation
-Java UML Model Response
-Java Classes from XMI
-Java Classes for UML
-UML Java Code
-Java Class Creation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -41,6 +43,7 @@ ThesisMDUGPT
 
 Close sidebar
 ChatGPT 4
+
 User
 The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, please generate the classes as if they were in separate files, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
 <?xml version="1.0" encoding="UTF-8"?>
@@ -84,47 +87,70 @@ The following is an XMI file based on a UML diagram, please write corresponding 
   </uml:Model>
 </xmi:XMI>
 ChatGPT
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
-
-?
-d association="_4ElwDsQkEe6JLNXTscXVnQ" name="" owningAssociation="_4ElwDsQkEe6JLNXTscXVnQ" type="_4ElI8MQkEe6JLNXTscXVnQ" visibility="private" xmi:id="_4ElwD8QkEe6JLNXTscXVnQ" xmi:type="uml:Property">
-        <lowerValue value="1" xmi:id="_4ElwEMQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralInteger"/>
-        <upperValue value="1" xmi:id="_4ElwEcQkEe6JLNXTscXVnQ" xmi:type="uml:LiteralUnlimitedNatural"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement name="PrimitiveTypes" xmi:id="_4ElwEsQkEe6JLNXTscXVnQ" xmi:type="uml:Package"/>
-  </uml:Model>
-</xmi:XMI>
-ChatGPT
 java
 Copy code
 // [[STARTEND]]
 public class City {
     private List<Houses> houses;
+
+    public List<Houses> getHouses() {
+        return houses;
+    }
+
+    public void setHouses(List<Houses> houses) {
+        this.houses = houses;
+    }
 }
 
 public class Houses {
     private Family family;
+
+    public Family getFamily() {
+        return family;
+    }
+
+    public void setFamily(Family family) {
+        this.family = family;
+    }
 }
 
 public class Family {
     private Father father;
     private Mother mother;
     private List<Child> children;
+
+    public Father getFather() {
+        return father;
+    }
+
+    public void setFather(Father father) {
+        this.father = father;
+    }
+
+    public Mother getMother() {
+        return mother;
+    }
+
+    public void setMother(Mother mother) {
+        this.mother = mother;
+    }
+
+    public List<Child> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Child> children) {
+        this.children = children;
+    }
 }
 
-public class Father {
-}
+public class Father {}
 
-public class Mother {
-}
+public class Mother {}
 
-public class Child {
-}
+public class Child {}
 // [[STARTEND]]
+
 
 
 
@@ -136,18 +162,6 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
-lass Father {
-}
-
-public class Mother {
-}
-
-public class Child {
-}
-// [[STARTEND]]
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
+ make mistakes. Consider checking important information.
 
 ?

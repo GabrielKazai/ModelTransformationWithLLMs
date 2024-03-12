@@ -1,5 +1,4 @@
-﻿
-F:\Gabriel\github_desktop\ModelTransformationWithLLMs>set scriptpath=F:\Gabriel\github_desktop\ModelTransformationWithLLMs\
+﻿https://chat.openai.com/c/7dd112be-9a6c-4c72-8fd8-7fe9dc15db84riptpath=F:\Gabriel\github_desktop\ModelTransformationWithLLMs\
 
 F:\Gabriel\github_desktop\ModelTransformationWithLLMs>for / %i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\*") do call :Foo %i
 

@@ -4,39 +4,37 @@ ChatGPT
 
 Explore GPTs
 Today
-Java Classes from UML
+Java Class Structure
 
 
-UML Java Code Creation
-Java UML Model Response
-Java Classes from XMI
-Java Classes for UML
-UML Java Code
-Java Class Creation
-Generate Java from XMI
-Java Models from UML.
-UML Java Code Creation
-Model to Java.
-UML Java Code Translation
-Java XMI UML Translation
-Yesterday
+Java UML Classes Model
+UML to Java
+Java UML Models
+UML Models Java Code
+Java UML to Code
 UML Java Code Generation
-Java Classes From UML
-Previous 7 Days
-UML Java Conversion
-Training Mix: Zero, Few, Fine
-Java Code Generation
-XMI Analysis: Complex UML Model
-XMI Modeling Assistance
-UML Model Analysis
-UML Model Exported XMI
-Previous 30 Days
-Java Model: UML City, House
-Java Model Creation
-Java Code for UML.
-Java Models Based UML
-Java Code Generation
-Java Classes From XMI
+Java Class Generation
+UML Models to Java
+Java UML Conversion
+Java Classes from XMI
+Java Code for UML
+UML to Java
+Java Class UML Conversion
+Java Code from UML.
+Java Class Generation
+UML to Java Translation
+Java Classes from XMI
+Java UML Model Conversion
+Java Code from UML.
+UML Classes Java Code
+Help with summarizing.
+User Testing Request
+Java UML to Code
+Good, thanks. And you?
+UML to Java Conversion
+Java Class Generation
+Yesterday
+Java UML Class Code
 Add Team workspace
 Collaborate on a Team plan
 
@@ -122,6 +120,11 @@ public class Child {
 
 Message ChatGPT…
 
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
 
 ChatGPT can make mistakes. Consider checking important information.
 

@@ -5,6 +5,25 @@ ChatGPT
 Explore GPTs
 Today
 Java Class Generation
+UML Models to Java
+Java UML Conversion
+Java Classes from XMI
+Java Code for UML
+UML to Java
+Java Class UML Conversion
+Java Code from UML.
+Java Class Generation
+UML to Java Translation
+Java Classes from XMI
+Java UML Model Conversion
+Java Code from UML.
+UML Classes Java Code
+Help with summarizing.
+User Testing Request
+Java UML to Code
+Good, thanks. And you?
+UML to Java Conversion
+Java Class Generation
 Yesterday
 Java UML Class Code
 UML to Java Code
@@ -14,25 +33,6 @@ UML Java Code Creation
 UML Models to Java
 UML to Java
 Java UML Mapping
-Java UML Class.
-Java UML Conversion
-UML Java Code
-Java Class Creation
-UML Models to Java
-UML Java classes
-Java Code from UML
-Java Classes for UML
-Java Classes for UML
-UML Java conversion
-Java Classes from UML
-UML Java Code Creation
-Java UML Model Response
-Java Classes from XMI
-Java Classes for UML
-UML Java Code
-Java Class Creation
-Generate Java from XMI
-Java Models from UML.
 Add Team workspace
 Collaborate on a Team plan
 
@@ -90,7 +90,7 @@ Message ChatGPT…
 ChatGPT can make mistakes. Consider checking important information.
 
 ?
-vate List<Houses> houses;
+;
 }
 
 public class Houses {

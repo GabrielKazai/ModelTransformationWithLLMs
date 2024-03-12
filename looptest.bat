@@ -2,11 +2,32 @@ cls
 
 set scriptpath=%~dp0
 
-for /d %%i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\*") do call :Foo %%i
+for /d %%i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\*") do call :FIND %%i
 goto End
+
+:FIND
+set "url=%1"
+
+for %%a in ("%url%") do (
+   set "urlPath=!url:%%~NXa=!"
+   set "urlName=%%~NXa"
+)
+echo URL path: "%urlPath%"
+echo URL name: "%urlName%"
+
+find /c "%urlName%" previousExecutions.txt >NUL
+    if %errorlevel% equ 0 (
+        echo found 
+		goto :End
+		) else (
+        echo %urlName% is not within previousExecutions
+		goto :Foo
+		)
+
 
 :Foo
 set path=%1
+echo Executing %path%
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1
 
@@ -33,6 +54,10 @@ formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.j
 "F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%1\bScripts.txt"
 
 @echo Comparison done
+
+setlocal EnableDelayedExpansion
+
+echo %urlName% >> %scriptpath%\previousExecutions.txt
 
 goto :eof
 :End

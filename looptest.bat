@@ -18,15 +18,11 @@ runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanOracle.py" %1\oracle\combinedOracle\combined_oracle_not_cleaned.java %1\oracle\combinedOracle\cleanOracle.java
 
-@echo Clean Oracle
+@echo Clean Oracle done
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPT.py" %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\cleanGPT.java 
 
-@echo Clean GPT
-
-@echo %1\xmiforgpt\cleanGPT.java 
-
-@echo %1\oracle\combinedOracle\cleanOracle.java
+@echo Clean GPT done
 
 formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java 
 

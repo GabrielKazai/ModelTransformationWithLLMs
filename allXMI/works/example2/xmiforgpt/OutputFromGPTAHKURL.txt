@@ -1,4 +1,4 @@
-﻿The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set o
+﻿https://chat.openai.com/file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set o
 set path=%1
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1

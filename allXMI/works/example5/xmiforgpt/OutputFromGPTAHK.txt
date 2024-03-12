@@ -4,39 +4,37 @@ ChatGPT
 
 Explore GPTs
 Today
-UML Java conversion
+New chat
 
 
-Java Classes from UML
-UML Java Code Creation
-Java UML Model Response
+Java UML Model Conversion
+Java Code from UML.
+UML Classes Java Code
+Help with summarizing.
+User Testing Request
+Java UML to Code
+Good, thanks. And you?
+UML to Java Conversion
+Java Class Generation
+Yesterday
+Java UML Class Code
+UML to Java Code
 Java Classes from XMI
-Java Classes for UML
+UML Java Conversion
+UML Java Code Creation
+UML Models to Java
+UML to Java
+Java UML Mapping
+Java UML Class.
+Java UML Conversion
 UML Java Code
 Java Class Creation
-Generate Java from XMI
-Java Models from UML.
-UML Java Code Creation
-Model to Java.
-UML Java Code Translation
-Java XMI UML Translation
-Yesterday
-UML Java Code Generation
-Java Classes From UML
-Previous 7 Days
-UML Java Conversion
-Training Mix: Zero, Few, Fine
-Java Code Generation
-XMI Analysis: Complex UML Model
-XMI Modeling Assistance
-UML Model Analysis
-UML Model Exported XMI
-Previous 30 Days
-Java Model: UML City, House
-Java Model Creation
-Java Code for UML.
-Java Models Based UML
-Java Code Generation
+UML Models to Java
+UML Java classes
+Java Code from UML
+Java Classes for UML
+Java Classes for UML
+UML Java conversion
 Add Team workspace
 Collaborate on a Team plan
 
@@ -94,56 +92,16 @@ Copy code
 // [[STARTEND]]
 public class City {
     private List<Houses> houses;
-
-    public List<Houses> getHouses() {
-        return houses;
-    }
-
-    public void setHouses(List<Houses> houses) {
-        this.houses = houses;
-    }
 }
 
 public class Houses {
     private Family family;
-
-    public Family getFamily() {
-        return family;
-    }
-
-    public void setFamily(Family family) {
-        this.family = family;
-    }
 }
 
 public class Family {
     private Father father;
     private Mother mother;
     private List<Child> children;
-
-    public Father getFather() {
-        return father;
-    }
-
-    public void setFather(Father father) {
-        this.father = father;
-    }
-
-    public Mother getMother() {
-        return mother;
-    }
-
-    public void setMother(Mother mother) {
-        this.mother = mother;
-    }
-
-    public List<Child> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<Child> children) {
-        this.children = children;
-    }
 }
 
 public class Father {
@@ -155,14 +113,13 @@ public class Mother {
 public class Child {
 }
 // [[STARTEND]]
-
-
-
-
 Message ChatGPT…
 
 
 ChatGPT can make mistakes. Consider checking important information.
+
+?
+t information.
 
 ?
 ChatGPT

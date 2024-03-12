@@ -1,37 +1,10 @@
 Text Compare
-Produced: 2024-03-11 15:48:38
+Produced: 2024-03-12 11:39:56
 
 Mode:  All
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\cleanOracle.java
 Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\xmiforgpt\cleanGPT.java
-import java.util.ArrayList;                                         +-
+import java.util.ArrayList;                                                                                                                                                                                                                                                                                     <>
 import java.util.List;
-
---------------------------------------------------------------------------------------------------------
-public class City {                                                 =  public class City {
---------------------------------------------------------------------------------------------------------
-    private List<Houses> unspecifiedName = new ArrayList<Houses>(); <>     private List<Houses> houses;
---------------------------------------------------------------------------------------------------------
-}                                                                   =  }
-
-public class Houses {                                                  public class Houses {
-    private Family family;                                                 private Family family;
-}                                                                      }
-
-public class Family {                                                  public class Family {
---------------------------------------------------------------------------------------------------------
-    private Father Father;                                          <>     private Father father;
-    private Mother Mother;                                                 private Mother mother;
-    private Child[] Children;                                              private List<Child> children;
---------------------------------------------------------------------------------------------------------
-}                                                                   =  }
-
-public class Father {                                                  public class Father {
-}                                                                      }
-
-public class Mother {                                                  public class Mother {
-}                                                                      }
-
-public class Child {                                                   public class Child {
-}                                                                      }
---------------------------------------------------------------------------------------------------------
+public class City {    private List<Houses> unspecifiedName = new ArrayList<Houses>();}public class Houses {    private Family family;}public class Family {    private Father Father;    private Mother Mother;    private Child[] Children;}public class Father {}public class Mother {}public class Child {}    public class City {    private List<Houses> houses;}public class Houses {    private Family family;}public class Family {    private Father father;    private Mother mother;    private List<Child> children;}public class Father {}public class Mother {}public class Child {}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

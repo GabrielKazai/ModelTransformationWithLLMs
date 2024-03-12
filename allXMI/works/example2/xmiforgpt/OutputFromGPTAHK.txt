@@ -4,6 +4,8 @@ ChatGPT
 
 Explore GPTs
 Today
+Java Class Generation
+Yesterday
 Java UML Class Code
 UML to Java Code
 Java Classes from XMI
@@ -31,7 +33,6 @@ UML Java Code
 Java Class Creation
 Generate Java from XMI
 Java Models from UML.
-UML Java Code Creation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -40,27 +41,8 @@ ThesisMDUGPT
 
 Close sidebar
 ChatGPT 4
-ChatGPT
-How can I help you today?
-
-Give me ideas
-for what to do with my kids' art
-
-Write a spreadsheet formula
-to convert a date to the weekday
-
-Plan an itinerary
-for a fashion-focused exploration of Paris
-
-Brainstorm content ideas
-for my new podcast on urban design
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
-
-?
-mment:
+User
+The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, please generate the classes as if they were in separate files, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
   <uml:Model name="testUML" xmi:id="_4Ekh4cQkEe6JLNXTscXVnQ">
@@ -102,11 +84,13 @@ mment:
   </uml:Model>
 </xmi:XMI>
 ChatGPT
-java
-Copy code
-// [[STARTEND]]
-public class City {
-    private List<Houses> houses;
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+vate List<Houses> houses;
 }
 
 public class Houses {

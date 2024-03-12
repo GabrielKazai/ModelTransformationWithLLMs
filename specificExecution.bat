@@ -8,7 +8,7 @@ set workpath=F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\
 set /p input= Which file do you want to execute again (name of folder): 
 echo Input is: %input%
 
-set path= %workpath%%input%
+set path=%workpath%%input%
 
 echo Working path is: %path%
 
@@ -42,6 +42,8 @@ formatJava.ahk %path%\oracle\combinedOracle\cleanOracle.java %path%\xmiforgpt\cl
 "F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%path%\bScripts.txt"
 
 @echo Comparison done
+
+echo %input% >> %scriptpath%\previousExecutions.txt
 
 pause
 

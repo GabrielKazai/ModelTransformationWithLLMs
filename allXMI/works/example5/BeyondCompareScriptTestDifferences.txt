@@ -1,5 +1,5 @@
 ﻿Text Compare
-Produced: 2024-03-12 13:55:19
+Produced: 2024-03-12 14:38:19
 
 Mode:  Differences
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example5\oracle\combinedOracle\cleanOracle.java

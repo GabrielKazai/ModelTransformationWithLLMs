@@ -1,23 +1,6 @@
-﻿Chat history
-ChatGPT
-ChatGPT
-
-Explore GPTs
-Today
-Java Class Generation
-UML Models to Java
-Java UML Conversion
-Java Classes from XMI
-Java Code for UML
-UML to Java
-Java Class UML Conversion
-Java Code from UML.
-Java Class Generation
-UML to Java Translation
-Java Classes from XMI
-Java UML Model Conversion
-Java Code from UML.
-UML Classes Java Code
+﻿F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\cleanOracle.java
+F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\combined_oracle_not_cleaned.java
+F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\input_oracle.java
 Help with summarizing.
 User Testing Request
 Java UML to Code

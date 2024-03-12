@@ -4,9 +4,25 @@ ChatGPT
 
 Explore GPTs
 Today
+Java Code Generation
+
+
+Java Code Generation
+Java Code From UML
+UML Classes to Java
+Java Classes from XMI
+UML to Java Conversion
+Java UML Models
+UML to Java
+Java UML Models Creation
+Java Class Structure
+Java UML Classes Model
+UML to Java
+Java UML Models
+UML Models Java Code
+Java UML to Code
+UML Java Code Generation
 Java Class Generation
-
-
 UML Models to Java
 Java UML Conversion
 Java Classes from XMI
@@ -35,6 +51,18 @@ UML Java Code Creation
 UML Models to Java
 UML to Java
 Java UML Mapping
+Java UML Class.
+Java UML Conversion
+UML Java Code
+Java Class Creation
+UML Models to Java
+UML Java classes
+Java Code from UML
+Java Classes for UML
+Java Classes for UML
+UML Java conversion
+Java Classes from UML
+UML Java Code Creation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -92,29 +120,39 @@ Copy code
 // [[STARTEND]]
 public class City {
     private List<Houses> houses;
-
-    public List<Houses> getHouses() {
-        return houses;
-    }
-
-    public void setHouses(List<Houses> houses) {
-        this.houses = houses;
-    }
 }
 
 public class Houses {
     private Family family;
-
-    public Family getFamily() {
-        return family;
-    }
-
-    public void setFamily(Family family) {
-        this.family = family;
-    }
 }
 
 public class Family {
+    private Father father;
+    private Mother mother;
+    private List<Child> children;
+}
+
+public class Father {
+}
+
+public class Mother {
+}
+
+public class Child {
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
+ily {
     private Father father;
     private Mother mother;
     private List<Child> children;
@@ -144,13 +182,15 @@ public class Family {
     }
 }
 
-public class Father {}
+public class Father {
+}
 
-public class Mother {}
+public class Mother {
+}
 
-public class Child {}
+public class Child {
+}
 // [[STARTEND]]
-
 
 
 
@@ -162,6 +202,4 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
- make mistakes. Consider checking important information.
 
-?

@@ -24,3 +24,6 @@ find /c "example7" previousExecutions.txt >NUL
         echo not found
 		)
 pause
+
+
+

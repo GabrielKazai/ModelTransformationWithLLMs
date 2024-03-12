@@ -1,9 +1,6 @@
-﻿https://chat.openai.com/file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set o
-set path=%1
-
-"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1
-
-runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\OutputFromGPTAHKURL.txt
+﻿F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\cleanOracle.java
+F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\combined_oracle_not_cleaned.java
+F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example1\oracle\combinedOracle\input_oracle.javaFromGPTAHKURL.txt
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanOracle.py" %1\oracle\combinedOracle\combined_oracle_not_cleaned.java %1\oracle\combinedOracle\cleanOracle.java
 

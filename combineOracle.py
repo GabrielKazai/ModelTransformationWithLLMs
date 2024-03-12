@@ -35,7 +35,8 @@ for i in namesofXMI:
     for f in files:
         if f == i + ".java":
             print(f)
-            with open(f) as fp:
+            print(Path(pathForOracle, f))
+            with open(Path(pathForOracle, f)) as fp:
                 content.append(fp.read() + "\n")
                 break
 

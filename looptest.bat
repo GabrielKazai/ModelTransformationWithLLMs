@@ -6,6 +6,7 @@ for /d %%i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\wor
 goto End
 
 :FIND
+setlocal EnableDelayedExpansion
 set "url=%1"
 
 for %%a in ("%url%") do (
@@ -18,16 +19,13 @@ echo URL name: "%urlName%"
 find /c "%urlName%" previousExecutions.txt >NUL
     if %errorlevel% equ 0 (
         echo found 
-		goto :End
+		goto :eof
 		) else (
         echo %urlName% is not within previousExecutions
 		goto :Foo
 		)
 
-
 :Foo
-set path=%1
-echo Executing %path%
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1
 
@@ -48,6 +46,10 @@ runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt
 formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java 
 
 @echo Format done
+
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\removeAddedString.py" %1\oracle\combinedOracle\cleanOracle.java
+
+@echo replacement of custom string done
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java
 

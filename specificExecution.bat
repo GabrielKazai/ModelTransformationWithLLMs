@@ -34,10 +34,9 @@ formatJava.ahk %path%\oracle\combinedOracle\cleanOracle.java %path%\xmiforgpt\cl
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\beyondCompareGenerateParameters.py" %path% %path%\oracle\combinedOracle\cleanOracle.java %path%\xmiforgpt\cleanGPT.java
 
-@echo %path%
-@echo "@%path%\bScripts.txt"
-@echo "%path%\bScripts.txt"
-@echo @%path%\bScripts.txt
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\removeAddedString.py" %path%\oracle\combinedOracle\cleanOracle.java
+
+@echo replacement of custom string done
 
 "F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%path%\bScripts.txt"
 

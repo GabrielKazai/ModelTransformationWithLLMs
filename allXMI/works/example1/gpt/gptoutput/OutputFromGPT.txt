@@ -4,39 +4,38 @@ ChatGPT
 
 Explore GPTs
 Today
-UML Java Code Translation
+UML Model to Java
 
 
-Java XMI UML Translation
-Yesterday
-UML Java Code Generation
-Java Classes From UML
-Previous 7 Days
-UML Java Conversion
-Training Mix: Zero, Few, Fine
-Java Code Generation
-XMI Analysis: Complex UML Model
-XMI Modeling Assistance
-UML Model Analysis
-UML Model Exported XMI
-Previous 30 Days
-Java Model: UML City, House
-Java Model Creation
-Java Code for UML.
-Java Models Based UML
-Java Code Generation
-Java Classes From XMI
-Java Classes from XMI
-Generate Java code.
-UML to Java Translation
-New chat
-Modelo de Clases Java
-Java Model Response
-Java Classes From XMI
 Java Classes from UML
+Java Classes from UML
+Java Classes From UML
+Java Code from XMI
+UML to Java Conversion
+Java Class Modeling
+Java UML Model Translation
+Generate Java Classes
+Java Model Creation
+UML Model for Primitive Behaviors
+Yesterday
+Java code from UML.
+Previous 7 Days
+Java Code from UML.
+Java code for UML.
+Java Class UML Model
+UML Java Classes Creation
+UML to Java Translation
+UML to Java
+UML Java Classes Creation
+Java Code for UML
+Java Classes UML Modeling
 Java Code Generation
-UML Models to Java
-UML Java Code Creation
+Java Code Generation
+Java Code From UML
+UML Classes to Java
+Java Classes from XMI
+UML to Java Conversion
+Java UML Models
 Add Team workspace
 Collaborate on a Team plan
 
@@ -119,6 +118,10 @@ public class Child {
 
 
 
+Is this conversation helpful so far?
+
+
+
 Message ChatGPT…
 
 
@@ -126,16 +129,3 @@ ChatGPT can make mistakes. Consider checking important information.
 
 ?
 ChatGPT
-> children;
-
-    public Father getFather() {
-        return father;
-    }
-
-    public void se
-Message ChatGPT…
-
-
-ChatGPT can make mistakes. Consider checking important information.
-
-?

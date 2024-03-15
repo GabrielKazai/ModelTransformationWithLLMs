@@ -10,7 +10,7 @@ xmilist = []
 xmifile = open(sys.argv[1] + "/gpt/xmiforgpt/Model.xmi", "r")
 
 for line in xmifile:
-    if "<packagedElement" in line and 'xmi:type="uml:Class"' in line:
+    if ("<packagedElement" in line and 'xmi:type="uml:Class"' in line) or ("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line):
         xmilist.append(line)
 
 #print(xmilist)
@@ -20,18 +20,23 @@ for i in xmilist:
     x = i.find("name=")
     namesofXMI.append(i[x+6:].split('"')[0])
 
-#print(namesofXMI)
+print(namesofXMI)
 
 pathForOracle = sys.argv[1] + "/oracle/"
 pathForOracleSave = sys.argv[1] + "/oracle/combinedOracle"
 
 pathForOracle = Path(pathForOracle)
 
-#print("PATH FOR ORACLE")
-#print(pathForOracle)
+print("PATH FOR ORACLE")
+print(pathForOracle)
+
+print("test")
+print(os.listdir(pathForOracle))
 
 files = [f for f in os.listdir(pathForOracle) if os.path.isfile(f)]
+print(files)
 for i in namesofXMI:
+    print(i)
     for f in files:
         if f == i + ".java":
             print(f)

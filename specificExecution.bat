@@ -16,6 +16,8 @@ echo Working path is: %path%
 
 @echo Combine done
 
+pause
+
 runGPT.ahk %path%\gpt\xmiforgpt\Model.xmi %path%\gpt\gptoutput\OutputFromGPT.txt %path%\gpt\gptoutput\OutputFromGPT_URL.txt
 
 @echo GPT execution done

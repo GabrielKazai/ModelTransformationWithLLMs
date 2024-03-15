@@ -31,7 +31,7 @@ find /c "%urlName%" previousExecutions.txt >NUL
 
 @echo Combine done
 
-runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\OutputFromGPTAHKURL.txt
+runGPT.ahk %1\gpt\xmiforgpt\Model.xmi %1\gpt\gptoutput\OutputFromGPT.txt %1\gpt\gptoutput\OutputFromGPT_URL.txt
 
 @echo GPT execution done
 
@@ -39,11 +39,11 @@ runGPT.ahk %1\xmiforgpt\Model.xmi %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt
 
 @echo Clean Oracle done
 
-"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPT.py" %1\xmiforgpt\OutputFromGPTAHK.txt %1\xmiforgpt\cleanGPT.java 
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPT.py" %1\gpt\gptoutput\OutputFromGPT.txt  %1\gpt\gptoutput\cleanGPT.java 
 
 @echo Clean GPT done
 
-formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java 
+formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT.java 
 
 @echo Format done
 
@@ -51,9 +51,9 @@ formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.j
 
 @echo replacement of custom string done
 
-"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\xmiforgpt\cleanGPT.java
+"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT.java
 
-"F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%1\bScripts.txt"
+"F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%1\comparison\bScripts.txt"
 
 @echo Comparison done
 

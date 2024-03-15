@@ -7,7 +7,7 @@ data = ""
 content = []
 
 xmilist = []
-xmifile = open(sys.argv[1] + "/xmiforgpt/Model.xmi", "r")
+xmifile = open(sys.argv[1] + "/gpt/xmiforgpt/Model.xmi", "r")
 
 for line in xmifile:
     if "<packagedElement" in line and 'xmi:type="uml:Class"' in line:
@@ -27,8 +27,8 @@ pathForOracleSave = sys.argv[1] + "/oracle/combinedOracle"
 
 pathForOracle = Path(pathForOracle)
 
-print("PATH FOR ORACLE")
-print(pathForOracle)
+#print("PATH FOR ORACLE")
+#print(pathForOracle)
 
 files = [f for f in os.listdir(pathForOracle) if os.path.isfile(f)]
 for i in namesofXMI:
@@ -45,8 +45,8 @@ for i in content:
 
 p = pathForOracleSave + '/combined_oracle_not_cleaned.java'
 
-print("THIS ONE")
-print(p)
+#print("THIS ONE")
+#print(p)
 file = open(p, 'w')
 file.write(data)
 file.close()

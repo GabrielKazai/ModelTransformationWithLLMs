@@ -1,53 +1,4 @@
-﻿Chat history
-ChatGPT
-ChatGPT
-
-Explore GPTs
-Today
-New chat
-
-
-Java Code Generation
-Java UML Class Translation
-UML to Java Code
-Java Classes from XMI
-UML Classes Java Code
-Java UML Classes
-UML to Java Code
-UML Java Classes Creation
-UML Model to Java
-Java Classes from UML
-Java Classes from UML
-Java Classes From UML
-Java Code from XMI
-UML to Java Conversion
-Java Class Modeling
-Java UML Model Translation
-Generate Java Classes
-Java Model Creation
-UML Model for Primitive Behaviors
-Yesterday
-Java code from UML.
-Previous 7 Days
-Java Code from UML.
-Java code for UML.
-Java Class UML Model
-UML Java Classes Creation
-UML to Java Translation
-UML to Java
-UML Java Classes Creation
-Add Team workspace
-Collaborate on a Team plan
-
-User
-ThesisMDUGPT
-
-Close sidebar
-ChatGPT 4
-
-User
-The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, please generate the classes as if they were in separate files, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_unFyQNx3Ee6PTdpnUVL0jw" name="Model">
   <eAnnotations xmi:id="_unFyQdx3Ee6PTdpnUVL0jw" source="Objing">
     <contents xmi:type="uml:Property" xmi:id="_unFyQtx3Ee6PTdpnUVL0jw" name="exporterVersion">
@@ -457,6 +408,24 @@ The following is an XMI file based on a UML diagram, please write corresponding 
         </eAnnotations>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_unJcz9x3Ee6PTdpnUVL0jw"/>
       </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_unJc0Nx3Ee6PTdpnUVL0jw" name="Listener" isAbstract="true" isActive="true">
+      <ownedReception xmi:id="_unJc0dx3Ee6PTdpnUVL0jw" visibility="public" signal="_unJcy9x3Ee6PTdpnUVL0jw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_unJc0tx3Ee6PTdpnUVL0jw" name="Status">
+      <ownedAttribute xmi:id="_unJc09x3Ee6PTdpnUVL0jw" name="context" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_unJc1Nx3Ee6PTdpnUVL0jw" name="code" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_unJc1dx3Ee6PTdpnUVL0jw" name="description" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_unJc0Nx3Ee6PTdpnUVL0jw" name="Listener" isAbstract="true" isActive="true">
       <ownedReception xmi:id="_unJc0dx3Ee6PTdpnUVL0jw" visibility="public" signal="_unJcy9x3Ee6PTdpnUVL0jw"/>

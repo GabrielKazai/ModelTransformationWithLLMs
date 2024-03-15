@@ -17,7 +17,7 @@ Send, {Ctrl down}{v down}
 Send, {Ctrl up}{v up}
 Send, {Enter}
 
-sleep 60000	
+sleep 70000	
 
 Send, {TAB}
 Send, {Ctrl down}{a down}

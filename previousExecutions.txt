@@ -1,10 +1,6 @@
-example1
-example2  
-example5 
+example1 
+example2 
+example3 
 example4 
-example3 
-example3 
-example3 
-example3 
-example3 
-example3 
+example5 
+example2 

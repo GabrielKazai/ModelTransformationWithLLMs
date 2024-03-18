@@ -10,7 +10,7 @@ sleep 5000
 
 Clipboard := myFile
 
-Send, The following is an XMI file based on a UML diagram, please write corresponding Java code without adding any explanatory text before or after, get/set functions or comments in the code, please generate the classes as if they were in separate files, furthermore, start and end the response with the tag [[STARTEND]] as a java comment:
+Send, The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
 Send, {shift down}{Enter}
 Send, {shift up}
 Send, {Ctrl down}{v down}

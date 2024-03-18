@@ -1,6 +1,0 @@
-Text Compare
-Produced: 2024-03-15 13:45:03
-
-Mode:  Differences
-Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0fUML_Library\oracle\combinedOracle\cleanOracle.java
-Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0fUML_Library\gpt\gptoutput\cleanGPT.java

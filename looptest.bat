@@ -1,12 +1,13 @@
 cls
-
+setlocal EnableDelayedExpansion
 set scriptpath=%~dp0
+set counter=0
+set /p iter= How many iterations do you want to run (NR or ALL): 
 
 for /d %%i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\*") do call :FIND %%i
 goto End
 
 :FIND
-setlocal EnableDelayedExpansion
 set "url=%1"
 
 for %%a in ("%url%") do (
@@ -26,6 +27,12 @@ find /c "%urlName%" previousExecutions.txt >NUL
 		)
 
 :Foo
+
+if not %iter%==ALL (
+	if !counter! == %iter% goto :End
+
+	set /A counter=counter+1
+)
 
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%combineOracle.py" %1
 

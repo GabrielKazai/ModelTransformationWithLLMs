@@ -33,7 +33,8 @@ print(pathForOracle)
 print("test")
 print(os.listdir(pathForOracle))
 
-files = [f for f in os.listdir(pathForOracle) if os.path.isfile(f)]
+
+files = [f for f in os.listdir(pathForOracle) if os.path.isfile(os.path.join(pathForOracle, f))]
 print(files)
 for i in namesofXMI:
     print(i)

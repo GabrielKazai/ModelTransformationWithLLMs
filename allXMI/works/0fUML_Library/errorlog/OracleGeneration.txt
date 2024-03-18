@@ -9,3 +9,5 @@ readLine
 readUnlimitedNatural
 
 InputChannel, OutputChannel --> generation canceled
+
+TextInputChannel --> Generates comments in the java code, these are removed for formatting "// TODO Auto-generated return"

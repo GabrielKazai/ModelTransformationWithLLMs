@@ -6,13 +6,11 @@ towrite = []
 duplicates = []
 
 for i in f:
-    if not ("@objid" in i or "com." in i):
+    if not ("@objid" in i or "com." in i or "@DataType" in i):
         if "import" in i:
-            if i not in duplicates:
-                towrite.append(i)
-                duplicates.append(i)
+             pass
         else:
-                towrite.append(i.rstrip())    
+                towrite.append(i)    
 
 for write in towrite:
     final.write(write)

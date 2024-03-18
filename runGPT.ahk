@@ -17,13 +17,23 @@ Send, {Ctrl down}{v down}
 Send, {Ctrl up}{v up}
 Send, {Enter}
 
-sleep 70000	
+MouseMove, 960, 540
+
+Loop, 700 {
+ Send {WheelDown}
+ Sleep, 100
+}
+
+sleep 100
 
 Send, {TAB}
 Send, {Ctrl down}{a down}
 Send, {Ctrl up}{a up}
+sleep 1000
 Send, {Ctrl down}{c down}
 Send, {Ctrl up}{c up}
+
+sleep 100
 
 myBoard := Clipboard
 

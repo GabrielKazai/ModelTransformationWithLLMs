@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Tzi54OXQEe6SFuWgEaWS7Q" name="Model">
+  <eAnnotations xmi:id="_Tzi54eXQEe6SFuWgEaWS7Q" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Tzi54uXQEe6SFuWgEaWS7Q" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi54-XQEe6SFuWgEaWS7Q" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_Tzi55OXQEe6SFuWgEaWS7Q" name="Verdict">
+    <ownedLiteral xmi:id="_Tzi55eXQEe6SFuWgEaWS7Q" name="none"/>
+    <ownedLiteral xmi:id="_Tzi55uXQEe6SFuWgEaWS7Q" name="pass"/>
+    <ownedLiteral xmi:id="_Tzi55-XQEe6SFuWgEaWS7Q" name="inconclusive"/>
+    <ownedLiteral xmi:id="_Tzi56OXQEe6SFuWgEaWS7Q" name="fail"/>
+    <ownedLiteral xmi:id="_Tzi56eXQEe6SFuWgEaWS7Q" name="error"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Tzi56uXQEe6SFuWgEaWS7Q" name="Arbiter">
+    <ownedOperation xmi:id="_Tzi56-XQEe6SFuWgEaWS7Q" name="getVerdict" visibility="public">
+      <ownedParameter xmi:id="_Tzi57OXQEe6SFuWgEaWS7Q" type="_Tzi55OXQEe6SFuWgEaWS7Q" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tzi57eXQEe6SFuWgEaWS7Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tzi57uXQEe6SFuWgEaWS7Q" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi57-XQEe6SFuWgEaWS7Q" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Tzi58OXQEe6SFuWgEaWS7Q" name="setVerdict" visibility="public">
+      <ownedParameter xmi:id="_Tzi58eXQEe6SFuWgEaWS7Q" name="v" type="_Tzi55OXQEe6SFuWgEaWS7Q">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tzi58uXQEe6SFuWgEaWS7Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tzi58-XQEe6SFuWgEaWS7Q" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi59OXQEe6SFuWgEaWS7Q" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Tzi59eXQEe6SFuWgEaWS7Q" name="Timer">
+    <ownedAttribute xmi:id="_Tzi59uXQEe6SFuWgEaWS7Q" name="isRunning" visibility="public" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Tzi59-XQEe6SFuWgEaWS7Q" name="start" visibility="public">
+      <ownedParameter xmi:id="_Tzi5-OXQEe6SFuWgEaWS7Q" name="expire" type="_Tzi6B-XQEe6SFuWgEaWS7Q">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tzi5-eXQEe6SFuWgEaWS7Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tzi5-uXQEe6SFuWgEaWS7Q" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi5--XQEe6SFuWgEaWS7Q" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Tzi5_OXQEe6SFuWgEaWS7Q" name="start2" visibility="public">
+      <ownedParameter xmi:id="_Tzi5_eXQEe6SFuWgEaWS7Q" name="expire" type="_Tzi6COXQEe6SFuWgEaWS7Q">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tzi5_uXQEe6SFuWgEaWS7Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tzi5_-XQEe6SFuWgEaWS7Q" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi6AOXQEe6SFuWgEaWS7Q" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Tzi6AeXQEe6SFuWgEaWS7Q" name="stop" visibility="public"/>
+    <ownedOperation xmi:id="_Tzi6AuXQEe6SFuWgEaWS7Q" name="read" visibility="public">
+      <ownedParameter xmi:id="_Tzi6A-XQEe6SFuWgEaWS7Q" type="_Tzi6COXQEe6SFuWgEaWS7Q" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tzi6BOXQEe6SFuWgEaWS7Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tzi6BeXQEe6SFuWgEaWS7Q" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Tzi6BuXQEe6SFuWgEaWS7Q" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Tzi6B-XQEe6SFuWgEaWS7Q" name="Timepoint"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Tzi6COXQEe6SFuWgEaWS7Q" name="Duration"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Tzi6CeXQEe6SFuWgEaWS7Q" name="Timezone"/>
+</uml:Model>

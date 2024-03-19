@@ -1,0 +1,1 @@
+public class Owner {    // Attributes and methods for Owner class are not explicitly defined in the XMI.}public class NotOwner {    // Attributes and methods for NotOwner class are not explicitly defined in the XMI.}

@@ -1,0 +1,24 @@
+Table Compare
+Produced: 2024-03-19 11:11:34
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\XMLSchema\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\XMLSchema\gpt\gptoutput\cleanGPT.java
+1:                                                              2:    1: 2:
+---------------------------------------------------------------------------
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+private List<Attribute> attributes = new ArrayList<Attribute>()    +-
+private List<Element> children = new ArrayList<Element>()          +-
+private List<Element> refs = new ArrayList<Element>()              +-
+private List<Node> contents = new ArrayList<Node>()                +-
+private List<Text> texts = new ArrayList<Text>()                   +-
+---------------------------------------------------------------------------

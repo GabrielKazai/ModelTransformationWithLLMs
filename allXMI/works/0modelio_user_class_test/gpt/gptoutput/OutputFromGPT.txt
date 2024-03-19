@@ -1,0 +1,89 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes for UML.
+
+
+Java Class Creation
+Java UML Model Conversion
+Java XMI to Classes
+Generate Java Classes from XMI
+Java Model Classes
+Java Class from XMI
+Java UML to XMI
+Java Classes from XMI
+Java Classes from XMI
+Java Class Modeling Response
+Java Class From XMI
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Class Creation
+Java Class Models Creation
+Yesterday
+Java Code Generation
+Java Code from XMI
+Java Class Generation
+Java UML Classes
+Java Models Generation
+Java UML Conversion
+Java UML sincl XMI.
+UML Java Class Generation
+Java Classes from UML
+Java Models Generation
+Java Code Response
+Java UML Code
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+ChatGPT
+java
+Copy code
+//[[STARTEND]]
+public class Person {
+    private String name;
+    private int age;
+}
+
+public class Student extends Person {
+    private String studentID;
+}
+
+public class Teacher extends Person {
+    private String teacherID;
+    private double salary;
+}
+
+public class Course {
+    private String courseName;
+    private Teacher teacher;
+}
+
+public class Enrollment {
+    private Student student;
+    private Course course;
+    private double grade;
+}
+//[[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

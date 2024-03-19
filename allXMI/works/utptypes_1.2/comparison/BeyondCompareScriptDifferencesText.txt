@@ -1,0 +1,29 @@
+Text Compare
+Produced: 2024-03-19 11:05:53
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\utptypes_1.2\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\utptypes_1.2\gpt\gptoutput\cleanGPT.java
+                  +-
+--------------------------------------------------------------
+--------------------------------------------------------------
+                  <>     none, pass, inconclusive, fail, error
+                     }
+    none,
+                     public interface Arbiter {
+                         Verdict getVerdict();
+    pass,
+                         void setVerdict(Verdict v);
+                     }
+
+                     public interface Timer {
+    inconclusive,        boolean isRunning = true;
+    fail,
+                         void start(Timepoint expire);
+    error;
+                         void start2(Duration expire);
+
+                         void stop();
+
+                         Timepoint read();
+--------------------------------------------------------------

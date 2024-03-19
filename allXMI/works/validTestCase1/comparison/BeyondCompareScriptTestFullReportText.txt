@@ -1,0 +1,38 @@
+Text Compare
+Produced: 2024-03-19 11:07:47
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\validTestCase1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\validTestCase1\gpt\gptoutput\cleanGPT.java
+                                         +-
+--------------------------------------------------------------------------------------
+public abstract class Class1 {           =  public abstract class Class1 {
+--------------------------------------------------------------------------------------
+    public Boolean attribute1;           +-
+
+--------------------------------------------------------------------------------------
+    private Class3 class3_1;             =      private Class3 class3_1;
+--------------------------------------------------------------------------------------
+                                         <>     public boolean attribute1;
+--------------------------------------------------------------------------------------
+}                                        =  }
+
+public class Class2 {                       public class Class2 {
+--------------------------------------------------------------------------------------
+                                         -+     private Class3 class3_2;
+--------------------------------------------------------------------------------------
+    protected boolean attribute2 = true; =      protected boolean attribute2 = true;
+--------------------------------------------------------------------------------------
+                                         -+ }
+--------------------------------------------------------------------------------------
+                                         =
+--------------------------------------------------------------------------------------
+    private Class3 class3_2;             <> private class Class3 extends Class1,Class2
+                                            {
+                                                public Class1 class1;
+                                                protected Class2 class2;
+                                                Class3 class3;
+                                                String attribute3;
+--------------------------------------------------------------------------------------
+}                                        =  }
+--------------------------------------------------------------------------------------

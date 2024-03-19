@@ -1,0 +1,8 @@
+Oracle was not able to generate MyClass
+The Java file for MyEnumeration does not have a name in the Oracle
+The oracle adds ; after an enum, GPT doesn't. This is not required in Java, no fault of GPT
+
+---------------------------------------------------------
+Second Iteration? No.
+Re-execution? Yes.
+

@@ -29,3 +29,6 @@ XMLSchema
 XSDataFIT2Dv1_0 
 XSDDataTypes.library
 notworking
+0NIEM-Reference-common-edxl 
+0NIEM-Reference-common-edxl-cap 
+1fUML_Library 

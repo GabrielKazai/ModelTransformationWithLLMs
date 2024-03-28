@@ -32,3 +32,9 @@ notworking
 0NIEM-Reference-common-edxl 
 0NIEM-Reference-common-edxl-cap 
 1fUML_Library 
+1GRAAnnotationModel 
+1modelio 
+1PrimitiveTypes 
+1test_constraint 
+duplicates 
+example2 

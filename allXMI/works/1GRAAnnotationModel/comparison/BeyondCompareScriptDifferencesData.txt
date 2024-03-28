@@ -1,0 +1,63 @@
+﻿Table Compare
+Produced: 2024-03-28 12:06:50
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1GRAAnnotationModel\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1GRAAnnotationModel\gpt\gptoutput\cleanGPT.java
+1: 2: 3: 4:    1:                                                                              2:                                                         3:                                  4:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            -+ // {}// Interface.javapublic class Interface extends GRAServiceAnnotationBase
+            -+ // {private Object message_default                                              private Object operation                                   }//
+            -+ // {public Object OrganizationPointOfContact                                    public Object
+            -+ // ActionPurpose                                                                }// Message.javapublic class Message extends
+            -+ // AgreementDescriptionText                                                     public Object AgreementURI                                 }// EntityType.javapublic
+            -+ // boolean isDerivedName                                                        public boolean isDerivedDocumentation                      public Object
+            -+ // boolean MessageIntegrity = true                                              public boolean MessageConfidentiality =
+            -+ // CapabilityDescriptionText                                                    }// ServiceDescription.javapublic class
+            -+ // ChatGPT…ChatGPT can make mistakes. Consider checking important information.?
+            -+ // class EntityType {public Object choice_1                                     }// IEPDReference.javapublic class
+            -+ // ContactPersonAddress                                                         }// SecurityClassification.javapublic class
+            -+ // ContactPersonEmailID                                                         public Object ContactPersonPhoneNumberID                   public Object
+            -+ // DiagramLink                                                                  }// ServiceInteraction.javapublic class ServiceInteraction
+            -+ // EntityType {public Object IEPDName                                           public Object IEPDURL                                      }//
+            -+ // ExchangePattern MessageExchangePattern                                       public boolean
+            -+ // ExchangePattern.javapublic enum ExchangePattern {Enquiery, Subscription,
+            -+ // extends GRAServiceAnnotationBase {public Object participant                  }//
+            -+ // GRAServiceAnnotationBase {private InteractionRequirements requirement        public
+            -+ // GRAServiceAnnotationBase {public Object type                                 public Object use                                          }//
+            -+ // IdentityAndAttributeAssertionTransmission                                    public boolean
+            -+ // InteractionRequirements {public boolean ServiceConsumerAuthentication =
+            -+ // interface_default                                                            private Object port                                        }// Operation.javapublic class
+            -+ // interfaceAttribute                                                           private Object operation_default                           private Object
+            -+ // InterfaceDescriptionRequirements = true                                      public boolean Logging                                     public Object
+            -+ // isDerivedisAsyncronous                                                       public Object ActionName                                   public Object
+            -+ // message_default                                                              public Object AddressURI                                   }// ModelReference.javapublic class
+            -+ // ModelReference {public Object Model                                          public boolean isDerivedName                               public
+            -+ // Notification, Update, Message}// InteractionRequirements.javapublic class
+            -+ // Object Documentation                                                         public boolean isDerivedElementID                          public Object
+            -+ // Object OrganizationRoleDetailedDescriptionText                               }// Person.javapublic class
+            -+ // Object provider                                                              public Object consumer                                     public Object
+            -+ // Operation extends GRAServiceAnnotationBase {private Object message           private
+            -+ // operation_default                                                            private Object message_default                             private Object
+            -+ // Organization.javapublic class Organization extends GRAServiceAnnotationBase
+            -+ // OrganizationAcronym                                                          public Object OrganizationFullAddressText                  public Object
+            -+ // OrganizationWebSiteURL                                                       public Object OrganizationRoleDescriptionText              public
+            -+ // other_requirement                                                            }// GRAServiceAnnotationBase.javapublic abstract class
+            -+ // out, inout, exception}// Agreement.javapublic class Agreement {public Object
+            -+ // Participant.javapublic class Participant extends GRAServiceAnnotationBase
+            -+ // Person extends GRAServiceAnnotationBase {public Object
+            -+ // Port.javapublic class Port extends GRAServiceAnnotationBase {private Object
+            -+ // RealWorldEffectDescriptionText                                               }// MessageUse.javapublic enum MessageUse {in,
+            -+ // SecurityClassification {public Object SecurityClassificationText             }//
+            -+ // Service.javapublic class Service extends Participant {private Object
+            -+ // ServiceAuthentication                                                        public boolean MessageNonrepudiation = true                public
+            -+ // ServiceCapability.javapublic class ServiceCapability {public Object
+            -+ // ServiceDescription extends ServiceIdentification {public Object
+            -+ // ServiceInteraction                                                           private Object ServiceSecurityClassification               Message
+            -+ // ServiceMetadataAvailability = true                                           public boolean
+            -+ // Template                                                                     public Object ModelReference                               public Object flag                  }//
+            -+ // true                                                                         public boolean ServiceConsumerAuthorization = true         public boolean
+            -+ // true                                                                         public boolean MessageAddressing = true                    public boolean Reliability =
+            -+ // true                                                                         public boolean TransactionSupport                          public boolean
+            -+ // UseCase.javapublic class UseCase extends GRAServiceAnnotationBase {public
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

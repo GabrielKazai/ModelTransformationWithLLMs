@@ -13,4 +13,9 @@ sleep 7000
 Send, {ctrl down}{s down}
 Send, {ctrl up}{s up}
 
+sleep 1000
 
+Send, {alt down} {f4 down}
+Send, {alt up} {f4 up}
+
+sleep 1000

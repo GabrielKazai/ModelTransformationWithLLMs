@@ -1,0 +1,7 @@
+public class ImagleBlob, Blob, AnyBlob:
+GPT is lacking public on these classes, fault of GPT? Not clearly shown in XMI, no fault of GPT
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Vk59m90vEe6aSeKtmHkvGg" name="ImageBlob"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Vk59nN0vEe6aSeKtmHkvGg" name="Blob"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Vk59nd0vEe6aSeKtmHkvGg" name="AnyBlob"/>
+--------------------------------------
+Second Iteration? No.

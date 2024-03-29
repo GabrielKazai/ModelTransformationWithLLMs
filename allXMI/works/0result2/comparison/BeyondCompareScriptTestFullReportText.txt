@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2024-03-19 10:54:14
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0result2\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0result2\gpt\gptoutput\cleanGPT.java
+ -+ public class LoadBalancer {    public int scalabilityThreshold;    public boolean enable;    public String loadBalancerRules;    public boolean enableLoadBalancer() {        // Method implementation        return false;    }}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

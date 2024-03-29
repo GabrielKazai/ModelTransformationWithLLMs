@@ -1,0 +1,8 @@
+﻿Text Compare
+Produced: 2024-03-19 10:52:20
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0PrimitiveTypes\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0PrimitiveTypes\gpt\gptoutput\cleanGPT.java
+ -+ Message ChatGPT…ChatGPT can make mistakes. Consider checking important information.?ChatGPT
+-----------------------------------------------------------------------------------------------

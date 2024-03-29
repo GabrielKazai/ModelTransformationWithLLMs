@@ -1,0 +1,16 @@
+Text Compare
+Produced: 2024-03-19 10:40:59
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_class_name_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_class_name_test\gpt\gptoutput\cleanGPT.java
+                             +-
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+}                            <> }public class Class {    public String Attribute;}public class {    public Class toto;}
+
+public class Class {
+    public String Attribute;
+
+}
+-----------------------------------------------------------------------------------------------------------------------

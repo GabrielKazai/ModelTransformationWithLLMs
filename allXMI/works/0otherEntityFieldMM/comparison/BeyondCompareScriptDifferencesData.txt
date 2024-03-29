@@ -1,0 +1,20 @@
+Table Compare
+Produced: 2024-03-19 10:48:33
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldMM\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldMM\gpt\gptoutput\cleanGPT.java
+1:                                                                      2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12: 13: 14: 15: 16: 17: 18: 19: 20: 21: 22: 23: 24: 25: 26: 27: 28: 29: 30: 31: 32: 33: 34: 35:    1:     2:    3:    4: 5: 6:         7:  8:      9:  10:   11:   12: 13: 14:        15:     16: 17: 18:         19:   20:      21: 22: 23:        24: 25:     26: 27:      28:   29: 30: 31:        32:     33: 34: 35:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                                                                        +-
+                                                                                                                                                                                                        +-
+                                                                                                                                                                                                        +-
+                                                                                                                                                                                                        +-
+                                                                                                                                                                                                        +-
+}                                                                                                                                                                                                       +-
+}                                                                                                                                                                                                       +-
+                                                                                                                                                                                                        -+ public class Owner {  // Attributes and methods for Owner class are not explicitly defined in  the XMI.}public class NotOwner {   //  Attributes and methods for NotOwner class are not explicitly defined in  the XMI.}
+public class NotOwner {                                                                                                                                                                                 +-
+public class Owner {                                                                                                                                                                                    +-
+public List<NotOwner> notOwner(otherOwner) = new ArrayList<NotOwner> ()                                                                                                                                 +-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

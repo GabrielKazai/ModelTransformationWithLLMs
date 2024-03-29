@@ -1,0 +1,176 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Models Response
+
+
+UML Class to Java
+Java Enumları Oluşturma
+Java Code Generation
+Previous 7 Days
+Java Classes from XMI
+History: No conversation retention.
+Previous 30 Days
+Java Classes for XMI.
+Java Classes from XMI.
+Java Code XML Models
+Java Code Generation
+Java Classes from XMI.
+Java UML Response
+Java Models from XMI
+Java UML Code Conversion
+Java Code Generation
+Java Classes for UML
+Java Classes from XMI
+Java Classes LoadBalancer Model
+Java Classes from XMI
+Java Code From XMI
+Java Code Without Explanations
+Java Code Generation
+Java Classes for UML.
+Java Class Creation
+Java UML Model Conversion
+Java XMI to Classes
+Generate Java Classes from XMI
+Java Model Classes
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_pNqDMOxAEe6j1NXKa78ECw" name="Model">
+  <eAnnotations xmi:id="_pNqDMexAEe6j1NXKa78ECw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_pNqDMuxAEe6j1NXKa78ECw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pNqDM-xAEe6j1NXKa78ECw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_pNqDNOxAEe6j1NXKa78ECw" name="edxl">
+    <packagedElement xmi:type="uml:Package" xmi:id="_pNqDNexAEe6j1NXKa78ECw" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pNqDNuxAEe6j1NXKa78ECw" name="edxl">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_pNqDN-xAEe6j1NXKa78ECw" name="ContentCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_pNqDOOxAEe6j1NXKa78ECw" name="Accept"/>
+          <ownedLiteral xmi:id="_pNqDOexAEe6j1NXKa78ECw" name="Offer Unsolicited Resources"/>
+          <ownedLiteral xmi:id="_pNqDOuxAEe6j1NXKa78ECw" name="Notify Auxiliary Recipients"/>
+          <ownedLiteral xmi:id="_pNqDO-xAEe6j1NXKa78ECw" name="Decline"/>
+          <ownedLiteral xmi:id="_pNqDPOxAEe6j1NXKa78ECw" name="Cancel"/>
+          <ownedLiteral xmi:id="_pNqDPexAEe6j1NXKa78ECw" name="Response to Offer Unsolicited Resources"/>
+          <ownedLiteral xmi:id="_pNqDPuxAEe6j1NXKa78ECw" name="Request Return"/>
+          <ownedLiteral xmi:id="_pNqDP-xAEe6j1NXKa78ECw" name="Requisition Resource"/>
+          <ownedLiteral xmi:id="_pNqDQOxAEe6j1NXKa78ECw" name="Response to Request Resource"/>
+          <ownedLiteral xmi:id="_pNqDQexAEe6j1NXKa78ECw" name="Response to Request Return"/>
+          <ownedLiteral xmi:id="_pNqDQuxAEe6j1NXKa78ECw" name="Response to Request Information (RFI)"/>
+          <ownedLiteral xmi:id="_pNqDQ-xAEe6j1NXKa78ECw" name="Response to Request Quote"/>
+          <ownedLiteral xmi:id="_pNqDROxAEe6j1NXKa78ECw" name="Release Resource"/>
+          <ownedLiteral xmi:id="_pNqDRexAEe6j1NXKa78ECw" name="Update"/>
+          <ownedLiteral xmi:id="_pNqDRuxAEe6j1NXKa78ECw" name="Request Resource"/>
+          <ownedLiteral xmi:id="_pNqDR-xAEe6j1NXKa78ECw" name="Request Quote"/>
+          <ownedLiteral xmi:id="_pNqDSOxAEe6j1NXKa78ECw" name="Acknowledge"/>
+          <ownedLiteral xmi:id="_pNqDSexAEe6j1NXKa78ECw" name="Notify Resource Request Disposition"/>
+          <ownedLiteral xmi:id="_pNqDSuxAEe6j1NXKa78ECw" name="Request Information (RFI)"/>
+          <ownedLiteral xmi:id="_pNqDS-xAEe6j1NXKa78ECw" name="Commit Resource"/>
+          <ownedLiteral xmi:id="_pNqDTOxAEe6j1NXKa78ECw" name="Request Extension"/>
+          <ownedLiteral xmi:id="_pNqDTexAEe6j1NXKa78ECw" name="Request Resource Disposition"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pNqDTuxAEe6j1NXKa78ECw" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_pNqDT-xAEe6j1NXKa78ECw" name="ContentCategoryCodeType">
+          <generalization xmi:id="_pNqDUOxAEe6j1NXKa78ECw" general="_pNqDN-xAEe6j1NXKa78ECw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_pNqDUexAEe6j1NXKa78ECw" name="ResponseCodeSimpleType">
+          <ownedLiteral xmi:id="_pNqDUuxAEe6j1NXKa78ECw" name="Decline"/>
+          <ownedLiteral xmi:id="_pNqDU-xAEe6j1NXKa78ECw" name="Accept"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_pNqDVOxAEe6j1NXKa78ECw" name="ResponseCodeType">
+          <generalization xmi:id="_pNqDVexAEe6j1NXKa78ECw" general="_pNqDUexAEe6j1NXKa78ECw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum ContentCategoryCodeSimpleType {
+    Accept,
+    Offer_Unsolicited_Resources,
+    Notify_Auxiliary_Recipients,
+    Decline,
+    Cancel,
+    Response_to_Offer_Unsolicited_Resources,
+    Request_Return,
+    Requisition_Resource,
+    Response_to_Request_Resource,
+    Response_to_Request_Return,
+    Response_to_Request_Information_RFI,
+    Response_to_Request_Quote,
+    Release_Resource,
+    Update,
+    Request_Resource,
+    Request_Quote,
+    Acknowledge,
+    Notify_Resource_Request_Disposition,
+    Request_Information_RFI,
+    Commit_Resource,
+    Request_Extension,
+    Request_Resource_Disposition
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum ContentCategoryCodeType {
+    Accept,
+    Offer_Unsolicited_Resources,
+    Notify_Auxiliary_Recipients,
+    Decline,
+    Cancel,
+    Response_to_Offer_Unsolicited_Resources,
+    Request_Return,
+    Requisition_Resource,
+    Response_to_Request_Resource,
+    Response_to_Request_Return,
+    Response_to_Request_Information_RFI,
+    Response_to_Request_Quote,
+    Release_Resource,
+    Update,
+    Request_Resource,
+    Request_Quote,
+    Acknowledge,
+    Notify_Resource_Request_Disposition,
+    Request_Information_RFI,
+    Commit_Resource,
+    Request_Extension,
+    Request_Resource_Disposition
+}
+
+public enum ResponseCodeSimpleType {
+    Decline,
+    Accept
+}
+
+public enum ResponseCodeType {
+    Decline,
+    Accept
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

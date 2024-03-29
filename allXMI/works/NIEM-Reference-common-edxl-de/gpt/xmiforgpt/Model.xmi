@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_HyS30O3OEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_HyS30e3OEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_HyS30u3OEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HyS30-3OEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HyS31O3OEe6yiIkslZcBIA" name="external"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HyS31e3OEe6yiIkslZcBIA" name="edxl-de">
+    <packagedElement xmi:type="uml:Package" xmi:id="_HyS31u3OEe6yiIkslZcBIA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HyS31-3OEe6yiIkslZcBIA" name="edxl-de">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HyS32O3OEe6yiIkslZcBIA" name="DistributionElementAdapterType"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HyS32e3OEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder">
+          <ownedAttribute xmi:id="_HyS32u3OEe6yiIkslZcBIA" name="DistributionElementAdapter" type="_HyS32O3OEe6yiIkslZcBIA" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HyTe4O3OEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_HyTe4e3OEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_HyTe4u3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_HyTe4-3OEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_HyTe5O3OEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_HyTe5e3OEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_HyTe5u3OEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_HyTe5-3OEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_HyTe6O3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_HyTe6e3OEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_HyTe6u3OEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_HyTe6-3OEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_HyTe7O3OEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_HyTe7e3OEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_HyTe7u3OEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_HyTe7-3OEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_HyTe8O3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_HyTe8e3OEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_HyTe8u3OEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_HyTe8-3OEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_HyTe9O3OEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_HyTe9e3OEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

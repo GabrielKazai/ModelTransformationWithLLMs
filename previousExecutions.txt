@@ -42,3 +42,5 @@ TimeML
 example1
 StateDiagramTests
 PrimitiveTypes 
+Patterns
+orm_test1 

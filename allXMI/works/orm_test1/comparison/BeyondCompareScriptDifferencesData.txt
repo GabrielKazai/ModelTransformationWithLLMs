@@ -1,0 +1,321 @@
+﻿Table Compare
+Produced: 2024-03-29 13:02:45
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\orm_test1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\orm_test1\gpt\gptoutput\cleanGPT.java
+1:                                                                                                              2:    1:                                                              2:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+                                                                                                                   -+ }public Object set_force_insert(Object $val) {    return null   }public Object set_campo_fecha_vigencia(Object $val) {    return nullMessage ChatGPT…ChatGPT can make mistakes. Consider checking important information.?
+                                                                                                                   -+ }typescriptCopy codepublic
+class ABM extends ORM {                                                                                            +-
+class ClassGetter {                                                                                                +-
+class Exception {                                                                                                  +-
+class Model extends ORM {                                                                                          +-
+class ORM {                                                                                                        +-
+                                                                                                                   -+ Object add_mensaje(Object $msg) {
+                                                                                                                   -+ ORM(String $tabla) {
+                                                                                                                   -+ private Object check_tabla_existe() {
+                                                                                                                   -+ private Object get_empty_fields() {
+private void check_tabla_existe() {                                                                                +-
+private void get_empty_fields() {                                                                                  +-
+                                                                                                                   -+ protected Object parse_fields(Object $r) {
+                                                                                                                   -+ protected Object setup_fields() {
+protected void parse_fields(final mixed $r) {                                                                      +-
+protected void setup_fields() {                                                                                    +-
+                                                                                                                   -+ public ABM(String $tabla) {
+                                                                                                                   -+ public class ABM extends ORM {
+public class array {                                                                                               +-
+public class bool {                                                                                                +-
+                                                                                                                   -+ public class Exception {
+public class int {                                                                                                 +-
+public class mixed {                                                                                               +-
+public class null {                                                                                                +-
+public class object {                                                                                              +-
+                                                                                                                   -+ public class ORM {
+public class resource {                                                                                            +-
+public class void {                                                                                                +-
+                                                                                                                   -+ public interface Countable {
+                                                                                                                   -+ public interface Iterator {
+public mixed $datos                                                                                                +-
+                                                                                                                   -+ public Object $datos                                            typescriptCopy codepublic
+                                                                                                                   -+ public Object baja(Object $id, boolean $logica, Object $data) {
+                                                                                                                   -+ public Object get(Object $campo) {
+                                                                                                                   -+ public Object get_campo_fk_values(Object $campo) {
+                                                                                                                   -+ public Object get_campo_id() {
+                                                                                                                   -+ public Object get_campos(boolean $simple) {
+                                                                                                                   -+ public Object get_fields() {
+                                                                                                                   -+ public Object get_items_por_pagina() {
+                                                                                                                   -+ public Object get_mensajes() {
+                                                                                                                   -+ public Object get_metodo_serializacion() {
+                                                                                                                   -+ public Object get_pagina_actual() {
+                                                                                                                   -+ public Object get_tabla() {
+                                                                                                                   -+ public Object load(Object $condiciones) {
+                                                                                                                   -+ public Object load_campos() {
+                                                                                                                   -+ public Object reactivar(Object $id, Object $data) {
+                                                                                                                   -+ public Object save() {
+                                                                                                                   -+ public Object set(Object $campo, Object $valor) {
+                                                                                                                   -+ public Object set_campo_id(Object $str) {
+                                                                                                                   -+ public Object set_fields(Object $r) {
+                                                                                                                   -+ public Object set_items_por_pagina(Object $val) {
+                                                                                                                   -+ public Object set_metodo_serializacion(Object $val) {
+                                                                                                                   -+ public Object set_pagina_actual(Object $val) {
+                                                                                                                   -+ public Object set_tabla(String $tabla) {
+                                                                                                                   -+ public static final int ERROR_SAVE = 1
+                                                                                                                   -+ public static final int ERROR_VALIDACION = 2
+public static int ERROR_SAVE = 1                                                                                   +-
+public static int ERROR_VALIDACION = 2                                                                             +-
+public static void get(final mixed $tabla, final mixed $criterios) {                                               +-
+public static void get_all(final mixed $tabla) {                                                                   +-
+public void __construct(final mixed $tabla) {                                                                      +-
+public void __construct(final mixed $tabla) {                                                                      +-
+public void __construct(final String $tabla) {                                                                     +-
+public void add_code_to_form(final mixed $str, final bool $arriba) {                                               +-
+public void add_form_button(final mixed $button, final bool $ultimo) {                                             +-
+public void add_mensaje(final mixed $msg) {                                                                        +-
+public void analizar_operacion(final mixed $data) {                                                                +-
+public void baja(final mixed $id, final bool $logica, final mixed $data) {                                         +-
+public void get(final mixed $campo) {                                                                              +-
+public void get_campo_fecha_vigencia() {                                                                           +-
+public void get_campo_fk_values(final mixed $campo) {                                                              +-
+public void get_campo_id() {                                                                                       +-
+public void get_campos(final bool $simple) {                                                                       +-
+public void get_data() {                                                                                           +-
+public void get_fields() {                                                                                         +-
+public void get_form_buttons() {                                                                                   +-
+public void get_items_por_pagina() {                                                                               +-
+public void get_mensajes() {                                                                                       +-
+public void get_metodo_serializacion() {                                                                           +-
+public void get_operacion() {                                                                                      +-
+public void get_pagina_actual() {                                                                                  +-
+public void get_request_data() {                                                                                   +-
+public void get_rotulos_from_field_names(final mixed $fns) {                                                       +-
+public void get_tabla() {                                                                                          +-
+public void is_new_item() {                                                                                        +-
+public void load(final int $id) {                                                                                  +-
+public void load(final mixed $condiciones) {                                                                       +-
+public void load_campos() {                                                                                        +-
+public void load_fields_from_array(final mixed $arr) {                                                             +-
+public void reactivar(final mixed $id, final mixed $data) {                                                        +-
+public void render_form(final mixed $data) {                                                                       +-
+public void render_form_html(final mixed $data) {                                                                  +-
+public void render_form_json() {                                                                                   +-
+public void requiere_nueva_vigencia() {                                                                            +-
+public void save() {                                                                                               +-
+public void search(final mixed $criterios) {                                                                       +-
+public void search(final mixed $criterios, final mixed $campos, final mixed $campo_id, final mixed $paginado) {    +-
+public void set(final mixed $campo, final mixed $valor) {                                                          +-
+public void set_campo_fecha_vigencia(final mixed $val) {                                                           +-
+public void set_campo_id(final mixed $str) {                                                                       +-
+public void set_fields(final mixed $r) {                                                                           +-
+public void set_force_insert(final mixed $val) {                                                                   +-
+public void set_form_buttons(final mixed $arr) {                                                                   +-
+public void set_form_columnas(final int $int) {                                                                    +-
+public void set_form_titulo(final mixed $str) {                                                                    +-
+public void set_items_por_pagina(final mixed $val) {                                                               +-
+public void set_metodo_serializacion(final mixed $val) {                                                           +-
+public void set_operacion(final mixed $op) {                                                                       +-
+public void set_pagina_actual(final mixed $val) {                                                                  +-
+public void set_request_data(final mixed $data) {                                                                  +-
+public void set_tabla(final String $tabla) {                                                                       +-
+public void tiene_fecha_vigencia() {                                                                               +-
+public void tiene_valor_en_campo_id() {                                                                            +-
+public void to_json() {                                                                                            +-
+public void validate() {                                                                                           +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+                                                                                                                   -+ super($tabla)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

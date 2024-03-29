@@ -41,3 +41,4 @@ testing
 TimeML 
 example1
 StateDiagramTests
+PrimitiveTypes 

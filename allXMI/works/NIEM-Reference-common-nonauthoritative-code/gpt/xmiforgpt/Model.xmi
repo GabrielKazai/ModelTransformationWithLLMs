@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_61hcMO3JEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_61hcMe3JEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_61hcMu3JEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_61hcM-3JEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_61hcNO3JEe6yiIkslZcBIA" name="nonauthoritative-code">
+    <packagedElement xmi:type="uml:Package" xmi:id="_61hcNe3JEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_61hcNu3JEe6yiIkslZcBIA" name="nonauthoritative-code">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcN-3JEe6yiIkslZcBIA" name="FamilyKinshipCodeSimpleType">
+          <ownedLiteral xmi:id="_61hcOO3JEe6yiIkslZcBIA" name="foster"/>
+          <ownedLiteral xmi:id="_61hcOe3JEe6yiIkslZcBIA" name="biological"/>
+          <ownedLiteral xmi:id="_61hcOu3JEe6yiIkslZcBIA" name="marriage"/>
+          <ownedLiteral xmi:id="_61hcO-3JEe6yiIkslZcBIA" name="adoption"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_61hcPO3JEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcPe3JEe6yiIkslZcBIA" name="FamilyKinshipCodeType">
+          <generalization xmi:id="_61hcPu3JEe6yiIkslZcBIA" general="_61hcN-3JEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcP-3JEe6yiIkslZcBIA" name="ImagePoseCodeSimpleType">
+          <ownedLiteral xmi:id="_61hcQO3JEe6yiIkslZcBIA" name="Oblique"/>
+          <ownedLiteral xmi:id="_61hcQe3JEe6yiIkslZcBIA" name="Frontal"/>
+          <ownedLiteral xmi:id="_61hcQu3JEe6yiIkslZcBIA" name="Side"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcQ-3JEe6yiIkslZcBIA" name="ImagePoseCodeType">
+          <generalization xmi:id="_61hcRO3JEe6yiIkslZcBIA" general="_61hcP-3JEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcRe3JEe6yiIkslZcBIA" name="MarriageCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_61hcRu3JEe6yiIkslZcBIA" name="civil union"/>
+          <ownedLiteral xmi:id="_61hcR-3JEe6yiIkslZcBIA" name="unknown"/>
+          <ownedLiteral xmi:id="_61hcSO3JEe6yiIkslZcBIA" name="common law"/>
+          <ownedLiteral xmi:id="_61hcSe3JEe6yiIkslZcBIA" name="married"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcSu3JEe6yiIkslZcBIA" name="MarriageCategoryCodeType">
+          <generalization xmi:id="_61hcS-3JEe6yiIkslZcBIA" general="_61hcRe3JEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcTO3JEe6yiIkslZcBIA" name="MarriageStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_61hcTe3JEe6yiIkslZcBIA" name="unknown"/>
+          <ownedLiteral xmi:id="_61hcTu3JEe6yiIkslZcBIA" name="separated"/>
+          <ownedLiteral xmi:id="_61hcT-3JEe6yiIkslZcBIA" name="married"/>
+          <ownedLiteral xmi:id="_61hcUO3JEe6yiIkslZcBIA" name="widowed"/>
+          <ownedLiteral xmi:id="_61hcUe3JEe6yiIkslZcBIA" name="divorced"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcUu3JEe6yiIkslZcBIA" name="MarriageStatusCodeType">
+          <generalization xmi:id="_61hcU-3JEe6yiIkslZcBIA" general="_61hcTO3JEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcVO3JEe6yiIkslZcBIA" name="PersonNameCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_61hcVe3JEe6yiIkslZcBIA" name="handle"/>
+          <ownedLiteral xmi:id="_61hcVu3JEe6yiIkslZcBIA" name="aka"/>
+          <ownedLiteral xmi:id="_61hcV-3JEe6yiIkslZcBIA" name="dba"/>
+          <ownedLiteral xmi:id="_61hcWO3JEe6yiIkslZcBIA" name="moniker"/>
+          <ownedLiteral xmi:id="_61hcWe3JEe6yiIkslZcBIA" name="call sign"/>
+          <ownedLiteral xmi:id="_61hcWu3JEe6yiIkslZcBIA" name="pseudonym"/>
+          <ownedLiteral xmi:id="_61hcW-3JEe6yiIkslZcBIA" name="nickname"/>
+          <ownedLiteral xmi:id="_61hcXO3JEe6yiIkslZcBIA" name="user id"/>
+          <ownedLiteral xmi:id="_61hcXe3JEe6yiIkslZcBIA" name="alias"/>
+          <ownedLiteral xmi:id="_61hcXu3JEe6yiIkslZcBIA" name="other"/>
+          <ownedLiteral xmi:id="_61hcX-3JEe6yiIkslZcBIA" name="provided"/>
+          <ownedLiteral xmi:id="_61hcYO3JEe6yiIkslZcBIA" name="fka"/>
+          <ownedLiteral xmi:id="_61hcYe3JEe6yiIkslZcBIA" name="unknown"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcYu3JEe6yiIkslZcBIA" name="PersonNameCategoryCodeType">
+          <generalization xmi:id="_61hcY-3JEe6yiIkslZcBIA" general="_61hcVO3JEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_61hcZO3JEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcZe3JEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_61hcZu3JEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_61hcZ-3JEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_61hcaO3JEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_61hcae3JEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_61hcau3JEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hca-3JEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_61hcbO3JEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_61hcbe3JEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_61hcbu3JEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_61hcb-3JEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_61hccO3JEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_61hcce3JEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_61hccu3JEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_61hcc-3JEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_61hcdO3JEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_61hcde3JEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_61hcdu3JEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_61hcd-3JEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_61hceO3JEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_61hcee3JEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

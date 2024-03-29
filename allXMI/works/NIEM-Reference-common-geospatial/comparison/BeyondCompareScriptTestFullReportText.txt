@@ -1,0 +1,106 @@
+Text Compare
+Produced: 2024-03-29 17:10:18
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-geospatial\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-geospatial\gpt\gptoutput\cleanGPT.java
+                                              +-
+---------------------------------------------------------------------------------------------------------------------------------------
+public class ArcByCenterPointType {           =  public class ArcByCenterPointType {
+}                                                }
+
+public class ArcType {                           public class ArcType {
+}                                                }
+
+public class CircleByCenterPointType {           public class CircleByCenterPointType {
+}                                                }
+
+public class CircleType {                        public class CircleType {
+}                                                }
+
+public class CurveType {                         public class CurveType {
+}                                                }
+
+public class EllipseType {                       public class EllipseType {
+}                                                }
+
+public class EnvelopeType {                      public class EnvelopeType {
+}                                                }
+
+public class LineStringType {                    public class LineStringType {
+}                                                }
+
+public class MultiCurveType {                    public class MultiCurveType {
+}                                                }
+
+public class MultiGeometryType {                 public class MultiGeometryType {
+}                                                }
+
+public class MultiPointType {                    public class MultiPointType {
+}                                                }
+
+public class MultiSurfaceType {                  public class MultiSurfaceType {
+}                                                }
+
+public class PointType {                         public class PointType {
+}                                                }
+
+public class PolygonType {                       public class PolygonType {
+}                                                }
+
+public class SurfaceType {                       public class SurfaceType {
+}                                                }
+
+public class NamespaceElementPropertyHolder {    public class NamespaceElementPropertyHolder {
+---------------------------------------------------------------------------------------------------------------------------------------
+                                              -+     private PointType Point;
+                                                     private CircleByCenterPointType CircleByCenterPoint;
+                                                     private MultiPointType MultiPoint;
+                                                     private PolygonType Polygon;
+                                                     private SurfaceType Surface;
+                                                     private ArcByCenterPointType ArcByCenterPoint;
+                                                     private EllipseType Ellipse;
+                                                     private EnvelopeType Envelope;
+                                                     private ArcType Arc;
+                                                     private MultiSurfaceType MultiSurface;
+                                                     private MultiCurveType MultiCurve;
+                                                     private CurveType Curve;
+                                                     private MultiGeometryType MultiGeometry;
+                                                     private CircleType Circle;
+                                                     private LineStringType LineString;
+---------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum ContentKind {                        public enum ContentKind {
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+---------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum FeatureKind {                        public enum FeatureKind {
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+---------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum VisibilityKind {                     public enum VisibilityKind {
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+---------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+---------------------------------------------------------------------------------------------------------------------------------------

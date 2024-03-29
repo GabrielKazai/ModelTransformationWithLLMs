@@ -1,0 +1,66 @@
+Table Compare
+Produced: 2024-03-29 17:23:48
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nlets\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nlets\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                                 4:      5: 6: 7: 8: 9: 10: 11: 12: 13:    1:     2:           3:                                 4:         5:         6:                  7:                  8:    9:  10: 11: 12: 13:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                      <>        C,           Z,                                 D,         A
+       C,                                                                                             <>
+       Z,                                                                                             <>        C,           Z,                                 D,         A
+       D,                                                                                             <>
+       A;                                                                                             <>        D,           A,                                 B,         C
+                                                                                                      <>        D,           A,                                 B,         C
+       ;                                                                                              <>
+                                                                                                      <>        JA,          NJ,                                CJ,        JJ,        SO,                 LE,                 FE,   JG, SA, JC, PD, JF
+       D,                                                                                             <>
+       A,                                                                                             <>        JA,          NJ,                                CJ,        JJ,        SO,                 LE,                 FE,   JG, SA, JC, PD, JF
+       B,                                                                                             <>
+       C;                                                                                             <>        Unspecified, Empty,                             Simple,    Mixed,     ElementOnly
+       ;                                                                                              <>        Unspecified, Simple,                            Attribute, Element,   AttributeWildcard,  ElementWildcard,    Group
+       JA,                                                                                            <>        Unspecified, None,                              ReadOnly,  ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+       NJ,                                                                                            <>
+       CJ,                                                                                            +-
+       JJ,                                                                                            +-
+       SO,                                                                                            +-
+       LE,                                                                                            +-
+       FE,                                                                                            +-
+       JG,                                                                                            +-
+       SA,                                                                                            +-
+       JC,                                                                                            +-
+       PD,                                                                                            +-
+       JF;                                                                                            +-
+                                                                                                      +-
+       ;                                                                                              +-
+                                                                                                      +-
+       Unspecified,                                                                                   +-
+       Empty,                                                                                         +-
+       Simple,                                                                                        +-
+       Mixed,                                                                                         +-
+       ElementOnly;                                                                                   +-
+                                                                                                      +-
+       Unspecified,                                                                                   +-
+       Simple,                                                                                        +-
+       Attribute,                                                                                     +-
+       Element,                                                                                       +-
+       AttributeWildcard,                                                                             +-
+       ElementWildcard,                                                                               +-
+       Group;                                                                                         +-
+                                                                                                      +-
+       Unspecified,                                                                                   +-
+       None,                                                                                          +-
+       ReadOnly,                                                                                      +-
+       ReadWrite,                                                                                     +-
+       ReadOnlyUnsettable,                                                                            +-
+       ReadWriteUnsettable;                                                                           +-
+public class                NamespaceElementPropertyHolder     {                                      <> public enum         AgencyAuthorizationCodeType        {
+public enum                 AgencyAuthorizationCodeType        extends {                              <> public enum         AgencyServiceHoursCodeSimpleType   {
+public enum                 AgencyServiceHoursCodeSimpleType   {                                      <> public enum         AgencyServiceHoursCodeType         {
+public enum                 AgencyServiceHoursCodeType         extends {                              <> public enum         OrganizationCategoryCodeSimpleType {
+public enum                 OrganizationCategoryCodeSimpleType {                                      <> public enum         OrganizationCategoryCodeType       {
+public enum                 OrganizationCategoryCodeType       extends {                              <> public enum         ContentKind                        {
+public enum                 ContentKind                        {                                      <> public enum         FeatureKind                        {
+public enum                 FeatureKind                        {                                      <> public enum         VisibilityKind                     {
+public enum                 VisibilityKind                     {                                      <> public class        NamespaceElementPropertyHolder     {
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

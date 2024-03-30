@@ -1,0 +1,189 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes from XMI
+
+
+Java code generation
+Java Class Model
+Java Class Generation
+Java Classes from XMI.
+Java Code Generation
+Java Classes from XMI
+Java Classes from XMI
+Java Class Generation
+UML Java Class Conversion
+Java Code from XMI.
+Java Class Generation
+Java Code from XMI
+Java Code Generation
+Java Class Models
+Java Class ICISMMetadata
+Java Classes From XMI
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_oLofAO3AEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_oLofAe3AEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_oLofAu3AEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_oLofA-3AEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_oLofBO3AEe6yiIkslZcBIA" name="Logical View">
+    <packagedElement xmi:type="uml:Package" xmi:id="_oLofBe3AEe6yiIkslZcBIA" name="Logical Model">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oLofBu3AEe6yiIkslZcBIA" name="Diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oLofB-3AEe6yiIkslZcBIA" name="gov">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oLofCO3AEe6yiIkslZcBIA" name="nih">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oLofCe3AEe6yiIkslZcBIA" name="nci">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oLofCu3AEe6yiIkslZcBIA" name="sdkexample">
+              <packagedElement xmi:type="uml:Class" xmi:id="_oLofC-3AEe6yiIkslZcBIA" name="Address">
+                <ownedAttribute xmi:id="_oLofDO3AEe6yiIkslZcBIA" name="addressLine1" visibility="private" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofDe3AEe6yiIkslZcBIA" name="addressLine2" visibility="private" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofDu3AEe6yiIkslZcBIA" name="city" visibility="private" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofD-3AEe6yiIkslZcBIA" name="identifier" visibility="private">
+                  <eAnnotations xmi:id="_oLofEO3AEe6yiIkslZcBIA" source="Objing">
+                    <contents xmi:type="uml:Property" xmi:id="_oLofEe3AEe6yiIkslZcBIA" name="isNoType"/>
+                  </eAnnotations>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oLofEu3AEe6yiIkslZcBIA" name="state" visibility="private" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofE-3AEe6yiIkslZcBIA" name="zipcode" visibility="private" type="_oLofOu3AEe6yiIkslZcBIA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_oLofFO3AEe6yiIkslZcBIA" name="Organization">
+                <ownedAttribute xmi:id="_oLofFe3AEe6yiIkslZcBIA" name="identifier" visibility="public">
+                  <eAnnotations xmi:id="_oLofFu3AEe6yiIkslZcBIA" source="Objing">
+                    <contents xmi:type="uml:Property" xmi:id="_oLofF-3AEe6yiIkslZcBIA" name="isNoType"/>
+                  </eAnnotations>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oLofGO3AEe6yiIkslZcBIA" name="name" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofGe3AEe6yiIkslZcBIA" name="postalAddress" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofGu3AEe6yiIkslZcBIA" name="statusCode" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofG-3AEe6yiIkslZcBIA" name="telecomAddress" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_oLofHO3AEe6yiIkslZcBIA" name="Patient">
+                <generalization xmi:id="_oLofHe3AEe6yiIkslZcBIA" general="_oLofH-3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofHu3AEe6yiIkslZcBIA" name="hospital" visibility="private" type="_oLofFO3AEe6yiIkslZcBIA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_oLofH-3AEe6yiIkslZcBIA" name="Person">
+                <ownedAttribute xmi:id="_oLofIO3AEe6yiIkslZcBIA" visibility="public" type="_oLofFO3AEe6yiIkslZcBIA" aggregation="shared" association="_oLofMO3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofIe3AEe6yiIkslZcBIA" name="birthDate" visibility="public" type="_oLofPO3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofIu3AEe6yiIkslZcBIA" name="identifier" visibility="public">
+                  <eAnnotations xmi:id="_oLofI-3AEe6yiIkslZcBIA" source="Objing">
+                    <contents xmi:type="uml:Property" xmi:id="_oLofJO3AEe6yiIkslZcBIA" name="isNoType"/>
+                  </eAnnotations>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oLofJe3AEe6yiIkslZcBIA" name="name" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofJu3AEe6yiIkslZcBIA" name="postalAddress" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofJ-3AEe6yiIkslZcBIA" name="raceCode" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofKO3AEe6yiIkslZcBIA" name="sexCode" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofKe3AEe6yiIkslZcBIA" name="statusCode" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedAttribute xmi:id="_oLofKu3AEe6yiIkslZcBIA" name="telecomAddress" visibility="public" type="_oLofOu3AEe6yiIkslZcBIA"/>
+                <ownedOperation xmi:id="_oLofK-3AEe6yiIkslZcBIA" name="getNickName" visibility="public">
+                  <ownedParameter xmi:id="_oLofLO3AEe6yiIkslZcBIA" type="_oLofOu3AEe6yiIkslZcBIA" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLofLe3AEe6yiIkslZcBIA" value="1"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oLofLu3AEe6yiIkslZcBIA" value="1"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_oLofL-3AEe6yiIkslZcBIA" value=""/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_oLofMO3AEe6yiIkslZcBIA" memberEnd="_oLofIO3AEe6yiIkslZcBIA _oLofMe3AEe6yiIkslZcBIA">
+                <ownedEnd xmi:id="_oLofMe3AEe6yiIkslZcBIA" visibility="public" type="_oLofH-3AEe6yiIkslZcBIA" association="_oLofMO3AEe6yiIkslZcBIA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oLofMu3AEe6yiIkslZcBIA" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oLofM-3AEe6yiIkslZcBIA" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofNO3AEe6yiIkslZcBIA" name="Boolean"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofNe3AEe6yiIkslZcBIA" name="Character"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofNu3AEe6yiIkslZcBIA" name="Double"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofN-3AEe6yiIkslZcBIA" name="Float"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofOO3AEe6yiIkslZcBIA" name="Integer"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofOe3AEe6yiIkslZcBIA" name="Long"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofOu3AEe6yiIkslZcBIA" name="String"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oLofO-3AEe6yiIkslZcBIA" name="util">
+          <packagedElement xmi:type="uml:Class" xmi:id="_oLofPO3AEe6yiIkslZcBIA" name="Date"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oLofPe3AEe6yiIkslZcBIA" name="Mapping">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oLofPu3AEe6yiIkslZcBIA" name="Diagrams"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Address {
+    private String addressLine1;
+    private String addressLine2;
+    private String city;
+    private int identifier;
+    private String state;
+    private String zipcode;
+}
+
+public class Organization {
+    public int identifier;
+    public String name;
+    public String postalAddress;
+    public String statusCode;
+    public String telecomAddress;
+}
+
+public class Patient extends Person {
+    private Organization hospital;
+}
+
+public class Person {
+    public Organization worksFor;
+    public java.util.Date birthDate;
+    public int identifier;
+    public String name;
+    public String postalAddress;
+    public String raceCode;
+    public String sexCode;
+    public String statusCode;
+    public String telecomAddress;
+
+    public String getNickName() {
+        return "";
+    }
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

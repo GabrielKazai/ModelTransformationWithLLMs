@@ -1,0 +1,412 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+Java Classes from XMI
+Java Classes from XMI
+Java Class Generation
+UML Java Class Conversion
+Java Code from XMI.
+Java Class Generation
+Java Code from XMI
+Java Code Generation
+Java Class Models
+Java Class ICISMMetadata
+Java Classes From XMI
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_5icyIO3GEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_5icyIe3GEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_5icyIu3GEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_5icyI-3GEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_5icyJO3GEe6yiIkslZcBIA" name="ut_offender-tracking-misc">
+    <packagedElement xmi:type="uml:Package" xmi:id="_5icyJe3GEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5icyJu3GEe6yiIkslZcBIA" name="ut_offender-tracking-misc">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyJ-3GEe6yiIkslZcBIA" name="CaseDispositionDecisionCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_5icyKO3GEe6yiIkslZcBIA" name="216"/>
+          <ownedLiteral xmi:id="_5icyKe3GEe6yiIkslZcBIA" name="214"/>
+          <ownedLiteral xmi:id="_5icyKu3GEe6yiIkslZcBIA" name="208"/>
+          <ownedLiteral xmi:id="_5icyK-3GEe6yiIkslZcBIA" name="215"/>
+          <ownedLiteral xmi:id="_5icyLO3GEe6yiIkslZcBIA" name="203"/>
+          <ownedLiteral xmi:id="_5icyLe3GEe6yiIkslZcBIA" name="206"/>
+          <ownedLiteral xmi:id="_5icyLu3GEe6yiIkslZcBIA" name="211"/>
+          <ownedLiteral xmi:id="_5icyL-3GEe6yiIkslZcBIA" name="218"/>
+          <ownedLiteral xmi:id="_5icyMO3GEe6yiIkslZcBIA" name="212"/>
+          <ownedLiteral xmi:id="_5icyMe3GEe6yiIkslZcBIA" name="201"/>
+          <ownedLiteral xmi:id="_5icyMu3GEe6yiIkslZcBIA" name="217"/>
+          <ownedLiteral xmi:id="_5icyM-3GEe6yiIkslZcBIA" name="205"/>
+          <ownedLiteral xmi:id="_5icyNO3GEe6yiIkslZcBIA" name="207"/>
+          <ownedLiteral xmi:id="_5icyNe3GEe6yiIkslZcBIA" name="204"/>
+          <ownedLiteral xmi:id="_5icyNu3GEe6yiIkslZcBIA" name="210"/>
+          <ownedLiteral xmi:id="_5icyN-3GEe6yiIkslZcBIA" name="213"/>
+          <ownedLiteral xmi:id="_5icyOO3GEe6yiIkslZcBIA" name="219"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5icyOe3GEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyOu3GEe6yiIkslZcBIA" name="CaseDispositionDecisionCategoryCodeType">
+          <generalization xmi:id="_5icyO-3GEe6yiIkslZcBIA" general="_5icyJ-3GEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyPO3GEe6yiIkslZcBIA" name="MilitaryDischargeCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_5icyPe3GEe6yiIkslZcBIA" name="M"/>
+          <ownedLiteral xmi:id="_5icyPu3GEe6yiIkslZcBIA" name="O"/>
+          <ownedLiteral xmi:id="_5icyP-3GEe6yiIkslZcBIA" name="D"/>
+          <ownedLiteral xmi:id="_5icyQO3GEe6yiIkslZcBIA" name="H"/>
+          <ownedLiteral xmi:id="_5icyQe3GEe6yiIkslZcBIA" name="U"/>
+          <ownedLiteral xmi:id="_5icyQu3GEe6yiIkslZcBIA" name="Q"/>
+          <ownedLiteral xmi:id="_5icyQ-3GEe6yiIkslZcBIA" name="G"/>
+          <ownedLiteral xmi:id="_5icyRO3GEe6yiIkslZcBIA" name="N"/>
+          <ownedLiteral xmi:id="_5icyRe3GEe6yiIkslZcBIA" name="B"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyRu3GEe6yiIkslZcBIA" name="MilitaryDischargeCategoryCodeType">
+          <generalization xmi:id="_5icyR-3GEe6yiIkslZcBIA" general="_5icyPO3GEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icySO3GEe6yiIkslZcBIA" name="PleaCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_5icySe3GEe6yiIkslZcBIA" name="N"/>
+          <ownedLiteral xmi:id="_5icySu3GEe6yiIkslZcBIA" name="X"/>
+          <ownedLiteral xmi:id="_5icyS-3GEe6yiIkslZcBIA" name="U"/>
+          <ownedLiteral xmi:id="_5icyTO3GEe6yiIkslZcBIA" name="M"/>
+          <ownedLiteral xmi:id="_5icyTe3GEe6yiIkslZcBIA" name="I"/>
+          <ownedLiteral xmi:id="_5icyTu3GEe6yiIkslZcBIA" name="A"/>
+          <ownedLiteral xmi:id="_5icyT-3GEe6yiIkslZcBIA" name="G"/>
+          <ownedLiteral xmi:id="_5icyUO3GEe6yiIkslZcBIA" name="C"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyUe3GEe6yiIkslZcBIA" name="PleaCategoryCodeType">
+          <generalization xmi:id="_5icyUu3GEe6yiIkslZcBIA" general="_5icySO3GEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyU-3GEe6yiIkslZcBIA" name="SupervisionLevelCodeSimpleType">
+          <ownedLiteral xmi:id="_5icyVO3GEe6yiIkslZcBIA" name="3-HIGH RISK"/>
+          <ownedLiteral xmi:id="_5icyVe3GEe6yiIkslZcBIA" name="COMPACT OUT"/>
+          <ownedLiteral xmi:id="_5icyVu3GEe6yiIkslZcBIA" name="FUGITIVE"/>
+          <ownedLiteral xmi:id="_5icyV-3GEe6yiIkslZcBIA" name="2-MODERATE RISK"/>
+          <ownedLiteral xmi:id="_5icyWO3GEe6yiIkslZcBIA" name="4-EXTREME RISK"/>
+          <ownedLiteral xmi:id="_5icyWe3GEe6yiIkslZcBIA" name="ISP II"/>
+          <ownedLiteral xmi:id="_5icyWu3GEe6yiIkslZcBIA" name="1-LOW RISK"/>
+          <ownedLiteral xmi:id="_5icyW-3GEe6yiIkslZcBIA" name="RESID/IN-STATE CUSTD"/>
+          <ownedLiteral xmi:id="_5icyXO3GEe6yiIkslZcBIA" name="ISP I"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyXe3GEe6yiIkslZcBIA" name="SupervisionLevelCodeType">
+          <generalization xmi:id="_5icyXu3GEe6yiIkslZcBIA" general="_5icyU-3GEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyX-3GEe6yiIkslZcBIA" name="SupervisionRestrictionCodeSimpleType">
+          <ownedLiteral xmi:id="_5icyYO3GEe6yiIkslZcBIA" name="ALCOHOL"/>
+          <ownedLiteral xmi:id="_5icyYe3GEe6yiIkslZcBIA" name="CURFEW"/>
+          <ownedLiteral xmi:id="_5icyYu3GEe6yiIkslZcBIA" name="EMPLOYMENT"/>
+          <ownedLiteral xmi:id="_5icyY-3GEe6yiIkslZcBIA" name="VICIOUS DOGS"/>
+          <ownedLiteral xmi:id="_5icyZO3GEe6yiIkslZcBIA" name="STOLEN VEHICLE"/>
+          <ownedLiteral xmi:id="_5icyZe3GEe6yiIkslZcBIA" name="TRUTHFULNESS"/>
+          <ownedLiteral xmi:id="_5icyZu3GEe6yiIkslZcBIA" name="NO CONTACT W/VICTM"/>
+          <ownedLiteral xmi:id="_5icyZ-3GEe6yiIkslZcBIA" name="EXPLOIT MATERIAL"/>
+          <ownedLiteral xmi:id="_5icyaO3GEe6yiIkslZcBIA" name="REGISTRATION/DNA"/>
+          <ownedLiteral xmi:id="_5icyae3GEe6yiIkslZcBIA" name="FREQUENT SCHOOLS"/>
+          <ownedLiteral xmi:id="_5icyau3GEe6yiIkslZcBIA" name="FEES"/>
+          <ownedLiteral xmi:id="_5icya-3GEe6yiIkslZcBIA" name="SEARCHES"/>
+          <ownedLiteral xmi:id="_5icybO3GEe6yiIkslZcBIA" name="REPORTING"/>
+          <ownedLiteral xmi:id="_5icybe3GEe6yiIkslZcBIA" name="CONDUCT"/>
+          <ownedLiteral xmi:id="_5icybu3GEe6yiIkslZcBIA" name="EMPLOYMENT VERIFY"/>
+          <ownedLiteral xmi:id="_5icyb-3GEe6yiIkslZcBIA" name="LEAVE COUNTY"/>
+          <ownedLiteral xmi:id="_5icycO3GEe6yiIkslZcBIA" name="RELEASE"/>
+          <ownedLiteral xmi:id="_5icyce3GEe6yiIkslZcBIA" name="ABSCONDING"/>
+          <ownedLiteral xmi:id="_5icycu3GEe6yiIkslZcBIA" name="CHILDREN CONGREGATE"/>
+          <ownedLiteral xmi:id="_5icyc-3GEe6yiIkslZcBIA" name="NOT AT COURT"/>
+          <ownedLiteral xmi:id="_5icydO3GEe6yiIkslZcBIA" name="MONTHLY PAYMENTS"/>
+          <ownedLiteral xmi:id="_5icyde3GEe6yiIkslZcBIA" name="UNEMPLOYED"/>
+          <ownedLiteral xmi:id="_5icydu3GEe6yiIkslZcBIA" name="ELECTRONIC MONITOR"/>
+          <ownedLiteral xmi:id="_5icyd-3GEe6yiIkslZcBIA" name="SUBSTANCE TESTING"/>
+          <ownedLiteral xmi:id="_5icyeO3GEe6yiIkslZcBIA" name="HOME VISITS"/>
+          <ownedLiteral xmi:id="_5icyee3GEe6yiIkslZcBIA" name="DISCONNECT PHONE"/>
+          <ownedLiteral xmi:id="_5icyeu3GEe6yiIkslZcBIA" name="SEX STIMULUS MATERIA"/>
+          <ownedLiteral xmi:id="_5icye-3GEe6yiIkslZcBIA" name="GANG MEMBERS"/>
+          <ownedLiteral xmi:id="_5icyfO3GEe6yiIkslZcBIA" name="DRUGS"/>
+          <ownedLiteral xmi:id="_5icyfe3GEe6yiIkslZcBIA" name="DNA"/>
+          <ownedLiteral xmi:id="_5icyfu3GEe6yiIkslZcBIA" name="NOT DATE"/>
+          <ownedLiteral xmi:id="_5icyf-3GEe6yiIkslZcBIA" name="SIGNS/GESTURES"/>
+          <ownedLiteral xmi:id="_5icygO3GEe6yiIkslZcBIA" name="PHONE SERVICES"/>
+          <ownedLiteral xmi:id="_5icyge3GEe6yiIkslZcBIA" name="PAGER"/>
+          <ownedLiteral xmi:id="_5icygu3GEe6yiIkslZcBIA" name="CHEMICAL ANALYSIS"/>
+          <ownedLiteral xmi:id="_5icyg-3GEe6yiIkslZcBIA" name="ENTERTAIN/LURE"/>
+          <ownedLiteral xmi:id="_5icyhO3GEe6yiIkslZcBIA" name="HMU ABUSE"/>
+          <ownedLiteral xmi:id="_5icyhe3GEe6yiIkslZcBIA" name="FIREARM/AMMUITION"/>
+          <ownedLiteral xmi:id="_5icyhu3GEe6yiIkslZcBIA" name="ARREST-CITATIONS"/>
+          <ownedLiteral xmi:id="_5icyh-3GEe6yiIkslZcBIA" name="ASSOCIATION"/>
+          <ownedLiteral xmi:id="_5icyiO3GEe6yiIkslZcBIA" name="GED/DIPLOMA"/>
+          <ownedLiteral xmi:id="_5icyie3GEe6yiIkslZcBIA" name="INSIGNIAS/EMBLEMS"/>
+          <ownedLiteral xmi:id="_5icyiu3GEe6yiIkslZcBIA" name="VISITS"/>
+          <ownedLiteral xmi:id="_5icyi-3GEe6yiIkslZcBIA" name="THERAPY"/>
+          <ownedLiteral xmi:id="_5icyjO3GEe6yiIkslZcBIA" name="PAINT/PENS"/>
+          <ownedLiteral xmi:id="_5icyje3GEe6yiIkslZcBIA" name="PORNOGRAPHY"/>
+          <ownedLiteral xmi:id="_5icyju3GEe6yiIkslZcBIA" name="DOCUMENTS/DATA/PHOTO"/>
+          <ownedLiteral xmi:id="_5icyj-3GEe6yiIkslZcBIA" name="DRIVER LICENSE/ID"/>
+          <ownedLiteral xmi:id="_5icykO3GEe6yiIkslZcBIA" name="SPECIAL"/>
+          <ownedLiteral xmi:id="_5icyke3GEe6yiIkslZcBIA" name="FREQUENT GANG PLACES"/>
+          <ownedLiteral xmi:id="_5icyku3GEe6yiIkslZcBIA" name="FIREARMS USED"/>
+          <ownedLiteral xmi:id="_5icyk-3GEe6yiIkslZcBIA" name="SUPERVISION FEE"/>
+          <ownedLiteral xmi:id="_5icylO3GEe6yiIkslZcBIA" name="VEHICLE"/>
+          <ownedLiteral xmi:id="_5icyle3GEe6yiIkslZcBIA" name="TREATMENT/COUNSELING"/>
+          <ownedLiteral xmi:id="_5icylu3GEe6yiIkslZcBIA" name="LAW ENFORCE CONTACT"/>
+          <ownedLiteral xmi:id="_5icyl-3GEe6yiIkslZcBIA" name="ALCOHOL ESTABLISHMNT"/>
+          <ownedLiteral xmi:id="_5icymO3GEe6yiIkslZcBIA" name="RESIDENCE"/>
+          <ownedLiteral xmi:id="_5icyme3GEe6yiIkslZcBIA" name="POLYGRAPH"/>
+          <ownedLiteral xmi:id="_5icymu3GEe6yiIkslZcBIA" name="VICTIM CONTACT"/>
+          <ownedLiteral xmi:id="_5icym-3GEe6yiIkslZcBIA" name="WEAPONS"/>
+          <ownedLiteral xmi:id="_5icynO3GEe6yiIkslZcBIA" name="INTERSTATE COMPACT"/>
+          <ownedLiteral xmi:id="_5icyne3GEe6yiIkslZcBIA" name="CHILDREN UNDER 18"/>
+          <ownedLiteral xmi:id="_5icynu3GEe6yiIkslZcBIA" name="PROVIDE PHONE LINE"/>
+          <ownedLiteral xmi:id="_5icyn-3GEe6yiIkslZcBIA" name="FINANCIAL AGREEMENT"/>
+          <ownedLiteral xmi:id="_5icyoO3GEe6yiIkslZcBIA" name="NO ALCOHOL"/>
+          <ownedLiteral xmi:id="_5icyoe3GEe6yiIkslZcBIA" name="HMU MOVE"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyou3GEe6yiIkslZcBIA" name="SupervisionRestrictionCodeType">
+          <generalization xmi:id="_5icyo-3GEe6yiIkslZcBIA" general="_5icyX-3GEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_5icypO3GEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icype3GEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_5icypu3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_5icyp-3GEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_5icyqO3GEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_5icyqe3GEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_5icyqu3GEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icyq-3GEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_5icyrO3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_5icyre3GEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_5icyru3GEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_5icyr-3GEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_5icysO3GEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_5icyse3GEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_5icysu3GEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_5icys-3GEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_5icytO3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_5icyte3GEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_5icytu3GEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_5icyt-3GEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_5icyuO3GEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_5icyue3GEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum CaseDispositionDecisionCategoryCodeSimpleType {
+    _216,
+    _214,
+    _208,
+    _215,
+    _203,
+    _206,
+    _211,
+    _218,
+    _212,
+    _201,
+    _217,
+    _205,
+    _207,
+    _204,
+    _210,
+    _213,
+    _219
+}
+
+public enum CaseDispositionDecisionCategoryCodeType {
+    // Inherits values from CaseDispositionDecisionCategoryCodeSimpleType
+}
+
+public class NamespaceElementPropertyHolder {
+    // Class with no defined properties
+}
+
+public enum MilitaryDischargeCategoryCodeSimpleType {
+    M,
+    O,
+    D,
+    H,
+    U,
+    Q,
+    G,
+    N,
+    B
+}
+
+public enum MilitaryDischargeCategoryCodeType {
+    // Inherits values from MilitaryDischargeCategoryCodeSimpleType
+}
+
+public enum PleaCategoryCodeSimpleType {
+    N,
+    X,
+    U,
+    M,
+    I,
+    A,
+    G,
+    C
+}
+
+public enum PleaCategoryCodeType {
+    // Inherits values from PleaCategoryCodeSimpleType
+}
+
+public enum SupervisionLevelCodeSimpleType {
+    _3_HIGH_RISK,
+    COMPACT_OUT,
+    FUGITIVE,
+    _2_MODERATE_RISK,
+    _4_EXTREME_RISK,
+    ISP_II,
+    _1_LOW_RISK,
+    RESID_IN_STATE_CUSTD,
+    ISP_I
+}
+
+public enum SupervisionLevelCodeType {
+    // Inherits values from SupervisionLevelCodeSimpleType
+}
+
+public enum SupervisionRestrictionCodeSimpleType {
+    ALCOHOL,
+    CURFEW,
+    EMPLOYMENT,
+    VICIOUS_DOGS,
+    STOLEN_VEHICLE,
+    TRUTHFULNESS,
+    NO_CONTACT_W_VICTM,
+    EXPLOIT_MATERIAL,
+    REGISTRATION_DNA,
+    FREQUENT_SCHOOLS,
+    FEES,
+    SEARCHES,
+    REPORTING,
+    CONDUCT,
+    EMPLOYMENT_VERIFY,
+    LEAVE_COUNTY,
+    RELEASE,
+    ABSCONDING,
+    CHILDREN_CONGREGATE,
+    NOT_AT_COURT,
+    MONTHLY_PAYMENTS,
+    UNEMPLOYED,
+    ELECTRONIC_MONITOR,
+    SUBSTANCE_TESTING,
+    HOME_VISITS,
+    DISCONNECT_PHONE,
+    SEX_STIMULUS_MATERIA,
+    GANG_MEMBERS,
+    DRUGS,
+    DNA,
+    NOT_DATE,
+    SIGNS_GESTURES,
+    PHONE_SERVICES,
+    PAGER,
+    CHEMICAL_ANALYSIS,
+    ENTERTAIN_LURE,
+    HMU_ABUSE,
+    FIREARM_AMMUITION,
+    ARREST_CITATIONS,
+    ASSOCIATION,
+    GED_DIPLOMA,
+    INSIGNIAS_EMBLEMS,
+    VISITS,
+    THERAPY,
+    PAINT_PENS,
+    PORNOGRAPHY,
+    DOCUMENTS_DATA_PHOTO,
+    DRIVER_LICENSE_ID,
+    SPECIAL,
+    FREQUENT_GANG_PLACES,
+    FIREARMS_USED,
+    SUPERVISION_FEE,
+    VEHICLE,
+    TREATMENT_COUNSELING,
+    LAW_ENFORCE_CONTACT,
+    ALCOHOL_ESTABLISHMNT,
+    RESIDENCE,
+    POLYGRAPH,
+    VICTIM_CONTACT,
+    WEAPONS,
+    INTERSTATE_COMPACT,
+    CHILDREN_UNDER_18,
+    PROVIDE_PHONE_LINE,
+    FINANCIAL_AGREEMENT,
+    NO_ALCOHOL,
+    HMU_MOVE
+}
+
+public enum SupervisionRestrictionCodeType {
+    // Inherits values from SupervisionRestrictionCodeSimpleType
+}
+
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

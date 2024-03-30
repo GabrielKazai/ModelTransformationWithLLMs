@@ -1,0 +1,111 @@
+Table Compare
+Produced: 2024-03-29 17:39:12
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-domains-infrastrucuteProtection\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-domains-infrastrucuteProtection\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                             4:            5: 6:  7:                                 1:                                                                                 2: 3: 4: 5: 6: 7:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       public               List<AssetType>                Asset         =  new ArrayList<AssetType>();         <>
+       ;                                                                                                        <>
+       3,                                                                                                       <>
+       2,                                                                                                       <>
+       1;                                                                                                       <>
+                                                                                                                +-
+       public               List<SubsectorType>            SubSector     =  new ArrayList<SubsectorType>();     +-
+                                                                                                                +-
+                                                                                                                +-
+       public               List<SegmentType>              Segment       =  new ArrayList<SegmentType>();       +-
+                                                                                                                +-
+                                                                                                                +-
+       public               List<SubsegmentType>           SubSegment    =  new ArrayList<SubsegmentType>();    +-
+                                                                                                                +-
+                                                                                                                +-
+       public               List<AssetCategoryType>        AssetCategory =  new ArrayList<AssetCategoryType>(); +-
+                                                                                                                +-
+                                                                                                                +-
+       Unspecified,                                                                                             +-
+       Empty,                                                                                                   +-
+       Simple,                                                                                                  +-
+       Mixed,                                                                                                   +-
+       ElementOnly;                                                                                             +-
+                                                                                                                +-
+       Unspecified,                                                                                             +-
+       Simple,                                                                                                  +-
+       Attribute,                                                                                               +-
+       Element,                                                                                                 +-
+       AttributeWildcard,                                                                                       +-
+       ElementWildcard,                                                                                         +-
+       Group;                                                                                                   +-
+                                                                                                                +-
+       Unspecified,                                                                                             +-
+       None,                                                                                                    +-
+       ReadOnly,                                                                                                +-
+       ReadWrite,                                                                                               +-
+       ReadOnlyUnsettable,                                                                                      +-
+       ReadWriteUnsettable;                                                                                     +-
+                                                                                                                -+ _3, _2, _1
+                                                                                                                -+ _3, _2, _1
+public class                AssetCategoryType              {                                                    +-
+public class                NamespaceElementPropertyHolder {                                                    +-
+public class                AssetType                      {                                                    +-
+public enum                 AssetStatusCodeType            extends       {                                      +-
+public enum                 AssetStatusCodeSimpleType      {                                                    +-
+public class                SectorType                     {                                                    +-
+public class                SubsectorType                  {                                                    +-
+public class                SegmentType                    {                                                    +-
+public class                SubsegmentType                 {                                                    +-
+public enum                 ContentKind                    {                                                    +-
+public enum                 FeatureKind                    {                                                    +-
+public enum                 VisibilityKind                 {                                                    +-
+                                                                                                                -+ public AssetCategoryType AssetCategory
+                                                                                                                -+ public AssetStatusCodeType AssetStatusCode
+                                                                                                                -+ public AssetType Asset
+                                                                                                                -+ public class AssetCategoryType {
+                                                                                                                -+ public class AssetType {
+                                                                                                                -+ public class NamespaceElementPropertyHolder {
+                                                                                                                -+ public class SectorType {
+                                                                                                                -+ public class SegmentType {
+                                                                                                                -+ public class SubsectorType {
+                                                                                                                -+ public class SubsegmentType {
+                                                                                                                -+ public enum AssetStatusCodeSimpleType {
+                                                                                                                -+ public enum AssetStatusCodeType {
+                                                                                                                -+ public enum ContentKind {
+                                                                                                                -+ public enum FeatureKind {
+                                                                                                                -+ public enum VisibilityKind {
+                                                                                                                -+ public SectorType Sector
+                                                                                                                -+ public SegmentType Segment
+                                                                                                                -+ public String AssetAliasName
+                                                                                                                -+ public String AssetCategoryDescriptionText
+                                                                                                                -+ public String AssetCategoryID
+                                                                                                                -+ public String AssetCategoryName
+                                                                                                                -+ public String AssetCategoryName
+                                                                                                                -+ public String AssetCategoryName
+                                                                                                                -+ public String AssetID
+                                                                                                                -+ public String AssetName
+                                                                                                                -+ public String SectorName
+                                                                                                                -+ public String SectorName
+                                                                                                                -+ public String SectorName
+                                                                                                                -+ public String SectorTaxonomyDescriptionText
+                                                                                                                -+ public String SectorTaxonomyID
+                                                                                                                -+ public String SegmentName
+                                                                                                                -+ public String SegmentName
+                                                                                                                -+ public String SegmentName
+                                                                                                                -+ public String SegmentTaxonomyDescriptionText
+                                                                                                                -+ public String SegmentTaxonomyID
+                                                                                                                -+ public String SubSectorName
+                                                                                                                -+ public String SubSectorName
+                                                                                                                -+ public String SubSectorName
+                                                                                                                -+ public String SubSectorTaxonomyDescriptionText
+                                                                                                                -+ public String SubSectorTaxonomyID
+                                                                                                                -+ public String SubSegmentDescriptionText
+                                                                                                                -+ public String SubSegmentName
+                                                                                                                -+ public String SubSegmentName
+                                                                                                                -+ public String SubSegmentName
+                                                                                                                -+ public String SubSegmentTaxonomyID
+                                                                                                                -+ public SubsectorType SubSector
+                                                                                                                -+ public SubsegmentType SubSegment
+                                                                                                                -+ Unspecified, Empty, Simple, Mixed, ElementOnly
+                                                                                                                -+ Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                                                                                -+ Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

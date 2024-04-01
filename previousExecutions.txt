@@ -72,3 +72,5 @@ nga_erd
 NestedLoops
 modelio-no-annotations
 LongSequence
+BigAllPatterns
+AirportCheckin

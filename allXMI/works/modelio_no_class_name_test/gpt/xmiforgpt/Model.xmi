@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_x5vgsO_9Ee6i4a0QcJFHYQ" name="Model">
+  <eAnnotations xmi:id="_x5vgse_9Ee6i4a0QcJFHYQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_x5vgsu_9Ee6i4a0QcJFHYQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_x5vgs-_9Ee6i4a0QcJFHYQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_x5vgtO_9Ee6i4a0QcJFHYQ" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_x5vgte_9Ee6i4a0QcJFHYQ" name="Class">
+    <ownedAttribute xmi:id="_x5vgtu_9Ee6i4a0QcJFHYQ" name="Attribute" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_x5vgt-_9Ee6i4a0QcJFHYQ">
+    <ownedAttribute xmi:id="_x5vguO_9Ee6i4a0QcJFHYQ" name="toto" visibility="public" type="_x5vgte_9Ee6i4a0QcJFHYQ" aggregation="composite" association="_x5vguu_9Ee6i4a0QcJFHYQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x5vgue_9Ee6i4a0QcJFHYQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_x5vguu_9Ee6i4a0QcJFHYQ" memberEnd="_x5vguO_9Ee6i4a0QcJFHYQ _x5vgu-_9Ee6i4a0QcJFHYQ">
+    <ownedEnd xmi:id="_x5vgu-_9Ee6i4a0QcJFHYQ" visibility="public" type="_x5vgt-_9Ee6i4a0QcJFHYQ" association="_x5vguu_9Ee6i4a0QcJFHYQ"/>
+  </packagedElement>
+</uml:Model>

@@ -73,3 +73,4 @@ NestedLoops
 modelio-no-annotations
 LongSequence
 BigAllPatterns
+AirportCheckin

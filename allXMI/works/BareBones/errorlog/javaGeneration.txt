@@ -1,0 +1,4 @@
+Unable to generate:
+SimpleInteraction
+ClassB
+ClassDD

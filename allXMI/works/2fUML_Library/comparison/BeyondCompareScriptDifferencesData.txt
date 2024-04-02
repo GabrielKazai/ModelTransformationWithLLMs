@@ -1,0 +1,122 @@
+Table Compare
+Produced: 2024-04-02 12:56:01
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\2fUML_Library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\2fUML_Library\gpt\gptoutput\cleanGPT.java
+1:                                                                                    2: 3: 4: 5: 6: 7: 8: 9: 10:    1:                                                                                                                                                               2:                                                                 3:                                                                4:                                                                        5:                                                                                                           6:                                                                                                                                                                                                                                   7:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  8:              9:                        10:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+                                                                                                                  +-
+// TODO Auto-generated return                                                                                     +-
+// TODO Auto-generated return                                                                                     +-
+// TODO Auto-generated return                                                                                     +-
+// TODO Auto-generated return                                                                                     +-
+// TODO Auto-generated return                                                                                     +-
+// TODO Auto-generated return                                                                                     +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+}                                                                                                                 +-
+package BasicInputOutput                                                                                          +-
+package BasicInputOutput                                                                                          +-
+package BasicInputOutput                                                                                          +-
+package BasicInputOutput                                                                                          +-
+package BasicInputOutput                                                                                          +-
+package BasicInputOutput                                                                                          +-
+package Common                                                                                                    +-
+package Common                                                                                                    +-
+package external                                                                                                  +-
+                                                                                                                  -+ public abstract boolean hasMore()
+                                                                                                                  -+ public abstract boolean isFull()
+public abstract class ActiveChannel extends Channel {                                                             +-
+                                                                                                                  -+ public abstract class InputChannel extends Channel {
+public abstract class Listener {                                                                                  +-
+                                                                                                                  -+ public abstract class OutputChannel extends Channel {
+public abstract class StandardInputChannel extends TextInputChannel {                                             +-
+public abstract class StandardOutputChannel extends TextOutputChannel {                                           +-
+public abstract class TextOutputChannel extends OutputChannel {                                                   +-
+                                                                                                                  -+ public abstract void peek(Object value, Status errorStatus)
+                                                                                                                  -+ public abstract void read(Object value, Status errorStatus)
+                                                                                                                  -+ public abstract void write(Object value, Status errorStatus)
+public abstract void writeNewLine(Status errorStatus)                                                             +-
+public Boolean readBoolean(Status errorStatus) {                                                                  +-
+public class Status {                                                                                             +-
+public class unlimitedNatural {                                                                                   +-
+public int code                                                                                                   +-
+public Integer readInteger(Status errorStatus) {                                                                  +-
+public String context                                                                                             +-
+public String description                                                                                         +-
+public String peekCharacter(Status errorStatus) {                                                                 +-
+public String readCharacter(Status errorStatus) {                                                                 +-
+public String readLine(Status errorStatus) {                                                                      +-
+public unlimitedNatural readUnlimitedNatural(Status errorStatus) {                                                +-
+public void Notification() {                                                                                      +-
+                                                                                                                  -+ public void readCharacter(Status errorStatus) {        // Implementation not provided    }    public String peekCharacter(Status errorStatus) {        return "" }    public String readLine(Status errorStatus) {        return "" }    public int readInteger(Status errorStatus) {        return 0 }    public boolean readBoolean(Status errorStatus) {        return false }    public UnlimitedNatural readUnlimitedNatural(Status errorStatus) {        return new UnlimitedNatural() }}public abstract class TextOutputChannel extends OutputChannel {    public void writeString(String value, Status errorStatus) {        // Implementation not provided    }    public abstract void writeNewLine(Status errorStatus) public void writeLine(String value, Status errorStatus) {        // Implementation not provided    }    public void writeInteger(int value, Status errorStatus) {        // Implementation not provided    }    public void writeBoolean(boolean value, Status errorStatus) {        // Implementation not provided    }    public void writeUnlimitedNatural(UnlimitedNatural value, Status errorStatus) {        // Implementation not provided    }}public abstract class StandardInputChannel extends TextInputChannel {    // Additional functionalities can be added here}public abstract class StandardOutputChannel extends TextOutputChannel {    // Additional functionalities can be added here}public abstract class ActiveChannel extends Channel {    public void register(Listener listener) {        // Implementation not provided    }    public void unregister(Listener listener) {        // Implementation not provided    }}public class UnlimitedNatural {    // Implementation details for UnlimitedNatural}public class Status {    public String context public int code public String description // Constructor and other methods can be added here}public abstract class Listener {    // Listener specific methods can be added here}
+public void register(final Listener listener) {                                                                   +-
+public void unregister(final Listener listener) {                                                                 +-
+public void writeBoolean(final boolean value, Status errorStatus) {                                               +-
+public void writeInteger(final int value, Status errorStatus) {                                                   +-
+public void writeLine(final String value, Status errorStatus) {                                                   +-
+public void writeString(final String value, Status errorStatus) {                                                 +-
+public void writeUnlimitedNatural(final unlimitedNatural value, Status errorStatus) {                             +-
+return 0                                                                                                          +-
+return false                                                                                                      +-
+return null                                                                                                       +-
+return null                                                                                                       +-
+return null                                                                                                       +-
+return null                                                                                                       +-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

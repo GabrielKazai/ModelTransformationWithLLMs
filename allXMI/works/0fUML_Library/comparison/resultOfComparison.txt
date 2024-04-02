@@ -1,0 +1,33 @@
+Left: Oracle
+Right: ChatGPT
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                          -+ public abstract class InputChannel extends Channel {
+                                                                                                 public abstract boolean hasMore();
+
+                                                                                                 public abstract void read(Object value, Status errorStatus);
+
+                                                                                                 public abstract void peek(Object value, Status errorStatus);
+                                                                                             }
+
+                                                                                             public abstract class OutputChannel extends Channel {
+                                                                                                 public abstract void write(Object value, Status errorStatus);
+
+                                                                                                 public abstract boolean isFull();
+                                                                                             }
+
+>>>>>>>>>>>>>
+Cause of difference, what is different --> EXPLANATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public Integer readInteger(Status errorStatus) {                                      <>     public int readInteger(Status errorStatus) {
+>>>>>>>>>>>>>
+Cause of difference, what is different --> EXPLANATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  public Boolean readBoolean(Status errorStatus) {                                      <>     public boolean readBoolean(Status errorStatus) {
+>>>>>>>>>>>>>
+Cause of difference, what is different --> EXPLANATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>>>>>>>>>>>>
+Based on the differences:
+Second iteration? Yes/No
+Re-execution? Yes/No

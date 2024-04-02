@@ -10,7 +10,7 @@ xmilist = []
 xmifile = open(sys.argv[1] + "/gpt/xmiforgpt/Model.xmi", "r")
 
 for line in xmifile:
-    if ("<packagedElement" in line and 'xmi:type="uml:Class"' in line) or ("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line) or ("<packagedElement" in line and 'xmi:type="uml:Enumeration"' in line):
+    if ("<packagedElement" in line and 'xmi:type="uml:Class"' in line) or ("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line) or ("<packagedElement" in line and 'xmi:type="uml:Enumeration"' in line) or ("<packagedElement" in line and 'xmi:type="uml:Interface"' in line):
         xmilist.append(line)
 
 #print(xmilist)

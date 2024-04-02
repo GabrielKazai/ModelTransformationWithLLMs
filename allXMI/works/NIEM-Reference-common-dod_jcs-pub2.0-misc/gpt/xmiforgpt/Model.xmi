@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_LRtzoO9QEe6FV-skm74tFA" name="Model">
+  <eAnnotations xmi:id="_LRtzoe9QEe6FV-skm74tFA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_LRtzou9QEe6FV-skm74tFA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LRtzo-9QEe6FV-skm74tFA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LRtzpO9QEe6FV-skm74tFA" name="dod_jcs-pub2.0-misc">
+    <packagedElement xmi:type="uml:Package" xmi:id="_LRtzpe9QEe6FV-skm74tFA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_LRtzpu9QEe6FV-skm74tFA" name="dod_jcs-pub2.0-misc">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_LRtzp-9QEe6FV-skm74tFA" name="DocumentIntelligenceCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_LRtzqO9QEe6FV-skm74tFA" name="TECHINT"/>
+          <ownedLiteral xmi:id="_LRtzqe9QEe6FV-skm74tFA" name="HUMINT"/>
+          <ownedLiteral xmi:id="_LRtzqu9QEe6FV-skm74tFA" name="SIGINT"/>
+          <ownedLiteral xmi:id="_LRtzq-9QEe6FV-skm74tFA" name="MASINT"/>
+          <ownedLiteral xmi:id="_LRtzrO9QEe6FV-skm74tFA" name="IMINT"/>
+          <ownedLiteral xmi:id="_LRtzre9QEe6FV-skm74tFA" name="CI"/>
+          <ownedLiteral xmi:id="_LRtzru9QEe6FV-skm74tFA" name="OSINT"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LRtzr-9QEe6FV-skm74tFA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_LRtzsO9QEe6FV-skm74tFA" name="DocumentIntelligenceCategoryCodeType">
+          <generalization xmi:id="_LRtzse9QEe6FV-skm74tFA" general="_LRtzp-9QEe6FV-skm74tFA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LRtzsu9QEe6FV-skm74tFA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_LRtzs-9QEe6FV-skm74tFA" name="ContentKind">
+      <ownedLiteral xmi:id="_LRtztO9QEe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_LRtzte9QEe6FV-skm74tFA" name="Empty"/>
+      <ownedLiteral xmi:id="_LRtztu9QEe6FV-skm74tFA" name="Simple"/>
+      <ownedLiteral xmi:id="_LRtzt-9QEe6FV-skm74tFA" name="Mixed"/>
+      <ownedLiteral xmi:id="_LRtzuO9QEe6FV-skm74tFA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_LRtzue9QEe6FV-skm74tFA" name="FeatureKind">
+      <ownedLiteral xmi:id="_LRtzuu9QEe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_LRtzu-9QEe6FV-skm74tFA" name="Simple"/>
+      <ownedLiteral xmi:id="_LRtzvO9QEe6FV-skm74tFA" name="Attribute"/>
+      <ownedLiteral xmi:id="_LRtzve9QEe6FV-skm74tFA" name="Element"/>
+      <ownedLiteral xmi:id="_LRtzvu9QEe6FV-skm74tFA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_LRtzv-9QEe6FV-skm74tFA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_LRtzwO9QEe6FV-skm74tFA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_LRtzwe9QEe6FV-skm74tFA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_LRtzwu9QEe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_LRtzw-9QEe6FV-skm74tFA" name="None"/>
+      <ownedLiteral xmi:id="_LRtzxO9QEe6FV-skm74tFA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_LRtzxe9QEe6FV-skm74tFA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_LRtzxu9QEe6FV-skm74tFA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_LRtzx-9QEe6FV-skm74tFA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

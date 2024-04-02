@@ -67,4 +67,10 @@ NIEM-Reference-domains-infrastrucuteProtection
 NIEM-Reference-external-cap 
 NIEM-Reference-external-de 
 Project 
-sdkexample 
+sdkexample
+nga_erd
+NestedLoops
+modelio-no-annotations
+LongSequence
+BigAllPatterns
+AirportCheckin

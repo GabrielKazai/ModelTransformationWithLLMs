@@ -1,0 +1,12 @@
+Table Compare
+Produced: 2024-04-03 12:06:55
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_comments\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_comments\gpt\gptoutput\cleanGPT.java
+1: 2:    1: 2:
+--------------
+      +-
+      +-
+      +-
+--------------

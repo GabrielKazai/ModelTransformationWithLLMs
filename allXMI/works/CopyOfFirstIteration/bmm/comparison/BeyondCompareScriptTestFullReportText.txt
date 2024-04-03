@@ -1,0 +1,446 @@
+﻿Text Compare
+Produced: 2024-04-02 13:13:21
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\gpt\gptoutput\cleanGPT.java
+                                                                                                            <> // BMM_TYPE.javapackage bmm2.core;abstract class BMM_TYPE {abstract BMM_CLASS
+abstract class BMM_TYPE extends BMM_CLASSIFIER {
+    public abstract BMM_CLASS base_class();
+
+    public abstract boolean has_type_substitutions();                                                          // base_class();abstract boolean has_type_substitutions();abstract String
+
+    public abstract List<String> type_substitutions();                                                         // type_substitutions();public abstract String as_display_type_string();}//
+                                                                                                               // BMM_CLASS.javapackage bmm2.core;class BMM_CLASS extends BMM_TYPE {BMM_CLASS
+    public String as_display_type_string() {                                                                   // ancestors;BMM_PACKAGE package;BMM_PROPERTY properties;String name;String
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class BMM_CLASS extends BMM_CLASSIFIER {
+    public String name;
+
+    public String source_schema_id;
+
+    public String[] immediate_descendants;                                                                     // source_schema_id;String immediate_descendants;typescriptCopy codepublic
+                                                                                                               // String all_ancestors() { return null;}public String all_descendants() {
+    public List<BMM_CLASS> ancestors = new ArrayList<BMM_CLASS> ();                                            // return null;}public String suppliers() { return null;}public String
+
+    public BMM_PACKAGE package;
+
+    public List<BMM_PROPERTY> properties = new ArrayList<BMM_PROPERTY> ();
+
+    public List<String> all_ancestors() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public List<String> all_descendants() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public List<String> suppliers() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public List<String> suppliers_non_primitive() {                                                            // suppliers_non_primitive() { return null;}public String supplier_closure() {
+        // TODO Auto-generated return                                                                          // return null;}}// BMM_PROPERTY.javapackage bmm2.core;class BMM_PROPERTY<T>
+        return null;                                                                                           // {BMM_TYPE type;String name;boolean is_mandatory;boolean
+    }                                                                                                          // is_computed;typescriptCopy codepublic T existence() { return null;}public
+                                                                                                               // String display_name() { return null;}}// BMM_CONTAINER_TYPE.javapackage
+    public List<String> supplier_closure() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class BMM_PROPERTY {
+    public String name;
+
+    public Boolean is_mandatory;
+
+    public Boolean is_computed;
+
+    public BMM_TYPE type;
+
+    public MULTIPLICITY_INTERVAL existence() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public String display_name() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public void () {
+    }
+
+}
+
+class BMM_CONTAINER_TYPE extends BMM_TYPE {                                                                    // bmm2.core;class BMM_CONTAINER_TYPE extends BMM_TYPE {BMM_CLASS
+    public BMM_CLASS container_class;                                                                          // container_class;BMM_TYPE base_type;}// BMM_GENERIC_TYPE.javapackage
+
+    public BMM_TYPE base_type;
+
+}
+
+class BMM_GENERIC_TYPE extends BMM_TYPE {                                                                      // bmm2.core;class BMM_GENERIC_TYPE extends BMM_TYPE {BMM_TYPE
+    public List<BMM_TYPE> generic_parameters = new ArrayList<BMM_TYPE>();
+
+    public BMM_GENERIC_CLASS base_class;                                                                       // generic_parameters;BMM_GENERIC_CLASS base_class;}//
+                                                                                                               // BMM_SIMPLE_TYPE.javapackage bmm2.core;class BMM_SIMPLE_TYPE extends BMM_TYPE
+}                                                                                                              // {BMM_CLASS base_class;}// BMM_SIMPLE_TYPE_OPEN.javapackage bmm2.core;class
+
+class BMM_SIMPLE_TYPE extends BMM_TYPE {
+    public BMM_CLASS base_class;
+
+}
+
+class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {                                                                  // BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {BMM_GENERIC_PARAMETER type;}//
+    public BMM_GENERIC_PARAMETER type;                                                                         // BMM_ENUMERATION.javapackage bmm2.core;class BMM_ENUMERATION<G> {}//
+                                                                                                               // BMM_ENUMERATION_STRING.javapackage bmm2.core;class BMM_ENUMERATION_STRING
+}
+
+class BMM_ENUMERATION extends BMM_CLASS {
+    public void () {
+    }
+
+}
+
+class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {                                                         // extends BMM_ENUMERATION<String> {}// BMM_ENUMERATION_INTEGER.javapackage
+}
+
+class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {                                                        // bmm2.core;class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION<Integer> {}//
+}                                                                                                              // BMM_PACKAGE.javapackage bmm2.core;class BMM_PACKAGE {BMM_CLASS classes;String
+                                                                                                               // name;typescriptCopy codepublic BMM_CLASS root_classes() { return null;}public
+class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {                                                              // String path() { return null;}}// BMM_GENERIC_PARAMETER.javapackage
+    public String name;
+
+    public List<BMM_CLASS> classes = new ArrayList<BMM_CLASS>();
+
+    public List<BMM_CLASS> root_classes() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public String path() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {                                                           // bmm2.core;class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {BMM_CLASS
+    public String name;
+
+    public BMM_CLASS conforms_to_type;
+
+    private BMM_GENERIC_PARAMETER ;
+
+    public BMM_GENERIC_PARAMETER inheritance_precursor;                                                        // conforms_to_type;BMM_GENERIC_PARAMETER inheritance_precursor;String
+
+    public String flattened_conforms_to_type() {                                                               // name;typescriptCopy codepublic String flattened_conforms_to_type() { return
+        // TODO Auto-generated return                                                                          // null;}}// BMM_CLASSIFIER.javapackage bmm2.core;abstract class BMM_CLASSIFIER
+        return null;
+    }
+
+}
+
+abstract class BMM_CLASSIFIER {
+    public abstract String type_category();
+
+    public String as_conformance_type_string() {                                                               // {abstract String type_category();public String as_conformance_type_string()
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public abstract String as_type_string();                                                                   // {return null;}csharpCopy codeabstract String as_type_string();}//
+                                                                                                               // BMM_CONTAINER_PROPERTY.javapackage bmm2.core;class BMM_CONTAINER_PROPERTY<T>
+}
+
+class MULTIPLICITY_INTERVAL {
+}
+
+class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {                                                            // extends BMM_PROPERTY<T> {BMM_CONTAINER_TYPE type;MULTIPLICITY_INTERVAL
+    public MULTIPLICITY_INTERVAL cardinality;
+
+    public BMM_CONTAINER_TYPE type;
+
+    public String display_name() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class BMM_SCHEMA_CORE {
+    public String rm_publisher;
+
+    public String rm_release;
+
+    public String schema_name;
+
+    public String schema_revision;
+
+    public String schema_lifecycle_state;
+
+    public String schema_author;
+
+    public String schema_description;
+
+    public String[] schema_contributors;
+
+    public String archetype_parent_class;
+
+    public String archetype_data_value_parent_class;                                                           // cardinality;typescriptCopy codepublic String display_name() { return
+                                                                                                               // null;}}// BMM_SCHEMA.javapackage bmm2.core;class BMM_SCHEMA extends
+    public String[] archetype_rm_closure_packages;                                                             // BMM_SCHEMA_CORE {BMM_CLASS class_definitions;typescriptCopy codepublic void
+
+    public String archetype_visualise_descendants_of;
+
+    public String schema_id() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class BMM_GENERIC_CLASS extends BMM_CLASS {
+    public List<BMM_GENERIC_PARAMETER> generic_parameters = new ArrayList<BMM_GENERIC_PARAMETER>();
+
+}
+
+class P_BMM_CLASS extends P_BMM_CLASSIFIER {
+    public int uid;
+
+    private String name;
+
+    public String[] ancestors;
+
+    public Boolean is_abstract;
+
+    public Boolean is_override;
+
+    public String source_schema_id;
+
+    public List<P_BMM_PROPERTY> properties = new ArrayList<P_BMM_PROPERTY>();
+
+    public List<P_BMM_GENERIC_PARAMETER> generic_parameter_defs = new ArrayList<P_BMM_GENERIC_PARAMETER>();
+
+    public boolean is_generic() {
+        // TODO Auto-generated return
+        return false;
+    }
+
+    public void create_bmm_class_definition() {                                                                // primitive_types() {}public void enumeration_types() {}public BMM_CLASS
+    }                                                                                                          // class_definition(String a_name) { return null;}public BMM_ENUMERATION
+                                                                                                               // enumeration(String a_name) { return null;}public BMM_PROPERTY
+    public void populate_bmm_class_definition() {                                                              // property_definition() { return null;}public boolean
+    }
+
+}
+
+class P_BMM_ENUMERATION extends P_BMM_CLASS {
+    public String item_names;
+
+    public T[] item_values;
+
+    public void () {
+    }
+
+}
+
+class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
+    public String bmm_version;
+
+    public int state;
+
+    public BMM_SCHEMA bmm_schema;
+
+    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>();
+
+    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>();
+
+    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>();
+
+    public void validate_created() {
+    }
+
+    public void load_finalise() {
+    }
+
+    public void merge(final P_BMM_SCHEMA other) {
+    }
+
+    public void validate() {
+    }
+
+    public void create_bmm_schema() {
+    }
+
+}
+
+abstract class P_BMM_CLASSIFIER {
+}
+
+abstract class P_BMM_PROPERTY {
+    public String name;
+
+    public Boolean is_mandatory;
+
+    public Boolean is_computed;
+
+    public BMM_PROPERTY bmm_property_definition;                                                               // ms_conformant_property_type() { return false;}public BMM_PROPERTY
+
+    public Boolean is_im_infrastructure;
+
+    public Boolean is_im_runtime;
+
+    public abstract void create_bmm_property_definition();                                                     // property_definition_at_path() { return null;}public String
+                                                                                                               // all_ancestor_classes(String a_class) { return null;}public boolean
+    public abstract P_BMM_TYPE type_def();                                                                     // type_conforms_to(String a_desc_type, String an_anc_type) { return false;}}//
+                                                                                                               // BMM_SCHEMA_CORE.javaMessage ChatGPT…ChatGPT can make mistakes. Consider
+}
+
+class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {
+    public String name;
+
+    public String conforms_to_type;                                                                            // checking important information.?
+
+    public BMM_GENERIC_PARAMETER bmm_generic_parameter;
+
+    public BMM_GENERIC_PARAMETER create_bmm_generic_parameter_definition() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+abstract class P_BMM_TYPE extends P_BMM_CLASSIFIER {
+    public BMM_TYPE bmm_type;
+
+    public abstract void create_bmm_type(final BMM_SCHEMA a_schema, final BMM_CLASS a_class_def);
+
+}
+
+class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {
+    public String container_type;
+
+    public String type;
+
+    public P_BMM_TYPE type_def;
+
+    public P_BMM_TYPE type_ref() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class P_BMM_SIMPLE_TYPE extends P_BMM_TYPE {
+    public String type;
+
+}
+
+class P_BMM_SIMPLE_TYPE_OPEN extends P_BMM_TYPE {
+    public String type;
+
+}
+
+class P_BMM_GENERIC_TYPE extends P_BMM_TYPE {
+    public String root_type;
+
+    public String[] generic_parameters;
+
+    public List<P_BMM_TYPE> generic_parameter_defs = new ArrayList<P_BMM_TYPE>();
+
+    public void generic_parameter_refs() {
+    }
+
+}
+
+class P_BMM_PACKAGE extends P_BMM_PACKAGE_CONTAINER {
+    public String name;
+
+    public String[] classes;
+
+    public void merge(final P_BMM_PACKAGE other) {
+    }
+
+}
+
+class P_BMM_PACKAGE_CONTAINER {
+}
+
+class P_BMM_SINGLE_PROPERTY extends P_BMM_PROPERTY {
+    public String type;
+
+    public P_BMM_SIMPLE_TYPE type_def() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class P_BMM_SINGLE_PROPERTY_OPEN extends P_BMM_PROPERTY {
+    public String type;
+
+    public P_BMM_SIMPLE_TYPE_OPEN type_def;
+
+    public P_BMM_SIMPLE_TYPE_OPEN type_def() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+class P_BMM_GENERIC_PROPERTY extends P_BMM_PROPERTY {
+    public P_BMM_GENERIC_TYPE type_def;
+
+}
+
+class P_BMM_ENUMERATION_INTEGER {
+}
+
+class P_BMM_ENUMERATION_STRING {
+}
+
+class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
+    public String bmm_version;
+
+    public int state;
+
+    public BMM_SCHEMA bmm_schema;
+
+    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>();
+
+    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>();
+
+    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>();
+
+    public void validate_created() {
+    }
+
+    public void load_finalise() {
+    }
+
+    public void merge(final P_BMM_SCHEMA other) {
+    }
+
+    public void validate() {
+    }
+
+    public void create_bmm_schema() {
+    }
+
+}
+
+public class T {
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

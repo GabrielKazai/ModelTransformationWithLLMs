@@ -1,0 +1,19 @@
+Text Compare
+Produced: 2024-04-02 12:46:24
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1modelio_lowercased_string_type\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1modelio_lowercased_string_type\gpt\gptoutput\cleanGPT.java
+                              +-
+--------------------------------------------------------------
+public class BugFixing {      =  public class BugFixing {
+    private int numberOfBugs;        private int numberOfBugs;
+--------------------------------------------------------------
+                              +-
+--------------------------------------------------------------
+}                             =  }
+--------------------------------------------------------------
+                              +-
+public class zonedDateTime {
+}
+--------------------------------------------------------------

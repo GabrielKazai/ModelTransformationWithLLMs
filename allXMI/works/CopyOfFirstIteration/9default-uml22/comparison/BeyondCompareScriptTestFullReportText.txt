@@ -1,0 +1,10 @@
+﻿Text Compare
+Produced: 2024-04-02 13:05:39
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\9default-uml22\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\9default-uml22\gpt\gptoutput\cleanGPT.java
+                                <> Message ChatGPT…ChatGPT can make mistakes. Consider checking important information.?ChatGPT
+public class UnlimitedInteger {
+}
+------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,496 @@
+﻿Table Compare
+Produced: 2024-04-02 13:13:21
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\gpt\gptoutput\cleanGPT.java
+1:                                                                                                     2: 3: 4: 5:    1:                                                                          2:                                                                     3:                               4:          5:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   +-
+                                                                                                                   -+ // {abstract String type_category()                                         public String as_conformance_type_string()
+                                                                                                                   -+ // {BMM_CLASS base_class                                                    }// BMM_SIMPLE_TYPE_OPEN.javapackage bmm2.core                         class
+                                                                                                                   -+ // {BMM_TYPE type                                                           String name                                                            boolean is_mandatory             boolean
+                                                                                                                   -+ // {return null                                                             }csharpCopy codeabstract String as_type_string()                       }//
+                                                                                                                   -+ // all_ancestor_classes(String a_class) { return null                       }public boolean
+                                                                                                                   -+ // ancestors                                                                BMM_PACKAGE package                                                    BMM_PROPERTY properties          String name String
+                                                                                                                   -+ // base_class()                                                             abstract boolean has_type_substitutions()                              abstract String
+                                                                                                                   -+ // BMM_CLASS.javapackage bmm2.core                                          class BMM_CLASS extends BMM_TYPE {BMM_CLASS
+                                                                                                                   -+ // BMM_CONTAINER_PROPERTY.javapackage bmm2.core                             class BMM_CONTAINER_PROPERTY<T>
+                                                                                                                   -+ // BMM_ENUMERATION.javapackage bmm2.core                                    class BMM_ENUMERATION<G> {}//
+                                                                                                                   -+ // BMM_ENUMERATION_STRING.javapackage bmm2.core                             class BMM_ENUMERATION_STRING
+                                                                                                                   -+ // BMM_PACKAGE.javapackage bmm2.core                                        class BMM_PACKAGE {BMM_CLASS classes                                   String
+                                                                                                                   -+ // BMM_SCHEMA_CORE {BMM_CLASS class_definitions                             typescriptCopy codepublic void
+                                                                                                                   -+ // BMM_SCHEMA_CORE.javaMessage ChatGPT…ChatGPT can make mistakes. Consider
+                                                                                                                   -+ // BMM_SIMPLE_TYPE.javapackage bmm2.core                                    class BMM_SIMPLE_TYPE extends BMM_TYPE
+                                                                                                                   -+ // BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {BMM_GENERIC_PARAMETER type        }//
+                                                                                                                   -+ // BMM_TYPE.javapackage bmm2.core                                           abstract class BMM_TYPE {abstract BMM_CLASS
+                                                                                                                   -+ // bmm2.core                                                                class BMM_CONTAINER_TYPE extends BMM_TYPE {BMM_CLASS
+                                                                                                                   -+ // bmm2.core                                                                class BMM_GENERIC_TYPE extends BMM_TYPE {BMM_TYPE
+                                                                                                                   -+ // bmm2.core                                                                class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION<Integer> {}//
+                                                                                                                   -+ // bmm2.core                                                                class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {BMM_CLASS
+                                                                                                                   -+ // cardinality                                                              typescriptCopy codepublic String display_name() { return
+                                                                                                                   -+ // checking important information.?
+                                                                                                                   -+ // class_definition(String a_name) { return null                            }public BMM_ENUMERATION
+                                                                                                                   -+ // conforms_to_type                                                         BMM_GENERIC_PARAMETER inheritance_precursor                            String
+                                                                                                                   -+ // container_class                                                          BMM_TYPE base_type                                                     }// BMM_GENERIC_TYPE.javapackage
+                                                                                                                   -+ // enumeration(String a_name) { return null                                 }public BMM_PROPERTY
+                                                                                                                   -+ // extends BMM_ENUMERATION<String> {}// BMM_ENUMERATION_INTEGER.javapackage
+                                                                                                                   -+ // extends BMM_PROPERTY<T> {BMM_CONTAINER_TYPE type                         MULTIPLICITY_INTERVAL
+                                                                                                                   -+ // generic_parameters                                                       BMM_GENERIC_CLASS base_class                                           }//
+                                                                                                                   -+ // is_computed                                                              typescriptCopy codepublic T existence() { return null                  }public
+                                                                                                                   -+ // ms_conformant_property_type() { return false                             }public BMM_PROPERTY
+                                                                                                                   -+ // name                                                                     typescriptCopy codepublic BMM_CLASS root_classes() { return null       }public
+                                                                                                                   -+ // name                                                                     typescriptCopy codepublic String flattened_conforms_to_type() { return
+                                                                                                                   -+ // null                                                                     }}// BMM_CLASSIFIER.javapackage bmm2.core                              abstract class BMM_CLASSIFIER
+                                                                                                                   -+ // null                                                                     }}// BMM_SCHEMA.javapackage bmm2.core                                  class BMM_SCHEMA extends
+                                                                                                                   -+ // primitive_types() {}public void enumeration_types() {}public BMM_CLASS
+                                                                                                                   -+ // property_definition() { return null                                      }public boolean
+                                                                                                                   -+ // property_definition_at_path() { return null                              }public String
+                                                                                                                   -+ // return null                                                              }public String suppliers() { return null                               }public String
+                                                                                                                   -+ // return null                                                              }}// BMM_PROPERTY.javapackage bmm2.core                                class BMM_PROPERTY<T>
+                                                                                                                   -+ // source_schema_id                                                         String immediate_descendants                                           typescriptCopy codepublic
+                                                                                                                   -+ // String all_ancestors() { return null                                     }public String all_descendants() {
+                                                                                                                   -+ // String display_name() { return null                                      }}// BMM_CONTAINER_TYPE.javapackage
+                                                                                                                   -+ // String path() { return null                                              }}// BMM_GENERIC_PARAMETER.javapackage
+                                                                                                                   -+ // suppliers_non_primitive() { return null                                  }public String supplier_closure() {
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+// TODO Auto-generated return                                                                                      +-
+                                                                                                                   -+ // type_conforms_to(String a_desc_type, String an_anc_type) { return false  }}//
+                                                                                                                   -+ // type_substitutions()                                                     public abstract String as_display_type_string()                        }//
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+}                                                                                                                  +-
+abstract class BMM_CLASSIFIER {                                                                                    +-
+abstract class BMM_TYPE extends BMM_CLASSIFIER {                                                                   +-
+abstract class P_BMM_CLASSIFIER {                                                                                  +-
+abstract class P_BMM_PROPERTY {                                                                                    +-
+abstract class P_BMM_TYPE extends P_BMM_CLASSIFIER {                                                               +-
+class BMM_CLASS extends BMM_CLASSIFIER {                                                                           +-
+class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {                                                                +-
+class BMM_CONTAINER_TYPE extends BMM_TYPE {                                                                        +-
+class BMM_ENUMERATION extends BMM_CLASS {                                                                          +-
+class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {                                                            +-
+class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {                                                             +-
+class BMM_GENERIC_CLASS extends BMM_CLASS {                                                                        +-
+class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {                                                               +-
+class BMM_GENERIC_TYPE extends BMM_TYPE {                                                                          +-
+class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {                                                                  +-
+class BMM_PROPERTY {                                                                                               +-
+class BMM_SCHEMA_CORE {                                                                                            +-
+class BMM_SIMPLE_TYPE extends BMM_TYPE {                                                                           +-
+class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {                                                                      +-
+class MULTIPLICITY_INTERVAL {                                                                                      +-
+class P_BMM_CLASS extends P_BMM_CLASSIFIER {                                                                       +-
+class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {                                                                    +-
+class P_BMM_ENUMERATION extends P_BMM_CLASS {                                                                      +-
+class P_BMM_ENUMERATION_INTEGER {                                                                                  +-
+class P_BMM_ENUMERATION_STRING {                                                                                   +-
+class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {                                                           +-
+class P_BMM_GENERIC_PROPERTY extends P_BMM_PROPERTY {                                                              +-
+class P_BMM_GENERIC_TYPE extends P_BMM_TYPE {                                                                      +-
+class P_BMM_PACKAGE extends P_BMM_PACKAGE_CONTAINER {                                                              +-
+class P_BMM_PACKAGE_CONTAINER {                                                                                    +-
+class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {                                                               +-
+class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {                                                               +-
+class P_BMM_SIMPLE_TYPE extends P_BMM_TYPE {                                                                       +-
+class P_BMM_SIMPLE_TYPE_OPEN extends P_BMM_TYPE {                                                                  +-
+class P_BMM_SINGLE_PROPERTY extends P_BMM_PROPERTY {                                                               +-
+class P_BMM_SINGLE_PROPERTY_OPEN extends P_BMM_PROPERTY {                                                          +-
+private BMM_GENERIC_PARAMETER                                                                                      +-
+private String name                                                                                                +-
+public abstract BMM_CLASS base_class()                                                                             +-
+public abstract boolean has_type_substitutions()                                                                   +-
+public abstract List<String> type_substitutions()                                                                  +-
+public abstract P_BMM_TYPE type_def()                                                                              +-
+public abstract String as_type_string()                                                                            +-
+public abstract String type_category()                                                                             +-
+public abstract void create_bmm_property_definition()                                                              +-
+public abstract void create_bmm_type(final BMM_SCHEMA a_schema, final BMM_CLASS a_class_def)                       +-
+public BMM_CLASS base_class                                                                                        +-
+public BMM_CLASS conforms_to_type                                                                                  +-
+public BMM_CLASS container_class                                                                                   +-
+public BMM_CONTAINER_TYPE type                                                                                     +-
+public BMM_GENERIC_CLASS base_class                                                                                +-
+public BMM_GENERIC_PARAMETER bmm_generic_parameter                                                                 +-
+public BMM_GENERIC_PARAMETER create_bmm_generic_parameter_definition() {                                           +-
+public BMM_GENERIC_PARAMETER inheritance_precursor                                                                 +-
+public BMM_GENERIC_PARAMETER type                                                                                  +-
+public BMM_PACKAGE package                                                                                         +-
+public BMM_PROPERTY bmm_property_definition                                                                        +-
+public BMM_SCHEMA bmm_schema                                                                                       +-
+public BMM_SCHEMA bmm_schema                                                                                       +-
+public BMM_TYPE base_type                                                                                          +-
+public BMM_TYPE bmm_type                                                                                           +-
+public BMM_TYPE type                                                                                               +-
+public Boolean is_abstract                                                                                         +-
+public Boolean is_computed                                                                                         +-
+public Boolean is_computed                                                                                         +-
+public boolean is_generic() {                                                                                      +-
+public Boolean is_im_infrastructure                                                                                +-
+public Boolean is_im_runtime                                                                                       +-
+public Boolean is_mandatory                                                                                        +-
+public Boolean is_mandatory                                                                                        +-
+public Boolean is_override                                                                                         +-
+public class T {                                                                                                   +-
+public int state                                                                                                   +-
+public int state                                                                                                   +-
+public int uid                                                                                                     +-
+public List<BMM_CLASS> ancestors = new ArrayList<BMM_CLASS> ()                                                     +-
+public List<BMM_CLASS> classes = new ArrayList<BMM_CLASS>()                                                        +-
+public List<BMM_CLASS> root_classes() {                                                                            +-
+public List<BMM_GENERIC_PARAMETER> generic_parameters = new ArrayList<BMM_GENERIC_PARAMETER>()                     +-
+public List<BMM_PROPERTY> properties = new ArrayList<BMM_PROPERTY> ()                                              +-
+public List<BMM_TYPE> generic_parameters = new ArrayList<BMM_TYPE>()                                               +-
+public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>()                                          +-
+public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>()                                          +-
+public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>()                                            +-
+public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>()                                            +-
+public List<P_BMM_GENERIC_PARAMETER> generic_parameter_defs = new ArrayList<P_BMM_GENERIC_PARAMETER>()             +-
+public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>()                                     +-
+public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>()                                     +-
+public List<P_BMM_PROPERTY> properties = new ArrayList<P_BMM_PROPERTY>()                                           +-
+public List<P_BMM_TYPE> generic_parameter_defs = new ArrayList<P_BMM_TYPE>()                                       +-
+public List<String> all_ancestors() {                                                                              +-
+public List<String> all_descendants() {                                                                            +-
+public List<String> supplier_closure() {                                                                           +-
+public List<String> suppliers() {                                                                                  +-
+public List<String> suppliers_non_primitive() {                                                                    +-
+public MULTIPLICITY_INTERVAL cardinality                                                                           +-
+public MULTIPLICITY_INTERVAL existence() {                                                                         +-
+public P_BMM_GENERIC_TYPE type_def                                                                                 +-
+public P_BMM_SIMPLE_TYPE type_def() {                                                                              +-
+public P_BMM_SIMPLE_TYPE_OPEN type_def                                                                             +-
+public P_BMM_SIMPLE_TYPE_OPEN type_def() {                                                                         +-
+public P_BMM_TYPE type_def                                                                                         +-
+public P_BMM_TYPE type_ref() {                                                                                     +-
+public String archetype_data_value_parent_class                                                                    +-
+public String archetype_parent_class                                                                               +-
+public String archetype_visualise_descendants_of                                                                   +-
+public String as_conformance_type_string() {                                                                       +-
+public String as_display_type_string() {                                                                           +-
+public String bmm_version                                                                                          +-
+public String bmm_version                                                                                          +-
+public String conforms_to_type                                                                                     +-
+public String container_type                                                                                       +-
+public String display_name() {                                                                                     +-
+public String display_name() {                                                                                     +-
+public String flattened_conforms_to_type() {                                                                       +-
+public String item_names                                                                                           +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String name                                                                                                 +-
+public String path() {                                                                                             +-
+public String rm_publisher                                                                                         +-
+public String rm_release                                                                                           +-
+public String root_type                                                                                            +-
+public String schema_author                                                                                        +-
+public String schema_description                                                                                   +-
+public String schema_id() {                                                                                        +-
+public String schema_lifecycle_state                                                                               +-
+public String schema_name                                                                                          +-
+public String schema_revision                                                                                      +-
+public String source_schema_id                                                                                     +-
+public String source_schema_id                                                                                     +-
+public String type                                                                                                 +-
+public String type                                                                                                 +-
+public String type                                                                                                 +-
+public String type                                                                                                 +-
+public String type                                                                                                 +-
+public String[] ancestors                                                                                          +-
+public String[] archetype_rm_closure_packages                                                                      +-
+public String[] classes                                                                                            +-
+public String[] generic_parameters                                                                                 +-
+public String[] immediate_descendants                                                                              +-
+public String[] schema_contributors                                                                                +-
+public T[] item_values                                                                                             +-
+public void () {                                                                                                   +-
+public void () {                                                                                                   +-
+public void () {                                                                                                   +-
+public void create_bmm_class_definition() {                                                                        +-
+public void create_bmm_schema() {                                                                                  +-
+public void create_bmm_schema() {                                                                                  +-
+public void generic_parameter_refs() {                                                                             +-
+public void load_finalise() {                                                                                      +-
+public void load_finalise() {                                                                                      +-
+public void merge(final P_BMM_PACKAGE other) {                                                                     +-
+public void merge(final P_BMM_SCHEMA other) {                                                                      +-
+public void merge(final P_BMM_SCHEMA other) {                                                                      +-
+public void populate_bmm_class_definition() {                                                                      +-
+public void validate() {                                                                                           +-
+public void validate() {                                                                                           +-
+public void validate_created() {                                                                                   +-
+public void validate_created() {                                                                                   +-
+return false                                                                                                       +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+return null                                                                                                        +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

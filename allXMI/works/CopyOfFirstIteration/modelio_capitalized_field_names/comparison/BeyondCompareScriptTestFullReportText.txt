@@ -1,0 +1,18 @@
+Text Compare
+Produced: 2024-04-03 12:05:00
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_capitalized_field_names\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_capitalized_field_names\gpt\gptoutput\cleanGPT.java
+                                  +-
+----------------------------------------------------------------------
+public class MyClass {            =  public class MyClass {
+    public ImageBlob MyAttribute;        public ImageBlob MyAttribute;
+----------------------------------------------------------------------
+                                  +-
+----------------------------------------------------------------------
+}                                 =  }
+
+public class ImageBlob {             public class ImageBlob {
+}                                    }
+----------------------------------------------------------------------

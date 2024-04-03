@@ -1,0 +1,16 @@
+Table Compare
+Produced: 2024-04-02 13:21:03
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\curso_taller_openerp\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\curso_taller_openerp\gpt\gptoutput\cleanGPT.java
+1:                        2:    1:                              2:
+------------------------------------------------------------------
+                             +-
+                             +-
+                             +-
+                             -+ public final String description
+                             -+ public final String name
+public String description    +-
+public String name           +-
+------------------------------------------------------------------

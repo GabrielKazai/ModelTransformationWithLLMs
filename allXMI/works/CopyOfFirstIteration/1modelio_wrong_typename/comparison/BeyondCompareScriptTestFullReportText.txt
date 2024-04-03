@@ -1,0 +1,19 @@
+Text Compare
+Produced: 2024-04-02 12:54:06
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1modelio_wrong_typename\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1modelio_wrong_typename\gpt\gptoutput\cleanGPT.java
+                              +-
+--------------------------------------------------------------
+public class BugFixing {      =  public class BugFixing {
+    private int numberOfBugs;        private int numberOfBugs;
+--------------------------------------------------------------
+                              +-
+--------------------------------------------------------------
+}                             =  }
+--------------------------------------------------------------
+                              +-
+public class wrongtype {
+}
+--------------------------------------------------------------

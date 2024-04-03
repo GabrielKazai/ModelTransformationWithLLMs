@@ -1,0 +1,17 @@
+Text Compare
+Produced: 2024-04-02 13:21:03
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\curso_taller_openerp\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\curso_taller_openerp\gpt\gptoutput\cleanGPT.java
+                               +-
+----------------------------------------------------------------------
+public class mi_tabla {        =  public class mi_tabla {
+----------------------------------------------------------------------
+    public String name;        <>     public final String name;
+
+    public String description;        public final String description;
+
+----------------------------------------------------------------------
+}                              =  }
+----------------------------------------------------------------------

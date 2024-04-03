@@ -1,0 +1,52 @@
+Table Compare
+Produced: 2024-03-29 17:46:54
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\sdkexample\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\sdkexample\gpt\gptoutput\cleanGPT.java
+1:                       2:    1:                              2:
+-----------------------------------------------------------------
+                            +-
+                            +-
+                            +-
+                            +-
+                            +-
+                            +-
+}                           +-
+}                           +-
+}                           +-
+}                           +-
+                            -+ private int identifier
+                            -+ private String addressLine1
+                            -+ private String addressLine2
+                            -+ private String city
+                            -+ private String state
+                            -+ private String zipcode
+                            -+ public class Address {
+public class Boolean {      +-
+public class Character {    +-
+public class Date {         +-
+public class Double {       +-
+public class Float {        +-
+public class Integer {      +-
+public class Long {         +-
+                            -+ public class Organization {
+                            -+ public class Person {
+public class String {       +-
+                            -+ public int identifier
+                            -+ public int identifier
+                            -+ public java.util.Date birthDate
+                            -+ public Organization worksFor
+                            -+ public String getNickName() {
+                            -+ public String name
+                            -+ public String name
+                            -+ public String postalAddress
+                            -+ public String postalAddress
+                            -+ public String raceCode
+                            -+ public String sexCode
+                            -+ public String statusCode
+                            -+ public String statusCode
+                            -+ public String telecomAddress
+                            -+ public String telecomAddress
+                            -+ return ""
+-----------------------------------------------------------------

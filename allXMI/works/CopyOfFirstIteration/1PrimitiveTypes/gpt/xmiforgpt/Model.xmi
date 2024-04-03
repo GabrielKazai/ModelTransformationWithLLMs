@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_I2p0oOtZEe6564ytaa6fEQ" name="Model">
+  <eAnnotations xmi:id="_I2p0oetZEe6564ytaa6fEQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_I2p0outZEe6564ytaa6fEQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_I2p0o-tZEe6564ytaa6fEQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_I2p0pOtZEe6564ytaa6fEQ" name="Real"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_I2p0petZEe6564ytaa6fEQ" name="external">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_I2p0putZEe6564ytaa6fEQ" name="UnlimitedNatural"/>
+  </packagedElement>
+</uml:Model>

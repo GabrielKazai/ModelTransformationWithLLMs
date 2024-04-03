@@ -1,0 +1,16 @@
+﻿Table Compare
+Produced: 2024-03-29 12:51:14
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\PrimitiveTypes\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\PrimitiveTypes\gpt\gptoutput\cleanGPT.java
+1:     2:    3:               4: 5: 6: 7: 8: 9: 10: 11: 12: 13: 14:    1: 2:   3:           4:      5: 6:          7:              8:  9:   10:       11:      12:      13:       14:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    +-
+                                                                    +-
+}                                                                   +-
+}                                                                   +-
+                                                                    -+ Is this conversation helpful so far?Message ChatGPT…ChatGPT can make mistakes. Consider checking important information.?ChatGPT
+public class Real             {                                     +-
+public class UnlimitedNatural {                                     +-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+Table Compare
+Produced: 2024-03-19 10:50:27
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldOM\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldOM\gpt\gptoutput\cleanGPT.java
+1: 2:    1:                  2:
+-------------------------------
+      -+
+      -+ }
+      -+ }
+      -+ public class Many {
+      -+ public class One {
+      -+ public Many many
+      -+ public One one
+-------------------------------

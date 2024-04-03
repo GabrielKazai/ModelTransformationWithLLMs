@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_dSpFkNyQEe6PTdpnUVL0jw" name="Model">
+  <eAnnotations xmi:id="_dSpFkdyQEe6PTdpnUVL0jw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_dSpFktyQEe6PTdpnUVL0jw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dSpFk9yQEe6PTdpnUVL0jw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:id="_dSpFlNyQEe6PTdpnUVL0jw" name="required" constrainedElement="_dSpFmtyQEe6PTdpnUVL0jw">
+    <specification xmi:type="uml:LiteralString" xmi:id="_dSpFldyQEe6PTdpnUVL0jw" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpFltyQEe6PTdpnUVL0jw" name="JobHistory">
+    <ownedAttribute xmi:id="_dSpFl9yQEe6PTdpnUVL0jw" name="job" visibility="private" type="_dSpFo9yQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpFndyQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpFmNyQEe6PTdpnUVL0jw" name="department" visibility="private" type="_dSpFr9yQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpFn9yQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpFmdyQEe6PTdpnUVL0jw" name="employee" visibility="private" type="_dSpFvNyQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpFodyQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpFmtyQEe6PTdpnUVL0jw" name="startDate" visibility="private" type="_dSpF59yQEe6PTdpnUVL0jw" isUnique="false">
+      <eAnnotations xmi:id="_dSpFm9yQEe6PTdpnUVL0jw" source="Objing"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFnNyQEe6PTdpnUVL0jw" name="endDate" visibility="private" type="_dSpF59yQEe6PTdpnUVL0jw" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFndyQEe6PTdpnUVL0jw" memberEnd="_dSpFl9yQEe6PTdpnUVL0jw _dSpFntyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFntyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFltyQEe6PTdpnUVL0jw" association="_dSpFndyQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFn9yQEe6PTdpnUVL0jw" memberEnd="_dSpFmNyQEe6PTdpnUVL0jw _dSpFoNyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFoNyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFltyQEe6PTdpnUVL0jw" association="_dSpFn9yQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFodyQEe6PTdpnUVL0jw" memberEnd="_dSpFmdyQEe6PTdpnUVL0jw _dSpFotyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFotyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFltyQEe6PTdpnUVL0jw" association="_dSpFodyQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpFo9yQEe6PTdpnUVL0jw" name="Job">
+    <ownedAttribute xmi:id="_dSpFpNyQEe6PTdpnUVL0jw" name="tasks" visibility="private" type="_dSpF4NyQEe6PTdpnUVL0jw" aggregation="shared" association="_dSpFq9yQEe6PTdpnUVL0jw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dSpFpdyQEe6PTdpnUVL0jw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFptyQEe6PTdpnUVL0jw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFp9yQEe6PTdpnUVL0jw" name="jobId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFqNyQEe6PTdpnUVL0jw" name="jobTitle" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpFqdyQEe6PTdpnUVL0jw" name="minSalary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFqtyQEe6PTdpnUVL0jw" name="maxSalary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFq9yQEe6PTdpnUVL0jw" memberEnd="_dSpFpNyQEe6PTdpnUVL0jw _dSpFrNyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFrNyQEe6PTdpnUVL0jw" name="jobs" visibility="private" type="_dSpFo9yQEe6PTdpnUVL0jw" association="_dSpFq9yQEe6PTdpnUVL0jw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dSpFrdyQEe6PTdpnUVL0jw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFrtyQEe6PTdpnUVL0jw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpFr9yQEe6PTdpnUVL0jw" name="Department">
+    <ownedAttribute xmi:id="_dSpFsNyQEe6PTdpnUVL0jw" name="location" visibility="private" type="_dSpFztyQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpFt9yQEe6PTdpnUVL0jw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFsdyQEe6PTdpnUVL0jw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFstyQEe6PTdpnUVL0jw" name="employees" visibility="private" type="_dSpFvNyQEe6PTdpnUVL0jw" aggregation="shared" association="_dSpFudyQEe6PTdpnUVL0jw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dSpFs9yQEe6PTdpnUVL0jw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFtNyQEe6PTdpnUVL0jw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFtdyQEe6PTdpnUVL0jw" name="departmentId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFttyQEe6PTdpnUVL0jw" name="departmentName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFt9yQEe6PTdpnUVL0jw" memberEnd="_dSpFsNyQEe6PTdpnUVL0jw _dSpFuNyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFuNyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFr9yQEe6PTdpnUVL0jw" association="_dSpFt9yQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFudyQEe6PTdpnUVL0jw" memberEnd="_dSpFstyQEe6PTdpnUVL0jw _dSpFutyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFutyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFr9yQEe6PTdpnUVL0jw" association="_dSpFudyQEe6PTdpnUVL0jw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFu9yQEe6PTdpnUVL0jw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpFvNyQEe6PTdpnUVL0jw" name="Employee">
+    <ownedAttribute xmi:id="_dSpFvdyQEe6PTdpnUVL0jw" name="manager" visibility="private" type="_dSpFvNyQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpFydyQEe6PTdpnUVL0jw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFvtyQEe6PTdpnUVL0jw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFv9yQEe6PTdpnUVL0jw" name="job" visibility="private" type="_dSpFo9yQEe6PTdpnUVL0jw" aggregation="shared" association="_dSpFy9yQEe6PTdpnUVL0jw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFwNyQEe6PTdpnUVL0jw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFwdyQEe6PTdpnUVL0jw" name="employeeId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFwtyQEe6PTdpnUVL0jw" name="firstName" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_dSpFw9yQEe6PTdpnUVL0jw" name="lastName" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_dSpFxNyQEe6PTdpnUVL0jw" name="email" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpFxdyQEe6PTdpnUVL0jw" name="phoneNumber" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpFxtyQEe6PTdpnUVL0jw" name="hireDate" visibility="private" type="_dSpF59yQEe6PTdpnUVL0jw" isUnique="false"/>
+    <ownedAttribute xmi:id="_dSpFx9yQEe6PTdpnUVL0jw" name="salary" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpFyNyQEe6PTdpnUVL0jw" name="comissionPct" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFydyQEe6PTdpnUVL0jw" memberEnd="_dSpFvdyQEe6PTdpnUVL0jw _dSpFytyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFytyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFvNyQEe6PTdpnUVL0jw" association="_dSpFydyQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpFy9yQEe6PTdpnUVL0jw" memberEnd="_dSpFv9yQEe6PTdpnUVL0jw _dSpFzNyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpFzNyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFvNyQEe6PTdpnUVL0jw" association="_dSpFy9yQEe6PTdpnUVL0jw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dSpFzdyQEe6PTdpnUVL0jw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpFztyQEe6PTdpnUVL0jw" name="Location">
+    <ownedAttribute xmi:id="_dSpFz9yQEe6PTdpnUVL0jw" name="country" visibility="private" type="_dSpF19yQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpF1dyQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpF0NyQEe6PTdpnUVL0jw" name="locationId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpF0dyQEe6PTdpnUVL0jw" name="streetAddress" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpF0tyQEe6PTdpnUVL0jw" name="postalCode" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpF09yQEe6PTdpnUVL0jw" name="city" visibility="private"/>
+    <ownedAttribute xmi:id="_dSpF1NyQEe6PTdpnUVL0jw" name="stateProvince" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpF1dyQEe6PTdpnUVL0jw" memberEnd="_dSpFz9yQEe6PTdpnUVL0jw _dSpF1tyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpF1tyQEe6PTdpnUVL0jw" visibility="private" type="_dSpFztyQEe6PTdpnUVL0jw" association="_dSpF1dyQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpF19yQEe6PTdpnUVL0jw" name="Country">
+    <ownedAttribute xmi:id="_dSpF2NyQEe6PTdpnUVL0jw" name="region" visibility="private" type="_dSpF3dyQEe6PTdpnUVL0jw" aggregation="composite" association="_dSpF29yQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpF2dyQEe6PTdpnUVL0jw" name="countryId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpF2tyQEe6PTdpnUVL0jw" name="countryName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dSpF29yQEe6PTdpnUVL0jw" memberEnd="_dSpF2NyQEe6PTdpnUVL0jw _dSpF3NyQEe6PTdpnUVL0jw">
+    <ownedEnd xmi:id="_dSpF3NyQEe6PTdpnUVL0jw" visibility="private" type="_dSpF19yQEe6PTdpnUVL0jw" association="_dSpF29yQEe6PTdpnUVL0jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpF3dyQEe6PTdpnUVL0jw" name="Region">
+    <ownedAttribute xmi:id="_dSpF3tyQEe6PTdpnUVL0jw" name="regionId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpF39yQEe6PTdpnUVL0jw" name="regionName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpF4NyQEe6PTdpnUVL0jw" name="Task" isAbstract="true">
+    <ownedAttribute xmi:id="_dSpF4dyQEe6PTdpnUVL0jw" name="taskId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dSpF4tyQEe6PTdpnUVL0jw" name="title" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_dSpF49yQEe6PTdpnUVL0jw" name="description" visibility="private" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dSpF5NyQEe6PTdpnUVL0jw" name="BugFixing">
+    <generalization xmi:id="_dSpF5dyQEe6PTdpnUVL0jw" general="_dSpF4NyQEe6PTdpnUVL0jw"/>
+    <ownedAttribute xmi:id="_dSpF5tyQEe6PTdpnUVL0jw" name="numberOfBugs" visibility="private" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_dSpF59yQEe6PTdpnUVL0jw" name="dateTime"/>
+</uml:Model>

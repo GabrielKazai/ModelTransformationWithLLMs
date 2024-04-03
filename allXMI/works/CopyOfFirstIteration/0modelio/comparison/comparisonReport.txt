@@ -1,0 +1,27 @@
+public class JobHistory:
+startdate and endDate are in a different location within the class, shouldn't matter, might be oracles fault?
+
+public class Job:
+tasks is in a different location within the class, shouldn't matter, might be oracles fault?
+
+public class Department:
+location and employees are in a different location within the class, shouldn't matter, might be oracles fault?
+employees in oracle: private List<Employee> employees = new ArrayList<Employee>();	GPT: private List<Employee> employees = new ArrayList<>();
+Error? Unsure
+
+public class Employee:
+manager and job are in a different location within the class, shouldn't matter, might be oracles fault?
+
+public class Location:
+country is in a different location within the class, shouldn't matter, might be oracles fault?
+
+public class Country:
+region is in a different location within the class, shouldn't matter, might be oracles fault?
+
+public class dateTime:
+missing in GPT, error of GPT -------
+--------------------------------------------
+Second Iteration? Yes.
+Re-Execution? No.
+
+

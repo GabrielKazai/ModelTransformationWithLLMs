@@ -1,0 +1,87 @@
+Table Compare
+Produced: 2024-03-29 17:25:43
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nonauthoritative-code\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nonauthoritative-code\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                               4:      5: 6: 7: 8: 9: 10: 11: 12: 13: 14:    1:     2:           3:                               4:          5:         6:                  7:                  8:        9:       10:    11:    12:       13:  14:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                        <>        foster,      biological,                      marriage,   adoption
+       foster,                                                                                          <>
+       biological,                                                                                      <>        foster,      biological,                      marriage,   adoption
+       marriage,                                                                                        <>
+       adoption;                                                                                        <>        Oblique,     Frontal,                         Side
+                                                                                                        <>        Oblique,     Frontal,                         Side
+       ;                                                                                                <>
+                                                                                                        <>        civil_union, unknown,                         common_law, married
+       Oblique,                                                                                         <>
+       Frontal,                                                                                         <>        civil_union, unknown,                         common_law, married
+       Side;                                                                                            <>
+                                                                                                        <>        unknown,     separated,                       married,    widowed,   divorced
+       ;                                                                                                <>
+                                                                                                        <>        unknown,     separated,                       married,    widowed,   divorced
+       civil                union,                                                                      <>        handle,      aka,                             dba,        moniker,   call_sign,          pseudonym,          nickname, user_id, alias, other, provided, fka, unknown
+       unknown,                                                                                         <>
+       common                                                                                           <>        handle,      aka,                             dba,        moniker,   call_sign,          pseudonym,          nickname, user_id, alias, other, provided, fka, unknown
+       law,                                                                                             <>
+       married;                                                                                         <>        Unspecified, Empty,                           Simple,     Mixed,     ElementOnly
+       ;                                                                                                <>        Unspecified, Simple,                          Attribute,  Element,   AttributeWildcard,  ElementWildcard,    Group
+       unknown,                                                                                         <>        Unspecified, None,                            ReadOnly,   ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+       separated,                                                                                       <>
+       married,                                                                                         +-
+       widowed,                                                                                         +-
+       divorced;                                                                                        +-
+                                                                                                        +-
+       ;                                                                                                +-
+                                                                                                        +-
+       handle,                                                                                          +-
+       aka,                                                                                             +-
+       dba,                                                                                             +-
+       moniker,                                                                                         +-
+                                                                                                        +-
+       call                 sign,                                                                       +-
+       pseudonym,                                                                                       +-
+       nickname,                                                                                        +-
+       user                 id,                                                                         +-
+       alias,                                                                                           +-
+       other,                                                                                           +-
+       provided,                                                                                        +-
+       fka,                                                                                             +-
+       unknown;                                                                                         +-
+                                                                                                        +-
+       ;                                                                                                +-
+                                                                                                        +-
+       Unspecified,                                                                                     +-
+       Empty,                                                                                           +-
+       Simple,                                                                                          +-
+       Mixed,                                                                                           +-
+       ElementOnly;                                                                                     +-
+                                                                                                        +-
+       Unspecified,                                                                                     +-
+       Simple,                                                                                          +-
+       Attribute,                                                                                       +-
+       Element,                                                                                         +-
+       AttributeWildcard,                                                                               +-
+       ElementWildcard,                                                                                 +-
+       Group;                                                                                           +-
+                                                                                                        +-
+       Unspecified,                                                                                     +-
+       None,                                                                                            +-
+       ReadOnly,                                                                                        +-
+       ReadWrite,                                                                                       +-
+       ReadOnlyUnsettable,                                                                              +-
+       ReadWriteUnsettable;                                                                             +-
+public class                NamespaceElementPropertyHolder   {                                          <> public enum         FamilyKinshipCodeType            {
+public enum                 FamilyKinshipCodeType            extends {                                  <> public enum         ImagePoseCodeSimpleType          {
+public enum                 ImagePoseCodeSimpleType          {                                          <> public enum         ImagePoseCodeType                {
+public enum                 ImagePoseCodeType                extends {                                  <> public enum         MarriageCategoryCodeSimpleType   {
+public enum                 MarriageCategoryCodeSimpleType   {                                          <> public enum         MarriageCategoryCodeType         {
+public enum                 MarriageCategoryCodeType         extends {                                  <> public enum         MarriageStatusCodeSimpleType     {
+public enum                 MarriageStatusCodeSimpleType     {                                          <> public enum         MarriageStatusCodeType           {
+public enum                 MarriageStatusCodeType           extends {                                  <> public enum         PersonNameCategoryCodeSimpleType {
+public enum                 PersonNameCategoryCodeSimpleType {                                          <> public enum         PersonNameCategoryCodeType       {
+public enum                 PersonNameCategoryCodeType       extends {                                  <> public enum         ContentKind                      {
+public enum                 ContentKind                      {                                          <> public enum         FeatureKind                      {
+public enum                 FeatureKind                      {                                          <> public enum         VisibilityKind                   {
+public enum                 VisibilityKind                   {                                          <> public class        NamespaceElementPropertyHolder   {
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

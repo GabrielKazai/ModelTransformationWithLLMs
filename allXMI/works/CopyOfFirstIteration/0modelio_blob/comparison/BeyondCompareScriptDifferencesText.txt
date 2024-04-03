@@ -1,0 +1,26 @@
+Text Compare
+Produced: 2024-03-19 10:23:57
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_blob\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_blob\gpt\gptoutput\cleanGPT.java
+                         +-
+---------------------------------------------
+---------------------------------------------
+                         +-
+---------------------------------------------
+---------------------------------------------
+                         +-
+---------------------------------------------
+---------------------------------------------
+                         +-
+---------------------------------------------
+---------------------------------------------
+public class ImageBlob { <> class ImageBlob {
+---------------------------------------------
+---------------------------------------------
+public class Blob {      <> class Blob {
+---------------------------------------------
+---------------------------------------------
+public class AnyBlob {   <> class AnyBlob {
+---------------------------------------------

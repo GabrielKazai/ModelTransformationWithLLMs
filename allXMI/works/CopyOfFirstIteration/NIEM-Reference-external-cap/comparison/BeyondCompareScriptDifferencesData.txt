@@ -1,0 +1,172 @@
+Table Compare
+Produced: 2024-03-29 17:41:08
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-external-cap\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-external-cap\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                             4:               5:    1:                                                                                 2: 3: 4: 5:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       public               class                          alert_._type        <>
+       {                                                                       <>
+       public               class                          info_._type      {  <>
+       public               class                          eventCode_._type {  <>
+       }                                                                       <>
+       public               class                          parameter_._type {  <>
+       }                                                                       <>
+       public               class                          resource_._type  {  <>
+       }                                                                       <>
+       public               class                          area_._type      {  <>
+       public               class                          geocode_._type   {  <>
+       }                                                                       <>
+       }                                                                       <>
+                                                                               +-
+       class                category_._type                {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                responseType_._type            {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                urgency_._type                 {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                severity_._type                {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                certainty_._type               {                   +-
+       }                                                                       +-
+                                                                               +-
+       }                                                                       +-
+                                                                               +-
+       class                status_._type                  {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                msgType_._type                 {                   +-
+       }                                                                       +-
+                                                                               +-
+       class                scope_._type                   {                   +-
+       }                                                                       +-
+                                                                               +-
+       }                                                                       +-
+                                                                               +-
+                                                                               +-
+                                                                               +-
+       Unspecified,                                                            +-
+       Empty,                                                                  +-
+       Simple,                                                                 +-
+       Mixed,                                                                  +-
+       ElementOnly;                                                            +-
+                                                                               +-
+                                                                               +-
+       Unspecified,                                                            +-
+       Simple,                                                                 +-
+       Attribute,                                                              +-
+       Element,                                                                +-
+       AttributeWildcard,                                                      +-
+       ElementWildcard,                                                        +-
+       Group;                                                                  +-
+                                                                               +-
+                                                                               +-
+       Unspecified,                                                            +-
+       None,                                                                   +-
+       ReadOnly,                                                               +-
+       ReadWrite,                                                              +-
+       ReadOnlyUnsettable,                                                     +-
+       ReadWriteUnsettable;                                                    +-
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ }
+                                                                               -+ class Alert {
+                                                                               -+ class Area {
+                                                                               -+ class EventCode {
+                                                                               -+ class Geocode {
+                                                                               -+ class Info {
+                                                                               -+ class NamespaceElementPropertyHolder {
+                                                                               -+ class Parameter {
+                                                                               -+ class Resource {
+                                                                               -+ enum Category {
+                                                                               -+ enum Certainty {
+                                                                               -+ enum MsgType {
+                                                                               -+ enum ResponseType {
+                                                                               -+ enum Scope {
+                                                                               -+ enum Severity {
+                                                                               -+ enum Status {
+                                                                               -+ enum Urgency {
+                                                                               -+ private Alert alert
+                                                                               -+ private Area area
+                                                                               -+ private Category category
+                                                                               -+ private Certainty certainty
+                                                                               -+ private EventCode eventCode
+                                                                               -+ private Geocode geocode
+                                                                               -+ private Info info
+                                                                               -+ private MsgType msgType
+                                                                               -+ private Object addresses
+                                                                               -+ private Object altitude
+                                                                               -+ private Object areaDesc
+                                                                               -+ private Object audience
+                                                                               -+ private Object ceiling
+                                                                               -+ private Object circle
+                                                                               -+ private Object code
+                                                                               -+ private Object contact
+                                                                               -+ private Object derefUri
+                                                                               -+ private Object description
+                                                                               -+ private Object digest
+                                                                               -+ private Object effective
+                                                                               -+ private Object event
+                                                                               -+ private Object expires
+                                                                               -+ private Object headline
+                                                                               -+ private Object identifier
+                                                                               -+ private Object incidents
+                                                                               -+ private Object instruction
+                                                                               -+ private Object language
+                                                                               -+ private Object mimeType
+                                                                               -+ private Object note
+                                                                               -+ private Object onset
+                                                                               -+ private Object polygon
+                                                                               -+ private Object references
+                                                                               -+ private Object resourceDesc
+                                                                               -+ private Object restriction
+                                                                               -+ private Object sender
+                                                                               -+ private Object senderName
+                                                                               -+ private Object sent
+                                                                               -+ private Object size
+                                                                               -+ private Object source
+                                                                               -+ private Object uri
+                                                                               -+ private Object value
+                                                                               -+ private Object value
+                                                                               -+ private Object value
+                                                                               -+ private Object value
+                                                                               -+ private Object valueName
+                                                                               -+ private Object valueName
+                                                                               -+ private Object valueName
+                                                                               -+ private Object valueName
+                                                                               -+ private Object web
+                                                                               -+ private Parameter parameter
+                                                                               -+ private Resource resource
+                                                                               -+ private ResponseType responseType
+                                                                               -+ private Scope scope
+                                                                               -+ private Severity severity
+                                                                               -+ private Status status
+                                                                               -+ private Urgency urgency
+public class                NamespaceElementPropertyHolder {                   +-
+public enum                 ContentKind                    {                   +-
+public enum                 FeatureKind                    {                   +-
+public enum                 VisibilityKind                 {                   +-
+                                                                               -+ public enum ContentKind {
+                                                                               -+ public enum FeatureKind {
+                                                                               -+ public enum VisibilityKind {
+                                                                               -+ Unspecified, Empty, Simple, Mixed, ElementOnly
+                                                                               -+ Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                                               -+ Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

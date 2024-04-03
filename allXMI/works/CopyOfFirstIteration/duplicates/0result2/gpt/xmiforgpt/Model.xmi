@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Doh2oOPJEe6YkKlQnJo0Bg" name="Model">
+  <eAnnotations xmi:id="_Doh2oePJEe6YkKlQnJo0Bg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Doh2ouPJEe6YkKlQnJo0Bg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Doh2o-PJEe6YkKlQnJo0Bg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Doh2pOPJEe6YkKlQnJo0Bg" name="LoadBalancer">
+    <ownedAttribute xmi:id="_Doh2pePJEe6YkKlQnJo0Bg" name="scalabilityThreshold" visibility="public">
+      <eAnnotations xmi:id="_Doh2puPJEe6YkKlQnJo0Bg" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_Doh2p-PJEe6YkKlQnJo0Bg" name="isNoType"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Doh2qOPJEe6YkKlQnJo0Bg" name="enable" visibility="public">
+      <eAnnotations xmi:id="_Doh2qePJEe6YkKlQnJo0Bg" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_Doh2quPJEe6YkKlQnJo0Bg" name="isNoType"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Doh2q-PJEe6YkKlQnJo0Bg" name="loadBalancerRules" visibility="public">
+      <eAnnotations xmi:id="_Doh2rOPJEe6YkKlQnJo0Bg" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_Doh2rePJEe6YkKlQnJo0Bg" name="isNoType"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Doh2ruPJEe6YkKlQnJo0Bg" name="enableLoadBalancer" visibility="public">
+      <ownedParameter xmi:id="_Doh2r-PJEe6YkKlQnJo0Bg" direction="return">
+        <eAnnotations xmi:id="_Doh2sOPJEe6YkKlQnJo0Bg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_Doh2sePJEe6YkKlQnJo0Bg" name="isNoType"/>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Doh2suPJEe6YkKlQnJo0Bg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Doh2s-PJEe6YkKlQnJo0Bg" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Doh2tOPJEe6YkKlQnJo0Bg" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Doh2tePJEe6YkKlQnJo0Bg" name="boolean"/>
+</uml:Model>

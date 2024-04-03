@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_9PGU8O3EEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_9PGU8e3EEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_9PGU8u3EEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9PGU8-3EEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9PGU9O3EEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Package" xmi:id="_9PGU9e3EEe6yiIkslZcBIA" name="cap">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9PGU9u3EEe6yiIkslZcBIA" name="1.1">
+        <packagedElement xmi:type="uml:Package" xmi:id="_9PGU9-3EEe6yiIkslZcBIA" name="cap">
+          <packagedElement xmi:type="uml:Class" xmi:id="_9PGU-O3EEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder">
+            <ownedAttribute xmi:id="_9PGU-e3EEe6yiIkslZcBIA" name="value" aggregation="composite"/>
+            <ownedAttribute xmi:id="_9PGU-u3EEe6yiIkslZcBIA" name="alert" type="_9PGU_O3EEe6yiIkslZcBIA" aggregation="composite"/>
+            <ownedAttribute xmi:id="_9PGU--3EEe6yiIkslZcBIA" name="valueName" aggregation="composite"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGU_O3EEe6yiIkslZcBIA" name="alert_._type">
+              <ownedAttribute xmi:id="_9PGU_e3EEe6yiIkslZcBIA" name="identifier" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGU_u3EEe6yiIkslZcBIA" name="sender" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGU_-3EEe6yiIkslZcBIA" name="sent" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGVAO3EEe6yiIkslZcBIA" name="status" type="_9PGVFe3EEe6yiIkslZcBIA" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGVAe3EEe6yiIkslZcBIA" name="msgType" type="_9PGVFu3EEe6yiIkslZcBIA" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGVAu3EEe6yiIkslZcBIA" name="source" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVA-3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVBO3EEe6yiIkslZcBIA" name="scope" type="_9PGVF-3EEe6yiIkslZcBIA" aggregation="composite"/>
+              <ownedAttribute xmi:id="_9PGVBe3EEe6yiIkslZcBIA" name="restriction" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVBu3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVB-3EEe6yiIkslZcBIA" name="addresses" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVCO3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVCe3EEe6yiIkslZcBIA" name="code" aggregation="composite">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVCu3EEe6yiIkslZcBIA" value="*"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVC-3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVDO3EEe6yiIkslZcBIA" name="note" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVDe3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVDu3EEe6yiIkslZcBIA" name="references" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVD-3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVEO3EEe6yiIkslZcBIA" name="incidents" aggregation="composite">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVEe3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9PGVEu3EEe6yiIkslZcBIA" name="info" type="_9PGVGO3EEe6yiIkslZcBIA" aggregation="composite">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVE-3EEe6yiIkslZcBIA" value="*"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVFO3EEe6yiIkslZcBIA"/>
+              </ownedAttribute>
+              <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVFe3EEe6yiIkslZcBIA" name="status_._type"/>
+              <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVFu3EEe6yiIkslZcBIA" name="msgType_._type"/>
+              <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVF-3EEe6yiIkslZcBIA" name="scope_._type"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVGO3EEe6yiIkslZcBIA" name="info_._type">
+                <ownedAttribute xmi:id="_9PGVGe3EEe6yiIkslZcBIA" name="language" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVGu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVG-3EEe6yiIkslZcBIA" name="category" type="_9PGVRO3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVHO3EEe6yiIkslZcBIA" value="*"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVHe3EEe6yiIkslZcBIA" name="event" aggregation="composite"/>
+                <ownedAttribute xmi:id="_9PGVHu3EEe6yiIkslZcBIA" name="responseType" type="_9PGVRe3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVH-3EEe6yiIkslZcBIA" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVIO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVIe3EEe6yiIkslZcBIA" name="urgency" type="_9PGVRu3EEe6yiIkslZcBIA" aggregation="composite"/>
+                <ownedAttribute xmi:id="_9PGVIu3EEe6yiIkslZcBIA" name="severity" type="_9PGVR-3EEe6yiIkslZcBIA" aggregation="composite"/>
+                <ownedAttribute xmi:id="_9PGVI-3EEe6yiIkslZcBIA" name="certainty" type="_9PGVSO3EEe6yiIkslZcBIA" aggregation="composite"/>
+                <ownedAttribute xmi:id="_9PGVJO3EEe6yiIkslZcBIA" name="audience" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVJe3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVJu3EEe6yiIkslZcBIA" name="eventCode" type="_9PGVSe3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVJ-3EEe6yiIkslZcBIA" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVKO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVKe3EEe6yiIkslZcBIA" name="effective" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVKu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVK-3EEe6yiIkslZcBIA" name="onset" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVLO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVLe3EEe6yiIkslZcBIA" name="expires" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVLu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVL-3EEe6yiIkslZcBIA" name="senderName" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVMO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVMe3EEe6yiIkslZcBIA" name="headline" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVMu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVM-3EEe6yiIkslZcBIA" name="description" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVNO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVNe3EEe6yiIkslZcBIA" name="instruction" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVNu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVN-3EEe6yiIkslZcBIA" name="web" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVOO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVOe3EEe6yiIkslZcBIA" name="contact" aggregation="composite">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVOu3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVO-3EEe6yiIkslZcBIA" name="parameter" type="_9PGVTO3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVPO3EEe6yiIkslZcBIA" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVPe3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVPu3EEe6yiIkslZcBIA" name="resource" type="_9PGVT-3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVP-3EEe6yiIkslZcBIA" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVQO3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_9PGVQe3EEe6yiIkslZcBIA" name="area" type="_9PGVW-3EEe6yiIkslZcBIA" aggregation="composite">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVQu3EEe6yiIkslZcBIA" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVQ-3EEe6yiIkslZcBIA"/>
+                </ownedAttribute>
+                <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVRO3EEe6yiIkslZcBIA" name="category_._type"/>
+                <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVRe3EEe6yiIkslZcBIA" name="responseType_._type"/>
+                <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVRu3EEe6yiIkslZcBIA" name="urgency_._type"/>
+                <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVR-3EEe6yiIkslZcBIA" name="severity_._type"/>
+                <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9PGVSO3EEe6yiIkslZcBIA" name="certainty_._type"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVSe3EEe6yiIkslZcBIA" name="eventCode_._type">
+                  <ownedAttribute xmi:id="_9PGVSu3EEe6yiIkslZcBIA" name="valueName" aggregation="composite"/>
+                  <ownedAttribute xmi:id="_9PGVS-3EEe6yiIkslZcBIA" name="value" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVTO3EEe6yiIkslZcBIA" name="parameter_._type">
+                  <ownedAttribute xmi:id="_9PGVTe3EEe6yiIkslZcBIA" name="valueName" aggregation="composite"/>
+                  <ownedAttribute xmi:id="_9PGVTu3EEe6yiIkslZcBIA" name="value" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVT-3EEe6yiIkslZcBIA" name="resource_._type">
+                  <ownedAttribute xmi:id="_9PGVUO3EEe6yiIkslZcBIA" name="resourceDesc" aggregation="composite"/>
+                  <ownedAttribute xmi:id="_9PGVUe3EEe6yiIkslZcBIA" name="mimeType" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVUu3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVU-3EEe6yiIkslZcBIA" name="size" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVVO3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVVe3EEe6yiIkslZcBIA" name="uri" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVVu3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVV-3EEe6yiIkslZcBIA" name="derefUri" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVWO3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVWe3EEe6yiIkslZcBIA" name="digest" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVWu3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVW-3EEe6yiIkslZcBIA" name="area_._type">
+                  <ownedAttribute xmi:id="_9PGVXO3EEe6yiIkslZcBIA" name="areaDesc" aggregation="composite"/>
+                  <ownedAttribute xmi:id="_9PGVXe3EEe6yiIkslZcBIA" name="polygon" aggregation="composite">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVXu3EEe6yiIkslZcBIA" value="*"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVX-3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVYO3EEe6yiIkslZcBIA" name="circle" aggregation="composite">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVYe3EEe6yiIkslZcBIA" value="*"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVYu3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVY-3EEe6yiIkslZcBIA" name="geocode" type="_9PGVau3EEe6yiIkslZcBIA" aggregation="composite">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PGVZO3EEe6yiIkslZcBIA" value="*"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVZe3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVZu3EEe6yiIkslZcBIA" name="altitude" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVZ-3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_9PGVaO3EEe6yiIkslZcBIA" name="ceiling" aggregation="composite">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PGVae3EEe6yiIkslZcBIA"/>
+                  </ownedAttribute>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_9PGVau3EEe6yiIkslZcBIA" name="geocode_._type">
+                    <ownedAttribute xmi:id="_9PGVa-3EEe6yiIkslZcBIA" name="valueName" aggregation="composite"/>
+                    <ownedAttribute xmi:id="_9PGVbO3EEe6yiIkslZcBIA" name="value" aggregation="composite"/>
+                  </nestedClassifier>
+                </nestedClassifier>
+              </nestedClassifier>
+            </nestedClassifier>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9PGVbe3EEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9PGVbu3EEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_9PGVb-3EEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9PGVcO3EEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_9PGVce3EEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_9PGVcu3EEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_9PGVc-3EEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9PGVdO3EEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_9PGVde3EEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9PGVdu3EEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_9PGVd-3EEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_9PGVeO3EEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_9PGVee3EEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_9PGVeu3EEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_9PGVe-3EEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9PGVfO3EEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_9PGVfe3EEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9PGVfu3EEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_9PGVf-3EEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_9PGVgO3EEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_9PGVge3EEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_9PGVgu3EEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

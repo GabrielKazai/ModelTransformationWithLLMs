@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2024-03-27 15:42:48
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl-cap\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl-cap\gpt\gptoutput\cleanGPT.java
+ +-
+----

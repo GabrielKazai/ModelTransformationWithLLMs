@@ -1,0 +1,13 @@
+Can't generate Java code for "UML - packages," "UML - Activity," and "UML - Signal"
+
+TextInputChannel --> "Default return code generate for":
+peekCharacter
+readBoolean
+readCharacter
+readInteger
+readLine
+readUnlimitedNatural
+
+InputChannel, OutputChannel --> generation canceled
+
+TextInputChannel --> Generates comments in the java code, these are removed for formatting "// TODO Auto-generated return"

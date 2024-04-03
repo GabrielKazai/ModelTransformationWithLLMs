@@ -1,0 +1,4 @@
+"myClass" --> Generation canceled, 
+The type of the "mySecondAttribute of the "MyClass" class must be defined. Use the properties editor of the "mySecondAttribute" attribute to definte its type.
+
+

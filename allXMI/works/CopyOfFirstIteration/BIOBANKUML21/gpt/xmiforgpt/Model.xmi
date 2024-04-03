@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_aXAt0PALEe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_aXAt0fALEe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_aXAt0vALEe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_aXAt0_ALEe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aXAt1PALEe6-4aaHZrjoFg" name="BIOBANK">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXAt1fALEe6-4aaHZrjoFg" name="Address">
+      <ownedAttribute xmi:id="_aXAt1vALEe6-4aaHZrjoFg" name="city" visibility="private">
+        <eAnnotations xmi:id="_aXAt1_ALEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_aXAt2PALEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXAt2fALEe6-4aaHZrjoFg" name="street" visibility="private">
+        <eAnnotations xmi:id="_aXAt2vALEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_aXAt2_ALEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aXAt3PALEe6-4aaHZrjoFg" memberEnd="_aXAt3fALEe6-4aaHZrjoFg _aXAt3_ALEe6-4aaHZrjoFg">
+      <ownedEnd xmi:id="_aXAt3fALEe6-4aaHZrjoFg" name="biobank" visibility="public" type="_aXAt4fALEe6-4aaHZrjoFg" association="_aXAt3PALEe6-4aaHZrjoFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXAt3vALEe6-4aaHZrjoFg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_aXAt3_ALEe6-4aaHZrjoFg" name="adress" visibility="public" type="_aXAt1fALEe6-4aaHZrjoFg" association="_aXAt3PALEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXAt4PALEe6-4aaHZrjoFg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXAt4fALEe6-4aaHZrjoFg" name="Biobank" clientDependency="_aXAt5fALEe6-4aaHZrjoFg">
+      <ownedAttribute xmi:id="_aXAt4vALEe6-4aaHZrjoFg" name="dtype" visibility="private" type="_aXAt_fALEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_aXAt4_ALEe6-4aaHZrjoFg" name="ptype" visibility="private" type="_aXAt_vALEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_aXAt5PALEe6-4aaHZrjoFg" name="type" visibility="private" type="_aXAt5_ALEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_aXAt5fALEe6-4aaHZrjoFg" supplier="_aXAt8_ALEe6-4aaHZrjoFg" client="_aXAt4fALEe6-4aaHZrjoFg">
+      <mapping xmi:id="_aXAt5vALEe6-4aaHZrjoFg" name="Mapping">
+        <body></body>
+      </mapping>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_aXAt5_ALEe6-4aaHZrjoFg" name="BiobankType">
+      <ownedLiteral xmi:id="_aXAt6PALEe6-4aaHZrjoFg" name="disease"/>
+      <ownedLiteral xmi:id="_aXAt6fALEe6-4aaHZrjoFg" name="population"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXAt6vALEe6-4aaHZrjoFg" name="Sample" clientDependency="_aXAt7vALEe6-4aaHZrjoFg">
+      <ownedAttribute xmi:id="_aXAt6_ALEe6-4aaHZrjoFg" name="biobank" visibility="public" type="_aXAt4fALEe6-4aaHZrjoFg" association="_aXAt8PALEe6-4aaHZrjoFg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXAt7PALEe6-4aaHZrjoFg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXAt7fALEe6-4aaHZrjoFg" name="quality" visibility="private" type="_aXAt__ALEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_aXAt7vALEe6-4aaHZrjoFg" supplier="_aXAt8_ALEe6-4aaHZrjoFg" client="_aXAt6vALEe6-4aaHZrjoFg">
+      <mapping xmi:id="_aXAt7_ALEe6-4aaHZrjoFg" name="Mapping">
+        <body></body>
+      </mapping>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aXAt8PALEe6-4aaHZrjoFg" memberEnd="_aXAt6_ALEe6-4aaHZrjoFg _aXAt8fALEe6-4aaHZrjoFg">
+      <ownedEnd xmi:id="_aXAt8fALEe6-4aaHZrjoFg" name="sample" visibility="public" type="_aXAt6vALEe6-4aaHZrjoFg" aggregation="shared" association="_aXAt8PALEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXAt8vALEe6-4aaHZrjoFg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_aXAt8_ALEe6-4aaHZrjoFg" name="Identifiable" isAbstract="true">
+      <ownedAttribute xmi:id="_aXAt9PALEe6-4aaHZrjoFg" name="identifier" visibility="public" isStatic="true">
+        <eAnnotations xmi:id="_aXAt9fALEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_aXAt9vALEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXAt9_ALEe6-4aaHZrjoFg" name="name" visibility="public" isStatic="true">
+        <eAnnotations xmi:id="_aXAt-PALEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_aXAt-fALEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXAt-vALEe6-4aaHZrjoFg" name="number" visibility="public" isStatic="true">
+        <eAnnotations xmi:id="_aXAt-_ALEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_aXAt_PALEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_aXAt_fALEe6-4aaHZrjoFg" name="DataType1"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_aXAt_vALEe6-4aaHZrjoFg" name="PrimitiveType1"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_aXAt__ALEe6-4aaHZrjoFg" name="Quality"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_aXAuAPALEe6-4aaHZrjoFg" name="Object1"/>
+  </packagedElement>
+</uml:Model>

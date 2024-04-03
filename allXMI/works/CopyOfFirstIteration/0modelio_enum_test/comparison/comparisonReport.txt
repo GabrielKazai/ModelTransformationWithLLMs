@@ -1,0 +1,7 @@
+public class MyEnumeration, MySecondEnumeration:
+Oracle adds ; after the enums, GPT doesn't. This is not required in Java, no fault of GPT
+------------------------------
+Second Iteration? No.
+Re-Execution? No.
+
+

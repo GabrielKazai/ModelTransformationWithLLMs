@@ -1,0 +1,97 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Generate Java Classes from XMI
+
+
+Java Model Classes
+Java Class from XMI
+Java UML to XMI
+Java Classes from XMI
+Java Classes from XMI
+Java Class Modeling Response
+Java Class From XMI
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Class Creation
+Java Class Models Creation
+Yesterday
+Java Code Generation
+Java Code from XMI
+Java Class Generation
+Java UML Classes
+Java Models Generation
+Java UML Conversion
+Java UML sincl XMI.
+UML Java Class Generation
+Java Classes from UML
+Java Models Generation
+Java Code Response
+Java UML Code
+Java code for UML.
+Java Models From XMI
+Java Models from XMI
+Java Class UML Translation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_xIelFuBVEe6V2IDXxiYNyg" name="Model">
+  <eAnnotations xmi:id="_xIelF-BVEe6V2IDXxiYNyg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_xIelGOBVEe6V2IDXxiYNyg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_xIelGeBVEe6V2IDXxiYNyg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xIelGuBVEe6V2IDXxiYNyg" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xIelG-BVEe6V2IDXxiYNyg" name="Class">
+    <ownedAttribute xmi:id="_xIelHOBVEe6V2IDXxiYNyg" name="Attribute" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xIelHeBVEe6V2IDXxiYNyg" name="Class1">
+    <ownedAttribute xmi:id="_xIelHuBVEe6V2IDXxiYNyg" visibility="public" type="_xIelG-BVEe6V2IDXxiYNyg" aggregation="composite" association="_xIelIOBVEe6V2IDXxiYNyg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xIelH-BVEe6V2IDXxiYNyg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xIelIOBVEe6V2IDXxiYNyg" memberEnd="_xIelHuBVEe6V2IDXxiYNyg _xIelIeBVEe6V2IDXxiYNyg">
+    <ownedEnd xmi:id="_xIelIeBVEe6V2IDXxiYNyg" visibility="public" type="_xIelHeBVEe6V2IDXxiYNyg" association="_xIelIOBVEe6V2IDXxiYNyg"/>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Class2 {
+}
+
+public class Class {
+    public String Attribute;
+}
+
+public class Class1 {
+    public Class classAttribute;
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

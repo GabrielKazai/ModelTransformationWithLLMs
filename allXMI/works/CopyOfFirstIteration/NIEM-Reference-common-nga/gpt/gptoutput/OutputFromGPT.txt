@@ -1,0 +1,349 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+Java Class Models
+Java Class ICISMMetadata
+Java Classes From XMI
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Java Class Contrainte
+Java Classes from XMI
+Java Class Generation
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Java UML Model Classes
+Previous 7 Days
+Java Class Creation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_vawzoO3KEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_vawzoe3KEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_vawzou3KEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_vawzo-3KEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_vawzpO3KEe6yiIkslZcBIA" name="nga">
+    <packagedElement xmi:type="uml:Package" xmi:id="_vawzpe3KEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_vawzpu3KEe6yiIkslZcBIA" name="nga">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_vawzp-3KEe6yiIkslZcBIA" name="DatumCodeSimpleType">
+          <ownedLiteral xmi:id="_vawzqO3KEe6yiIkslZcBIA" name="SAN-F"/>
+          <ownedLiteral xmi:id="_vawzqe3KEe6yiIkslZcBIA" name="GAA"/>
+          <ownedLiteral xmi:id="_vawzqu3KEe6yiIkslZcBIA" name="ASQ"/>
+          <ownedLiteral xmi:id="_vawzq-3KEe6yiIkslZcBIA" name="BOO"/>
+          <ownedLiteral xmi:id="_vawzrO3KEe6yiIkslZcBIA" name="SCK"/>
+          <ownedLiteral xmi:id="_vawzre3KEe6yiIkslZcBIA" name="SAN-C"/>
+          <ownedLiteral xmi:id="_vawzru3KEe6yiIkslZcBIA" name="MIK"/>
+          <ownedLiteral xmi:id="_vawzr-3KEe6yiIkslZcBIA" name="NAS-L"/>
+          <ownedLiteral xmi:id="_vawzsO3KEe6yiIkslZcBIA" name="NAR-E"/>
+          <ownedLiteral xmi:id="_vawzse3KEe6yiIkslZcBIA" name="PRP-F"/>
+          <ownedLiteral xmi:id="_vawzsu3KEe6yiIkslZcBIA" name="ARF-E"/>
+          <ownedLiteral xmi:id="_vawzs-3KEe6yiIkslZcBIA" name="AIN-A"/>
+          <ownedLiteral xmi:id="_vawztO3KEe6yiIkslZcBIA" name="HKD"/>
+          <ownedLiteral xmi:id="_vawzte3KEe6yiIkslZcBIA" name="EAS"/>
+          <ownedLiteral xmi:id="_vawztu3KEe6yiIkslZcBIA" name="NAH-C"/>
+          <ownedLiteral xmi:id="_vawzt-3KEe6yiIkslZcBIA" name="SAE"/>
+          <ownedLiteral xmi:id="_vawzuO3KEe6yiIkslZcBIA" name="TOY-C"/>
+          <ownedLiteral xmi:id="_vawzue3KEe6yiIkslZcBIA" name="NAR-B"/>
+          <ownedLiteral xmi:id="_vawzuu3KEe6yiIkslZcBIA" name="EUR-B"/>
+          <ownedLiteral xmi:id="_vawzu-3KEe6yiIkslZcBIA" name="MIN-B"/>
+          <ownedLiteral xmi:id="_vawzvO3KEe6yiIkslZcBIA" name="NSD"/>
+          <ownedLiteral xmi:id="_vawzve3KEe6yiIkslZcBIA" name="SAN-L"/>
+          <ownedLiteral xmi:id="_vawzvu3KEe6yiIkslZcBIA" name="LUZ-B"/>
+          <ownedLiteral xmi:id="_vawzv-3KEe6yiIkslZcBIA" name="PIT"/>
+          <ownedLiteral xmi:id="_vawzwO3KEe6yiIkslZcBIA" name="HIT"/>
+          <ownedLiteral xmi:id="_vawzwe3KEe6yiIkslZcBIA" name="TDC"/>
+          <ownedLiteral xmi:id="_vawzwu3KEe6yiIkslZcBIA" name="OGB-M"/>
+          <ownedLiteral xmi:id="_vawzw-3KEe6yiIkslZcBIA" name="PRP-D"/>
+          <ownedLiteral xmi:id="_vawzxO3KEe6yiIkslZcBIA" name="AUA"/>
+          <ownedLiteral xmi:id="_vawzxe3KEe6yiIkslZcBIA" name="DOB"/>
+          <ownedLiteral xmi:id="_vawzxu3KEe6yiIkslZcBIA" name="VOR"/>
+          <ownedLiteral xmi:id="_vawzx-3KEe6yiIkslZcBIA" name="NAS-Q"/>
+          <ownedLiteral xmi:id="_vawzyO3KEe6yiIkslZcBIA" name="EUR-S"/>
+          <ownedLiteral xmi:id="_vawzye3KEe6yiIkslZcBIA" name="OHA-C"/>
+          <ownedLiteral xmi:id="_vawzyu3KEe6yiIkslZcBIA" name="NAS-R"/>
+          <ownedLiteral xmi:id="_vawzy-3KEe6yiIkslZcBIA" name="NAS-N"/>
+          <ownedLiteral xmi:id="_vawzzO3KEe6yiIkslZcBIA" name="CCD"/>
+          <ownedLiteral xmi:id="_vawzze3KEe6yiIkslZcBIA" name="EUR-C"/>
+          <ownedLiteral xmi:id="_vawzzu3KEe6yiIkslZcBIA" name="LCF"/>
+          <ownedLiteral xmi:id="_vawzz-3KEe6yiIkslZcBIA" name="SAN-G"/>
+          <ownedLiteral xmi:id="_vawz0O3KEe6yiIkslZcBIA" name="REU"/>
+          <ownedLiteral xmi:id="_vawz0e3KEe6yiIkslZcBIA" name="KEG"/>
+          <ownedLiteral xmi:id="_vawz0u3KEe6yiIkslZcBIA" name="MPO"/>
+          <ownedLiteral xmi:id="_vawz0-3KEe6yiIkslZcBIA" name="COA"/>
+          <ownedLiteral xmi:id="_vawz1O3KEe6yiIkslZcBIA" name="CAI"/>
+          <ownedLiteral xmi:id="_vawz1e3KEe6yiIkslZcBIA" name="PLN"/>
+          <ownedLiteral xmi:id="_vawz1u3KEe6yiIkslZcBIA" name="NAP"/>
+          <ownedLiteral xmi:id="_vawz1-3KEe6yiIkslZcBIA" name="WAK"/>
+          <ownedLiteral xmi:id="_vawz2O3KEe6yiIkslZcBIA" name="SAN-M"/>
+          <ownedLiteral xmi:id="_vawz2e3KEe6yiIkslZcBIA" name="TRN"/>
+          <ownedLiteral xmi:id="_vawz2u3KEe6yiIkslZcBIA" name="PTN"/>
+          <ownedLiteral xmi:id="_vawz2-3KEe6yiIkslZcBIA" name="OGB-C"/>
+          <ownedLiteral xmi:id="_vawz3O3KEe6yiIkslZcBIA" name="ISG"/>
+          <ownedLiteral xmi:id="_vawz3e3KEe6yiIkslZcBIA" name="IDN"/>
+          <ownedLiteral xmi:id="_vawz3u3KEe6yiIkslZcBIA" name="JOH"/>
+          <ownedLiteral xmi:id="_vawz3-3KEe6yiIkslZcBIA" name="EUR-G"/>
+          <ownedLiteral xmi:id="_vawz4O3KEe6yiIkslZcBIA" name="SPK-D"/>
+          <ownedLiteral xmi:id="_vawz4e3KEe6yiIkslZcBIA" name="SAN-K"/>
+          <ownedLiteral xmi:id="_vawz4u3KEe6yiIkslZcBIA" name="YAC"/>
+          <ownedLiteral xmi:id="_vawz4-3KEe6yiIkslZcBIA" name="KAN"/>
+          <ownedLiteral xmi:id="_vawz5O3KEe6yiIkslZcBIA" name="MAS"/>
+          <ownedLiteral xmi:id="_vawz5e3KEe6yiIkslZcBIA" name="AIN-B"/>
+          <ownedLiteral xmi:id="_vawz5u3KEe6yiIkslZcBIA" name="HEN"/>
+          <ownedLiteral xmi:id="_vawz5-3KEe6yiIkslZcBIA" name="ENW"/>
+          <ownedLiteral xmi:id="_vawz6O3KEe6yiIkslZcBIA" name="BAT"/>
+          <ownedLiteral xmi:id="_vawz6e3KEe6yiIkslZcBIA" name="ATF"/>
+          <ownedLiteral xmi:id="_vawz6u3KEe6yiIkslZcBIA" name="ARF-B"/>
+          <ownedLiteral xmi:id="_vawz6-3KEe6yiIkslZcBIA" name="TIL"/>
+          <ownedLiteral xmi:id="_vawz7O3KEe6yiIkslZcBIA" name="NAS-H"/>
+          <ownedLiteral xmi:id="_vawz7e3KEe6yiIkslZcBIA" name="IND-P"/>
+          <ownedLiteral xmi:id="_vawz7u3KEe6yiIkslZcBIA" name="NAS-W"/>
+          <ownedLiteral xmi:id="_vawz7-3KEe6yiIkslZcBIA" name="OHA-B"/>
+          <ownedLiteral xmi:id="_vawz8O3KEe6yiIkslZcBIA" name="GIZ"/>
+          <ownedLiteral xmi:id="_vawz8e3KEe6yiIkslZcBIA" name="BUR"/>
+          <ownedLiteral xmi:id="_vawz8u3KEe6yiIkslZcBIA" name="OGB-A"/>
+          <ownedLiteral xmi:id="_vawz8-3KEe6yiIkslZcBIA" name="KEA"/>
+          <ownedLiteral xmi:id="_vawz9O3KEe6yiIkslZcBIA" name="SAN-H"/>
+          <ownedLiteral xmi:id="_vawz9e3KEe6yiIkslZcBIA" name="SAN-I"/>
+          <ownedLiteral xmi:id="_vawz9u3KEe6yiIkslZcBIA" name="PUR"/>
+          <ownedLiteral xmi:id="_vawz9-3KEe6yiIkslZcBIA" name="ADI-M"/>
+          <ownedLiteral xmi:id="_vawz-O3KEe6yiIkslZcBIA" name="CAC"/>
+          <ownedLiteral xmi:id="_vawz-e3KEe6yiIkslZcBIA" name="FLO"/>
+          <ownedLiteral xmi:id="_vawz-u3KEe6yiIkslZcBIA" name="HER"/>
+          <ownedLiteral xmi:id="_vawz--3KEe6yiIkslZcBIA" name="LIB"/>
+          <ownedLiteral xmi:id="_vawz_O3KEe6yiIkslZcBIA" name="ZAN"/>
+          <ownedLiteral xmi:id="_vawz_e3KEe6yiIkslZcBIA" name="NAH-B"/>
+          <ownedLiteral xmi:id="_vawz_u3KEe6yiIkslZcBIA" name="NAS-U"/>
+          <ownedLiteral xmi:id="_vawz_-3KEe6yiIkslZcBIA" name="ASM"/>
+          <ownedLiteral xmi:id="_vaw0AO3KEe6yiIkslZcBIA" name="NAS-I"/>
+          <ownedLiteral xmi:id="_vaw0Ae3KEe6yiIkslZcBIA" name="NAH-A"/>
+          <ownedLiteral xmi:id="_vaw0Au3KEe6yiIkslZcBIA" name="SRL"/>
+          <ownedLiteral xmi:id="_vaw0A-3KEe6yiIkslZcBIA" name="SHB"/>
+          <ownedLiteral xmi:id="_vaw0BO3KEe6yiIkslZcBIA" name="EUS"/>
+          <ownedLiteral xmi:id="_vaw0Be3KEe6yiIkslZcBIA" name="ING-B"/>
+          <ownedLiteral xmi:id="_vaw0Bu3KEe6yiIkslZcBIA" name="NAS-C"/>
+          <ownedLiteral xmi:id="_vaw0B-3KEe6yiIkslZcBIA" name="SPK-F"/>
+          <ownedLiteral xmi:id="_vaw0CO3KEe6yiIkslZcBIA" name="EST"/>
+          <ownedLiteral xmi:id="_vaw0Ce3KEe6yiIkslZcBIA" name="NAS-P"/>
+          <ownedLiteral xmi:id="_vaw0Cu3KEe6yiIkslZcBIA" name="EUR-D"/>
+          <ownedLiteral xmi:id="_vaw0C-3KEe6yiIkslZcBIA" name="OHA-A"/>
+          <ownedLiteral xmi:id="_vaw0DO3KEe6yiIkslZcBIA" name="EUR-F"/>
+          <ownedLiteral xmi:id="_vaw0De3KEe6yiIkslZcBIA" name="ARF-H"/>
+          <ownedLiteral xmi:id="_vaw0Du3KEe6yiIkslZcBIA" name="HJO"/>
+          <ownedLiteral xmi:id="_vaw0D-3KEe6yiIkslZcBIA" name="NAR-D"/>
+          <ownedLiteral xmi:id="_vaw0EO3KEe6yiIkslZcBIA" name="PRP-H"/>
+          <ownedLiteral xmi:id="_vaw0Ee3KEe6yiIkslZcBIA" name="IBE"/>
+          <ownedLiteral xmi:id="_vaw0Eu3KEe6yiIkslZcBIA" name="ADI-A"/>
+          <ownedLiteral xmi:id="_vaw0E-3KEe6yiIkslZcBIA" name="GEO"/>
+          <ownedLiteral xmi:id="_vaw0FO3KEe6yiIkslZcBIA" name="AMA"/>
+          <ownedLiteral xmi:id="_vaw0Fe3KEe6yiIkslZcBIA" name="PHA"/>
+          <ownedLiteral xmi:id="_vaw0Fu3KEe6yiIkslZcBIA" name="SAN-E"/>
+          <ownedLiteral xmi:id="_vaw0F-3KEe6yiIkslZcBIA" name="OGB-D"/>
+          <ownedLiteral xmi:id="_vaw0GO3KEe6yiIkslZcBIA" name="IST"/>
+          <ownedLiteral xmi:id="_vaw0Ge3KEe6yiIkslZcBIA" name="ARF-C"/>
+          <ownedLiteral xmi:id="_vaw0Gu3KEe6yiIkslZcBIA" name="ADI-B"/>
+          <ownedLiteral xmi:id="_vaw0G-3KEe6yiIkslZcBIA" name="GSE"/>
+          <ownedLiteral xmi:id="_vaw0HO3KEe6yiIkslZcBIA" name="TOY-M"/>
+          <ownedLiteral xmi:id="_vaw0He3KEe6yiIkslZcBIA" name="EUR-M"/>
+          <ownedLiteral xmi:id="_vaw0Hu3KEe6yiIkslZcBIA" name="NAS-E"/>
+          <ownedLiteral xmi:id="_vaw0H-3KEe6yiIkslZcBIA" name="SPK-B"/>
+          <ownedLiteral xmi:id="_vaw0IO3KEe6yiIkslZcBIA" name="POS"/>
+          <ownedLiteral xmi:id="_vaw0Ie3KEe6yiIkslZcBIA" name="CHU"/>
+          <ownedLiteral xmi:id="_vaw0Iu3KEe6yiIkslZcBIA" name="EUR-A"/>
+          <ownedLiteral xmi:id="_vaw0I-3KEe6yiIkslZcBIA" name="CAZ"/>
+          <ownedLiteral xmi:id="_vaw0JO3KEe6yiIkslZcBIA" name="QUO"/>
+          <ownedLiteral xmi:id="_vaw0Je3KEe6yiIkslZcBIA" name="DID"/>
+          <ownedLiteral xmi:id="_vaw0Ju3KEe6yiIkslZcBIA" name="MVS"/>
+          <ownedLiteral xmi:id="_vaw0J-3KEe6yiIkslZcBIA" name="ARS-A"/>
+          <ownedLiteral xmi:id="_vaw0KO3KEe6yiIkslZcBIA" name="TOY-A"/>
+          <ownedLiteral xmi:id="_vaw0Ke3KEe6yiIkslZcBIA" name="NAS-D"/>
+          <ownedLiteral xmi:id="_vaw0Ku3KEe6yiIkslZcBIA" name="PRP-C"/>
+          <ownedLiteral xmi:id="_vaw0K-3KEe6yiIkslZcBIA" name="OGB-B"/>
+          <ownedLiteral xmi:id="_vaw0LO3KEe6yiIkslZcBIA" name="ING-A"/>
+          <ownedLiteral xmi:id="_vaw0Le3KEe6yiIkslZcBIA" name="GUA"/>
+          <ownedLiteral xmi:id="_vaw0Lu3KEe6yiIkslZcBIA" name="NAS-V"/>
+          <ownedLiteral xmi:id="_vaw0L-3KEe6yiIkslZcBIA" name="AIA"/>
+          <ownedLiteral xmi:id="_vaw0MO3KEe6yiIkslZcBIA" name="ARS-M"/>
+          <ownedLiteral xmi:id="_vaw0Me3KEe6yiIkslZcBIA" name="SAN-J"/>
+          <ownedLiteral xmi:id="_vaw0Mu3KEe6yiIkslZcBIA" name="EUR-T"/>
+          <ownedLiteral xmi:id="_vaw0M-3KEe6yiIkslZcBIA" name="PRP-E"/>
+          <ownedLiteral xmi:id="_vaw0NO3KEe6yiIkslZcBIA" name="ADI-E"/>
+          <ownedLiteral xmi:id="_vaw0Ne3KEe6yiIkslZcBIA" name="AFG"/>
+          <ownedLiteral xmi:id="_vaw0Nu3KEe6yiIkslZcBIA" name="MER"/>
+          <ownedLiteral xmi:id="_vaw0N-3KEe6yiIkslZcBIA" name="IRL"/>
+          <ownedLiteral xmi:id="_vaw0OO3KEe6yiIkslZcBIA" name="OHA-M"/>
+          <ownedLiteral xmi:id="_vaw0Oe3KEe6yiIkslZcBIA" name="SAP"/>
+          <ownedLiteral xmi:id="_vaw0Ou3KEe6yiIkslZcBIA" name="SPK-C"/>
+          <ownedLiteral xmi:id="_vaw0O-3KEe6yiIkslZcBIA" name="MIN-A"/>
+          <ownedLiteral xmi:id="_vaw0PO3KEe6yiIkslZcBIA" name="CHI"/>
+          <ownedLiteral xmi:id="_vaw0Pe3KEe6yiIkslZcBIA" name="MOD"/>
+          <ownedLiteral xmi:id="_vaw0Pu3KEe6yiIkslZcBIA" name="QAT"/>
+          <ownedLiteral xmi:id="_vaw0P-3KEe6yiIkslZcBIA" name="PRP-M"/>
+          <ownedLiteral xmi:id="_vaw0QO3KEe6yiIkslZcBIA" name="NAR-A"/>
+          <ownedLiteral xmi:id="_vaw0Qe3KEe6yiIkslZcBIA" name="INF-A"/>
+          <ownedLiteral xmi:id="_vaw0Qu3KEe6yiIkslZcBIA" name="ANO"/>
+          <ownedLiteral xmi:id="_vaw0Q-3KEe6yiIkslZcBIA" name="EUR-L"/>
+          <ownedLiteral xmi:id="_vaw0RO3KEe6yiIkslZcBIA" name="HTN"/>
+          <ownedLiteral xmi:id="_vaw0Re3KEe6yiIkslZcBIA" name="PTB"/>
+          <ownedLiteral xmi:id="_vaw0Ru3KEe6yiIkslZcBIA" name="SPK-G"/>
+          <ownedLiteral xmi:id="_vaw0R-3KEe6yiIkslZcBIA" name="PUK"/>
+          <ownedLiteral xmi:id="_vaw0SO3KEe6yiIkslZcBIA" name="BID"/>
+          <ownedLiteral xmi:id="_vaw0Se3KEe6yiIkslZcBIA" name="ARF-F"/>
+          <ownedLiteral xmi:id="_vaw0Su3KEe6yiIkslZcBIA" name="TOY-B"/>
+          <ownedLiteral xmi:id="_vaw0S-3KEe6yiIkslZcBIA" name="EUR-I"/>
+          <ownedLiteral xmi:id="_vaw0TO3KEe6yiIkslZcBIA" name="CAP"/>
+          <ownedLiteral xmi:id="_vaw0Te3KEe6yiIkslZcBIA" name="NAS-T"/>
+          <ownedLiteral xmi:id="_vaw0Tu3KEe6yiIkslZcBIA" name="SAO"/>
+          <ownedLiteral xmi:id="_vaw0T-3KEe6yiIkslZcBIA" name="NAS-B"/>
+          <ownedLiteral xmi:id="_vaw0UO3KEe6yiIkslZcBIA" name="SAN-D"/>
+          <ownedLiteral xmi:id="_vaw0Ue3KEe6yiIkslZcBIA" name="EUR-J"/>
+          <ownedLiteral xmi:id="_vaw0Uu3KEe6yiIkslZcBIA" name="KUS"/>
+          <ownedLiteral xmi:id="_vaw0U-3KEe6yiIkslZcBIA" name="OHA-D"/>
+          <ownedLiteral xmi:id="_vaw0VO3KEe6yiIkslZcBIA" name="NAS-G"/>
+          <ownedLiteral xmi:id="_vaw0Ve3KEe6yiIkslZcBIA" name="SAN-B"/>
+          <ownedLiteral xmi:id="_vaw0Vu3KEe6yiIkslZcBIA" name="TAN"/>
+          <ownedLiteral xmi:id="_vaw0V-3KEe6yiIkslZcBIA" name="FOT"/>
+          <ownedLiteral xmi:id="_vaw0WO3KEe6yiIkslZcBIA" name="NAR-C"/>
+          <ownedLiteral xmi:id="_vaw0We3KEe6yiIkslZcBIA" name="ARF-A"/>
+          <ownedLiteral xmi:id="_vaw0Wu3KEe6yiIkslZcBIA" name="ASC"/>
+          <ownedLiteral xmi:id="_vaw0W-3KEe6yiIkslZcBIA" name="PRP-A"/>
+          <ownedLiteral xmi:id="_vaw0XO3KEe6yiIkslZcBIA" name="BER"/>
+          <ownedLiteral xmi:id="_vaw0Xe3KEe6yiIkslZcBIA" name="NAS-J"/>
+          <ownedLiteral xmi:id="_vaw0Xu3KEe6yiIkslZcBIA" name="LUZ-A"/>
+          <ownedLiteral xmi:id="_vaw0X-3KEe6yiIkslZcBIA" name="SPK-A"/>
+          <ownedLiteral xmi:id="_vaw0YO3KEe6yiIkslZcBIA" name="SGM"/>
+          <ownedLiteral xmi:id="_vaw0Ye3KEe6yiIkslZcBIA" name="ADI-C"/>
+          <ownedLiteral xmi:id="_vaw0Yu3KEe6yiIkslZcBIA" name="MID"/>
+          <ownedLiteral xmi:id="_vaw0Y-3KEe6yiIkslZcBIA" name="PRP-G"/>
+          <ownedLiteral xmi:id="_vaw0ZO3KEe6yiIkslZcBIA" name="NAS-O"/>
+          <ownedLiteral xmi:id="_vaw0Ze3KEe6yiIkslZcBIA" name="ADI-D"/>
+          <ownedLiteral xmi:id="_vaw0Zu3KEe6yiIkslZcBIA" name="AUG"/>
+          <ownedLiteral xmi:id="_vaw0Z-3KEe6yiIkslZcBIA" name="IND-I"/>
+          <ownedLiteral xmi:id="_vaw0aO3KEe6yiIkslZcBIA" name="LEH"/>
+          <ownedLiteral xmi:id="_vaw0ae3KEe6yiIkslZcBIA" name="NAS-A"/>
+          <ownedLiteral xmi:id="_vaw0au3KEe6yiIkslZcBIA" name="SOA"/>
+          <ownedLiteral xmi:id="_vaw0a-3KEe6yiIkslZcBIA" name="ADI-F"/>
+          <ownedLiteral xmi:id="_vaw0bO3KEe6yiIkslZcBIA" name="EUR-K"/>
+          <ownedLiteral xmi:id="_vaw0be3KEe6yiIkslZcBIA" name="OEG"/>
+          <ownedLiteral xmi:id="_vaw0bu3KEe6yiIkslZcBIA" name="SPK-E"/>
+          <ownedLiteral xmi:id="_vaw0b-3KEe6yiIkslZcBIA" name="ARF-M"/>
+          <ownedLiteral xmi:id="_vaw0cO3KEe6yiIkslZcBIA" name="IND-B"/>
+          <ownedLiteral xmi:id="_vaw0ce3KEe6yiIkslZcBIA" name="DAL"/>
+          <ownedLiteral xmi:id="_vaw0cu3KEe6yiIkslZcBIA" name="EUR-E"/>
+          <ownedLiteral xmi:id="_vaw0c-3KEe6yiIkslZcBIA" name="CAO"/>
+          <ownedLiteral xmi:id="_vaw0dO3KEe6yiIkslZcBIA" name="PRP-B"/>
+          <ownedLiteral xmi:id="_vaw0de3KEe6yiIkslZcBIA" name="GRA"/>
+          <ownedLiteral xmi:id="_vaw0du3KEe6yiIkslZcBIA" name="FAH"/>
+          <ownedLiteral xmi:id="_vaw0d-3KEe6yiIkslZcBIA" name="VOI"/>
+          <ownedLiteral xmi:id="_vaw0eO3KEe6yiIkslZcBIA" name="CGE"/>
+          <ownedLiteral xmi:id="_vaw0ee3KEe6yiIkslZcBIA" name="INH-A"/>
+          <ownedLiteral xmi:id="_vaw0eu3KEe6yiIkslZcBIA" name="NAS-F"/>
+          <ownedLiteral xmi:id="_vaw0e-3KEe6yiIkslZcBIA" name="ARF-G"/>
+          <ownedLiteral xmi:id="_vaw0fO3KEe6yiIkslZcBIA" name="ARS-B"/>
+          <ownedLiteral xmi:id="_vaw0fe3KEe6yiIkslZcBIA" name="NAR-H"/>
+          <ownedLiteral xmi:id="_vaw0fu3KEe6yiIkslZcBIA" name="SAN-A"/>
+          <ownedLiteral xmi:id="_vaw0f-3KEe6yiIkslZcBIA" name="EUR-H"/>
+          <ownedLiteral xmi:id="_vaw0gO3KEe6yiIkslZcBIA" name="ARF-D"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vaw0ge3KEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_vaw0gu3KEe6yiIkslZcBIA" name="DatumCodeType">
+          <generalization xmi:id="_vaw0g-3KEe6yiIkslZcBIA" general="_vawzp-3KEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_vaw0hO3KEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_vaw0he3KEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_vaw0hu3KEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_vaw0h-3KEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_vaw0iO3KEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_vaw0ie3KEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_vaw0iu3KEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_vaw0i-3KEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_vaw0jO3KEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_vaw0je3KEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_vaw0ju3KEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_vaw0j-3KEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_vaw0kO3KEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_vaw0ke3KEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_vaw0ku3KEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_vaw0k-3KEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_vaw0lO3KEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_vaw0le3KEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_vaw0lu3KEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_vaw0l-3KEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_vaw0mO3KEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_vaw0me3KEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum DatumCodeSimpleType {
+    SAN_F, GAA, ASQ, BOO, SCK, SAN_C, MIK, NAS_L, NAR_E, PRP_F, ARF_E, AIN_A, HKD, EAS, NAH_C, SAE, TOY_C, NAR_B, EUR_B, MIN_B, NSD, SAN_L, LUZ_B, PIT, HIT, TDC, OGB_M, PRP_D, AUA, DOB, VOR, NAS_Q, EUR_S, OHA_C, NAS_R, NAS_N, CCD, EUR_C, LCF, SAN_G, REU, KEG, MPO, COA, CAI, PLN, NAP, WAK, SAN_M, TRN, PTN, OGB_C, ISG, IDN, JOH, EUR_G, SPK_D, SAN_K, YAC, KAN, MAS, AIN_B, HEN, ENW, BAT, ATF, ARF_B, TIL, NAS_H, IND_P, NAS_W, OHA_B, GIZ, BUR, OGB_A, KEA, SAN_H, SAN_I, PUR, ADI_M, CAC, FLO, HER, LIB, ZAN, NAH_B, NAS_U, ASM, NAS_I, NAH_A, SRL, SHB, EUS, ING_B, NAS_C, SPK_F, EST, NAS_P, EUR_D, OHA_A, EUR_F, ARF_H, HJO, NAR_D, PRP_H, IBE, ADI_A, GEO, AMA, PHA, SAN_E, OGB_D, IST, ARF_C, ADI_B, GSE, TOY_M, EUR_M, NAS_E, SPK_B, POS, CHU, EUR_A, CAZ, QUO, DID, MVS, ARS_A, TOY_A, NAS_D, PRP_C, OGB_B, ING_A, GUA, NAS_V, AIA, ARS_M, SAN_J, EUR_T, PRP_E, ADI_E, AFG, MER, IRL, OHA_M, SAP, SPK_C, MIN_A, CHI, MOD, QAT, PRP_M, NAR_A, INF_A, ANO, EUR_L, HTN, PTB, SPK_G, PUK, BID, ARF_F, TOY_B, EUR_I, CAP, NAS_T, SAO, NAS_B, SAN_D, EUR_J, KUS, OHA_D, NAS_G, SAN_B, TAN, FOT, NAR_C, ARF_A, ASC, PRP_A, BER, NAS_J, LUZ_A, SPK_A, SGM, ADI_C, MID, PRP_G, NAS_O, ADI_D, AUG, IND_I, LEH, NAS_A, SOA, ADI_F, EUR_K, OEG, SPK_E, ARF_M, IND_B, DAL, EUR_E, CAO, PRP_B, GRA, FAH, VOI, CGE, INH_A, NAS_F, ARF_G, ARS_B, NAR_H, SAN_A, EUR_H, ARF_D
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum DatumCodeType {
+    // Inherits from DatumCodeSimpleType, no additional members required
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

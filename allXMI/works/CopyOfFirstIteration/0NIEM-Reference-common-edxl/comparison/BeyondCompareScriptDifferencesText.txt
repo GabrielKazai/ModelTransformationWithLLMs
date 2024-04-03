@@ -1,0 +1,62 @@
+Text Compare
+Produced: 2024-03-27 15:40:54
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl\gpt\gptoutput\cleanGPT.java
+                                                  +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Accept,                                       <>     Accept, Offer_Unsolicited_Resources, Notify_Auxiliary_Recipients, Decline, Cancel,
+                                                         Response_to_Offer_Unsolicited_Resources, Request_Return, Requisition_Resource, Response_to_Request_Resource,
+    Offer Unsolicited Resources,                         Response_to_Request_Return, Response_to_Request_Information_RFI, Response_to_Request_Quote, Release_Resource,
+    Notify Auxiliary Recipients,                         Update, Request_Resource, Request_Quote, Acknowledge, Notify_Resource_Request_Disposition, Request_Information_RFI,
+    Decline,
+    Cancel,
+    Response to
+    Offer Unsolicited Resources,
+    Request Return,
+            Requisition
+    Resource,
+    Response to
+    Request Resource,
+            Response
+    to Request Return,
+    Response to
+
+    Request Information (RFI),
+    Response to Request Quote,
+    Release Resource,
+    Update,
+    Request Resource,
+    Request Quote,
+    Acknowledge,
+    Notify Resource Request Disposition,                 Commit_Resource, Request_Extension, Request_Resource_Disposition
+
+    Request Information (RFI),
+    Commit Resource,
+    Request Extension,
+    Request Resource Disposition;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public class NamespaceElementPropertyHolder { <> public class NamespaceElementPropertyHolder {
+    }                                                }
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum ContentCategoryCodeType extends {     <> public enum ContentCategoryCodeType {
+    ;                                                    Accept, Offer_Unsolicited_Resources, Notify_Auxiliary_Recipients, Decline, Cancel,
+                                                         Response_to_Offer_Unsolicited_Resources, Request_Return, Requisition_Resource, Response_to_Request_Resource,
+                                                         Response_to_Request_Return, Response_to_Request_Information_RFI, Response_to_Request_Quote, Release_Resource,
+                                                         Update, Request_Resource, Request_Quote, Acknowledge, Notify_Resource_Request_Disposition, Request_Information_RFI,
+                                                         Commit_Resource, Request_Extension, Request_Resource_Disposition
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public enum ResponseCodeSimpleType {          <> public enum ResponseCodeSimpleType {
+        Decline,                                         Decline, Accept
+        Accept;
+    }                                                }
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum ResponseCodeType extends {            <> public enum ResponseCodeType {
+    ;                                                    Decline, Accept
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

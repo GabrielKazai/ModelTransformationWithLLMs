@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_MNxWsPAVEe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_MNxWsfAVEe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_MNxWsvAVEe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MNxWs_AVEe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MNxWtPAVEe6-4aaHZrjoFg" name="UnlimitedInteger"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_MNxWtfAVEe6-4aaHZrjoFg">
+    <ownedLiteral xmi:id="_MNxWtvAVEe6-4aaHZrjoFg" name="FALSE"/>
+    <ownedLiteral xmi:id="_MNxWt_AVEe6-4aaHZrjoFg" name="TRUE"/>
+  </packagedElement>
+</uml:Model>

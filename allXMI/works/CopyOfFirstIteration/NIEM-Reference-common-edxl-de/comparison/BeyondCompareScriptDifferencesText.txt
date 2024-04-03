@@ -1,0 +1,45 @@
+Text Compare
+Produced: 2024-03-29 17:04:32
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-de\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-de\gpt\gptoutput\cleanGPT.java
+                                              +-
+public class DistributionElementAdapterType {
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                 }
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;                         class DistributionElementAdapterType {
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+                                              -+
+                                                 class NamespaceElementPropertyHolder {
+                                                     private DistributionElementAdapterType DistributionElementAdapter;
+                                                 }
+---------------------------------------------------------------------------------------------------------------------------------------

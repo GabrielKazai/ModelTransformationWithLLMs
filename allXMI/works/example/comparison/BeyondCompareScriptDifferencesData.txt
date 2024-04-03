@@ -1,0 +1,28 @@
+Table Compare
+Produced: 2024-04-03 13:23:21
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\gpt\gptoutput\cleanGPT.java
+1:                                       2:    1:                                          2:
+---------------------------------------------------------------------------------------------
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+// TODO Auto-generated return               +-
+                                            -+ }
+                                            -+ }
+                                            -+ DirectionIn
+                                            -+ public class InterStudent extends Student {
+                                            -+ public enum DirectionKind {
+public int id                               +-
+                                            -+ public String id
+                                            -+ public String studentId
+public void setName(final String name) {    +-
+                                            -+ public void setName(String name) {
+                                            -+ return name
+return null                                 +-
+                                            -+ this.name = name
+---------------------------------------------------------------------------------------------

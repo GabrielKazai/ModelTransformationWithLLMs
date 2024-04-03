@@ -1,0 +1,54 @@
+Text Compare
+Produced: 2024-03-19 11:11:34
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\XMLSchema\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\XMLSchema\gpt\gptoutput\cleanGPT.java
+                                                                     +-
+-----------------------------------------------------------------------------------------------------------
+public class XMLGraph {                                              =  public class XMLGraph {
+}                                                                       }
+
+public class Attribute {                                                public class Attribute {
+    private String name;                                                    private String name;
+-----------------------------------------------------------------------------------------------------------
+                                                                     +-
+-----------------------------------------------------------------------------------------------------------
+    private String value;                                            =      private String value;
+-----------------------------------------------------------------------------------------------------------
+                                                                     +-
+    private List<Element> refs = new ArrayList<Element>();
+
+-----------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+-----------------------------------------------------------------------------------------------------------
+public class Element extends Node {                                  +-
+    private String name;
+
+    private List<Text> texts = new ArrayList<Text>();
+
+    private List<Element> children = new ArrayList<Element>();
+
+    private List<Attribute> attributes = new ArrayList<Attribute>();
+
+    private List<Node> contents = new ArrayList<Node>();
+
+}
+
+-----------------------------------------------------------------------------------------------------------
+public abstract class Node {                                         =  public abstract class Node {
+}                                                                       }
+
+public class Text extends Node {                                        public class Text extends Node {
+    private String content;                                                 private String content;
+-----------------------------------------------------------------------------------------------------------
+                                                                     -+ }
+-----------------------------------------------------------------------------------------------------------
+                                                                     =
+-----------------------------------------------------------------------------------------------------------
+                                                                     -+ public class Element extends Node {
+                                                                            private String name;
+-----------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+-----------------------------------------------------------------------------------------------------------

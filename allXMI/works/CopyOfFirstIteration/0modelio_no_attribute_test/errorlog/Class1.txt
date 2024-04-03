@@ -1,0 +1,2 @@
+Generation canceled
+the 'class' association end of class1 cannot be named with the java keyword 'class'

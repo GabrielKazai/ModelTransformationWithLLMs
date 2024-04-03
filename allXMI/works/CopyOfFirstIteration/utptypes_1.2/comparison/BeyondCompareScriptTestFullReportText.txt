@@ -1,0 +1,41 @@
+Text Compare
+Produced: 2024-03-19 11:05:53
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\utptypes_1.2\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\utptypes_1.2\gpt\gptoutput\cleanGPT.java
+                         +-
+---------------------------------------------------------------------
+public enum Verdict {    =  public enum Verdict {
+---------------------------------------------------------------------
+                         <>     none, pass, inconclusive, fail, error
+                            }
+    none,
+                            public interface Arbiter {
+                                Verdict getVerdict();
+    pass,
+                                void setVerdict(Verdict v);
+                            }
+
+                            public interface Timer {
+    inconclusive,               boolean isRunning = true;
+    fail,
+                                void start(Timepoint expire);
+    error;
+                                void start2(Duration expire);
+
+                                void stop();
+
+                                Timepoint read();
+---------------------------------------------------------------------
+}                        =  }
+
+public class Timepoint {    public class Timepoint {
+}                           }
+
+public class Duration {     public class Duration {
+}                           }
+
+public class Timezone {     public class Timezone {
+}                           }
+---------------------------------------------------------------------

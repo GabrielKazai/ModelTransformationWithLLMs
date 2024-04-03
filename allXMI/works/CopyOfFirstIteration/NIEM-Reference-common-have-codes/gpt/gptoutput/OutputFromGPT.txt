@@ -1,0 +1,320 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes From XMI
+
+
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Java Class Contrainte
+Java Classes from XMI
+Java Class Generation
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Java UML Model Classes
+Previous 7 Days
+Java Class Creation
+Java Code from XMI
+Java Code Generation
+Generate Java Classes: UML to Code
+Java Class Modelling
+Generate Java Classes
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_2tM0kO3MEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_2tM0ke3MEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_2tM0ku3MEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_2tM0k-3MEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_2tM0lO3MEe6yiIkslZcBIA" name="have-codes">
+    <packagedElement xmi:type="uml:Package" xmi:id="_2tM0le3MEe6yiIkslZcBIA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_2tM0lu3MEe6yiIkslZcBIA" name="have-codes">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0l-3MEe6yiIkslZcBIA" name="AvailabilityStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0mO3MEe6yiIkslZcBIA" name="Adequate"/>
+          <ownedLiteral xmi:id="_2tM0me3MEe6yiIkslZcBIA" name="Insufficient"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2tM0mu3MEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0m-3MEe6yiIkslZcBIA" name="AvailabilityStatusCodeType">
+          <generalization xmi:id="_2tM0nO3MEe6yiIkslZcBIA" general="_2tM0l-3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0ne3MEe6yiIkslZcBIA" name="BedCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0nu3MEe6yiIkslZcBIA" name="MedicalSurgical"/>
+          <ownedLiteral xmi:id="_2tM0n-3MEe6yiIkslZcBIA" name="AdultICU"/>
+          <ownedLiteral xmi:id="_2tM0oO3MEe6yiIkslZcBIA" name="PediatricICU"/>
+          <ownedLiteral xmi:id="_2tM0oe3MEe6yiIkslZcBIA" name="Pediatrics"/>
+          <ownedLiteral xmi:id="_2tM0ou3MEe6yiIkslZcBIA" name="Psychiatric"/>
+          <ownedLiteral xmi:id="_2tM0o-3MEe6yiIkslZcBIA" name="Burn"/>
+          <ownedLiteral xmi:id="_2tM0pO3MEe6yiIkslZcBIA" name="OtherIsolation"/>
+          <ownedLiteral xmi:id="_2tM0pe3MEe6yiIkslZcBIA" name="OperatingRooms"/>
+          <ownedLiteral xmi:id="_2tM0pu3MEe6yiIkslZcBIA" name="NegativeFlowIsolation"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0p-3MEe6yiIkslZcBIA" name="BedCategoryCodeType">
+          <generalization xmi:id="_2tM0qO3MEe6yiIkslZcBIA" general="_2tM0ne3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0qe3MEe6yiIkslZcBIA" name="CapacityStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0qu3MEe6yiIkslZcBIA" name="VacantAvailable"/>
+          <ownedLiteral xmi:id="_2tM0q-3MEe6yiIkslZcBIA" name="NotAvailable"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0rO3MEe6yiIkslZcBIA" name="CapacityStatusCodeType">
+          <generalization xmi:id="_2tM0re3MEe6yiIkslZcBIA" general="_2tM0qe3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0ru3MEe6yiIkslZcBIA" name="ClinicalStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0r-3MEe6yiIkslZcBIA" name="Level1"/>
+          <ownedLiteral xmi:id="_2tM0sO3MEe6yiIkslZcBIA" name="Full"/>
+          <ownedLiteral xmi:id="_2tM0se3MEe6yiIkslZcBIA" name="Normal"/>
+          <ownedLiteral xmi:id="_2tM0su3MEe6yiIkslZcBIA" name="Level2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0s-3MEe6yiIkslZcBIA" name="ClinicalStatusCodeType">
+          <generalization xmi:id="_2tM0tO3MEe6yiIkslZcBIA" general="_2tM0ru3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0te3MEe6yiIkslZcBIA" name="DeconCapacityCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0tu3MEe6yiIkslZcBIA" name="Full"/>
+          <ownedLiteral xmi:id="_2tM0t-3MEe6yiIkslZcBIA" name="Open"/>
+          <ownedLiteral xmi:id="_2tM0uO3MEe6yiIkslZcBIA" name="Exceeded"/>
+          <ownedLiteral xmi:id="_2tM0ue3MEe6yiIkslZcBIA" name="Inactive"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0uu3MEe6yiIkslZcBIA" name="DeconCapacityCodeType">
+          <generalization xmi:id="_2tM0u-3MEe6yiIkslZcBIA" general="_2tM0te3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0vO3MEe6yiIkslZcBIA" name="EMSOffloadStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0ve3MEe6yiIkslZcBIA" name="Delayed"/>
+          <ownedLiteral xmi:id="_2tM0vu3MEe6yiIkslZcBIA" name="Normal"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0v-3MEe6yiIkslZcBIA" name="EMSOffloadStatusCodeType">
+          <generalization xmi:id="_2tM0wO3MEe6yiIkslZcBIA" general="_2tM0vO3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0we3MEe6yiIkslZcBIA" name="EMSTrafficStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0wu3MEe6yiIkslZcBIA" name="NotApplicable"/>
+          <ownedLiteral xmi:id="_2tM0w-3MEe6yiIkslZcBIA" name="Closed"/>
+          <ownedLiteral xmi:id="_2tM0xO3MEe6yiIkslZcBIA" name="Normal"/>
+          <ownedLiteral xmi:id="_2tM0xe3MEe6yiIkslZcBIA" name="Advisory"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0xu3MEe6yiIkslZcBIA" name="EMSTrafficStatusCodeType">
+          <generalization xmi:id="_2tM0x-3MEe6yiIkslZcBIA" general="_2tM0we3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0yO3MEe6yiIkslZcBIA" name="EOCPlanCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0ye3MEe6yiIkslZcBIA" name="Inactive"/>
+          <ownedLiteral xmi:id="_2tM0yu3MEe6yiIkslZcBIA" name="Active"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0y-3MEe6yiIkslZcBIA" name="EOCPlanCodeType">
+          <generalization xmi:id="_2tM0zO3MEe6yiIkslZcBIA" general="_2tM0yO3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM0ze3MEe6yiIkslZcBIA" name="EOCStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM0zu3MEe6yiIkslZcBIA" name="Inactive"/>
+          <ownedLiteral xmi:id="_2tM0z-3MEe6yiIkslZcBIA" name="Active"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM00O3MEe6yiIkslZcBIA" name="EOCStatusCodeType">
+          <generalization xmi:id="_2tM00e3MEe6yiIkslZcBIA" general="_2tM0ze3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM00u3MEe6yiIkslZcBIA" name="FacilityStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM00-3MEe6yiIkslZcBIA" name="Compromised"/>
+          <ownedLiteral xmi:id="_2tM01O3MEe6yiIkslZcBIA" name="Closed"/>
+          <ownedLiteral xmi:id="_2tM01e3MEe6yiIkslZcBIA" name="Normal"/>
+          <ownedLiteral xmi:id="_2tM01u3MEe6yiIkslZcBIA" name="Evacuating"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM01-3MEe6yiIkslZcBIA" name="FacilityStatusCodeType">
+          <generalization xmi:id="_2tM02O3MEe6yiIkslZcBIA" general="_2tM00u3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM02e3MEe6yiIkslZcBIA" name="MorgueCapacityCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM02u3MEe6yiIkslZcBIA" name="Full"/>
+          <ownedLiteral xmi:id="_2tM02-3MEe6yiIkslZcBIA" name="Exceeded"/>
+          <ownedLiteral xmi:id="_2tM03O3MEe6yiIkslZcBIA" name="Open"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM03e3MEe6yiIkslZcBIA" name="MorgueCapacityCodeType">
+          <generalization xmi:id="_2tM03u3MEe6yiIkslZcBIA" general="_2tM02e3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM03-3MEe6yiIkslZcBIA" name="SecurityStatusCodeSimpleType">
+          <ownedLiteral xmi:id="_2tM04O3MEe6yiIkslZcBIA" name="Quarantine"/>
+          <ownedLiteral xmi:id="_2tM04e3MEe6yiIkslZcBIA" name="RestrictedAccess"/>
+          <ownedLiteral xmi:id="_2tM04u3MEe6yiIkslZcBIA" name="Elevated"/>
+          <ownedLiteral xmi:id="_2tM04-3MEe6yiIkslZcBIA" name="Normal"/>
+          <ownedLiteral xmi:id="_2tM05O3MEe6yiIkslZcBIA" name="Lockdown"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM05e3MEe6yiIkslZcBIA" name="SecurityStatusCodeType">
+          <generalization xmi:id="_2tM05u3MEe6yiIkslZcBIA" general="_2tM03-3MEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_2tM05-3MEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM06O3MEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_2tM06e3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_2tM06u3MEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_2tM06-3MEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_2tM07O3MEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_2tM07e3MEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM07u3MEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_2tM07-3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_2tM08O3MEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_2tM08e3MEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_2tM08u3MEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_2tM08-3MEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_2tM09O3MEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_2tM09e3MEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2tM09u3MEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_2tM09-3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_2tM0-O3MEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_2tM0-e3MEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_2tM0-u3MEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_2tM0--3MEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_2tM0_O3MEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum AvailabilityStatusCodeSimpleType {
+    Adequate, Insufficient
+}
+
+public enum AvailabilityStatusCodeType {
+    Adequate, Insufficient
+}
+
+public enum BedCategoryCodeSimpleType {
+    MedicalSurgical, AdultICU, PediatricICU, Pediatrics, Psychiatric, Burn, OtherIsolation, OperatingRooms, NegativeFlowIsolation
+}
+
+public enum BedCategoryCodeType {
+    MedicalSurgical, AdultICU, PediatricICU, Pediatrics, Psychiatric, Burn, OtherIsolation, OperatingRooms, NegativeFlowIsolation
+}
+
+public enum CapacityStatusCodeSimpleType {
+    VacantAvailable, NotAvailable
+}
+
+public enum CapacityStatusCodeType {
+    VacantAvailable, NotAvailable
+}
+
+public enum ClinicalStatusCodeSimpleType {
+    Level1, Full, Normal, Level2
+}
+
+public enum ClinicalStatusCodeType {
+    Level1, Full, Normal, Level2
+}
+
+public enum DeconCapacityCodeSimpleType {
+    Full, Open, Exceeded, Inactive
+}
+
+public enum DeconCapacityCodeType {
+    Full, Open, Exceeded, Inactive
+}
+
+public enum EMSOffloadStatusCodeSimpleType {
+    Delayed, Normal
+}
+
+public enum EMSOffloadStatusCodeType {
+    Delayed, Normal
+}
+
+public enum EMSTrafficStatusCodeSimpleType {
+    NotApplicable, Closed, Normal, Advisory
+}
+
+public enum EMSTrafficStatusCodeType {
+    NotApplicable, Closed, Normal, Advisory
+}
+
+public enum EOCPlanCodeSimpleType {
+    Inactive, Active
+}
+
+public enum EOCPlanCodeType {
+    Inactive, Active
+}
+
+public enum EOCStatusCodeSimpleType {
+    Inactive, Active
+}
+
+public enum EOCStatusCodeType {
+    Inactive, Active
+}
+
+public enum FacilityStatusCodeSimpleType {
+    Compromised, Closed, Normal, Evacuating
+}
+
+public enum FacilityStatusCodeType {
+    Compromised, Closed, Normal, Evacuating
+}
+
+public enum MorgueCapacityCodeSimpleType {
+    Full, Exceeded, Open
+}
+
+public enum MorgueCapacityCodeType {
+    Full, Exceeded, Open
+}
+
+public enum SecurityStatusCodeSimpleType {
+    Quarantine, RestrictedAccess, Elevated, Normal, Lockdown
+}
+
+public enum SecurityStatusCodeType {
+    Quarantine, RestrictedAccess, Elevated, Normal, Lockdown
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+
+public class NamespaceElementPropertyHolder {
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

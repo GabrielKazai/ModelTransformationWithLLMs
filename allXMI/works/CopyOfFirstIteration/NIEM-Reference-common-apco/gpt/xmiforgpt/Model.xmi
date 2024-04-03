@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_M6ZzQO9REe6FV-skm74tFA" name="Model">
+  <eAnnotations xmi:id="_M6ZzQe9REe6FV-skm74tFA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_M6ZzQu9REe6FV-skm74tFA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_M6ZzQ-9REe6FV-skm74tFA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_M6ZzRO9REe6FV-skm74tFA" name="apco">
+    <packagedElement xmi:type="uml:Package" xmi:id="_M6ZzRe9REe6FV-skm74tFA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_M6ZzRu9REe6FV-skm74tFA" name="apco">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzR-9REe6FV-skm74tFA" name="AlarmEventCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_M6ZzSO9REe6FV-skm74tFA" name="Medical"/>
+          <ownedLiteral xmi:id="_M6ZzSe9REe6FV-skm74tFA" name="FIRE"/>
+          <ownedLiteral xmi:id="_M6ZzSu9REe6FV-skm74tFA" name="Comm"/>
+          <ownedLiteral xmi:id="_M6ZzS-9REe6FV-skm74tFA" name="BURG"/>
+          <ownedLiteral xmi:id="_M6ZzTO9REe6FV-skm74tFA" name="Holdup"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_M6ZzTe9REe6FV-skm74tFA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzTu9REe6FV-skm74tFA" name="AlarmEventCategoryCodeType">
+          <generalization xmi:id="_M6ZzT-9REe6FV-skm74tFA" general="_M6ZzR-9REe6FV-skm74tFA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzUO9REe6FV-skm74tFA" name="AlarmEventLocationCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_M6ZzUe9REe6FV-skm74tFA" name="commercial"/>
+          <ownedLiteral xmi:id="_M6ZzUu9REe6FV-skm74tFA" name="residential"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzU-9REe6FV-skm74tFA" name="AlarmEventLocationCategoryCodeType">
+          <generalization xmi:id="_M6ZzVO9REe6FV-skm74tFA" general="_M6ZzUO9REe6FV-skm74tFA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzVe9REe6FV-skm74tFA" name="AlarmEventResponseActionCodeSimpleType">
+          <ownedLiteral xmi:id="_M6ZzVu9REe6FV-skm74tFA" name="respond"/>
+          <ownedLiteral xmi:id="_M6ZzV-9REe6FV-skm74tFA" name="notify"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzWO9REe6FV-skm74tFA" name="AlarmEventResponseActionCodeType">
+          <generalization xmi:id="_M6ZzWe9REe6FV-skm74tFA" general="_M6ZzVe9REe6FV-skm74tFA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_M6ZzWu9REe6FV-skm74tFA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzW-9REe6FV-skm74tFA" name="ContentKind">
+      <ownedLiteral xmi:id="_M6ZzXO9REe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_M6ZzXe9REe6FV-skm74tFA" name="Empty"/>
+      <ownedLiteral xmi:id="_M6ZzXu9REe6FV-skm74tFA" name="Simple"/>
+      <ownedLiteral xmi:id="_M6ZzX-9REe6FV-skm74tFA" name="Mixed"/>
+      <ownedLiteral xmi:id="_M6ZzYO9REe6FV-skm74tFA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6ZzYe9REe6FV-skm74tFA" name="FeatureKind">
+      <ownedLiteral xmi:id="_M6ZzYu9REe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_M6ZzY-9REe6FV-skm74tFA" name="Simple"/>
+      <ownedLiteral xmi:id="_M6ZzZO9REe6FV-skm74tFA" name="Attribute"/>
+      <ownedLiteral xmi:id="_M6ZzZe9REe6FV-skm74tFA" name="Element"/>
+      <ownedLiteral xmi:id="_M6ZzZu9REe6FV-skm74tFA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_M6ZzZ-9REe6FV-skm74tFA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_M6ZzaO9REe6FV-skm74tFA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_M6Zzae9REe6FV-skm74tFA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_M6Zzau9REe6FV-skm74tFA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_M6Zza-9REe6FV-skm74tFA" name="None"/>
+      <ownedLiteral xmi:id="_M6ZzbO9REe6FV-skm74tFA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_M6Zzbe9REe6FV-skm74tFA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_M6Zzbu9REe6FV-skm74tFA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_M6Zzb-9REe6FV-skm74tFA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

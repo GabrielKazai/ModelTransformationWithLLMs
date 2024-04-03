@@ -1,0 +1,32 @@
+Text Compare
+Produced: 2024-03-19 10:25:51
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_circular_dep_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_circular_dep_test\gpt\gptoutput\cleanGPT.java
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Xff34O3LEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_Xff34e3LEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Xff34u3LEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xff34-3LEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Xff35O3LEe6yiIkslZcBIA" name="itis">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Xff35e3LEe6yiIkslZcBIA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xff35u3LEe6yiIkslZcBIA" name="itis">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff35-3LEe6yiIkslZcBIA" name="LightingCodeSimpleType">
+          <ownedLiteral xmi:id="_Xff36O3LEe6yiIkslZcBIA" name="lighting-unknown"/>
+          <ownedLiteral xmi:id="_Xff36e3LEe6yiIkslZcBIA" name="artificial-interior-light"/>
+          <ownedLiteral xmi:id="_Xff36u3LEe6yiIkslZcBIA" name="artificial-exterior-light"/>
+          <ownedLiteral xmi:id="_Xff36-3LEe6yiIkslZcBIA" name="moonlight"/>
+          <ownedLiteral xmi:id="_Xff37O3LEe6yiIkslZcBIA" name="dusk"/>
+          <ownedLiteral xmi:id="_Xff37e3LEe6yiIkslZcBIA" name="daylight"/>
+          <ownedLiteral xmi:id="_Xff37u3LEe6yiIkslZcBIA" name="darkness"/>
+          <ownedLiteral xmi:id="_Xff37-3LEe6yiIkslZcBIA" name="dawn"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xff38O3LEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff38e3LEe6yiIkslZcBIA" name="LightingCodeType">
+          <generalization xmi:id="_Xff38u3LEe6yiIkslZcBIA" general="_Xff35-3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff38-3LEe6yiIkslZcBIA" name="WeatherConditionsCodeSimpleType">
+          <ownedLiteral xmi:id="_Xff39O3LEe6yiIkslZcBIA" name="uV-index-low"/>
+          <ownedLiteral xmi:id="_Xff39e3LEe6yiIkslZcBIA" name="clear-skies"/>
+          <ownedLiteral xmi:id="_Xff39u3LEe6yiIkslZcBIA" name="overcast"/>
+          <ownedLiteral xmi:id="_Xff39-3LEe6yiIkslZcBIA" name="dry"/>
+          <ownedLiteral xmi:id="_Xff3-O3LEe6yiIkslZcBIA" name="mostly-cloudy"/>
+          <ownedLiteral xmi:id="_Xff3-e3LEe6yiIkslZcBIA" name="mostly-sunny"/>
+          <ownedLiteral xmi:id="_Xff3-u3LEe6yiIkslZcBIA" name="uV-index-very-low"/>
+          <ownedLiteral xmi:id="_Xff3--3LEe6yiIkslZcBIA" name="fair-skies"/>
+          <ownedLiteral xmi:id="_Xff3_O3LEe6yiIkslZcBIA" name="mostly-clear"/>
+          <ownedLiteral xmi:id="_Xff3_e3LEe6yiIkslZcBIA" name="ozone-alert"/>
+          <ownedLiteral xmi:id="_Xff3_u3LEe6yiIkslZcBIA" name="uV-index-moderate"/>
+          <ownedLiteral xmi:id="_Xff3_-3LEe6yiIkslZcBIA" name="barometric-pressure"/>
+          <ownedLiteral xmi:id="_Xff4AO3LEe6yiIkslZcBIA" name="partly-cloudy"/>
+          <ownedLiteral xmi:id="_Xff4Ae3LEe6yiIkslZcBIA" name="uV-index-high"/>
+          <ownedLiteral xmi:id="_Xff4Au3LEe6yiIkslZcBIA" name="uV-index-very-high"/>
+          <ownedLiteral xmi:id="_Xff4A-3LEe6yiIkslZcBIA" name="sunny"/>
+          <ownedLiteral xmi:id="_Xff4BO3LEe6yiIkslZcBIA" name="partly-sunny"/>
+          <ownedLiteral xmi:id="_Xff4Be3LEe6yiIkslZcBIA" name="cloudy"/>
+          <ownedLiteral xmi:id="_Xff4Bu3LEe6yiIkslZcBIA" name="mostly-dry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff4B-3LEe6yiIkslZcBIA" name="WeatherConditionsCodeType">
+          <generalization xmi:id="_Xff4CO3LEe6yiIkslZcBIA" general="_Xff38-3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Xff4Ce3LEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff4Cu3LEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_Xff4C-3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Xff4DO3LEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_Xff4De3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_Xff4Du3LEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_Xff4D-3LEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff4EO3LEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_Xff4Ee3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Xff4Eu3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_Xff4E-3LEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_Xff4FO3LEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_Xff4Fe3LEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_Xff4Fu3LEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_Xff4F-3LEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xff4GO3LEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_Xff4Ge3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Xff4Gu3LEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_Xff4G-3LEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_Xff4HO3LEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_Xff4He3LEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_Xff4Hu3LEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_H68QkOFkEe6a_sAm2MLfvA" name="Model">
+  <eAnnotations xmi:id="_H68QkeFkEe6a_sAm2MLfvA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_H68QkuFkEe6a_sAm2MLfvA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_H68Qk-FkEe6a_sAm2MLfvA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H68QlOFkEe6a_sAm2MLfvA" name="One">
+    <ownedAttribute xmi:id="_H68QleFkEe6a_sAm2MLfvA" name="many" visibility="public" type="_H68QmuFkEe6a_sAm2MLfvA" aggregation="composite" association="_H68QmOFkEe6a_sAm2MLfvA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H68QluFkEe6a_sAm2MLfvA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H68Ql-FkEe6a_sAm2MLfvA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H68QmOFkEe6a_sAm2MLfvA" memberEnd="_H68QleFkEe6a_sAm2MLfvA _H68QmeFkEe6a_sAm2MLfvA">
+    <ownedEnd xmi:id="_H68QmeFkEe6a_sAm2MLfvA" name="one(otherOne)" visibility="public" type="_H68QlOFkEe6a_sAm2MLfvA" association="_H68QmOFkEe6a_sAm2MLfvA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H68QmuFkEe6a_sAm2MLfvA" name="Many"/>
+</uml:Model>

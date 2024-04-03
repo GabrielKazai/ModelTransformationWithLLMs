@@ -1,0 +1,20 @@
+Text Compare
+Produced: 2024-03-19 10:58:15
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0user_entity_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0user_entity_test\gpt\gptoutput\cleanGPT.java
+ -+ public class User {
+        public Account account;
+        public String name;
+    }
+
+    public class Account {
+        public int argent;
+    }
+
+    public class Bank {
+        public User user;
+        public String name;
+    }
+-------------------------------

@@ -1,0 +1,5 @@
+Facture --> "Default return code generated for operation "valorise"."
+
+IAchat --> "Generation canceled". "The "IAchat" interface cannot specialize the "IAction" class. Delete the specialization link between them."
+
+Livre --> "Generation canceled". "Illegal visibility for class "Livre": Only public & package are permitted.

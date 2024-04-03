@@ -1,0 +1,25 @@
+Text Compare
+Produced: 2024-03-19 10:37:12
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_attribute_name_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_attribute_name_test\gpt\gptoutput\cleanGPT.java
+                             +-
+----------------------------------------------------------------
+public class Class2 {        =  public class Class2 {
+}                               }
+
+public class Class {            public class Class {
+    public String Attribute;        public String Attribute;
+----------------------------------------------------------------
+                             +-
+----------------------------------------------------------------
+}                            =  }
+
+public class Class1 {           public class Class1 {
+----------------------------------------------------------------
+    public Class ;           <>     public Class classAttribute;
+
+----------------------------------------------------------------
+}                            =  }
+----------------------------------------------------------------

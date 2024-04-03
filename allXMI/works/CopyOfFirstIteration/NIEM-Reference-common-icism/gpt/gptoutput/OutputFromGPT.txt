@@ -1,0 +1,764 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Class ICISMMetadata
+
+
+Java Classes From XMI
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Java Class Contrainte
+Java Classes from XMI
+Java Class Generation
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Java UML Model Classes
+Previous 7 Days
+Java Class Creation
+Java Code from XMI
+Java Code Generation
+Generate Java Classes: UML to Code
+Java Class Modelling
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_NS-kEO3MEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_NS-kEe3MEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_NS-kEu3MEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_NS-kE-3MEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NS-kFO3MEe6yiIkslZcBIA" name="icism">
+    <packagedElement xmi:type="uml:Package" xmi:id="_NS-kFe3MEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NS-kFu3MEe6yiIkslZcBIA" name="icism-metadata">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NS-kF-3MEe6yiIkslZcBIA" name="ICISMMetadataType">
+          <ownedAttribute xmi:id="_NS-kGO3MEe6yiIkslZcBIA" name="classification" clientDependency="_NS-kPO3MEe6yiIkslZcBIA" type="_NS-kY-3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kGe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kGu3MEe6yiIkslZcBIA" name="ownerProducer" clientDependency="_NS-kPu3MEe6yiIkslZcBIA" type="_NS-lGu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kG-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kHO3MEe6yiIkslZcBIA" name="SCIcontrols" clientDependency="_NS-kQO3MEe6yiIkslZcBIA" type="_NS-lIO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kHe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kHu3MEe6yiIkslZcBIA" name="SARIdentifier" clientDependency="_NS-kQu3MEe6yiIkslZcBIA" type="_NS-lJu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kH-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kIO3MEe6yiIkslZcBIA" name="disseminationControls" clientDependency="_NS-kRO3MEe6yiIkslZcBIA" type="_NS-lLO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kIe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kIu3MEe6yiIkslZcBIA" name="FGIsourceOpen" clientDependency="_NS-kRu3MEe6yiIkslZcBIA" type="_NS-lMu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kI-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kJO3MEe6yiIkslZcBIA" name="FGIsourceProtected" clientDependency="_NS-kSO3MEe6yiIkslZcBIA" type="_NS-lOO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kJe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kJu3MEe6yiIkslZcBIA" name="releasableTo" clientDependency="_NS-kSu3MEe6yiIkslZcBIA" type="_NS-lPu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kJ-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kKO3MEe6yiIkslZcBIA" name="nonICmarkings" clientDependency="_NS-kTO3MEe6yiIkslZcBIA" type="_NS-lRO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kKe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kKu3MEe6yiIkslZcBIA" name="classifiedBy" clientDependency="_NS-kTu3MEe6yiIkslZcBIA" type="_NS-lSu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kK-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kLO3MEe6yiIkslZcBIA" name="classificationReason" clientDependency="_NS-kUO3MEe6yiIkslZcBIA" type="_NS-lS-3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kLe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kLu3MEe6yiIkslZcBIA" name="derivedFrom" clientDependency="_NS-kUu3MEe6yiIkslZcBIA" type="_NS-lTO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kL-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kMO3MEe6yiIkslZcBIA" name="declassDate" clientDependency="_NS-kVO3MEe6yiIkslZcBIA" type="_NS-lTe3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kMe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kMu3MEe6yiIkslZcBIA" name="declassEvent" clientDependency="_NS-kVu3MEe6yiIkslZcBIA" type="_NS-lTu3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kM-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kNO3MEe6yiIkslZcBIA" name="declassException" clientDependency="_NS-kWO3MEe6yiIkslZcBIA" type="_NS-lT-3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kNe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kNu3MEe6yiIkslZcBIA" name="typeOfExemptedSource" clientDependency="_NS-kWu3MEe6yiIkslZcBIA" type="_NS-lVe3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kN-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kOO3MEe6yiIkslZcBIA" name="dateOfExemptedSource" clientDependency="_NS-kXO3MEe6yiIkslZcBIA" type="_NS-lW-3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kOe3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_NS-kOu3MEe6yiIkslZcBIA" name="declassManualReview" clientDependency="_NS-kXu3MEe6yiIkslZcBIA" type="_NS-lXO3MEe6yiIkslZcBIA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kO-3MEe6yiIkslZcBIA"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kPO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCO3MEe6yiIkslZcBIA" client="_NS-kGO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kPe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kPu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGO3MEe6yiIkslZcBIA" client="_NS-kGu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kP-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kQO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFO3MEe6yiIkslZcBIA" client="_NS-kHO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kQe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kQu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDe3MEe6yiIkslZcBIA" client="_NS-kHu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kQ-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kRO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lE-3MEe6yiIkslZcBIA" client="_NS-kIO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kRe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kRu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCe3MEe6yiIkslZcBIA" client="_NS-kIu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kR-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kSO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCu3MEe6yiIkslZcBIA" client="_NS-kJO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kSe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kSu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFe3MEe6yiIkslZcBIA" client="_NS-kJu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kS-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kTO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDu3MEe6yiIkslZcBIA" client="_NS-kKO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kTe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kTu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFu3MEe6yiIkslZcBIA" client="_NS-kKu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kT-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kUO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEu3MEe6yiIkslZcBIA" client="_NS-kLO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kUe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kUu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEe3MEe6yiIkslZcBIA" client="_NS-kLu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kU-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kVO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGe3MEe6yiIkslZcBIA" client="_NS-kMO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kVe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kVu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lD-3MEe6yiIkslZcBIA" client="_NS-kMu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kV-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kWO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEO3MEe6yiIkslZcBIA" client="_NS-kNO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kWe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kWu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDO3MEe6yiIkslZcBIA" client="_NS-kNu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kW-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kXO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lF-3MEe6yiIkslZcBIA" client="_NS-kOO3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kXe3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kXu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lC-3MEe6yiIkslZcBIA" client="_NS-kOu3MEe6yiIkslZcBIA">
+          <mapping xmi:id="_NS-kX-3MEe6yiIkslZcBIA" name="ref_Mapping">
+            <body></body>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NS-kYO3MEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder">
+          <ownedAttribute xmi:id="_NS-kYe3MEe6yiIkslZcBIA" name="ICISMMetadata" type="_NS-kF-3MEe6yiIkslZcBIA" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NS-kYu3MEe6yiIkslZcBIA" name="IC-ISM-v2">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_NS-kY-3MEe6yiIkslZcBIA" name="ClassificationType">
+          <ownedLiteral xmi:id="_NS-kZO3MEe6yiIkslZcBIA" name="U"/>
+          <ownedLiteral xmi:id="_NS-kZe3MEe6yiIkslZcBIA" name="C"/>
+          <ownedLiteral xmi:id="_NS-kZu3MEe6yiIkslZcBIA" name="S"/>
+          <ownedLiteral xmi:id="_NS-kZ-3MEe6yiIkslZcBIA" name="TS"/>
+          <ownedLiteral xmi:id="_NS-kaO3MEe6yiIkslZcBIA" name="R"/>
+          <ownedLiteral xmi:id="_NS-kae3MEe6yiIkslZcBIA" name="CTS"/>
+          <ownedLiteral xmi:id="_NS-kau3MEe6yiIkslZcBIA" name="CTS-B"/>
+          <ownedLiteral xmi:id="_NS-ka-3MEe6yiIkslZcBIA" name="CTS-BALK"/>
+          <ownedLiteral xmi:id="_NS-kbO3MEe6yiIkslZcBIA" name="NU"/>
+          <ownedLiteral xmi:id="_NS-kbe3MEe6yiIkslZcBIA" name="NR"/>
+          <ownedLiteral xmi:id="_NS-kbu3MEe6yiIkslZcBIA" name="NC"/>
+          <ownedLiteral xmi:id="_NS-kb-3MEe6yiIkslZcBIA" name="NS"/>
+          <ownedLiteral xmi:id="_NS-kcO3MEe6yiIkslZcBIA" name="NS-S"/>
+          <ownedLiteral xmi:id="_NS-kce3MEe6yiIkslZcBIA" name="NS-A"/>
+          <ownedLiteral xmi:id="_NS-kcu3MEe6yiIkslZcBIA" name="CTSA"/>
+          <ownedLiteral xmi:id="_NS-kc-3MEe6yiIkslZcBIA" name="NSAT"/>
+          <ownedLiteral xmi:id="_NS-kdO3MEe6yiIkslZcBIA" name="NCA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NS-kde3MEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_NS-kdu3MEe6yiIkslZcBIA" name="attributeGroupDefinition">
+          <packagedElement xmi:type="uml:Class" xmi:id="_NS-kd-3MEe6yiIkslZcBIA" name="SecurityAttributesGroup">
+            <ownedAttribute xmi:id="_NS-keO3MEe6yiIkslZcBIA" name="classification" clientDependency="_NS-kmu3MEe6yiIkslZcBIA" type="_NS-kY-3MEe6yiIkslZcBIA" aggregation="composite"/>
+            <ownedAttribute xmi:id="_NS-kee3MEe6yiIkslZcBIA" name="ownerProducer" clientDependency="_NS-knO3MEe6yiIkslZcBIA" type="_NS-lGu3MEe6yiIkslZcBIA" aggregation="composite"/>
+            <ownedAttribute xmi:id="_NS-keu3MEe6yiIkslZcBIA" name="SCIcontrols" clientDependency="_NS-knu3MEe6yiIkslZcBIA" type="_NS-lIO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-ke-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kfO3MEe6yiIkslZcBIA" name="SARIdentifier" clientDependency="_NS-koO3MEe6yiIkslZcBIA" type="_NS-lJu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kfe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kfu3MEe6yiIkslZcBIA" name="disseminationControls" clientDependency="_NS-kou3MEe6yiIkslZcBIA" type="_NS-lLO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kf-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kgO3MEe6yiIkslZcBIA" name="FGIsourceOpen" clientDependency="_NS-kpO3MEe6yiIkslZcBIA" type="_NS-lMu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kge3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kgu3MEe6yiIkslZcBIA" name="FGIsourceProtected" clientDependency="_NS-kpu3MEe6yiIkslZcBIA" type="_NS-lOO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kg-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-khO3MEe6yiIkslZcBIA" name="releasableTo" clientDependency="_NS-kqO3MEe6yiIkslZcBIA" type="_NS-lPu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-khe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-khu3MEe6yiIkslZcBIA" name="nonICmarkings" clientDependency="_NS-kqu3MEe6yiIkslZcBIA" type="_NS-lRO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kh-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kiO3MEe6yiIkslZcBIA" name="classifiedBy" clientDependency="_NS-krO3MEe6yiIkslZcBIA" type="_NS-lSu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kie3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kiu3MEe6yiIkslZcBIA" name="classificationReason" clientDependency="_NS-kru3MEe6yiIkslZcBIA" type="_NS-lS-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-ki-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kjO3MEe6yiIkslZcBIA" name="derivedFrom" clientDependency="_NS-ksO3MEe6yiIkslZcBIA" type="_NS-lTO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kje3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kju3MEe6yiIkslZcBIA" name="declassDate" clientDependency="_NS-ksu3MEe6yiIkslZcBIA" type="_NS-lTe3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kj-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kkO3MEe6yiIkslZcBIA" name="declassEvent" clientDependency="_NS-ktO3MEe6yiIkslZcBIA" type="_NS-lTu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kke3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kku3MEe6yiIkslZcBIA" name="declassException" clientDependency="_NS-ktu3MEe6yiIkslZcBIA" type="_NS-lT-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kk-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-klO3MEe6yiIkslZcBIA" name="typeOfExemptedSource" clientDependency="_NS-kuO3MEe6yiIkslZcBIA" type="_NS-lVe3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kle3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-klu3MEe6yiIkslZcBIA" name="dateOfExemptedSource" clientDependency="_NS-kuu3MEe6yiIkslZcBIA" type="_NS-lW-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kl-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kmO3MEe6yiIkslZcBIA" name="declassManualReview" clientDependency="_NS-kvO3MEe6yiIkslZcBIA" type="_NS-lXO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kme3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kmu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCO3MEe6yiIkslZcBIA" client="_NS-keO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-km-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-knO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGO3MEe6yiIkslZcBIA" client="_NS-kee3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kne3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-knu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFO3MEe6yiIkslZcBIA" client="_NS-keu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kn-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-koO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDe3MEe6yiIkslZcBIA" client="_NS-kfO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-koe3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kou3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lE-3MEe6yiIkslZcBIA" client="_NS-kfu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-ko-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kpO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCe3MEe6yiIkslZcBIA" client="_NS-kgO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kpe3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kpu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCu3MEe6yiIkslZcBIA" client="_NS-kgu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kp-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kqO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFe3MEe6yiIkslZcBIA" client="_NS-khO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kqe3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kqu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDu3MEe6yiIkslZcBIA" client="_NS-khu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kq-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-krO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFu3MEe6yiIkslZcBIA" client="_NS-kiO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kre3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kru3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEu3MEe6yiIkslZcBIA" client="_NS-kiu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kr-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-ksO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEe3MEe6yiIkslZcBIA" client="_NS-kjO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kse3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-ksu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGe3MEe6yiIkslZcBIA" client="_NS-kju3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-ks-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-ktO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lD-3MEe6yiIkslZcBIA" client="_NS-kkO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kte3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-ktu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEO3MEe6yiIkslZcBIA" client="_NS-kku3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kt-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kuO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDO3MEe6yiIkslZcBIA" client="_NS-klO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kue3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kuu3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lF-3MEe6yiIkslZcBIA" client="_NS-klu3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-ku-3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-kvO3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lC-3MEe6yiIkslZcBIA" client="_NS-kmO3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-kve3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NS-kvu3MEe6yiIkslZcBIA" name="SecurityAttributesOptionGroup">
+            <ownedAttribute xmi:id="_NS-kv-3MEe6yiIkslZcBIA" name="classification" clientDependency="_NS-k4-3MEe6yiIkslZcBIA" type="_NS-kY-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kwO3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kwe3MEe6yiIkslZcBIA" name="ownerProducer" clientDependency="_NS-k5e3MEe6yiIkslZcBIA" type="_NS-lGu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kwu3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kw-3MEe6yiIkslZcBIA" name="SCIcontrols" clientDependency="_NS-k5-3MEe6yiIkslZcBIA" type="_NS-lIO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kxO3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kxe3MEe6yiIkslZcBIA" name="SARIdentifier" clientDependency="_NS-k6e3MEe6yiIkslZcBIA" type="_NS-lJu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kxu3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kx-3MEe6yiIkslZcBIA" name="disseminationControls" clientDependency="_NS-k6-3MEe6yiIkslZcBIA" type="_NS-lLO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kyO3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kye3MEe6yiIkslZcBIA" name="FGIsourceOpen" clientDependency="_NS-k7e3MEe6yiIkslZcBIA" type="_NS-lMu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kyu3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-ky-3MEe6yiIkslZcBIA" name="FGIsourceProtected" clientDependency="_NS-k7-3MEe6yiIkslZcBIA" type="_NS-lOO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kzO3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kze3MEe6yiIkslZcBIA" name="releasableTo" clientDependency="_NS-k8e3MEe6yiIkslZcBIA" type="_NS-lPu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-kzu3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-kz-3MEe6yiIkslZcBIA" name="nonICmarkings" clientDependency="_NS-k8-3MEe6yiIkslZcBIA" type="_NS-lRO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k0O3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k0e3MEe6yiIkslZcBIA" name="classifiedBy" clientDependency="_NS-k9e3MEe6yiIkslZcBIA" type="_NS-lSu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k0u3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k0-3MEe6yiIkslZcBIA" name="classificationReason" clientDependency="_NS-k9-3MEe6yiIkslZcBIA" type="_NS-lS-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k1O3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k1e3MEe6yiIkslZcBIA" name="derivedFrom" clientDependency="_NS-k-e3MEe6yiIkslZcBIA" type="_NS-lTO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k1u3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k1-3MEe6yiIkslZcBIA" name="declassDate" clientDependency="_NS-k--3MEe6yiIkslZcBIA" type="_NS-lTe3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k2O3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k2e3MEe6yiIkslZcBIA" name="declassEvent" clientDependency="_NS-k_e3MEe6yiIkslZcBIA" type="_NS-lTu3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k2u3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k2-3MEe6yiIkslZcBIA" name="declassException" clientDependency="_NS-k_-3MEe6yiIkslZcBIA" type="_NS-lT-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k3O3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k3e3MEe6yiIkslZcBIA" name="typeOfExemptedSource" clientDependency="_NS-lAe3MEe6yiIkslZcBIA" type="_NS-lVe3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k3u3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k3-3MEe6yiIkslZcBIA" name="dateOfExemptedSource" clientDependency="_NS-lA-3MEe6yiIkslZcBIA" type="_NS-lW-3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k4O3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_NS-k4e3MEe6yiIkslZcBIA" name="declassManualReview" clientDependency="_NS-lBe3MEe6yiIkslZcBIA" type="_NS-lXO3MEe6yiIkslZcBIA" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-k4u3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k4-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCO3MEe6yiIkslZcBIA" client="_NS-kv-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k5O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k5e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGO3MEe6yiIkslZcBIA" client="_NS-kwe3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k5u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k5-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFO3MEe6yiIkslZcBIA" client="_NS-kw-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k6O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k6e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDe3MEe6yiIkslZcBIA" client="_NS-kxe3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k6u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k6-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lE-3MEe6yiIkslZcBIA" client="_NS-kx-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k7O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k7e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCe3MEe6yiIkslZcBIA" client="_NS-kye3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k7u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k7-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lCu3MEe6yiIkslZcBIA" client="_NS-ky-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k8O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k8e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFe3MEe6yiIkslZcBIA" client="_NS-kze3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k8u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k8-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDu3MEe6yiIkslZcBIA" client="_NS-kz-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k9O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k9e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lFu3MEe6yiIkslZcBIA" client="_NS-k0e3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k9u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k9-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEu3MEe6yiIkslZcBIA" client="_NS-k0-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k-O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k-e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEe3MEe6yiIkslZcBIA" client="_NS-k1e3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k-u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k--3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lGe3MEe6yiIkslZcBIA" client="_NS-k1-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k_O3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k_e3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lD-3MEe6yiIkslZcBIA" client="_NS-k2e3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-k_u3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-k_-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lEO3MEe6yiIkslZcBIA" client="_NS-k2-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-lAO3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-lAe3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lDO3MEe6yiIkslZcBIA" client="_NS-k3e3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-lAu3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-lA-3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lF-3MEe6yiIkslZcBIA" client="_NS-k3-3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-lBO3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_NS-lBe3MEe6yiIkslZcBIA" name="ref" supplier="_NS-lC-3MEe6yiIkslZcBIA" client="_NS-k4e3MEe6yiIkslZcBIA">
+            <mapping xmi:id="_NS-lBu3MEe6yiIkslZcBIA" name="ref_Mapping">
+              <body></body>
+            </mapping>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NS-lB-3MEe6yiIkslZcBIA" name="NamespaceAttributePropertyHolder">
+          <ownedAttribute xmi:id="_NS-lCO3MEe6yiIkslZcBIA" name="classification" type="_NS-kY-3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lCe3MEe6yiIkslZcBIA" name="FGIsourceOpen" type="_NS-lMu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lCu3MEe6yiIkslZcBIA" name="FGIsourceProtected" type="_NS-lOO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lC-3MEe6yiIkslZcBIA" name="declassManualReview" type="_NS-lXO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lDO3MEe6yiIkslZcBIA" name="typeOfExemptedSource" type="_NS-lVe3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lDe3MEe6yiIkslZcBIA" name="SARIdentifier" type="_NS-lJu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lDu3MEe6yiIkslZcBIA" name="nonICmarkings" type="_NS-lRO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lD-3MEe6yiIkslZcBIA" name="declassEvent" type="_NS-lTu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lEO3MEe6yiIkslZcBIA" name="declassException" type="_NS-lT-3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lEe3MEe6yiIkslZcBIA" name="derivedFrom" type="_NS-lTO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lEu3MEe6yiIkslZcBIA" name="classificationReason" type="_NS-lS-3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lE-3MEe6yiIkslZcBIA" name="disseminationControls" type="_NS-lLO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lFO3MEe6yiIkslZcBIA" name="SCIcontrols" type="_NS-lIO3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lFe3MEe6yiIkslZcBIA" name="releasableTo" type="_NS-lPu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lFu3MEe6yiIkslZcBIA" name="classifiedBy" type="_NS-lSu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lF-3MEe6yiIkslZcBIA" name="dateOfExemptedSource" type="_NS-lW-3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lGO3MEe6yiIkslZcBIA" name="ownerProducer" type="_NS-lGu3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <ownedAttribute xmi:id="_NS-lGe3MEe6yiIkslZcBIA" name="declassDate" type="_NS-lTe3MEe6yiIkslZcBIA" aggregation="composite"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lGu3MEe6yiIkslZcBIA" name="ownerProducer_._type">
+            <ownedAttribute xmi:id="_NS-lG-3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lHO3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lHe3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lHu3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lH-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lIO3MEe6yiIkslZcBIA" name="SCIcontrols_._type">
+            <ownedAttribute xmi:id="_NS-lIe3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lIu3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lI-3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lJO3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lJe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lJu3MEe6yiIkslZcBIA" name="SARIdentifier_._type">
+            <ownedAttribute xmi:id="_NS-lJ-3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lKO3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lKe3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lKu3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lK-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lLO3MEe6yiIkslZcBIA" name="disseminationControls_._type">
+            <ownedAttribute xmi:id="_NS-lLe3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lLu3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lL-3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lMO3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lMe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lMu3MEe6yiIkslZcBIA" name="FGIsourceOpen_._type">
+            <ownedAttribute xmi:id="_NS-lM-3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lNO3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lNe3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lNu3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lN-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lOO3MEe6yiIkslZcBIA" name="FGIsourceProtected_._type">
+            <ownedAttribute xmi:id="_NS-lOe3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lOu3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lO-3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lPO3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lPe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lPu3MEe6yiIkslZcBIA" name="releasableTo_._type">
+            <ownedAttribute xmi:id="_NS-lP-3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lQO3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lQe3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lQu3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lQ-3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lRO3MEe6yiIkslZcBIA" name="nonICmarkings_._type">
+            <ownedAttribute xmi:id="_NS-lRe3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lRu3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lR-3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lSO3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lSe3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lSu3MEe6yiIkslZcBIA" name="classifiedBy_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lS-3MEe6yiIkslZcBIA" name="classificationReason_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lTO3MEe6yiIkslZcBIA" name="derivedFrom_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lTe3MEe6yiIkslZcBIA" name="declassDate_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lTu3MEe6yiIkslZcBIA" name="declassEvent_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lT-3MEe6yiIkslZcBIA" name="declassException_._type">
+            <ownedAttribute xmi:id="_NS-lUO3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lUe3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lUu3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lU-3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lVO3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lVe3MEe6yiIkslZcBIA" name="typeOfExemptedSource_._type">
+            <ownedAttribute xmi:id="_NS-lVu3MEe6yiIkslZcBIA" name="item" visibility="public">
+              <eAnnotations xmi:id="_NS-lV-3MEe6yiIkslZcBIA" source="Objing">
+                <contents xmi:type="uml:Property" xmi:id="_NS-lWO3MEe6yiIkslZcBIA" name="isNoType"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NS-lWe3MEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NS-lWu3MEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lW-3MEe6yiIkslZcBIA" name="dateOfExemptedSource_._type"/>
+          <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_NS-lXO3MEe6yiIkslZcBIA" name="declassManualReview_._type"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NS-lXe3MEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_NS-lXu3MEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_NS-lX-3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_NS-lYO3MEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_NS-lYe3MEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_NS-lYu3MEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_NS-lY-3MEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_NS-lZO3MEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_NS-lZe3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_NS-lZu3MEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_NS-lZ-3MEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_NS-laO3MEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_NS-lae3MEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_NS-lau3MEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_NS-la-3MEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_NS-lbO3MEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_NS-lbe3MEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_NS-lbu3MEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_NS_LIO3MEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_NS_LIe3MEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_NS_LIu3MEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_NS_LI-3MEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum ClassificationType {
+    U, C, S, TS, R, CTS, CTS_B, CTS_BALK, NU, NR, NC, NS, NS_S, NS_A, CTSA, NSAT, NCA
+}
+
+public class ICISMMetadataType {
+    ClassificationType classification;
+    String ownerProducer;
+    String SCIcontrols;
+    String SARIdentifier;
+    String disseminationControls;
+    String FGIsourceOpen;
+    String FGIsourceProtected;
+    String releasableTo;
+    String nonICmarkings;
+    String classifiedBy;
+    String classificationReason;
+    String derivedFrom;
+    String declassDate;
+    String declassEvent;
+    String declassException;
+    String typeOfExemptedSource;
+    String dateOfExemptedSource;
+    String declassManualReview;
+}
+
+public class NamespaceElementPropertyHolder {
+    ICISMMetadataType ICISMMetadata;
+}
+
+public class SecurityAttributesGroup {
+    ClassificationType classification;
+    String ownerProducer;
+    String SCIcontrols;
+    String SARIdentifier;
+    String disseminationControls;
+    String FGIsourceOpen;
+    String FGIsourceProtected;
+    String releasableTo;
+    String nonICmarkings;
+    String classifiedBy;
+    String classificationReason;
+    String derivedFrom;
+    String declassDate;
+    String declassEvent;
+    String declassException;
+    String typeOfExemptedSource;
+    String dateOfExemptedSource;
+    String declassManualReview;
+}
+
+public class SecurityAttributesOptionGroup {
+    ClassificationType classification;
+    String ownerProducer;
+    String SCIcontrols;
+    String SARIdentifier;
+    String disseminationControls;
+    String FGIsourceOpen;
+    String FGIsourceProtected;
+    String releasableTo;
+    String nonICmarkings;
+    String classifiedBy;
+    String classificationReason;
+    String derivedFrom;
+    String declassDate;
+    String declassEvent;
+    String declassException;
+    String typeOfExemptedSource;
+    String dateOfExemptedSource;
+    String declassManualReview;
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

@@ -1,0 +1,31 @@
+﻿Table Compare
+Produced: 2024-03-29 17:44:59
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Project\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Project\gpt\gptoutput\cleanGPT.java
+1:     2:    3:     4: 5: 6: 7: 8: 9:    1:      2:              3:  4:   5:        6:       7:       8:        9:
+------------------------------------------------------------------------------------------------------------------------------------
+                                      +-
+                                      +-
+                                      +-
+                                      +-
+                                      +-
+                                      +-
+                                      +-
+}                                     +-
+}                                     +-
+}                                     +-
+}                                     +-
+}                                     +-
+}                                     +-
+}                                     +-
+                                      -+ Message ChatGPT…ChatGPT can make mistakes. Consider checking important information.?ChatGPT
+public class U1Bit  {                 +-
+public class U8Bit  {                 +-
+public class S8Bit  {                 +-
+public class U16Bit {                 +-
+public class S16Bit {                 +-
+public class U32Bit {                 +-
+public class S32Bit {                 +-
+------------------------------------------------------------------------------------------------------------------------------------

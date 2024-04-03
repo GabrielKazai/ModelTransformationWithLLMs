@@ -1,0 +1,29 @@
+Text Compare
+Produced: 2024-03-19 11:07:47
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\validTestCase1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\validTestCase1\gpt\gptoutput\cleanGPT.java
+                               +-
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+    public Boolean attribute1; +-
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+                               <>     public boolean attribute1;
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+                               -+     private Class3 class3_2;
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+                               -+ }
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+    private Class3 class3_2;   <> private class Class3 extends Class1,Class2
+                                  {
+                                      public Class1 class1;
+                                      protected Class2 class2;
+                                      Class3 class3;
+                                      String attribute3;
+----------------------------------------------------------------------------

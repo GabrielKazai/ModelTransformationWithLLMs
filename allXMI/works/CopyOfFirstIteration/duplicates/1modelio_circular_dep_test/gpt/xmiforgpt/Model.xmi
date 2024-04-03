@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_GzMLUOqZEe6Urf0IvTVI3Q" name="Model">
+  <eAnnotations xmi:id="_GzMLUeqZEe6Urf0IvTVI3Q" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_GzMLUuqZEe6Urf0IvTVI3Q" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_GzMLU-qZEe6Urf0IvTVI3Q" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GzMLVOqZEe6Urf0IvTVI3Q" name="ClassA">
+    <ownedAttribute xmi:id="_GzMLVeqZEe6Urf0IvTVI3Q" name="classC" visibility="private" type="_GzMLYOqZEe6Urf0IvTVI3Q" aggregation="composite" association="_GzMLWOqZEe6Urf0IvTVI3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GzMLVuqZEe6Urf0IvTVI3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GzMLV-qZEe6Urf0IvTVI3Q" name="classAId" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GzMLWOqZEe6Urf0IvTVI3Q" memberEnd="_GzMLVeqZEe6Urf0IvTVI3Q _GzMLWeqZEe6Urf0IvTVI3Q">
+    <ownedEnd xmi:id="_GzMLWeqZEe6Urf0IvTVI3Q" visibility="private" type="_GzMLVOqZEe6Urf0IvTVI3Q" association="_GzMLWOqZEe6Urf0IvTVI3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GzMLWuqZEe6Urf0IvTVI3Q" name="ClassB">
+    <ownedAttribute xmi:id="_GzMLW-qZEe6Urf0IvTVI3Q" name="classA" visibility="private" type="_GzMLVOqZEe6Urf0IvTVI3Q" aggregation="composite" association="_GzMLXuqZEe6Urf0IvTVI3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GzMLXOqZEe6Urf0IvTVI3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GzMLXeqZEe6Urf0IvTVI3Q" name="classBId" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GzMLXuqZEe6Urf0IvTVI3Q" memberEnd="_GzMLW-qZEe6Urf0IvTVI3Q _GzMLX-qZEe6Urf0IvTVI3Q">
+    <ownedEnd xmi:id="_GzMLX-qZEe6Urf0IvTVI3Q" visibility="private" type="_GzMLWuqZEe6Urf0IvTVI3Q" association="_GzMLXuqZEe6Urf0IvTVI3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GzMLYOqZEe6Urf0IvTVI3Q" name="ClassC">
+    <ownedAttribute xmi:id="_GzMLYeqZEe6Urf0IvTVI3Q" name="classD" visibility="private" type="_GzMLZuqZEe6Urf0IvTVI3Q" aggregation="composite" association="_GzMLZOqZEe6Urf0IvTVI3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GzMLYuqZEe6Urf0IvTVI3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GzMLY-qZEe6Urf0IvTVI3Q" name="classCId" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GzMLZOqZEe6Urf0IvTVI3Q" memberEnd="_GzMLYeqZEe6Urf0IvTVI3Q _GzMLZeqZEe6Urf0IvTVI3Q">
+    <ownedEnd xmi:id="_GzMLZeqZEe6Urf0IvTVI3Q" visibility="private" type="_GzMLYOqZEe6Urf0IvTVI3Q" association="_GzMLZOqZEe6Urf0IvTVI3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GzMLZuqZEe6Urf0IvTVI3Q" name="ClassD">
+    <ownedAttribute xmi:id="_GzMLZ-qZEe6Urf0IvTVI3Q" name="classB" visibility="private" type="_GzMLWuqZEe6Urf0IvTVI3Q" aggregation="composite" association="_GzMLauqZEe6Urf0IvTVI3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GzMLaOqZEe6Urf0IvTVI3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GzMLaeqZEe6Urf0IvTVI3Q" name="classDId" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GzMLauqZEe6Urf0IvTVI3Q" memberEnd="_GzMLZ-qZEe6Urf0IvTVI3Q _GzMLa-qZEe6Urf0IvTVI3Q">
+    <ownedEnd xmi:id="_GzMLa-qZEe6Urf0IvTVI3Q" visibility="private" type="_GzMLZuqZEe6Urf0IvTVI3Q" association="_GzMLauqZEe6Urf0IvTVI3Q"/>
+  </packagedElement>
+</uml:Model>

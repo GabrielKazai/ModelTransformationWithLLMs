@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_vBeqIN-WEe6JfL1Te0ynHg" name="Model">
+  <eAnnotations xmi:id="_vBeqId-WEe6JfL1Te0ynHg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_vBeqIt-WEe6JfL1Te0ynHg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_vBeqI9-WEe6JfL1Te0ynHg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vBeqJN-WEe6JfL1Te0ynHg" name="MyClass">
+    <ownedAttribute xmi:id="_vBeqJd-WEe6JfL1Te0ynHg" name="myAttribute" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_vBeqJt-WEe6JfL1Te0ynHg" name="mySecondAttribute" visibility="public" type="_vBeqKd-WEe6JfL1Te0ynHg" isUnique="false"/>
+    <ownedAttribute xmi:id="_vBeqJ9-WEe6JfL1Te0ynHg" name="myThirdAttribute" visibility="public" type="_vBeqLN-WEe6JfL1Te0ynHg" isUnique="false"/>
+    <ownedAttribute xmi:id="_vBeqKN-WEe6JfL1Te0ynHg" name="myFourthAttribute" visibility="public" type="_vBeqKd-WEe6JfL1Te0ynHg" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_vBeqKd-WEe6JfL1Te0ynHg" name="MyEnumeration">
+    <ownedLiteral xmi:id="_vBeqKt-WEe6JfL1Te0ynHg" name="VALUE_A"/>
+    <ownedLiteral xmi:id="_vBeqK9-WEe6JfL1Te0ynHg" name="VALUE_B"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_vBeqLN-WEe6JfL1Te0ynHg" name="MySecondEnumeration">
+    <ownedLiteral xmi:id="_vBeqLd-WEe6JfL1Te0ynHg" name="VALUE_A"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,76 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes from XMI
+
+
+Java Code From XMI
+Java Code Without Explanations
+Java Code Generation
+Java Classes for UML.
+Java Class Creation
+Java UML Model Conversion
+Java XMI to Classes
+Generate Java Classes from XMI
+Java Model Classes
+Java Class from XMI
+Java UML to XMI
+Java Classes from XMI
+Java Classes from XMI
+Java Class Modeling Response
+Java Class From XMI
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Class Creation
+Java Class Models Creation
+Yesterday
+Java Code Generation
+Java Code from XMI
+Java Class Generation
+Java UML Classes
+Java Models Generation
+Java UML Conversion
+Java UML sincl XMI.
+UML Java Class Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_8Ixj0OJEEe6TivekVja8iQ" name="Model">
+  <eAnnotations xmi:id="_8Ixj0eJEEe6TivekVja8iQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_8Ixj0uJEEe6TivekVja8iQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_8Ixj0-JEEe6TivekVja8iQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8Ixj1OJEEe6TivekVja8iQ" name="Real"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8Ixj1eJEEe6TivekVja8iQ" name="external">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8Ixj1uJEEe6TivekVja8iQ" name="UnlimitedNatural"/>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

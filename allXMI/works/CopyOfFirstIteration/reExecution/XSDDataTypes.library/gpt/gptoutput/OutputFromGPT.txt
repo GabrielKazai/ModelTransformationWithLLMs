@@ -1,0 +1,350 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes for XMI.
+
+
+Java Classes from XMI.
+Java Code XML Models
+Java Code Generation
+Java Classes from XMI.
+Java UML Response
+Java Models from XMI
+Java UML Code Conversion
+Java Code Generation
+Java Classes for UML
+Java Classes from XMI
+Java Classes LoadBalancer Model
+Java Classes from XMI
+Java Code From XMI
+Java Code Without Explanations
+Java Code Generation
+Java Classes for UML.
+Java Class Creation
+Java UML Model Conversion
+Java XMI to Classes
+Generate Java Classes from XMI
+Java Model Classes
+Java Class from XMI
+Java UML to XMI
+Java Classes from XMI
+Java Classes from XMI
+Java Class Modeling Response
+Java Class From XMI
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_hhO8INr_Ee6eI4nhsJUedw" name="Model">
+  <eAnnotations xmi:id="_hhO8Idr_Ee6eI4nhsJUedw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_hhO8Itr_Ee6eI4nhsJUedw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hhPjMNr_Ee6eI4nhsJUedw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hhPjMdr_Ee6eI4nhsJUedw" name="XSDDataTypes">
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjMtr_Ee6eI4nhsJUedw" name="anyType"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjM9r_Ee6eI4nhsJUedw" name="anySimpleType"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjNNr_Ee6eI4nhsJUedw" name="anyURI"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjNdr_Ee6eI4nhsJUedw" name="base64Binary"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjNtr_Ee6eI4nhsJUedw" name="boolean"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjN9r_Ee6eI4nhsJUedw" name="byte"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjONr_Ee6eI4nhsJUedw" name="date"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjOdr_Ee6eI4nhsJUedw" name="dateTime"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjOtr_Ee6eI4nhsJUedw" name="decimal"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjO9r_Ee6eI4nhsJUedw" name="double"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjPNr_Ee6eI4nhsJUedw" name="duration"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjPdr_Ee6eI4nhsJUedw" name="ENTITY"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjPtr_Ee6eI4nhsJUedw" name="ENTITIES"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjP9r_Ee6eI4nhsJUedw" name="float"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjQNr_Ee6eI4nhsJUedw" name="gDay"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjQdr_Ee6eI4nhsJUedw" name="gMonth"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjQtr_Ee6eI4nhsJUedw" name="gMonthDay"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjQ9r_Ee6eI4nhsJUedw" name="gYear"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjRNr_Ee6eI4nhsJUedw" name="gYearMonth"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjRdr_Ee6eI4nhsJUedw" name="hexBinary"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjRtr_Ee6eI4nhsJUedw" name="ID"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjR9r_Ee6eI4nhsJUedw" name="IDREF"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjSNr_Ee6eI4nhsJUedw" name="IDREFS"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjSdr_Ee6eI4nhsJUedw" name="int"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjStr_Ee6eI4nhsJUedw" name="integer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjS9r_Ee6eI4nhsJUedw" name="language"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjTNr_Ee6eI4nhsJUedw" name="long"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjTdr_Ee6eI4nhsJUedw" name="Name"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjTtr_Ee6eI4nhsJUedw" name="NCName"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjT9r_Ee6eI4nhsJUedw" name="NMTOKEN"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjUNr_Ee6eI4nhsJUedw" name="NMTOKENS"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjUdr_Ee6eI4nhsJUedw" name="normalizedString"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjUtr_Ee6eI4nhsJUedw" name="NOTATION"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjU9r_Ee6eI4nhsJUedw" name="negativeInteger"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjVNr_Ee6eI4nhsJUedw" name="nonNegativeInteger"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjVdr_Ee6eI4nhsJUedw" name="nonPositiveInteger"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjVtr_Ee6eI4nhsJUedw" name="positiveInteger"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjV9r_Ee6eI4nhsJUedw" name="QName"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjWNr_Ee6eI4nhsJUedw" name="short"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjWdr_Ee6eI4nhsJUedw" name="string"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjWtr_Ee6eI4nhsJUedw" name="time"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjW9r_Ee6eI4nhsJUedw" name="token"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjXNr_Ee6eI4nhsJUedw" name="unsignedByte"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjXdr_Ee6eI4nhsJUedw" name="unsignedInt"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjXtr_Ee6eI4nhsJUedw" name="unsignedLong"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjX9r_Ee6eI4nhsJUedw" name="unsignedShort"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hhPjYNr_Ee6eI4nhsJUedw" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjYdr_Ee6eI4nhsJUedw" name="ContentKind">
+      <ownedLiteral xmi:id="_hhPjYtr_Ee6eI4nhsJUedw" name="Unspecified"/>
+      <ownedLiteral xmi:id="_hhPjY9r_Ee6eI4nhsJUedw" name="Empty"/>
+      <ownedLiteral xmi:id="_hhPjZNr_Ee6eI4nhsJUedw" name="Simple"/>
+      <ownedLiteral xmi:id="_hhPjZdr_Ee6eI4nhsJUedw" name="Mixed"/>
+      <ownedLiteral xmi:id="_hhPjZtr_Ee6eI4nhsJUedw" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjZ9r_Ee6eI4nhsJUedw" name="FeatureKind">
+      <ownedLiteral xmi:id="_hhPjaNr_Ee6eI4nhsJUedw" name="Unspecified"/>
+      <ownedLiteral xmi:id="_hhPjadr_Ee6eI4nhsJUedw" name="Simple"/>
+      <ownedLiteral xmi:id="_hhPjatr_Ee6eI4nhsJUedw" name="Attribute"/>
+      <ownedLiteral xmi:id="_hhPja9r_Ee6eI4nhsJUedw" name="Element"/>
+      <ownedLiteral xmi:id="_hhPjbNr_Ee6eI4nhsJUedw" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_hhPjbdr_Ee6eI4nhsJUedw" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_hhPjbtr_Ee6eI4nhsJUedw" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjb9r_Ee6eI4nhsJUedw" name="VisibilityKind">
+      <ownedLiteral xmi:id="_hhPjcNr_Ee6eI4nhsJUedw" name="Unspecified"/>
+      <ownedLiteral xmi:id="_hhPjcdr_Ee6eI4nhsJUedw" name="None"/>
+      <ownedLiteral xmi:id="_hhPjctr_Ee6eI4nhsJUedw" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_hhPjc9r_Ee6eI4nhsJUedw" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_hhPjdNr_Ee6eI4nhsJUedw" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_hhPjddr_Ee6eI4nhsJUedw" name="ReadWriteUnsettable"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjdtr_Ee6eI4nhsJUedw" name="ImageUsageHint">
+      <ownedLiteral xmi:id="_hhPjd9r_Ee6eI4nhsJUedw" name="None"/>
+      <ownedLiteral xmi:id="_hhPjeNr_Ee6eI4nhsJUedw" name="Icon"/>
+      <ownedLiteral xmi:id="_hhPjedr_Ee6eI4nhsJUedw" name="ShapeImage"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjetr_Ee6eI4nhsJUedw" name="ConstraintEvaluationMode">
+      <ownedLiteral xmi:id="_hhPje9r_Ee6eI4nhsJUedw" name="batch"/>
+      <ownedLiteral xmi:id="_hhPjfNr_Ee6eI4nhsJUedw" name="live"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhPjfdr_Ee6eI4nhsJUedw" name="ConstraintSeverity">
+      <ownedLiteral xmi:id="_hhPjftr_Ee6eI4nhsJUedw" name="error"/>
+      <ownedLiteral xmi:id="_hhPjf9r_Ee6eI4nhsJUedw" name="warning"/>
+      <ownedLiteral xmi:id="_hhPjgNr_Ee6eI4nhsJUedw" name="info"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjgdr_Ee6eI4nhsJUedw" name="TimingDiagramOrder">
+      <ownedAttribute xmi:id="_hhPjgtr_Ee6eI4nhsJUedw" name="diagramId" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hhPjg9r_Ee6eI4nhsJUedw" name="timingStates" type="_hhPjhtr_Ee6eI4nhsJUedw" aggregation="composite">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hhPjhNr_Ee6eI4nhsJUedw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hhPjhdr_Ee6eI4nhsJUedw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hhPjhtr_Ee6eI4nhsJUedw" name="TimingState">
+      <ownedAttribute xmi:id="_hhPjh9r_Ee6eI4nhsJUedw" name="stateInvariant" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hhPjiNr_Ee6eI4nhsJUedw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hhPjidr_Ee6eI4nhsJUedw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hhPjitr_Ee6eI4nhsJUedw" name="occurrenceSpecification" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hhPji9r_Ee6eI4nhsJUedw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hhPjjNr_Ee6eI4nhsJUedw"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+[[STARTEND]]
+public class anyType {
+}
+
+public class anySimpleType {
+}
+
+public class anyURI {
+}
+
+public class base64Binary {
+}
+
+public class boolean {
+}
+
+public class byte {
+}
+
+public class date {
+}
+
+public class dateTime {
+}
+
+public class decimal {
+}
+
+public class double {
+}
+
+public class duration {
+}
+
+public class ENTITY {
+}
+
+public class ENTITIES {
+}
+
+public class float {
+}
+
+public class gDay {
+}
+
+public class gMonth {
+}
+
+public class gMonthDay {
+}
+
+public class gYear {
+}
+
+public class gYearMonth {
+}
+
+public class hexBinary {
+}
+
+public class ID {
+}
+
+public class IDREF {
+}
+
+public class IDREFS {
+}
+
+public class int {
+}
+
+public class integer {
+}
+
+public class language {
+}
+
+public class long {
+}
+
+public class Name {
+}
+
+public class NCName {
+}
+
+public class NMTOKEN {
+}
+
+public class NMTOKENS {
+}
+
+public class normalizedString {
+}
+
+public class NOTATION {
+}
+
+public class negativeInteger {
+}
+
+public class nonNegativeInteger {
+}
+
+public class nonPositiveInteger {
+}
+
+public class positiveInteger {
+}
+
+public class QName {
+}
+
+public class short {
+}
+
+public class string {
+}
+
+public class time {
+}
+
+public class token {
+}
+
+public class unsignedByte {
+}
+
+public class unsignedInt {
+}
+
+public class unsignedLong {
+}
+
+public class unsignedShort {
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+
+public enum ImageUsageHint {
+    None, Icon, ShapeImage
+}
+
+public enum ConstraintEvaluationMode {
+    batch, live
+}
+
+public enum ConstraintSeverity {
+    error, warning, info
+}
+
+public class TimingDiagramOrder {
+    public String diagramId;
+}
+
+public class TimingState {
+    public String stateInvariant;
+    public String occurrenceSpecification;
+}
+[[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

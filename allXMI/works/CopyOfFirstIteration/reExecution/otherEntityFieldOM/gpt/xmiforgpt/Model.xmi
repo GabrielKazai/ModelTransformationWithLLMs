@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_t8780PAREe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_t8780fAREe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_t8780vAREe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_t8780_AREe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t8781PAREe6-4aaHZrjoFg" name="One">
+    <ownedAttribute xmi:id="_t8781fAREe6-4aaHZrjoFg" name="many" visibility="public" type="_t8782vAREe6-4aaHZrjoFg" aggregation="composite" association="_t8782PAREe6-4aaHZrjoFg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t8781vAREe6-4aaHZrjoFg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t8781_AREe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t8782PAREe6-4aaHZrjoFg" memberEnd="_t8781fAREe6-4aaHZrjoFg _t8782fAREe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_t8782fAREe6-4aaHZrjoFg" name="one(otherOne)" visibility="public" type="_t8781PAREe6-4aaHZrjoFg" association="_t8782PAREe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t8782vAREe6-4aaHZrjoFg" name="Many"/>
+</uml:Model>

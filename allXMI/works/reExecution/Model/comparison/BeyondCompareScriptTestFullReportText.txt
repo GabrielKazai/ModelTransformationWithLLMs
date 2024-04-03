@@ -1,0 +1,34 @@
+Text Compare
+Produced: 2024-04-03 13:31:57
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Model\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Model\gpt\gptoutput\cleanGPT.java
+                             +-
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+}
+--------------------------------

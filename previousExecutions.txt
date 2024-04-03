@@ -102,3 +102,14 @@ example3
 secondIteration
 reExecution
 CopyOfFirstIteration
+FilRougeUML 
+java_sdkexample 
+jrlib 
+Mascaret 
+modelio_capitalized_field_names 
+modelio_comments 
+modelio_enum_no_value_test 
+NIEM-Reference-common-apco 
+NIEM-Reference-common-atf 
+NIEM-Reference-common-dea 
+NIEM-Reference-common-dod_jcs-pub2.0-misc 

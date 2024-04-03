@@ -1,0 +1,187 @@
+Text Compare
+Produced: 2024-04-03 11:57:18
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\FilRougeUML\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\FilRougeUML\gpt\gptoutput\cleanGPT.java
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+public class Competence {                                            =  public class Competence {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private String libelle;                                                 private final String libelle;
+
+    private boolean active;                                                 private final boolean active;
+
+    private Date dateCreation;                                              private final Date dateCreation;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Personne {                                                 public class Personne {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private String nom;                                                     private final String nom;
+
+    private String prenom;                                                  private final String prenom;
+
+    private String email;                                                   private final String email;
+
+    private String img;                                                     private final String img;
+
+    private List<Competence>  = new ArrayList<Competence> ();
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Droit droit;                                             =      private Droit droit;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     <>
+    public List<Cursus> cursus = new ArrayList<Cursus> ();                  private List<Cursus> cursus;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Etat etatPersonne;                                       =      private Etat etatPersonne;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     -+     private List<Competence> competences;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     =
+    public void ajouterCompetence() {                                       public void ajouterCompetence() {
+    }                                                                       }
+
+    public void evaluerCompetence() {                                       public void evaluerCompetence() {
+    }                                                                       }
+
+    public void Operation() {                                               public void Operation() {
+    }                                                                       }
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Droit {                                                    public class Droit {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private String libelle;                                                 private final String libelle;
+
+    private int niveau;                                                     private final int niveau;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Cursus {                                                   public class Cursus {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private Date annee;                                                     private final Date annee;
+
+    private String libelle;                                                 private final String libelle;
+
+    public List<Ecole> ecole = new ArrayList<Ecole>();                      private List<Ecole> ecole;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Ecole {                                                    public class Ecole {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private String nom;                                              <>     private final String nom;
+
+    private String ville;                                                   private final String ville;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Note {                                                     public class Note {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int note;                                                <>     private final Personne evalue;
+
+    private Personne evalue;                                                private final double note;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Projet {                                                   public class Projet {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private String libelle;                                                 private final String libelle;
+
+    private String img;                                                     private final String img;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Etat etat;                                               =      private Etat etat;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Etat recrutement;                                        =      private Etat recrutement;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private WikiProjet wikiProjet;                                   =      private WikiProjet wikiProjet;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private WikiOfficiel wikiOfficiel;                               =      private WikiOfficiel wikiOfficiel;
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     +-
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public abstract class Wiki {                                            public abstract class Wiki {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private String contenu;                                                 private final String contenu;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class WikiProjet extends Wiki {                                  public class WikiProjet extends Wiki {
+}                                                                       }
+
+public class WikiOfficiel extends Wiki {                                public class WikiOfficiel extends Wiki {
+}                                                                       }
+
+public abstract class Notification {                                    public abstract class Notification {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private int id;                                                  <>     private final long id;
+
+    private Date dateResolution;                                            private final Date dateResolution;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class Etat {                                                     public class Etat {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private String ENUM;                                             <>     private final String ENUM;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class NotificationAjoutComp extends Notification {               public class NotificationAjoutComp extends Notification {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Competence competence;                                   <>     private final Competence competence;
+
+    private Personne demandeur;                                             private final Personne demandeur;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+public class NotificationDemandeParticipation extends Notification {    public class NotificationDemandeParticipation extends Notification {
+--------------------------------------------------------------------------------------------------------------------------------------------
+    private Personne invite;                                         <>     private final Personne invite;
+
+    private Projet projet;                                                  private final Projet projet;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+public class NotificationInvitationProjet {                          <> public class NotificationInvitationProjet extends Notification {
+    private Personne invite;                                                private final Personne invite;
+
+    private Projet projet;                                                  private final Projet projet;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                    =  }
+--------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,619 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes: UML Conversion
+
+
+Java Class Models
+Java Classes Creation
+Java Code Generation
+Java Models Without Comments
+Java Code Generation
+Java UML Conversion
+Java Model Generation
+Java Classes From XMI
+Java Code Generation
+Java Classes for UML
+Java Code from XMI
+Java Class1 Creation
+Java Code Generation
+Java Classes from XMI
+Previous 7 Days
+Java Classes from XMI
+Java code generation
+Java Class Model
+Java Class Generation
+Java Classes from XMI.
+Java Code Generation
+Java Classes from XMI
+Java Classes from XMI
+Java Class Generation
+UML Java Class Conversion
+Java Code from XMI.
+Java Class Generation
+Java Code from XMI
+Java Code Generation
+Java Class Models
+Java Class ICISMMetadata
+Java Classes From XMI
+Generate Java Classes
+Java Enums from XMI
+Java Class Generation
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Java Class Contrainte
+Java Classes from XMI
+Java Class Generation
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_tIAPAPAIEe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_tIAPAfAIEe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_tIAPAvAIEe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tIAPA_AIEe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPBPAIEe6-4aaHZrjoFg" name="Activity">
+    <ownedAttribute xmi:id="_tIAPBfAIEe6-4aaHZrjoFg" name="acivitySector" visibility="public" type="_tIAPDPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPCfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPBvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPB_AIEe6-4aaHZrjoFg" name="organigram" visibility="public" type="_tIAPk_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPC_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPCPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPCfAIEe6-4aaHZrjoFg" memberEnd="_tIAPBfAIEe6-4aaHZrjoFg _tIAPCvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPCvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPBPAIEe6-4aaHZrjoFg" association="_tIAPCfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPC_AIEe6-4aaHZrjoFg" memberEnd="_tIAPB_AIEe6-4aaHZrjoFg _tIAPlPAIEe6-4aaHZrjoFg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPDPAIEe6-4aaHZrjoFg" name="ActivitySector"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPDfAIEe6-4aaHZrjoFg" name="Answer">
+    <ownedAttribute xmi:id="_tIAPDvAIEe6-4aaHZrjoFg" name="questionItem" visibility="public" type="_tIAPpPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPEvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPD_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPEPAIEe6-4aaHZrjoFg" name="surveyance" visibility="public" type="_tIAPyfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPFPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPEfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPEvAIEe6-4aaHZrjoFg" memberEnd="_tIAPDvAIEe6-4aaHZrjoFg _tIAPE_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPE_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPDfAIEe6-4aaHZrjoFg" association="_tIAPEvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPFPAIEe6-4aaHZrjoFg" memberEnd="_tIAPEPAIEe6-4aaHZrjoFg _tIAPFfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPFfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPDfAIEe6-4aaHZrjoFg" association="_tIAPFPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPFvAIEe6-4aaHZrjoFg" name="Article">
+    <ownedAttribute xmi:id="_tIAPF_AIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPHfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPGPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPGfAIEe6-4aaHZrjoFg" name="author" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPH_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPGvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPG_AIEe6-4aaHZrjoFg" name="class" visibility="public" type="_tIAPt_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPIfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPHPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPHfAIEe6-4aaHZrjoFg" memberEnd="_tIAPF_AIEe6-4aaHZrjoFg _tIAPHvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPHvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPFvAIEe6-4aaHZrjoFg" association="_tIAPHfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPH_AIEe6-4aaHZrjoFg" memberEnd="_tIAPGfAIEe6-4aaHZrjoFg _tIAPIPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPIPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPFvAIEe6-4aaHZrjoFg" association="_tIAPH_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPIfAIEe6-4aaHZrjoFg" memberEnd="_tIAPG_AIEe6-4aaHZrjoFg _tIAPIvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPIvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPFvAIEe6-4aaHZrjoFg" association="_tIAPIfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPI_AIEe6-4aaHZrjoFg" name="Contact">
+    <ownedAttribute xmi:id="_tIAPJPAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPKPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPJfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPJvAIEe6-4aaHZrjoFg" name="contactNature" visibility="public" type="_tIAPLPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPKvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPJ_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPKPAIEe6-4aaHZrjoFg" memberEnd="_tIAPJPAIEe6-4aaHZrjoFg _tIAPKfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPKfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPI_AIEe6-4aaHZrjoFg" association="_tIAPKPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPKvAIEe6-4aaHZrjoFg" memberEnd="_tIAPJvAIEe6-4aaHZrjoFg _tIAPK_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPK_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPI_AIEe6-4aaHZrjoFg" association="_tIAPKvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPLPAIEe6-4aaHZrjoFg" name="ContactNature"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPLfAIEe6-4aaHZrjoFg" name="Event">
+    <ownedAttribute xmi:id="_tIAPLvAIEe6-4aaHZrjoFg" name="eventNature" visibility="public" type="_tIAPMvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPMPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPL_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPMPAIEe6-4aaHZrjoFg" memberEnd="_tIAPLvAIEe6-4aaHZrjoFg _tIAPMfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPMfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPLfAIEe6-4aaHZrjoFg" association="_tIAPMPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPMvAIEe6-4aaHZrjoFg" name="EventNature"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPM_AIEe6-4aaHZrjoFg" name="Group"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPNPAIEe6-4aaHZrjoFg" name="GroupIntervention">
+    <ownedAttribute xmi:id="_tIAPNfAIEe6-4aaHZrjoFg" name="event" visibility="public" type="_tIAPLfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPO_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPNvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPN_AIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPPfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPOPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPOfAIEe6-4aaHZrjoFg" name="groupInterventionNature" visibility="public" type="_tIAPbvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPP_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPOvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPO_AIEe6-4aaHZrjoFg" memberEnd="_tIAPNfAIEe6-4aaHZrjoFg _tIAPPPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPPPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPNPAIEe6-4aaHZrjoFg" association="_tIAPO_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPPfAIEe6-4aaHZrjoFg" memberEnd="_tIAPN_AIEe6-4aaHZrjoFg _tIAPPvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPPvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPNPAIEe6-4aaHZrjoFg" association="_tIAPPfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPP_AIEe6-4aaHZrjoFg" memberEnd="_tIAPOfAIEe6-4aaHZrjoFg _tIAPQPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPQPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPNPAIEe6-4aaHZrjoFg" association="_tIAPP_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPQfAIEe6-4aaHZrjoFg" name="GroupLink">
+    <ownedAttribute xmi:id="_tIAPQvAIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPSPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPQ_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPRPAIEe6-4aaHZrjoFg" name="group1" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPSvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPRfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPRvAIEe6-4aaHZrjoFg" name="groupLinkNature" visibility="public" type="_tIAPTvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPTPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPR_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPSPAIEe6-4aaHZrjoFg" memberEnd="_tIAPQvAIEe6-4aaHZrjoFg _tIAPSfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPSfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPQfAIEe6-4aaHZrjoFg" association="_tIAPSPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPSvAIEe6-4aaHZrjoFg" memberEnd="_tIAPRPAIEe6-4aaHZrjoFg _tIAPS_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPS_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPQfAIEe6-4aaHZrjoFg" association="_tIAPSvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPTPAIEe6-4aaHZrjoFg" memberEnd="_tIAPRvAIEe6-4aaHZrjoFg _tIAPTfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPTfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPQfAIEe6-4aaHZrjoFg" association="_tIAPTPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPTvAIEe6-4aaHZrjoFg" name="GroupLinkNature"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPT_AIEe6-4aaHZrjoFg" name="Honour">
+    <ownedAttribute xmi:id="_tIAPUPAIEe6-4aaHZrjoFg" name="honourNature" visibility="public" type="_tIAPVPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPUvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPUfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPUvAIEe6-4aaHZrjoFg" memberEnd="_tIAPUPAIEe6-4aaHZrjoFg _tIAPU_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPU_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPT_AIEe6-4aaHZrjoFg" association="_tIAPUvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPVPAIEe6-4aaHZrjoFg" name="HonourOrder"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPVfAIEe6-4aaHZrjoFg" name="IncomingPayment">
+    <ownedAttribute xmi:id="_tIAPVvAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPV_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPWPAIEe6-4aaHZrjoFg" memberEnd="_tIAPVvAIEe6-4aaHZrjoFg _tIAPWfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPWfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPVfAIEe6-4aaHZrjoFg" association="_tIAPWPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPWvAIEe6-4aaHZrjoFg" memberEnd="_tIAPW_AIEe6-4aaHZrjoFg _tIAPXfAIEe6-4aaHZrjoFg _tIAPX_AIEe6-4aaHZrjoFg _tIAPYfAIEe6-4aaHZrjoFg _tIAPY_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPW_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPVfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPXPAIEe6-4aaHZrjoFg"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_tIAPXfAIEe6-4aaHZrjoFg" name="incomingPayment" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPXvAIEe6-4aaHZrjoFg"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_tIAPX_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPYPAIEe6-4aaHZrjoFg"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_tIAPYfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPYvAIEe6-4aaHZrjoFg"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_tIAPY_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPWvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPZPAIEe6-4aaHZrjoFg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPZfAIEe6-4aaHZrjoFg" name="Sale">
+    <ownedAttribute xmi:id="_tIAPZvAIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPavAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPZ_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPaPAIEe6-4aaHZrjoFg" name="client" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPbPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPafAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPavAIEe6-4aaHZrjoFg" memberEnd="_tIAPZvAIEe6-4aaHZrjoFg _tIAPa_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPa_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" association="_tIAPavAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPbPAIEe6-4aaHZrjoFg" memberEnd="_tIAPaPAIEe6-4aaHZrjoFg _tIAPbfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPbfAIEe6-4aaHZrjoFg" name="sale" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" association="_tIAPbPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPbvAIEe6-4aaHZrjoFg" name="InterventionNature">
+    <ownedAttribute xmi:id="_tIAPb_AIEe6-4aaHZrjoFg" name="eventNature" visibility="public" type="_tIAPMvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPcfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPcPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPcfAIEe6-4aaHZrjoFg" memberEnd="_tIAPb_AIEe6-4aaHZrjoFg _tIAPcvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPcvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPbvAIEe6-4aaHZrjoFg" association="_tIAPcfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPc_AIEe6-4aaHZrjoFg" name="Invitation">
+    <ownedAttribute xmi:id="_tIAPdPAIEe6-4aaHZrjoFg" name="event" visibility="public" type="_tIAPLfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPevAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPdfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPdvAIEe6-4aaHZrjoFg" name="introducer" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPfPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPd_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPePAIEe6-4aaHZrjoFg" name="guest" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPfvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPefAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPevAIEe6-4aaHZrjoFg" memberEnd="_tIAPdPAIEe6-4aaHZrjoFg _tIAPe_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPe_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPc_AIEe6-4aaHZrjoFg" association="_tIAPevAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPfPAIEe6-4aaHZrjoFg" memberEnd="_tIAPdvAIEe6-4aaHZrjoFg _tIAPffAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPffAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPc_AIEe6-4aaHZrjoFg" association="_tIAPfPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPfvAIEe6-4aaHZrjoFg" memberEnd="_tIAPePAIEe6-4aaHZrjoFg _tIAPf_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPf_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPc_AIEe6-4aaHZrjoFg" association="_tIAPfvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPgPAIEe6-4aaHZrjoFg" name="Label"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPgfAIEe6-4aaHZrjoFg" name="Mandate">
+    <ownedAttribute xmi:id="_tIAPgvAIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPiPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPg_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPhPAIEe6-4aaHZrjoFg" name="mandateNature" visibility="public" type="_tIAPjvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPivAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPhfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPhvAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPjPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPh_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPiPAIEe6-4aaHZrjoFg" memberEnd="_tIAPgvAIEe6-4aaHZrjoFg _tIAPifAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPifAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPgfAIEe6-4aaHZrjoFg" association="_tIAPiPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPivAIEe6-4aaHZrjoFg" memberEnd="_tIAPhPAIEe6-4aaHZrjoFg _tIAPi_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPi_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPgfAIEe6-4aaHZrjoFg" association="_tIAPivAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPjPAIEe6-4aaHZrjoFg" memberEnd="_tIAPhvAIEe6-4aaHZrjoFg _tIAPjfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPjfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPgfAIEe6-4aaHZrjoFg" association="_tIAPjPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPjvAIEe6-4aaHZrjoFg" name="MandateNature">
+    <ownedAttribute xmi:id="_tIAPj_AIEe6-4aaHZrjoFg" name="tag" visibility="public" type="_tIAPgPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPkfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPkPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPkfAIEe6-4aaHZrjoFg" memberEnd="_tIAPj_AIEe6-4aaHZrjoFg _tIAPkvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPkvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPjvAIEe6-4aaHZrjoFg" association="_tIAPkfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPk_AIEe6-4aaHZrjoFg" name="Organigram">
+    <ownedAttribute xmi:id="_tIAPlPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPBPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPC_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPlfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPlvAIEe6-4aaHZrjoFg" name="Product">
+    <ownedAttribute xmi:id="_tIAPl_AIEe6-4aaHZrjoFg" name="event" visibility="public" type="_tIAPLfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPm_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPmPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPmfAIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPnfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPmvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPm_AIEe6-4aaHZrjoFg" memberEnd="_tIAPl_AIEe6-4aaHZrjoFg _tIAPnPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPnPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPlvAIEe6-4aaHZrjoFg" association="_tIAPm_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPnfAIEe6-4aaHZrjoFg" memberEnd="_tIAPmfAIEe6-4aaHZrjoFg _tIAPnvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPnvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPlvAIEe6-4aaHZrjoFg" association="_tIAPnfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPn_AIEe6-4aaHZrjoFg" name="Profession">
+    <ownedAttribute xmi:id="_tIAPoPAIEe6-4aaHZrjoFg" name="organigram" visibility="public" type="_tIAPk_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPovAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPofAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPovAIEe6-4aaHZrjoFg" memberEnd="_tIAPoPAIEe6-4aaHZrjoFg _tIAPo_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPo_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPn_AIEe6-4aaHZrjoFg" association="_tIAPovAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPpPAIEe6-4aaHZrjoFg" name="Question">
+    <ownedAttribute xmi:id="_tIAPpfAIEe6-4aaHZrjoFg" name="question" visibility="public" type="_tIAPwfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPp_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPpvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPp_AIEe6-4aaHZrjoFg" memberEnd="_tIAPpfAIEe6-4aaHZrjoFg _tIAPqPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPqPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPpPAIEe6-4aaHZrjoFg" association="_tIAPp_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPqfAIEe6-4aaHZrjoFg" name="Remittance">
+    <ownedAttribute xmi:id="_tIAPqvAIEe6-4aaHZrjoFg" name="honour" visibility="public" type="_tIAPT_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPrvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPq_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPrPAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPsPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPrfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPrvAIEe6-4aaHZrjoFg" memberEnd="_tIAPqvAIEe6-4aaHZrjoFg _tIAPr_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPr_AIEe6-4aaHZrjoFg" visibility="public" type="_tIAPqfAIEe6-4aaHZrjoFg" association="_tIAPrvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPsPAIEe6-4aaHZrjoFg" memberEnd="_tIAPrPAIEe6-4aaHZrjoFg _tIAPsfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPsfAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPqfAIEe6-4aaHZrjoFg" association="_tIAPsPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPsvAIEe6-4aaHZrjoFg" name="Right">
+    <ownedAttribute xmi:id="_tIAPs_AIEe6-4aaHZrjoFg" name="mandateNature" visibility="public" type="_tIAPjvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPtfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPtPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPtfAIEe6-4aaHZrjoFg" memberEnd="_tIAPs_AIEe6-4aaHZrjoFg _tIAPtvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPtvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPsvAIEe6-4aaHZrjoFg" association="_tIAPtfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPt_AIEe6-4aaHZrjoFg" name="Rubric"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPuPAIEe6-4aaHZrjoFg" name="SaleLine">
+    <ownedAttribute xmi:id="_tIAPufAIEe6-4aaHZrjoFg" name="product" visibility="public" type="_tIAPlvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPvfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPuvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPu_AIEe6-4aaHZrjoFg" name="sale" visibility="public" type="_tIAPZfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPv_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPvPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPvfAIEe6-4aaHZrjoFg" memberEnd="_tIAPufAIEe6-4aaHZrjoFg _tIAPvvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPvvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPuPAIEe6-4aaHZrjoFg" association="_tIAPvfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPv_AIEe6-4aaHZrjoFg" memberEnd="_tIAPu_AIEe6-4aaHZrjoFg _tIAPwPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPwPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPuPAIEe6-4aaHZrjoFg" association="_tIAPv_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPwfAIEe6-4aaHZrjoFg" name="Survey">
+    <ownedAttribute xmi:id="_tIAPwvAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPxvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPw_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPxPAIEe6-4aaHZrjoFg" name="author" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPx_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPxfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPxvAIEe6-4aaHZrjoFg" memberEnd="_tIAPwvAIEe6-4aaHZrjoFg _tIA2IfAIEe6-4aaHZrjoFg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPx_AIEe6-4aaHZrjoFg" memberEnd="_tIAPxPAIEe6-4aaHZrjoFg _tIAPyPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIAPyPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPwfAIEe6-4aaHZrjoFg" association="_tIAPx_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIAPyfAIEe6-4aaHZrjoFg" name="Surveyance">
+    <ownedAttribute xmi:id="_tIAPyvAIEe6-4aaHZrjoFg" name="survey" visibility="public" type="_tIAPwfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPzvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPy_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIAPzPAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2EfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIAPzfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIAPzvAIEe6-4aaHZrjoFg" memberEnd="_tIAPyvAIEe6-4aaHZrjoFg _tIA2EPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2EPAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPyfAIEe6-4aaHZrjoFg" association="_tIAPzvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2EfAIEe6-4aaHZrjoFg" memberEnd="_tIAPzPAIEe6-4aaHZrjoFg _tIA2EvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2EvAIEe6-4aaHZrjoFg" visibility="public" type="_tIAPyfAIEe6-4aaHZrjoFg" association="_tIA2EfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIA2E_AIEe6-4aaHZrjoFg" name="Tag">
+    <ownedAttribute xmi:id="_tIA2FPAIEe6-4aaHZrjoFg" name="group" visibility="public" type="_tIAPM_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2GPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2FfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2FvAIEe6-4aaHZrjoFg" name="label" visibility="public" type="_tIAPgPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2GvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2F_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2GPAIEe6-4aaHZrjoFg" memberEnd="_tIA2FPAIEe6-4aaHZrjoFg _tIA2GfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2GfAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2E_AIEe6-4aaHZrjoFg" association="_tIA2GPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2GvAIEe6-4aaHZrjoFg" memberEnd="_tIA2FvAIEe6-4aaHZrjoFg _tIA2G_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2G_AIEe6-4aaHZrjoFg" visibility="public" type="_tIA2E_AIEe6-4aaHZrjoFg" association="_tIA2GvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIA2HPAIEe6-4aaHZrjoFg" name="User">
+    <ownedAttribute xmi:id="_tIA2HfAIEe6-4aaHZrjoFg" name="activity" visibility="public" type="_tIAPBPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2I_AIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2HvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2H_AIEe6-4aaHZrjoFg" name="profession" visibility="public" type="_tIAPn_AIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2JfAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2IPAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2IfAIEe6-4aaHZrjoFg" name="question" visibility="public" type="_tIAPwfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIAPxvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2IvAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2I_AIEe6-4aaHZrjoFg" memberEnd="_tIA2HfAIEe6-4aaHZrjoFg _tIA2JPAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2JPAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" association="_tIA2I_AIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2JfAIEe6-4aaHZrjoFg" memberEnd="_tIA2H_AIEe6-4aaHZrjoFg _tIA2JvAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2JvAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" association="_tIA2JfAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tIA2J_AIEe6-4aaHZrjoFg" name="UserIntervention">
+    <ownedAttribute xmi:id="_tIA2KPAIEe6-4aaHZrjoFg" name="event" visibility="public" type="_tIAPLfAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2MPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2KfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2KvAIEe6-4aaHZrjoFg" name="groupIntervention" visibility="public" type="_tIAPNPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2MvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2K_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2LPAIEe6-4aaHZrjoFg" name="userInterventionNature" visibility="public" type="_tIAPbvAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2NPAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2LfAIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tIA2LvAIEe6-4aaHZrjoFg" name="user" visibility="public" type="_tIA2HPAIEe6-4aaHZrjoFg" isReadOnly="true" association="_tIA2NvAIEe6-4aaHZrjoFg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tIA2L_AIEe6-4aaHZrjoFg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2MPAIEe6-4aaHZrjoFg" memberEnd="_tIA2KPAIEe6-4aaHZrjoFg _tIA2MfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2MfAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2J_AIEe6-4aaHZrjoFg" association="_tIA2MPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2MvAIEe6-4aaHZrjoFg" memberEnd="_tIA2KvAIEe6-4aaHZrjoFg _tIA2M_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2M_AIEe6-4aaHZrjoFg" visibility="public" type="_tIA2J_AIEe6-4aaHZrjoFg" association="_tIA2MvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2NPAIEe6-4aaHZrjoFg" memberEnd="_tIA2LPAIEe6-4aaHZrjoFg _tIA2NfAIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2NfAIEe6-4aaHZrjoFg" visibility="public" type="_tIA2J_AIEe6-4aaHZrjoFg" association="_tIA2NPAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tIA2NvAIEe6-4aaHZrjoFg" memberEnd="_tIA2LvAIEe6-4aaHZrjoFg _tIA2N_AIEe6-4aaHZrjoFg">
+    <ownedEnd xmi:id="_tIA2N_AIEe6-4aaHZrjoFg" visibility="public" type="_tIA2J_AIEe6-4aaHZrjoFg" association="_tIA2NvAIEe6-4aaHZrjoFg"/>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+[[STARTEND]]
+public class Activity {
+    private final ActivitySector acivitySector;
+    private final Organigram organigram;
+}
+
+public class ActivitySector {
+}
+
+public class Answer {
+    private final Question questionItem;
+    private final Surveyance surveyance;
+}
+
+public class Article {
+    private final Group group;
+    private final User author;
+    private final Rubric class;
+}
+
+public class Contact {
+    private final User user;
+    private final ContactNature contactNature;
+}
+
+public class ContactNature {
+}
+
+public class Event {
+    private final EventNature eventNature;
+}
+
+public class EventNature {
+}
+
+public class Group {
+}
+
+public class GroupIntervention {
+    private final Event event;
+    private final Group group;
+    private final InterventionNature groupInterventionNature;
+}
+
+public class GroupLink {
+    private final Group group;
+    private final Group group1;
+    private final GroupLinkNature groupLinkNature;
+}
+
+public class GroupLinkNature {
+}
+
+public class Honour {
+    private final HonourOrder honourNature;
+}
+
+public class HonourOrder {
+}
+
+public class IncomingPayment {
+    private final User user;
+}
+
+public class InterventionNature {
+    private final EventNature eventNature;
+}
+
+public class Invitation {
+    private final Event event;
+    private final User introducer;
+    private final User guest;
+}
+
+public class Label {
+}
+
+public class Mandate {
+    private final Group group;
+    private final MandateNature mandateNature;
+    private final User user;
+}
+
+public class MandateNature {
+    private final Label tag;
+}
+
+public class Organigram {
+}
+
+public class Product {
+    private final Event event;
+    private final Group group;
+}
+
+public class Profession {
+    private final Organigram organigram;
+}
+
+public class Question {
+}
+
+public class Remittance {
+    private final Honour honour;
+    private final User user;
+}
+
+public class Right {
+    private final MandateNature mandateNature;
+}
+
+public class Rubric {
+}
+
+public class Sale {
+    private final Group group;
+    private final User client;
+}
+
+public class SaleLine {
+    private final Product product;
+    private final Sale sale;
+}
+
+public class Survey {
+    private final User author;
+}
+
+public class Surveyance {
+    private final Survey survey;
+    private final User user;
+}
+
+public class Tag {
+    private final Group group;
+    private final Label label;
+}
+
+public class User {
+    private final Activity activity;
+    private final Profession profession;
+    private final Survey question;
+}
+
+public class UserIntervention {
+    private final Event event;
+    private final GroupIntervention groupIntervention;
+    private final InterventionNature userInterventionNature;
+    private final User user;
+}
+[[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

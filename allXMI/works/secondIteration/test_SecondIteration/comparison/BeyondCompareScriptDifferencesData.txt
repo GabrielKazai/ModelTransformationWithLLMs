@@ -1,0 +1,38 @@
+Table Compare
+Produced: 2024-04-04 14:28:44
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\test_SecondIteration\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\test_SecondIteration\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                           2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12: 13: 14: 15: 16: 17: 18: 19: 20: 21: 22: 23: 24:    1:     2:   3:       4:         5:  6:        7:     8:   9:          10:    11:        12: 13:      14:    15: 16:    17:        18:   19:     20: 21:             22:      23:                  24:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+                                                                                                                                                 +-
+}                                                                                                                                                +-
+}                                                                                                                                                +-
+}                                                                                                                                                +-
+}                                                                                                                                                +-
+}                                                                                                                                                +-
+}                                                                                                                                                +-
+private Child[] Children                                                                                                                         +-
+private Family family                                                                                                                            +-
+private Father Father                                                                                                                            +-
+private List<Houses> GabrielRonnie = new ArrayList<Houses>()                                                                                     +-
+private Mother Mother                                                                                                                            +-
+public class Child {                                                                                                                             +-
+public class City {                                                                                                                              +-
+public class Family {                                                                                                                            +-
+public class Father {                                                                                                                            +-
+public class Houses {                                                                                                                            +-
+public class Mother {                                                                                                                            +-
+                                                                                                                                                 -+ UserIn your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors.Use lists instead of  arraysCapitlize variable namesChatGPTjavaCopy code
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

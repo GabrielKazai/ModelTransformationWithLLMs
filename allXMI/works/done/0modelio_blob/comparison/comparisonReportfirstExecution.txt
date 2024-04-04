@@ -1,0 +1,4 @@
+No errors.
+
+
+GPT is lacking public on these classes:(public class ImagleBlob, Blob, AnyBlob) fault of GPT? Not clearly shown in XMI, no fault of GPT

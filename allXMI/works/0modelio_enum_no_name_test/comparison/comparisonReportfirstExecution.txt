@@ -1,0 +1,2 @@
+the oracle did not generate myClass
+the oracle adds ; after an enum, GPT doesn't. This is not required in Java, no fault of GPT

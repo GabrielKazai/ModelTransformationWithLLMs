@@ -1,0 +1,6 @@
+No errors.
+
+oracle adds ; after the enums, GPT doesn't. This is not required in Java, no fault of GPT
+
+
+

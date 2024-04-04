@@ -1,0 +1,4 @@
+ public Class ;           <>     public Class classAttribute;
+
+oracle generated an extra public class with no name which cannot be found in the exported xmi
+gpt generated public class classAttribute not in the oracle

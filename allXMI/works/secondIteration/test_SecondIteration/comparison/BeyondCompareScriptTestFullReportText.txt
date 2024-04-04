@@ -1,0 +1,35 @@
+Text Compare
+Produced: 2024-04-04 14:28:44
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\test_SecondIteration\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\test_SecondIteration\gpt\gptoutput\cleanGPT_SecondIteration.java
+                                                                  <> UserIn your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors.Use lists instead of arraysCapitlize variable namesChatGPTjavaCopy code
+public class City {
+    private List<Houses> GabrielRonnie = new ArrayList<Houses>();
+
+}
+
+public class Houses {
+    private Family family;
+
+}
+
+public class Family {
+    private Father Father;
+
+    private Mother Mother;
+
+    private Child[] Children;
+
+}
+
+public class Father {
+}
+
+public class Mother {
+}
+
+public class Child {
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+oracle did not generate public abstract class Task  
+oracle did not generate private long taskId 
+oracle did not generate private String title                                                                         
+oracle did not generate private String description
+public dateTime is missing                                                                       

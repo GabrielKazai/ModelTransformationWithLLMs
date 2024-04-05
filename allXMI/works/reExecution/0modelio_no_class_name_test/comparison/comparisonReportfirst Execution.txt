@@ -1,0 +1,1 @@
+the oracle did not generate the public class toto.

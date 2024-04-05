@@ -1,1 +1,2 @@
-generation cancelled-no reason provided
+Could not generate classes:
+Task

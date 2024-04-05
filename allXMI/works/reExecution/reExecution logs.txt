@@ -1,0 +1,21 @@
+test_constraint --> Oracle did not execute
+example --> name not found with find
+0user_entity_test --> Oracle did not execute
+Model --> Russian, undefined characters
+0PrimitiveTypes --> unable to generate GPT
+result2 --> did not execute
+NIEM-Reference-common-edxl --> did not execute
+NIEM-Reference-common-edxl-cap --> did not execute
+NIEM-Reference-common-iso_4217 --> Took too long for GPT to generate 
+0otherEntityFieldOM --> oracle did not execute
+Use%20Cases --> unable to create beyond compare report
+jrlib --> Took too long for GPT to generate
+api --> too large for GPT
+XSDataFit2Dv1_0 --> unable to generate any oracle code
+XSDataTypes.library --> was missing oracle
+0modelio_user_class_test --> Missing file structure in github
+1fUML_Library --> missing file structure in github
+BMMEA --> Took too long for GPT to generate
+1GRAAnnotationModel --> incorrect file structure in github/Too large (forced to press generate again)
+0modelio_no_attribute_name_test --> missing name for a variable
+

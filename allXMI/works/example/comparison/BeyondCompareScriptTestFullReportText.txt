@@ -1,0 +1,60 @@
+Text Compare
+Produced: 2024-04-05 11:40:38
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\gpt\gptoutput\cleanGPT.java
+                                             +-
+-------------------------------------------------------------------------------------------
+public abstract class Student {              =  public abstract class Student {
+    public String name;                             public String name;
+-------------------------------------------------------------------------------------------
+                                             +-
+-------------------------------------------------------------------------------------------
+    public int age;                          =      public int age;
+-------------------------------------------------------------------------------------------
+                                             +-
+    public String getName() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public void setName(final String name) {
+    }
+
+-------------------------------------------------------------------------------------------
+}                                            =  }
+
+public class Professor {                        public class Professor {
+    public String name;                             public String name;
+-------------------------------------------------------------------------------------------
+                                             +-
+-------------------------------------------------------------------------------------------
+    public String department;                =      public String department;
+-------------------------------------------------------------------------------------------
+                                             +-
+-------------------------------------------------------------------------------------------
+}                                            =  }
+
+public class Enrollment {                       public class Enrollment {
+    public int id;                                  public int id;
+-------------------------------------------------------------------------------------------
+                                             +-
+-------------------------------------------------------------------------------------------
+    public String date;                      =      public String date;
+-------------------------------------------------------------------------------------------
+                                             +-
+-------------------------------------------------------------------------------------------
+}                                            =  }
+
+public enum DirectionKind {                     public enum DirectionKind {
+-------------------------------------------------------------------------------------------
+    DirectionIn;                             <>     DirectionIn
+-------------------------------------------------------------------------------------------
+}                                            =  }
+-------------------------------------------------------------------------------------------
+                                             -+
+                                                public class InterStudent extends Student {
+                                                    public String studentId;
+                                                }
+-------------------------------------------------------------------------------------------

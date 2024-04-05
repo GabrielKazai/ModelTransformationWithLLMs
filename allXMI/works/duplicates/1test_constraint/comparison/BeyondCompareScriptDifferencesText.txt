@@ -1,0 +1,20 @@
+Text Compare
+Produced: 2024-04-05 11:29:32
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1test_constraint\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1test_constraint\gpt\gptoutput\cleanGPT.java
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----
+----
+ +-
+----

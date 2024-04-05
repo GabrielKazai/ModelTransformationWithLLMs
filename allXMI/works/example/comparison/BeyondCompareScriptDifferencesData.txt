@@ -1,0 +1,24 @@
+Table Compare
+Produced: 2024-04-05 11:40:38
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example\gpt\gptoutput\cleanGPT.java
+1:                                       2:    1:                                          2:
+---------------------------------------------------------------------------------------------
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+                                            +-
+// TODO Auto-generated return               +-
+}                                           +-
+                                            -+ public class InterStudent extends Student {
+public String getName() {                   +-
+                                            -+ public String studentId
+public void setName(final String name) {    +-
+return null                                 +-
+---------------------------------------------------------------------------------------------

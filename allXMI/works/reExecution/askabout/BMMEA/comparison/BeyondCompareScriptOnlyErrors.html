@@ -1,0 +1,1337 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+img.AutoScale { max-width: 100%; max-height: 100%; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigMod { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigOrphan { color: #000000; background-color: #FAEEFF; }
+td.TextItemNum { color: #696969; background-color: #F0F0F0; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigOrphan { color: #000000; background-color: #F1E3FF; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+td.TextItemInsigAdd { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration: line-through; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br>
+Produced: 2024-04-05 13:19:04<br>
+&nbsp; &nbsp;
+<br>
+Mode:&nbsp; Differences &nbsp;
+<br>
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\BMMEA\oracle\combinedOracle\cleanOracle.java &nbsp;
+<br>
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\BMMEA\gpt\gptoutput\cleanGPT.java &nbsp;
+<br>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MotivationElement</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">assessingOrganizationUnit</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">AssessmentCategory</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">categorizingAssessmentCategory</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">usingAssessment</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Means</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">affectedMeans</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">motivatedDirective</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">End</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">affectedEnd</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">usedAssessment</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Influencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">judgedInfluencer</span><span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">identifiedPotentialImpact</span><span class="TextSegSigDiff">;}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MotivationElement</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">assessingOrganizationUnit</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">AssessmentCategory</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">categorizingAssessmentCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">AssessmentCategory</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">usingAssessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Means</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">affectedMeans</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Means</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">motivatedDirective</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">End</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">affectedEnd</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">End</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">usedAssessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Influencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">judgedInfluencer</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">identifiedPotentialImpact</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Assessment<span class="TextSegSigDiff">&gt;</span> categorized<span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Ass</span>essment<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Assessment<span class="TextSegSigDiff">[]</span> categorizedA<span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">s</span>essment;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>AssessmentCategory<span class="TextSegSigDiff">&gt;</span> broad<span class="TextSegSigDiff">erAssessmentCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">As</span>sessmentCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public AssessmentCategory<span class="TextSegSigDiff">[]</span> broad<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>A<span class="TextSegSigDiff">s</span>sessmentCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>AssessmentCategory<span class="TextSegSigDiff">&gt;</span> narrow<span class="TextSegSigDiff">erAssessmentCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">As</span>sessmentCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public AssessmentCategory<span class="TextSegSigDiff">[]</span> narrow<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>A<span class="TextSegSigDiff">s</span>sessmentCategory;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Bus</span>in<span class="TextSegSigDiff">essProcess</span><span class="TextSegSigDiff">&gt;</span> deliveredOffering<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">Offer</span>in<span class="TextSegSigDiff">g</span><span class="TextSegSigDiff">[]</span> deliveredOffering;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> responsibl<span class="TextSegSigDiff">eOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit<span class="TextSegSigDiff">[]</span> responsibl<span class="TextSegSigDiff">e</span>OrganizationUnit;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Directive<span class="TextSegSigDiff">&gt;</span> governingDirective<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Directive<span class="TextSegSigDiff">[]</span> governingDirective;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> deploying<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> deployingCourseOfAction;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;</span> broad<span class="TextSegSigDiff">erBusinessPolicy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessPolicy<span class="TextSegSigDiff">[]</span> broad<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>BusinessPolicy;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessRule<span class="TextSegSigDiff">&gt;</span> derived<span class="TextSegSigDiff">BusinessRule</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessRule<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessRule<span class="TextSegSigDiff">[]</span> derivedBusinessRule;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;</span> moreSpecif<span class="TextSegSigDiff">icBusinessPol</span>ic<span class="TextSegSigDiff">y</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessPolicy<span class="TextSegSigDiff">[]</span> moreSpecificBusinessPolicy;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessProcess<span class="TextSegSigDiff">&gt;</span> governedBusinessProcess<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessProcess<span class="TextSegSigDiff">[]</span> governedBusinessProcess;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">public class BusinessProcess extends M<span class="TextSegSigDiff">otivationElement</span> {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public class BusinessProcess extends M<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">ns</span> {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Asset<span class="TextSegSigDiff">&gt;</span> managedAsset<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Asset</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Asset<span class="TextSegSigDiff">[]</span> managedAsset;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;</span> governing<span class="TextSegSigDiff">BusinessPolicy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessPolicy<span class="TextSegSigDiff">[]</span> governingBusinessPolicy;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessRule<span class="TextSegSigDiff">&gt;</span> guiding<span class="TextSegSigDiff">BusinessRule</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessRule<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessRule<span class="TextSegSigDiff">[]</span> guidingBusinessRule;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> responsibl<span class="TextSegSigDiff">eOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit<span class="TextSegSigDiff">[]</span> responsibl<span class="TextSegSigDiff">e</span>OrganizationUnit;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> realized<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> realizedCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;</span> delivered<span class="TextSegSigDiff">Offering</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Offering<span class="TextSegSigDiff">[]</span> deliveredOffering;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;</span> bas<span class="TextSegSigDiff">eBusinessPolicy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>BusinessPolicy<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessPolicy<span class="TextSegSigDiff">[]</span> bas<span class="TextSegSigDiff">e</span>BusinessPolicy;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessProcess<span class="TextSegSigDiff">&gt;</span> guidedBusinessProcess<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessProcess<span class="TextSegSigDiff">[]</span> guidedBusinessProcess;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Tactic<span class="TextSegSigDiff">&gt;</span> effecting<span class="TextSegSigDiff">Tactic</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Tactic<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Tactic<span class="TextSegSigDiff">[]</span> effectingTactic;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Asset<span class="TextSegSigDiff">&gt;</span> deployedAsset<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Asset</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Asset<span class="TextSegSigDiff">[]</span> deployedAsset;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessProcess<span class="TextSegSigDiff">&gt;</span> realizingBusinessProcess<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessProcess<span class="TextSegSigDiff">[]</span> realizingBusinessProcess;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Directive<span class="TextSegSigDiff">&gt;</span> governingDirective<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Directive<span class="TextSegSigDiff">[]</span> governingDirective;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> enabling<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> enablingCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> broad<span class="TextSegSigDiff">erCourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> broad<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>CourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Directive<span class="TextSegSigDiff">&gt;</span> baseDirective<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Directive<span class="TextSegSigDiff">[]</span> baseDirective;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResult<span class="TextSegSigDiff">&gt;</span> supportedDesiredResult<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResult</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResult<span class="TextSegSigDiff">[]</span> supportedDesiredResult;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> enabled<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> enabledCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Li<span class="TextSegSigDiff">st</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Li</span>ability<span class="TextSegSigDiff">&gt;</span> dischargedLiability<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Liability</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Liability<span class="TextSegSigDiff">[]</span> dischargedLiability;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;</span> defined<span class="TextSegSigDiff">Offering</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Offering<span class="TextSegSigDiff">[]</span> definedOffering;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> moreSpecific<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> moreSpecificCourseOfAction;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> supporting<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> supportingCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResult<span class="TextSegSigDiff">&gt;</span> broaderDesiredResult<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResult</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResult<span class="TextSegSigDiff">[]</span> broaderDesiredResult;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Directive<span class="TextSegSigDiff">&gt;</span> supportingDirective<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Directive<span class="TextSegSigDiff">[]</span> supportingDirective;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResultCategory<span class="TextSegSigDiff">&gt;</span> categorizingDesiredResultCategory<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResultCategory</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResultCategory<span class="TextSegSigDiff">[]</span> categorizingDesiredResultCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResult<span class="TextSegSigDiff">&gt;</span> moreSpecficDesiredResult<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResult</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResult<span class="TextSegSigDiff">[]</span> moreSpecficDesiredResult;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResult<span class="TextSegSigDiff">&gt;</span> categorizedDesiredResult<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResult</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResult<span class="TextSegSigDiff">[]</span> categorizedDesiredResult;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResultCategory<span class="TextSegSigDiff">&gt;</span> broaderDesiredResultCategory<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResultCategory</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResultCategory<span class="TextSegSigDiff">[]</span> broaderDesiredResultCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResultCategory<span class="TextSegSigDiff">&gt;</span> moreSpecificDesiredResultCategory<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResultCategory</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResultCategory<span class="TextSegSigDiff">[]</span> moreSpecificDesiredResultCategory;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">public class Directive extends Me<span class="TextSegSigDiff">ans</span> {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public class Directive extends M<span class="TextSegSigDiff">otivationElem</span>e<span class="TextSegSigDiff">nt</span> {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Assessment<span class="TextSegSigDiff">&gt;</span> motivating<span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Ass</span>essment<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Assessment<span class="TextSegSigDiff">[]</span> motivatingA<span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">s</span>essment;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Asset<span class="TextSegSigDiff">&gt;</span> governedAsset<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Asset</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Asset<span class="TextSegSigDiff">[]</span> governedAsset;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> governed<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> governedCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> derived<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> derivedCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>DesiredResult<span class="TextSegSigDiff">&gt;</span> supportedDesiredResult<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">DesiredResult</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public DesiredResult<span class="TextSegSigDiff">[]</span> supportedDesiredResult;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>PotentialImpact<span class="TextSegSigDiff">&gt;</span> motivatingPotentialImpact<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public PotentialImpact<span class="TextSegSigDiff">[]</span> motivatingPotentialImpact;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Regulation<span class="TextSegSigDiff">&gt;</span> directiv<span class="TextSegSigDiff">eRegulation</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Regulation<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Regulation<span class="TextSegSigDiff">[]</span> directiv<span class="TextSegSigDiff">e</span>Regulation;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Assessment<span class="TextSegSigDiff">&gt;</span> judging<span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Ass</span>essment<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Assessment<span class="TextSegSigDiff">[]</span> judgingA<span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">s</span>essment;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;</span> us<span class="TextSegSigDiff">ingOffer</span>ing<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Offering<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Offering<span class="TextSegSigDiff">[]</span> usingOffering;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;</span> provided<span class="TextSegSigDiff">Resource</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Resource<span class="TextSegSigDiff">[]</span> providedResource;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Objective<span class="TextSegSigDiff">&gt;</span> quantifyingObjective<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Objective</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Objective<span class="TextSegSigDiff">[]</span> quantifyingObjective;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Vision<span class="TextSegSigDiff">&gt;</span> amplified<span class="TextSegSigDiff">Vision</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Vision<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Vision<span class="TextSegSigDiff">[]</span> amplifiedVision;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Assessment<span class="TextSegSigDiff">&gt;</span> judging<span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Ass</span>essment<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Assessment<span class="TextSegSigDiff">[]</span> judgingA<span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">s</span>essment;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;</span> categorizi<span class="TextSegSigDiff">ngInfluencerCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public InfluencerCategory<span class="TextSegSigDiff">[]</span> categorizi<span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">g</span>InfluencerCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> recognizin<span class="TextSegSigDiff">gOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit<span class="TextSegSigDiff">[]</span> recognizin<span class="TextSegSigDiff">g</span>OrganizationUnit;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>InfluencingOrganization<span class="TextSegSigDiff">&gt;</span> sourceInfluencingOrganizatio<span class="TextSegSigDiff">n</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">InfluencingOrganization</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public InfluencingOrganization<span class="TextSegSigDiff">[]</span> sourceInfluencingOrganizatio<span class="TextSegSigDiff">n</span>;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Influencer<span class="TextSegSigDiff">&gt;</span> categorized<span class="TextSegSigDiff">Influencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Influencer<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Influencer<span class="TextSegSigDiff">[]</span> categorizedInfluencer;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;</span> broad<span class="TextSegSigDiff">erInfluencerCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public InfluencerCategory<span class="TextSegSigDiff">[]</span> broad<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>InfluencerCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;</span> narrow<span class="TextSegSigDiff">erInfluencerCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>InfluencerCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public InfluencerCategory<span class="TextSegSigDiff">[]</span> narrow<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span>InfluencerCategory;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">public class InfluencingOrganization extends <span class="TextSegSigDiff">Mot</span><span class="TextSegSigDiff">iv</span>ation<span class="TextSegSigDiff">Elemen</span>t {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public class InfluencingOrganization extends <span class="TextSegSigDiff">Organiz</span>ation<span class="TextSegSigDiff">U</span><span class="TextSegSigDiff">ni</span>t {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Influencer<span class="TextSegSigDiff">&gt;</span> provided<span class="TextSegSigDiff">Influencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Influencer<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Influencer<span class="TextSegSigDiff">[]</span> providedInfluencer;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationCategory<span class="TextSegSigDiff">&gt;</span> catego<span class="TextSegSigDiff">rizingOrgan</span>iz<span class="TextSegSigDiff">ationCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationCategory<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationCategory<span class="TextSegSigDiff">[]</span> catego<span class="TextSegSigDiff">r</span>iz<span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">g</span>OrganizationCategory;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> influencin<span class="TextSegSigDiff">gOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit<span class="TextSegSigDiff">[]</span> influencin<span class="TextSegSigDiff">g</span>OrganizationUnit;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> discharging<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> dischargingCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> responsibl<span class="TextSegSigDiff">eOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit<span class="TextSegSigDiff">[]</span> responsibl<span class="TextSegSigDiff">e</span>OrganizationUnit;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;</span> claimed<span class="TextSegSigDiff">Resource</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Resource<span class="TextSegSigDiff">[]</span> claimedResource;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Assessment<span class="TextSegSigDiff">&gt;</span> judging<span class="TextSegSigDiff">Assessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span>A<span class="TextSegSigDiff">rrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Ass</span>essment<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Assessment<span class="TextSegSigDiff">[]</span> judgingA<span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">s</span>essment;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;</span> establishing<span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationUnit<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public OrganizationUnit establishingOrganizationUnit;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Strategy<span class="TextSegSigDiff">&gt;</span> missionCompone<span class="TextSegSigDiff">nt</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Strategy</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Strategy<span class="TextSegSigDiff">[]</span> missionCompone<span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">t</span>;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Vision</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">operativeVision</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Vision</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">operativeVision</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Vision</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MotivationElement</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">private</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">private</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">description</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Goal<span class="TextSegSigDiff">&gt;</span> quantified<span class="TextSegSigDiff">Goal</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Goal<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Goal<span class="TextSegSigDiff">[]</span> quantifiedGoal;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>BusinessProcess<span class="TextSegSigDiff">&gt;</span> deliveringBusinessProcess<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public BusinessProcess<span class="TextSegSigDiff">[]</span> deliveringBusinessProcess;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;</span> defining<span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>CourseOfAction<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public CourseOfAction<span class="TextSegSigDiff">[]</span> definingCourseOfAction;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>FixedAsset<span class="TextSegSigDiff">&gt;</span> used<span class="TextSegSigDiff">FixedAsset</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>FixedAsset<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public FixedAsset<span class="TextSegSigDiff">[]</span> usedFixedAsset;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;</span> required<span class="TextSegSigDiff">Resource</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>Resource<span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; public Resource<span class="TextSegSigDiff">[]</span> requiredResource;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>InfluencingOrganization<span class="TextSegSigDiff">&gt;</span> categorizedInfluencingOrganizatio<span class="TextSegSigDiff">n</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">InfluencingOrganization</span><span class="TextSegSigDiff">&gt;()</span>;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public InfluencingOrganization<span class="TextSegSigDiff">[]</span> categorizedInfluencingOrganizatio<span class="TextSegSigDiff">n</span>;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>public <span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span>OrganizationCategory<span class="TextSegSigDiff">&gt;</span> broaderOrganizationCategory <span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span>OrganizationCategory<span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">public OrganizationCategory<span class="TextSegSigDiff">[]</span> broaderOrganizationCategory<span class="TextSegSigDiff">;</span><span class="TextSegSigDiff">public</span> OrganizationCategory<span class="TextSegSigDiff">[]</span><span class="TextSegSigDiff">Continue</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">generatingMessage</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ChatGPT</span><span class="TextSegSigDiff">…</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Organization</span>Cat<span class="TextSegSigDiff">egory</span><span class="TextSegSigDiff">&gt;</span> <span class="TextSegSigDiff">narrowerOrganizationCategory</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">OrganizationCategory</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">C<span class="TextSegSigDiff">h</span>at<span class="TextSegSigDiff">GPT</span> <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">n</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">make</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">mistakes</span><span class="TextSegSigDiff">.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">Consider</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">checking</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">important</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">information</span><span class="TextSegSigDiff">.?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MotivationElement</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">madeAssessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">ChatGPT</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Asset</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">managedAsset</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Asset</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">managedBusinessProcess</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessProcess</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">End</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">definedEnd</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">End</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Influencer</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">recognizedInfluencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Influencer</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">InfluencingOrganization</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">internalInfluencingOrganization</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">InfluencingOrganization</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Liability</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">managedLiability</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Liability</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Means</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">establishedMeans</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Means</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Strategy</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">determiningStrategy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Strategy</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MotivationElement</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">identifyingAssessment</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Assessment</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">motivatedDirective</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">PotentialReward</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Regulation</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ExternalInfluencer</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">regulatingDirective</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Directive</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Resource</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Asset</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">FixedAsset</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">providingFixedAsset</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">FixedAsset</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Liability</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">claimingLiability</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Liability</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Offering</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">requiringOffering</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Offering</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Risk</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">PotentialImpact</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Strategy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Mission</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">plannedMission</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Mission</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">determinedOrganizationUnit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">OrganizationUnit</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Tactic</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">implementingTactic</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Tactic</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Tactic</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CourseOfAction</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessRule</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">enforcedBusinessRule</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BusinessRule</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Strategy</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">implementedStrategy</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Strategy</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Vision</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">End</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Goal</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">amplifyingGoal</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Goal</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Mission</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">deliveringMission</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Mission</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+</table>
+<br>
+</body>
+</html>

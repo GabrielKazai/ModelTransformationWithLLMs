@@ -1,0 +1,27 @@
+Text Compare
+Produced: 2024-04-05 11:29:32
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1test_constraint\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1test_constraint\gpt\gptoutput\cleanGPT.java
+                                +-
+------------------------------------------------------------------
+public class Contrainte {       =  public class Contrainte {
+    public String notTooSmall;         public String notTooSmall;
+------------------------------------------------------------------
+                                +-
+------------------------------------------------------------------
+    public String notTooBig;    =      public String notTooBig;
+------------------------------------------------------------------
+                                +-
+------------------------------------------------------------------
+    public String onlyRequired; =      public String onlyRequired;
+------------------------------------------------------------------
+                                +-
+------------------------------------------------------------------
+    public String noConstraint; =      public String noConstraint;
+------------------------------------------------------------------
+                                +-
+------------------------------------------------------------------
+}                               =  }
+------------------------------------------------------------------

@@ -1,0 +1,21 @@
+Text Compare
+Produced: 2024-04-05 12:26:13
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldOM\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldOM\gpt\gptoutput\cleanGPT.java
+                                                    +-
+------------------------------------------------------------------------------------------------------------------------------
+public class One {                                  =  public class One {
+------------------------------------------------------------------------------------------------------------------------------
+    public List<Many> many = new ArrayList<Many>(); <>     public java.util.List<Many> many = new java.util.ArrayList<Many>();
+
+------------------------------------------------------------------------------------------------------------------------------
+}                                                   =  }
+
+public class Many {                                    public class Many {
+------------------------------------------------------------------------------------------------------------------------------
+                                                    -+     public One one;
+------------------------------------------------------------------------------------------------------------------------------
+}                                                   =  }
+------------------------------------------------------------------------------------------------------------------------------

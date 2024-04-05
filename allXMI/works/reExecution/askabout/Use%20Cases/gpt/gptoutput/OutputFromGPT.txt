@@ -1,0 +1,395 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes from UML
+
+
+Java Class UML Conversion
+Java Code Generation
+Java Class Generation
+Java Code Generation
+Java Class for LoadBalancer
+Java Classes for UML
+Java Code Generation
+Java Class Contrainte Model
+Java Class Modeling
+Java Classes from UML
+Java Code from UML
+Java Model: XMI to Code
+Java Code Generation
+Yesterday
+Java Code from XMI.
+AI Assistance Available!
+Java Classes from XMI
+User Request: Title Creation
+Previous 7 Days
+New chat
+Java UML Class Generation
+Java Class Modeling Request
+Java Classes Based UML
+UML to Java Conversion
+ERRORINTHISONE
+Java UML Modeling Request
+Java UML Classes Creation
+Java UML Models
+Java UML Models
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ufa94OXPEe6SFuWgEaWS7Q" name="Model">
+  <eAnnotations xmi:id="_Ufa94eXPEe6SFuWgEaWS7Q" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Ufa94uXPEe6SFuWgEaWS7Q" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ufa94-XPEe6SFuWgEaWS7Q" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ufa95OXPEe6SFuWgEaWS7Q" name="Class"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Ufa95eXPEe6SFuWgEaWS7Q" name="Actor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa95uXPEe6SFuWgEaWS7Q" name="Anmelden">
+    <ownedComment xmi:id="_Ufa95-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa96OXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa96eXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa96uXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa96-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa97OXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <include xmi:id="_Ufa97eXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa97uXPEe6SFuWgEaWS7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa97uXPEe6SFuWgEaWS7Q" name="Zugangsberechtigung Ã¼berprÃ¼fen">
+    <ownedComment xmi:id="_Ufa97-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa98OXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa98eXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa98uXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa98-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa99OXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa99eXPEe6SFuWgEaWS7Q" name="Event anlegen">
+    <ownedComment xmi:id="_Ufa99uXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa99-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa9-OXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa9-eXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa9-uXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa9--XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <include xmi:id="_Ufa9_OXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-AeXPEe6SFuWgEaWS7Q"/>
+    <include xmi:id="_Ufa9_eXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-COXPEe6SFuWgEaWS7Q"/>
+    <include xmi:id="_Ufa9_uXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-F-XPEe6SFuWgEaWS7Q"/>
+    <include xmi:id="_Ufa9_-XPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-HuXPEe6SFuWgEaWS7Q"/>
+    <include xmi:id="_Ufa-AOXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-NeXPEe6SFuWgEaWS7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-AeXPEe6SFuWgEaWS7Q" name="Kategorie angeben">
+    <ownedComment xmi:id="_Ufa-AuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-A-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-BOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-BeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-BuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-B-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-COXPEe6SFuWgEaWS7Q" name="Ort ">
+    <ownedComment xmi:id="_Ufa-CeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-CuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-C-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-DOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-DeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-DuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <include xmi:id="_Ufa-D-XPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-EOXPEe6SFuWgEaWS7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-EOXPEe6SFuWgEaWS7Q" name="Anschrift Ã¼berprÃ¼fe">
+    <ownedComment xmi:id="_Ufa-EeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-EuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-E-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-FOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-FeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-FuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-F-XPEe6SFuWgEaWS7Q" name="Uhrzeit">
+    <ownedComment xmi:id="_Ufa-GOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-GeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-GuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-G-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-HOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-HeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-HuXPEe6SFuWgEaWS7Q" name="Anzahl Teilnehmen eingeben">
+    <ownedComment xmi:id="_Ufa-H-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-IOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-IeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-IuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-I-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-JOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <include xmi:id="_Ufa-JeXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-J-XPEe6SFuWgEaWS7Q"/>
+    <include xmi:id="_Ufa-JuXPEe6SFuWgEaWS7Q" name="UseCaseDependency" addition="_Ufa-LuXPEe6SFuWgEaWS7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-J-XPEe6SFuWgEaWS7Q" name="Mindestanzahl an Personen angeben">
+    <ownedComment xmi:id="_Ufa-KOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-KeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-KuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-K-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-LOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-LeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-LuXPEe6SFuWgEaWS7Q" name="HÃ¶chstanzahl an Personen angeben">
+    <ownedComment xmi:id="_Ufa-L-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-MOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-MeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-MuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-M-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-NOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ufa-NeXPEe6SFuWgEaWS7Q" name="Datum angeben">
+    <ownedComment xmi:id="_Ufa-NuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-N-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-OOXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-OeXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-OuXPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_Ufa-O-XPEe6SFuWgEaWS7Q">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ufa-POXPEe6SFuWgEaWS7Q" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Ufa-PeXPEe6SFuWgEaWS7Q" name="ContentKind">
+      <ownedLiteral xmi:id="_Ufa-PuXPEe6SFuWgEaWS7Q" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Ufa-P-XPEe6SFuWgEaWS7Q" name="Empty"/>
+      <ownedLiteral xmi:id="_Ufa-QOXPEe6SFuWgEaWS7Q" name="Simple"/>
+      <ownedLiteral xmi:id="_Ufa-QeXPEe6SFuWgEaWS7Q" name="Mixed"/>
+      <ownedLiteral xmi:id="_Ufa-QuXPEe6SFuWgEaWS7Q" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Ufa-Q-XPEe6SFuWgEaWS7Q" name="FeatureKind">
+      <ownedLiteral xmi:id="_Ufa-ROXPEe6SFuWgEaWS7Q" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Ufa-ReXPEe6SFuWgEaWS7Q" name="Simple"/>
+      <ownedLiteral xmi:id="_Ufa-RuXPEe6SFuWgEaWS7Q" name="Attribute"/>
+      <ownedLiteral xmi:id="_Ufa-R-XPEe6SFuWgEaWS7Q" name="Element"/>
+      <ownedLiteral xmi:id="_Ufa-SOXPEe6SFuWgEaWS7Q" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_Ufa-SeXPEe6SFuWgEaWS7Q" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_Ufa-SuXPEe6SFuWgEaWS7Q" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Ufa-S-XPEe6SFuWgEaWS7Q" name="VisibilityKind">
+      <ownedLiteral xmi:id="_Ufa-TOXPEe6SFuWgEaWS7Q" name="Unspecified"/>
+      <ownedLiteral xmi:id="_Ufa-TeXPEe6SFuWgEaWS7Q" name="None"/>
+      <ownedLiteral xmi:id="_Ufa-TuXPEe6SFuWgEaWS7Q" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_Ufa-T-XPEe6SFuWgEaWS7Q" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_Ufa-UOXPEe6SFuWgEaWS7Q" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_Ufa-UeXPEe6SFuWgEaWS7Q" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Class {
+}
+
+public class Actor {
+}
+
+public class Anmelden {
+}
+
+public class ZugangsberechtigungÜberprüfen {
+}
+
+public class EventAnlegen {
+}
+
+public class KategorieAngeben {
+}
+
+public class Ort {
+}
+
+public class AnschriftÜberprüfen {
+}
+
+public class Uhrzeit {
+}
+
+public class AnzahlTeilnehmenEingeben {
+}
+
+public class MindestanzahlAnPersonenAngeben {
+}
+
+public class HöchstanzahlAnPersonenAngeben {
+}
+
+public class DatumAngeben {
+}
+
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

@@ -1,0 +1,330 @@
+﻿Text Compare
+Produced: 2024-04-05 13:23:44
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1GRAAnnotationModel\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1GRAAnnotationModel\gpt\gptoutput\cleanGPT.java
+package GRAUML.GRAAnnotationModel;                                            <>
+
+
+public enum ExchangePattern {                                                    // ExchangePattern.javapublic enum ExchangePattern
+    Enquiery,
+    Subscription,
+    Notification,
+    Update,
+    Message;
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class InteractionRequirements {                                           // {Enquiery,Subscription,Notification,Update,Message}//
+                                                                                 // InteractionRequirements.javapublic class InteractionRequirements {public
+    public boolean ServiceConsumerAuthentication = true;                         // boolean ServiceConsumerAuthentication = true;public boolean
+
+    public boolean ServiceConsumerAuthorization = true;                          // ServiceConsumerAuthorization = true;public boolean
+
+    public boolean IdentityAndAttributeAssertionTransmission = false;            // IdentityAndAttributeAssertionTransmission;public boolean
+
+    public boolean ServiceAuthentication = false;
+
+    public boolean MessageNonrepudiation = true;                                 // ServiceAuthentication;public boolean MessageNonrepudiation = true;public
+
+    public boolean MessageIntegrity = true;
+
+    public boolean MessageConfidentiality = true;                                // boolean MessageIntegrity = true;public boolean MessageConfidentiality =
+
+    public boolean MessageAddressing = true;                                     // true;public boolean MessageAddressing = true;public boolean Reliability =
+
+    public boolean Reliability = true;
+
+    public boolean TransactionSupport = false;                                   // true;public boolean TransactionSupport;public boolean
+
+    public boolean ServiceMetadataAvailability = true;                           // ServiceMetadataAvailability = true;public boolean
+
+    public boolean InterfaceDescriptionRequirements = true;                      // InterfaceDescriptionRequirements = true;public boolean Logging;public
+                                                                                 // String[] other_requirement;}// GRAServiceAnnotationBase.javapublic abstract
+    public boolean Logging = false;                                              // class GRAServiceAnnotationBase {private InteractionRequirements
+                                                                                 // requirement;public String Name;public String Documentation;public String
+    public String[] other_requirement;                                           // Template;public ModelReference[] ModelReference;public String[] flag;}//
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Participant extends Organization {                                  // Participant.javapublic class Participant extends GRAServiceAnnotationBase
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Interface extends GRAServiceAnnotationBase {                        // {}// Interface.javapublic class Interface extends GRAServiceAnnotationBase
+    private List<Message> message_default = new ArrayList<Message> ();           // {private Message[] message_default;private Operation[] operation;}//
+
+    private List<Operation> operation = new ArrayList<Operation> ();
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Service extends Participant {                                       // Service.javapublic class Service extends Participant {private Operation[]
+                                                                                 // operation_default;private Message[] message_default;private Interface[]
+    private List<Operation> operation_default = new ArrayList<Operation> ();     // interface_default;private Port[] port;}// Operation.javapublic class
+
+    private List<Message> message_default = new ArrayList<Message> ();
+
+    private List<Interface> interface_default = new ArrayList<Interface> ();
+
+    private List<Port> port = new ArrayList<Port> ();
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Operation extends GRAServiceAnnotationBase {                        // Operation extends GRAServiceAnnotationBase {private Message[] message;public
+    private ExchangePattern MessageExchangePattern;                              // ExchangePattern MessageExchangePattern;public boolean isAsyncronous;public
+                                                                                 // String ActionName;public String ActionPurpose;}// Message.javapublic class
+    private List<Message> message = new ArrayList<Message> ();
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Message extends GRAServiceAnnotationBase {                          // Message extends GRAServiceAnnotationBase {public ModelReference type;public
+}                                                                                // MessageUse use;}// Port.javapublic class Port extends
+                                                                                 // GRAServiceAnnotationBase {private Interface interface;private Operation[]
+package GRAUML.GRAAnnotationModel;                                               // operation_default;private Message[] message_default;public String
+                                                                                 // AddressURI;}// ModelReference.javapublic class ModelReference {public Model
+                                                                                 // Model;public String Name;public String Documentation;public String
+                                                                                 // ElementID;public String[] DiagramLink;}// ServiceInteraction.javapublic class
+public class ServiceInteraction extends GRAServiceAnnotationBase {               // ServiceInteraction extends GRAServiceAnnotationBase {public Participant[]
+    public List<Participant> participant = new ArrayList<Participant> ();
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class UseCase extends GRAServiceAnnotationBase {                          // participant;}// UseCase.javapublic class UseCase extends
+    public List<Participant> provider = new ArrayList<Participant> ();           // GRAServiceAnnotationBase {public Participant provider;public Participant
+                                                                                 // consumer;public String RealWorldEffectDescriptionText;}//
+                                                                                 // MessageUse.javapublic enum MessageUse {in,out,inout,exception}//
+                                                                                 // Agreement.javapublic class Agreement {public String
+                                                                                 // AgreementDescriptionText;public String AgreementURI;}// EntityType.javapublic
+                                                                                 // class EntityType {public Choice_1 choice_1;kotlinCopy codepublic class
+                                                                                 // Choice_1 { public Organization Organization; public Person Person;}}//
+                                                                                 // IEPDReference.javapublic class IEPDReference {public String[] IEPDName;public
+                                                                                 // String[] IEPDURL;}// Organization.javapublic class Organization extends
+    public List<Participant> consumer = new ArrayList<Participant> ();           // GRAServiceAnnotationBase {public Person OrganizationPointOfContact;public
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public enum MessageUse {
+    in,
+    out,
+    inout,
+    exception;
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Agreement {
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class EntityType {
+    public choice_1 choice_1;
+
+    public class choice_1 {
+    }
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class IEPDReference {
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Organization extends GRAServiceAnnotationBase {                     // String OrganizationAcronym;public String OrganizationFullAddressText;public
+                                                                                 // String OrganizationWebSiteURL;public String
+    public Person OrganizationPointOfContact;                                    // OrganizationRoleDescriptionText;public String
+                                                                                 // OrganizationRoleDetailedDescriptionText;}// Person.javapublic class Person
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Person extends GRAServiceAnnotationBase {                           // extends GRAServiceAnnotationBase {public String ContactPersonEmailID;public
+}                                                                                // String ContactPersonPhoneNumberID;public String ContactPersonAddress;}//
+                                                                                 // SecurityClassification.javapublic class SecurityClassification {public String
+package GRAUML.GRAAnnotationModel;
+
+
+public class SecurityClassification {                                            // SecurityClassificationText;}// ServiceCapability.javapublic class
+}                                                                                // ServiceCapability {public String CapabilityDescriptionText;}//
+                                                                                 // ServiceDescription.javapublic class ServiceDescription extends
+package GRAUML.GRAAnnotationModel;
+
+
+public class ServiceCapability {
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class ServiceIdentification extends GRAServiceAnnotationBase {            // ServiceIdentification {public ServiceInteraction ServiceInteraction;private
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class ServiceInteractionProfile {                                         // SecurityClassification ServiceSecurityClassification;public UseCase
+}                                                                                // RealWorldEffect;public Participant[] ExchangePartner;public IEPDReference[]
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class ServiceInterfaceSpecification extends GRAServiceAnnotationBase {    // IEPDReference;public ServiceInterfaceSpecification[] ServiceInterface;public
+    private List<Service> provider = new ArrayList<Service> ();
+
+    private List<Operation> operation_default = new ArrayList<Operation> ();
+
+    private List<Message> message_default = new ArrayList<Message> ();
+
+    private List<Port> port_default = new ArrayList<Port> ();
+
+    public ServiceInteractionProfile ServiceInteractionProfile;                  // ServiceCapability[] ServiceCapabilities;public ServiceIdentification
+                                                                                 // ServiceDependency;public Organization[] RelatedOrganization;public
+    private List<Interface> interface_default = new ArrayList<Interface> ();
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class ServiceLevelAgreement {
+    public List<Agreement> ApplicableContract = new ArrayList<Agreement> ();     // ServiceLevelAgreement[] ServiceLevelAgreement;public Description
+                                                                                 // ServiceDescription;public Description ServicePurpose;public Description
+    public List<Agreement> Agreement = new ArrayList<Agreement> ();
+
+    public Agreement LicensingAgreement;
+
+    public List<Agreement> UmbrellaAgreement = new ArrayList<Agreement> ();
+
+    public AmountType UsageCostAmount;
+
+    public AmountType UsageUnitCostAmount;
+
+    public AmountType CreationCostAmount;
+
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class SummaryTextType {
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class Model {
+}
+
+package GRAUML.GRAAnnotationModel;
+
+
+public class AmountType {
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public class WSDLServiceInterface extends ServiceInterfaceSpecification {        // ServiceScopeDescription;public String TransformationURI;public String
+}                                                                                // Classification;public String Sponsors;public SummaryTextType
+
+package GRAUML.GRA_WSDL;
+
+
+public class WSDLService extends Service {
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public class WSDLPort extends Port {
+    public String certificate;                                                   // ServiceDescriptionSummaryText;public String[]
+                                                                                 // ServiceDescriptionKeywordText;public String[] DomainDescription;public
+}                                                                                // String[] Endorsements;public String MajorVersion;public String
+                                                                                 // MinorVersion;public String RevisionVersion;public String CreationDate;public
+package GRAUML.GRA_WSDL;                                                         // String ActivationDate;public String LastRevisionDate;public String
+                                                                                 // NextRevisionDate;public String ExpirationDate;public String
+                                                                                 // LifecycleStatus;public String[] AlertsAndNotifications;}//
+public class WSDLInterface extends Interface {                                   // ServiceIdentification.javapublic class ServiceIdentification extends
+    public BindingType BindingCode = soap_12;                                    // GRAServiceAnnotationBase {public String[] ServiceID;public String[]
+                                                                                 // ServiceURI;public String[] ServiceNameAbbreviationTextContinue
+}                                                                                // generatingMessage ChatGPT…ChatGPT can make mistakes. Consider checking
+                                                                                 // important information.?ChatGPT
+package GRAUML.GRA_WSDL;
+
+
+public class WSDLOperation extends Operation {
+    public OperationKind OperationKindCode = doc;
+
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public class WSDLMessage extends Message {
+    public MessageLocation MessageLocationCode = body;
+
+    public String encoding;
+
+    public String mimeType;
+
+    public String soapAction;
+
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public enum OperationKind {
+    doc,
+    rpc;
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public enum MessageLocation {
+    body,
+    header,
+    url;
+}
+
+package GRAUML.GRA_WSDL;
+
+
+public enum BindingType {
+    soap,
+    soap_12,
+    http_get,
+    http_put;
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------

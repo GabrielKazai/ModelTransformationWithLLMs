@@ -1,0 +1,16 @@
+Table Compare
+Produced: 2024-04-05 12:02:48
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\result2\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\result2\gpt\gptoutput\cleanGPT.java
+1:     2:    3:      4:    1:                                 2: 3: 4:
+----------------------------------------------------------------------
+                        -+ }
+public class boolean {  +-
+                        -+ public boolean enable
+                        -+ public class LoadBalancer {
+                        -+ public int scalabilityThreshold
+                        -+ public String loadBalancerRules
+                        -+ public void enableLoadBalancer() {
+----------------------------------------------------------------------

@@ -1,0 +1,14 @@
+0modelio_enum_no_name_test --> oracle file has no name
+1modelio_enum_no_name_test --> oracle file has no name
+
+9default-uml22 --> oracle file has no name / GPT doesn't generate PrimitiveTypes (from the XMI)
+PrimitiveTypes --> GPT doesn't generate PrimitiveTypes (from the XMI)
+Project --> GPT doesn't generate PrimitiveTypes (from the XMI)
+
+1GRAAnnotationModel --> Too large response, forced to click for GPT to continue generating (button appears in GPT after a certain amount has been generated)
+api --> Too large response, forced to click for GPT to continue generating
+BMMEA --> Too large response, forced to click for GPT to continue generating
+GRAAnnotationModel --> Too large response, forced to click for GPT to continue generating
+
+Model --> Project in Russian, breaks the pipeline by introducing unidentified characters (not UTF8, I think)
+Use%20Cases --> Unable to generate beyond compare report (probably to do with the name)

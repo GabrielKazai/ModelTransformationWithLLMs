@@ -1,0 +1,21 @@
+Table Compare
+Produced: 2024-04-05 14:45:38
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0aSecondIterationTest1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0aSecondIterationTest1\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                           2:    1:                           2:
+--------------------------------------------------------------------------------------------------
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+private Child[] Children                                        +-
+private Family family                                           +-
+                                                                -+ private Family Family
+                                                                -+ private List<Child> Children
+private List<Houses> GabrielRonnie = new ArrayList<Houses>()    +-
+                                                                -+ private List<Houses> Houses
+--------------------------------------------------------------------------------------------------

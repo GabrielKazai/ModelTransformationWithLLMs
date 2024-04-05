@@ -1,0 +1,3 @@
+Use lists instead of arrays
+Capitlize variable names
+3

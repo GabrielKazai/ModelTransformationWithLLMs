@@ -1,0 +1,23 @@
+Text Compare
+Produced: 2024-04-05 14:36:22
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0aSecondIterationTest1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0aSecondIterationTest1\gpt\gptoutput\cleanGPT.java
+                                                                  +-
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+    private List<Houses> GabrielRonnie = new ArrayList<Houses>(); <>     private Houses[] houses;
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+                                                                  +-
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+    private Father Father;                                        <>     private Father father;
+
+    private Mother Mother;                                               private Mother mother;
+
+    private Child[] Children;                                            private Child[] children;
+
+--------------------------------------------------------------------------------------------------

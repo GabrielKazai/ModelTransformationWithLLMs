@@ -1,0 +1,42 @@
+Text Compare
+Produced: 2024-04-05 14:36:22
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0aSecondIterationTest1\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0aSecondIterationTest1\gpt\gptoutput\cleanGPT.java
+                                                                  +-
+--------------------------------------------------------------------------------------------------
+public class City {                                               =  public class City {
+--------------------------------------------------------------------------------------------------
+    private List<Houses> GabrielRonnie = new ArrayList<Houses>(); <>     private Houses[] houses;
+
+--------------------------------------------------------------------------------------------------
+}                                                                 =  }
+
+public class Houses {                                                public class Houses {
+    private Family family;                                               private Family family;
+--------------------------------------------------------------------------------------------------
+                                                                  +-
+--------------------------------------------------------------------------------------------------
+}                                                                 =  }
+
+public class Family {                                                public class Family {
+--------------------------------------------------------------------------------------------------
+    private Father Father;                                        <>     private Father father;
+
+    private Mother Mother;                                               private Mother mother;
+
+    private Child[] Children;                                            private Child[] children;
+
+--------------------------------------------------------------------------------------------------
+}                                                                 =  }
+
+public class Father {                                                public class Father {
+}                                                                    }
+
+public class Mother {                                                public class Mother {
+}                                                                    }
+
+public class Child {                                                 public class Child {
+}                                                                    }
+--------------------------------------------------------------------------------------------------

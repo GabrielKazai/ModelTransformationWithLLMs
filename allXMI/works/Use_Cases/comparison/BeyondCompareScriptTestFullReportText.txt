@@ -1,0 +1,82 @@
+﻿Text Compare
+Produced: 2024-04-06 14:22:23
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Use_Cases\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\Use_Cases\gpt\gptoutput\cleanGPT.java
+                             +-
+----------------------------------------------------------------------------------------------------------------------
+public class Class {         =  public class Class {
+}                               }
+
+----------------------------------------------------------------------------------------------------------------------
+                             -+ public class Actor {
+                                }
+
+                                public class Anmelden {
+                                }
+
+                                public class ZugangsberechtigungÜberprüfen {
+                                }
+
+                                public class EventAnlegen {
+                                }
+
+                                public class KategorieAngeben {
+                                }
+
+                                public class Ort {
+                                }
+
+                                public class AnschriftÜberprüfen {
+                                }
+
+                                public class Uhrzeit {
+                                }
+
+                                public class AnzahlTeilnehmenEingeben {
+                                }
+
+                                public class MindestanzahlAnPersonenAngeben {
+                                }
+
+                                public class HöchstanzahlAnPersonenAngeben {
+                                }
+
+                                public class DatumAngeben {
+                                }
+
+----------------------------------------------------------------------------------------------------------------------
+public enum ContentKind {    =  public enum ContentKind {
+----------------------------------------------------------------------------------------------------------------------
+    Unspecified,             <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+----------------------------------------------------------------------------------------------------------------------
+}                            =  }
+
+public enum FeatureKind {       public enum FeatureKind {
+----------------------------------------------------------------------------------------------------------------------
+    Unspecified,             <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+----------------------------------------------------------------------------------------------------------------------
+}                            =  }
+
+public enum VisibilityKind {    public enum VisibilityKind {
+----------------------------------------------------------------------------------------------------------------------
+    Unspecified,             <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+----------------------------------------------------------------------------------------------------------------------
+}                            =  }
+----------------------------------------------------------------------------------------------------------------------

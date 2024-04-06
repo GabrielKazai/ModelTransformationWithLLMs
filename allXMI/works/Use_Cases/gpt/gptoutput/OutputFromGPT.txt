@@ -7,6 +7,22 @@ Today
 Java Classes from UML
 
 
+Yesterday
+Java UML Mapping
+UML to Java Conversion
+Java Classes from XMI
+Java Code for UML
+Java Code Generation
+Java Code from UML.
+Java Classes for UML
+Java Classes from XMI.
+Java Classes from XMI.
+Java Class Creation
+Java User Class.
+Java Classes for UML.
+Java Classes from XMI
+Java UML to Code
+Java Classes from UML
 Java Class UML Conversion
 Java Code Generation
 Java Class Generation
@@ -19,23 +35,6 @@ Java Class Modeling
 Java Classes from UML
 Java Code from UML
 Java Model: XMI to Code
-Java Code Generation
-Yesterday
-Java Code from XMI.
-AI Assistance Available!
-Java Classes from XMI
-User Request: Title Creation
-Previous 7 Days
-New chat
-Java UML Class Generation
-Java Class Modeling Request
-Java Classes Based UML
-UML to Java Conversion
-ERRORINTHISONE
-Java UML Modeling Request
-Java UML Classes Creation
-Java UML Models
-Java UML Models
 Add Team workspace
 Collaborate on a Team plan
 
@@ -356,35 +355,28 @@ public class DatumAngeben {
 }
 
 public enum ContentKind {
-    Unspecified,
-    Empty,
-    Simple,
-    Mixed,
-    ElementOnly
+    Unspecified, Empty, Simple, Mixed, ElementOnly
 }
 
 public enum FeatureKind {
-    Unspecified,
-    Simple,
-    Attribute,
-    Element,
-    AttributeWildcard,
-    ElementWildcard,
-    Group
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
 }
 
 public enum VisibilityKind {
-    Unspecified,
-    None,
-    ReadOnly,
-    ReadWrite,
-    ReadOnlyUnsettable,
-    ReadWriteUnsettable
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
 }
 // [[STARTEND]]
 
 
 
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
 
 Message ChatGPT…
 

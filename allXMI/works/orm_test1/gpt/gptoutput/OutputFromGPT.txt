@@ -1,0 +1,979 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+Java classes from XMI.
+Java Classes from UML
+Previous 7 Days
+Java Classes from UML
+Java UML Mapping
+UML to Java Conversion
+Java Classes from XMI
+Java Code for UML
+Java Code Generation
+Java Code from UML.
+Java Classes for UML
+Java Classes from XMI.
+Java Classes from XMI.
+Java Class Creation
+Java User Class.
+Java Classes for UML.
+Java Classes from XMI
+Java UML to Code
+Java Classes from UML
+Java Class UML Conversion
+Java Code Generation
+Java Class Generation
+Java Code Generation
+Java Class for LoadBalancer
+Java Classes for UML
+Java Code Generation
+Java Class Contrainte Model
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_fTHe0O3DEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_fTHe0e3DEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_fTHe0u3DEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe0-3DEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe1O3DEe6yiIkslZcBIA" name="mixed"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe1e3DEe6yiIkslZcBIA" name="array"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe1u3DEe6yiIkslZcBIA" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe1-3DEe6yiIkslZcBIA" name="bool"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe2O3DEe6yiIkslZcBIA" name="void"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe2e3DEe6yiIkslZcBIA" name="null"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe2u3DEe6yiIkslZcBIA" name="object"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fTHe2-3DEe6yiIkslZcBIA" name="resource"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fTHe3O3DEe6yiIkslZcBIA" name="Iterator" visibility="package" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fTHe3e3DEe6yiIkslZcBIA" name="Countable" visibility="package" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fTHe3u3DEe6yiIkslZcBIA" name="Exception" visibility="package"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fTHe3-3DEe6yiIkslZcBIA" name="ORM" visibility="package">
+    <ownedAttribute xmi:id="_fTHe4O3DEe6yiIkslZcBIA" name="ERROR_SAVE" visibility="public" isStatic="true" type="_fTHe1u3DEe6yiIkslZcBIA" isReadOnly="true">
+      <defaultValue xmi:type="uml:Expression" xmi:id="_fTHe4e3DEe6yiIkslZcBIA" symbol="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fTHe4u3DEe6yiIkslZcBIA" name="ERROR_VALIDACION" visibility="public" isStatic="true" type="_fTHe1u3DEe6yiIkslZcBIA" isReadOnly="true">
+      <defaultValue xmi:type="uml:Expression" xmi:id="_fTHe4-3DEe6yiIkslZcBIA" symbol="2"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fTHe5O3DEe6yiIkslZcBIA" name="$datos" visibility="public" type="_fTHe1O3DEe6yiIkslZcBIA"/>
+    <ownedOperation xmi:id="_fTHe5e3DEe6yiIkslZcBIA" name="__construct" visibility="public">
+      <ownedParameter xmi:id="_fTHe5u3DEe6yiIkslZcBIA" name="$tabla">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe5-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe6O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe6e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHe6u3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe6-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe7O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe7e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHe7u3DEe6yiIkslZcBIA" name="get_tabla" visibility="public">
+      <ownedParameter xmi:id="_fTHe7-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe8O3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe8e3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe8u3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHe8-3DEe6yiIkslZcBIA" name="check_tabla_existe" visibility="private">
+      <ownedParameter xmi:id="_fTHe9O3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe9e3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe9u3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe9-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHe-O3DEe6yiIkslZcBIA" name="set_tabla" visibility="public">
+      <ownedParameter xmi:id="_fTHe-e3DEe6yiIkslZcBIA" name="$tabla">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe-u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe--3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHe_O3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHe_e3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHe_u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHe_-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfAO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfAe3DEe6yiIkslZcBIA" name="load_campos" visibility="public">
+      <ownedParameter xmi:id="_fTHfAu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfA-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfBO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfBe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfBu3DEe6yiIkslZcBIA" name="get_campo_fk_values" visibility="public">
+      <ownedParameter xmi:id="_fTHfB-3DEe6yiIkslZcBIA" name="$campo" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfCO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfCe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfCu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfC-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfDO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfDe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfDu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfD-3DEe6yiIkslZcBIA" name="get_campos" visibility="public">
+      <ownedParameter xmi:id="_fTHfEO3DEe6yiIkslZcBIA" name="$simple" type="_fTHe1-3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfEe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfEu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfE-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfFO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfFe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfFu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfF-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfGO3DEe6yiIkslZcBIA" name="get" visibility="public">
+      <ownedParameter xmi:id="_fTHfGe3DEe6yiIkslZcBIA" name="$campo" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfGu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfG-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfHO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfHe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfHu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfH-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfIO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfIe3DEe6yiIkslZcBIA" name="set" visibility="public">
+      <ownedParameter xmi:id="_fTHfIu3DEe6yiIkslZcBIA" name="$campo" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfI-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfJO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfJe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfJu3DEe6yiIkslZcBIA" name="$valor" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfJ-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfKO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfKe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfKu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfK-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfLO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfLe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfLu3DEe6yiIkslZcBIA" name="load" visibility="public">
+      <ownedParameter xmi:id="_fTHfL-3DEe6yiIkslZcBIA" name="$condiciones" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfMO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfMe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfMu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfM-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfNO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfNe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfNu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfN-3DEe6yiIkslZcBIA" name="get_fields" visibility="public">
+      <ownedParameter xmi:id="_fTHfOO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfOe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfOu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfO-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfPO3DEe6yiIkslZcBIA" name="set_fields" visibility="public">
+      <ownedParameter xmi:id="_fTHfPe3DEe6yiIkslZcBIA" name="$r" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfPu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfP-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfQO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfQe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfQu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfQ-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfRO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfRe3DEe6yiIkslZcBIA" name="get_empty_fields" visibility="private">
+      <ownedParameter xmi:id="_fTHfRu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfR-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfSO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfSe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfSu3DEe6yiIkslZcBIA" name="setup_fields" visibility="protected">
+      <ownedParameter xmi:id="_fTHfS-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfTO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfTe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfTu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfT-3DEe6yiIkslZcBIA" name="get_campo_id" visibility="public">
+      <ownedParameter xmi:id="_fTHfUO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfUe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfUu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfU-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfVO3DEe6yiIkslZcBIA" name="get_metodo_serializacion" visibility="public">
+      <ownedParameter xmi:id="_fTHfVe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfVu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfV-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfWO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfWe3DEe6yiIkslZcBIA" name="set_metodo_serializacion" visibility="public">
+      <ownedParameter xmi:id="_fTHfWu3DEe6yiIkslZcBIA" name="$val" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfW-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfXO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfXe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfXu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfX-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfYO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfYe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfYu3DEe6yiIkslZcBIA" name="set_campo_id" visibility="public">
+      <ownedParameter xmi:id="_fTHfY-3DEe6yiIkslZcBIA" name="$str" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfZO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfZe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfZu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfZ-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfaO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfae3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfau3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfa-3DEe6yiIkslZcBIA" name="parse_fields" visibility="protected">
+      <ownedParameter xmi:id="_fTHfbO3DEe6yiIkslZcBIA" name="$r" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfbe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfbu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfb-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfcO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfce3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfcu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfc-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fTHfdO3DEe6yiIkslZcBIA" name="ABM" visibility="package">
+    <generalization xmi:id="_fTHfde3DEe6yiIkslZcBIA" general="_fTHe3-3DEe6yiIkslZcBIA"/>
+    <ownedOperation xmi:id="_fTHfdu3DEe6yiIkslZcBIA" name="__construct" visibility="public">
+      <ownedParameter xmi:id="_fTHfd-3DEe6yiIkslZcBIA" name="$tabla" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfeO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfee3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfeu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfe-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHffO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHffe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHffu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHff-3DEe6yiIkslZcBIA" name="add_mensaje" visibility="public">
+      <ownedParameter xmi:id="_fTHfgO3DEe6yiIkslZcBIA" name="$msg" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfge3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfgu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfg-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfhO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfhe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfhu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfh-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfiO3DEe6yiIkslZcBIA" name="get_mensajes" visibility="public">
+      <ownedParameter xmi:id="_fTHfie3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfiu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfi-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfjO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfje3DEe6yiIkslZcBIA" name="get_pagina_actual" visibility="public">
+      <ownedParameter xmi:id="_fTHfju3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfj-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfkO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfke3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfku3DEe6yiIkslZcBIA" name="get_items_por_pagina" visibility="public">
+      <ownedParameter xmi:id="_fTHfk-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHflO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfle3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHflu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfl-3DEe6yiIkslZcBIA" name="set_pagina_actual" visibility="public">
+      <ownedParameter xmi:id="_fTHfmO3DEe6yiIkslZcBIA" name="$val" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfme3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfmu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfm-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfnO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfne3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfnu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfn-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfoO3DEe6yiIkslZcBIA" name="set_items_por_pagina" visibility="public">
+      <ownedParameter xmi:id="_fTHfoe3DEe6yiIkslZcBIA" name="$val" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfou3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfo-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfpO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfpe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfpu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfp-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfqO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfqe3DEe6yiIkslZcBIA" name="save" visibility="public">
+      <ownedParameter xmi:id="_fTHfqu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfq-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfrO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfre3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfru3DEe6yiIkslZcBIA" name="baja" visibility="public">
+      <ownedParameter xmi:id="_fTHfr-3DEe6yiIkslZcBIA" name="$id" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfsO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfse3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfsu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfs-3DEe6yiIkslZcBIA" name="$logica" type="_fTHe1-3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHftO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfte3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHftu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHft-3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfuO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfue3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfuu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfu-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfvO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfve3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfvu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTHfv-3DEe6yiIkslZcBIA" name="reactivar" visibility="public">
+      <ownedParameter xmi:id="_fTHfwO3DEe6yiIkslZcBIA" name="$id" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfwe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfwu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfw-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfxO3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfxe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfxu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfx-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTHfyO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTHfye3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTHfyu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTHfy-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIF4O3DEe6yiIkslZcBIA" name="set_force_insert" visibility="public">
+      <ownedParameter xmi:id="_fTIF4e3DEe6yiIkslZcBIA" name="$val" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF4u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF4-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF5O3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIF5e3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF5u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF5-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF6O3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIF6e3DEe6yiIkslZcBIA" name="set_campo_fecha_vigencia" visibility="public">
+      <ownedParameter xmi:id="_fTIF6u3DEe6yiIkslZcBIA" name="$val" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF6-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF7O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF7e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIF7u3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF7-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF8O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF8e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIF8u3DEe6yiIkslZcBIA" name="get_campo_fecha_vigencia" visibility="public">
+      <ownedParameter xmi:id="_fTIF8-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF9O3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF9e3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF9u3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIF9-3DEe6yiIkslZcBIA" name="tiene_valor_en_campo_id" visibility="public">
+      <ownedParameter xmi:id="_fTIF-O3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF-e3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF-u3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIF--3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIF_O3DEe6yiIkslZcBIA" name="is_new_item" visibility="public">
+      <ownedParameter xmi:id="_fTIF_e3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIF_u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIF_-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGAO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGAe3DEe6yiIkslZcBIA" name="tiene_fecha_vigencia" visibility="public">
+      <ownedParameter xmi:id="_fTIGAu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGA-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGBO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGBe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGBu3DEe6yiIkslZcBIA" name="requiere_nueva_vigencia" visibility="public">
+      <ownedParameter xmi:id="_fTIGB-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGCO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGCe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGCu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGC-3DEe6yiIkslZcBIA" name="validate" visibility="public">
+      <ownedParameter xmi:id="_fTIGDO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGDe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGDu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGD-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGEO3DEe6yiIkslZcBIA" name="get_rotulos_from_field_names" visibility="public">
+      <ownedParameter xmi:id="_fTIGEe3DEe6yiIkslZcBIA" name="$fns" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGEu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGE-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGFO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGFe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGFu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGF-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGGO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGGe3DEe6yiIkslZcBIA" name="load_fields_from_array" visibility="public">
+      <ownedParameter xmi:id="_fTIGGu3DEe6yiIkslZcBIA" name="$arr" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGG-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGHO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGHe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGHu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGH-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGIO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGIe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGIu3DEe6yiIkslZcBIA" name="set_form_buttons" visibility="public">
+      <ownedParameter xmi:id="_fTIGI-3DEe6yiIkslZcBIA" name="$arr" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGJO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGJe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGJu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGJ-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGKO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGKe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGKu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGK-3DEe6yiIkslZcBIA" name="get_form_buttons" visibility="public">
+      <ownedParameter xmi:id="_fTIGLO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGLe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGLu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGL-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGMO3DEe6yiIkslZcBIA" name="add_form_button" visibility="public">
+      <ownedParameter xmi:id="_fTIGMe3DEe6yiIkslZcBIA" name="$button" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGMu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGM-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGNO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGNe3DEe6yiIkslZcBIA" name="$ultimo" type="_fTHe1-3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGNu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGN-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGOO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGOe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGOu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGO-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGPO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGPe3DEe6yiIkslZcBIA" name="set_request_data" visibility="public">
+      <ownedParameter xmi:id="_fTIGPu3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGP-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGQO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGQe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGQu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGQ-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGRO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGRe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGRu3DEe6yiIkslZcBIA" name="get_request_data" visibility="public">
+      <ownedParameter xmi:id="_fTIGR-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGSO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGSe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGSu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGS-3DEe6yiIkslZcBIA" name="render_form" visibility="public">
+      <ownedParameter xmi:id="_fTIGTO3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGTe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGTu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGT-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGUO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGUe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGUu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGU-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGVO3DEe6yiIkslZcBIA" name="render_form_html" visibility="public">
+      <ownedParameter xmi:id="_fTIGVe3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGVu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGV-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGWO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGWe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGWu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGW-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGXO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGXe3DEe6yiIkslZcBIA" name="render_form_json" visibility="public">
+      <ownedParameter xmi:id="_fTIGXu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGX-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGYO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGYe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGYu3DEe6yiIkslZcBIA" name="add_code_to_form" visibility="public">
+      <ownedParameter xmi:id="_fTIGY-3DEe6yiIkslZcBIA" name="$str" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGZO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGZe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGZu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGZ-3DEe6yiIkslZcBIA" name="$arriba" type="_fTHe1-3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGaO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGae3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGau3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGa-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGbO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGbe3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGbu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGb-3DEe6yiIkslZcBIA" name="set_form_columnas" visibility="public">
+      <ownedParameter xmi:id="_fTIGcO3DEe6yiIkslZcBIA" name="$int" type="_fTHe1u3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGce3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGcu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGc-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGdO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGde3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGdu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGd-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGeO3DEe6yiIkslZcBIA" name="set_form_titulo" visibility="public">
+      <ownedParameter xmi:id="_fTIGee3DEe6yiIkslZcBIA" name="$str" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGeu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGe-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGfO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGfe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGfu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGf-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGgO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGge3DEe6yiIkslZcBIA" name="analizar_operacion" visibility="public">
+      <ownedParameter xmi:id="_fTIGgu3DEe6yiIkslZcBIA" name="$data" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGg-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGhO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGhe3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGhu3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGh-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGiO3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGie3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGiu3DEe6yiIkslZcBIA" name="set_operacion" visibility="public">
+      <ownedParameter xmi:id="_fTIGi-3DEe6yiIkslZcBIA" name="$op" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGjO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGje3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGju3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGj-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGkO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGke3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGku3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGk-3DEe6yiIkslZcBIA" name="get_operacion" visibility="public">
+      <ownedParameter xmi:id="_fTIGlO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGle3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGlu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGl-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGmO3DEe6yiIkslZcBIA" name="search" visibility="public">
+      <ownedParameter xmi:id="_fTIGme3DEe6yiIkslZcBIA" name="$criterios" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGmu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGm-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGnO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGne3DEe6yiIkslZcBIA" name="$campos" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGnu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGn-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGoO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGoe3DEe6yiIkslZcBIA" name="$campo_id" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGou3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGo-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGpO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGpe3DEe6yiIkslZcBIA" name="$paginado" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGpu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGp-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGqO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGqe3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGqu3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGq-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGrO3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fTIGre3DEe6yiIkslZcBIA" name="ClassGetter" visibility="package">
+    <ownedOperation xmi:id="_fTIGru3DEe6yiIkslZcBIA" name="get_all" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_fTIGr-3DEe6yiIkslZcBIA" name="$tabla" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGsO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGse3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGsu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGs-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGtO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGte3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGtu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGt-3DEe6yiIkslZcBIA" name="get" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_fTIGuO3DEe6yiIkslZcBIA" name="$tabla" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGue3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGuu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGu-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGvO3DEe6yiIkslZcBIA" name="$criterios" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGve3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGvu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGv-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGwO3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGwe3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGwu3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGw-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fTIGxO3DEe6yiIkslZcBIA" name="Model" visibility="package">
+    <generalization xmi:id="_fTIGxe3DEe6yiIkslZcBIA" general="_fTHe3-3DEe6yiIkslZcBIA"/>
+    <ownedOperation xmi:id="_fTIGxu3DEe6yiIkslZcBIA" name="__construct" visibility="public">
+      <ownedParameter xmi:id="_fTIGx-3DEe6yiIkslZcBIA" name="$tabla" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGyO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGye3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGyu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIGy-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIGzO3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIGze3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIGzu3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIGz-3DEe6yiIkslZcBIA" name="load" visibility="public">
+      <ownedParameter xmi:id="_fTIG0O3DEe6yiIkslZcBIA" name="$id" type="_fTHe1u3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG0e3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG0u3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG0-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIG1O3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG1e3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG1u3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG1-3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIG2O3DEe6yiIkslZcBIA" name="get_data" visibility="public">
+      <ownedParameter xmi:id="_fTIG2e3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG2u3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG2-3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG3O3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIG3e3DEe6yiIkslZcBIA" name="search" visibility="public">
+      <ownedParameter xmi:id="_fTIG3u3DEe6yiIkslZcBIA" name="$criterios" type="_fTHe1O3DEe6yiIkslZcBIA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG3-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG4O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG4e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fTIG4u3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG4-3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG5O3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG5e3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fTIG5u3DEe6yiIkslZcBIA" name="to_json" visibility="public">
+      <ownedParameter xmi:id="_fTIG5-3DEe6yiIkslZcBIA" type="_fTHe2O3DEe6yiIkslZcBIA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTIG6O3DEe6yiIkslZcBIA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTIG6e3DEe6yiIkslZcBIA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fTIG6u3DEe6yiIkslZcBIA" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_fTIG6-3DEe6yiIkslZcBIA" name="default"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_fTIG7O3DEe6yiIkslZcBIA" name="Deployment View">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_fTIG7e3DEe6yiIkslZcBIA" name="orm.class.php" clientDependency="_fTIG7u3DEe6yiIkslZcBIA _fTIG7-3DEe6yiIkslZcBIA _fTIG8O3DEe6yiIkslZcBIA _fTIG8e3DEe6yiIkslZcBIA">
+      <manifestation xmi:id="_fTIG7u3DEe6yiIkslZcBIA" name="source" supplier="_fTHe3-3DEe6yiIkslZcBIA" client="_fTIG7e3DEe6yiIkslZcBIA" utilizedElement="_fTHe3-3DEe6yiIkslZcBIA"/>
+      <manifestation xmi:id="_fTIG7-3DEe6yiIkslZcBIA" name="source" supplier="_fTHfdO3DEe6yiIkslZcBIA" client="_fTIG7e3DEe6yiIkslZcBIA" utilizedElement="_fTHfdO3DEe6yiIkslZcBIA"/>
+      <manifestation xmi:id="_fTIG8O3DEe6yiIkslZcBIA" name="source" supplier="_fTIGre3DEe6yiIkslZcBIA" client="_fTIG7e3DEe6yiIkslZcBIA" utilizedElement="_fTIGre3DEe6yiIkslZcBIA"/>
+      <manifestation xmi:id="_fTIG8e3DEe6yiIkslZcBIA" name="source" supplier="_fTIGxO3DEe6yiIkslZcBIA" client="_fTIG7e3DEe6yiIkslZcBIA" utilizedElement="_fTIGxO3DEe6yiIkslZcBIA"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Iterator {
+}
+
+public class Countable {
+}
+
+class Exception {
+}
+
+class ORM {
+    public static final int ERROR_SAVE = 1;
+    public static final int ERROR_VALIDACION = 2;
+    public mixed $datos;
+
+    public void __construct(String $tabla) {
+    }
+
+    public void get_tabla() {
+    }
+
+    private void check_tabla_existe() {
+    }
+
+    public void set_tabla(String $tabla) {
+    }
+
+    public void load_campos() {
+    }
+
+    public void get_campo_fk_values(mixed $campo) {
+    }
+
+    public void get_campos(bool $simple) {
+    }
+
+    public void get(mixed $campo) {
+    }
+
+    public void set(mixed $campo, mixed $valor) {
+    }
+
+    public void load(mixed $condiciones) {
+    }
+
+    public void get_fields() {
+    }
+
+    public void set_fields(mixed $r) {
+    }
+
+    private void get_empty_fields() {
+    }
+
+    protected void setup_fields() {
+    }
+
+    public void get_campo_id() {
+    }
+
+    public void get_metodo_serializacion() {
+    }
+
+    public void set_metodo_serializacion(mixed $val) {
+    }
+
+    public void set_campo_id(mixed $str) {
+    }
+
+    protected void parse_fields(mixed $r) {
+    }
+}
+
+class ABM extends ORM {
+    public void __construct(mixed $tabla) {
+    }
+
+    public void add_mensaje(mixed $msg) {
+    }
+
+    public void get_mensajes() {
+    }
+
+    public void get_pagina_actual() {
+    }
+
+    public void get_items_por_pagina() {
+    }
+
+    public void set_pagina_actual(mixed $val) {
+    }
+
+    public void set_items_por_pagina(mixed $val) {
+    }
+
+    public void save() {
+    }
+
+    public void baja(mixed $id, bool $logica, mixed $data) {
+    }
+
+    public void reactivar(mixed $id, mixed $data) {
+    }
+
+    public void set_force_insert(mixed $val) {
+    }
+
+    public void set_campo_fecha_vigencia(mixed $val) {
+    }
+
+    public void get_campo_fecha_vigencia() {
+    }
+
+    public void tiene_valor_en_campo_id() {
+    }
+
+    public void is_new_item() {
+    }
+
+    public void tiene_fecha_vigencia() {
+    }
+
+    public void requiere_nueva_vigencia() {
+    }
+
+    public void validate() {
+    }
+
+    public void get_rotulos_from_field_names(mixed $fns) {
+    }
+
+    public void load_fields_from_array(mixed $arr) {
+    }
+
+    public void set_form_buttons(mixed $arr) {
+    }
+
+    public void get_form_buttons() {
+    }
+
+    public void add_form_button(mixed $button, bool $ultimo) {
+    }
+
+    public void set_request_data(mixed $data) {
+    }
+
+    public void get_request_data() {
+    }
+
+    public void render_form(mixed $data) {
+    }
+
+    public void render_form_html(mixed $data) {
+    }
+
+    public void render_form_json() {
+    }
+
+    public void add_code_to_form(mixed $str, bool $arriba) {
+    }
+
+    public void set_form_columnas(int $int) {
+    }
+
+    public void set_form_titulo(mixed $str) {
+    }
+
+    public void analizar_operacion(mixed $data) {
+    }
+
+    public void set_operacion(mixed $op) {
+    }
+
+    public void get_operacion() {
+    }
+
+    public void search(mixed $criterios, mixed $campos, mixed $campo_id, mixed $paginado) {
+    }
+}
+
+class ClassGetter {
+    public static void get_all(mixed $tabla) {
+    }
+
+    public static void get(mixed $tabla, mixed $criterios) {
+    }
+}
+
+class Model extends ORM {
+    public void __construct(mixed $tabla) {
+    }
+
+    public void load(int $id) {
+    }
+
+    public void get_data() {
+    }
+
+    public void search(mixed $criterios) {
+    }
+
+    public void to_json() {
+    }
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
+es. Consider checking important information.
+
+?
+ChatGPT

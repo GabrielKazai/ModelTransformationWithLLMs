@@ -1,31 +1,37 @@
-test_constraint --> Oracle did not execute
 example --> name not found with find
+0otherEntityFieldOM --> oracle did not execute
+test_constraint --> Oracle did not execute
 0user_entity_test --> Oracle did not execute
-Model --> Russian, undefined characters
-0PrimitiveTypes --> unable to generate GPT
 result2 --> did not execute
 NIEM-Reference-common-edxl-cap --> did not execute
-0otherEntityFieldOM --> oracle did not execute
+
+0modelio_user_class_test --> Missing file structure in github
+1fUML_Library --> missing file structure in github
+
+Model --> Russian, undefined characters
+0PrimitiveTypes --> unable to generate GPT
 Use%20Cases --> unable to create beyond compare report
 jrlib --> Took too long for GPT to generate
 api --> too large for GPT
 XSDataFit2Dv1_0 --> unable to generate any oracle code
-0modelio_user_class_test --> Missing file structure in github
-1fUML_Library --> missing file structure in github
 BMMEA --> Took too long for GPT to generate
 1GRAAnnotationModel --> incorrect file structure in github/Too large (forced to press generate again)
 0modelio_no_attribute_name_test --> missing name for a variable
+orm_test1 --> Took too long for GPT to generate
+NIEM-Reference-common-nga - need to press generate
+NIEM-Reference-common-mn_offense - takes too long
+NIEM-Reference-common-atf - takes too long
+example3 --> oracle output broken
 
 ---
 **comments within comparison:**
 XSDDataTypes.library
 NIEM-Reference-external-de
 NIEM-Reference-common-ut_offender-tracking-misc
-NIEM-Reference-common-ucr
-NIEM-Reference-common-sar
-NIEM-Reference-common-nga
+NIEM-Reference-common-ucr - takes too long
+NIEM-Reference-common-sar - takes too long
 NIEM-Reference-common-iso_4217
-NIEM-Reference-common-edxl
+NIEM-Reference-common-edxl 
 bmm
 ---
 

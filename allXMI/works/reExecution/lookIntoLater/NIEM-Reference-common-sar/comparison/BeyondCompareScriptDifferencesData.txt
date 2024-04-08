@@ -1,0 +1,103 @@
+Table Compare
+Produced: 2024-04-08 14:38:58
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-sar\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-sar\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                   4:      5: 6: 7: 8: 9: 10: 11: 12: 13: 14: 15: 16: 17: 18:    1:     2:           3:                   4:         5:         6:                  7:                  8:      9:     10:    11:     12:    13:   14:    15:     16:   17:     18:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            <>        EMRG,        TELCM,               SPCFXN,    LIVSTK,    OTHR,               WATR,               EDU,    COMM,  AGRI,  HAZMAT, CHEM,  CORR, NATRL, CSTL,   PRSN, TACTCP, HLTH,
+       EMRG,                                                                                                <>        GVTBLDG,     MAIL,                RETL,      ENTMT,     CULTR,              TRANS,              NCLR,   MNMT,  POP,   FIN,    DFNSE, DAMS, ENRG,  IT,     MASS, MFG,    UTL
+       TELCM,                                                                                               <>
+       SPCFXN,                                                                                              <>
+       LIVSTK,                                                                                              <>
+       OTHR,                                                                                                <>        FUND,        CYBER,               SPCSSBST,  BIO,       FRAUD,              HATE,               CNTFTG, INFRA, SPCSA, VRUS,   SPCSP, EXPL, CTMN,  INCEND, NCLR, LAUND,  CHEM,
+       WATR,                                                                                                <>        THRTPUB
+       EDU,                                                                                                 <>
+       COMM,                                                                                                <>
+       AGRI,                                                                                                <>        G,           D,                   F,         H,         E,                  A,                  B,      C
+       HAZMAT,                                                                                              <>
+       CHEM,                                                                                                <>
+       CORR,                                                                                                <>        Unspecified, Empty,               Simple,    Mixed,     ElementOnly
+       NATRL,                                                                                               <>
+       CSTL,                                                                                                <>        Unspecified, Simple,              Attribute, Element,   AttributeWildcard,  ElementWildcard,    Group
+       PRSN,                                                                                                <>
+       TACTCP,                                                                                              <>        Unspecified, None,                ReadOnly,  ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+       HLTH,                                                                                                +-
+       GVTBLDG,                                                                                             +-
+       MAIL,                                                                                                +-
+       RETL,                                                                                                +-
+       ENTMT,                                                                                               +-
+       CULTR,                                                                                               +-
+       TRANS,                                                                                               +-
+       NCLR,                                                                                                +-
+       MNMT,                                                                                                +-
+       POP,                                                                                                 +-
+       FIN,                                                                                                 +-
+       DFNSE,                                                                                               +-
+       DAMS,                                                                                                +-
+       ENRG,                                                                                                +-
+       IT,                                                                                                  +-
+       MASS,                                                                                                +-
+       MFG,                                                                                                 +-
+       UTL;                                                                                                 +-
+                                                                                                            +-
+                                                                                                            +-
+       ;                                                                                                    +-
+                                                                                                            +-
+       FUND,                                                                                                +-
+       CYBER,                                                                                               +-
+       SPCSSBST,                                                                                            +-
+       BIO,                                                                                                 +-
+       FRAUD,                                                                                               +-
+       HATE,                                                                                                +-
+       CNTFTG,                                                                                              +-
+       INFRA,                                                                                               +-
+       SPCSA,                                                                                               +-
+       VRUS,                                                                                                +-
+       SPCSP,                                                                                               +-
+       EXPL,                                                                                                +-
+       CTMN,                                                                                                +-
+       INCEND,                                                                                              +-
+       NCLR,                                                                                                +-
+       LAUND,                                                                                               +-
+       CHEM,                                                                                                +-
+       THRTPUB;                                                                                             +-
+                                                                                                            +-
+       ;                                                                                                    +-
+                                                                                                            +-
+       G,                                                                                                   +-
+       D,                                                                                                   +-
+       F,                                                                                                   +-
+       H,                                                                                                   +-
+       E,                                                                                                   +-
+       A,                                                                                                   +-
+       B,                                                                                                   +-
+       C;                                                                                                   +-
+                                                                                                            +-
+       ;                                                                                                    +-
+                                                                                                            +-
+       Unspecified,                                                                                         +-
+       Empty,                                                                                               +-
+       Simple,                                                                                              +-
+       Mixed,                                                                                               +-
+       ElementOnly;                                                                                         +-
+                                                                                                            +-
+       Unspecified,                                                                                         +-
+       Simple,                                                                                              +-
+       Attribute,                                                                                           +-
+       Element,                                                                                             +-
+       AttributeWildcard,                                                                                   +-
+       ElementWildcard,                                                                                     +-
+       Group;                                                                                               +-
+                                                                                                            +-
+       Unspecified,                                                                                         +-
+       None,                                                                                                +-
+       ReadOnly,                                                                                            +-
+       ReadWrite,                                                                                           +-
+       ReadOnlyUnsettable,                                                                                  +-
+       ReadWriteUnsettable;                                                                                 +-
+public enum                 TargetSectorCodeType extends {                                                  <> public enum         TargetSectorCodeType {
+public enum                 TipClassCodeType     extends {                                                  <> public enum         TipClassCodeType     {
+public enum                 TipDomainCodeType    extends {                                                  <> public enum         TipDomainCodeType    {
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

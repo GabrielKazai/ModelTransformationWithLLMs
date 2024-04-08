@@ -1,0 +1,89 @@
+Table Compare
+Produced: 2024-04-08 15:15:53
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                      4:                             5:           6: 7: 8:    1:     2:                               3:                                4:                         5:                       6:                  7:                                   8:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                         <>        Accept,                          OfferUnsolicitedResources,        NotifyAuxiliaryRecipients, Decline,                 Cancel,             ResponseToOfferUnsolicitedResources,
+       Accept,                                                                                           <>        RequestReturn,                   RequisitionResource,              ResponseToRequestResource, ResponseToRequestReturn,
+                                                                                                         <>        ResponseToRequestInformationRFI, ResponseToRequestQuote,           ReleaseResource,           Update,                  RequestResource,    RequestQuote,
+       Offer                Unsolicited             Resources,                                           <>        Acknowledge,                     NotifyResourceRequestDisposition, RequestInformationRFI,     CommitResource,          RequestExtension,
+       Notify               Auxiliary               Recipients,                                          <>        RequestResourceDisposition
+       Decline,                                                                                          <>
+       Cancel,                                                                                           <>
+       Response             to                                                                           <>        Accept,                          OfferUnsolicitedResources,        NotifyAuxiliaryRecipients, Decline,                 Cancel,             ResponseToOfferUnsolicitedResources,
+       Offer                Unsolicited             Resources,                                           <>        RequestReturn,                   RequisitionResource,              ResponseToRequestResource, ResponseToRequestReturn,
+       Request              Return,                                                                      <>        ResponseToRequestInformationRFI, ResponseToRequestQuote,           ReleaseResource,           Update,                  RequestResource,    RequestQuote,
+       Requisition                                                                                       <>        Acknowledge,                     NotifyResourceRequestDisposition, RequestInformationRFI,     CommitResource,          RequestExtension,
+       Resource,                                                                                         <>        RequestResourceDisposition
+       Response             to                                                                           <>
+       Request              Resource,                                                                    <>        Decline,                         Accept
+       Response                                                                                          <>
+       to                   Request                 Return,                                              <>        Decline,                         Accept
+       Response             to                                                                           <>
+                                                                                                         <>        Unspecified,                     Empty,                            Simple,                    Mixed,                   ElementOnly
+       Request              Information             (RFI),                                               <>
+       Response             to                      Request                        Quote,                <>        Unspecified,                     Simple,                           Attribute,                 Element,                 AttributeWildcard,  ElementWildcard,                     Group
+       Release              Resource,                                                                    <>
+       Update,                                                                                           <>        Unspecified,                     None,                             ReadOnly,                  ReadWrite,               ReadOnlyUnsettable, ReadWriteUnsettable
+       Request              Resource,                                                                    +-
+       Request              Quote,                                                                       +-
+       Acknowledge,                                                                                      +-
+       Notify               Resource                Request                        Disposition,          +-
+                                                                                                         +-
+       Request              Information             (RFI),                                               +-
+       Commit               Resource,                                                                    +-
+       Request              Extension,                                                                   +-
+       Request              Resource                Disposition;                                         +-
+                                                                                                         +-
+       public               class                   NamespaceElementPropertyHolder {                     +-
+       }                                                                                                 +-
+                                                                                                         +-
+       ;                                                                                                 +-
+                                                                                                         +-
+       public               enum                    ResponseCodeSimpleType         {                     +-
+       Decline,                                                                                          +-
+       Accept;                                                                                           +-
+       }                                                                                                 +-
+                                                                                                         +-
+       ;                                                                                                 +-
+                                                                                                         +-
+       public               enum                    ContentKind                    {                     +-
+       Unspecified,                                                                                      +-
+       Empty,                                                                                            +-
+       Simple,                                                                                           +-
+       Mixed,                                                                                            +-
+       ElementOnly;                                                                                      +-
+       }                                                                                                 +-
+                                                                                                         +-
+       public               enum                    FeatureKind                    {                     +-
+       Unspecified,                                                                                      +-
+       Simple,                                                                                           +-
+       Attribute,                                                                                        +-
+       Element,                                                                                          +-
+       AttributeWildcard,                                                                                +-
+       ElementWildcard,                                                                                  +-
+       Group;                                                                                            +-
+       }                                                                                                 +-
+                                                                                                         +-
+       public               enum                    VisibilityKind                 {                     +-
+       Unspecified,                                                                                      +-
+       None,                                                                                             +-
+       ReadOnly,                                                                                         +-
+       ReadWrite,                                                                                        +-
+       ReadOnlyUnsettable,                                                                               +-
+       ReadWriteUnsettable;                                                                              +-
+                                                                                                         -+ }
+                                                                                                         -+ }
+                                                                                                         -+ }
+                                                                                                         -+ }
+public enum                 ContentCategoryCodeType extends                        {                     <> public class                            NamespaceElementPropertyHolder    {
+public enum                 ResponseCodeType        extends                        {                     <> public enum                             ContentCategoryCodeType           {
+                                                                                                         -+ public enum                             ResponseCodeSimpleType            {
+                                                                                                         -+ public enum                             ResponseCodeType                  {
+                                                                                                         -+ public enum                             ContentKind                       {
+                                                                                                         -+ public enum                             FeatureKind                       {
+                                                                                                         -+ public enum                             VisibilityKind                    {
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

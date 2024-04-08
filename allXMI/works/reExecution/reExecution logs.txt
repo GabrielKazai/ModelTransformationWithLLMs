@@ -4,18 +4,28 @@ example --> name not found with find
 Model --> Russian, undefined characters
 0PrimitiveTypes --> unable to generate GPT
 result2 --> did not execute
-NIEM-Reference-common-edxl --> did not execute
 NIEM-Reference-common-edxl-cap --> did not execute
-NIEM-Reference-common-iso_4217 --> Took too long for GPT to generate 
 0otherEntityFieldOM --> oracle did not execute
 Use%20Cases --> unable to create beyond compare report
 jrlib --> Took too long for GPT to generate
 api --> too large for GPT
 XSDataFit2Dv1_0 --> unable to generate any oracle code
-XSDataTypes.library --> was missing oracle
 0modelio_user_class_test --> Missing file structure in github
 1fUML_Library --> missing file structure in github
 BMMEA --> Took too long for GPT to generate
 1GRAAnnotationModel --> incorrect file structure in github/Too large (forced to press generate again)
 0modelio_no_attribute_name_test --> missing name for a variable
+
+---
+**comments within comparison:**
+XSDDataTypes.library
+NIEM-Reference-external-de
+NIEM-Reference-common-ut_offender-tracking-misc
+NIEM-Reference-common-ucr
+NIEM-Reference-common-sar
+NIEM-Reference-common-nga
+NIEM-Reference-common-iso_4217
+NIEM-Reference-common-edxl
+bmm
+---
 

@@ -1,1 +1,1 @@
-tthe class Date is missing
+The class Date is missing

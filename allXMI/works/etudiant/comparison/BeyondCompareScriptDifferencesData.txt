@@ -1,0 +1,25 @@
+Table Compare
+Produced: 2024-04-09 09:05:28
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\etudiant\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\etudiant\gpt\gptoutput\cleanGPT.java
+1:                                                       2:    1:                                    2:
+-------------------------------------------------------------------------------------------------------
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+// TODO Auto-generated return                               +-
+                                                            -+ private Etudiant[] etudiants
+private List<Etudiant>  = new ArrayList<Etudiant> ()        +-
+private List<Universite>  = new ArrayList<Universite> ()    +-
+                                                            -+ private Universite universite
+public class void{}                                         +-
+public void reviser(final String matiere) {                 +-
+                                                            -+ public void reviser(String matiere) {
+return null                                                 +-
+-------------------------------------------------------------------------------------------------------

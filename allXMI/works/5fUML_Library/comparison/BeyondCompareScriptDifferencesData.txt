@@ -1,0 +1,62 @@
+Table Compare
+Produced: 2024-04-09 09:38:32
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\5fUML_Library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\5fUML_Library\gpt\gptoutput\cleanGPT.java
+1:                                                                                    2:    1:                                                                              2:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                         +-
+                                                                                         +-
+                                                                                         +-
+// TODO Auto-generated return                                                            +-
+// TODO Auto-generated return                                                            +-
+// TODO Auto-generated return                                                            +-
+// TODO Auto-generated return                                                            +-
+// TODO Auto-generated return                                                            +-
+// TODO Auto-generated return                                                            +-
+                                                                                         -+ }
+                                                                                         -+ }
+                                                                                         -+ }
+                                                                                         -+ public abstract boolean hasMore()
+                                                                                         -+ public abstract boolean isFull()
+                                                                                         -+ public abstract class InputChannel extends Channel {
+                                                                                         -+ public abstract class OutputChannel extends Channel {
+                                                                                         -+ public abstract void peek(Object value, Status errorStatus)
+                                                                                         -+ public abstract void read(Object value, Status errorStatus)
+                                                                                         -+ public abstract void write(Object value, Status errorStatus)
+                                                                                         -+ public boolean readBoolean(Status errorStatus) {
+public Boolean readBoolean(Status errorStatus) {                                         +-
+                                                                                         -+ public class Notification {
+public class unlimitedNatural {                                                          +-
+                                                                                         -+ public class UnlimitedNatural {
+                                                                                         -+ public int readInteger(Status errorStatus) {
+public Integer readInteger(Status errorStatus) {                                         +-
+                                                                                         -+ public Object content
+public unlimitedNatural readUnlimitedNatural(Status errorStatus) {                       +-
+                                                                                         -+ public UnlimitedNatural readUnlimitedNatural(Status errorStatus) {
+public void () {                                                                         +-
+                                                                                         -+ public void notify(Notification notification) {
+public void register(final Listener listener) {                                          +-
+                                                                                         -+ public void register(Listener listener) {
+public void unregister(final Listener listener) {                                        +-
+                                                                                         -+ public void unregister(Listener listener) {
+                                                                                         -+ public void writeBoolean(boolean value, Status errorStatus) {
+public void writeBoolean(final boolean value, Status errorStatus) {                      +-
+public void writeInteger(final int value, Status errorStatus) {                          +-
+                                                                                         -+ public void writeInteger(int value, Status errorStatus) {
+public void writeLine(final String value, Status errorStatus) {                          +-
+                                                                                         -+ public void writeLine(String value, Status errorStatus) {
+public void writeString(final String value, Status errorStatus) {                        +-
+                                                                                         -+ public void writeString(String value, Status errorStatus) {
+public void writeUnlimitedNatural(final unlimitedNatural value, Status errorStatus) {    +-
+                                                                                         -+ public void writeUnlimitedNatural(UnlimitedNatural value, Status errorStatus) {
+                                                                                         -+ return ""
+                                                                                         -+ return ""
+                                                                                         -+ return ""
+                                                                                         -+ return new UnlimitedNatural()
+return null                                                                              +-
+return null                                                                              +-
+return null                                                                              +-
+return null                                                                              +-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

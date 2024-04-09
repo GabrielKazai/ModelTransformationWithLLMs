@@ -1,0 +1,2248 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+img.AutoScale { max-width: 100%; max-height: 100%; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigMod { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigOrphan { color: #000000; background-color: #FAEEFF; }
+td.TextItemNum { color: #696969; background-color: #F0F0F0; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigOrphan { color: #000000; background-color: #F1E3FF; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+td.TextItemInsigAdd { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration: line-through; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br>
+Produced: 2024-04-09 09:20:51<br>
+&nbsp; &nbsp;
+<br>
+Mode:&nbsp; All &nbsp;
+<br>
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\oracle\combinedOracle\cleanOracle.java &nbsp;
+<br>
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\bmm\gpt\gptoutput\cleanGPT.java &nbsp;
+<br>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// BMM_TYPE.javapackage bmm2.core;abstract class BMM_TYPE {abstract BMM_CLASS</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">base_class</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">has_type_substitutions</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// base_class();abstract boolean has</span><span class="TextSegInsigDiff">_type_substitutions();abstract String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_substitutions</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// type_substitutions();String as_disp</span><span class="TextSegInsigDiff">lay_type_string</span><span class="TextSegInsigDiff">();}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">as_display_type_string</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_CLASS.javapackage bmm2.core;class BMM_CLASS extends BMM_CLASSIFIER</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// {public BMM_CLASS ancestors;public BMM_PACKAGE package;public BMM_PROPERTY</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// properties;public String name;public String source_schema_id;public String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">source_schema_id</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// immediate_descendants;public String all_ancestors() {</span><span class="TextSegInsigDiff"> return null</span><span class="TextSegInsigDiff">; }public</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// String all_descendants() { return null; }public String suppliers() { return</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">immediate_descendants</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// null; }public String suppliers_non_primitive() {</span><span class="TextSegInsigDiff"> return</span><span class="TextSegInsigDiff"> null</span><span class="TextSegInsigDiff">; }public String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// supplier_closure() { return null; }}// BMM_PROPERTY.javapackage</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ancestors</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PACKAGE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">package</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_PROPERTY</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">properties</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_PROPERTY</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// bmm2.core;class </span><span class="TextSegInsigDiff">BMM_PROPERTY&lt;T&gt; {public</span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">BMM_TY</span><span class="TextSegInsigDiff">PE type;public String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// name;public boolean is_mandatory;public boolean is_computed;public T</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">all</span><span class="TextSegSigDiff">_ancestors</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// existence() { return null;</span><span class="TextSegInsigDiff"> }public </span><span class="TextSegInsigDiff">String</span><span class="TextSegInsigDiff"> display_name</span><span class="TextSegInsigDiff">() { return null; }}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">all_descendants</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">suppliers</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">suppliers_non_primitive</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">supplier_closure</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_mandatory</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_computed</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MULTIPLICITY_INTERVAL</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">existence</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">display_name</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CONTAINER_TYP</span><span class="TextSegSigDiff">E</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">YPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> BMM_CONTAINER_TYPE.javapackage bmm2.core;class BMM_CONTAINER_TYPE extends</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM</span><span class="TextSegSigDiff">_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">container</span><span class="TextSegSigDiff">_class</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_TYPE {public </span><span class="TextSegInsigDiff">BMM_CLASS container_class;public BMM_TYPE base_type</span><span class="TextSegInsigDiff">;}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">base_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM</span><span class="TextSegSigDiff">_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> BMM_GENERIC_TYPE.javapackage bmm2.core;class BMM_GENERIC_TYPE extends</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameters</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Array</span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_TYPE {public </span><span class="TextSegInsigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> generic_par</span><span class="TextSegInsigDiff">ameters;public </span><span class="TextSegInsigDiff">BMM_GENERIC_CLASS</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// base_class;}// BMM_SIMPLE_TYPE.javapackage bmm2.core;class BMM_SIMPLE_TYPE</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">base_class</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SIMPLE_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">base_class</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// extends BMM_TYPE {public BMM_CLASS base_class;}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SIMPLE_TYPE_OPEN</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM</span><span class="TextSegSigDiff">_TY</span><span class="TextSegSigDiff">PE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> BMM_SIMPLE_TYPE_OPEN.javapackage bmm2.core;class BMM_SIMPLE_TYPE_OPEN extends</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_TYPE {public</span><span class="TextSegInsigDiff"> BMM_GENERIC_PARAMETER type;}// BMM_ENUMERATION.javapackage</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_ENUMERATION</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// bmm2.core;class BMM_ENUMERATION&lt;G&gt; extends BMM_CLASS {}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_ENUMERATION_STRING.javapackage bmm2.core;class BMM_ENUMERATION_STRING</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_ENUMERATION_STRING</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_ENUMERATION</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// extends BMM_ENUMERATION&lt;String&gt; {}//</span><span class="TextSegInsigDiff"> BMM_ENUMERATION_INTEGER.javapackage</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_ENUMERATION_INTEGER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_ENUMERATION</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// bmm2.core;class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION&lt;Integer&gt; {}//</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PACKAGE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PACKAG</span><span class="TextSegSigDiff">E_CONTAINER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> BMM_PACKAGE.javapackage bmm2.core;class BMM_PACKAGE ex</span><span class="TextSegInsigDiff">te</span><span class="TextSegInsigDiff">nds</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// BMM_PACKAGE_CONTAINER {public BMM_CLASS classes;public String name;public</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// BMM_CLASS root_classes() { return null; }public String path() { return null;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_</span><span class="TextSegSigDiff">CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">classes</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_</span><span class="TextSegSigDiff">CL</span><span class="TextSegSigDiff">ASS</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// }}// BMM_GENERIC_PARAMETER.javapackage </span><span class="TextSegInsigDiff">bmm2.core;class</span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">BMM_GENERIC_PARAMETER</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">root_classes</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">path</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">conforms_to_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// extends BMM_CLASSIFIER {public </span><span class="TextSegInsigDiff">BMM_CLASS conforms_to_type;public</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">private</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;</span><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">inheritance_precursor</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// </span><span class="TextSegInsigDiff">BMM_GENERIC_PARAMETER inheritance_precursor;public String name;public String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">flattened_conforms_to_type</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// flattened_conforms</span><span class="TextSegInsigDiff">_to</span><span class="TextSegInsigDiff">_type</span><span class="TextSegInsigDiff">() { return null; }}// BMM_CLASSIFIER.javapackage</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// bmm2.core;abstract class BMM_CLASSIFIER {abstract String</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_category</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">as_conformance_type_string</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// type_category();String a</span><span class="TextSegInsigDiff">s</span><span class="TextSegInsigDiff">_conformance_type_string() { return null; }abstract</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>// <span class="TextSegInsigDiff">TODO</span><span class="TextSegInsigDiff"> A</span><span class="TextSegInsigDiff">u</span><span class="TextSegInsigDiff">to-ge</span><span class="TextSegInsigDiff">n</span><span class="TextSegInsigDiff">er</span><span class="TextSegInsigDiff">ated </span>re<span class="TextSegInsigDiff">turn</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">// <span class="TextSegInsigDiff">String as_type_string();}// MULTIPLICITY_INTERVAL.javapackage</span><span class="TextSegInsigDiff"> bmm2.co</span>re<span class="TextSegInsigDiff">;class</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// MULTIPLICITY_INTERVAL {}// BMM_CONTAINER_PROPERTY.javapackage bmm2.core</span><span class="TextSegInsigDiff">;class</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">as_type_string</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MULTIPLICITY_INTERVAL</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CONTAINER_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> BMM_CONTAINER_PROPERTY&lt;T&gt; extends BMM_PROPERTY&lt;T&gt; {public BMM_CONTAINER_TYPE</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">MULTIPLICITY_INTERVAL</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">cardinality</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// type;public </span><span class="TextSegInsigDiff">MULTIPLICITY_INTERVAL cardinality;public String display_name() {</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// return null; }}// BMM_SCHEMA.javapackage bmm2.core;class BMM_SCHEMA extends</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CONTAINER_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">display_name</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SCHEMA_CORE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">rm_publisher</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">rm_release</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_revision</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_lifecycle_state</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_author</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_description</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_contributors</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">archetype_parent_class</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">archetype_data_value_parent_class</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">archetype_rm_closure_packages</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">archetype_visualise_descendants_of</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">schema_id</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameters</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">uid</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">private</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ancestors</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_abstract</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_override</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">source_schema_id</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">properties</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_GENERIC_PARAMETER</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameter_defs</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_GENERIC_PARAMETER</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_generic</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">false</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_class_definition</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">populate_bmm_class_definition</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_ENUMERATION</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">item_names</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">item_values</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE_CONTAINER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">BMM_SCHEMA_CORE, </span><span class="TextSegInsigDiff">BMM_PACKAGE_CONTAINER {public BMM_CLASS</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_version</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">state</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_schema</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">primitive_types</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class_definitions</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">canonical_packages</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">validate_created</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">load_finalise</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">merge</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">other</span><span class="TextSegSigDiff">)</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">validate</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_schema</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_mandatory</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_computed</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_property_definition</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_im_infrastructure</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Boolean</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">is_im_runtime</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_property_definition</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// class_definitions;public String primitive_types() {</span><span class="TextSegInsigDiff"> return</span><span class="TextSegInsigDiff"> null; }public</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">conforms_to_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_generic_parameter</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_GENERIC_PARAMETER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_generic_parameter_definition</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CLASSIFIER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">abstract</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_type</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">a_schema</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_CLASS</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">a_class_def</span><span class="TextSegSigDiff">);</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_CONTAINER_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">container_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_ref</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SIMPLE_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SIMPLE_TYPE_OPEN</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_GENERIC_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">root_type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameters</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameter_defs</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_TYPE</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">generic_parameter_refs</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE_CONTAINER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegSigDiff">[]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">classes</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">merge</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">other</span><span class="TextSegSigDiff">)</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE_CONTAINER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SINGLE_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SIMPLE_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SINGLE_PROPERTY_OPEN</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SIMPLE_TYPE_OPEN</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SIMPLE_TYPE_OPEN</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// TODO Auto-generated return</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">null</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_GENERIC_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PROPERTY</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_GENERIC_TYPE</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type_def</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_ENUMERATION_INTEGER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_ENUMERATION_STRING</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_PACKAGE_CONTAINER</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">String</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_version</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">state</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">bmm_schema</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">primitive_types</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class_definitions</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_CLASS</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">List</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">canonical_packages</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">new</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ArrayList</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">P_BMM_PACKAGE</span><span class="TextSegSigDiff">&gt;();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">validate_created</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">load_finalise</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">merge</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">P_BMM_SCHEMA</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">other</span><span class="TextSegSigDiff">)</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// String enumeration_types() { return null; }public</span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">BMM_</span><span class="TextSegInsigDiff">CL</span><span class="TextSegInsigDiff">ASS</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">// class_definitionMessage ChatGPT…ChatGPT can make mistakes. Consider checking</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">// important information.?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">validate</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">create_bmm_schema</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">T</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+</table>
+<br>
+</body>
+</html>

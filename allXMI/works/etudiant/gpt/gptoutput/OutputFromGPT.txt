@@ -1,0 +1,142 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+UML to Java translation
+Java Classes from UML.
+Yesterday
+Java Classes from XMI
+Java Classes from XMI
+Java Code from XMI
+Java Class from UML
+Java Model Creation
+Java Classes From XMI
+UML to Java Code
+Java Classes Generation
+Java code from XMI.
+Java Code Generation
+Java Models from XMI
+Java Classes from XMI
+Java Classes from XMI
+Java Classes from XMI.
+Java Code Generation
+Java classes from XMI.
+Java Classes from UML
+Previous 7 Days
+Java Classes from UML
+Java UML Mapping
+UML to Java Conversion
+Java Classes from XMI
+Java Code for UML
+Java Code Generation
+Java Code from UML.
+Java Classes for UML
+Java Classes from XMI.
+Java Classes from XMI.
+Java Class Creation
+Java User Class.
+Java Classes for UML.
+Java Classes from XMI
+Java UML to Code
+Java Classes from UML
+Java Class UML Conversion
+Java Code Generation
+Java Class Generation
+Java Code Generation
+Java Class for LoadBalancer
+Java Classes for UML
+Java Code Generation
+Java Class Contrainte Model
+Java Class Modeling
+Java Classes from UML
+Java Code from UML
+Java Model: XMI to Code
+Java Code Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="__UriMPAFEe6i4a0QcJFHYQ" name="Model">
+  <eAnnotations xmi:id="__UriMfAFEe6i4a0QcJFHYQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="__UriMvAFEe6i4a0QcJFHYQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="__UriM_AFEe6i4a0QcJFHYQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="__UriNPAFEe6i4a0QcJFHYQ" name="bouml">
+    <packagedElement xmi:type="uml:Class" xmi:id="__UriNfAFEe6i4a0QcJFHYQ" name="Etudiant" visibility="package">
+      <generalization xmi:id="__UriNvAFEe6i4a0QcJFHYQ" general="__UriR_AFEe6i4a0QcJFHYQ"/>
+      <ownedAttribute xmi:id="__UriN_AFEe6i4a0QcJFHYQ" visibility="private" type="__UriQ_AFEe6i4a0QcJFHYQ" association="__UriQvAFEe6i4a0QcJFHYQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UriOPAFEe6i4a0QcJFHYQ" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="__UriOfAFEe6i4a0QcJFHYQ" name="reviser" visibility="public">
+        <ownedParameter xmi:id="__UriOvAFEe6i4a0QcJFHYQ" name="matiere">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UriO_AFEe6i4a0QcJFHYQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UriPPAFEe6i4a0QcJFHYQ" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="__UriPfAFEe6i4a0QcJFHYQ" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="__UriPvAFEe6i4a0QcJFHYQ" type="__UriSvAFEe6i4a0QcJFHYQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UriP_AFEe6i4a0QcJFHYQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UriQPAFEe6i4a0QcJFHYQ" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="__UriQfAFEe6i4a0QcJFHYQ" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="__UriQvAFEe6i4a0QcJFHYQ" name="etudier" memberEnd="__UriN_AFEe6i4a0QcJFHYQ __UriRPAFEe6i4a0QcJFHYQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__UriQ_AFEe6i4a0QcJFHYQ" name="Universite" visibility="package">
+      <ownedAttribute xmi:id="__UriRPAFEe6i4a0QcJFHYQ" visibility="private" type="__UriNfAFEe6i4a0QcJFHYQ" association="__UriQvAFEe6i4a0QcJFHYQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UriRfAFEe6i4a0QcJFHYQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="__UriRvAFEe6i4a0QcJFHYQ" name="nomUniversite" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__UriR_AFEe6i4a0QcJFHYQ" name="Personne" visibility="package">
+      <ownedAttribute xmi:id="__UriSPAFEe6i4a0QcJFHYQ" name="nomPersonne" visibility="private"/>
+      <ownedAttribute xmi:id="__UriSfAFEe6i4a0QcJFHYQ" name="prenomPersonne" visibility="private"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__UriSvAFEe6i4a0QcJFHYQ" name="void"/>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+class Personne {
+    private String nomPersonne;
+    private String prenomPersonne;
+}
+
+class Universite {
+    private Etudiant[] etudiants;
+    private String nomUniversite;
+}
+
+class Etudiant extends Personne {
+    private Universite universite;
+    
+    public void reviser(String matiere) {
+    }
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

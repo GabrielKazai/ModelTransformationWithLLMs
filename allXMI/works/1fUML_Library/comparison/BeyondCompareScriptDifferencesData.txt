@@ -1,0 +1,72 @@
+Table Compare
+Produced: 2024-04-09 09:53:58
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1fUML_Library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\1fUML_Library\gpt\gptoutput\cleanGPT.java
+1:                                                2:    1:                                                                              2:
+------------------------------------------------------------------------------------------------------------------------------------------
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ }
+                                                     -+ public abstract boolean hasMore()
+                                                     -+ public abstract boolean isFull()
+                                                     -+ public abstract class InputChannel extends Channel {
+                                                     -+ public abstract class OutputChannel extends Channel {
+                                                     -+ public abstract class TextInputChannel extends InputChannel {
+                                                     -+ public abstract class TextOutputChannel extends OutputChannel {
+                                                     -+ public abstract void peek(Object value, Status errorStatus)
+                                                     -+ public abstract void read(Object value, Status errorStatus)
+                                                     -+ public abstract void write(Object value, Status errorStatus)
+                                                     -+ public abstract void writeNewLine(Status errorStatus)
+                                                     -+ public boolean readBoolean(Status errorStatus) {
+public class unlimitedNatural {                      +-
+                                                     -+ public int readInteger(Status errorStatus) {
+                                                     -+ public String peekCharacter(Status errorStatus) {
+                                                     -+ public String readCharacter(Status errorStatus) {
+                                                     -+ public String readLine(Status errorStatus) {
+                                                     -+ public UnlimitedNatural readUnlimitedNatural(Status errorStatus) {
+public void Notification() {                         +-
+                                                     -+ public void Notification(Notification content) {
+                                                     -+ public void readReal(Object value, Status errorStatus) {
+public void register(final Listener listener) {      +-
+                                                     -+ public void register(Listener listener) {
+public void unregister(final Listener listener) {    +-
+                                                     -+ public void unregister(Listener listener) {
+                                                     -+ public void writeBoolean(boolean value, Status errorStatus) {
+                                                     -+ public void writeInteger(int value, Status errorStatus) {
+                                                     -+ public void writeLine(String value, Status errorStatus) {
+                                                     -+ public void writeReal(Object value, Status errorStatus) {
+                                                     -+ public void writeString(String value, Status errorStatus) {
+                                                     -+ public void writeUnlimitedNatural(UnlimitedNatural value, Status errorStatus) {
+                                                     -+ return 0
+                                                     -+ return false
+                                                     -+ return null
+                                                     -+ return null
+                                                     -+ return null
+                                                     -+ return null
+------------------------------------------------------------------------------------------------------------------------------------------

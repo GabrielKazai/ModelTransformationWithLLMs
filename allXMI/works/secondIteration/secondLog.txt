@@ -1,0 +1,28 @@
+0fUML_Library --> either primitive type (unlimitedNatural, if so null is fine), otherwise integer and if so GPT is correct'
+unlimitedNatural --> number. Int is the most logical way of looking at an "unlimitedNatural". XMI says unlimitedNatural --x
+
+0mappedby_test --> if there is something to many relation, define as list ---x
+
+0modelio --> PrimitiveType dateTime is used, but not defined by GPT---x  dateTime is not defined by default in Java
+
+0modelio_lowercased_string_type --> PrimitiveType ---x
+
+0modelio_no_validation_name_test --> PrimitiveType ---x
+
+0modelio_wrong_typename --> PrimitiveType ---x
+
+0user_entity_test --> if there is something to many relation, define as list ---x
+
+1modelio --> PrimitiveType --x
+
+
+1modelio_lowercased_string_type --> PrimitiveType -- PrimitiveType was not used
+1modelio_wrong_typename --> PrimitiveType
+
+
+FilRougeUML --> public/private, isReadOnly=true, indicates private, but visibility is public --x do we care? get/set, final
+extends class is wrong ---x (generalization) 
+
+
+java_sdkexample --> all the classes are already defined
+

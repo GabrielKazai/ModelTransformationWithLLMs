@@ -1,2 +1,1 @@
-the variable id has the wrong type
-the variable note has the wrong type
+The class NotifcationInvitiationProject should not have an extends

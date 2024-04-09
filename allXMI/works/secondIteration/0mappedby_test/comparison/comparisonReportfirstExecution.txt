@@ -1,5 +1,1 @@
-The variable jobAssigne has the wrong type
-The variable jobAFire has the wrong type
-The variable faaOne has the wrong type
-The variable faaTwo has the wrong type
-
+"One to many" relationships should be infered as a list

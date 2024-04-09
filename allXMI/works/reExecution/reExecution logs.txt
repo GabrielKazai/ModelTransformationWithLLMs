@@ -16,7 +16,7 @@ Model --> Russian, undefined characters
 Use%20Cases --> unable to create beyond compare report
 
 PrimitiveTypes -------------------------------------------------------
-0PrimitiveTypes --> PrimitiveTypes
+0PrimitiveTypes --> PrimitiveTypes (if theyre used, they should be generated, if not, we dont care)
 
 Too large -------------------------------------------------------
 jrlib --> Took too long for GPT to generate

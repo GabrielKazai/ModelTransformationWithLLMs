@@ -1,1 +1,1 @@
-the ArrayList user is missing.
+"One to many" relationships should be infered as a list

@@ -1,0 +1,62 @@
+Table Compare
+Produced: 2024-04-11 14:29:06
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\DemoUnityMas\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\DemoUnityMas\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                    4:                5: 6: 7: 8:    1:     2:           3:                    4:                5:         6:                  7:                  8:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                <>        void         SubOperation();
+       void                 SubOperation();                                     <>
+                                                                                <>        void         graspObject();
+       void                 graspObject();                                      <>
+                                                                                <>        void         TestOperation();
+       void                 TestOperation();                                    <>
+                                                                                <>        public       void                  gotoDestination() {
+                                                                                <>        }
+       public               void                  gotoDestination() {           <>
+       }                                                                        <>        public       void                  graspObject()     {
+                                                                                <>        }
+       public               void                  graspObject()     {           <>
+       }                                                                        <>        public       void                  SubOperation()    {
+                                                                                <>        }
+       public               void                  SubOperation()    {           <>
+       }                                                                        <>        public       void                  TestOperation()   {
+                                                                                <>        }
+       public               void                  TestOperation()   {           <>
+       }                                                                        <>        public       void                  ChangeColor()     {
+                                                                                <>        }
+       public               void                  ChangeColor()     {           <>        Unspecified, Empty,                Simple,           Mixed,     ElementOnly
+       }                                                                        <>
+                                                                                <>        Unspecified, Simple,               Attribute,        Element,   AttributeWildcard,  ElementWildcard,    Group
+                                                                                <>        Unspecified, None,                 ReadOnly,         ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                                                +-
+       Unspecified,                                                             +-
+       Empty,                                                                   +-
+       Simple,                                                                  +-
+       Mixed,                                                                   +-
+       ElementOnly;                                                             +-
+                                                                                +-
+       Unspecified,                                                             +-
+       Simple,                                                                  +-
+       Attribute,                                                               +-
+       Element,                                                                 +-
+       AttributeWildcard,                                                       +-
+       ElementWildcard,                                                         +-
+       Group;                                                                   +-
+                                                                                +-
+       Unspecified,                                                             +-
+       None,                                                                    +-
+       ReadOnly,                                                                +-
+       ReadWrite,                                                               +-
+       ReadOnlyUnsettable,                                                      +-
+       ReadWriteUnsettable;                                                     +-
+}                                                                               +-
+}                                                                               +-
+public class                TechnicienMaintenance {                             <> public class        TechnicienMaintenance implements        Worker     {
+public class                entity                {                             <> public enum         ContentKind           {
+public class                Agent                 {                             <> public enum         FeatureKind           {
+public enum                 ContentKind           {                             <> public enum         VisibilityKind        {
+public enum                 FeatureKind           {                             +-
+public enum                 VisibilityKind        {                             +-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

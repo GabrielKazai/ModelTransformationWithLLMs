@@ -23,10 +23,11 @@ jrlib --> Took too long for GPT to generate
 api --> too large for GPT
 BMMEA --> Took too long for GPT to generate
 1GRAAnnotationModel --> incorrect file structure in github/Too large (forced to press generate again)
-orm_test1 --> Took too long for GPT to generate
+orm_test1 --> Took too long for GPT to generate/Lack of interface
 NIEM-Reference-common-nga - need to press generate
 NIEM-Reference-common-mn_offense - takes too long
 NIEM-Reference-common-atf - takes too long
+NIEM-Reference-common-sar --> lack of interfaces/takes too long
 
 Interfaces (bug in code), missing variable names -------------------------------------------------------
 0modelio_no_attribute_name_test --> missing variable name, [[GabrielRonnie]] added
@@ -35,6 +36,10 @@ etudiant --> (lack of interfaces), missing variable names, [[GabrielRonnie]] add
 16test --> oracle output broken (https://i.imgur.com/3NYv3K5.png) (lack of interfaces)
 5fUML_Library --> missing class name, [[GabrielRonnie]] added
 4fUML_Library --> missing class name, [[GabrielRonnie]] added
+xmlParsingTest --> missing class/variable name, [[GabrielRonnie]] added
+uptypes_1.2--> lack of interfaces
+NIEM-Reference-common-have-codes --> lack of interfaces
+DemoUnityMas --> lack of inferfaces
 
 ---
 **comments within comparison:**
@@ -52,4 +57,6 @@ ClockTower --> missing variable names, [[GabrielRonnie]] added
 1fUML_Library
 0otherEntityFieldMM
 ---
+
+
 

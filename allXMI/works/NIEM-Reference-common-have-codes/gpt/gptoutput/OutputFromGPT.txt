@@ -4,37 +4,36 @@ ChatGPT
 
 Explore GPTs
 Today
-Java Classes From XMI
+Java Code Generation
 
 
+Java Classes from XMI
+Java Classes from XMI
+Java ORM y ABM
 Generate Java Classes
-Java Enums from XMI
-Java Class Generation
-Java Class Generation
-Java XMI to Code
-UML to Java Conversion
-Java Classes UML Model
+Java UML Conversion
+Java Class UML Conversion
+Java Class Model Response
 Yesterday
-Java Classes from XMI
-Java Code Generation
-Java Classes for UML
-UML to Java
-Java Classes from XMI
-Java Class Generation
-Java Class Contrainte
-Java Classes from XMI
-Java Class Generation
-Java Classes from XMI
-UML to Java Conversion
-Java UML to Code
-Java UML Model Classes
+Increments of 6 up.
+Java Models from XMI
+Input Text Issue Fixed
 Previous 7 Days
-Java Class Creation
-Java Code from XMI
+Java Classes: UML to Code
 Java Code Generation
-Generate Java Classes: UML to Code
-Java Class Modelling
-Generate Java Classes
+Java Class Generation
+Java Class Generation
+Java Model from UML
+Java Code Generation
+Java Classes from XMI
+Java Class UML Translation
+UML a Java codificar
+Java Code from XMI
+Java Classes for UML
+Java Code for UML
+Java Class Model
+Java Code Generation
+UML to Java translation
 Add Team workspace
 Collaborate on a Team plan
 
@@ -196,117 +195,198 @@ java
 Copy code
 // [[STARTEND]]
 public enum AvailabilityStatusCodeSimpleType {
-    Adequate, Insufficient
-}
-
-public enum AvailabilityStatusCodeType {
-    Adequate, Insufficient
-}
-
-public enum BedCategoryCodeSimpleType {
-    MedicalSurgical, AdultICU, PediatricICU, Pediatrics, Psychiatric, Burn, OtherIsolation, OperatingRooms, NegativeFlowIsolation
-}
-
-public enum BedCategoryCodeType {
-    MedicalSurgical, AdultICU, PediatricICU, Pediatrics, Psychiatric, Burn, OtherIsolation, OperatingRooms, NegativeFlowIsolation
-}
-
-public enum CapacityStatusCodeSimpleType {
-    VacantAvailable, NotAvailable
-}
-
-public enum CapacityStatusCodeType {
-    VacantAvailable, NotAvailable
-}
-
-public enum ClinicalStatusCodeSimpleType {
-    Level1, Full, Normal, Level2
-}
-
-public enum ClinicalStatusCodeType {
-    Level1, Full, Normal, Level2
-}
-
-public enum DeconCapacityCodeSimpleType {
-    Full, Open, Exceeded, Inactive
-}
-
-public enum DeconCapacityCodeType {
-    Full, Open, Exceeded, Inactive
-}
-
-public enum EMSOffloadStatusCodeSimpleType {
-    Delayed, Normal
-}
-
-public enum EMSOffloadStatusCodeType {
-    Delayed, Normal
-}
-
-public enum EMSTrafficStatusCodeSimpleType {
-    NotApplicable, Closed, Normal, Advisory
-}
-
-public enum EMSTrafficStatusCodeType {
-    NotApplicable, Closed, Normal, Advisory
-}
-
-public enum EOCPlanCodeSimpleType {
-    Inactive, Active
-}
-
-public enum EOCPlanCodeType {
-    Inactive, Active
-}
-
-public enum EOCStatusCodeSimpleType {
-    Inactive, Active
-}
-
-public enum EOCStatusCodeType {
-    Inactive, Active
-}
-
-public enum FacilityStatusCodeSimpleType {
-    Compromised, Closed, Normal, Evacuating
-}
-
-public enum FacilityStatusCodeType {
-    Compromised, Closed, Normal, Evacuating
-}
-
-public enum MorgueCapacityCodeSimpleType {
-    Full, Exceeded, Open
-}
-
-public enum MorgueCapacityCodeType {
-    Full, Exceeded, Open
-}
-
-public enum SecurityStatusCodeSimpleType {
-    Quarantine, RestrictedAccess, Elevated, Normal, Lockdown
-}
-
-public enum SecurityStatusCodeType {
-    Quarantine, RestrictedAccess, Elevated, Normal, Lockdown
-}
-
-public enum ContentKind {
-    Unspecified, Empty, Simple, Mixed, ElementOnly
-}
-
-public enum FeatureKind {
-    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
-}
-
-public enum VisibilityKind {
-    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+    Adequate,
+    Insufficient
 }
 
 public class NamespaceElementPropertyHolder {
 }
+
+public enum AvailabilityStatusCodeType {
+    Adequate,
+    Insufficient
+}
+
+public enum BedCategoryCodeSimpleType {
+    MedicalSurgical,
+    AdultICU,
+    PediatricICU,
+    Pediatrics,
+    Psychiatric,
+    Burn,
+    OtherIsolation,
+    OperatingRooms,
+    NegativeFlowIsolation
+}
+
+public enum BedCategoryCodeType {
+    MedicalSurgical,
+    AdultICU,
+    PediatricICU,
+    Pediatrics,
+    Psychiatric,
+    Burn,
+    OtherIsolation,
+    OperatingRooms,
+    NegativeFlowIsolation
+}
+
+public enum CapacityStatusCodeSimpleType {
+    VacantAvailable,
+    NotAvailable
+}
+
+public enum CapacityStatusCodeType {
+    VacantAvailable,
+    NotAvailable
+}
+
+public enum ClinicalStatusCodeSimpleType {
+    Level1,
+    Full,
+    Normal,
+    Level2
+}
+
+public enum ClinicalStatusCodeType {
+    Level1,
+    Full,
+    Normal,
+    Level2
+}
+
+public enum DeconCapacityCodeSimpleType {
+    Full,
+    Open,
+    Exceeded,
+    Inactive
+}
+
+public enum DeconCapacityCodeType {
+    Full,
+    Open,
+    Exceeded,
+    Inactive
+}
+
+public enum EMSOffloadStatusCodeSimpleType {
+    Delayed,
+    Normal
+}
+
+public enum EMSOffloadStatusCodeType {
+    Delayed,
+    Normal
+}
+
+public enum EMSTrafficStatusCodeSimpleType {
+    NotApplicable,
+    Closed,
+    Normal,
+    Advisory
+}
+
+public enum EMSTrafficStatusCodeType {
+    NotApplicable,
+    Closed,
+    Normal,
+    Advisory
+}
+
+public enum EOCPlanCodeSimpleType {
+    Inactive,
+    Active
+}
+
+public enum EOCPlanCodeType {
+    Inactive,
+    Active
+}
+
+public enum EOCStatusCodeSimpleType {
+    Inactive,
+    Active
+}
+
+public enum EOCStatusCodeType {
+    Inactive,
+    Active
+}
+
+public enum FacilityStatusCodeSimpleType {
+    Compromised,
+    Closed,
+    Normal,
+    Evacuating
+}
+
+public enum FacilityStatusCodeType {
+    Compromised,
+    Closed,
+    Normal,
+    Evacuating
+}
+
+public enum MorgueCapacityCodeSimpleType {
+    Full,
+    Exceeded,
+    Open
+}
+
+public enum MorgueCapacityCodeType {
+    Full,
+    Exceeded,
+    Open
+}
+
+public enum SecurityStatusCodeSimpleType {
+    Quarantine,
+    RestrictedAccess,
+    Elevated,
+    Normal,
+    Lockdown
+}
+
+public enum SecurityStatusCodeType {
+    Quarantine,
+    RestrictedAccess,
+    Elevated,
+    Normal,
+    Lockdown
+}
+
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable
+}
 // [[STARTEND]]
 
+
+
+
+Is this conversation helpful so far?
 
 
 

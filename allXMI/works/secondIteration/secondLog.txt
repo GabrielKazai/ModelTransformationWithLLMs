@@ -1,7 +1,7 @@
 0fUML_Library --> either primitive type (unlimitedNatural, if so null is fine), otherwise integer and if so GPT is correct'
 unlimitedNatural --> number. Int is the most logical way of looking at an "unlimitedNatural". XMI says unlimitedNatural --x
 
-0mappedby_test --> if there is something to many relation, define as list ---x
+0mappedby_test --> if there is something to many relation, define as list ---x, ambigious
 
 0modelio --> PrimitiveType dateTime is used, but not defined by GPT---x  dateTime is not defined by default in Java
 

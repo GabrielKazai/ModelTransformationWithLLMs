@@ -2,6 +2,9 @@ public enum AvailabilityStatusCodeSimpleType {
     Adequate, Insufficient
 }
 
+public class NamespaceElementPropertyHolder {
+}
+
 public enum AvailabilityStatusCodeType {
     Adequate, Insufficient
 }
@@ -106,7 +109,4 @@ public enum FeatureKind {
 
 public enum VisibilityKind {
     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
-}
-
-public class NamespaceElementPropertyHolder {
 }

@@ -1,5 +1,5 @@
 Text Compare
-Produced: 2024-03-29 17:12:14
+Produced: 2024-04-11 14:21:27
 
 Mode:  Differences
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-have-codes\oracle\combinedOracle\cleanOracle.java
@@ -140,9 +140,8 @@ public enum SecurityStatusCodeType extends {     <> public enum SecurityStatusCo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
     Unspecified,                                 <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
-                                                    }
     None,
-    ReadOnly,                                       public class NamespaceElementPropertyHolder {
+    ReadOnly,
     ReadWrite,
     ReadOnlyUnsettable,
     ReadWriteUnsettable;

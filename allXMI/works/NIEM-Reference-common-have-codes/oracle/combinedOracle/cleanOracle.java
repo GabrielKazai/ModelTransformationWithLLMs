@@ -4,6 +4,9 @@ public enum AvailabilityStatusCodeSimpleType {
     Insufficient;
 }
 
+public class NamespaceElementPropertyHolder {
+}
+
 public enum AvailabilityStatusCodeType extends {
     ;
 }

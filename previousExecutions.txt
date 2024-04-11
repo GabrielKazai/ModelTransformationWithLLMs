@@ -161,3 +161,16 @@ bmm
 2fUML_Library 
 1fUML_Library 
 0otherEntityFieldMM 
+xmlParsingTest 
+xmlParsingTest 
+utptypes_1.2 
+orm_test1 
+orm_test1 
+0modelio_no_attribute_test 
+NIEM-Reference-common-have-codes 
+DemoUnityMas 
+NIEM-Reference-common-sar 
+NIEM-Reference-common-sar 
+NIEM-Reference-common-sar 
+NIEM-Reference-common-sar 
+bmm 

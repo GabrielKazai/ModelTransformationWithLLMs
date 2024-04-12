@@ -1,4 +1,4 @@
-The name of the relation cardinality was not translated correctly for the variable jobAssigne.
-The name of the relation cardinality was not translated correctly for the variable jobAFaire.
-The name of the relation cardinality was not translated correctly for the variable faaOne.
-The name of the relation cardinality was not translated correctly for the variable faaTwo.
+The relation cardinality was not translated correctly for the attribute jobAssigne.
+The relation cardinality was not translated correctly for the attribute jobAFaire.
+The relation cardinality was not translated correctly for the attribute faaOne.
+The relation cardinality was not translated correctly for the attribute faaTwo.

@@ -1,0 +1,6 @@
+The return type for readCharacter is wrong.
+The return type for peekCharacter is wrong.
+The return type for readLine is wrong.
+The return type for readInteger is wrong.
+The return type for readBoolean is wrong.
+The return type for readUnlimitedNatural is wrong.

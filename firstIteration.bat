@@ -17,17 +17,23 @@ for %%a in ("%url%") do (
 echo URL path: "%urlPath%"
 echo URL name: "%urlName%"
 
-find /c "%urlName%" previousExecutions.txt >NUL
-    if %errorlevel% equ 0 (
-        echo found 
-		goto :eof
-		) else (
-        echo %urlName% is not within previousExecutions
-		goto :Foo
-		)
+for /F "tokens=*" %%B in (previousExecutions.txt) do (
+	set "LineValue=%%B"
+	echo %%B was found
+
+	if "!LineValue!"=="%urlName%" (
+		echo found a match
+		echo !LineValue! is linevalue when match is found
+		goto :End
+	)
+	echo !LineValue! is linevalue when match is not found
+)
+
+echo %urlName% is not within previousExecutions 
+goto :Foo
+
 
 :Foo
-
 if not %iter%==ALL (
 	if !counter! == %iter% goto :End
 

@@ -1,0 +1,5 @@
+The enum CaseDispositionDecisionCategoryCodeType is missing constants from CaseDispositionDecisionCategoryCodeSimpleType.
+The enum MilitaryDischargeCategoryCodeType is missing constants from MilitaryDischargeCategoryCodeSimpleType.
+The enum PleaCategoryCodeType is missing constants from PleaCategoryCodeSimpleType.
+The enum SupervisionLevelCodeTypeis missing constants from SupervisionLevelCodeSimpleType.
+The enum SupervisionRestrictionCodeType is missing constants from SupervisionRestrictionCodeSimpleType.

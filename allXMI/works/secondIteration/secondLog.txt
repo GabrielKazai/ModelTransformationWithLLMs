@@ -27,6 +27,17 @@ extends class is wrong ---x (generalization)
 java_sdkexample --> all the classes are already defined
 
 **error templates**:
-The name of the relation cardinality was not translated correctly for the variable X.
+The relation cardinality was not translated correctly for the attribute X.
+The relation cardinality was not translated correctly for return value of function X.
 The class X is missing.
 The class X should not have an extends.
+The enum X can not extend another enum.
+The enum X is missing constants from Y.
+The class X is missing a constructor.
+The class X is missing an attribute.
+The variable X has the wrong type.
+The variable X has the wrong accessor. 
+The function X is missing a parameter.
+The function X has the wrong return type.
+The class X is missing several attributes.
+

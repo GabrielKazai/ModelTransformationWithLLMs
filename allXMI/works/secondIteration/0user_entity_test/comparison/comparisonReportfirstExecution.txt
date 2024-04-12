@@ -1,1 +1,1 @@
-"One to many" relationships should be infered as a list
+The name of the relation cardinality was not translated correctly for the variable user.

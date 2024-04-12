@@ -26,3 +26,7 @@ extends class is wrong ---x (generalization)
 
 java_sdkexample --> all the classes are already defined
 
+**error templates**:
+The name of the relation cardinality was not translated correctly for the variable X.
+The class X is missing.
+The class X should not have an extends.

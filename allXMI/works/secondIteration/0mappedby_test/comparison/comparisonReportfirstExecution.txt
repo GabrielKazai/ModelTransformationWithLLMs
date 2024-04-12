@@ -1,1 +1,4 @@
-"One to many" relationships should be infered as a list
+The name of the relation cardinality was not translated correctly for the variable jobAssigne.
+The name of the relation cardinality was not translated correctly for the variable jobAFaire.
+The name of the relation cardinality was not translated correctly for the variable faaOne.
+The name of the relation cardinality was not translated correctly for the variable faaTwo.

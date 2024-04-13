@@ -4,9 +4,10 @@ ChatGPT
 
 Explore GPTs
 Today
+UML Java Code Creation
+
+
 Java Classes from XMI
-
-
 Java UML Model Creation
 UML Java classes translation
 Java Models UML Translation
@@ -35,7 +36,6 @@ Java UML Class Conversion
 Java Code Generation
 Java Classes from XMI
 Java Classes from XMI
-Java ORM y ABM
 Add Team workspace
 Collaborate on a Team plan
 
@@ -90,31 +90,34 @@ The following is an XMI file based on a UML diagram. Please write corresponding 
 ChatGPT
 [[STARTEND]]
 
-// City.java
+// File: City.java
 public class City {
 private Houses[] houses;
 }
 
-// Houses.java
+// File: Houses.java
 public class Houses {
 private Family family;
 }
 
-// Family.java
+// File: Family.java
 public class Family {
 private Father father;
 private Mother mother;
 private Child[] children;
 }
 
-// Father.java
-public class Father {}
+// File: Father.java
+public class Father {
+}
 
-// Mother.java
-public class Mother {}
+// File: Mother.java
+public class Mother {
+}
 
-// Child.java
-public class Child {}
+// File: Child.java
+public class Child {
+}
 
 [[STARTEND]]
 

@@ -1,42 +1,43 @@
 Table Compare
-Produced: 2024-04-13 13:04:26
+Produced: 2024-04-13 13:09:22
 
 Mode:  Differences
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\00example1\oracle\combinedOracle\cleanOracle.java
 Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\00example1\gpt\gptoutput\cleanGPT.java
-1:                                                           2: 3: 4:    1:                                                                         2:                                 3:                       4:
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      +-
-                                                                      -+ // {private Father father                                                  private Mother mother              private Child[] children }//
-                                                                      -+ // Child.javapublic class Child {}
-                                                                      -+ // City.javapublic class City {private Houses[] houses                     }// Houses.javapublic
-                                                                      -+ // class Houses {private Family family                                     }// Family.javapublic class Family
-                                                                      -+ // Father.javapublic class Father {}// Mother.javapublic class Mother {}//
-}                                                                     +-
-}                                                                     +-
-}                                                                     +-
-}                                                                     +-
-}                                                                     +-
-}                                                                     +-
-private Child[] Children                                              +-
-private Family family                                                 +-
-private Father Father                                                 +-
-private List<Houses> GabrielRonnie = new ArrayList<Houses>()          +-
-private Mother Mother                                                 +-
-public class Child {                                                  +-
-public class City {                                                   +-
-public class Family {                                                 +-
-public class Father {                                                 +-
-public class Houses {                                                 +-
-public class Mother {                                                 +-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1:                                                           2: 3:    1:                                                                              2:                       3:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   -+ // {}
+                                                                   -+ // Family.javapublic class Family {private Father father                        private Mother
+                                                                   -+ // File: City.javapublic class City {private Houses[] houses                    }// File:
+                                                                   -+ // File: Mother.javapublic class Mother {}// File: Child.javapublic class Child
+                                                                   -+ // Houses.javapublic class Houses {private Family family                        }// File:
+                                                                   -+ // mother                                                                       private Child[] children }// File: Father.javapublic class Father {}//
+}                                                                  +-
+}                                                                  +-
+}                                                                  +-
+}                                                                  +-
+}                                                                  +-
+}                                                                  +-
+private Child[] Children                                           +-
+private Family family                                              +-
+private Father Father                                              +-
+private List<Houses> GabrielRonnie = new ArrayList<Houses>()       +-
+private Mother Mother                                              +-
+public class Child {                                               +-
+public class City {                                                +-
+public class Family {                                              +-
+public class Father {                                              +-
+public class Houses {                                              +-
+public class Mother {                                              +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

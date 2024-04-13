@@ -179,6 +179,6 @@ bmm
 0example3 
 ask
 NotClassDiagrams
-CopyOfFirstIteration 
-
-00example1 
+CopyOfFirstIteration00example1 
+00example2 
+00example3 

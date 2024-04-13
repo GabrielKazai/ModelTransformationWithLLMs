@@ -10,9 +10,12 @@ sleep 1000
 
 Run, "C:\Users\Gabriel\AppData\Local\Programs\Microsoft VS Code\Code.exe" %filepathGPT%
 sleep 7000
+Click
+sleep 100
 Send, {ctrl down}{s down}
 Send, {ctrl up}{s up}
-
+sleep 100
+Click
 sleep 2000
 
 Send, {alt down} {f4 down}

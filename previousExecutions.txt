@@ -177,4 +177,8 @@ NIEM-Reference-common-sar
 bmm 
 0example2 
 0example3 
-ask 
+ask
+NotClassDiagrams
+CopyOfFirstIteration 
+
+00example1 

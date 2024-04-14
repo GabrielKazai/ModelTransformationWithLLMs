@@ -174,11 +174,9 @@ NIEM-Reference-common-sar
 NIEM-Reference-common-sar 
 NIEM-Reference-common-sar 
 NIEM-Reference-common-sar 
-bmm 
-0example2 
-0example3 
+bmm  
 ask
 NotClassDiagrams
-CopyOfFirstIteration00example1 
-00example2 
-00example3 
+CopyOfFirstIteration
+ 
+00example1 

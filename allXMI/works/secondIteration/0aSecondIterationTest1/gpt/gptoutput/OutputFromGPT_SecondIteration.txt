@@ -4,36 +4,36 @@ ChatGPT
 
 Explore GPTs
 Today
-Java UML Mapping
-UML to Java Conversion
-Java Classes from XMI
-
-
-Java Code for UML
-Java Code Generation
-Java Code from UML.
+UML to Java Code
 Java Classes for UML
-Java Classes from XMI.
-Java Classes from XMI.
-Java Class Creation
-Java User Class.
-Java Classes for UML.
+Java Classes from UML
+UML Java conversion.
+Yesterday
+UML Java Code Creation
 Java Classes from XMI
+Java UML Model Creation
+UML Java classes translation
+Java Models UML Translation
 Java UML to Code
-Java Classes from UML
-Java Class UML Conversion
-Java Code Generation
+Java Code: UML to Classes
+Java Models from UML
+Java Classes from XMI
+Modelagem de Classes UML
+UML Java classes transformation
+Java UML Classes Creation
+Previous 7 Days
+UML Java Classes Modeling
 Java Class Generation
-Java Code Generation
-Java Class for LoadBalancer
-Java Classes for UML
-Java Code Generation
-Java Class Contrainte Model
-Java Class Modeling
+Java UML Models
 Java Classes from UML
-Java Code from UML
-Java Model: XMI to Code
+Batch Script For Loop
+Java Classes from XMI.
 Java Code Generation
+New chat
+New chat
+Java Models Generation
+Generate Java code
+Java Class UML Conversion
 Add Team workspace
 Collaborate on a Team plan
 
@@ -121,6 +121,40 @@ ChatGPT
 java
 Copy code
 // [[STARTEND]]
+public class City {
+    private List<Houses> Houses;
+}
+
+public class Houses {
+    private Family Family;
+}
+
+public class Family {
+    private Father Father;
+    private Mother Mother;
+    private List<Child> Children;
+}
+
+public class Father {
+}
+
+public class Mother {
+}
+
+public class Child {
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+Use lists instead of arrays
+Capitlize variable names
+1
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+import java.util.List;
+
 public class City {
     private List<Houses> Houses;
 }

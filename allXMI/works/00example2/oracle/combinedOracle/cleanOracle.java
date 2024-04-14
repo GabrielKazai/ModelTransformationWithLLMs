@@ -4,10 +4,12 @@ public class City {
 
 }
 
+
 public class Houses {
     private Family family;
 
 }
+
 
 public class Family {
     private Father Father;
@@ -18,11 +20,15 @@ public class Family {
 
 }
 
+
 public class Father {
 }
+
 
 public class Mother {
 }
 
+
 public class Child {
 }
+

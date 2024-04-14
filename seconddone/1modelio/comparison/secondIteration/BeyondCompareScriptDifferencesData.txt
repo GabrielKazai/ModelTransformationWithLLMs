@@ -1,0 +1,67 @@
+Table Compare
+Produced: 2024-04-14 13:57:42
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\1modelio\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\1modelio\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                         2:    1:                                                   2:
+------------------------------------------------------------------------------------------------------------------------
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+                                                              +-
+}                                                             +-
+                                                              -+ private Employee manager
+                                                              -+ private java.time.ZonedDateTime endDate
+                                                              -+ private java.time.ZonedDateTime hireDate
+                                                              -+ private java.time.ZonedDateTime startDate
+                                                              -+ private List<Employee> employees = new ArrayList<>()
+private List<Job> job = new ArrayList<Job>()                  +-
+                                                              -+ private List<Job> jobs = new ArrayList<>()
+private List<Task> task = new ArrayList<Task>()               +-
+                                                              -+ private List<Task> tasks = new ArrayList<>()
+private long countryId                                        +-
+                                                              -+ private String countryId
+private zonedDateTime endDate                                 +-
+private zonedDateTime hireDate                                +-
+private zonedDateTime startDate                               +-
+public class zonedDateTime {                                  +-
+public Employee manager                                       +-
+public List<Employee> employee = new ArrayList<Employee>()    +-
+------------------------------------------------------------------------------------------------------------------------

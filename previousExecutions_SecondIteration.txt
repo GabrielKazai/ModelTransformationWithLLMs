@@ -9,3 +9,10 @@ later
 00example2 
 0mappedby_test 
 0modelio 
+0modelio_lowercased_string_type 
+0modelio_no_validation_name_test 
+0modelio_wrong_typename 
+0otherEntityFieldMM 
+1fUML_Library 
+1modelio 
+2fUML_Library 

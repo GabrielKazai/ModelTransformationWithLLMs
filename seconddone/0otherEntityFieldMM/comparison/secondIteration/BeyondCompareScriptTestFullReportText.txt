@@ -1,0 +1,18 @@
+Text Compare
+Produced: 2024-04-14 13:54:15
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0otherEntityFieldMM\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0otherEntityFieldMM\gpt\gptoutput\cleanGPT_SecondIteration.java
+                                                                             +-
+--------------------------------------------------------------------------------------------------------
+public class Owner {                                                         =  public class Owner {
+--------------------------------------------------------------------------------------------------------
+    public List<NotOwner> notOwner(otherOwner) = new ArrayList<NotOwner> (); <>     NotOwner[] notOwner;
+
+--------------------------------------------------------------------------------------------------------
+}                                                                            =  }
+
+public class NotOwner {                                                         public class NotOwner {
+}                                                                               }
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,492 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes for UML
+Java Code for UML
+Java Classes: UML Conversion
+Java Model from UML
+Java Class Generation
+Java Class Generation
+Java Class Generation
+Java Classes: UML to Code
+Java Code Generation
+Java Class Creation
+Java Model Classes
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Classes for UML
+UML to Java Code
+Java Classes from XMI
+Java Classes from UML
+UML Java conversion.
+Yesterday
+UML Java Code Creation
+Java Classes from XMI
+Java UML Model Creation
+UML Java classes translation
+Java Models UML Translation
+Java UML to Code
+Java Code: UML to Classes
+Java Models from UML
+Java Classes from XMI
+Modelagem de Classes UML
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_yz3BEOxDEe6j1NXKa78ECw" name="Model">
+  <eAnnotations xmi:id="_yz3BEexDEe6j1NXKa78ECw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_yz3BEuxDEe6j1NXKa78ECw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BE-xDEe6j1NXKa78ECw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_yz3BFOxDEe6j1NXKa78ECw" name="VisibilityKind">
+    <ownedLiteral xmi:id="_yz3BFexDEe6j1NXKa78ECw" name="public"/>
+    <ownedLiteral xmi:id="_yz3BFuxDEe6j1NXKa78ECw" name="private"/>
+    <ownedLiteral xmi:id="_yz3BF-xDEe6j1NXKa78ECw" name="protected"/>
+    <ownedLiteral xmi:id="_yz3BGOxDEe6j1NXKa78ECw" name="package"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yz3BGexDEe6j1NXKa78ECw" name="BaseClass" isAbstract="true">
+    <ownedAttribute xmi:id="_yz3BGuxDEe6j1NXKa78ECw" name="readWriteSingleValuedPrimitiveAttribute" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_yz3BG-xDEe6j1NXKa78ECw" value="true"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BHOxDEe6j1NXKa78ECw" name="subsettedReadWriteAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" isDerived="true"/>
+    <ownedAttribute xmi:id="_yz3BHexDEe6j1NXKa78ECw" name="subsettedReadOnlyAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" isReadOnly="true" isDerived="true">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BHuxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BH-xDEe6j1NXKa78ECw" name="slot" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BIOxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BIexDEe6j1NXKa78ECw" name="readWriteDerivedAttribute" visibility="public" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BIuxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BI-xDEe6j1NXKa78ECw" name="readOnlyDerivedAttribute" visibility="public" isReadOnly="true" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BJOxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BJexDEe6j1NXKa78ECw" name="readWriteDerivedUnionAttribute" visibility="public" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BJuxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BJ-xDEe6j1NXKa78ECw" name="readOnlyDerivedUnionAttribute" visibility="public" isReadOnly="true" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BKOxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_yz3BKexDEe6j1NXKa78ECw" name="readWriteDerivedAttribute" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BKuxDEe6j1NXKa78ECw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BK-xDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BLOxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BLexDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BLuxDEe6j1NXKa78ECw" name="readOnlyDerivedAttribute" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BL-xDEe6j1NXKa78ECw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BMOxDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BMexDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BMuxDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BM-xDEe6j1NXKa78ECw" name="aRealOperation" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BNOxDEe6j1NXKa78ECw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BNexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BNuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BN-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yz3BOOxDEe6j1NXKa78ECw" name="UsedClass">
+    <ownedAttribute xmi:id="_yz3BOexDEe6j1NXKa78ECw" name="oppositeReadWriteSingleValuedObjectAttribute" visibility="public" type="_yz3BO-xDEe6j1NXKa78ECw" association="_yz3BOuxDEe6j1NXKa78ECw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yz3BOuxDEe6j1NXKa78ECw" memberEnd="_yz3BOexDEe6j1NXKa78ECw _yz3BPexDEe6j1NXKa78ECw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yz3BO-xDEe6j1NXKa78ECw" name="Class">
+    <generalization xmi:id="_yz3BPOxDEe6j1NXKa78ECw" general="_yz3BGexDEe6j1NXKa78ECw"/>
+    <ownedAttribute xmi:id="_yz3BPexDEe6j1NXKa78ECw" name="readWriteSingleValuedObjectAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" association="_yz3BOuxDEe6j1NXKa78ECw"/>
+    <ownedAttribute xmi:id="_yz3BPuxDEe6j1NXKa78ECw" name="subsetReadWriteAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BP-xDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BQOxDEe6j1NXKa78ECw" name="subsetReadOnlyAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" isReadOnly="true"/>
+    <ownedAttribute xmi:id="_yz3BQexDEe6j1NXKa78ECw" name="readWriteSingleValuedPrimitiveAttribute" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_yz3BQuxDEe6j1NXKa78ECw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BQ-xDEe6j1NXKa78ECw" name="readOnlySingleValuedPrimitiveAttribute" visibility="public" type="UnlimitedNatural" isReadOnly="true">
+      <defaultValue xmi:type="uml:Expression" xmi:id="_yz3BROxDEe6j1NXKa78ECw" symbol="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BRexDEe6j1NXKa78ECw" name="readWriteMultiValuedPrimitiveAttribute" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BRuxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BR-xDEe6j1NXKa78ECw" name="readOnlyMultiValuedPrimitiveAttribute" visibility="public" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BSOxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BSexDEe6j1NXKa78ECw" name="readWriteSingleValuedEnumerationAttribute" visibility="public" type="_yz3BFOxDEe6j1NXKa78ECw">
+      <defaultValue xmi:type="uml:InstanceValue" xmi:id="_yz3BSuxDEe6j1NXKa78ECw" type="_yz3BFOxDEe6j1NXKa78ECw" instance="_yz3BFexDEe6j1NXKa78ECw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BS-xDEe6j1NXKa78ECw" name="readOnlySingleValuedEnumerationAttribute" visibility="public" type="_yz3BFOxDEe6j1NXKa78ECw" isReadOnly="true"/>
+    <ownedAttribute xmi:id="_yz3BTOxDEe6j1NXKa78ECw" name="readWriteMultiValuedEnumerationAttribute" visibility="public" type="_yz3BFOxDEe6j1NXKa78ECw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BTexDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BTuxDEe6j1NXKa78ECw" name="readOnlyMultiValuedEnumerationAttribute" visibility="public" type="_yz3BFOxDEe6j1NXKa78ECw" isReadOnly="true">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BT-xDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BUOxDEe6j1NXKa78ECw" name="readOnlySingleValuedObjectAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" isReadOnly="true"/>
+    <ownedAttribute xmi:id="_yz3BUexDEe6j1NXKa78ECw" name="readWriteMultiValuedObjectAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BUuxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yz3BU-xDEe6j1NXKa78ECw" name="readOnlyMultiValuedObjectAttribute" visibility="public" type="_yz3BOOxDEe6j1NXKa78ECw" isReadOnly="true">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BVOxDEe6j1NXKa78ECw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_yz3BVexDEe6j1NXKa78ECw" name="opReturnPrimitiveSV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BVuxDEe6j1NXKa78ECw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BV-xDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BWOxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BWexDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BWuxDEe6j1NXKa78ECw" name="opReturnPrimitiveMV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BW-xDEe6j1NXKa78ECw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BXOxDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BXexDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BXuxDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BX-xDEe6j1NXKa78ECw" name="opReturnEnumerationSV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BYOxDEe6j1NXKa78ECw" type="_yz3BFOxDEe6j1NXKa78ECw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BYexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BYuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BY-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BZOxDEe6j1NXKa78ECw" name="opReturnEnumerationMV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BZexDEe6j1NXKa78ECw" type="_yz3BFOxDEe6j1NXKa78ECw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BZuxDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BZ-xDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BaOxDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BaexDEe6j1NXKa78ECw" name="opReturnObjectSV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BauxDEe6j1NXKa78ECw" type="_yz3BOOxDEe6j1NXKa78ECw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3Ba-xDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BbOxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BbexDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3BbuxDEe6j1NXKa78ECw" name="opReturnObjectMV" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3Bb-xDEe6j1NXKa78ECw" type="_yz3BOOxDEe6j1NXKa78ECw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BcOxDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BcexDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3BcuxDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yz3Bc-xDEe6j1NXKa78ECw" name="opParameters" visibility="public" isQuery="true">
+      <ownedParameter xmi:id="_yz3BdOxDEe6j1NXKa78ECw" name="pinprimitiveSV">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BdexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BduxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bd-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BeOxDEe6j1NXKa78ECw" name="pinenumerationSV" type="_yz3BFOxDEe6j1NXKa78ECw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BeexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BeuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Be-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BfOxDEe6j1NXKa78ECw" name="pinobjectSV" type="_yz3BOOxDEe6j1NXKa78ECw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BfexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BfuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bf-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BgOxDEe6j1NXKa78ECw" name="pinprimitiveMV">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BgexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BguxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bg-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BhOxDEe6j1NXKa78ECw" name="pinenumerationMV" type="_yz3BFOxDEe6j1NXKa78ECw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BhexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BhuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bh-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BiOxDEe6j1NXKa78ECw" name="pinobjectMV" type="_yz3BOOxDEe6j1NXKa78ECw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BiexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BiuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bi-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BjOxDEe6j1NXKa78ECw" name="pinoutprimitiveSV" direction="inout">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BjexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BjuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bj-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BkOxDEe6j1NXKa78ECw" name="pinoutenumerationSV" type="_yz3BFOxDEe6j1NXKa78ECw" direction="inout">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BkexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BkuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bk-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BlOxDEe6j1NXKa78ECw" name="pinoutobjectSV" type="_yz3BOOxDEe6j1NXKa78ECw" direction="inout">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BlexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BluxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bl-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BmOxDEe6j1NXKa78ECw" name="pinoutprimitiveMV" direction="inout">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BmexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BmuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bm-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BnOxDEe6j1NXKa78ECw" name="pinoutenumerationMV" type="_yz3BFOxDEe6j1NXKa78ECw" direction="inout">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BnexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BnuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bn-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BoOxDEe6j1NXKa78ECw" name="pinoutobjectMV" type="_yz3BOOxDEe6j1NXKa78ECw" direction="inout">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BoexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BouxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bo-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BpOxDEe6j1NXKa78ECw" name="poutprimitiveSV" direction="out">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BpexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BpuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bp-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BqOxDEe6j1NXKa78ECw" name="poutenumerationSV" type="_yz3BFOxDEe6j1NXKa78ECw" direction="out">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BqexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BquxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bq-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BrOxDEe6j1NXKa78ECw" name="poutobjectSV" type="_yz3BOOxDEe6j1NXKa78ECw" direction="out">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BrexDEe6j1NXKa78ECw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BruxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Br-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BsOxDEe6j1NXKa78ECw" name="poutprimitiveMV" direction="out">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BsexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BsuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bs-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BtOxDEe6j1NXKa78ECw" name="poutenumerationMV" type="_yz3BFOxDEe6j1NXKa78ECw" direction="out">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BtexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BtuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bt-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yz3BuOxDEe6j1NXKa78ECw" name="poutobjectMV" type="_yz3BOOxDEe6j1NXKa78ECw" direction="out">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yz3BuexDEe6j1NXKa78ECw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yz3BuuxDEe6j1NXKa78ECw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_yz3Bu-xDEe6j1NXKa78ECw" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yz3BvOxDEe6j1NXKa78ECw" name="external">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="UnlimitedNatural" name="unlimitedNatural"/>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum VisibilityKind {
+    public,
+    private,
+    protected,
+    package
+}
+
+public abstract class BaseClass {
+    public boolean readWriteSingleValuedPrimitiveAttribute = true;
+    public UsedClass subsettedReadWriteAttribute;
+    public UsedClass subsettedReadOnlyAttribute;
+    public boolean slot;
+    public boolean readWriteDerivedAttribute;
+    public boolean readOnlyDerivedAttribute;
+    public boolean readWriteDerivedUnionAttribute;
+    public boolean readOnlyDerivedUnionAttribute;
+
+    public boolean readWriteDerivedAttribute() {
+        return false;
+    }
+
+    public boolean readOnlyDerivedAttribute() {
+        return false;
+    }
+
+    public boolean aRealOperation() {
+        return false;
+    }
+}
+
+public class UsedClass {
+    public Class oppositeReadWriteSingleValuedObjectAttribute;
+}
+
+public class Class extends BaseClass {
+    public UsedClass readWriteSingleValuedObjectAttribute;
+    public UsedClass subsetReadWriteAttribute;
+    public UsedClass subsetReadOnlyAttribute;
+    public boolean readWriteSingleValuedPrimitiveAttribute;
+    public boolean readOnlySingleValuedPrimitiveAttribute = true;
+    public boolean readWriteMultiValuedPrimitiveAttribute;
+    public boolean readOnlyMultiValuedPrimitiveAttribute;
+    public VisibilityKind readWriteSingleValuedEnumerationAttribute = VisibilityKind.public;
+    public VisibilityKind readOnlySingleValuedEnumerationAttribute;
+    public VisibilityKind readWriteMultiValuedEnumerationAttribute;
+    public VisibilityKind readOnlyMultiValuedEnumerationAttribute;
+    public UsedClass readOnlySingleValuedObjectAttribute;
+    public UsedClass readWriteMultiValuedObjectAttribute;
+    public UsedClass readOnlyMultiValuedObjectAttribute;
+
+    public boolean opReturnPrimitiveSV() {
+        return false;
+    }
+
+    public boolean opReturnPrimitiveMV() {
+        return false;
+    }
+
+    public VisibilityKind opReturnEnumerationSV() {
+        return null;
+    }
+
+    public VisibilityKind opReturnEnumerationMV() {
+        return null;
+    }
+
+    public UsedClass opReturnObjectSV() {
+        return null;
+    }
+
+    public UsedClass opReturnObjectMV() {
+        return null;
+    }
+
+    public boolean opParameters(boolean pinprimitiveSV, VisibilityKind pinenumerationSV, UsedClass pinobjectSV, boolean[] pinprimitiveMV, VisibilityKind[] pinenumerationMV, UsedClass[] pinobjectMV, boolean pinoutprimitiveSV, VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV, boolean[] pinoutprimitiveMV, VisibilityKind[] pinoutenumerationMV, UsedClass[] pinoutobjectMV, boolean poutprimitiveSV, VisibilityKind poutenumerationSV, UsedClass poutobjectSV, boolean[] poutprimitiveMV, VisibilityKind[] poutenumerationMV, UsedClass[] poutobjectMV) {
+        return false;
+    }
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The relation cardinality was not translated correctly for the attribute slot.
+The relation cardinality was not translated correctly for return value of function readWriteDerviedAttribute.
+The relation cardinality was not translated correctly for return value of function readOnlyDerivedAttribute.
+The relation cardinality was not translated correctly for return value of function readWriteDerviedAttribute.
+The relation cardinality was not translated correctly for return value of function aRealOperation.
+The relation cardinality was not translated correctly for the attribute subsetReadWriteAttribute.
+The relation cardinality was not translated correctly for the attribute readWriteMultiValuedPrimitiveAttribute.
+The relation cardinality was not translated correctly for the attribute readOnlyMultiValuedPrimitiveAttribute.
+The relation cardinality was not translated correctly for the attribute readWriteMultiValuedEnumerationAttribute.
+The relation cardinality was not translated correctly for the attribute readOnlyMultiValuedEnumerationAttribute.
+The variable readOnlySingleValuedPrimitiveAttribute has the wrong type.
+The relation cardinality was not translated correctly for return value opReturnPrimitiveMV.
+The relation cardinality was not translated correctly for return value opReturnEnumerationMV.
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum VisibilityKind {
+    public,
+    private,
+    protected,
+    package
+}
+
+public abstract class BaseClass {
+    public boolean readWriteSingleValuedPrimitiveAttribute = true;
+    public UsedClass subsettedReadWriteAttribute;
+    public UsedClass subsettedReadOnlyAttribute;
+    public boolean[] slot = new boolean[0];
+    public boolean[] readWriteDerivedAttribute = new boolean[0];
+    public boolean[] readOnlyDerivedAttribute = new boolean[0];
+    public boolean readWriteDerivedUnionAttribute;
+    public boolean readOnlyDerivedUnionAttribute;
+
+    public boolean[] readWriteDerivedAttribute() {
+        return new boolean[0];
+    }
+
+    public boolean[] readOnlyDerivedAttribute() {
+        return new boolean[0];
+    }
+
+    public boolean[] aRealOperation() {
+        return new boolean[0];
+    }
+}
+
+public class UsedClass {
+    public Class oppositeReadWriteSingleValuedObjectAttribute;
+}
+
+public class Class extends BaseClass {
+    public UsedClass readWriteSingleValuedObjectAttribute;
+    public UsedClass[] subsetReadWriteAttribute = new UsedClass[0];
+    public UsedClass subsetReadOnlyAttribute;
+    public boolean readWriteSingleValuedPrimitiveAttribute;
+    public boolean readOnlySingleValuedPrimitiveAttribute;
+    public boolean[] readWriteMultiValuedPrimitiveAttribute = new boolean[0];
+    public boolean[] readOnlyMultiValuedPrimitiveAttribute = new boolean[0];
+    public VisibilityKind[] readWriteMultiValuedEnumerationAttribute = new VisibilityKind[0];
+    public VisibilityKind[] readOnlyMultiValuedEnumerationAttribute = new VisibilityKind[0];
+    public UsedClass readOnlySingleValuedObjectAttribute;
+    public UsedClass readWriteMultiValuedObjectAttribute;
+    public UsedClass readOnlyMultiValuedObjectAttribute;
+
+    public boolean opReturnPrimitiveSV() {
+        return false;
+    }
+
+    public boolean[] opReturnPrimitiveMV() {
+        return new boolean[0];
+    }
+
+    public VisibilityKind opReturnEnumerationSV() {
+        return null;
+    }
+
+    public VisibilityKind[] opReturnEnumerationMV() {
+        return new VisibilityKind[0];
+    }
+
+    public UsedClass opReturnObjectSV() {
+        return null;
+    }
+
+    public UsedClass opReturnObjectMV() {
+        return null;
+    }
+
+    public boolean opParameters(boolean pinprimitiveSV, VisibilityKind pinenumerationSV, UsedClass pinobjectSV, boolean[] pinprimitiveMV, VisibilityKind[] pinenumerationMV, UsedClass[] pinobjectMV, boolean pinoutprimitiveSV, VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV, boolean[] pinoutprimitiveMV, VisibilityKind[] pinoutenumerationMV, UsedClass[] pinoutobjectMV, boolean poutprimitiveSV, VisibilityKind poutenumerationSV, UsedClass poutobjectSV, boolean[] poutprimitiveMV, VisibilityKind[] poutenumerationMV, UsedClass[] poutobjectMV) {
+        return false;
+    }
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

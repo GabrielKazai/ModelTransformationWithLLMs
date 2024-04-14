@@ -1,0 +1,124 @@
+Table Compare
+Produced: 2024-04-14 14:11:14
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\FilRougeUML\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\FilRougeUML\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                       2:    1:                                   2:
+------------------------------------------------------------------------------------------------------
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+                                                            +-
+private boolean active                                      +-
+private Competence competence                               +-
+private Date annee                                          +-
+private Date dateCreation                                   +-
+private Date dateResolution                                 +-
+                                                            -+ private final boolean active
+                                                            -+ private final Competence competence
+                                                            -+ private final Date annee
+                                                            -+ private final Date dateCreation
+                                                            -+ private final Date dateResolution
+                                                            -+ private final double note
+                                                            -+ private final int niveau
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final long id
+                                                            -+ private final Personne demandeur
+                                                            -+ private final Personne evalue
+                                                            -+ private final Personne invite
+                                                            -+ private final Personne invite
+                                                            -+ private final Projet projet
+                                                            -+ private final Projet projet
+                                                            -+ private final String contenu
+                                                            -+ private final String email
+                                                            -+ private final String ENUM
+                                                            -+ private final String img
+                                                            -+ private final String img
+                                                            -+ private final String libelle
+                                                            -+ private final String libelle
+                                                            -+ private final String libelle
+                                                            -+ private final String libelle
+                                                            -+ private final String nom
+                                                            -+ private final String nom
+                                                            -+ private final String prenom
+                                                            -+ private final String ville
+private int id                                              +-
+private int id                                              +-
+private int id                                              +-
+private int id                                              +-
+private int id                                              +-
+private int id                                              +-
+private int id                                              +-
+private int niveau                                          +-
+private int note                                            +-
+private List<Competence>  = new ArrayList<Competence> ()    +-
+                                                            -+ private List<Competence> competences
+                                                            -+ private List<Cursus> cursus
+                                                            -+ private List<Ecole> ecole
+private Personne demandeur                                  +-
+private Personne evalue                                     +-
+private Personne invite                                     +-
+private Personne invite                                     +-
+private Projet projet                                       +-
+private Projet projet                                       +-
+private String contenu                                      +-
+private String email                                        +-
+private String ENUM                                         +-
+private String img                                          +-
+private String img                                          +-
+private String libelle                                      +-
+private String libelle                                      +-
+private String libelle                                      +-
+private String libelle                                      +-
+private String nom                                          +-
+private String nom                                          +-
+private String prenom                                       +-
+private String ville                                        +-
+public List<Cursus> cursus = new ArrayList<Cursus> ()       +-
+public List<Ecole> ecole = new ArrayList<Ecole>()           +-
+------------------------------------------------------------------------------------------------------

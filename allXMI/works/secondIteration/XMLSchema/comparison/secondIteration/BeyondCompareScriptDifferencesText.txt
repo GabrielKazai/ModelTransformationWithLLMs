@@ -1,0 +1,40 @@
+Text Compare
+Produced: 2024-04-14 14:16:25
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\XMLSchema\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\XMLSchema\gpt\gptoutput\cleanGPT_SecondIteration.java
+                                                                     +-
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+                                                                     +-
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+                                                                     <>
+    private List<Element> refs = new ArrayList<Element>();
+
+}
+
+public class Element extends Node {
+    private String name;                                                    private Element[] refs;
+
+    private List<Text> texts = new ArrayList<Text>();
+
+    private List<Element> children = new ArrayList<Element>();
+
+    private List<Attribute> attributes = new ArrayList<Attribute>();
+
+    private List<Node> contents = new ArrayList<Node>();
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+                                                                     -+ }
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+                                                                     -+ public class Element extends Node {
+                                                                            private String name;
+                                                                            private Text[] texts;
+                                                                            private Element[] children;
+                                                                            private Attribute[] attributes;
+                                                                            private Node[] contents;
+-----------------------------------------------------------------------------------------------------------

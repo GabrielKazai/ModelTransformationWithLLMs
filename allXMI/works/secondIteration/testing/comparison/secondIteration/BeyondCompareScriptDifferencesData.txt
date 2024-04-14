@@ -1,0 +1,108 @@
+Table Compare
+Produced: 2024-04-14 14:12:58
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\testing\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\testing\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                                                                         2:    1:                                                                                                          2:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+                                                                                                              +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+// TODO Auto-generated return                                                                                 +-
+}                                                                                                             +-
+}                                                                                                             +-
+                                                                                                              -+ boolean pinoutprimitiveSV, VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV,
+                                                                                                              -+ boolean poutprimitiveSV, VisibilityKind poutenumerationSV, UsedClass poutobjectSV,
+                                                                                                              -+ boolean[] pinoutprimitiveMV, VisibilityKind[] pinoutenumerationMV, UsedClass[] pinoutobjectMV,
+                                                                                                              -+ boolean[] pinprimitiveMV, VisibilityKind[] pinenumerationMV, UsedClass[] pinobjectMV,
+                                                                                                              -+ boolean[] poutprimitiveMV, VisibilityKind[] poutenumerationMV, UsedClass[] poutobjectMV) {
+final List<VisibilityKind> pinenumerationMV, final List<UsedClass> pinobjectMV, boolean pinoutprimitiveSV,    +-
+final UsedClass pinobjectSV, final List<Boolean> pinprimitiveMV,                                              +-
+List<VisibilityKind> pinoutenumerationMV, List<UsedClass> pinoutobjectMV, boolean poutprimitiveSV,            +-
+List<VisibilityKind> poutenumerationMV, List<UsedClass> poutobjectMV) {                                       +-
+package                                                                                                       +-
+private,                                                                                                      +-
+protected,                                                                                                    +-
+                                                                                                              -+ public boolean opParameters(boolean pinprimitiveSV, VisibilityKind pinenumerationSV, UsedClass pinobjectSV,
+                                                                                                              -+ public boolean readOnlyDerivedUnionAttribute
+                                                                                                              -+ public boolean readOnlySingleValuedPrimitiveAttribute
+                                                                                                              -+ public boolean readWriteDerivedUnionAttribute
+                                                                                                              -+ public boolean readWriteSingleValuedPrimitiveAttribute
+public boolean readWriteSingleValuedPrimitiveAttribute = false                                                +-
+                                                                                                              -+ public boolean[] aRealOperation() {
+                                                                                                              -+ public boolean[] opReturnPrimitiveMV() {
+                                                                                                              -+ public boolean[] readOnlyDerivedAttribute = new boolean[0]
+                                                                                                              -+ public boolean[] readOnlyDerivedAttribute() {
+public boolean[] readOnlyMultiValuedPrimitiveAttribute                                                        +-
+                                                                                                              -+ public boolean[] readOnlyMultiValuedPrimitiveAttribute = new boolean[0]
+                                                                                                              -+ public boolean[] readWriteDerivedAttribute = new boolean[0]
+                                                                                                              -+ public boolean[] readWriteDerivedAttribute() {
+public boolean[] readWriteMultiValuedPrimitiveAttribute                                                       +-
+                                                                                                              -+ public boolean[] readWriteMultiValuedPrimitiveAttribute = new boolean[0]
+public boolean[] slot                                                                                         +-
+                                                                                                              -+ public boolean[] slot = new boolean[0]
+public class unlimitedNatural {                                                                               +-
+public enum VisibilityKind {                                                                                  +-
+                                                                                                              -+ public enum VisibilityKind {    public,    private,    protected,    package}
+public List<Boolean> aRealOperation() {                                                                       +-
+public List<Boolean> opReturnPrimitiveMV() {                                                                  +-
+public List<Boolean> readOnlyDerivedAttribute() {                                                             +-
+public List<Boolean> readWriteDerivedAttribute() {                                                            +-
+public List<UsedClass> opReturnObjectMV() {                                                                   +-
+public List<VisibilityKind> opReturnEnumerationMV() {                                                         +-
+public unlimitedNatural readOnlySingleValuedPrimitiveAttribute = 1                                            +-
+                                                                                                              -+ public UsedClass opReturnObjectMV() {
+                                                                                                              -+ public UsedClass readOnlyMultiValuedObjectAttribute
+                                                                                                              -+ public UsedClass readWriteMultiValuedObjectAttribute
+                                                                                                              -+ public UsedClass subsettedReadOnlyAttribute
+                                                                                                              -+ public UsedClass subsettedReadWriteAttribute
+public UsedClass[] readOnlyMultiValuedObjectAttribute                                                         +-
+public UsedClass[] readWriteMultiValuedObjectAttribute                                                        +-
+public UsedClass[] subsetReadWriteAttribute                                                                   +-
+                                                                                                              -+ public UsedClass[] subsetReadWriteAttribute = new UsedClass[0]
+public VisibilityKind readOnlySingleValuedEnumerationAttribute                                                +-
+public VisibilityKind readWriteSingleValuedEnumerationAttribute = public                                      +-
+                                                                                                              -+ public VisibilityKind[] opReturnEnumerationMV() {
+public VisibilityKind[] readOnlyMultiValuedEnumerationAttribute                                               +-
+                                                                                                              -+ public VisibilityKind[] readOnlyMultiValuedEnumerationAttribute = new VisibilityKind[0]
+public VisibilityKind[] readWriteMultiValuedEnumerationAttribute                                              +-
+                                                                                                              -+ public VisibilityKind[] readWriteMultiValuedEnumerationAttribute = new VisibilityKind[0]
+public void opParameters(final boolean pinprimitiveSV, final VisibilityKind pinenumerationSV,                 +-
+public,                                                                                                       +-
+return false                                                                                                  +-
+return false                                                                                                  +-
+return false                                                                                                  +-
+                                                                                                              -+ return new boolean[0]
+                                                                                                              -+ return new boolean[0]
+                                                                                                              -+ return new boolean[0]
+                                                                                                              -+ return new boolean[0]
+                                                                                                              -+ return new VisibilityKind[0]
+return null                                                                                                   +-
+VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV, List<Boolean> pinoutprimitiveMV,                +-
+VisibilityKind poutenumerationSV, UsedClass poutobjectSV, List<Boolean> poutprimitiveMV,                      +-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

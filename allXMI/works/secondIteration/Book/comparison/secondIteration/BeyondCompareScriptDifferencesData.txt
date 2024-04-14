@@ -1,0 +1,155 @@
+Table Compare
+Produced: 2024-04-14 14:07:47
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\Book\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\Book\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                2: 3: 4:    1:                                                       2:                        3:                         4:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+                                                           +-
+}                                                          +-
+                                                           -+ }public class Article {    private final Group group     private final User author private final Rubric class }
+                                                           -+ private final Activity activity
+                                                           -+ private final Activity activity
+                                                           -+ private final ActivitySector acivitySector
+                                                           -+ private final ContactNature contactNature
+                                                           -+ private final Event event
+                                                           -+ private final Event event
+                                                           -+ private final Event event
+                                                           -+ private final Event event
+                                                           -+ private final EventNature eventNature
+                                                           -+ private final EventNature eventNature
+                                                           -+ private final Group group
+                                                           -+ private final Group group
+                                                           -+ private final Group group
+                                                           -+ private final Group group
+                                                           -+ private final Group group
+                                                           -+ private final Group group
+                                                           -+ private final Group group1
+                                                           -+ private final GroupIntervention groupIntervention
+                                                           -+ private final GroupLinkNature groupLinkNature
+                                                           -+ private final Honour honour
+                                                           -+ private final HonourOrder honourNature
+                                                           -+ private final InterventionNature groupInterventionNature
+                                                           -+ private final InterventionNature userInterventionNature
+                                                           -+ private final Label label
+                                                           -+ private final Label tag
+                                                           -+ private final MandateNature mandateNature
+                                                           -+ private final MandateNature mandateNature
+                                                           -+ private final Organigram organigram
+                                                           -+ private final Organigram organigram
+                                                           -+ private final Product product
+                                                           -+ private final Profession profession
+                                                           -+ private final Question questionItem
+                                                           -+ private final Sale sale
+                                                           -+ private final Survey question
+                                                           -+ private final Survey survey
+                                                           -+ private final Survey survey
+                                                           -+ private final Surveyance surveyance
+                                                           -+ private final User author
+                                                           -+ private final User client
+                                                           -+ private final User guest
+                                                           -+ private final User introducer
+                                                           -+ private final User user
+                                                           -+ private final User user
+                                                           -+ private final User user
+                                                           -+ private final User user
+                                                           -+ private final User user
+                                                           -+ private final User user
+public Activity                                            +-
+public Activity activity                                   +-
+public ActivitySector acivitySector                        +-
+public ContactNature contactNature                         +-
+public Event event                                         +-
+public Event event                                         +-
+public Event event                                         +-
+public Event event                                         +-
+public EventNature eventNature                             +-
+public EventNature eventNature                             +-
+public Group group                                         +-
+public Group group                                         +-
+public Group group                                         +-
+public Group group                                         +-
+public Group group                                         +-
+public Group group                                         +-
+public Group group1                                        +-
+public GroupIntervention groupIntervention                 +-
+public GroupLinkNature groupLinkNature                     +-
+public Honour honour                                       +-
+public HonourOrder honourNature                            +-
+public InterventionNature groupInterventionNature          +-
+public InterventionNature userInterventionNature           +-
+public Label label                                         +-
+public Label tag                                           +-
+public MandateNature mandateNature                         +-
+public MandateNature mandateNature                         +-
+public Organigram organigram                               +-
+public Organigram organigram                               +-
+public Product product                                     +-
+public Profession profession                               +-
+public Question questionItem                               +-
+public Sale sale                                           +-
+public Survey question                                     +-
+public Survey question                                     +-
+public Survey survey                                       +-
+public Surveyance surveyance                               +-
+public User                                                +-
+public User author                                         +-
+public User client                                         +-
+public User guest                                          +-
+public User introducer                                     +-
+public User user                                           +-
+public User user                                           +-
+public User user                                           +-
+public User user                                           +-
+public User user                                           +-
+public User user                                           +-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

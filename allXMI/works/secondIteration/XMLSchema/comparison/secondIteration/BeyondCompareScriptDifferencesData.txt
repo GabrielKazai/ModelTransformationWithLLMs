@@ -1,0 +1,29 @@
+Table Compare
+Produced: 2024-04-14 14:16:25
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\XMLSchema\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\XMLSchema\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                              2:    1:                             2:
+-------------------------------------------------------------------------------------------------------
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   +-
+                                                                   -+ private Attribute[] attributes
+                                                                   -+ private Element[] children
+                                                                   -+ private Element[] refs
+private List<Attribute> attributes = new ArrayList<Attribute>()    +-
+private List<Element> children = new ArrayList<Element>()          +-
+private List<Element> refs = new ArrayList<Element>()              +-
+private List<Node> contents = new ArrayList<Node>()                +-
+private List<Text> texts = new ArrayList<Text>()                   +-
+                                                                   -+ private Node[] contents
+                                                                   -+ private Text[] texts
+-------------------------------------------------------------------------------------------------------

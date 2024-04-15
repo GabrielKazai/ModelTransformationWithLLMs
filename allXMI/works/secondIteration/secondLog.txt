@@ -40,4 +40,8 @@ The variable X has the wrong accessor.
 The function X is missing a parameter.
 The function X has the wrong return type.
 The class X is missing several attributes.
-
+---
+of interest:
+1modelio
+0otherEntityFieldMM
+2fUML_Library

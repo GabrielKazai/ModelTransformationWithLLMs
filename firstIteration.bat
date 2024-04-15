@@ -72,7 +72,7 @@ formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanG
 
 setlocal EnableDelayedExpansion
 
-echo %urlName% >> %scriptpath%\previousExecutions.txt
+echo %urlName%>>%scriptpath%\previousExecutions.txt
 
 goto :eof
 :End

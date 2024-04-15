@@ -1,0 +1,1 @@
+The type boolean of readOnlySingleValuedPrimitiveAttribute is wrong.

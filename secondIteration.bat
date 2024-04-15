@@ -60,7 +60,7 @@ formatJava_SecondIteration.ahk %1\gpt\gptoutput\cleanGPT_SecondIteration.java
 
 setlocal EnableDelayedExpansion
 
-echo %urlName% >> %scriptpath%\previousExecutions_SecondIteration.txt
+echo %urlName%>>%scriptpath%\previousExecutions_SecondIteration.txt
 
 goto :eof
 :End

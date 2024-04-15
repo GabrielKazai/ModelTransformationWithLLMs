@@ -1,0 +1,153 @@
+﻿Table Compare
+Produced: 2024-04-15 12:14:04
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\NIEM-Reference-common-ut_offender-tracking-misc\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\NIEM-Reference-common-ut_offender-tracking-misc\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:     2:                    3:                                      4:       5: 6: 7: 8: 9: 10: 11: 12: 13: 14: 15: 16: 17: 18:    1:           2:                   3:                                      4:                    5:                6:               7:                  8:                    9:                    10:      11:   12:   13:   14:   15:   16:   17:   18:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                 <>              _216,                _214,                                   _208,                 _215,             _203,            _206,               _211,                 _218,                 _212,    _201, _217, _205, _207, _204, _210, _213, _219
+       216,                                                                                                                      <>
+       214,                                                                                                                      <>              _216,                _214,                                   _208,                 _215,             _203,            _206,               _211,                 _218,                 _212,    _201, _217, _205, _207, _204, _210, _213, _219
+       208,                                                                                                                      <>
+       215,                                                                                                                      <>              M,                   O,                                      D,                    H,                U,               Q,                  G,                    N,                    B
+       203,                                                                                                                      <>
+       206,                                                                                                                      <>              M,                   O,                                      D,                    H,                U,               Q,                  G,                    N,                    B
+       211,                                                                                                                      <>
+       218,                                                                                                                      <>              N,                   X,                                      U,                    M,                I,               A,                  G,                    C
+       212,                                                                                                                      <>
+       201,                                                                                                                      <>              N,                   X,                                      U,                    M,                I,               A,                  G,                    C
+       217,                                                                                                                      <>
+       205,                                                                                                                      <>              _3_HIGH_RISK,        COMPACT_OUT,                            FUGITIVE,             _2_MODERATE_RISK, _4_EXTREME_RISK, ISP_II,             _1_LOW_RISK,          RESID_IN_STATE_CUSTD,
+       207,                                                                                                                      <>              ISP_I
+       204,                                                                                                                      <>
+       210,                                                                                                                      <>              _3_HIGH_RISK,        COMPACT_OUT,                            FUGITIVE,             _2_MODERATE_RISK, _4_EXTREME_RISK, ISP_II,             _1_LOW_RISK,          RESID_IN_STATE_CUSTD,
+       213,                                                                                                                      <>              ISP_I
+       219;                                                                                                                      <>
+                                                                                                                                 <>              ALCOHOL,             CURFEW,                                 EMPLOYMENT,           VICIOUS_DOGS,     STOLEN_VEHICLE,  TRUTHFULNESS,       NO_CONTACT_W_VICTM,   EXPLOIT_MATERIAL,
+                                                                                                                                 <>              REGISTRATION_DNA,    FREQUENT_SCHOOLS,                       FEES,                 SEARCHES,         REPORTING,       CONDUCT,            EMPLOYMENT_VERIFY,    LEAVE_COUNTY,         RELEASE,
+       ;                                                                                                                         <>              ABSCONDING,          CHILDREN_CONGREGATE,                    NOT_AT_COURT,         MONTHLY_PAYMENTS, UNEMPLOYED,      ELECTRONIC_MONITOR, SUBSTANCE_TESTING,
+                                                                                                                                 <>              HOME_VISITS,         DISCONNECT_PHONE,                       SEX_STIMULUS_MATERIA, GANG_MEMBERS,     DRUGS,           DNA,                NOT_DATE,             SIGNS_GESTURES,
+       M,                                                                                                                        <>              PHONE_SERVICES,      PAGER,                                  CHEMICAL_ANALYSIS,    ENTERTAIN_LURE,   HMU_ABUSE,       FIREARM_AMMUITION,  ARREST_CITATIONS,
+       O,                                                                                                                        <>              ASSOCIATION,         GED_DIPLOMA,                            INSIGNIAS_EMBLEMS,    VISITS,           THERAPY,         PAINT_PENS,         PORNOGRAPHY,          DOCUMENTS_DATA_PHOTO,
+       D,                                                                                                                        <>              DRIVER_LICENSE_ID,   SPECIAL,                                FREQUENT_GANG_PLACES, FIREARMS_USED,    SUPERVISION_FEE, VEHICLE,            TREATMENT_COUNSELING,
+       H,                                                                                                                        <>              LAW_ENFORCE_CONTACT, ALCOHOL_ESTABLISHMNT,                   RESIDENCE,            POLYGRAPH,        VICTIM_CONTACT,  WEAPONS,            INTERSTATE_COMPACT,
+       U,                                                                                                                        <>              CHILDREN_UNDER_18,   PROVIDE_PHONE_LINE,                     FINANCIAL_AGREEMENT,  NO_ALCOHOL,       HMU_MOVE
+       Q,                                                                                                                        <>
+       G,                                                                                                                        <>              ALCOHOL,             CURFEW,                                 EMPLOYMENT,           VICIOUS_DOGS,     STOLEN_VEHICLE,  TRUTHFULNESS,       NO_CONTACT_W_VICTM,   EXPLOIT_MATERIAL,
+       N,                                                                                                                        <>              REGISTRATION_DNA,    FREQUENT_SCHOOLS,                       FEES,                 SEARCHES,         REPORTING,       CONDUCT,            EMPLOYMENT_VERIFY,    LEAVE_COUNTY,         RELEASE,
+       B;                                                                                                                        <>              ABSCONDING,          CHILDREN_CONGREGATE,                    NOT_AT_COURT,         MONTHLY_PAYMENTS, UNEMPLOYED,      ELECTRONIC_MONITOR, SUBSTANCE_TESTING,
+                                                                                                                                 <>              HOME_VISITS,         DISCONNECT_PHONE,                       SEX_STIMULUS_MATERIA, GANG_MEMBERS,     DRUGS,           DNA,                NOT_DATE,             SIGNS_GESTURES,
+       ;                                                                                                                         <>              PHONE_SERVICES,      PAGER,                                  CHEMICAL_ANALYSIS,    ENTERTAIN_LURE,   HMU_ABUSE,       FIREARM_AMMUITION,  ARREST_CITATIONS,
+                                                                                                                                 <>              ASSOCIATION,         GED_DIPLOMA,                            INSIGNIAS_EMBLEMS,    VISITS,           THERAPY,         PAINT_PENS,         PORNOGRAPHY,          DOCUMENTS_DATA_PHOTO,
+       N,                                                                                                                        <>              DRIVER_LICENSE_ID,   SPECIAL,                                FREQUENT_GANG_PLACES, FIREARMS_USED,
+       X,                                                                                                                        <>
+       U,                                                                                                                        +-
+       M,                                                                                                                        +-
+       I,                                                                                                                        +-
+       A,                                                                                                                        +-
+       G,                                                                                                                        +-
+       C;                                                                                                                        +-
+                                                                                                                                 +-
+       ;                                                                                                                         +-
+                                                                                                                                 +-
+       3-HIGH                RISK,                                                                                               +-
+       COMPACT                                                                                                                   +-
+       OUT,                                                                                                                      +-
+       FUGITIVE,2-MODERATE   RISK,4-EXTREME                          RISK,                                                       +-
+       ISP                   II,1-LOW                                RISK,                                                       +-
+       RESID/IN-STATE        CUSTD,                                                                                              +-
+       ISP                   I;                                                                                                  +-
+                                                                                                                                 +-
+       ;                                                                                                                         +-
+                                                                                                                                 +-
+       ALCOHOL,                                                                                                                  +-
+       CURFEW,                                                                                                                   +-
+       EMPLOYMENT,                                                                                                               +-
+                                                                                                                                 +-
+       VICIOUS               DOGS,                                                                                               +-
+       STOLEN                VEHICLE,                                                                                            +-
+       TRUTHFULNESS,                                                                                                             +-
+       NO                    CONTACT                                 W/VICTM,                                                    +-
+       EXPLOIT               MATERIAL,                                                                                           +-
+       REGISTRATION/DNA,                                                                                                         +-
+       FREQUENT              SCHOOLS,                                                                                            +-
+       FEES,                                                                                                                     +-
+       SEARCHES,                                                                                                                 +-
+       REPORTING,                                                                                                                +-
+       CONDUCT,                                                                                                                  +-
+       EMPLOYMENT            VERIFY,                                                                                             +-
+       LEAVE                 COUNTY,                                                                                             +-
+       RELEASE,                                                                                                                  +-
+       ABSCONDING,                                                                                                               +-
+       CHILDREN              CONGREGATE,                                                                                         +-
+       NOT                   AT                                      COURT,                                                      +-
+       MONTHLY               PAYMENTS,                                                                                           +-
+       UNEMPLOYED,                                                                                                               +-
+       ELECTRONIC            MONITOR,                                                                                            +-
+       SUBSTANCE             TESTING,                                                                                            +-
+       HOME                  VISITS,                                                                                             +-
+       DISCONNECT            PHONE,                                                                                              +-
+       SEX                                                                                                                       +-
+       STIMULUS              MATERIA,                                                                                            +-
+       GANG                                                                                                                      +-
+       MEMBERS,                                                                                                                  +-
+       DRUGS,                                                                                                                    +-
+       DNA,                                                                                                                      +-
+       NOT                   DATE,                                                                                               +-
+       SIGNS/GESTURES,                                                                                                           +-
+       PHONE                 SERVICES,                                                                                           +-
+       PAGER,                                                                                                                    +-
+       CHEMICAL              ANALYSIS,                                                                                           +-
+       ENTERTAIN/LURE,                                                                                                           +-
+       HMU                   ABUSE,                                                                                              +-
+       FIREARM/AMMUITION,                                                                                                        +-
+       ARREST-CITATIONS,                                                                                                         +-
+       ASSOCIATION,                                                                                                              +-
+       GED/DIPLOMA,                                                                                                              +-
+       INSIGNIAS/EMBLEMS,                                                                                                        +-
+       VISITS,                                                                                                                   +-
+       THERAPY,                                                                                                                  +-
+       PAINT/PENS,                                                                                                               +-
+       PORNOGRAPHY,                                                                                                              +-
+       DOCUMENTS/DATA/PHOTO,                                                                                                     +-
+       DRIVER                LICENSE/ID,                                                                                         +-
+       SPECIAL,                                                                                                                  +-
+       FREQUENT              GANG                                    PLACES,                                                     +-
+       FIREARMS              USED,                                                                                               +-
+       SUPERVISION           FEE,                                                                                                +-
+       VEHICLE,                                                                                                                  +-
+       TREATMENT/COUNSELING,                                                                                                     +-
+       LAW                   ENFORCE                                 CONTACT,                                                    +-
+       ALCOHOL               ESTABLISHMNT,                                                                                       +-
+       RESIDENCE,                                                                                                                +-
+       POLYGRAPH,                                                                                                                +-
+       VICTIM                CONTACT,                                                                                            +-
+       WEAPONS,                                                                                                                  +-
+       INTERSTATE            COMPACT,                                                                                            +-
+       CHILDREN              UNDER                                   18,                                                         +-
+       PROVIDE               PHONE                                   LINE,                                                       +-
+       FINANCIAL             AGREEMENT,                                                                                          +-
+       NO                    ALCOHOL,                                                                                            +-
+       HMU                   MOVE;                                                                                               +-
+                                                                                                                                 +-
+       ;                                                                                                                         +-
+                                                                                                                                 -+ ?
+}                                                                                                                                +-
+}                                                                                                                                +-
+                                                                                                                                 -+ ChatGPT      can
+                                                                                                                                 -+ Consider     checking
+                                                                                                                                 -+ important    information.
+                                                                                                                                 -+ make         mistakes.
+public class                 NamespaceElementPropertyHolder          {                                                           <> public       enum                 CaseDispositionDecisionCategoryCodeType {
+public enum                  CaseDispositionDecisionCategoryCodeType extends  {                                                  <> public       enum                 MilitaryDischargeCategoryCodeSimpleType {
+public enum                  MilitaryDischargeCategoryCodeSimpleType {                                                           <> public       enum                 MilitaryDischargeCategoryCodeType       {
+public enum                  MilitaryDischargeCategoryCodeType       extends  {                                                  <> public       enum                 PleaCategoryCodeSimpleType              {
+public enum                  PleaCategoryCodeSimpleType              {                                                           <> public       enum                 PleaCategoryCodeType                    {
+public enum                  PleaCategoryCodeType                    extends  {                                                  <> public       enum                 SupervisionLevelCodeSimpleType          {
+public enum                  SupervisionLevelCodeSimpleType          {                                                           <> public       enum                 SupervisionLevelCodeType                {
+public enum                  SupervisionLevelCodeType                extends  {                                                  <> public       enum                 SupervisionRestrictionCodeSimpleType    {
+public enum                  SupervisionRestrictionCodeSimpleType    {                                                           <> public       enum                 SupervisionRestrictionCodeType          {
+public enum                  SupervisionRestrictionCodeType          extends  {                                                  +-
+                                                                                                                                 -+ SUPERMessage ChatGPT…
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

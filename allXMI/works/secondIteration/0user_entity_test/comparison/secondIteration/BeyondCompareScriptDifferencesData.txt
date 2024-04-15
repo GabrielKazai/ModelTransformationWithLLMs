@@ -1,0 +1,17 @@
+Table Compare
+Produced: 2024-04-15 12:07:08
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0user_entity_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0user_entity_test\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                             2:    1:                 2:
+--------------------------------------------------------------------------
+                                                  +-
+                                                  +-
+                                                  +-
+                                                  +-
+                                                  +-
+                                                  +-
+public List<User> user = new ArrayList<User>()    +-
+                                                  -+ public User[] user
+--------------------------------------------------------------------------

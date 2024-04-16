@@ -1,0 +1,82 @@
+Table Compare
+Produced: 2024-04-16 12:18:38
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\EcorePrimitiveTypes.library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\EcorePrimitiveTypes.library\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                         4:   5: 6: 7: 8:    1:     2:           3:                         4:         5:         6:                  7:                  8:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                        <>        Unspecified, Empty,                     Simple,    Mixed,     ElementOnly
+                                                                        <>        Unspecified, Simple,                    Attribute, Element,   AttributeWildcard,  ElementWildcard,    Group
+                                                                        <>        Unspecified, None,                      ReadOnly,  ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+       public               void                       ()   {           <>
+       }                                                                <>
+       public               void                       ()   {           <>
+       }                                                                <>
+       public               <,>                        void () {        <>
+       }                                                                <>
+                                                                        +-
+                                                                        +-
+                                                                        +-
+       public               void                       ()   {           +-
+       }                                                                +-
+                                                                        +-
+                                                                        +-
+                                                                        +-
+       Unspecified,                                                     +-
+       Empty,                                                           +-
+       Simple,                                                          +-
+       Mixed,                                                           +-
+       ElementOnly;                                                     +-
+                                                                        +-
+       Unspecified,                                                     +-
+       Simple,                                                          +-
+       Attribute,                                                       +-
+       Element,                                                         +-
+       AttributeWildcard,                                               +-
+       ElementWildcard,                                                 +-
+       Group;                                                           +-
+                                                                        +-
+       Unspecified,                                                     +-
+       None,                                                            +-
+       ReadOnly,                                                        +-
+       ReadWrite,                                                       +-
+       ReadOnlyUnsettable,                                              +-
+       ReadWriteUnsettable;                                             +-
+public class                EBigDecimal                {                <> public enum         ContentKind                {
+public class                EBigInteger                {                <> public enum         FeatureKind                {
+public class                EBoolean                   {                <> public enum         VisibilityKind             {
+public class                EBooleanObject             {                <> public class        EBigDecimal                {
+public class                EByte                      {                <> public class        EBigInteger                {
+public class                EByteArray                 {                <> public class        EBoolean                   {
+public class                EByteObject                {                <> public class        EBooleanObject             {
+public class                EChar                      {                <> public class        EByte                      {
+public class                ECharacterObject           {                <> public class        EByteArray                 {
+public class                EDate                      {                <> public class        EByteObject                {
+public class                EDiagnosticChain           {                <> public class        EChar                      {
+public class                EDouble                    {                <> public class        ECharacterObject           {
+public class                EDoubleObject              {                <> public class        EDate                      {
+public class                EEList                     {                <> public class        EDiagnosticChain           {
+public class                EEnumerator                {                <> public class        EDouble                    {
+public class                EFeatureMap                {                <> public class        EDoubleObject              {
+public class                EFeatureMapEntry           {                <> public class        EEList<E>                  {
+public class                EFloat                     {                <> public class        EEnumerator                {
+public class                EFloatObject               {                <> public class        EFeatureMap                {
+public class                EInt                       {                <> public class        EFeatureMapEntry           {
+public class                EIntegerObject             {                <> public class        EFloat                     {
+public class                EJavaClass                 {                <> public class        EFloatObject               {
+public class                EJavaObject                {                <> public class        EInt                       {
+public class                ELong                      {                <> public class        EIntegerObject             {
+public class                ELongObject                {                <> public class        EJavaClass<T>              {
+public class                EMap                       {                <> public class        EJavaObject                {
+public class                EResource                  {                <> public class        ELong                      {
+public class                EResourceSet               {                <> public class        ELongObject                {
+public class                EShort                     {                <> public class        EMap<K,                    V>         {
+public class                EShortObject               {                <> public class        EResource                  {
+public class                EString                    {                <> public class        EResourceSet               {
+public class                ETreeIterator              {                <> public class        EShort                     {
+public class                EInvocationTargetException {                <> public class        EShortObject               {
+public enum                 ContentKind                {                <> public class        EString                    {
+public enum                 FeatureKind                {                <> public class        ETreeIterator<E>           {
+public enum                 VisibilityKind             {                <> public class        EInvocationTargetException {
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

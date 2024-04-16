@@ -180,3 +180,4 @@ NotClassDiagrams
 CopyOfFirstIteration
  
 00example1 
+EcorePrimitiveTypes.library 

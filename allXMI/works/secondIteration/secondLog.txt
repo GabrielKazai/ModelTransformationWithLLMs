@@ -40,6 +40,8 @@ The variable X has the wrong accessor.
 The function X is missing a parameter.
 The function X has the wrong return type.
 The class X is missing several attributes.
+The extends statement of X is incorrect.
+The interface X is missing.
 ---
 of interest:
 1modelio

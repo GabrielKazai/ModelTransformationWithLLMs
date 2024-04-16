@@ -1,0 +1,140 @@
+Text Compare
+Produced: 2024-04-16 13:52:42
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\NIEM-Reference-common-sar\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\NIEM-Reference-common-sar\gpt\gptoutput\cleanGPT_ThirdIteration.java
+                                              +-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum TargetSectorCodeSimpleType {      =  public enum TargetSectorCodeSimpleType {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    EMRG,                                     <>     EMRG, TELCM, SPCFXN, LIVSTK, OTHR, WATR, EDU, COMM, AGRI, HAZMAT, CHEM, CORR, NATRL, CSTL, PRSN, TACTCP, HLTH,
+    TELCM,                                           GVTBLDG, MAIL, RETL, ENTMT, CULTR, TRANS, NCLR, MNMT, POP, FIN, DFNSE, DAMS, ENRG, IT, MASS, MFG, UTL
+    SPCFXN,
+    LIVSTK,
+    OTHR,
+    WATR,
+    EDU,
+    COMM,
+    AGRI,
+    HAZMAT,
+    CHEM,
+    CORR,
+    NATRL,
+    CSTL,
+    PRSN,
+    TACTCP,
+    HLTH,
+    GVTBLDG,
+    MAIL,
+    RETL,
+    ENTMT,
+    CULTR,
+    TRANS,
+    NCLR,
+    MNMT,
+    POP,
+    FIN,
+    DFNSE,
+    DAMS,
+    ENRG,
+    IT,
+    MASS,
+    MFG,
+    UTL;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public class NamespaceElementPropertyHolder { <>
+}
+
+public enum TargetSectorCodeType extends {       public enum TargetSectorCodeType {
+    ;                                                EMRG, TELCM, SPCFXN, LIVSTK, OTHR, WATR, EDU, COMM, AGRI, HAZMAT, CHEM, CORR, NATRL, CSTL, PRSN, TACTCP, HLTH,
+                                                     GVTBLDG, MAIL, RETL, ENTMT, CULTR, TRANS, NCLR, MNMT, POP, FIN, DFNSE, DAMS, ENRG, IT, MASS, MFG, UTL
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum TipClassCodeSimpleType {             public enum TipClassCodeSimpleType {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    FUND,                                     <>     FUND, CYBER, SPCSSBST, BIO, FRAUD, HATE, CNTFTG, INFRA, SPCSA, VRUS, SPCSP, EXPL, CTMN, INCEND, NCLR, LAUND, CHEM,
+    CYBER,
+    SPCSSBST,
+    BIO,
+    FRAUD,
+    HATE,
+    CNTFTG,
+    INFRA,
+    SPCSA,
+    VRUS,
+    SPCSP,
+    EXPL,
+    CTMN,
+    INCEND,
+    NCLR,
+    LAUND,
+    CHEM,
+    THRTPUB;                                         THRTPUB
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum TipClassCodeType extends {        <> public enum TipClassCodeType {
+                                                     FUND, CYBER, SPCSSBST, BIO, FRAUD, HATE, CNTFTG, INFRA, SPCSA, VRUS, SPCSP, EXPL, CTMN, INCEND, NCLR, LAUND, CHEM,
+    ;                                                THRTPUB
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum TipDomainCodeSimpleType {            public enum TipDomainCodeSimpleType {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    G,                                        <>     G, D, F, H, E, A, B, C
+    D,
+    F,
+    H,
+    E,
+    A,
+    B,
+    C;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum TipDomainCodeType extends {       <> public enum TipDomainCodeType {
+    ;                                                G, D, F, H, E, A, B, C
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum ContentKind {                        public enum ContentKind {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum FeatureKind {                        public enum FeatureKind {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+
+public enum VisibilityKind {                     public enum VisibilityKind {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                 }
+    None,
+    ReadOnly,                                    class NamespaceElementPropertyHolder {
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                             =  }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------

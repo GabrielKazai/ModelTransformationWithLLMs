@@ -1,0 +1,134 @@
+Text Compare
+Produced: 2024-04-16 13:54:25
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\testing\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\testing\gpt\gptoutput\cleanGPT_ThirdIteration.java
+                                                                                                                       <>
+public enum VisibilityKind {                                                                                              public enum VisibilityKind {    public,    private,    protected,    package}
+    public,
+    private,
+    protected,
+    package;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       =
+public abstract class BaseClass {                                                                                         public abstract class BaseClass {
+    public boolean readWriteSingleValuedPrimitiveAttribute = true;                                                            public boolean readWriteSingleValuedPrimitiveAttribute = true;
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       <>     public UsedClass subsettedReadWriteAttribute;
+                                                                                                                              public UsedClass subsettedReadOnlyAttribute;
+    public boolean[] slot;                                                                                                    public boolean[] slot = new boolean[0];
+                                                                                                                              public boolean[] readWriteDerivedAttribute = new boolean[0];
+                                                                                                                              public boolean[] readOnlyDerivedAttribute = new boolean[0];
+                                                                                                                              public boolean readWriteDerivedUnionAttribute;
+                                                                                                                              public boolean readOnlyDerivedUnionAttribute;
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       =
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public List<Boolean> readWriteDerivedAttribute() {                                                                 <>     public boolean[] readWriteDerivedAttribute() {
+        // TODO Auto-generated return
+        return false;                                                                                                             return new boolean[0];
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    }                                                                                                                  =      }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public List<Boolean> readOnlyDerivedAttribute() {                                                                  <>     public boolean[] readOnlyDerivedAttribute() {
+        // TODO Auto-generated return
+        return false;                                                                                                             return new boolean[0];
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    }                                                                                                                  =      }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public List<Boolean> aRealOperation() {                                                                            <>     public boolean[] aRealOperation() {
+        // TODO Auto-generated return
+        return false;                                                                                                             return new boolean[0];
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    }                                                                                                                  =      }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       +-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                                                                      =  }
+
+public class UsedClass {                                                                                                  public class UsedClass {
+    public Class oppositeReadWriteSingleValuedObjectAttribute;                                                                public Class oppositeReadWriteSingleValuedObjectAttribute;
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       +-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                                                                                      =  }
+
+public class Class extends BaseClass {                                                                                    public class Class extends BaseClass {
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                       <> public UsedClass readWriteSingleValuedObjectAttribute;
+    public UsedClass[] subsetReadWriteAttribute;                                                                          public UsedClass[] subsetReadWriteAttribute = new UsedClass[0];
+
+    public UsedClass subsetReadOnlyAttribute;                                                                             public UsedClass subsetReadOnlyAttribute;
+
+    public boolean readWriteSingleValuedPrimitiveAttribute = false;                                                       public boolean readWriteSingleValuedPrimitiveAttribute;
+
+    public unlimitedNatural readOnlySingleValuedPrimitiveAttribute = 1;                                                   public long readOnlySingleValuedPrimitiveAttribute;
+                                                                                                                          // Corrected type to `long` as per correction requirement. public boolean[]
+    public boolean[] readWriteMultiValuedPrimitiveAttribute;                                                              // readWriteMultiValuedPrimitiveAttribute = new boolean[0]; public boolean[]
+
+    public boolean[] readOnlyMultiValuedPrimitiveAttribute;                                                               // readOnlyMultiValuedPrimitiveAttribute = new boolean[0]; public
+
+    public VisibilityKind readWriteSingleValuedEnumerationAttribute = public;
+
+    public VisibilityKind readOnlySingleValuedEnumerationAttribute;
+
+    public VisibilityKind[] readWriteMultiValuedEnumerationAttribute;                                                     // VisibilityKind[] readWriteMultiValuedEnumerationAttribute = new
+                                                                                                                          // VisibilityKind[0]; public VisibilityKind[]
+    public VisibilityKind[] readOnlyMultiValuedEnumerationAttribute;                                                      // readOnlyMultiValuedEnumerationAttribute = new VisibilityKind[0]; public
+
+    public UsedClass readOnlySingleValuedObjectAttribute;                                                                 // UsedClass readOnlySingleValuedObjectAttribute; public UsedClass
+
+    public UsedClass[] readWriteMultiValuedObjectAttribute;                                                               // readWriteMultiValuedObjectAttribute; public UsedClass
+
+    public UsedClass[] readOnlyMultiValuedObjectAttribute;                                                                // readOnlyMultiValuedObjectAttribute; public boolean opReturnPrimitiveSV() {
+
+    public UsedClass readWriteSingleValuedObjectAttribute;
+
+    public boolean opReturnPrimitiveSV() {                                                                                // return false; } public boolean[] opReturnPrimitiveMV() { return new
+        // TODO Auto-generated return
+        return false;
+    }
+
+    public List<Boolean> opReturnPrimitiveMV() {
+        // TODO Auto-generated return
+        return false;
+    }
+
+    public VisibilityKind opReturnEnumerationSV() {                                                                       // boolean[0]; } public VisibilityKind opReturnEnumerationSV() { return null; }
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public List<VisibilityKind> opReturnEnumerationMV() {                                                                 // public VisibilityKind[] opReturnEnumerationMV() { return new
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public UsedClass opReturnObjectSV() {                                                                                 // VisibilityKind[0]; } public UsedClass opReturnObjectSV() { return null; }
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public List<UsedClass> opReturnObjectMV() {                                                                           // public UsedClass opReturnObjectMV() { return null; } public boolean
+        // TODO Auto-generated return
+        return null;
+    }
+
+    public void opParameters(final boolean pinprimitiveSV, final VisibilityKind pinenumerationSV,                         // opParameters(boolean pinprimitiveSV, VisibilityKind pinenumerationSV,
+            final UsedClass pinobjectSV, final List<Boolean> pinprimitiveMV,                                              // UsedClass pinobjectSV, boolean[] pinprimitiveMV, VisibilityKind[]
+            final List<VisibilityKind> pinenumerationMV, final List<UsedClass> pinobjectMV, boolean pinoutprimitiveSV,    // pinenumerationMV, UsedClass[] pinobjectMV, boolean pinoutprimitiveSV,
+            VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV, List<Boolean> pinoutprimitiveMV,                // VisibilityKind pinoutenumerationSV, UsedClass pinoutobjectSV, boolean[]
+            List<VisibilityKind> pinoutenumerationMV, List<UsedClass> pinoutobjectMV, boolean poutprimitiveSV,            // pinoutprimitiveMV, VisibilityKind[] pinoutenumerationMV, UsedClass[]
+            VisibilityKind poutenumerationSV, UsedClass poutobjectSV, List<Boolean> poutprimitiveMV,                      // pinoutobjectMV, boolean poutprimitiveSV, VisibilityKind poutenumerationSV,
+            List<VisibilityKind> poutenumerationMV, List<UsedClass> poutobjectMV) {                                       // UsedClass poutobjectSV, boolean[] poutprimitiveMV, VisibilityKind[]
+    }                                                                                                                     // poutenumerationMV, UsedClass[] poutobjectMV) { return false; }}
+
+}
+
+public class unlimitedNatural {
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

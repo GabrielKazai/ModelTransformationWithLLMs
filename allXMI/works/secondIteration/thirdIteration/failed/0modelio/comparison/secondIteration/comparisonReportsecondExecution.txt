@@ -1,0 +1,4 @@
+The variable startDate has the wrong type.
+The variable endDate has the wrong type.
+The variable hireDate has the wrong type.
+The class dateTime is missing.

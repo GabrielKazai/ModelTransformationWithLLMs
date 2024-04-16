@@ -1,0 +1,62 @@
+Table Compare
+Produced: 2024-04-16 14:34:31
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0modelio\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0modelio\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                           2:    1:                               2:
+------------------------------------------------------------------------------------------------------
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+}                                                               +-
+private dateTime endDate                                        +-
+private dateTime hireDate                                       +-
+private dateTime startDate                                      +-
+                                                                -+ private List<Employee> employees
+private List<Employee> employees = new ArrayList<Employee>()    +-
+                                                                -+ private List<Task> tasks
+private List<Task> tasks = new ArrayList<Task>()                +-
+                                                                -+ private String endDate
+                                                                -+ private String hireDate
+                                                                -+ private String startDate
+public class dateTime {                                         +-
+------------------------------------------------------------------------------------------------------

@@ -23,12 +23,15 @@ public enum ExplosiveComponentCodeSimpleType {
     18;
 }
 
+
 public class NamespaceElementPropertyHolder {
 }
+
 
 public enum ExplosiveComponentCodeType extends {
     ;
 }
+
 
 public enum ExplosiveContainerCodeSimpleType {
     13,
@@ -48,9 +51,11 @@ public enum ExplosiveContainerCodeSimpleType {
     3;
 }
 
+
 public enum ExplosiveContainerCodeType extends {
     ;
 }
+
 
 public enum ExplosiveFillerCodeSimpleType {
     10,
@@ -82,9 +87,11 @@ public enum ExplosiveFillerCodeSimpleType {
     13;
 }
 
+
 public enum ExplosiveFillerCodeType extends {
     ;
 }
+
 
 public enum ExplosiveIgnitionCodeSimpleType {
     11,
@@ -124,9 +131,11 @@ public enum ExplosiveIgnitionCodeSimpleType {
     35;
 }
 
+
 public enum ExplosiveIgnitionCodeType extends {
     ;
 }
+
 
 public enum ContentKind {
     Unspecified,
@@ -135,6 +144,7 @@ public enum ContentKind {
     Mixed,
     ElementOnly;
 }
+
 
 public enum FeatureKind {
     Unspecified,
@@ -146,6 +156,7 @@ public enum FeatureKind {
     Group;
 }
 
+
 public enum VisibilityKind {
     Unspecified,
     None,
@@ -154,3 +165,4 @@ public enum VisibilityKind {
     ReadOnlyUnsettable,
     ReadWriteUnsettable;
 }
+

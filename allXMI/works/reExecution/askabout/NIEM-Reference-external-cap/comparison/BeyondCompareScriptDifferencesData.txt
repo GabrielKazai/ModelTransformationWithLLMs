@@ -1,5 +1,5 @@
 Table Compare
-Produced: 2024-03-29 17:41:08
+Produced: 2024-04-17 11:52:11
 
 Mode:  Differences
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-external-cap\oracle\combinedOracle\cleanOracle.java
@@ -18,7 +18,7 @@ Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\N
        public               class                          area_._type      {  <>
        public               class                          geocode_._type   {  <>
        }                                                                       <>
-       }                                                                       <>
+       }                                                                       +-
                                                                                +-
        class                category_._type                {                   +-
        }                                                                       +-
@@ -86,26 +86,8 @@ Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\N
                                                                                -+ }
                                                                                -+ }
                                                                                -+ }
-                                                                               -+ }
-                                                                               -+ class Alert {
-                                                                               -+ class Area {
-                                                                               -+ class EventCode {
-                                                                               -+ class Geocode {
-                                                                               -+ class Info {
-                                                                               -+ class NamespaceElementPropertyHolder {
-                                                                               -+ class Parameter {
-                                                                               -+ class Resource {
-                                                                               -+ enum Category {
-                                                                               -+ enum Certainty {
-                                                                               -+ enum MsgType {
-                                                                               -+ enum ResponseType {
-                                                                               -+ enum Scope {
-                                                                               -+ enum Severity {
-                                                                               -+ enum Status {
-                                                                               -+ enum Urgency {
                                                                                -+ private Alert alert
                                                                                -+ private Area area
-                                                                               -+ private Category category
                                                                                -+ private Certainty certainty
                                                                                -+ private EventCode eventCode
                                                                                -+ private Geocode geocode
@@ -115,6 +97,7 @@ Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\N
                                                                                -+ private Object altitude
                                                                                -+ private Object areaDesc
                                                                                -+ private Object audience
+                                                                               -+ private Object category
                                                                                -+ private Object ceiling
                                                                                -+ private Object circle
                                                                                -+ private Object code
@@ -163,6 +146,21 @@ public class                NamespaceElementPropertyHolder {                   +
 public enum                 ContentKind                    {                   +-
 public enum                 FeatureKind                    {                   +-
 public enum                 VisibilityKind                 {                   +-
+                                                                               -+ public class Alert {
+                                                                               -+ public class Area {
+                                                                               -+ public class Certainty {
+                                                                               -+ public class EventCode {
+                                                                               -+ public class Geocode {
+                                                                               -+ public class Info {
+                                                                               -+ public class MsgType {
+                                                                               -+ public class NamespaceElementPropertyHolder {
+                                                                               -+ public class Parameter {
+                                                                               -+ public class Resource {
+                                                                               -+ public class ResponseType {
+                                                                               -+ public class Scope {
+                                                                               -+ public class Severity {
+                                                                               -+ public class Status {
+                                                                               -+ public class Urgency {
                                                                                -+ public enum ContentKind {
                                                                                -+ public enum FeatureKind {
                                                                                -+ public enum VisibilityKind {

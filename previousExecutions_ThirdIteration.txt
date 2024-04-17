@@ -8,3 +8,5 @@ testing
 done
 failed
 0modelio
+1fUML_Library
+xmlParsingTest

@@ -1,22 +1,10 @@
-public enum ContentKind {
-    Unspecified, Empty, Simple, Mixed, ElementOnly
-}
-
-public enum FeatureKind {
-    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
-}
-
-public enum VisibilityKind {
-    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
-}
-
-class NamespaceElementPropertyHolder {
+public class NamespaceElementPropertyHolder {
     private Object value;
     private Alert alert;
     private Object valueName;
 }
 
-class Alert {
+public class Alert {
     private Object identifier;
     private Object sender;
     private Object sent;
@@ -33,18 +21,18 @@ class Alert {
     private Info info;
 }
 
-enum Status {
+public class Status {
 }
 
-enum MsgType {
+public class MsgType {
 }
 
-enum Scope {
+public class Scope {
 }
 
-class Info {
+public class Info {
     private Object language;
-    private Category category;
+    private Object category;
     private Object event;
     private ResponseType responseType;
     private Urgency urgency;
@@ -66,32 +54,29 @@ class Info {
     private Area area;
 }
 
-enum Category {
+public class ResponseType {
 }
 
-enum ResponseType {
+public class Urgency {
 }
 
-enum Urgency {
+public class Severity {
 }
 
-enum Severity {
+public class Certainty {
 }
 
-enum Certainty {
-}
-
-class EventCode {
+public class EventCode {
     private Object valueName;
     private Object value;
 }
 
-class Parameter {
+public class Parameter {
     private Object valueName;
     private Object value;
 }
 
-class Resource {
+public class Resource {
     private Object resourceDesc;
     private Object mimeType;
     private Object size;
@@ -100,7 +85,7 @@ class Resource {
     private Object digest;
 }
 
-class Area {
+public class Area {
     private Object areaDesc;
     private Object polygon;
     private Object circle;
@@ -109,7 +94,19 @@ class Area {
     private Object ceiling;
 }
 
-class Geocode {
+public class Geocode {
     private Object valueName;
     private Object value;
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
 }

@@ -3,3 +3,7 @@ done
 reExecution
 thirdIteration
 0modelio
+NIEM-Reference-common-iso_4217
+1fUML_Library
+1GRAAnnotationModel
+xmlParsingTest

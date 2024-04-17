@@ -1,0 +1,361 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+Java Classes from UML
+Java Class Model Creation
+Java Classes for UML
+New chat
+New chat
+New chat
+Yesterday
+New chat
+New chat
+New chat
+New chat
+Java Code Generation
+New chat
+Java Code for UML
+Java Model Creation
+New chat
+Java Classes from UML
+New chat
+Java Models from UML
+Java Code Generation
+Java Code Generation
+Java Enums from XMI
+Java Classes: UML Conversion
+Java Model Classes
+Java XMI UML Classes
+Java Class Generation
+Java Classes from UML
+Java Classes Generated
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_tH8nAO3LEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_tH8nAe3LEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_tH8nAu3LEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tH8nA-3LEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tH8nBO3LEe6yiIkslZcBIA" name="iso_4217">
+    <packagedElement xmi:type="uml:Package" xmi:id="_tH8nBe3LEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tH8nBu3LEe6yiIkslZcBIA" name="iso_4217">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_tH8nB-3LEe6yiIkslZcBIA" name="CurrencyCodeSimpleType">
+          <ownedLiteral xmi:id="_tH8nCO3LEe6yiIkslZcBIA" name="BHD"/>
+          <ownedLiteral xmi:id="_tH8nCe3LEe6yiIkslZcBIA" name="ZAR"/>
+          <ownedLiteral xmi:id="_tH8nCu3LEe6yiIkslZcBIA" name="UAH"/>
+          <ownedLiteral xmi:id="_tH8nC-3LEe6yiIkslZcBIA" name="ZWD"/>
+          <ownedLiteral xmi:id="_tH8nDO3LEe6yiIkslZcBIA" name="LBP"/>
+          <ownedLiteral xmi:id="_tH8nDe3LEe6yiIkslZcBIA" name="XFO"/>
+          <ownedLiteral xmi:id="_tH8nDu3LEe6yiIkslZcBIA" name="BEF"/>
+          <ownedLiteral xmi:id="_tH8nD-3LEe6yiIkslZcBIA" name="VND"/>
+          <ownedLiteral xmi:id="_tH8nEO3LEe6yiIkslZcBIA" name="ATS"/>
+          <ownedLiteral xmi:id="_tH8nEe3LEe6yiIkslZcBIA" name="SLL"/>
+          <ownedLiteral xmi:id="_tH8nEu3LEe6yiIkslZcBIA" name="YUM"/>
+          <ownedLiteral xmi:id="_tH8nE-3LEe6yiIkslZcBIA" name="AUD"/>
+          <ownedLiteral xmi:id="_tH8nFO3LEe6yiIkslZcBIA" name="AFA"/>
+          <ownedLiteral xmi:id="_tH8nFe3LEe6yiIkslZcBIA" name="KYD"/>
+          <ownedLiteral xmi:id="_tH8nFu3LEe6yiIkslZcBIA" name="TJS"/>
+          <ownedLiteral xmi:id="_tH8nF-3LEe6yiIkslZcBIA" name="JOD"/>
+          <ownedLiteral xmi:id="_tH8nGO3LEe6yiIkslZcBIA" name="IDR"/>
+          <ownedLiteral xmi:id="_tH8nGe3LEe6yiIkslZcBIA" name="BBD"/>
+          <ownedLiteral xmi:id="_tH8nGu3LEe6yiIkslZcBIA" name="SHP"/>
+          <ownedLiteral xmi:id="_tH8nG-3LEe6yiIkslZcBIA" name="MYR"/>
+          <ownedLiteral xmi:id="_tH8nHO3LEe6yiIkslZcBIA" name="KMF"/>
+          <ownedLiteral xmi:id="_tH8nHe3LEe6yiIkslZcBIA" name="KZT"/>
+          <ownedLiteral xmi:id="_tH8nHu3LEe6yiIkslZcBIA" name="SAR"/>
+          <ownedLiteral xmi:id="_tH8nH-3LEe6yiIkslZcBIA" name="PGK"/>
+          <ownedLiteral xmi:id="_tH8nIO3LEe6yiIkslZcBIA" name="MMK"/>
+          <ownedLiteral xmi:id="_tH8nIe3LEe6yiIkslZcBIA" name="MRO"/>
+          <ownedLiteral xmi:id="_tH8nIu3LEe6yiIkslZcBIA" name="GYD"/>
+          <ownedLiteral xmi:id="_tH8nI-3LEe6yiIkslZcBIA" name="XBB"/>
+          <ownedLiteral xmi:id="_tH8nJO3LEe6yiIkslZcBIA" name="AOR"/>
+          <ownedLiteral xmi:id="_tH8nJe3LEe6yiIkslZcBIA" name="XAF"/>
+          <ownedLiteral xmi:id="_tH8nJu3LEe6yiIkslZcBIA" name="LSL"/>
+          <ownedLiteral xmi:id="_tH8nJ-3LEe6yiIkslZcBIA" name="MXN"/>
+          <ownedLiteral xmi:id="_tH8nKO3LEe6yiIkslZcBIA" name="BWP"/>
+          <ownedLiteral xmi:id="_tH8nKe3LEe6yiIkslZcBIA" name="PAB"/>
+          <ownedLiteral xmi:id="_tH8nKu3LEe6yiIkslZcBIA" name="TND"/>
+          <ownedLiteral xmi:id="_tH8nK-3LEe6yiIkslZcBIA" name="ZMK"/>
+          <ownedLiteral xmi:id="_tH8nLO3LEe6yiIkslZcBIA" name="KGS"/>
+          <ownedLiteral xmi:id="_tH8nLe3LEe6yiIkslZcBIA" name="EUR"/>
+          <ownedLiteral xmi:id="_tH8nLu3LEe6yiIkslZcBIA" name="TWD"/>
+          <ownedLiteral xmi:id="_tH8nL-3LEe6yiIkslZcBIA" name="UYU"/>
+          <ownedLiteral xmi:id="_tH8nMO3LEe6yiIkslZcBIA" name="SCR"/>
+          <ownedLiteral xmi:id="_tH8nMe3LEe6yiIkslZcBIA" name="KRW"/>
+          <ownedLiteral xmi:id="_tH8nMu3LEe6yiIkslZcBIA" name="CLF"/>
+          <ownedLiteral xmi:id="_tH8nM-3LEe6yiIkslZcBIA" name="ILS"/>
+          <ownedLiteral xmi:id="_tH8nNO3LEe6yiIkslZcBIA" name="PHP"/>
+          <ownedLiteral xmi:id="_tH8nNe3LEe6yiIkslZcBIA" name="TMM"/>
+          <ownedLiteral xmi:id="_tH8nNu3LEe6yiIkslZcBIA" name="XDR"/>
+          <ownedLiteral xmi:id="_tH8nN-3LEe6yiIkslZcBIA" name="CRC"/>
+          <ownedLiteral xmi:id="_tH8nOO3LEe6yiIkslZcBIA" name="CZK"/>
+          <ownedLiteral xmi:id="_tH8nOe3LEe6yiIkslZcBIA" name="DZD"/>
+          <ownedLiteral xmi:id="_tH8nOu3LEe6yiIkslZcBIA" name="XOF"/>
+          <ownedLiteral xmi:id="_tH8nO-3LEe6yiIkslZcBIA" name="SKK"/>
+          <ownedLiteral xmi:id="_tH8nPO3LEe6yiIkslZcBIA" name="ZAL"/>
+          <ownedLiteral xmi:id="_tH8nPe3LEe6yiIkslZcBIA" name="EEK"/>
+          <ownedLiteral xmi:id="_tH8nPu3LEe6yiIkslZcBIA" name="GBP"/>
+          <ownedLiteral xmi:id="_tH8nP-3LEe6yiIkslZcBIA" name="NIO"/>
+          <ownedLiteral xmi:id="_tH8nQO3LEe6yiIkslZcBIA" name="BZD"/>
+          <ownedLiteral xmi:id="_tH8nQe3LEe6yiIkslZcBIA" name="FRF"/>
+          <ownedLiteral xmi:id="_tH8nQu3LEe6yiIkslZcBIA" name="THB"/>
+          <ownedLiteral xmi:id="_tH8nQ-3LEe6yiIkslZcBIA" name="XBD"/>
+          <ownedLiteral xmi:id="_tH8nRO3LEe6yiIkslZcBIA" name="MDL"/>
+          <ownedLiteral xmi:id="_tH8nRe3LEe6yiIkslZcBIA" name="MTL"/>
+          <ownedLiteral xmi:id="_tH8nRu3LEe6yiIkslZcBIA" name="SOS"/>
+          <ownedLiteral xmi:id="_tH8nR-3LEe6yiIkslZcBIA" name="MKD"/>
+          <ownedLiteral xmi:id="_tH8nSO3LEe6yiIkslZcBIA" name="SBD"/>
+          <ownedLiteral xmi:id="_tH8nSe3LEe6yiIkslZcBIA" name="SIT"/>
+          <ownedLiteral xmi:id="_tH8nSu3LEe6yiIkslZcBIA" name="GRD"/>
+          <ownedLiteral xmi:id="_tH8nS-3LEe6yiIkslZcBIA" name="XBC"/>
+          <ownedLiteral xmi:id="_tH8nTO3LEe6yiIkslZcBIA" name="HUF"/>
+          <ownedLiteral xmi:id="_tH8nTe3LEe6yiIkslZcBIA" name="MGF"/>
+          <ownedLiteral xmi:id="_tH8nTu3LEe6yiIkslZcBIA" name="HNL"/>
+          <ownedLiteral xmi:id="_tH8nT-3LEe6yiIkslZcBIA" name="KHR"/>
+          <ownedLiteral xmi:id="_tH8nUO3LEe6yiIkslZcBIA" name="TOP"/>
+          <ownedLiteral xmi:id="_tH8nUe3LEe6yiIkslZcBIA" name="ESP"/>
+          <ownedLiteral xmi:id="_tH8nUu3LEe6yiIkslZcBIA" name="XAG"/>
+          <ownedLiteral xmi:id="_tH8nU-3LEe6yiIkslZcBIA" name="SDD"/>
+          <ownedLiteral xmi:id="_tH8nVO3LEe6yiIkslZcBIA" name="USS"/>
+          <ownedLiteral xmi:id="_tH8nVe3LEe6yiIkslZcBIA" name="INR"/>
+          <ownedLiteral xmi:id="_tH8nVu3LEe6yiIkslZcBIA" name="BMD"/>
+          <ownedLiteral xmi:id="_tH8nV-3LEe6yiIkslZcBIA" name="MOP"/>
+          <ownedLiteral xmi:id="_tH8nWO3LEe6yiIkslZcBIA" name="MWK"/>
+          <ownedLiteral xmi:id="_tH8nWe3LEe6yiIkslZcBIA" name="UZS"/>
+          <ownedLiteral xmi:id="_tH8nWu3LEe6yiIkslZcBIA" name="LKR"/>
+          <ownedLiteral xmi:id="_tH8nW-3LEe6yiIkslZcBIA" name="MZM"/>
+          <ownedLiteral xmi:id="_tH8nXO3LEe6yiIkslZcBIA" name="ERN"/>
+          <ownedLiteral xmi:id="_tH8nXe3LEe6yiIkslZcBIA" name="CDF"/>
+          <ownedLiteral xmi:id="_tH8nXu3LEe6yiIkslZcBIA" name="CVE"/>
+          <ownedLiteral xmi:id="_tH8nX-3LEe6yiIkslZcBIA" name="XPF"/>
+          <ownedLiteral xmi:id="_tH8nYO3LEe6yiIkslZcBIA" name="GNF"/>
+          <ownedLiteral xmi:id="_tH8nYe3LEe6yiIkslZcBIA" name="XTS"/>
+          <ownedLiteral xmi:id="_tH8nYu3LEe6yiIkslZcBIA" name="UGX"/>
+          <ownedLiteral xmi:id="_tH8nY-3LEe6yiIkslZcBIA" name="MUR"/>
+          <ownedLiteral xmi:id="_tH8nZO3LEe6yiIkslZcBIA" name="GTQ"/>
+          <ownedLiteral xmi:id="_tH8nZe3LEe6yiIkslZcBIA" name="XAU"/>
+          <ownedLiteral xmi:id="_tH8nZu3LEe6yiIkslZcBIA" name="NOK"/>
+          <ownedLiteral xmi:id="_tH8nZ-3LEe6yiIkslZcBIA" name="XCD"/>
+          <ownedLiteral xmi:id="_tH8naO3LEe6yiIkslZcBIA" name="WST"/>
+          <ownedLiteral xmi:id="_tH8nae3LEe6yiIkslZcBIA" name="PTE"/>
+          <ownedLiteral xmi:id="_tH8nau3LEe6yiIkslZcBIA" name="TPE"/>
+          <ownedLiteral xmi:id="_tH8na-3LEe6yiIkslZcBIA" name="LTL"/>
+          <ownedLiteral xmi:id="_tH8nbO3LEe6yiIkslZcBIA" name="ISK"/>
+          <ownedLiteral xmi:id="_tH8nbe3LEe6yiIkslZcBIA" name="CLP"/>
+          <ownedLiteral xmi:id="_tH8nbu3LEe6yiIkslZcBIA" name="GMD"/>
+          <ownedLiteral xmi:id="_tH8nb-3LEe6yiIkslZcBIA" name="ZRN"/>
+          <ownedLiteral xmi:id="_tH8ncO3LEe6yiIkslZcBIA" name="DKK"/>
+          <ownedLiteral xmi:id="_tH8nce3LEe6yiIkslZcBIA" name="KPW"/>
+          <ownedLiteral xmi:id="_tH8ncu3LEe6yiIkslZcBIA" name="NLG"/>
+          <ownedLiteral xmi:id="_tH8nc-3LEe6yiIkslZcBIA" name="ECV"/>
+          <ownedLiteral xmi:id="_tH8ndO3LEe6yiIkslZcBIA" name="KWD"/>
+          <ownedLiteral xmi:id="_tH8nde3LEe6yiIkslZcBIA" name="DOP"/>
+          <ownedLiteral xmi:id="_tH8ndu3LEe6yiIkslZcBIA" name="GEL"/>
+          <ownedLiteral xmi:id="_tH8nd-3LEe6yiIkslZcBIA" name="ALL"/>
+          <ownedLiteral xmi:id="_tH8neO3LEe6yiIkslZcBIA" name="XFU"/>
+          <ownedLiteral xmi:id="_tH8nee3LEe6yiIkslZcBIA" name="ITL"/>
+          <ownedLiteral xmi:id="_tH8neu3LEe6yiIkslZcBIA" name="TTD"/>
+          <ownedLiteral xmi:id="_tH8ne-3LEe6yiIkslZcBIA" name="GHC"/>
+          <ownedLiteral xmi:id="_tH8nfO3LEe6yiIkslZcBIA" name="LUF"/>
+          <ownedLiteral xmi:id="_tH8nfe3LEe6yiIkslZcBIA" name="OMR"/>
+          <ownedLiteral xmi:id="_tH8nfu3LEe6yiIkslZcBIA" name="USN"/>
+          <ownedLiteral xmi:id="_tH8nf-3LEe6yiIkslZcBIA" name="BTN"/>
+          <ownedLiteral xmi:id="_tH8ngO3LEe6yiIkslZcBIA" name="HKD"/>
+          <ownedLiteral xmi:id="_tH8nge3LEe6yiIkslZcBIA" name="STD"/>
+          <ownedLiteral xmi:id="_tH8ngu3LEe6yiIkslZcBIA" name="PEN"/>
+          <ownedLiteral xmi:id="_tH8ng-3LEe6yiIkslZcBIA" name="RUB"/>
+          <ownedLiteral xmi:id="_tH8nhO3LEe6yiIkslZcBIA" name="VUV"/>
+          <ownedLiteral xmi:id="_tH8nhe3LEe6yiIkslZcBIA" name="YER"/>
+          <ownedLiteral xmi:id="_tH8nhu3LEe6yiIkslZcBIA" name="LVL"/>
+          <ownedLiteral xmi:id="_tH8nh-3LEe6yiIkslZcBIA" name="MNT"/>
+          <ownedLiteral xmi:id="_tH8niO3LEe6yiIkslZcBIA" name="BSD"/>
+          <ownedLiteral xmi:id="_tH8nie3LEe6yiIkslZcBIA" name="BDT"/>
+          <ownedLiteral xmi:id="_tH8niu3LEe6yiIkslZcBIA" name="DJF"/>
+          <ownedLiteral xmi:id="_tH8ni-3LEe6yiIkslZcBIA" name="AZM"/>
+          <ownedLiteral xmi:id="_tH8njO3LEe6yiIkslZcBIA" name="IEP"/>
+          <ownedLiteral xmi:id="_tH8nje3LEe6yiIkslZcBIA" name="ANG"/>
+          <ownedLiteral xmi:id="_tH8nju3LEe6yiIkslZcBIA" name="XXX"/>
+          <ownedLiteral xmi:id="_tH8nj-3LEe6yiIkslZcBIA" name="EGP"/>
+          <ownedLiteral xmi:id="_tH8nkO3LEe6yiIkslZcBIA" name="SYP"/>
+          <ownedLiteral xmi:id="_tH8nke3LEe6yiIkslZcBIA" name="TRL"/>
+          <ownedLiteral xmi:id="_tH8nku3LEe6yiIkslZcBIA" name="LRD"/>
+          <ownedLiteral xmi:id="_tH8nk-3LEe6yiIkslZcBIA" name="IRR"/>
+          <ownedLiteral xmi:id="_tH8nlO3LEe6yiIkslZcBIA" name="GWP"/>
+          <ownedLiteral xmi:id="_tH8nle3LEe6yiIkslZcBIA" name="CUP"/>
+          <ownedLiteral xmi:id="_tH8nlu3LEe6yiIkslZcBIA" name="TJR"/>
+          <ownedLiteral xmi:id="_tH8nl-3LEe6yiIkslZcBIA" name="ARS"/>
+          <ownedLiteral xmi:id="_tH8nmO3LEe6yiIkslZcBIA" name="GIP"/>
+          <ownedLiteral xmi:id="_tH8nme3LEe6yiIkslZcBIA" name="ROL"/>
+          <ownedLiteral xmi:id="_tH8nmu3LEe6yiIkslZcBIA" name="BGN"/>
+          <ownedLiteral xmi:id="_tH8nm-3LEe6yiIkslZcBIA" name="TZS"/>
+          <ownedLiteral xmi:id="_tH8nnO3LEe6yiIkslZcBIA" name="AWG"/>
+          <ownedLiteral xmi:id="_tH8nne3LEe6yiIkslZcBIA" name="JMD"/>
+          <ownedLiteral xmi:id="_tH8nnu3LEe6yiIkslZcBIA" name="ADP"/>
+          <ownedLiteral xmi:id="_tH8nn-3LEe6yiIkslZcBIA" name="CNY"/>
+          <ownedLiteral xmi:id="_tH8noO3LEe6yiIkslZcBIA" name="KES"/>
+          <ownedLiteral xmi:id="_tH8noe3LEe6yiIkslZcBIA" name="SEK"/>
+          <ownedLiteral xmi:id="_tH8nou3LEe6yiIkslZcBIA" name="BND"/>
+          <ownedLiteral xmi:id="_tH8no-3LEe6yiIkslZcBIA" name="AED"/>
+          <ownedLiteral xmi:id="_tH8npO3LEe6yiIkslZcBIA" name="PLN"/>
+          <ownedLiteral xmi:id="_tH8npe3LEe6yiIkslZcBIA" name="BIF"/>
+          <ownedLiteral xmi:id="_tH8npu3LEe6yiIkslZcBIA" name="HTG"/>
+          <ownedLiteral xmi:id="_tH8np-3LEe6yiIkslZcBIA" name="RUR"/>
+          <ownedLiteral xmi:id="_tH8nqO3LEe6yiIkslZcBIA" name="QAR"/>
+          <ownedLiteral xmi:id="_tH8nqe3LEe6yiIkslZcBIA" name="MXV"/>
+          <ownedLiteral xmi:id="_tH8nqu3LEe6yiIkslZcBIA" name="CHF"/>
+          <ownedLiteral xmi:id="_tH8nq-3LEe6yiIkslZcBIA" name="SVC"/>
+          <ownedLiteral xmi:id="_tH8nrO3LEe6yiIkslZcBIA" name="MAD"/>
+          <ownedLiteral xmi:id="_tH8nre3LEe6yiIkslZcBIA" name="NPR"/>
+          <ownedLiteral xmi:id="_tH8nru3LEe6yiIkslZcBIA" name="FKP"/>
+          <ownedLiteral xmi:id="_tH8nr-3LEe6yiIkslZcBIA" name="SZL"/>
+          <ownedLiteral xmi:id="_tH8nsO3LEe6yiIkslZcBIA" name="NZD"/>
+          <ownedLiteral xmi:id="_tH8nse3LEe6yiIkslZcBIA" name="MVR"/>
+          <ownedLiteral xmi:id="_tH8nsu3LEe6yiIkslZcBIA" name="BRL"/>
+          <ownedLiteral xmi:id="_tH8ns-3LEe6yiIkslZcBIA" name="AON"/>
+          <ownedLiteral xmi:id="_tH8ntO3LEe6yiIkslZcBIA" name="XPT"/>
+          <ownedLiteral xmi:id="_tH8nte3LEe6yiIkslZcBIA" name="FJD"/>
+          <ownedLiteral xmi:id="_tH8ntu3LEe6yiIkslZcBIA" name="CAD"/>
+          <ownedLiteral xmi:id="_tH8nt-3LEe6yiIkslZcBIA" name="CYP"/>
+          <ownedLiteral xmi:id="_tH8nuO3LEe6yiIkslZcBIA" name="AMD"/>
+          <ownedLiteral xmi:id="_tH8nue3LEe6yiIkslZcBIA" name="BAM"/>
+          <ownedLiteral xmi:id="_tH8nuu3LEe6yiIkslZcBIA" name="BGL"/>
+          <ownedLiteral xmi:id="_tH8nu-3LEe6yiIkslZcBIA" name="XBA"/>
+          <ownedLiteral xmi:id="_tH8nvO3LEe6yiIkslZcBIA" name="PYG"/>
+          <ownedLiteral xmi:id="_tH8nve3LEe6yiIkslZcBIA" name="XPD"/>
+          <ownedLiteral xmi:id="_tH8nvu3LEe6yiIkslZcBIA" name="HRK"/>
+          <ownedLiteral xmi:id="_tH8nv-3LEe6yiIkslZcBIA" name="SRG"/>
+          <ownedLiteral xmi:id="_tH8nwO3LEe6yiIkslZcBIA" name="IQD"/>
+          <ownedLiteral xmi:id="_tH8nwe3LEe6yiIkslZcBIA" name="FIM"/>
+          <ownedLiteral xmi:id="_tH8nwu3LEe6yiIkslZcBIA" name="LYD"/>
+          <ownedLiteral xmi:id="_tH8nw-3LEe6yiIkslZcBIA" name="DEM"/>
+          <ownedLiteral xmi:id="_tH8nxO3LEe6yiIkslZcBIA" name="ECS"/>
+          <ownedLiteral xmi:id="_tH8nxe3LEe6yiIkslZcBIA" name="LAK"/>
+          <ownedLiteral xmi:id="_tH8nxu3LEe6yiIkslZcBIA" name="COP"/>
+          <ownedLiteral xmi:id="_tH8nx-3LEe6yiIkslZcBIA" name="ETB"/>
+          <ownedLiteral xmi:id="_tH8nyO3LEe6yiIkslZcBIA" name="VEB"/>
+          <ownedLiteral xmi:id="_tH8nye3LEe6yiIkslZcBIA" name="BYR"/>
+          <ownedLiteral xmi:id="_tH8nyu3LEe6yiIkslZcBIA" name="USD"/>
+          <ownedLiteral xmi:id="_tH8ny-3LEe6yiIkslZcBIA" name="RWF"/>
+          <ownedLiteral xmi:id="_tH8nzO3LEe6yiIkslZcBIA" name="JPY"/>
+          <ownedLiteral xmi:id="_tH8nze3LEe6yiIkslZcBIA" name="PKR"/>
+          <ownedLiteral xmi:id="_tH8nzu3LEe6yiIkslZcBIA" name="NGN"/>
+          <ownedLiteral xmi:id="_tH8nz-3LEe6yiIkslZcBIA" name="SGD"/>
+          <ownedLiteral xmi:id="_tH8n0O3LEe6yiIkslZcBIA" name="NAD"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tH8n0e3LEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_tH8n0u3LEe6yiIkslZcBIA" name="CurrencyCodeType">
+          <generalization xmi:id="_tH8n0-3LEe6yiIkslZcBIA" general="_tH8nB-3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tH8n1O3LEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_tH8n1e3LEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_tH8n1u3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_tH8n1-3LEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_tH8n2O3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_tH8n2e3LEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_tH8n2u3LEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_tH8n2-3LEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_tH8n3O3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_tH8n3e3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_tH8n3u3LEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_tH8n3-3LEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_tH8n4O3LEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_tH8n4e3LEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_tH8n4u3LEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_tH8n4-3LEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_tH8n5O3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_tH8n5e3LEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_tH8n5u3LEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_tH8n5-3LEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_tH8n6O3LEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_tH8n6e3LEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum CurrencyCodeSimpleType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum CurrencyCodeType {
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The enum CurrencyCodeType is missing constants from CurrencyCodeSimpleType.
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum CurrencyCodeSimpleType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum CurrencyCodeType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

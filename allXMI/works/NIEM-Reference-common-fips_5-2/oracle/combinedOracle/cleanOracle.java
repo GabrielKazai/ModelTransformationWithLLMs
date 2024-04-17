@@ -62,12 +62,15 @@ public enum USStateCodeSimpleType {
     KS;
 }
 
+
 public class NamespaceElementPropertyHolder {
 }
+
 
 public enum USStateCodeType extends {
     ;
 }
+
 
 public enum USStateNumericCodeSimpleType {
     05,
@@ -141,9 +144,11 @@ public enum USStateNumericCodeSimpleType {
     74;
 }
 
+
 public enum USStateNumericCodeType extends {
     ;
 }
+
 
 public enum ContentKind {
     Unspecified,
@@ -152,6 +157,7 @@ public enum ContentKind {
     Mixed,
     ElementOnly;
 }
+
 
 public enum FeatureKind {
     Unspecified,
@@ -163,6 +169,7 @@ public enum FeatureKind {
     Group;
 }
 
+
 public enum VisibilityKind {
     Unspecified,
     None,
@@ -171,3 +178,4 @@ public enum VisibilityKind {
     ReadOnlyUnsettable,
     ReadWriteUnsettable;
 }
+

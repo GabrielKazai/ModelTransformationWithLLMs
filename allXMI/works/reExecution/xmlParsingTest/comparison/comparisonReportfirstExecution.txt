@@ -1,5 +1,0 @@
-The variable libelle has the wrong accessor. 
-The class Theme is missing an attribute.
-The class Theme is missing an attribute.
-The function achete is missing a parameter.
-The function achete has the wrong return type.

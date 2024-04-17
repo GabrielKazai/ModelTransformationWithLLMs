@@ -64,6 +64,18 @@ public class resource {
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
+@objid ("141931dd-df14-488a-88ed-7e04791cd15f")
+interface Iterator {
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("ef974850-36cd-48dd-9b80-cd51653df3a6")
+interface Countable {
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
 @objid ("8511e9cf-64b6-47a5-ae27-3353bbf5a7f9")
 class Exception {
 }
@@ -122,6 +134,33 @@ class Kount_Ris_ArraySettings {
         // TODO Auto-generated return
         return null;
     }
+
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("c3b53d4e-e5c3-430d-a4ba-47997373b003")
+interface Kount_Ris_Settings {
+    @objid ("64de0f48-8040-4058-b4da-0cecfa9052d1")
+    int getMerchantId();
+
+    @objid ("d3c137ac-41ff-41a2-9932-347cdf30cd10")
+    String getRisUrl();
+
+    @objid ("d178fd2f-060e-4941-a395-17e7269d79f3")
+    String getX509CertPath();
+
+    @objid ("6ae26f81-4f65-42ea-a6ff-38d7fd54c246")
+    String getX509KeyPath();
+
+    @objid ("a1d780bf-7601-411e-84ca-9b85c5a97b66")
+    String getX509Passphrase();
+
+    @objid ("28572214-3b72-498f-8198-7c6ad11763c1")
+    int getConnectionTimeout();
+
+    @objid ("bb8ed1db-95ee-4e72-a57c-37d4785e613a")
+    String getApiKey();
 
 }
 
@@ -331,6 +370,27 @@ class Kount_Log_Binding_NopLogger {
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
+@objid ("a86748f0-3540-4fba-876d-383e6205a5f2")
+interface Kount_Log_Binding_Logger {
+    @objid ("79ac2a75-59a4-4c15-a5f3-d758538108f5")
+    void debug(final String $message, final Exception $exception);
+
+    @objid ("4d2f2942-f46b-47a7-b58f-f7ad322b14ec")
+    void info(final String $message, final Exception $exception);
+
+    @objid ("5dbf1606-d05b-4b12-b2c4-fd4db820b4b2")
+    void warn(final String $message, final Exception $exception);
+
+    @objid ("45c623ea-0cdc-433b-a8c7-477186f6bc06")
+    void error(final String $message, final Exception $exception);
+
+    @objid ("1996fff0-4018-45c2-8fc2-d30eca94df98")
+    void fatal(final String $message, final Exception $exception);
+
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
 @objid ("d5e2b0b3-1f10-4b84-a622-a257f75cc544")
 class Kount_Log_Factory_LogFactory {
     @objid ("cdc03900-7c6f-4fc3-a2a4-bf17816f407a")
@@ -350,6 +410,18 @@ class Kount_Log_Factory_LogFactory {
 
     @objid ("90cdc8f2-ff86-4295-93a0-095250af70e8")
     public static void setLoggerFactory(final Kount_Log_Factory_LoggerFactory $factory) {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("d94df819-2134-430d-b2ad-eb5e7b37cbe2")
+interface Kount_Log_Factory_LoggerFactory {
+    @objid ("e5352663-997e-40c1-92dd-2c48ea10a37c")
+    static Kount_Log_Factory_LoggerFactory getLogger(final String $name) {
         // TODO Auto-generated return
         return null;
     }

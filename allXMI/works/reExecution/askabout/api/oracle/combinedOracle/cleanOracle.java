@@ -2,26 +2,46 @@
 public class mixed {
 }
 
+
 public class array {
 }
 
-public class int{}
+
+public class int {
+}
+
 
 public class bool {
 }
 
-public class void{}
 
-public class null{}
+public class void {
+}
+
+
+public class null {
+}
+
 
 public class object {
 }
 
+
 public class resource {
 }
 
+
+interface Iterator {
+}
+
+
+interface Countable {
+}
+
+
 class Exception {
 }
+
 
 class Kount_Ris_ArraySettings {
     protected array $settings;
@@ -68,6 +88,25 @@ class Kount_Ris_ArraySettings {
 
 }
 
+
+interface Kount_Ris_Settings {
+    int getMerchantId();
+
+    String getRisUrl();
+
+    String getX509CertPath();
+
+    String getX509KeyPath();
+
+    String getX509Passphrase();
+
+    int getConnectionTimeout();
+
+    String getApiKey();
+
+}
+
+
 class Kount_Util_Khash {
     public static String hashPaymentToken(final String $token) {
         // TODO Auto-generated return
@@ -86,14 +125,18 @@ class Kount_Util_Khash {
 
 }
 
+
 class Kount_Ris_IllegalArgumentException extends Exception {
 }
+
 
 class Kount_Ris_Exception extends Exception {
 }
 
+
 class Kount_Ris_ValidationException extends Exception {
 }
+
 
 class Kount_Ris_Data_KcEvent {
     protected String $decision;
@@ -123,6 +166,7 @@ class Kount_Ris_Data_KcEvent {
     }
 
 }
+
 
 class Kount_SimpleLogger_File {
     public static String TIME_FORMAT = 'Y-m-d\TH:i:sP';
@@ -187,6 +231,7 @@ class Kount_SimpleLogger_File {
 
 }
 
+
 class Kount_Log_Binding_NopLogger {
     public void __construct(final String $name) {
         // TODO Auto-generated return
@@ -220,6 +265,21 @@ class Kount_Log_Binding_NopLogger {
 
 }
 
+
+interface Kount_Log_Binding_Logger {
+    void debug(final String $message, final Exception $exception);
+
+    void info(final String $message, final Exception $exception);
+
+    void warn(final String $message, final Exception $exception);
+
+    void error(final String $message, final Exception $exception);
+
+    void fatal(final String $message, final Exception $exception);
+
+}
+
+
 class Kount_Log_Factory_LogFactory {
     public static String NOP_LOGGER = 'NOP';
 
@@ -238,3 +298,13 @@ class Kount_Log_Factory_LogFactory {
     }
 
 }
+
+
+interface Kount_Log_Factory_LoggerFactory {
+    static Kount_Log_Factory_LoggerFactory getLogger(final String $name) {
+        // TODO Auto-generated return
+        return null;
+    }
+
+}
+

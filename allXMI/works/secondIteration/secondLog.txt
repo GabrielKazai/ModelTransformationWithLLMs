@@ -42,6 +42,10 @@ The function X has the wrong return type.
 The class X is missing several attributes.
 The extends statement of X is incorrect.
 The interface X is missing.
+The parameter X of function Y has the wrong type.
+The relation cardinality was not translated correctly for the parameter type X.
+The class X extends the wrong class.
+The enum X is missing.
 ---
 of interest:
 1modelio

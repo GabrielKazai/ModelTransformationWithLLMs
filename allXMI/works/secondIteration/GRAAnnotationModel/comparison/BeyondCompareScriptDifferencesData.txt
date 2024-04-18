@@ -1,0 +1,282 @@
+Table Compare
+Produced: 2024-04-18 11:30:46
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\GRAAnnotationModel\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\GRAAnnotationModel\gpt\gptoutput\cleanGPT.java
+1:                                                                                                           2: 3: 4: 5:    1:                                                                                   2:                                  3:                              4:                       5:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+                                                                                                                         +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+}                                                                                                                        +-
+                                                                                                                         -+ }public class Port extends GRAServiceAnnotationBase {    private Interface interface private Operation operation_default private Message message_default public String AddressURI }
+body,                                                                                                                    +-
+doc,                                                                                                                     +-
+Enquiery,                                                                                                                +-
+                                                                                                                         -+ Enquiery, Subscription, Notification, Update, Message
+exception                                                                                                                +-
+header,                                                                                                                  +-
+http_get,                                                                                                                +-
+http_put                                                                                                                 +-
+in,                                                                                                                      +-
+                                                                                                                         -+ in, out, inout, exception
+inout,                                                                                                                   +-
+Message                                                                                                                  +-
+Notification,                                                                                                            +-
+out,                                                                                                                     +-
+                                                                                                                         -+ private boolean ApplicableAgreementsIndicator
+                                                                                                                         -+ private boolean ApplicableContractsIndicator
+                                                                                                                         -+ private boolean ApplicablePoliciesIndicator
+                                                                                                                         -+ private boolean ApplicableUmbrellaAgreementsIndicator
+                                                                                                                         -+ private boolean ApprovalRequiredIndicator
+                                                                                                                         -+ private boolean LicensingRequiredIndicator
+                                                                                                                         -+ private Interface interface_default
+private List<Interface> interface = new ArrayList<Interface> ()                                                          +-
+private List<Interface> interface_default = new ArrayList<Interface>()                                                   +-
+private List<Interface> interface_default = new ArrayList<Interface>()                                                   +-
+private List<Message> message = new ArrayList<Message>()                                                                 +-
+private List<Message> message_default = new ArrayList<Message> ()                                                        +-
+private List<Message> message_default = new ArrayList<Message>()                                                         +-
+private List<Message> message_default = new ArrayList<Message>()                                                         +-
+private List<Message> message_default = new ArrayList<Message>()                                                         +-
+private List<Operation> operation = new ArrayList<Operation>()                                                           +-
+private List<Operation> operation_default = new ArrayList<Operation> ()                                                  +-
+private List<Operation> operation_default = new ArrayList<Operation>()                                                   +-
+private List<Operation> operation_default = new ArrayList<Operation>()                                                   +-
+private List<Port> port = new ArrayList<Port>()                                                                          +-
+private List<Port> port_default = new ArrayList<Port>()                                                                  +-
+private List<Service> provider = new ArrayList<Service>()                                                                +-
+                                                                                                                         -+ private Message message
+                                                                                                                         -+ private Message message_default
+                                                                                                                         -+ private Message message_default
+                                                                                                                         -+ private Message message_default
+                                                                                                                         -+ private Operation operation
+                                                                                                                         -+ private Operation operation_default
+                                                                                                                         -+ private Operation operation_default
+                                                                                                                         -+ private Port port
+                                                                                                                         -+ private Port port_default
+                                                                                                                         -+ private Service provider
+                                                                                                                         -+ private String ActionName
+                                                                                                                         -+ private String ActionPurpose
+                                                                                                                         -+ private String ActivationDate
+                                                                                                                         -+ private String AgreementDescriptionText
+                                                                                                                         -+ private String AgreementURI
+                                                                                                                         -+ private String AlertsAndNotifications
+                                                                                                                         -+ private String ApplicablePolicies
+                                                                                                                         -+ private String CapabilityDescriptionText
+                                                                                                                         -+ private String Classification
+                                                                                                                         -+ private String CreationDate
+                                                                                                                         -+ private String currencyText
+                                                                                                                         -+ private String DomainDescription
+                                                                                                                         -+ private String Endorsements
+                                                                                                                         -+ private String ExpirationDate
+                                                                                                                         -+ private String LastRevisionDate
+                                                                                                                         -+ private String LifecycleStatus
+                                                                                                                         -+ private String MajorVersion
+                                                                                                                         -+ private String MinorVersion
+                                                                                                                         -+ private String NextRevisionDate
+                                                                                                                         -+ private String RevisionVersion
+                                                                                                                         -+ private String SecurityClassificationText
+                                                                                                                         -+ private String SecurityDescriptionText
+                                                                                                                         -+ private String ServiceAvailability
+                                                                                                                         -+ private String ServiceAverageThroughput
+                                                                                                                         -+ private String ServiceDescriptionKeywordText
+                                                                                                                         -+ private String ServiceDescriptionSummaryText
+                                                                                                                         -+ private String ServiceID
+                                                                                                                         -+ private String ServiceMaximumThroughput
+                                                                                                                         -+ private String ServiceNameAbbreviationText
+                                                                                                                         -+ private String ServiceResponseTime
+                                                                                                                         -+ private String ServiceURI
+                                                                                                                         -+ private String SIPName
+                                                                                                                         -+ private String SIPVersion
+                                                                                                                         -+ private String Sponsors
+                                                                                                                         -+ private String value
+                                                                                                                         -+ protected boolean isAsyncronous
+protected Boolean isAsyncronous                                                                                          +-
+                                                                                                                         -+ protected IEPDReference IEPDReference
+protected List<IEPDReference> IEPDReference = new ArrayList<IEPDReference>()                                             +-
+                                                                                                                         -+ protected String DiagramLink
+                                                                                                                         -+ protected String Documentation
+protected String[] DiagramLink                                                                                           +-
+protected String[] Documentation                                                                                         +-
+                                                                                                                         -+ public Agreement Agreement
+                                                                                                                         -+ public Agreement ApplicableContract
+                                                                                                                         -+ public Agreement UmbrellaAgreement
+public BindingType BindingCode = soap12                                                                                  +-
+                                                                                                                         -+ public boolean IdentityAndAttributeAssertionTransmission
+public boolean IdentityAndAttributeAssertionTransmission = false                                                         +-
+                                                                                                                         -+ public boolean Logging
+public boolean Logging = false                                                                                           +-
+                                                                                                                         -+ public boolean SecurityImplementedIndicator
+                                                                                                                         -+ public boolean ServiceAuthentication
+public boolean ServiceAuthentication = false                                                                             +-
+                                                                                                                         -+ public boolean TransactionSupport
+public boolean TransactionSupport = false                                                                                +-
+                                                                                                                         -+ public class Participant extends GRAServiceAnnotationBase {
+public class Participant extends Organization {                                                                          +-
+public class Port extends GRAServiceAnnotationBase {                                                                     +-
+                                                                                                                         -+ public class ServiceDescription extends GRAServiceAnnotationBase {
+public class ServiceDescription extends ServiceIdentification {                                                          +-
+public class WSDLInterface extends Interface {                                                                           +-
+public class WSDLMessage extends Message {                                                                               +-
+public class WSDLOperation extends Operation {                                                                           +-
+public class WSDLPort extends Port {                                                                                     +-
+public class WSDLService extends Service {                                                                               +-
+public class WSDLServiceInterface extends ServiceInterfaceSpecification {                                                +-
+public enum BindingType {                                                                                                +-
+public enum MessageLocation {                                                                                            +-
+public enum OperationKind {                                                                                              +-
+                                                                                                                         -+ public int flag
+                                                                                                                         -+ public int other_requirement
+                                                                                                                         -+ public Interface interface_default
+                                                                                                                         -+ public Interface ServiceInterface
+public List<Agreement> Agreement = new ArrayList<Agreement>()                                                            +-
+public List<Agreement> ApplicableContract = new ArrayList<Agreement>()                                                   +-
+public List<Agreement> UmbrellaAgreement = new ArrayList<Agreement>()                                                    +-
+public List<Organization> RelatedOrganization = new ArrayList<Organization>()                                            +-
+public List<Participant> consumer = new ArrayList<Participant>()                                                         +-
+public List<Participant> ExchangePartner = new ArrayList<Participant>()                                                  +-
+public List<Participant> participant = new ArrayList<Participant>()                                                      +-
+public List<Participant> provider = new ArrayList<Participant>()                                                         +-
+public List<ServiceCapability> ServiceCapabilities = new ArrayList<ServiceCapability>()                                  +-
+public List<ServiceIdentification> ServiceDependency = new ArrayList<ServiceIdentification>()                            +-
+public List<ServiceInterfaceSpecification> ServiceInterface = new ArrayList<ServiceInterfaceSpecification>()             +-
+public List<ServiceLevelAgreement> ServiceLevelAgreement = new ArrayList<ServiceLevelAgreement>()                        +-
+public MessageLocation MessageLocationCode = body                                                                        +-
+                                                                                                                         -+ public ModelReference ModelReference
+public OperationKind OperationKindCode = doc                                                                             +-
+                                                                                                                         -+ public Organization RelatedOrganization
+                                                                                                                         -+ public Participant consumer
+                                                                                                                         -+ public Participant ExchangePartner
+                                                                                                                         -+ public Participant participant
+                                                                                                                         -+ public Participant provider
+                                                                                                                         -+ public ServiceCapability ServiceCapabilities
+                                                                                                                         -+ public ServiceDependency ServiceDependency
+                                                                                                                         -+ public ServiceLevelAgreement ServiceLevelAgreement
+public String AddressURI                                                                                                 +-
+public String certificate                                                                                                +-
+                                                                                                                         -+ public String ContactPersonAddress
+                                                                                                                         -+ public String ContactPersonEmailID
+                                                                                                                         -+ public String ContactPersonPhoneNumberID
+public String encoding                                                                                                   +-
+                                                                                                                         -+ public String IEPDName
+                                                                                                                         -+ public String IEPDURL
+public String mimeType                                                                                                   +-
+                                                                                                                         -+ public String OrganizationAcronym
+                                                                                                                         -+ public String OrganizationFullAddressText
+                                                                                                                         -+ public String OrganizationRoleDescriptionText
+                                                                                                                         -+ public String OrganizationRoleDetailedDescriptionText
+                                                                                                                         -+ public String OrganizationWebSiteURL
+                                                                                                                         -+ public String RealWorldEffectDescriptionText
+public String soapAction                                                                                                 +-
+                                                                                                                         -+ public String URIAddress
+                                                                                                                         -+ public String URIDescription
+public String[] flag                                                                                                     +-
+public String[] other_requirement                                                                                        +-
+rpc                                                                                                                      +-
+soap,                                                                                                                    +-
+soap12,                                                                                                                  +-
+Subscription,                                                                                                            +-
+Update,                                                                                                                  +-
+url                                                                                                                      +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

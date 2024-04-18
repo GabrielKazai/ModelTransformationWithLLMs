@@ -1,4 +1,4 @@
 The enum ExplosiveComponentCodeType can not extend another enum.
-The enum ExplosiveCContainerCodeType can not extend another enum.
+The enum ExplosiveContainerCodeType can not extend another enum.
 The enum ExplosiveFillerCodeType can not extend another enum.
 The enum ExplosiveIgnitionCodeType can not extend another enum.

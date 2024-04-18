@@ -344,15 +344,12 @@ public enum OffenseCodeSimpleType {
     300.31;
 }
 
-
 public class NamespaceElementPropertyHolder {
 }
-
 
 public enum OffenseCodeType extends {
     ;
 }
-
 
 public enum OffenseLevelCodeSimpleType {
     P,
@@ -361,11 +358,9 @@ public enum OffenseLevelCodeSimpleType {
     G;
 }
 
-
 public enum OffenseLevelCodeType extends {
     ;
 }
-
 
 public enum StatuteCategoryCodeSimpleType {
     D,
@@ -376,11 +371,9 @@ public enum StatuteCategoryCodeSimpleType {
     C;
 }
 
-
 public enum StatuteCategoryCodeType extends {
     ;
 }
-
 
 public enum ContentKind {
     Unspecified,
@@ -389,7 +382,6 @@ public enum ContentKind {
     Mixed,
     ElementOnly;
 }
-
 
 public enum FeatureKind {
     Unspecified,
@@ -401,7 +393,6 @@ public enum FeatureKind {
     Group;
 }
 
-
 public enum VisibilityKind {
     Unspecified,
     None,
@@ -410,4 +401,3 @@ public enum VisibilityKind {
     ReadOnlyUnsettable,
     ReadWriteUnsettable;
 }
-

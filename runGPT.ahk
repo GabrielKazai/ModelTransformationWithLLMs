@@ -19,7 +19,7 @@ Send, {Enter}
 
 MouseMove, 960, 540
 
-Loop, 1200 {
+Loop, 1400 {
  Send {WheelDown}
  Sleep, 100
 }

@@ -212,3 +212,6 @@ GRAAnnotationModel
 BMMEA 
 bmm 
 NIEM-Reference-common-atf 
+NIEM-Reference-common-mn_offense 
+NIEM-Reference-common-ucr 
+NIEM-Reference-common-nga 

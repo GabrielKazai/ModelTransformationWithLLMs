@@ -59,15 +59,12 @@ public enum OffenseCodeSimpleType {
     39C;
 }
 
-
 public class NamespaceElementPropertyHolder {
 }
-
 
 public enum OffenseCodeType extends {
     ;
 }
-
 
 public enum ContentKind {
     Unspecified,
@@ -76,7 +73,6 @@ public enum ContentKind {
     Mixed,
     ElementOnly;
 }
-
 
 public enum FeatureKind {
     Unspecified,
@@ -88,7 +84,6 @@ public enum FeatureKind {
     Group;
 }
 
-
 public enum VisibilityKind {
     Unspecified,
     None,
@@ -97,4 +92,3 @@ public enum VisibilityKind {
     ReadOnlyUnsettable,
     ReadWriteUnsettable;
 }
-

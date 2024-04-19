@@ -6,3 +6,5 @@ thirdIteration
 NIEM-Reference-common-iso_4217
 1fUML_Library
 1GRAAnnotationModel
+NIEM-Reference-common-ucr
+NIEM-Reference-common-atf

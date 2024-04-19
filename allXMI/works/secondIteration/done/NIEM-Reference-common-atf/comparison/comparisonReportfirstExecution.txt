@@ -1,0 +1,4 @@
+The enum ExplosiveComponentCodeType is missing constants from ExplosiveCodeSimpleType.
+The enum ExplosiveContainerCodeType is missing constants from ExplosiveContainerCodeSimpleType.
+The enum ExplosiveFillerCodeType is missing constants from ExplosiveFillerCodeSimpleType.
+The enum ExplosiveIgnitionCodeType is missing constants from ExplosiveIgnitionCodeSimpleType.

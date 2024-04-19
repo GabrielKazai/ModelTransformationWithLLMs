@@ -1,2 +1,0 @@
-The enum USStateCodeType can not extend another enum.
-The enum USStateNumericCodeType can not extend another enum.

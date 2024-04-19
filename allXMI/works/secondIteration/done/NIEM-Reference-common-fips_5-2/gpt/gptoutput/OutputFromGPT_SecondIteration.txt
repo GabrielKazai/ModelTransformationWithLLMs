@@ -1,0 +1,320 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes Generation
+Java Classes UML Code
+Java Code Generation
+Java Code Generation
+New chat
+New chat
+New chat
+Java Classes Based on XMI
+New chat
+New chat
+New chat
+Java Code from XMI
+Java UML to Code
+Yesterday
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_wVAG8O3NEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_wVAG8e3NEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_wVAG8u3NEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_wVAG8-3NEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wVAG9O3NEe6yiIkslZcBIA" name="fips_5-2">
+    <packagedElement xmi:type="uml:Package" xmi:id="_wVAG9e3NEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wVAG9u3NEe6yiIkslZcBIA" name="fips_5-2">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAG9-3NEe6yiIkslZcBIA" name="USStateCodeSimpleType">
+          <ownedLiteral xmi:id="_wVAG-O3NEe6yiIkslZcBIA" name="WA"/>
+          <ownedLiteral xmi:id="_wVAG-e3NEe6yiIkslZcBIA" name="NE"/>
+          <ownedLiteral xmi:id="_wVAG-u3NEe6yiIkslZcBIA" name="MI"/>
+          <ownedLiteral xmi:id="_wVAG--3NEe6yiIkslZcBIA" name="NM"/>
+          <ownedLiteral xmi:id="_wVAG_O3NEe6yiIkslZcBIA" name="MD"/>
+          <ownedLiteral xmi:id="_wVAG_e3NEe6yiIkslZcBIA" name="KY"/>
+          <ownedLiteral xmi:id="_wVAG_u3NEe6yiIkslZcBIA" name="OR"/>
+          <ownedLiteral xmi:id="_wVAG_-3NEe6yiIkslZcBIA" name="ID"/>
+          <ownedLiteral xmi:id="_wVAHAO3NEe6yiIkslZcBIA" name="MT"/>
+          <ownedLiteral xmi:id="_wVAHAe3NEe6yiIkslZcBIA" name="WV"/>
+          <ownedLiteral xmi:id="_wVAHAu3NEe6yiIkslZcBIA" name="UT"/>
+          <ownedLiteral xmi:id="_wVAHA-3NEe6yiIkslZcBIA" name="CA"/>
+          <ownedLiteral xmi:id="_wVAHBO3NEe6yiIkslZcBIA" name="AR"/>
+          <ownedLiteral xmi:id="_wVAHBe3NEe6yiIkslZcBIA" name="NJ"/>
+          <ownedLiteral xmi:id="_wVAHBu3NEe6yiIkslZcBIA" name="VT"/>
+          <ownedLiteral xmi:id="_wVAHB-3NEe6yiIkslZcBIA" name="AL"/>
+          <ownedLiteral xmi:id="_wVAHCO3NEe6yiIkslZcBIA" name="FL"/>
+          <ownedLiteral xmi:id="_wVAHCe3NEe6yiIkslZcBIA" name="MS"/>
+          <ownedLiteral xmi:id="_wVAHCu3NEe6yiIkslZcBIA" name="UM"/>
+          <ownedLiteral xmi:id="_wVAHC-3NEe6yiIkslZcBIA" name="NY"/>
+          <ownedLiteral xmi:id="_wVAHDO3NEe6yiIkslZcBIA" name="LA"/>
+          <ownedLiteral xmi:id="_wVAHDe3NEe6yiIkslZcBIA" name="CT"/>
+          <ownedLiteral xmi:id="_wVAHDu3NEe6yiIkslZcBIA" name="DE"/>
+          <ownedLiteral xmi:id="_wVAHD-3NEe6yiIkslZcBIA" name="GU"/>
+          <ownedLiteral xmi:id="_wVAHEO3NEe6yiIkslZcBIA" name="OH"/>
+          <ownedLiteral xmi:id="_wVAHEe3NEe6yiIkslZcBIA" name="WI"/>
+          <ownedLiteral xmi:id="_wVAHEu3NEe6yiIkslZcBIA" name="AZ"/>
+          <ownedLiteral xmi:id="_wVAHE-3NEe6yiIkslZcBIA" name="ME"/>
+          <ownedLiteral xmi:id="_wVAHFO3NEe6yiIkslZcBIA" name="ND"/>
+          <ownedLiteral xmi:id="_wVAHFe3NEe6yiIkslZcBIA" name="PA"/>
+          <ownedLiteral xmi:id="_wVAHFu3NEe6yiIkslZcBIA" name="IN"/>
+          <ownedLiteral xmi:id="_wVAHF-3NEe6yiIkslZcBIA" name="CO"/>
+          <ownedLiteral xmi:id="_wVAHGO3NEe6yiIkslZcBIA" name="GA"/>
+          <ownedLiteral xmi:id="_wVAHGe3NEe6yiIkslZcBIA" name="WY"/>
+          <ownedLiteral xmi:id="_wVAHGu3NEe6yiIkslZcBIA" name="VI"/>
+          <ownedLiteral xmi:id="_wVAHG-3NEe6yiIkslZcBIA" name="NH"/>
+          <ownedLiteral xmi:id="_wVAHHO3NEe6yiIkslZcBIA" name="TX"/>
+          <ownedLiteral xmi:id="_wVAHHe3NEe6yiIkslZcBIA" name="AK"/>
+          <ownedLiteral xmi:id="_wVAHHu3NEe6yiIkslZcBIA" name="RI"/>
+          <ownedLiteral xmi:id="_wVAHH-3NEe6yiIkslZcBIA" name="OK"/>
+          <ownedLiteral xmi:id="_wVAHIO3NEe6yiIkslZcBIA" name="IL"/>
+          <ownedLiteral xmi:id="_wVAHIe3NEe6yiIkslZcBIA" name="MN"/>
+          <ownedLiteral xmi:id="_wVAHIu3NEe6yiIkslZcBIA" name="NC"/>
+          <ownedLiteral xmi:id="_wVAHI-3NEe6yiIkslZcBIA" name="HI"/>
+          <ownedLiteral xmi:id="_wVAHJO3NEe6yiIkslZcBIA" name="DC"/>
+          <ownedLiteral xmi:id="_wVAHJe3NEe6yiIkslZcBIA" name="MP"/>
+          <ownedLiteral xmi:id="_wVAHJu3NEe6yiIkslZcBIA" name="IA"/>
+          <ownedLiteral xmi:id="_wVAHJ-3NEe6yiIkslZcBIA" name="PR"/>
+          <ownedLiteral xmi:id="_wVAHKO3NEe6yiIkslZcBIA" name="SD"/>
+          <ownedLiteral xmi:id="_wVAHKe3NEe6yiIkslZcBIA" name="TN"/>
+          <ownedLiteral xmi:id="_wVAHKu3NEe6yiIkslZcBIA" name="VA"/>
+          <ownedLiteral xmi:id="_wVAHK-3NEe6yiIkslZcBIA" name="MO"/>
+          <ownedLiteral xmi:id="_wVAHLO3NEe6yiIkslZcBIA" name="NV"/>
+          <ownedLiteral xmi:id="_wVAHLe3NEe6yiIkslZcBIA" name="PW"/>
+          <ownedLiteral xmi:id="_wVAHLu3NEe6yiIkslZcBIA" name="MH"/>
+          <ownedLiteral xmi:id="_wVAHL-3NEe6yiIkslZcBIA" name="MA"/>
+          <ownedLiteral xmi:id="_wVAHMO3NEe6yiIkslZcBIA" name="SC"/>
+          <ownedLiteral xmi:id="_wVAHMe3NEe6yiIkslZcBIA" name="FM"/>
+          <ownedLiteral xmi:id="_wVAHMu3NEe6yiIkslZcBIA" name="AS"/>
+          <ownedLiteral xmi:id="_wVAHM-3NEe6yiIkslZcBIA" name="KS"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wVAHNO3NEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHNe3NEe6yiIkslZcBIA" name="USStateCodeType">
+          <generalization xmi:id="_wVAHNu3NEe6yiIkslZcBIA" general="_wVAG9-3NEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHN-3NEe6yiIkslZcBIA" name="USStateNumericCodeSimpleType">
+          <ownedLiteral xmi:id="_wVAHOO3NEe6yiIkslZcBIA" name="05"/>
+          <ownedLiteral xmi:id="_wVAHOe3NEe6yiIkslZcBIA" name="26"/>
+          <ownedLiteral xmi:id="_wVAHOu3NEe6yiIkslZcBIA" name="71"/>
+          <ownedLiteral xmi:id="_wVAHO-3NEe6yiIkslZcBIA" name="69"/>
+          <ownedLiteral xmi:id="_wVAHPO3NEe6yiIkslZcBIA" name="01"/>
+          <ownedLiteral xmi:id="_wVAHPe3NEe6yiIkslZcBIA" name="42"/>
+          <ownedLiteral xmi:id="_wVAHPu3NEe6yiIkslZcBIA" name="21"/>
+          <ownedLiteral xmi:id="_wVAHP-3NEe6yiIkslZcBIA" name="56"/>
+          <ownedLiteral xmi:id="_wVAHQO3NEe6yiIkslZcBIA" name="35"/>
+          <ownedLiteral xmi:id="_wVAHQe3NEe6yiIkslZcBIA" name="89"/>
+          <ownedLiteral xmi:id="_wVAHQu3NEe6yiIkslZcBIA" name="51"/>
+          <ownedLiteral xmi:id="_wVAHQ-3NEe6yiIkslZcBIA" name="47"/>
+          <ownedLiteral xmi:id="_wVAHRO3NEe6yiIkslZcBIA" name="25"/>
+          <ownedLiteral xmi:id="_wVAHRe3NEe6yiIkslZcBIA" name="16"/>
+          <ownedLiteral xmi:id="_wVAHRu3NEe6yiIkslZcBIA" name="49"/>
+          <ownedLiteral xmi:id="_wVAHR-3NEe6yiIkslZcBIA" name="11"/>
+          <ownedLiteral xmi:id="_wVAHSO3NEe6yiIkslZcBIA" name="72"/>
+          <ownedLiteral xmi:id="_wVAHSe3NEe6yiIkslZcBIA" name="81"/>
+          <ownedLiteral xmi:id="_wVAHSu3NEe6yiIkslZcBIA" name="76"/>
+          <ownedLiteral xmi:id="_wVAHS-3NEe6yiIkslZcBIA" name="45"/>
+          <ownedLiteral xmi:id="_wVAHTO3NEe6yiIkslZcBIA" name="27"/>
+          <ownedLiteral xmi:id="_wVAHTe3NEe6yiIkslZcBIA" name="66"/>
+          <ownedLiteral xmi:id="_wVAHTu3NEe6yiIkslZcBIA" name="46"/>
+          <ownedLiteral xmi:id="_wVAHT-3NEe6yiIkslZcBIA" name="19"/>
+          <ownedLiteral xmi:id="_wVAHUO3NEe6yiIkslZcBIA" name="41"/>
+          <ownedLiteral xmi:id="_wVAHUe3NEe6yiIkslZcBIA" name="68"/>
+          <ownedLiteral xmi:id="_wVAHUu3NEe6yiIkslZcBIA" name="18"/>
+          <ownedLiteral xmi:id="_wVAHU-3NEe6yiIkslZcBIA" name="02"/>
+          <ownedLiteral xmi:id="_wVAHVO3NEe6yiIkslZcBIA" name="20"/>
+          <ownedLiteral xmi:id="_wVAHVe3NEe6yiIkslZcBIA" name="17"/>
+          <ownedLiteral xmi:id="_wVAHVu3NEe6yiIkslZcBIA" name="86"/>
+          <ownedLiteral xmi:id="_wVAHV-3NEe6yiIkslZcBIA" name="55"/>
+          <ownedLiteral xmi:id="_wVAHWO3NEe6yiIkslZcBIA" name="06"/>
+          <ownedLiteral xmi:id="_wVAHWe3NEe6yiIkslZcBIA" name="31"/>
+          <ownedLiteral xmi:id="_wVAHWu3NEe6yiIkslZcBIA" name="24"/>
+          <ownedLiteral xmi:id="_wVAHW-3NEe6yiIkslZcBIA" name="48"/>
+          <ownedLiteral xmi:id="_wVAHXO3NEe6yiIkslZcBIA" name="67"/>
+          <ownedLiteral xmi:id="_wVAHXe3NEe6yiIkslZcBIA" name="54"/>
+          <ownedLiteral xmi:id="_wVAHXu3NEe6yiIkslZcBIA" name="84"/>
+          <ownedLiteral xmi:id="_wVAHX-3NEe6yiIkslZcBIA" name="28"/>
+          <ownedLiteral xmi:id="_wVAHYO3NEe6yiIkslZcBIA" name="09"/>
+          <ownedLiteral xmi:id="_wVAHYe3NEe6yiIkslZcBIA" name="12"/>
+          <ownedLiteral xmi:id="_wVAHYu3NEe6yiIkslZcBIA" name="79"/>
+          <ownedLiteral xmi:id="_wVAHY-3NEe6yiIkslZcBIA" name="36"/>
+          <ownedLiteral xmi:id="_wVAHZO3NEe6yiIkslZcBIA" name="64"/>
+          <ownedLiteral xmi:id="_wVAHZe3NEe6yiIkslZcBIA" name="29"/>
+          <ownedLiteral xmi:id="_wVAHZu3NEe6yiIkslZcBIA" name="32"/>
+          <ownedLiteral xmi:id="_wVAHZ-3NEe6yiIkslZcBIA" name="60"/>
+          <ownedLiteral xmi:id="_wVAHaO3NEe6yiIkslZcBIA" name="08"/>
+          <ownedLiteral xmi:id="_wVAHae3NEe6yiIkslZcBIA" name="40"/>
+          <ownedLiteral xmi:id="_wVAHau3NEe6yiIkslZcBIA" name="70"/>
+          <ownedLiteral xmi:id="_wVAHa-3NEe6yiIkslZcBIA" name="04"/>
+          <ownedLiteral xmi:id="_wVAHbO3NEe6yiIkslZcBIA" name="30"/>
+          <ownedLiteral xmi:id="_wVAHbe3NEe6yiIkslZcBIA" name="34"/>
+          <ownedLiteral xmi:id="_wVAHbu3NEe6yiIkslZcBIA" name="53"/>
+          <ownedLiteral xmi:id="_wVAHb-3NEe6yiIkslZcBIA" name="22"/>
+          <ownedLiteral xmi:id="_wVAHcO3NEe6yiIkslZcBIA" name="95"/>
+          <ownedLiteral xmi:id="_wVAHce3NEe6yiIkslZcBIA" name="50"/>
+          <ownedLiteral xmi:id="_wVAHcu3NEe6yiIkslZcBIA" name="78"/>
+          <ownedLiteral xmi:id="_wVAHc-3NEe6yiIkslZcBIA" name="13"/>
+          <ownedLiteral xmi:id="_wVAHdO3NEe6yiIkslZcBIA" name="33"/>
+          <ownedLiteral xmi:id="_wVAHde3NEe6yiIkslZcBIA" name="15"/>
+          <ownedLiteral xmi:id="_wVAHdu3NEe6yiIkslZcBIA" name="10"/>
+          <ownedLiteral xmi:id="_wVAHd-3NEe6yiIkslZcBIA" name="44"/>
+          <ownedLiteral xmi:id="_wVAHeO3NEe6yiIkslZcBIA" name="37"/>
+          <ownedLiteral xmi:id="_wVAHee3NEe6yiIkslZcBIA" name="38"/>
+          <ownedLiteral xmi:id="_wVAHeu3NEe6yiIkslZcBIA" name="23"/>
+          <ownedLiteral xmi:id="_wVAHe-3NEe6yiIkslZcBIA" name="39"/>
+          <ownedLiteral xmi:id="_wVAHfO3NEe6yiIkslZcBIA" name="74"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHfe3NEe6yiIkslZcBIA" name="USStateNumericCodeType">
+          <generalization xmi:id="_wVAHfu3NEe6yiIkslZcBIA" general="_wVAHN-3NEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wVAHf-3NEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHgO3NEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_wVAHge3NEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_wVAHgu3NEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_wVAHg-3NEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_wVAHhO3NEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_wVAHhe3NEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHhu3NEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_wVAHh-3NEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_wVAHiO3NEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_wVAHie3NEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_wVAHiu3NEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_wVAHi-3NEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_wVAHjO3NEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_wVAHje3NEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wVAHju3NEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_wVAHj-3NEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_wVAHkO3NEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_wVAHke3NEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_wVAHku3NEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_wVAHk-3NEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_wVAHlO3NEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum USStateCodeSimpleType {
+    WA, NE, MI, NM, MD, KY, OR, ID, MT, WV, UT, CA, AR, NJ, VT, AL, FL, MS, UM, NY, LA, CT, DE, GU, OH, WI, AZ, ME, ND, PA, IN, CO, GA, WY, VI, NH, TX, AK, RI, OK, IL, MN, NC, HI, DC, MP, IA, PR, SD, TN, VA, MO, NV, PW, MH, MA, SC, FM, AS, KS
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum USStateCodeType {
+}
+
+public enum USStateNumericCodeSimpleType {
+    _05("05"), _26("26"), _71("71"), _69("69"), _01("01"), _42("42"), _21("21"), _56("56"), _35("35"), _89("89"), _51("51"), _47("47"), _25("25"), _16("16"), _49("49"), _11("11"), _72("72"), _81("81"), _76("76"), _45("45"), _27("27"), _66("66"), _46("46"), _19("19"), _41("41"), _68("68"), _18("18"), _02("02"), _20("20"), _17("17"), _86("86"), _55("55"), _06("06"), _31("31"), _24("24"), _48("48"), _67("67"), _54("54"), _84("84"), _28("28"), _09("09"), _12("12"), _79("79"), _36("36"), _64("64"), _29("29"), _32("32"), _60("60"), _08("08"), _40("40"), _70("70"), _04("04"), _30("30"), _34("34"), _53("53"), _22("22"), _95("95"), _50("50"), _78("78"), _13("13"), _33("33"), _15("15"), _10("10"), _44("44"), _37("37"), _38("38"), _23("23"), _39("39"), _74("74");
+    private final String code;
+    USStateNumericCodeSimpleType(String code) {
+        this.code = code;
+    }
+}
+
+public enum USStateNumericCodeType {
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The enum USStateCodeType is missing constants from USStateCodeSimpleType.
+The enum USStateNumericCodeType is missing constants from USStateNumericCodeSimpleType.
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum USStateCodeSimpleType {
+    WA, NE, MI, NM, MD, KY, OR, ID, MT, WV, UT, CA, AR, NJ, VT, AL, FL, MS, UM, NY, LA, CT, DE, GU, OH, WI, AZ, ME, ND, PA, IN, CO, GA, WY, VI, NH, TX, AK, RI, OK, IL, MN, NC, HI, DC, MP, IA, PR, SD, TN, VA, MO, NV, PW, MH, MA, SC, FM, AS, KS
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum USStateCodeType {
+    WA, NE, MI, NM, MD, KY, OR, ID, MT, WV, UT, CA, AR, NJ, VT, AL, FL, MS, UM, NY, LA, CT, DE, GU, OH, WI, AZ, ME, ND, PA, IN, CO, GA, WY, VI, NH, TX, AK, RI, OK, IL, MN, NC, HI, DC, MP, IA, PR, SD, TN, VA, MO, NV, PW, MH, MA, SC, FM, AS, KS
+}
+
+public enum USStateNumericCodeSimpleType {
+    _05("05"), _26("26"), _71("71"), _69("69"), _01("01"), _42("42"), _21("21"), _56("56"), _35("35"), _89("89"), _51("51"), _47("47"), _25("25"), _16("16"), _49("49"), _11("11"), _72("72"), _81("81"), _76("76"), _45("45"), _27("27"), _66("66"), _46("46"), _19("19"), _41("41"), _68("68"), _18("18"), _02("02"), _20("20"), _17("17"), _86("86"), _55("55"), _06("06"), _31("31"), _24("24"), _48("48"), _67("67"), _54("54"), _84("84"), _28("28"), _09("09"), _12("12"), _79("79"), _36("36"), _64("64"), _29("29"), _32("32"), _60("60"), _08("08"), _40("40"), _70("70"), _04("04"), _30("30"), _34("34"), _53("53"), _22("22"), _95("95"), _50("50"), _78("78"), _13("13"), _33("33"), _15("15"), _10("10"), _44("44"), _37("37"), _38("38"), _23("23"), _39("39"), _74("74");
+    private final String code;
+    USStateNumericCodeSimpleType(String code) {
+        this.code = code;
+    }
+}
+
+public enum USStateNumericCodeType {
+    _05("05"), _26("26"), _71("71"), _69("69"), _01("01"), _42("42"), _21("21"), _56("56"), _35("35"), _89("89"), _51("51"), _47("47"), _25("25"), _16("16"), _49("49"), _11("11"), _72("72"), _81("81"), _76("76"), _45("45"), _27("27"), _66("66"), _46("46"), _19("19"), _41("41"), _68("68"), _18("18"), _02("02"), _20("20"), _17("17"), _86("86"), _55("55"), _06("06"), _31("31"), _24("24"), _48("48"), _67("67"), _54("54"), _84("84"), _28("28"), _09("09"), _12("12"), _79("79"), _36("36"), _64("64"), _29("29"), _32("32"), _60("60"), _08("08"), _40("40"), _70("70"), _04("04"), _30("30"), _34("34"), _53("53"), _22("22"), _95("95"), _50("50"), _78("78"), _13("13"), _33("33"), _15("15"), _10("10"), _44("44"), _37("37"), _38("38"), _23("23"), _39("39"), _74("74");
+    private final String code;
+    USStateNumericCodeType(String code) {
+        this.code = code;
+    }
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

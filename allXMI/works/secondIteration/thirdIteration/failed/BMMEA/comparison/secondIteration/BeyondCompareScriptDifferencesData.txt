@@ -1,0 +1,341 @@
+Table Compare
+Produced: 2024-04-19 13:43:55
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\BMMEA\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\BMMEA\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                                                                                 2:    1:                                                                  2:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      +-
+                                                                                                                      -+ }
+                                                                                                                      -+ protected String description
+                                                                                                                      -+ protected String name
+                                                                                                                      -+ public Assessment[] categorizedAssessment
+                                                                                                                      -+ public Assessment[] identifyingAssessment
+                                                                                                                      -+ public Assessment[] judgingAssessment
+                                                                                                                      -+ public Assessment[] judgingAssessment
+                                                                                                                      -+ public Assessment[] judgingAssessment
+                                                                                                                      -+ public Assessment[] madeAssessment
+                                                                                                                      -+ public Assessment[] motivatingAssessment
+                                                                                                                      -+ public Assessment[] usedAssessment
+                                                                                                                      -+ public Assessment[] usingAssessment
+                                                                                                                      -+ public AssessmentCategory broaderAssessmentCategory
+                                                                                                                      -+ public AssessmentCategory[] categorizingAssessmentCategory
+                                                                                                                      -+ public AssessmentCategory[] narrowerAssessmentCategory
+                                                                                                                      -+ public Asset[] deployedAsset
+                                                                                                                      -+ public Asset[] governedAsset
+                                                                                                                      -+ public Asset[] managedAsset
+                                                                                                                      -+ public Asset[] managedAsset
+                                                                                                                      -+ public BusinessPolicy baseBusinessPolicy
+                                                                                                                      -+ public BusinessPolicy broaderBusinessPolicy
+                                                                                                                      -+ public BusinessPolicy[] governingBusinessPolicy
+                                                                                                                      -+ public BusinessPolicy[] moreSpecificBusinessPolicy
+                                                                                                                      -+ public BusinessProcess[] deliveringBusinessProcess
+                                                                                                                      -+ public BusinessProcess[] governedBusinessProcess
+                                                                                                                      -+ public BusinessProcess[] guidedBusinessProcess
+                                                                                                                      -+ public BusinessProcess[] managedBusinessProcess
+                                                                                                                      -+ public BusinessProcess[] realizingBusinessProcess
+                                                                                                                      -+ public BusinessRule[] derivedBusinessRule
+                                                                                                                      -+ public BusinessRule[] enforcedBusinessRule
+                                                                                                                      -+ public BusinessRule[] guidingBusinessRule
+                                                                                                                      -+ public class Asset extends Means {
+public class Asset extends MotivationElement {                                                                        +-
+public class CourseOfAction extends Means {                                                                           +-
+                                                                                                                      -+ public class CourseOfAction extends MotivationElement {
+public class DesiredResult extends End {                                                                              +-
+                                                                                                                      -+ public class DesiredResult extends MotivationElement {
+public class Directive extends Means {                                                                                +-
+                                                                                                                      -+ public class Directive extends MotivationElement {
+                                                                                                                      -+ public class MotivationElement {
+                                                                                                                      -+ public CourseOfAction broaderCourseOfAction
+                                                                                                                      -+ public CourseOfAction deployingCourseOfAction
+                                                                                                                      -+ public CourseOfAction enablingCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] definingCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] derivedCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] dischargingCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] enabledCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] governedCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] moreSpecificCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] realizedCourseOfAction
+                                                                                                                      -+ public CourseOfAction[] supportingCourseOfAction
+                                                                                                                      -+ public DesiredResult broaderDesiredResult
+                                                                                                                      -+ public DesiredResult[] categorizedDesiredResult
+                                                                                                                      -+ public DesiredResult[] moreSpecficDesiredResult
+                                                                                                                      -+ public DesiredResult[] supportedDesiredResult
+                                                                                                                      -+ public DesiredResult[] supportedDesiredResult
+                                                                                                                      -+ public DesiredResultCategory broaderDesiredResultCategory
+                                                                                                                      -+ public DesiredResultCategory categorizingDesiredResultCategory
+                                                                                                                      -+ public DesiredResultCategory[] moreSpecificDesiredResultCategory
+                                                                                                                      -+ public Directive baseDirective
+                                                                                                                      -+ public Directive governingDirective
+                                                                                                                      -+ public Directive regulatingDirective
+                                                                                                                      -+ public Directive[] governingDirective
+                                                                                                                      -+ public Directive[] motivatedDirective
+                                                                                                                      -+ public Directive[] motivatedDirective
+                                                                                                                      -+ public Directive[] supportingDirective
+                                                                                                                      -+ public End[] affectedEnd
+                                                                                                                      -+ public End[] definedEnd
+                                                                                                                      -+ public FixedAsset[] providingFixedAsset
+                                                                                                                      -+ public FixedAsset[] usedFixedAsset
+                                                                                                                      -+ public Goal[] amplifyingGoal
+                                                                                                                      -+ public Goal[] quantifiedGoal
+public Influencer judgedInfluencer                                                                                    +-
+                                                                                                                      -+ public Influencer[] categorizedInfluencer
+                                                                                                                      -+ public Influencer[] judgedInfluencer
+                                                                                                                      -+ public Influencer[] providedInfluencer
+                                                                                                                      -+ public Influencer[] recognizedInfluencer
+                                                                                                                      -+ public InfluencerCategory broaderInfluencerCategory
+                                                                                                                      -+ public InfluencerCategory categorizingInfluencerCategory
+                                                                                                                      -+ public InfluencerCategory[] narrowerInfluencerCategory
+                                                                                                                      -+ public InfluencingOrganization internalInfluencingOrganization
+                                                                                                                      -+ public InfluencingOrganization sourceInfluencingOrganization
+                                                                                                                      -+ public InfluencingOrganization[] categorizedInfluencingOrganization
+                                                                                                                      -+ public Liability[] claimingLiability
+                                                                                                                      -+ public Liability[] dischargedLiability
+                                                                                                                      -+ public Liability[] managedLiability
+public List<Assessment> categorizedAssessment = new ArrayList<Assessment>()                                           +-
+public List<Assessment> identifyingAssessment = new ArrayList<Assessment>()                                           +-
+public List<Assessment> judgingAssessment = new ArrayList<Assessment>()                                               +-
+public List<Assessment> judgingAssessment = new ArrayList<Assessment>()                                               +-
+public List<Assessment> judgingAssessment = new ArrayList<Assessment>()                                               +-
+public List<Assessment> madeAssessment = new ArrayList<Assessment>()                                                  +-
+public List<Assessment> motivatingAssessment = new ArrayList<Assessment>()                                            +-
+public List<Assessment> usedAssessment = new ArrayList<Assessment>()                                                  +-
+public List<Assessment> usingAssessment = new ArrayList<Assessment>()                                                 +-
+public List<AssessmentCategory> broaderAssessmentCategory = new ArrayList<AssessmentCategory>()                       +-
+public List<AssessmentCategory> categorizingAssessmentCategory = new ArrayList<AssessmentCategory>()                  +-
+public List<AssessmentCategory> narrowerAssessmentCategory = new ArrayList<AssessmentCategory>()                      +-
+public List<Asset> deployedAsset = new ArrayList<Asset>()                                                             +-
+public List<Asset> governedAsset = new ArrayList<Asset>()                                                             +-
+public List<Asset> managedAsset = new ArrayList<Asset>()                                                              +-
+public List<Asset> managedAsset = new ArrayList<Asset>()                                                              +-
+public List<BusinessPolicy> baseBusinessPolicy = new ArrayList<BusinessPolicy>()                                      +-
+public List<BusinessPolicy> broaderBusinessPolicy = new ArrayList<BusinessPolicy>()                                   +-
+public List<BusinessPolicy> governingBusinessPolicy = new ArrayList<BusinessPolicy>()                                 +-
+public List<BusinessPolicy> moreSpecificBusinessPolicy = new ArrayList<BusinessPolicy>()                              +-
+public List<BusinessProcess> deliveredOffering = new ArrayList<BusinessProcess>()                                     +-
+public List<BusinessProcess> deliveringBusinessProcess = new ArrayList<BusinessProcess>()                             +-
+public List<BusinessProcess> governedBusinessProcess = new ArrayList<BusinessProcess>()                               +-
+public List<BusinessProcess> guidedBusinessProcess = new ArrayList<BusinessProcess>()                                 +-
+public List<BusinessProcess> managedBusinessProcess = new ArrayList<BusinessProcess>()                                +-
+public List<BusinessProcess> realizingBusinessProcess = new ArrayList<BusinessProcess>()                              +-
+public List<BusinessRule> derivedBusinessRule = new ArrayList<BusinessRule>()                                         +-
+public List<BusinessRule> enforcedBusinessRule = new ArrayList<BusinessRule>()                                        +-
+public List<BusinessRule> guidingBusinessRule = new ArrayList<BusinessRule>()                                         +-
+public List<CourseOfAction> broaderCourseOfAction = new ArrayList<CourseOfAction>()                                   +-
+public List<CourseOfAction> definingCourseOfAction = new ArrayList<CourseOfAction>()                                  +-
+public List<CourseOfAction> deployingCourseOfAction = new ArrayList<CourseOfAction>()                                 +-
+public List<CourseOfAction> derivedCourseOfAction = new ArrayList<CourseOfAction>()                                   +-
+public List<CourseOfAction> dischargingCourseOfAction = new ArrayList<CourseOfAction>()                               +-
+public List<CourseOfAction> enabledCourseOfAction = new ArrayList<CourseOfAction>()                                   +-
+public List<CourseOfAction> enablingCourseOfAction = new ArrayList<CourseOfAction>()                                  +-
+public List<CourseOfAction> governedCourseOfAction = new ArrayList<CourseOfAction>()                                  +-
+public List<CourseOfAction> moreSpecificCourseOfAction = new ArrayList<CourseOfAction>()                              +-
+public List<CourseOfAction> realizedCourseOfAction = new ArrayList<CourseOfAction>()                                  +-
+public List<CourseOfAction> supportingCourseOfAction = new ArrayList<CourseOfAction>()                                +-
+public List<DesiredResult> broaderDesiredResult = new ArrayList<DesiredResult>()                                      +-
+public List<DesiredResult> categorizedDesiredResult = new ArrayList<DesiredResult>()                                  +-
+public List<DesiredResult> moreSpecficDesiredResult = new ArrayList<DesiredResult>()                                  +-
+public List<DesiredResult> supportedDesiredResult = new ArrayList<DesiredResult>()                                    +-
+public List<DesiredResult> supportedDesiredResult = new ArrayList<DesiredResult>()                                    +-
+public List<DesiredResultCategory> broaderDesiredResultCategory = new ArrayList<DesiredResultCategory>()              +-
+public List<DesiredResultCategory> categorizingDesiredResultCategory = new ArrayList<DesiredResultCategory>()         +-
+public List<DesiredResultCategory> moreSpecificDesiredResultCategory = new ArrayList<DesiredResultCategory>()         +-
+public List<Directive> baseDirective = new ArrayList<Directive>()                                                     +-
+public List<Directive> governingDirective = new ArrayList<Directive>()                                                +-
+public List<Directive> governingDirective = new ArrayList<Directive>()                                                +-
+public List<Directive> motivatedDirective = new ArrayList<Directive>()                                                +-
+public List<Directive> motivatedDirective = new ArrayList<Directive>()                                                +-
+public List<Directive> regulatingDirective = new ArrayList<Directive>()                                               +-
+public List<Directive> supportingDirective = new ArrayList<Directive>()                                               +-
+public List<End> affectedEnd = new ArrayList<End>()                                                                   +-
+public List<End> definedEnd = new ArrayList<End>()                                                                    +-
+public List<FixedAsset> providingFixedAsset = new ArrayList<FixedAsset>()                                             +-
+public List<FixedAsset> usedFixedAsset = new ArrayList<FixedAsset>()                                                  +-
+public List<Goal> amplifyingGoal = new ArrayList<Goal>()                                                              +-
+public List<Goal> quantifiedGoal = new ArrayList<Goal>()                                                              +-
+public List<Influencer> categorizedInfluencer = new ArrayList<Influencer>()                                           +-
+public List<Influencer> providedInfluencer = new ArrayList<Influencer>()                                              +-
+public List<Influencer> recognizedInfluencer = new ArrayList<Influencer>()                                            +-
+public List<InfluencerCategory> broaderInfluencerCategory = new ArrayList<InfluencerCategory>()                       +-
+public List<InfluencerCategory> categorizingInfluencerCategory = new ArrayList<InfluencerCategory>()                  +-
+public List<InfluencerCategory> narrowerInfluencerCategory = new ArrayList<InfluencerCategory>()                      +-
+public List<InfluencingOrganization> categorizedInfluencingOrganization = new ArrayList<InfluencingOrganization>()    +-
+public List<InfluencingOrganization> internalInfluencingOrganization = new ArrayList<InfluencingOrganization>()       +-
+public List<InfluencingOrganization> sourceInfluencingOrganization = new ArrayList<InfluencingOrganization>()         +-
+public List<Liability> claimingLiability = new ArrayList<Liability>()                                                 +-
+public List<Liability> dischargedLiability = new ArrayList<Liability>()                                               +-
+public List<Liability> managedLiability = new ArrayList<Liability>()                                                  +-
+public List<Means> affectedMeans = new ArrayList<Means>()                                                             +-
+public List<Means> establishedMeans = new ArrayList<Means>()                                                          +-
+public List<Mission> deliveringMission = new ArrayList<Mission>()                                                     +-
+public List<Mission> plannedMission = new ArrayList<Mission>()                                                        +-
+public List<Objective> quantifyingObjective = new ArrayList<Objective>()                                              +-
+public List<Offering> definedOffering = new ArrayList<Offering>()                                                     +-
+public List<Offering> deliveredOffering = new ArrayList<Offering>()                                                   +-
+public List<Offering> requiringOffering = new ArrayList<Offering>()                                                   +-
+public List<Offering> usingOffering = new ArrayList<Offering>()                                                       +-
+public List<OrganizationCategory> broaderOrganizationCategory = new ArrayList<OrganizationCategory>()                 +-
+public List<OrganizationCategory> categorizingOrganizationCategory = new ArrayList<OrganizationCategory>()            +-
+public List<OrganizationCategory> narrowerOrganizationCategory = new ArrayList<OrganizationCategory>()                +-
+public List<OrganizationUnit> determinedOrganizationUnit = new ArrayList<OrganizationUnit>()                          +-
+public List<OrganizationUnit> establishingOrganizationUnit = new ArrayList<OrganizationUnit>()                        +-
+public List<OrganizationUnit> influencingOrganizationUnit = new ArrayList<OrganizationUnit>()                         +-
+public List<OrganizationUnit> recognizingOrganizationUnit = new ArrayList<OrganizationUnit>()                         +-
+public List<OrganizationUnit> responsibleOrganizationUnit = new ArrayList<OrganizationUnit>()                         +-
+public List<OrganizationUnit> responsibleOrganizationUnit = new ArrayList<OrganizationUnit>()                         +-
+public List<OrganizationUnit> responsibleOrganizationUnit = new ArrayList<OrganizationUnit>()                         +-
+public List<PotentialImpact> identifiedPotentialImpact = new ArrayList<PotentialImpact>()                             +-
+public List<PotentialImpact> motivatingPotentialImpact = new ArrayList<PotentialImpact>()                             +-
+public List<Regulation> directiveRegulation = new ArrayList<Regulation>()                                             +-
+public List<Resource> claimedResource = new ArrayList<Resource>()                                                     +-
+public List<Resource> providedResource = new ArrayList<Resource>()                                                    +-
+public List<Resource> requiredResource = new ArrayList<Resource>()                                                    +-
+public List<Strategy> determiningStrategy = new ArrayList<Strategy>()                                                 +-
+public List<Strategy> implementedStrategy = new ArrayList<Strategy>()                                                 +-
+public List<Strategy> missionComponent = new ArrayList<Strategy>()                                                    +-
+public List<Tactic> effectingTactic = new ArrayList<Tactic>()                                                         +-
+public List<Tactic> implementingTactic = new ArrayList<Tactic>()                                                      +-
+public List<Vision> amplifiedVision = new ArrayList<Vision>()                                                         +-
+public List<Vision> operativeVision = new ArrayList<Vision>()                                                         +-
+                                                                                                                      -+ public Means[] affectedMeans
+                                                                                                                      -+ public Means[] establishedMeans
+                                                                                                                      -+ public Mission[] deliveringMission
+                                                                                                                      -+ public Mission[] plannedMission
+                                                                                                                      -+ public Objective[] quantifyingObjective
+                                                                                                                      -+ public Offering[] definedOffering
+                                                                                                                      -+ public Offering[] deliveredOffering
+                                                                                                                      -+ public Offering[] deliveredOffering
+                                                                                                                      -+ public Offering[] requiringOffering
+                                                                                                                      -+ public Offering[] usingOffering
+                                                                                                                      -+ public OrganizationCategory broaderOrganizationCategory
+                                                                                                                      -+ public OrganizationCategory categorizingOrganizationCategory
+                                                                                                                      -+ public OrganizationCategory[] narrowerOrganizationCategory
+                                                                                                                      -+ public OrganizationUnit determinedOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit establishingOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit influencingOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit responsibleOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit responsibleOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit[] recognizingOrganizationUnit
+                                                                                                                      -+ public OrganizationUnit[] responsibleOrganizationUnit
+                                                                                                                      -+ public PotentialImpact[] identifiedPotentialImpact
+                                                                                                                      -+ public PotentialImpact[] motivatingPotentialImpact
+                                                                                                                      -+ public Regulation[] directiveRegulation
+                                                                                                                      -+ public Resource[] claimedResource
+                                                                                                                      -+ public Resource[] providedResource
+                                                                                                                      -+ public Resource[] requiredResource
+                                                                                                                      -+ public Strategy[] determiningStrategy
+                                                                                                                      -+ public Strategy[] implementedStrategy
+                                                                                                                      -+ public Strategy[] missionComponent
+                                                                                                                      -+ public Tactic[] effectingTactic
+                                                                                                                      -+ public Tactic[] implementingTactic
+                                                                                                                      -+ public Vision[] amplifiedVision
+                                                                                                                      -+ public Vision[] operativeVision
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

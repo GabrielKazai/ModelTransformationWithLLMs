@@ -1,2 +1,0 @@
-The enum USStateCodeType is missing.
-The enum USStateNumericCodeType is missing.

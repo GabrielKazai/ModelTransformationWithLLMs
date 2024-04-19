@@ -46,6 +46,14 @@ The parameter X of function Y has the wrong type.
 The relation cardinality was not translated correctly for the parameter type X.
 The class X extends the wrong class.
 The enum X is missing.
+The class X is not meant to be a class.
+The attribute X is missing an enum instance.
+The class X is lacking an extends.
+The attributes of several classes did not have their relation cardinality translated correctly.
+Multiple classes are missing an extends.
+The operation X is missing a definition.
+The attribute X is faulty. 
+The attribute X has the wrong type.
 ---
 of interest:
 1modelio

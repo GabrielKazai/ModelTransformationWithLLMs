@@ -1,0 +1,2 @@
+The attribute readWriteSingleValuedEnumerationAttribute is missing an enum instance.
+The function opParameters has the wrong return type.

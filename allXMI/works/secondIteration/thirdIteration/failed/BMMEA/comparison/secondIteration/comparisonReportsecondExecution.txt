@@ -1,0 +1,38 @@
+The relation cardinality was not translated correctly for the attribute broaderAssessmentCategory.
+The relation cardinality was not translated correctly for the attribute responsibleOrganizationUnit.
+The relation cardinality was not translated correctly for the attribute governingDirective.
+The relation cardinality was not translated correctly for the attribute deployingCourseOfAction.
+The relation cardinality was not translated correctly for the attribute broaderBusinessPolicy.
+The relation cardinality was not translated correctly for the attribute baseBusinessPolicy.
+The relation cardinality was not translated correctly for the attribute enablingCourseOfAction.
+The relation cardinality was not translated correctly for the attribute broaderCourseOfAction.
+The relation cardinality was not translated correctly for the attribute baseDirective.
+The relation cardinality was not translated correctly for the attribute broaderDesiredResult.
+The relation cardinality was not translated correctly for the attribute categorizingDesiredResultCategory.
+The relation cardinality was not translated correctly for the attribute broaderDesiredResultCategory.
+The relation cardinality was not translated correctly for the attribute categorizingInfluencerCategory.
+The relation cardinality was not translated correctly for the attribute sourceInfluencingOrganization.
+The relation cardinality was not translated correctly for the attribute broaderInfluencerCategory.
+The relation cardinality was not translated correctly for the attribute categorizingOrganizationCategory.
+The relation cardinality was not translated correctly for the attribute influencingOrganizationUnit.
+The relation cardinality was not translated correctly for the attribute establishingOrganizationUnit.
+The relation cardinality was not translated correctly for the attribute broaderOrganizationCategory.
+The relation cardinality was not translated correctly for the attribute influencingOrganizationUnit.
+The relation cardinality was not translated correctly for the attribute internalInfluencingOrganization.
+The relation cardinality was not translated correctly for the attribute regulatingDirective.
+The relation cardinality was not translated correctly for the attribute determinedOrganizationUnit.
+The class Asset extends the wrong class.
+The class CourseOfAction extends the wrong class.
+The class DesiredResult extends the wrong class.
+The class Directive extends the wrong class.
+
+
+
+
+
+
+
+
+
+
+

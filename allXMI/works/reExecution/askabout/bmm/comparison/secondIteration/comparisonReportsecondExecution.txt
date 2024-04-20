@@ -1,0 +1,71 @@
+The class BMM_Type is lacking an extends.
+The function base_class has the wrong return type.
+The operation as_display_type_string is missing a definition.
+The class BMM_CLASS extends the wrong class.
+The operation all_ancestors is missing a definition.
+The operation all_descendants is missing a definition.
+The operation suppliers is missing a definition.
+The operation suppliers_non_primitive is missing a definition.
+The operation suppliers_closure is missing a definition.
+The operation existence is missing a definition.
+The operation display_name is missing a definition.
+The variable base_class has the wrong type. 
+The class BMM_PROPERTY is missing an attribute.
+The class BMM_PROPERTY should not have an extends.
+The variable existence has the wrong type.
+The class BMM_ENUMERATION extends the wrong class.
+The class BMM_ENUMERATION is missing an attribute.
+The class BMM_PACKAGE extends the wrong class.
+The operation root_classes is missing a definition.
+The operation path is missing a definition.
+The class BMM_GENERIC_PARAMETER extends the wrong class.
+The relation cardinality was not translated correctly for the attribute classes.
+The class BMM_GENERIC_PARAMETERS is missing an attribute.
+The operation flattened_conforms_to_type is missing a definition.
+The operation as_conformance_type_string is missing a definition.
+The variable cardinality has the wrong type.
+The operation display_name is missing a definition.
+The relation cardinality was not translated correctly for the attribute schema_contributors.
+The relation cardinality was not translated correctly for the attribute archetype_rm_closure_packages.
+The operation schema_id is missing a definition.
+The relation cardinality was not translated correctly for the attribute ancestors.
+The operation is_generic is missing a definition.
+The operation create_bmm_class_definition is missing a definition.
+The operation populate_bmm_class_definition is missing a definition.
+The class P_BMM_ENUMERATION extends the wrong class.
+The class P_BMM_ENUMERATION is missing an attribute.
+The class P_BMM_SCHEMA extends the wrong class.
+The operation validate_created is missing a definition.
+The operation load_finalise is missing a definition.
+The operation merge is missing a definition.
+The operation validate is missing a definition.
+The operation create_bmm_schema is missing a definition.
+The class P_BMM_PROPERTY should not have an extends.
+The class P_BMM_CLASSIFIER should not have an extends.
+The operation create_bmm_generic_parameter_definition is missing a definition.
+The class P_BMM_TYPE extends the wrong type.
+The operation type_ref is missing a definition.
+The class P_BMM_SIMPLE_TYPE extends the wrong type.
+The class P_BMM_SIMPLE_TYPE_OPEN extends the wrong type.
+The class P_BMM_GENERIC_TYPE extends the wrong type.
+The operation generic_parameter_refs is missing a definition.
+The class P_BMM_PACKAGE extends the wrong type.
+The variable classes has the wrong type.
+The operation merge is missing a definition.
+The operation type_def is missing a definition.
+The variable type_def has the wrong type.
+The class T is missing.
+The class P_BMM_ENUMERATION_STRING should not have an extends.
+The class P_BMM_ENUMERATION_INTEGER should not have an extends.
+
+
+
+
+
+
+
+
+
+
+
+

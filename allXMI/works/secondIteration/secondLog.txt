@@ -53,7 +53,7 @@ The attributes of several classes did not have their relation cardinality transl
 Multiple classes are missing an extends.
 The operation X is missing a definition.
 The attribute X is faulty. 
-The attribute X has the wrong type.
+The class X is missing a class.
 ---
 of interest:
 1modelio

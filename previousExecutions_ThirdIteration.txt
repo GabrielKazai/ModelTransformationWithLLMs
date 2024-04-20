@@ -10,4 +10,6 @@ failed
 0modelio
 1fUML_Library
 NIEM-Reference-common-ucr
-BMMEA
+BMMEA1GRAAnnotationModel
+GRAAnnotationModel
+bmm

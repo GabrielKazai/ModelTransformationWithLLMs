@@ -1,11 +1,11 @@
 Table Compare
-Produced: 2024-04-19 14:38:02
+Produced: 2024-04-20 15:08:05
 
 Mode:  Differences
 Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\bmm\oracle\combinedOracle\cleanOracle.java
 Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\bmm\gpt\gptoutput\cleanGPT_SecondIteration.java
-1:                                                                                                     2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12:    1:                                                                               2:                                                               3:                               4:                 5:                             6:                                    7:                                                            8:                                                                   9:                                                             10:                                                                          11:                                                                   12:
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1:                                                                                                     2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12:    1:                                                                                            2:                  3:                            4:          5:                      6:                                    7:                                    8:                                      9:                                10:                                             11:                                      12:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                                                                                            +-
                                                                                                                                            +-
                                                                                                                                            +-
@@ -95,103 +95,6 @@ Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\s
                                                                                                                                            +-
                                                                                                                                            +-
                                                                                                                                            +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           +-
-                                                                                                                                           -+ // {}class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {}class BMM_PACKAGE
-                                                                                                                                           -+ // }}class BMM_PACKAGE_CONTAINER extends BMM_CLASSIFIER { public BMM_PACKAGE[]
-                                                                                                                                           -+ // archetype_parent_class                                                        public String archetype_data_value_parent_class
-                                                                                                                                           -+ // archetype_visualise_descendants_of                                            public String schema_id() { return ""
-                                                                                                                                           -+ // as_conformance_type_string() { return ""                                      } abstract String
-                                                                                                                                           -+ // as_type_string()                                                              }class MULTIPLICITY_INTERVAL {}class BMM_CONTAINER_PROPERTY
-                                                                                                                                           -+ // BMM_CLASS()                                                                   } public BMM_ENUMERATION enumeration(String a_name) { return new
-                                                                                                                                           -+ // BMM_CLASSIFIER { abstract String type_category()                              String
-                                                                                                                                           -+ // BMM_CLASSIFIER { public BMM_CLASS conforms_to_type                            public
-                                                                                                                                           -+ // BMM_CLASSIFIER { public String rm_publisher                                   public String rm_release                                         public
-                                                                                                                                           -+ // BMM_ENUMERATION()                                                             } public BMM_PROPERTY property_definition() { return new
-                                                                                                                                           -+ // BMM_GENERIC_PARAMETER inheritance_precursor                                   public String name                                               public
-                                                                                                                                           -+ // BMM_PROPERTY()                                                                } public boolean ms_conformant_property_type() { return
-                                                                                                                                           -+ // BMM_PROPERTY()                                                                } public String[] all_ancestor_classes(String a_class) {
-                                                                                                                                           -+ // cardinality                                                                   public String display_name() { return ""                         }}class BMM_SCHEMA {
-                                                                                                                                           -+ // extends BMM_CLASS { public BMM_GENERIC_PARAMETER[] generic_parameters         }
-                                                                                                                                           -+ // extends BMM_PACKAGE_CONTAINER { public BMM_CLASS[] classes                    public String
-                                                                                                                                           -+ // extends BMM_PROPERTY { public BMM_CONTAINER_TYPE type                         public String
-                                                                                                                                           -+ // false                                                                         } public BMM_PROPERTY property_definition_at_path() { return new
-                                                                                                                                           -+ // Generic type placeholder}class BMM_ENUMERATION_STRING extends BMM_ENUMERATION
-                                                                                                                                           -+ // name                                                                          public BMM_CLASS[] root_classes() { return new BMM_CLASS[0]      } public
-                                                                                                                                           -+ // packages                                                                      public BMM_PACKAGE package_at_path() { return new BMM_PACKAGE()  }
-                                                                                                                                           -+ // public BMM_CLASS[] class_definitions                                          public String[] primitive_types() {
-                                                                                                                                           -+ // public String[] archetype_rm_closure_packages                                 public String
-                                                                                                                                           -+ // public void dp_recursive_packages(String action) { }}class BMM_GENERIC_CLASS
-                                                                                                                                           -+ // return new String[0]                                                          } public String[] enumeration_types() { return new
-                                                                                                                                           -+ // return new String[0]                                                          } public boolean type_conforms_to(String a_desc_type,
-                                                                                                                                           -+ // schema_description                                                            public String[] schema_contributors                              public String
-                                                                                                                                           -+ // schema_lifecycle_state                                                        public String schema_author                                      public String
-                                                                                                                                           -+ // String an_anc_type) { return false                                            }}class BMM_SCHEMA_CORE extends
-                                                                                                                                           -+ // String flattened_conforms_to_type() { return ""                               }}abstract class
-                                                                                                                                           -+ // String path() { return ""                                                     }}class BMM_GENERIC_PARAMETER extends
-                                                                                                                                           -+ // String schema_name                                                            public String schema_revision                                    public String
-                                                                                                                                           -+ // String[0]                                                                     } public BMM_CLASS class_definition(String a_name) { return new
 // TODO Auto-generated return                                                                                                              +-
 // TODO Auto-generated return                                                                                                              +-
 // TODO Auto-generated return                                                                                                              +-
@@ -249,67 +152,158 @@ Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\s
 }                                                                                                                                          +-
 }                                                                                                                                          +-
 }                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-}                                                                                                                                          +-
-                                                                                                                                           -+ }class BMM_CLASS extends BMM_TYPE {    public BMM_CLASS[] ancestors              public BMM_PACKAGE package                                       public BMM_PROPERTY[] properties public String name public String source_schema_id public String[] immediate_descendants public String[] all_ancestors() {        return new String[0] }    public String[] all_descendants() {        return new String[0] }    public String[] suppliers() {        return new String[0] }    public String[] suppliers_non_primitive() {        return new String[0] }    public String[] supplier_closure() {        return new String[0] }}
-                                                                                                                                           -+ abstract BMM_CLASS base_class()
+                                                                                                                                           -+ }abstract class BMM_CLASS extends BMM_TYPE {    List<BMM_CLASS> ancestors                     BMM_PACKAGE package List<BMM_PROPERTY> properties String name String source_schema_id List<BMM_CLASS> immediate_descendants abstract List<String> all_ancestors() abstract List<String> all_descendants() abstract List<String> suppliers() abstract List<String> suppliers_non_primitive() abstract List<String> supplier_closure() }
+                                                                                                                                           -+ abstract BMM_CLASS class_definition(String a_name)
+                                                                                                                                           -+ abstract BMM_ENUMERATION enumeration(String a_name)
+                                                                                                                                           -+ abstract BMM_PACKAGE package_at_path()
+                                                                                                                                           -+ abstract BMM_PROPERTY property_definition()
+                                                                                                                                           -+ abstract BMM_PROPERTY property_definition_at_path()
+                                                                                                                                           -+ abstract BMM_TYPE base_class()
                                                                                                                                            -+ abstract boolean has_type_substitutions()
+                                                                                                                                           -+ abstract boolean is_generic()
+                                                                                                                                           -+ abstract boolean ms_conformant_property_type()
+                                                                                                                                           -+ abstract boolean type_conforms_to(String a_desc_type, String an_anc_type)
 abstract class BMM_CLASSIFIER {                                                                                                            +-
+                                                                                                                                           -+ abstract class BMM_CLASSIFIER extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_CONTAINER_PROPERTY<T extends BMM_CONTAINER_TYPE> extends BMM_PROPERTY<T> {
+                                                                                                                                           -+ abstract class BMM_CONTAINER_TYPE extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION<Integer> {
+                                                                                                                                           -+ abstract class BMM_ENUMERATION_STRING extends BMM_ENUMERATION<String> {
+                                                                                                                                           -+ abstract class BMM_ENUMERATION<G> extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_GENERIC_CLASS extends BMM_CLASS {
+                                                                                                                                           -+ abstract class BMM_GENERIC_PARAMETER extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_GENERIC_TYPE extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_PACKAGE extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_PACKAGE_CONTAINER extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_SCHEMA extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_SIMPLE_TYPE extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {
+                                                                                                                                           -+ abstract class BMM_TYPE {
+abstract class BMM_TYPE extends BMM_CLASSIFIER {                                                                                           +-
 abstract class P_BMM_CLASSIFIER {                                                                                                          +-
+                                                                                                                                           -+ abstract class P_BMM_CLASSIFIER extends BMM_CLASSIFIER {
+                                                                                                                                           -+ abstract class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {
+                                                                                                                                           -+ abstract class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {
 abstract class P_BMM_PROPERTY {                                                                                                            +-
+                                                                                                                                           -+ abstract class P_BMM_PROPERTY extends BMM_PROPERTY<BMM_PROPERTY> {
+                                                                                                                                           -+ abstract class P_BMM_TYPE extends BMM_TYPE {
 abstract class P_BMM_TYPE extends P_BMM_CLASSIFIER {                                                                                       +-
-                                                                                                                                           -+ abstract String[] type_substitutions()
+                                                                                                                                           -+ abstract List<BMM_CLASS> all_ancestor_classes(BMM_CLASS a_class)
+                                                                                                                                           -+ abstract List<BMM_CLASS> root_classes()
+                                                                                                                                           -+ abstract List<String> type_substitutions()
+                                                                                                                                           -+ abstract P_BMM_SIMPLE_TYPE type_def()
+                                                                                                                                           -+ abstract P_BMM_SIMPLE_TYPE type_def()
+                                                                                                                                           -+ abstract P_BMM_TYPE type_def()
+                                                                                                                                           -+ abstract P_BMM_TYPE type_ref()
+                                                                                                                                           -+ abstract String as_conformance_type_string()
+                                                                                                                                           -+ abstract String as_display_type_string()
+                                                                                                                                           -+ abstract String as_type_string()
+                                                                                                                                           -+ abstract String display_name()
+                                                                                                                                           -+ abstract String display_name()
+                                                                                                                                           -+ abstract String enumeration_types()
+                                                                                                                                           -+ abstract String flattened_conforms_to_type()
+                                                                                                                                           -+ abstract String path()
+                                                                                                                                           -+ abstract String primitive_types()
+                                                                                                                                           -+ abstract String schema_id()
+                                                                                                                                           -+ abstract String type_category()
+                                                                                                                                           -+ abstract T existence()
+                                                                                                                                           -+ abstract void create_bmm_class_definition()
+                                                                                                                                           -+ abstract void create_bmm_generic_parameter_definition()
+                                                                                                                                           -+ abstract void create_bmm_property_definition()
+                                                                                                                                           -+ abstract void create_bmm_schema()
+                                                                                                                                           -+ abstract void create_bmm_type(BMM_SCHEMA a_schema, BMM_CLASS a_class_def)
+                                                                                                                                           -+ abstract void dp_recursive_packages(String action)
+                                                                                                                                           -+ abstract void generic_parameter_refs()
+                                                                                                                                           -+ abstract void load_finalise()
+                                                                                                                                           -+ abstract void merge(P_BMM_PACKAGE other)
+                                                                                                                                           -+ abstract void merge(P_BMM_SCHEMA other)
+                                                                                                                                           -+ abstract void populate_bmm_class_definition()
+                                                                                                                                           -+ abstract void validate()
+                                                                                                                                           -+ abstract void validate_created()
+                                                                                                                                           -+ BMM_CLASS base_class
+                                                                                                                                           -+ BMM_CLASS base_class
+                                                                                                                                           -+ BMM_CLASS conforms_to_type
+                                                                                                                                           -+ BMM_CLASS container_class
+                                                                                                                                           -+ BMM_GENERIC_PARAMETER bmm_generic_parameter
+                                                                                                                                           -+ BMM_GENERIC_PARAMETER inheritance_precursor
+                                                                                                                                           -+ BMM_GENERIC_PARAMETER type
+                                                                                                                                           -+ BMM_PROPERTY bmm_property_definition
+                                                                                                                                           -+ BMM_SCHEMA bmm_schema
+                                                                                                                                           -+ BMM_TYPE base_type
+                                                                                                                                           -+ BMM_TYPE bmm_type
+                                                                                                                                           -+ BMM_TYPE type
+                                                                                                                                           -+ boolean is_abstract
+                                                                                                                                           -+ boolean is_computed
+                                                                                                                                           -+ boolean is_computed
+                                                                                                                                           -+ boolean is_im_infrastructure
+                                                                                                                                           -+ boolean is_im_runtime
+                                                                                                                                           -+ boolean is_mandatory
+                                                                                                                                           -+ boolean is_mandatory
+                                                                                                                                           -+ boolean is_override
 class BMM_CLASS extends BMM_CLASSIFIER {                                                                                                   +-
 class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {                                                                                        +-
+class BMM_CONTAINER_TYPE extends BMM_TYPE {                                                                                                +-
+class BMM_ENUMERATION extends BMM_CLASS {                                                                                                  +-
 class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {                                                                                    +-
 class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {                                                                                     +-
 class BMM_GENERIC_CLASS extends BMM_CLASS {                                                                                                +-
 class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {                                                                                       +-
+class BMM_GENERIC_TYPE extends BMM_TYPE {                                                                                                  +-
 class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {                                                                                          +-
+class BMM_PROPERTY {                                                                                                                       +-
+                                                                                                                                           -+ class BMM_PROPERTY<T> extends BMM_TYPE {
 class BMM_SCHEMA_CORE {                                                                                                                    +-
+                                                                                                                                           -+ class BMM_SCHEMA_CORE extends BMM_TYPE {
+class BMM_SIMPLE_TYPE extends BMM_TYPE {                                                                                                   +-
+class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {                                                                                              +-
 class MULTIPLICITY_INTERVAL {                                                                                                              +-
+                                                                                                                                           -+ class P_BMM_CLASS extends BMM_CLASS {
 class P_BMM_CLASS extends P_BMM_CLASSIFIER {                                                                                               +-
+                                                                                                                                           -+ class P_BMM_CONTAINER_PROPERTY extends BMM_CONTAINER_PROPERTY<P_BMM_CONTAINER_TYPE> {
 class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {                                                                                            +-
 class P_BMM_ENUMERATION extends P_BMM_CLASS {                                                                                              +-
 class P_BMM_ENUMERATION_INTEGER {                                                                                                          +-
+                                                                                                                                           -+ class P_BMM_ENUMERATION_INTEGER extends P_BMM_ENUMERATION<Integer> {
 class P_BMM_ENUMERATION_STRING {                                                                                                           +-
+                                                                                                                                           -+ class P_BMM_ENUMERATION_STRING extends P_BMM_ENUMERATION<String> {
+                                                                                                                                           -+ class P_BMM_ENUMERATION<T> extends BMM_ENUMERATION<T> {
 class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {                                                                                   +-
-class P_BMM_GENERIC_PROPERTY extends P_BMM_PROPERTY {                                                                                      +-
+                                                                                                                                           -+ class P_BMM_GENERIC_TYPE extends BMM_GENERIC_TYPE {
 class P_BMM_GENERIC_TYPE extends P_BMM_TYPE {                                                                                              +-
+                                                                                                                                           -+ class P_BMM_PACKAGE extends BMM_PACKAGE {
 class P_BMM_PACKAGE extends P_BMM_PACKAGE_CONTAINER {                                                                                      +-
 class P_BMM_PACKAGE_CONTAINER {                                                                                                            +-
+                                                                                                                                           -+ class P_BMM_PACKAGE_CONTAINER extends BMM_PACKAGE_CONTAINER {
+                                                                                                                                           -+ class P_BMM_SCHEMA extends BMM_SCHEMA {
 class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {                                                                                       +-
 class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {                                                                                       +-
+                                                                                                                                           -+ class P_BMM_SIMPLE_TYPE extends BMM_SIMPLE_TYPE {
 class P_BMM_SIMPLE_TYPE extends P_BMM_TYPE {                                                                                               +-
+                                                                                                                                           -+ class P_BMM_SIMPLE_TYPE_OPEN extends BMM_SIMPLE_TYPE_OPEN {
 class P_BMM_SIMPLE_TYPE_OPEN extends P_BMM_TYPE {                                                                                          +-
-class P_BMM_SINGLE_PROPERTY extends P_BMM_PROPERTY {                                                                                       +-
-class P_BMM_SINGLE_PROPERTY_OPEN extends P_BMM_PROPERTY {                                                                                  +-
-                                                                                                                                           -+ package bmm2.core
+                                                                                                                                           -+ int state
+                                                                                                                                           -+ int uid
+                                                                                                                                           -+ List<BMM_CLASS> class_definitions
+                                                                                                                                           -+ List<BMM_CLASS> classes
+                                                                                                                                           -+ List<BMM_GENERIC_PARAMETER> generic_parameter_defs
+                                                                                                                                           -+ List<BMM_GENERIC_PARAMETER> generic_parameters
+                                                                                                                                           -+ List<BMM_PACKAGE> packages
+                                                                                                                                           -+ List<BMM_PROPERTY> properties
+                                                                                                                                           -+ List<BMM_TYPE> generic_parameters
+                                                                                                                                           -+ List<P_BMM_CLASS> class_definitions
+                                                                                                                                           -+ List<P_BMM_CLASS> classes
+                                                                                                                                           -+ List<P_BMM_CLASS> primitive_types
+                                                                                                                                           -+ List<P_BMM_PACKAGE> canonical_packages
+                                                                                                                                           -+ List<P_BMM_TYPE> generic_parameter_defs
+                                                                                                                                           -+ List<String> archetype_rm_closure_packages
+                                                                                                                                           -+ List<String> generic_parameters
+                                                                                                                                           -+ List<String> item_names
+                                                                                                                                           -+ List<String> schema_contributors
+                                                                                                                                           -+ List<T> item_values
+                                                                                                                                           -+ P_BMM_CONTAINER_TYPE type_def
+                                                                                                                                           -+ P_BMM_GENERIC_TYPE type_def
+                                                                                                                                           -+ P_BMM_SIMPLE_TYPE type_def
+                                                                                                                                           -+ P_BMM_TYPE type_def
 private BMM_GENERIC_PARAMETER                                                                                                              +-
 private String name                                                                                                                        +-
 public abstract BMM_CLASS base_class()                                                                                                     +-
@@ -320,25 +314,28 @@ public abstract String as_type_string()                                         
 public abstract String type_category()                                                                                                     +-
 public abstract void create_bmm_property_definition()                                                                                      +-
 public abstract void create_bmm_type(final BMM_SCHEMA a_schema, final BMM_CLASS a_class_def)                                               +-
+public BMM_CLASS base_class                                                                                                                +-
 public BMM_CLASS conforms_to_type                                                                                                          +-
+public BMM_CLASS container_class                                                                                                           +-
 public BMM_CONTAINER_TYPE type                                                                                                             +-
+public BMM_GENERIC_CLASS base_class                                                                                                        +-
 public BMM_GENERIC_PARAMETER bmm_generic_parameter                                                                                         +-
 public BMM_GENERIC_PARAMETER create_bmm_generic_parameter_definition() {                                                                   +-
 public BMM_GENERIC_PARAMETER inheritance_precursor                                                                                         +-
+public BMM_GENERIC_PARAMETER type                                                                                                          +-
 public BMM_PACKAGE package                                                                                                                 +-
 public BMM_PROPERTY bmm_property_definition                                                                                                +-
 public BMM_SCHEMA bmm_schema                                                                                                               +-
 public BMM_SCHEMA bmm_schema                                                                                                               +-
+public BMM_TYPE base_type                                                                                                                  +-
 public BMM_TYPE bmm_type                                                                                                                   +-
-                                                                                                                                           -+ public BMM_TYPE[] generic_parameters
+public BMM_TYPE type                                                                                                                       +-
 public Boolean is_abstract                                                                                                                 +-
-                                                                                                                                           -+ public boolean is_computed
 public Boolean is_computed                                                                                                                 +-
 public Boolean is_computed                                                                                                                 +-
 public boolean is_generic() {                                                                                                              +-
 public Boolean is_im_infrastructure                                                                                                        +-
 public Boolean is_im_runtime                                                                                                               +-
-                                                                                                                                           -+ public boolean is_mandatory
 public Boolean is_mandatory                                                                                                                +-
 public Boolean is_mandatory                                                                                                                +-
 public Boolean is_override                                                                                                                 +-
@@ -367,7 +364,7 @@ public List<String> supplier_closure() {                                        
 public List<String> suppliers() {                                                                                                          +-
 public List<String> suppliers_non_primitive() {                                                                                            +-
 public MULTIPLICITY_INTERVAL cardinality                                                                                                   +-
-                                                                                                                                           -+ public Object G
+public MULTIPLICITY_INTERVAL existence() {                                                                                                 +-
 public P_BMM_GENERIC_TYPE type_def                                                                                                         +-
 public P_BMM_SIMPLE_TYPE type_def() {                                                                                                      +-
 public P_BMM_SIMPLE_TYPE_OPEN type_def                                                                                                     +-
@@ -384,8 +381,10 @@ public String bmm_version                                                       
 public String conforms_to_type                                                                                                             +-
 public String container_type                                                                                                               +-
 public String display_name() {                                                                                                             +-
+public String display_name() {                                                                                                             +-
 public String flattened_conforms_to_type() {                                                                                               +-
 public String item_names                                                                                                                   +-
+public String name                                                                                                                         +-
 public String name                                                                                                                         +-
 public String name                                                                                                                         +-
 public String name                                                                                                                         +-
@@ -433,10 +432,7 @@ public void validate() {                                                        
 public void validate() {                                                                                                                   +-
 public void validate_created() {                                                                                                           +-
 public void validate_created() {                                                                                                           +-
-                                                                                                                                           -+ return ""
-                                                                                                                                           -+ return ""
 return false                                                                                                                               +-
-                                                                                                                                           -+ return new MULTIPLICITY_INTERVAL()
 return null                                                                                                                                +-
 return null                                                                                                                                +-
 return null                                                                                                                                +-
@@ -455,5 +451,32 @@ return null                                                                     
 return null                                                                                                                                +-
 return null                                                                                                                                +-
 return null                                                                                                                                +-
-                                                                                                                                           -+ String as_display_type_string() {
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                           -+ String ancestors
+                                                                                                                                           -+ String archetype_data_value_parent_class
+                                                                                                                                           -+ String archetype_parent_class
+                                                                                                                                           -+ String archetype_visualise_descendants_of
+                                                                                                                                           -+ String bmm_version
+                                                                                                                                           -+ String cardinality
+                                                                                                                                           -+ String conforms_to_type
+                                                                                                                                           -+ String container_type
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String name
+                                                                                                                                           -+ String rm_publisher
+                                                                                                                                           -+ String rm_release
+                                                                                                                                           -+ String root_type
+                                                                                                                                           -+ String schema_author
+                                                                                                                                           -+ String schema_description
+                                                                                                                                           -+ String schema_lifecycle_state
+                                                                                                                                           -+ String schema_name
+                                                                                                                                           -+ String schema_revision
+                                                                                                                                           -+ String type
+                                                                                                                                           -+ String type
+                                                                                                                                           -+ String type
+                                                                                                                                           -+ String type
+                                                                                                                                           -+ String type
+                                                                                                                                           -+ T type
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

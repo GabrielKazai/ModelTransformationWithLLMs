@@ -1,4 +1,5 @@
 The class BMM_Type is lacking an extends.
+The function base_class has the wrong return type.
 The relation cardinality was not translated correctly for return value of function type_substitutions.
 The operation as_display_type_string is missing a definition.
 The class BMM_CLASS is lacking an extends.
@@ -18,40 +19,68 @@ The operation suppliers_closure is missing a definition.
 The operation existence is missing a definition.
 The operation display_name is missing a definition.
 The relation cardinality was not translated correctly for the attribute generic_parameters.
+The variable base_class has the wrong type. 
+The class BMM_PROPERTY is missing an attribute.
+The class BMM_CONTAINER_TYPE is lacking an extends.
+The class BMM_GENERIC_TYPE is lacking an extends.
+The class BMM_SIMPLE_TYPE is lacking an extends.
+The class BMM_SIMPLE_TYPE_OPEN is lacking an extends.
 The class BMM_ENUMERATION is lacking an extends.
-The attribute G is faulty. 
+The class BMM_ENUMERATION_STRING is lacking an extends.
+The class BMM_ENUMERATION_INTEGER is lacking an extends.
 The class BMM_PACKAGE is lacking an extends.
 The relation cardinality was not translated correctly for the attribute classes.
-The relation cardinality was not translated correctly for the attribute root_classes.
 The operation root_classes is missing a definition.
 The operation path is missing a definition.
+The class BMM_GENERIC_PARAMETER is lacking an extends.
+The relation cardinality was not translated correctly for the attribute classes.
 The class BMM_GENERIC_PARAMETERS is missing an attribute.
 The operation flattened_conforms_to_type is missing a definition.
 The operation as_conformance_type_string is missing a definition.
-The attribute cardinality has the wrong type.
+The variable cardinality has the wrong type.
 The operation display_name is missing a definition.
-The relation cardinality was not translated correctly for the attribute schema_conttributors.
+The relation cardinality was not translated correctly for the attribute schema_contributors.
 The relation cardinality was not translated correctly for the attribute archetype_rm_closure_packages.
 The operation schema_id is missing a definition.
+The class BMM_GENERIC_CLASS is lacking an extends.
 The relation cardinality was not translated correctly for the attribute generic_parameters.
-The class P_BMM_CLASS is missing.
-The class P_BMM_ENUMERATION is missing.
-The class P_BMM_SCHEMA is missing.
-The class P_BMM_CLASSIFIER is missing.
-The class P_BMM_PROPERTY is missing.
-The class P_BMM_GENERIC_PARAMETER is missing.
-The class P_BMM_TYPE is missing.
-The class P_BMM_CONTAINER_TYPE is missing.
-The class P_BMM_SIMPLE_TYPE is missing.
-The class P_BMM_SIMPLE_TYPE_OPEN is missing.
-The class P_BMM_GENERIC_TYPE is missing.
-The class P_BMM_PACKAGE is missing.
-The class P_BMM_PACKAGE_CONTAINER is missing.
-The class P_BMM_SINGLE_PROPERTY_OPEN is missing.
-The class P_BMM_GENERIC_PROPERTY is missing.
-The class P_BMM_ENUMERATION_INTEGER is missing.
-The class P_BMM_ENUMERATION_STRING is missing.
-The class P_BMM_SCHEMA is missing.
+The relation cardinality was not translated correctly for the attribute ancestors.
+The relation cardinality was not translated correctly for the attribute properties.
+The relation cardinality was not translated correctly for the attribute generic_parameter_defs.
+The operation is_generic is missing a definition.
+The operation create_bmm_class_definition is missing a definition.
+The operation populate_bmm_class_definition is missing a definition.
+The class P_BMM_ENUMERATION is lacking an extends. 
+The relation cardinality was not translated correctly for the attribute item_values.
+The class P_BMM_ENUMERATION is missing an attribute.
+The class P_BMM_SCHEMA is lacking an extends. 
+The relation cardinality was not translated correctly for the attribute primitive_types.
+The relation cardinality was not translated correctly for the attribute class_definitions.
+The relation cardinality was not translated correctly for the attribute canonical_packages.
+The operation validate_created is missing a definition.
+The operation load_finalise is missing a definition.
+The operation merge is missing a definition.
+The operation validate is missing a definition.
+The operation create_bmm_schema is missing a definition.
+The class P_BMM_GENERIC_PARAMETER is lacking an extends. 
+The operation create_bmm_generic_parameter_definition is missing a definition.
+The class P_BMM_TYPE is lacking an extends. 
+The class P_BMM_CONTAINER_TYPE is lacking an extends. 
+The operation P_BMM_TYPE is missing a definition.
+The class P_BMM_SIMPLE_TYPE is lacking an extends. 
+The class P_BMM_SIMPLE_TYPE_OPEN is lacking an extends. 
+The class P_BMM_GENERIC_TYPE is lacking an extends. 
+The relation cardinality was not translated correctly for the attribute generic_parameters.
+The relation cardinality was not translated correctly for the attribute generic_parameter_defs.
+The operation generic_parameter_refs is missing a definition.
+The class P_BMM_PACKAGE is lacking an extends. 
+The relation cardinality was not translated correctly for the attribute classes.
+The operation merge is missing a definition.
+The class P_BMM_SINGLE_PROPERTY is lacking an extends.
+The class P_BMM_SINGLE_PROPERTY_OPEN is lacking an extends.
+The operation type_def is missing a definition.
+The variable type_def has the wrong type.
+The class P_BMM_GENERIC_PROPERTY is lacking an extends.
 The class T is missing.
 
 

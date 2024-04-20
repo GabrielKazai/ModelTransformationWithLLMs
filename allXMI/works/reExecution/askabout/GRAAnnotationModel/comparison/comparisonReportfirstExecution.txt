@@ -1,0 +1,35 @@
+The relation cardinality was not translated correctly for the attribute other_requirement.
+The attribute other_requirement has the wrong type.
+The relation cardinality was not translated correctly for the attribute flag.
+The attribute flag has the wrong type.
+The class Participant extends the wrong class.
+The relation cardinality was not translated correctly for the attribute message_default.
+The relation cardinality was not translated correctly for the attribute operation.
+The relation cardinality was not translated correctly for the attribute interface.
+The relation cardinality was not translated correctly for the attribute operation_default.
+The relation cardinality was not translated correctly for the attribute interface_default.
+The relation cardinality was not translated correctly for the attribute port.
+The relation cardinality was not translated correctly for the attribute port_default.
+The relation cardinality was not translated correctly for the attribute message.
+The relation cardinality was not translated correctly for the attribute provider.
+The relation cardinality was not translated correctly for the attribute consumer.
+The relation cardinality was not translated correctly for the attribute participant.
+The relation cardinality was not translated correctly for the attribute ExchangePartner.
+The relation cardinality was not translated correctly for the attribute IEPDReference.
+The relation cardinality was not translated correctly for the attribute ServiceInterface
+The relation cardinality was not translated correctly for the attribute ServiceCapabilities.
+The relation cardinality was not translated correctly for the attribute ServiceDependency.
+The relation cardinality was not translated correctly for the attribute RelatedOrganization.
+The relation cardinality was not translated correctly for the attribute ServiceLevelAgreement.
+The relation cardinality was not translated correctly for the attribute ApplicableContract.
+The relation cardinality was not translated correctly for the attribute Agreement.
+The relation cardinality was not translated correctly for the attribute UmbrellaAgreement.
+The class WSDLServiceInterface is missing.
+The class WSDLService is missing.
+The class WSDLPort is missing.
+The class WSDLInterface is missing.
+The class WSDLOperation is missing.
+The class WSDLMessage is missing.
+The enum OperationKind is missing.
+The enum MessageLocation is missing.
+The enum BindingType is missing.

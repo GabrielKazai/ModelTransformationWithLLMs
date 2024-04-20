@@ -1,0 +1,4 @@
+The class EntityType is missing a class.
+The attribute BindingCode is missing an enum instance.
+The attribute OperationKindCode is missing an enum instance.
+The attribute MessageLocationCode is missing an enum instance.

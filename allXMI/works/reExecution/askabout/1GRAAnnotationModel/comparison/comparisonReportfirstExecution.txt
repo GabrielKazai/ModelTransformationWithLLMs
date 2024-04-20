@@ -1,0 +1,21 @@
+The relation cardinality was not translated correctly for the attribute other_requirement.
+The attribute other_requirement has the wrong type.
+The relation cardinality was not translated correctly for the attribute message_default.
+The relation cardinality was not translated correctly for the attribute operation.
+The relation cardinality was not translated correctly for the attribute operation_default.
+The relation cardinality was not translated correctly for the attribute interface_default.
+The relation cardinality was not translated correctly for the attribute port.
+The relation cardinality was not translated correctly for the attribute provider.
+The relation cardinality was not translated correctly for the attribute consumer.
+The relation cardinality was not translated correctly for the attribute participant.
+The class EntityType is missing a class.
+The class ServiceIdentification is missing.
+The class ServiceInteractionProfile is missing.
+The class ServiceInterfaceSpecification is missing.
+The class ServiceLevelAgreement is missing.
+The class SummaryTextType is missing.
+The class Model is missing.
+The class AmountType is missing.
+The attribute BindingCode has the wrong type.
+The attribute OperationKindCode has the wrong type.
+The attribute MessageLocationCode has the wrong type.

@@ -1,0 +1,12 @@
+The class Participant extends the wrong class.
+The class Interface extends the wrong class.
+The relation cardinality was not translated correctly for the attribute Documentation.
+The relation cardinality was not translated correctly for the attribute DiagramLink.
+The relation cardinality was not translated correctly for the attribute Agreement.
+The relation cardinality was not translated correctly for the attribute UmbrellaAgreement.
+The attribute BindingCode has the wrong type.
+The attribute OperationKindCode has the wrong type.
+The attribute MessageLocationCode has the wrong type.
+The attribute BindingCode is missing an enum instance.
+The attribute OperationKindCode is missing an enum instance.
+The attribute MessageLocationCode is missing an enum instance.

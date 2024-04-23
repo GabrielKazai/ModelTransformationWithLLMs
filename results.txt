@@ -2,7 +2,7 @@ Total number of XMI we went through:
 2418
 
 Need to ask about: 
-9
+8
 
 Working ones (excluding duplicates, issues, etc.):
 91
@@ -39,10 +39,12 @@ NIEM-Reference-common-nga --> unable to get GPT to follow instructions
 
 NIEM-Reference-external-cap --> mentioned previously, unreadable/unusable
 
+1modelio_no_class_name_test --> no real data in it
+
 ---------------------------------------------------------------------------
 Issues we've discovered along the way:
 Files are too large even when below 200kb from the dataset
-Files lacking a name, both within XMI and the file itself
+Files lacking a name, bothUwithin XMI and the file itself
 Files trigger responses from GPT which are too long, forcing an additional manual click
 File in different language/alphabet, breaking the pipeline (russian)
 File with invalid name (Use%20Cases)

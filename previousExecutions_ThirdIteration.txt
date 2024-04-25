@@ -12,4 +12,4 @@ failed
 NIEM-Reference-common-ucr
 BMMEA1GRAAnnotationModel
 GRAAnnotationModel
-bmm
+jrlib

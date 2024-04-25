@@ -1,0 +1,162 @@
+Table Compare
+Produced: 2024-04-25 12:49:10
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\jrlib\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\jrlib\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                                                                                       2:    1:                                                                                                             2:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+// Automatically generated method. Please delete this comment before entering                                               +-
+// Automatically generated method. Please delete this comment before entering                                               +-
+// specific code.                                                                                                           +-
+// specific code.                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+                                                                                                                            -+ boolean containsKey(K key)
+boolean containsKey(Object key)                                                                                             +-
+boolean containsValue(Object value)                                                                                         +-
+                                                                                                                            -+ boolean containsValue(V value)
+                                                                                                                            -+ boolean equals(Object o)
+                                                                                                                            -+ CalculationData getSourceLRScales()
+class ChangeEvent {                                                                                                         +-
+class Object {                                                                                                              +-
+default boolean equals(Object o) {                                                                                          +-
+default int hashCode() {                                                                                                    +-
+double getfWeight(final int accident, final int development)                                                                +-
+                                                                                                                            -+ double getfWeight(int accident, int development)
+double getMackAlpha(final int development)                                                                                  +-
+                                                                                                                            -+ double getMackAlpha(int development)
+double getValue(final int accident, final int development)                                                                  +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+                                                                                                                            -+ double getValue(int accident, int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int development)
+                                                                                                                            -+ double getValue(int index)
+double getWeight(final int accident, final int development)                                                                 +-
+                                                                                                                            -+ double getWeight(int accident, int development)
+double[] toArray()                                                                                                          +-
+double[] toArray()                                                                                                          +-
+                                                                                                                            -+ double[][] toArray()
+                                                                                                                            -+ double[][] toArray()
+extends LinkRatioScale,MethodSelection<T,M extends SelectableMethod<T>>                                                     +-
+if (this == obj)                                                                                                            +-
+if (this.getClass() != obj.getClass())                                                                                      +-
+int getDevelopmentCount(final int accident)                                                                                 +-
+                                                                                                                            -+ int getDevelopmentCount(int accident)
+                                                                                                                            -+ int hashCode()
+int result = super.hashCode()                                                                                               +-
+interface Collection {                                                                                                      +-
+interface Entry {                                                                                                           +-
+interface Set {                                                                                                             +-
+LinkRatioScale getSourceLRScales()                                                                                          +-
+                                                                                                                            -+ M getDefaultMethod()
+                                                                                                                            -+ M getMethod(int index)
+                                                                                                                            -+ public class ChangeEvent {
+public class double[]                                                                                                       +-
+public class double[][]                                                                                                     +-
+public class int                                                                                                            +-
+public class K {                                                                                                            +-
+public class M {                                                                                                            +-
+                                                                                                                            -+ public class Object {
+public class T {                                                                                                            +-
+public class V {                                                                                                            +-
+public class void                                                                                                           +-
+                                                                                                                            -+ public interface Collection<E> {
+                                                                                                                            -+ public interface Entry<K, V> {
+                                                                                                                            -+ public interface LinkRatioFunction extends SelectableMethod<LinkRatio> {
+public interface LinkRatioFunction extends SelectableMethod<T> {                                                            +-
+                                                                                                                            -+ public interface LinkRatioMethod extends SelectableMethod<LinkRatio> {
+public interface LinkRatioMethod extends SelectableMethod<T> {                                                              +-
+                                                                                                                            -+ public interface LinkRatioScaleEstimator extends SelectableMethod<LinkRatioScale> {
+public interface LinkRatioScaleEstimator extends SelectableMethod<T> {                                                      +-
+public interface LinkRatioScaleSelection                                                                                    +-
+                                                                                                                            -+ public interface LinkRatioScaleSelection extends MethodSelection<LinkRatioScale, LinkRatioScaleEstimator> {
+                                                                                                                            -+ public interface LinkRatioSEFunction extends SelectableMethod<LinkRatioSE> {
+public interface LinkRatioSEFunction extends SelectableMethod<T> {                                                          +-
+                                                                                                                            -+ public interface LinkRatioSelection extends LinkRatio, MethodSelection<LinkRatio, LinkRatioMethod> {
+public interface LinkRatioSelection extends LinkRatio,MethodSelection<T,M extends SelectableMethod<T>>                      +-
+                                                                                                                            -+ public interface LinkRatioSESelection extends LinkRatioSE, MethodSelection<LinkRatioSE, LinkRatioSEFunction> {
+public interface LinkRatioSESelection extends LinkRatioSE,MethodSelection<T,M extends SelectableMethod<T>>                  +-
+public interface LinkRatioSmoothing extends LinkRatio {                                                                     +-
+                                                                                                                            -+ public interface LinkRatioSmoothing extends SelectableMethod<LinkRatio> {
+                                                                                                                            -+ public interface LinkRatioSmoothingSelection extends MethodSelection<LinkRatio, LinkRatioSmoothing> {
+public interface LinkRatioSmoothingSelection extends MethodSelection<T,M extends SelectableMethod<T>>,LinkRatioSmoothing    +-
+public interface Map {                                                                                                      +-
+                                                                                                                            -+ public interface Map<K, V> {
+                                                                                                                            -+ public interface MethodSelection<T, M extends SelectableMethod<T>> {
+                                                                                                                            -+ public interface SelectableMethod<T> {
+                                                                                                                            -+ public interface Set<E> {
+return false                                                                                                                +-
+return result                                                                                                               +-
+return true                                                                                                                 +-
+return true                                                                                                                 +-
+                                                                                                                            -+ V get(K key)
+V get(Object key)                                                                                                           +-
+                                                                                                                            -+ V remove(K key)
+V remove(Object key)                                                                                                        +-
+                                                                                                                            -+ void addChangeListener(ChangeListener listener)
+void addChangeListener(final ChangeListener listener)                                                                       +-
+                                                                                                                            -+ void fit(FactorTriangle factors)
+void fit(final FactorTriangle factors)                                                                                      +-
+void fit(final LinkRatio lr)                                                                                                +-
+void fit(final LinkRatioScale scales)                                                                                       +-
+void fit(final LinkRatioSE ses)                                                                                             +-
+                                                                                                                            -+ void fit(LinkRatio lr)
+                                                                                                                            -+ void fit(LinkRatioScale scales)
+                                                                                                                            -+ void fit(LinkRatioSE ses)
+                                                                                                                            -+ void fit(T source)
+                                                                                                                            -+ void fit(T source)
+void putAll(Map<? extends K m, ? extends V> Map m)                                                                          +-
+                                                                                                                            -+ void putAll(Map<K, V> m)
+                                                                                                                            -+ void removeChangeListener(ChangeListener listener)
+void removeChangeListener(final ChangeListener listener)                                                                    +-
+                                                                                                                            -+ void setDefaultMethod(M method)
+void setDevelopmentCount(final int developments)                                                                            +-
+                                                                                                                            -+ void setDevelopmentCount(int developments)
+                                                                                                                            -+ void setMethod(M method, int index)
+                                                                                                                            -+ void setMethods(Map<Integer, M> methods)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

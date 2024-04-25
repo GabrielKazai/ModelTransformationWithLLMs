@@ -1,0 +1,1356 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+img.AutoScale { max-width: 100%; max-height: 100%; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigMod { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigOrphan { color: #000000; background-color: #FAEEFF; }
+td.TextItemNum { color: #696969; background-color: #F0F0F0; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigOrphan { color: #000000; background-color: #F1E3FF; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+td.TextItemInsigAdd { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration: line-through; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+.TextSegElementKeyword { font-weight: bold; }
+.TextSegElementIdentifier { }
+.TextSegElementOperator { }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br>
+Produced: 2024-04-25 12:49:10<br>
+&nbsp; &nbsp;
+<br>
+Mode:&nbsp; All &nbsp;
+<br>
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\jrlib\oracle\combinedOracle\cleanOracle.java &nbsp;
+<br>
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\jrlib\gpt\gptoutput\cleanGPT_SecondIteration.java &nbsp;
+<br>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">Changeable</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">Changeable</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void addChangeListener(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>ChangeListener listener);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void addChangeListener(ChangeListener listener);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void removeChangeListener(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>ChangeListener listener);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void removeChangeListener(ChangeListener listener);</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Changeable</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Changeable</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">void</span> <span class="TextSegElementIdentifier">recalculate</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">void</span> <span class="TextSegElementIdentifier">recalculate</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">void</span> <span class="TextSegElementIdentifier">detach</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">void</span> <span class="TextSegElementIdentifier">detach</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getAccidentCount</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getAccidentCount</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getDevelopmentCount</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getDevelopmentCount</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; int getDevelopmentCount(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int accident);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; int getDevelopmentCount(int accident);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int accident,<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">final</span> int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int accident, int development);</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">double</span><span class="TextSegElementOperator">[][]</span> <span class="TextSegElementIdentifier">toArray</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">double</span><span class="TextSegElementOperator">[][]</span> <span class="TextSegElementIdentifier">toArray</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">ModifiedTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">ModifiedTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementIdentifier">getSourceTriangle</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementIdentifier">getSourceTriangle</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementIdentifier">getSourceTriangle</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">Triangle</span> <span class="TextSegElementIdentifier">getSourceTriangle</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">ModifiedFactorTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">ModifiedFactorTriangle</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementIdentifier">getSourceFactors</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementIdentifier">FactorTriangle</span> <span class="TextSegElementIdentifier">getSourceFactors</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">LinkRatioSE</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementKeyword">public</span> <span class="TextSegElementKeyword">interface</span> <span class="TextSegElementIdentifier">LinkRatioSE</span> <span class="TextSegElementKeyword">extends</span> <span class="TextSegElementIdentifier">CalculationData</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegSigDiff">L</span><span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">nkR</span>at<span class="TextSegSigDiff">ioScale</span> getSourceLRScales();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegSigDiff">CalculationD</span>at<span class="TextSegSigDiff">a</span> getSourceLRScales();</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getDevelopmentCount</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">getDevelopmentCount</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">double</span><span class="TextSegElementOperator">[]</span> <span class="TextSegElementIdentifier">toArray</span><span class="TextSegElementOperator">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegElementKeyword">double</span><span class="TextSegElementOperator">[]</span> <span class="TextSegElementIdentifier">toArray</span><span class="TextSegElementOperator">();</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">+-</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">public interface LinkRatioSESelection extends LinkRatioSE,MethodSelection&lt;<span class="TextSegSigDiff">T</span>,<span class="TextSegSigDiff">M</span> <span class="TextSegSigDiff">ex</span><span class="TextSegSigDiff">te</span><span class="TextSegSigDiff">nds</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Sele</span>ct<span class="TextSegSigDiff">ableMethod</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span>&gt;<span class="TextSegSigDiff">&gt;</span></td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioSESelection extends LinkRatioSE,<span class="TextSegInsigDiff"> </span>MethodSelection&lt;<span class="TextSegSigDiff">LinkRatioSE</span>, <span class="TextSegSigDiff">LinkRatioSEFun</span>ct<span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">on</span>&gt;<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>public interface LinkRatioSEFunction extends SelectableMethod&lt;<span class="TextSegSigDiff">T</span>&gt; {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioSEFunction extends SelectableMethod&lt;<span class="TextSegSigDiff">LinkRatioSE</span>&gt; {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; </span>void fit(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>LinkRatioSE ses);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void fit(LinkRatioSE ses);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>public interface LinkRatioFunction extends SelectableMethod&lt;<span class="TextSegSigDiff">T</span>&gt; {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioFunction extends SelectableMethod&lt;<span class="TextSegSigDiff">LinkRatio</span>&gt; {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; </span>void fit(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>LinkRatio lr);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void fit(LinkRatio lr);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span>public interface LinkRatioSmoothingSelection extends MethodSelection&lt;<span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">,</span><span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">SelectableMethod</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">&gt;&gt;</span>,LinkRatioSmoothing</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioSmoothingSelection extends MethodSelection&lt;<span class="TextSegSigDiff">Li</span><span class="TextSegSigDiff">nkR</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">tio</span>,<span class="TextSegInsigDiff"> </span>LinkRatioSmoothing<span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatioSmoothing extends LinkRatio {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioSmoothing extends <span class="TextSegSigDiff">SelectableMethod</span><span class="TextSegSigDiff">&lt;</span>LinkRatio<span class="TextSegSigDiff">&gt;</span> {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>LinkRatio getSourceLinkRatios();</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; LinkRatio getSourceLinkRatios();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>void setDevelopmentCount(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int developments);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void setDevelopmentCount(int developments);</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatio extends CalculationData {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">public interface LinkRatio extends CalculationData {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>FactorTriangle getSourceFactors();</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; FactorTriangle getSourceFactors();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>int getDevelopmentCount();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; int getDevelopmentCount();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>double[] toArray();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double[]<span class="TextSegSigDiff">[]</span> toArray();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>double getfWeight(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int accident,<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">final</span> int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getfWeight(int accident, int development);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span>double getMackAlpha(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getMackAlpha(int development);</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatioSelection extends LinkRatio,MethodSelection&lt;<span class="TextSegSigDiff">T</span>,<span class="TextSegSigDiff">M</span> <span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Selectable</span>Method<span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span>&gt;<span class="TextSegSigDiff">&gt;</span></td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioSelection extends LinkRatio,<span class="TextSegInsigDiff"> </span>MethodSelection&lt;<span class="TextSegSigDiff">LinkRatio</span>, <span class="TextSegSigDiff">Li</span><span class="TextSegSigDiff">nkRa</span><span class="TextSegSigDiff">tio</span>Method&gt;<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatioMethod extends SelectableMethod&lt;<span class="TextSegSigDiff">T</span>&gt; {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioMethod extends SelectableMethod&lt;<span class="TextSegSigDiff">LinkRatio</span>&gt; {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>void fit(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>FactorTriangle factors);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void fit(FactorTriangle factors);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double getWeight(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int accident,<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">final</span> int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getWeight(int accident, int development);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double getMackAlpha();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; double getMackAlpha();</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatioScaleEstimator extends SelectableMethod&lt;<span class="TextSegSigDiff">T</span>&gt; {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface LinkRatioScaleEstimator extends SelectableMethod&lt;<span class="TextSegSigDiff">LinkRatioScale</span>&gt; {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>void fit(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>LinkRatioScale scales);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void fit(LinkRatioScale scales);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">interface</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">LinkRatioScaleSelection</span></td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">ext</span><span class="TextSegSigDiff">ends</span> LinkRatioScale<span class="TextSegSigDiff">,</span><span class="TextSegSigDiff">Method</span>Selection<span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">,</span><span class="TextSegSigDiff">M</span> extends Select<span class="TextSegSigDiff">ab</span>le<span class="TextSegSigDiff">M</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">th</span><span class="TextSegSigDiff">od</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span>&gt;<span class="TextSegSigDiff">&gt;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegSigDiff">erface</span> LinkRatioScaleSelection extends <span class="TextSegSigDiff">Method</span>Select<span class="TextSegSigDiff">ion</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">LinkRatioSca</span>le<span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">LinkRatioScaleEstimator</span>&gt;<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface LinkRatioScale extends CalculationData {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">public interface LinkRatioScale extends CalculationData {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>LinkRatio getSourceLinkRatios();</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; LinkRatio getSourceLinkRatios();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>int getDevelopmentCount();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; int getDevelopmentCount();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double getValue(<span class="TextSegSigDiff">final</span><span class="TextSegInsigDiff"> </span>int development);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double getValue(int development);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>double[] toArray();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; double[]<span class="TextSegSigDiff">[]</span> toArray();</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface <span class="TextSegSigDiff">C</span><span class="TextSegSigDiff">hang</span><span class="TextSegSigDiff">eL</span><span class="TextSegSigDiff">istener</span> extends <span class="TextSegSigDiff">Ev</span><span class="TextSegSigDiff">entListener</span> {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">public interface <span class="TextSegSigDiff">MethodSelectio</span><span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">M</span> extends <span class="TextSegSigDiff">Selectabl</span><span class="TextSegSigDiff">eMethod</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">&gt;&gt;</span> {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">getDefaultMethod</span><span class="TextSegSigDiff">();</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">setDefaultMethod</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">method</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">setMethod</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">method</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">index</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">setMethods</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">Map</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">Integer</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">M</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">methods</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">sta</span><span class="TextSegSigDiff">teChange</span>d(<span class="TextSegSigDiff">ChangeEvent</span> <span class="TextSegSigDiff">e</span>);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; <span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ge</span><span class="TextSegSigDiff">tMet</span><span class="TextSegSigDiff">ho</span>d(<span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">nt</span> <span class="TextSegSigDiff">index</span>);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">fit</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">T</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">source</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">lass</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ChangeEvent</span> {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">interface</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Sele</span><span class="TextSegSigDiff">ctabl</span><span class="TextSegSigDiff">eM</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">thod</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">&gt;</span> {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">fit</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">T</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">source</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">double</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">getValue</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">index</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface EventListener {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">public interface EventListener {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">interface</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ChangeListener</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">EventListener</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp;&nbsp; </span><span class="TextSegSigDiff">void</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">stateChanged</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">ChangeEvent</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">);</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ChangeEvent</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>public interface Map {</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">public interface Map<span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">K</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">V</span><span class="TextSegSigDiff">&gt;</span> {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>int size();</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; int size();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>boolean isEmpty();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; boolean isEmpty();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>boolean containsKey(<span class="TextSegSigDiff">Object</span> key);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; boolean containsKey(<span class="TextSegSigDiff">K</span> key);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>boolean containsValue(<span class="TextSegSigDiff">Object</span> value);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; boolean containsValue(<span class="TextSegSigDiff">V</span> value);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>V get(<span class="TextSegSigDiff">Object</span> key);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; V get(<span class="TextSegSigDiff">K</span> key);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>V put(K key, V value);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; V put(K key, V value);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>V remove(<span class="TextSegSigDiff">Object</span> key);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; V remove(<span class="TextSegSigDiff">K</span> key);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void putAll(Map&lt;<span class="TextSegSigDiff">?</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span>K<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">m</span>,<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">?</span> <span class="TextSegSigDiff">extends</span><span class="TextSegInsigDiff"> </span>V&gt;<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Map</span> m);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; void putAll(Map&lt;K, V&gt; m);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>void clear();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; void clear();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>Set&lt;K&gt; keySet();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; Set&lt;K&gt; keySet();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>Collection&lt;V&gt; values();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; Collection&lt;V&gt; values();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>Set&lt;Map.Entry&lt;K, V&gt;&gt; entrySet();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; Set&lt;Map.Entry&lt;K, V&gt;&gt; entrySet();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">default</span><span class="TextSegInsigDiff"> </span>boolean equals(Object o)<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; boolean equals(Object o)<span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// Automatically generated method. Please delete this comment before entering</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// specific code.</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>i<span class="TextSegSigDiff">f</span> <span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">this</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">==</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">obj</span>)</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;&nbsp;&nbsp; i<span class="TextSegSigDiff">nt</span> <span class="TextSegSigDiff">hashC</span><span class="TextSegSigDiff">ode</span><span class="TextSegSigDiff">(</span>)<span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">true</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">if</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">this</span><span class="TextSegSigDiff">.</span><span class="TextSegSigDiff">getClass</span><span class="TextSegSigDiff">()</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">!=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">obj</span><span class="TextSegSigDiff">.</span><span class="TextSegSigDiff">getClass</span><span class="TextSegSigDiff">())</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">fals</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">face</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Set</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">E</span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">true</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">defau</span><span class="TextSegSigDiff">lt</span> int <span class="TextSegSigDiff">hash</span>Co<span class="TextSegSigDiff">d</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">()</span> {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">p</span><span class="TextSegSigDiff">ublic</span> int<span class="TextSegSigDiff">erface</span> Co<span class="TextSegSigDiff">llection</span><span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">E</span><span class="TextSegSigDiff">&gt;</span> {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// Automatically generated method. Please delete this comment before entering</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff">// specific code.</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">int</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">result</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">super</span><span class="TextSegSigDiff">.</span><span class="TextSegSigDiff">hashCode</span><span class="TextSegSigDiff">();</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">return</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">result</span><span class="TextSegSigDiff">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>interface Entry {</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span>interface Entry<span class="TextSegSigDiff">&lt;</span><span class="TextSegSigDiff">K</span><span class="TextSegSigDiff">,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">V</span><span class="TextSegSigDiff">&gt;</span> {</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>K getKey();</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; K getKey();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>V getValue();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; V getValue();</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>V setValue(V value);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; V setValue(V value);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>boolean equals(Object o);</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; boolean equals(Object o);</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp; &nbsp;<span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>int hashCode();</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemInsigMod Wrap">&nbsp;&nbsp;&nbsp; int hashCode();</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemInsigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemInsigMod Wrap">}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">interface</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Set</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">interface</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Collection</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span>class Object {</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSigMod Wrap"><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span>class Object {</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">K</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">M</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">T</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">V</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">double</span><span class="TextSegSigDiff">[]</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">double</span><span class="TextSegSigDiff">[][]</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">int</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemInsigMod Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">public</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">class</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">void</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSigMod Wrap"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemSame Wrap"><span class="TextSegElementOperator">}</span></td>
+</tr>
+</table>
+<br>
+</body>
+</html>

@@ -1,0 +1,1245 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes from XMI
+
+
+New chat
+New chat
+New chat
+Java UML to Code
+Previous 7 Days
+Random numbers in range.
+Random Numbers, Increment of 6
+Java UML to Code
+Java Class Generation
+New chat
+Java Classes from XMI
+Java UML Translation
+New chat
+New chat
+Java Model from XMI
+New chat
+Java Classes Based on XMI
+Java Code Generation
+Java Classes from XMI
+Java Classes from UML
+Java Classes from UML
+Java Classes Generation
+Java Classes UML Code
+Java Code Generation
+Java Code Generation
+New chat
+New chat
+New chat
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_IZ75sPAKEe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_IZ75sfAKEe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_IZ75svAKEe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ75s_AKEe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IZ75tPAKEe6-4aaHZrjoFg" name="bmm2">
+    <packagedElement xmi:type="uml:Package" xmi:id="_IZ75tfAKEe6-4aaHZrjoFg" name="core">
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ75tvAKEe6-4aaHZrjoFg" name="BMM_TYPE" visibility="package" isAbstract="true">
+        <generalization xmi:id="_IZ75t_AKEe6-4aaHZrjoFg" general="_IZ76WvAKEe6-4aaHZrjoFg"/>
+        <ownedOperation xmi:id="_IZ75uPAKEe6-4aaHZrjoFg" name="base_class" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ75ufAKEe6-4aaHZrjoFg" type="_IZ75zPAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ75uvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ75u_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ75vPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ75vfAKEe6-4aaHZrjoFg" name="has_type_substitutions" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ75vvAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ75v_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ75wPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ75wfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ75wvAKEe6-4aaHZrjoFg" name="type_substitutions" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ75w_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ75xPAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ75xfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ75xvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ75x_AKEe6-4aaHZrjoFg" name="as_display_type_string" visibility="public">
+          <ownedParameter xmi:id="_IZ75yPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ75yfAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ75yvAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ75y_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ75zPAKEe6-4aaHZrjoFg" name="BMM_CLASS" visibility="package">
+        <generalization xmi:id="_IZ75zfAKEe6-4aaHZrjoFg" general="_IZ76WvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ75zvAKEe6-4aaHZrjoFg" name="ancestors" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ758PAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ75z_AKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ750PAKEe6-4aaHZrjoFg" name="package" visibility="public" type="_IZ76NvAKEe6-4aaHZrjoFg" association="_IZ758vAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ750fAKEe6-4aaHZrjoFg" name="properties" visibility="public" type="_IZ759vAKEe6-4aaHZrjoFg" association="_IZ759PAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ750vAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ750_AKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ751PAKEe6-4aaHZrjoFg" name="source_schema_id" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ751fAKEe6-4aaHZrjoFg" name="immediate_descendants" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ751vAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ751_AKEe6-4aaHZrjoFg" name="all_ancestors" visibility="public">
+          <ownedParameter xmi:id="_IZ752PAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ752fAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ752vAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ752_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ753PAKEe6-4aaHZrjoFg" name="all_descendants" visibility="public">
+          <ownedParameter xmi:id="_IZ753fAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ753vAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ753_AKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ754PAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ754fAKEe6-4aaHZrjoFg" name="suppliers" visibility="public">
+          <ownedParameter xmi:id="_IZ754vAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ754_AKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ755PAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ755fAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ755vAKEe6-4aaHZrjoFg" name="suppliers_non_primitive" visibility="public">
+          <ownedParameter xmi:id="_IZ755_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ756PAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ756fAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ756vAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ756_AKEe6-4aaHZrjoFg" name="supplier_closure" visibility="public">
+          <ownedParameter xmi:id="_IZ757PAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ757fAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ757vAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ757_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ758PAKEe6-4aaHZrjoFg" memberEnd="_IZ75zvAKEe6-4aaHZrjoFg _IZ758fAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ758fAKEe6-4aaHZrjoFg" visibility="private" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ758PAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ758vAKEe6-4aaHZrjoFg" memberEnd="_IZ750PAKEe6-4aaHZrjoFg _IZ758_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ758_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ758vAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ759PAKEe6-4aaHZrjoFg" memberEnd="_IZ750fAKEe6-4aaHZrjoFg _IZ759fAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ759fAKEe6-4aaHZrjoFg" visibility="private" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ759PAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ759vAKEe6-4aaHZrjoFg" name="BMM_PROPERTY" visibility="package">
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_IZ759_AKEe6-4aaHZrjoFg" visibility="public" parameter="_IZ75-PAKEe6-4aaHZrjoFg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_IZ75-PAKEe6-4aaHZrjoFg" parameteredElement="_IZ75-fAKEe6-4aaHZrjoFg" default="_IZ75-vAKEe6-4aaHZrjoFg">
+            <ownedParameteredElement xmi:type="uml:Class" xmi:id="_IZ75-fAKEe6-4aaHZrjoFg" name="T" templateParameter="_IZ75-PAKEe6-4aaHZrjoFg"/>
+            <ownedDefault xmi:type="uml:LiteralString" xmi:id="_IZ75-vAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <ownedAttribute xmi:id="_IZ75-_AKEe6-4aaHZrjoFg" name="type" visibility="public" type="_IZ75tvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ76C_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ75_PAKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ75_fAKEe6-4aaHZrjoFg" name="is_mandatory" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ75_vAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ75__AKEe6-4aaHZrjoFg" name="is_computed" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76APAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ76AfAKEe6-4aaHZrjoFg" name="existence" visibility="public">
+          <ownedParameter xmi:id="_IZ76AvAKEe6-4aaHZrjoFg" type="_IZ76avAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76A_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76BPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76BfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76BvAKEe6-4aaHZrjoFg" name="display_name" visibility="public">
+          <ownedParameter xmi:id="_IZ76B_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76CPAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76CfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76CvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76C_AKEe6-4aaHZrjoFg" memberEnd="_IZ75-_AKEe6-4aaHZrjoFg _IZ76DPAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76DPAKEe6-4aaHZrjoFg" visibility="private" type="_IZ759vAKEe6-4aaHZrjoFg" association="_IZ76C_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76DfAKEe6-4aaHZrjoFg" name="BMM_CONTAINER_TYPE" visibility="package">
+        <generalization xmi:id="_IZ76DvAKEe6-4aaHZrjoFg" general="_IZ75tvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76D_AKEe6-4aaHZrjoFg" name="container_class" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ76EfAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76EPAKEe6-4aaHZrjoFg" name="base_type" visibility="public" type="_IZ75tvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ76E_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76EfAKEe6-4aaHZrjoFg" memberEnd="_IZ76D_AKEe6-4aaHZrjoFg _IZ76EvAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76EvAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76DfAKEe6-4aaHZrjoFg" association="_IZ76EfAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76E_AKEe6-4aaHZrjoFg" memberEnd="_IZ76EPAKEe6-4aaHZrjoFg _IZ76FPAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76FPAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76DfAKEe6-4aaHZrjoFg" association="_IZ76E_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76FfAKEe6-4aaHZrjoFg" name="BMM_GENERIC_TYPE" visibility="package">
+        <generalization xmi:id="_IZ76FvAKEe6-4aaHZrjoFg" general="_IZ75tvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76F_AKEe6-4aaHZrjoFg" name="generic_parameters" visibility="public" type="_IZ75tvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ76GvAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76GPAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76GfAKEe6-4aaHZrjoFg" name="base_class" visibility="public" type="_IZ767fAKEe6-4aaHZrjoFg" association="_IZ76HPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76GvAKEe6-4aaHZrjoFg" memberEnd="_IZ76F_AKEe6-4aaHZrjoFg _IZ76G_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76G_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ76FfAKEe6-4aaHZrjoFg" association="_IZ76GvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76HPAKEe6-4aaHZrjoFg" memberEnd="_IZ76GfAKEe6-4aaHZrjoFg _IZ76HfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76HfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76FfAKEe6-4aaHZrjoFg" association="_IZ76HPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76HvAKEe6-4aaHZrjoFg" name="BMM_SIMPLE_TYPE" visibility="package">
+        <generalization xmi:id="_IZ76H_AKEe6-4aaHZrjoFg" general="_IZ75tvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76IPAKEe6-4aaHZrjoFg" name="base_class" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ76IfAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76IfAKEe6-4aaHZrjoFg" memberEnd="_IZ76IPAKEe6-4aaHZrjoFg _IZ76IvAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76IvAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76HvAKEe6-4aaHZrjoFg" association="_IZ76IfAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76I_AKEe6-4aaHZrjoFg" name="BMM_SIMPLE_TYPE_OPEN" visibility="package">
+        <generalization xmi:id="_IZ76JPAKEe6-4aaHZrjoFg" general="_IZ75tvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76JfAKEe6-4aaHZrjoFg" name="type" visibility="public" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76JvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76JvAKEe6-4aaHZrjoFg" memberEnd="_IZ76JfAKEe6-4aaHZrjoFg _IZ76J_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76J_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ76I_AKEe6-4aaHZrjoFg" association="_IZ76JvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76KPAKEe6-4aaHZrjoFg" name="BMM_ENUMERATION" visibility="package">
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_IZ76KfAKEe6-4aaHZrjoFg" visibility="public" parameter="_IZ76KvAKEe6-4aaHZrjoFg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_IZ76KvAKEe6-4aaHZrjoFg" parameteredElement="_IZ76K_AKEe6-4aaHZrjoFg" default="_IZ76LPAKEe6-4aaHZrjoFg">
+            <ownedParameteredElement xmi:type="uml:Class" xmi:id="_IZ76K_AKEe6-4aaHZrjoFg" name="G" templateParameter="_IZ76KvAKEe6-4aaHZrjoFg"/>
+            <ownedDefault xmi:type="uml:LiteralString" xmi:id="_IZ76LPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <generalization xmi:id="_IZ76LfAKEe6-4aaHZrjoFg" general="_IZ75zPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76LvAKEe6-4aaHZrjoFg" name="BMM_ENUMERATION_STRING" visibility="package">
+        <templateBinding xmi:id="_IZ76L_AKEe6-4aaHZrjoFg" signature="_IZ76KfAKEe6-4aaHZrjoFg">
+          <parameterSubstitution xmi:id="_IZ76MPAKEe6-4aaHZrjoFg" formal="_IZ76KvAKEe6-4aaHZrjoFg"/>
+        </templateBinding>
+        <generalization xmi:id="_IZ76MfAKEe6-4aaHZrjoFg" general="_IZ76KPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76MvAKEe6-4aaHZrjoFg" name="BMM_ENUMERATION_INTEGER" visibility="package">
+        <templateBinding xmi:id="_IZ76M_AKEe6-4aaHZrjoFg" signature="_IZ76KfAKEe6-4aaHZrjoFg">
+          <parameterSubstitution xmi:id="_IZ76NPAKEe6-4aaHZrjoFg" formal="_IZ76KvAKEe6-4aaHZrjoFg"/>
+        </templateBinding>
+        <generalization xmi:id="_IZ76NfAKEe6-4aaHZrjoFg" general="_IZ76KPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76NvAKEe6-4aaHZrjoFg" name="BMM_PACKAGE" visibility="package">
+        <generalization xmi:id="_IZ76N_AKEe6-4aaHZrjoFg" general="_IZ763PAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76OPAKEe6-4aaHZrjoFg" name="classes" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ76RfAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76OfAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76OvAKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ76O_AKEe6-4aaHZrjoFg" name="root_classes" visibility="public">
+          <ownedParameter xmi:id="_IZ76PPAKEe6-4aaHZrjoFg" type="_IZ75zPAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76PfAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76PvAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76P_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76QPAKEe6-4aaHZrjoFg" name="path" visibility="public">
+          <ownedParameter xmi:id="_IZ76QfAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76QvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76Q_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76RPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76RfAKEe6-4aaHZrjoFg" memberEnd="_IZ76OPAKEe6-4aaHZrjoFg _IZ76RvAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76RvAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76NvAKEe6-4aaHZrjoFg" association="_IZ76RfAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76R_AKEe6-4aaHZrjoFg" name="BMM_GENERIC_PARAMETER" visibility="package">
+        <generalization xmi:id="_IZ76SPAKEe6-4aaHZrjoFg" general="_IZ76WvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76SfAKEe6-4aaHZrjoFg" name="conforms_to_type" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" association="_IZ76VPAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76SvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76S_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76VvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76TPAKEe6-4aaHZrjoFg" name="inheritance_precursor" visibility="public" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76WPAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76TfAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76TvAKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ76T_AKEe6-4aaHZrjoFg" name="flattened_conforms_to_type" visibility="public">
+          <ownedParameter xmi:id="_IZ76UPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76UfAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76UvAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76U_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76VPAKEe6-4aaHZrjoFg" memberEnd="_IZ76SfAKEe6-4aaHZrjoFg _IZ76VfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76VfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76VPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76VvAKEe6-4aaHZrjoFg" memberEnd="_IZ76S_AKEe6-4aaHZrjoFg _IZ76V_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76V_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76VvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76WPAKEe6-4aaHZrjoFg" memberEnd="_IZ76TPAKEe6-4aaHZrjoFg _IZ76WfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76WfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76R_AKEe6-4aaHZrjoFg" association="_IZ76WPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76WvAKEe6-4aaHZrjoFg" name="BMM_CLASSIFIER" visibility="package" isAbstract="true">
+        <ownedOperation xmi:id="_IZ76W_AKEe6-4aaHZrjoFg" name="type_category" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ76XPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76XfAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76XvAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76X_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76YPAKEe6-4aaHZrjoFg" name="as_conformance_type_string" visibility="public">
+          <ownedParameter xmi:id="_IZ76YfAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76YvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76Y_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76ZPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76ZfAKEe6-4aaHZrjoFg" name="as_type_string" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ76ZvAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76Z_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76aPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76afAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76avAKEe6-4aaHZrjoFg" name="MULTIPLICITY_INTERVAL" visibility="package"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76a_AKEe6-4aaHZrjoFg" name="BMM_CONTAINER_PROPERTY" visibility="package">
+        <templateBinding xmi:id="_IZ76bPAKEe6-4aaHZrjoFg" signature="_IZ759_AKEe6-4aaHZrjoFg">
+          <parameterSubstitution xmi:id="_IZ76bfAKEe6-4aaHZrjoFg" formal="_IZ75-PAKEe6-4aaHZrjoFg"/>
+        </templateBinding>
+        <generalization xmi:id="_IZ76bvAKEe6-4aaHZrjoFg" general="_IZ759vAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76b_AKEe6-4aaHZrjoFg" name="type" visibility="public" type="_IZ76DfAKEe6-4aaHZrjoFg" association="_IZ76d_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76cPAKEe6-4aaHZrjoFg" name="cardinality" visibility="public" type="_IZ76avAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76cfAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ76cvAKEe6-4aaHZrjoFg" name="display_name" visibility="public">
+          <ownedParameter xmi:id="_IZ76c_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76dPAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76dfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76dvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76d_AKEe6-4aaHZrjoFg" memberEnd="_IZ76b_AKEe6-4aaHZrjoFg _IZ76ePAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76ePAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76a_AKEe6-4aaHZrjoFg" association="_IZ76d_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76efAKEe6-4aaHZrjoFg" name="BMM_SCHEMA" visibility="package">
+        <generalization xmi:id="_IZ76evAKEe6-4aaHZrjoFg" general="_IZ76xfAKEe6-4aaHZrjoFg"/>
+        <generalization xmi:id="_IZ76e_AKEe6-4aaHZrjoFg" general="_IZ763PAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ76fPAKEe6-4aaHZrjoFg" name="class_definitions" visibility="public" type="_IZ75zPAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ76w_AKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76ffAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ76fvAKEe6-4aaHZrjoFg" name="primitive_types" visibility="public">
+          <ownedParameter xmi:id="_IZ76f_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76gPAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76gfAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76gvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76g_AKEe6-4aaHZrjoFg" name="enumeration_types" visibility="public">
+          <ownedParameter xmi:id="_IZ76hPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76hfAKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76hvAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76h_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76iPAKEe6-4aaHZrjoFg" name="class_definition" visibility="public">
+          <ownedParameter xmi:id="_IZ76ifAKEe6-4aaHZrjoFg" name="a_name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76ivAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76i_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76jPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ76jfAKEe6-4aaHZrjoFg" type="_IZ75zPAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76jvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76j_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76kPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76kfAKEe6-4aaHZrjoFg" name="enumeration" visibility="public">
+          <ownedParameter xmi:id="_IZ76kvAKEe6-4aaHZrjoFg" name="a_name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76k_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76lPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76lfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ76lvAKEe6-4aaHZrjoFg" type="_IZ76KPAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76l_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76mPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76mfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76mvAKEe6-4aaHZrjoFg" name="property_definition" visibility="public">
+          <ownedParameter xmi:id="_IZ76m_AKEe6-4aaHZrjoFg" type="_IZ759vAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76nPAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76nfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76nvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76n_AKEe6-4aaHZrjoFg" name="ms_conformant_property_type" visibility="public">
+          <ownedParameter xmi:id="_IZ76oPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76ofAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76ovAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76o_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76pPAKEe6-4aaHZrjoFg" name="property_definition_at_path" visibility="public">
+          <ownedParameter xmi:id="_IZ76pfAKEe6-4aaHZrjoFg" type="_IZ759vAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76pvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76p_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76qPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76qfAKEe6-4aaHZrjoFg" name="all_ancestor_classes" visibility="public">
+          <ownedParameter xmi:id="_IZ76qvAKEe6-4aaHZrjoFg" name="a_class">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76q_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76rPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76rfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ76rvAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76r_AKEe6-4aaHZrjoFg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76sPAKEe6-4aaHZrjoFg" value="-1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76sfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ76svAKEe6-4aaHZrjoFg" name="type_conforms_to" visibility="public">
+          <ownedParameter xmi:id="_IZ76s_AKEe6-4aaHZrjoFg" name="a_desc_type">
+            <eAnnotations xmi:id="_IZ76tPAKEe6-4aaHZrjoFg" source="Objing">
+              <contents xmi:type="uml:Property" xmi:id="_IZ76tfAKEe6-4aaHZrjoFg" name="isNoType"/>
+            </eAnnotations>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76tvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76t_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76uPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ76ufAKEe6-4aaHZrjoFg" name="an_anc_type">
+            <eAnnotations xmi:id="_IZ76uvAKEe6-4aaHZrjoFg" source="Objing">
+              <contents xmi:type="uml:Property" xmi:id="_IZ76u_AKEe6-4aaHZrjoFg" name="isNoType"/>
+            </eAnnotations>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76vPAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76vfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76vvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ76v_AKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76wPAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76wfAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ76wvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ76w_AKEe6-4aaHZrjoFg" memberEnd="_IZ76fPAKEe6-4aaHZrjoFg _IZ76xPAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ76xPAKEe6-4aaHZrjoFg" visibility="private" type="_IZ76efAKEe6-4aaHZrjoFg" association="_IZ76w_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ76xfAKEe6-4aaHZrjoFg" name="BMM_SCHEMA_CORE" visibility="package">
+        <ownedAttribute xmi:id="_IZ76xvAKEe6-4aaHZrjoFg" name="rm_publisher" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76x_AKEe6-4aaHZrjoFg" name="rm_release" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76yPAKEe6-4aaHZrjoFg" name="schema_name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76yfAKEe6-4aaHZrjoFg" name="schema_revision" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76yvAKEe6-4aaHZrjoFg" name="schema_lifecycle_state" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76y_AKEe6-4aaHZrjoFg" name="schema_author" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76zPAKEe6-4aaHZrjoFg" name="schema_description" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76zfAKEe6-4aaHZrjoFg" name="schema_contributors" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76zvAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76z_AKEe6-4aaHZrjoFg" name="archetype_parent_class" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ760PAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ760fAKEe6-4aaHZrjoFg" name="archetype_data_value_parent_class" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ760vAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ760_AKEe6-4aaHZrjoFg" name="archetype_rm_closure_packages" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ761PAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ761fAKEe6-4aaHZrjoFg" name="archetype_visualise_descendants_of" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ761vAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ761_AKEe6-4aaHZrjoFg" name="schema_id" visibility="public">
+          <ownedParameter xmi:id="_IZ762PAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ762fAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ762vAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ762_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ763PAKEe6-4aaHZrjoFg" name="BMM_PACKAGE_CONTAINER" visibility="package">
+        <ownedAttribute xmi:id="_IZ763fAKEe6-4aaHZrjoFg" name="packages" visibility="public" type="_IZ76NvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ766_AKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ763vAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ763_AKEe6-4aaHZrjoFg" name="package_at_path" visibility="public">
+          <ownedParameter xmi:id="_IZ764PAKEe6-4aaHZrjoFg" type="_IZ76NvAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ764fAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ764vAKEe6-4aaHZrjoFg"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ764_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ765PAKEe6-4aaHZrjoFg" name="dp_recursive_packages" visibility="public">
+          <ownedParameter xmi:id="_IZ765fAKEe6-4aaHZrjoFg" name="action">
+            <eAnnotations xmi:id="_IZ765vAKEe6-4aaHZrjoFg" source="Objing">
+              <contents xmi:type="uml:Property" xmi:id="_IZ765_AKEe6-4aaHZrjoFg" name="isNoType"/>
+            </eAnnotations>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ766PAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ766fAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ766vAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ766_AKEe6-4aaHZrjoFg" memberEnd="_IZ763fAKEe6-4aaHZrjoFg _IZ767PAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ767PAKEe6-4aaHZrjoFg" visibility="private" type="_IZ763PAKEe6-4aaHZrjoFg" association="_IZ766_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ767fAKEe6-4aaHZrjoFg" name="BMM_GENERIC_CLASS" visibility="package">
+        <generalization xmi:id="_IZ767vAKEe6-4aaHZrjoFg" general="_IZ75zPAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ767_AKEe6-4aaHZrjoFg" name="generic_parameters" visibility="public" type="_IZ76R_AKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ768fAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ768PAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ768fAKEe6-4aaHZrjoFg" memberEnd="_IZ767_AKEe6-4aaHZrjoFg _IZ768vAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ768vAKEe6-4aaHZrjoFg" visibility="private" type="_IZ767fAKEe6-4aaHZrjoFg" association="_IZ768fAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IZ768_AKEe6-4aaHZrjoFg" name="persistence">
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ769PAKEe6-4aaHZrjoFg" name="P_BMM_CLASS" visibility="package">
+        <generalization xmi:id="_IZ769fAKEe6-4aaHZrjoFg" general="_IZ77MvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ769vAKEe6-4aaHZrjoFg" name="properties" visibility="public" type="_IZ77M_AKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77CvAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ769_AKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76-PAKEe6-4aaHZrjoFg" name="generic_parameter_defs" visibility="public" type="_IZ77RfAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77DPAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76-fAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76-vAKEe6-4aaHZrjoFg" name="uid" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76-_AKEe6-4aaHZrjoFg" name="name" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76_PAKEe6-4aaHZrjoFg" name="ancestors" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ76_fAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ76_vAKEe6-4aaHZrjoFg" name="is_abstract" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ76__AKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77APAKEe6-4aaHZrjoFg" name="is_override" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77AfAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77AvAKEe6-4aaHZrjoFg" name="source_schema_id" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77A_AKEe6-4aaHZrjoFg" name="is_generic" visibility="public">
+          <ownedParameter xmi:id="_IZ77BPAKEe6-4aaHZrjoFg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77BfAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77BvAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77B_AKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ77CPAKEe6-4aaHZrjoFg" name="create_bmm_class_definition" visibility="public"/>
+        <ownedOperation xmi:id="_IZ77CfAKEe6-4aaHZrjoFg" name="populate_bmm_class_definition" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77CvAKEe6-4aaHZrjoFg" memberEnd="_IZ769vAKEe6-4aaHZrjoFg _IZ77C_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77C_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ769PAKEe6-4aaHZrjoFg" association="_IZ77CvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77DPAKEe6-4aaHZrjoFg" memberEnd="_IZ76-PAKEe6-4aaHZrjoFg _IZ77DfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77DfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ769PAKEe6-4aaHZrjoFg" association="_IZ77DPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77DvAKEe6-4aaHZrjoFg" name="P_BMM_ENUMERATION" visibility="package">
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_IZ77D_AKEe6-4aaHZrjoFg" visibility="public" parameter="_IZ77EPAKEe6-4aaHZrjoFg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_IZ77EPAKEe6-4aaHZrjoFg" parameteredElement="_IZ77EfAKEe6-4aaHZrjoFg" default="_IZ77EvAKEe6-4aaHZrjoFg">
+            <ownedParameteredElement xmi:type="uml:Class" xmi:id="_IZ77EfAKEe6-4aaHZrjoFg" name="T" templateParameter="_IZ77EPAKEe6-4aaHZrjoFg"/>
+            <ownedDefault xmi:type="uml:LiteralString" xmi:id="_IZ77EvAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <generalization xmi:id="_IZ77E_AKEe6-4aaHZrjoFg" general="_IZ769PAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77FPAKEe6-4aaHZrjoFg" name="item_names" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77FfAKEe6-4aaHZrjoFg" name="item_values" visibility="public" type="_IZ77uvAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77FvAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77F_AKEe6-4aaHZrjoFg" name="P_BMM_SCHEMA" visibility="package">
+        <generalization xmi:id="_IZ77GPAKEe6-4aaHZrjoFg" general="_IZ77hvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77GfAKEe6-4aaHZrjoFg" name="primitive_types" visibility="public" type="_IZ769PAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77LPAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77GvAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77G_AKEe6-4aaHZrjoFg" name="class_definitions" visibility="public" type="_IZ769PAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77LvAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77HPAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77HfAKEe6-4aaHZrjoFg" name="canonical_packages" visibility="public" type="_IZ77fPAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77MPAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77HvAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77H_AKEe6-4aaHZrjoFg" name="bmm_version" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77IPAKEe6-4aaHZrjoFg" name="state" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77IfAKEe6-4aaHZrjoFg" name="bmm_schema" visibility="public" type="_IZ76efAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77IvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77I_AKEe6-4aaHZrjoFg" name="validate_created" visibility="public"/>
+        <ownedOperation xmi:id="_IZ77JPAKEe6-4aaHZrjoFg" name="load_finalise" visibility="public"/>
+        <ownedOperation xmi:id="_IZ77JfAKEe6-4aaHZrjoFg" name="merge" visibility="public">
+          <ownedParameter xmi:id="_IZ77JvAKEe6-4aaHZrjoFg" name="other" type="_IZ77ufAKEe6-4aaHZrjoFg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77J_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77KPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77KfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_IZ77KvAKEe6-4aaHZrjoFg" name="validate" visibility="public"/>
+        <ownedOperation xmi:id="_IZ77K_AKEe6-4aaHZrjoFg" name="create_bmm_schema" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77LPAKEe6-4aaHZrjoFg" memberEnd="_IZ77GfAKEe6-4aaHZrjoFg _IZ77LfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77LfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77F_AKEe6-4aaHZrjoFg" association="_IZ77LPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77LvAKEe6-4aaHZrjoFg" memberEnd="_IZ77G_AKEe6-4aaHZrjoFg _IZ77L_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77L_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ77F_AKEe6-4aaHZrjoFg" association="_IZ77LvAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77MPAKEe6-4aaHZrjoFg" memberEnd="_IZ77HfAKEe6-4aaHZrjoFg _IZ77MfAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77MfAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77F_AKEe6-4aaHZrjoFg" association="_IZ77MPAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77MvAKEe6-4aaHZrjoFg" name="P_BMM_CLASSIFIER" visibility="package" isAbstract="true"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77M_AKEe6-4aaHZrjoFg" name="P_BMM_PROPERTY" visibility="package" isAbstract="true">
+        <ownedAttribute xmi:id="_IZ77NPAKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77NfAKEe6-4aaHZrjoFg" name="is_mandatory" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77NvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77N_AKEe6-4aaHZrjoFg" name="is_computed" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77OPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77OfAKEe6-4aaHZrjoFg" name="bmm_property_definition" visibility="public" type="_IZ759vAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77OvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77O_AKEe6-4aaHZrjoFg" name="is_im_infrastructure" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77PPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77PfAKEe6-4aaHZrjoFg" name="is_im_runtime" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77PvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77P_AKEe6-4aaHZrjoFg" name="create_bmm_property_definition" visibility="public" isAbstract="true"/>
+        <ownedOperation xmi:id="_IZ77QPAKEe6-4aaHZrjoFg" name="type_def" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ77QfAKEe6-4aaHZrjoFg" type="_IZ77UfAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77QvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77Q_AKEe6-4aaHZrjoFg"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77RPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77RfAKEe6-4aaHZrjoFg" name="P_BMM_GENERIC_PARAMETER" visibility="package">
+        <generalization xmi:id="_IZ77RvAKEe6-4aaHZrjoFg" general="_IZ77MvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77R_AKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77SPAKEe6-4aaHZrjoFg" name="conforms_to_type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77SfAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77SvAKEe6-4aaHZrjoFg" name="bmm_generic_parameter" visibility="public" type="_IZ76R_AKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77S_AKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77TPAKEe6-4aaHZrjoFg" name="create_bmm_generic_parameter_definition" visibility="public">
+          <ownedParameter xmi:id="_IZ77TfAKEe6-4aaHZrjoFg" type="_IZ76R_AKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77TvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77T_AKEe6-4aaHZrjoFg"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77UPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77UfAKEe6-4aaHZrjoFg" name="P_BMM_TYPE" visibility="package" isAbstract="true">
+        <generalization xmi:id="_IZ77UvAKEe6-4aaHZrjoFg" general="_IZ77MvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77U_AKEe6-4aaHZrjoFg" name="bmm_type" visibility="public" type="_IZ75tvAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77VPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77VfAKEe6-4aaHZrjoFg" name="create_bmm_type" visibility="public" isAbstract="true">
+          <ownedParameter xmi:id="_IZ77VvAKEe6-4aaHZrjoFg" name="a_schema" type="_IZ76efAKEe6-4aaHZrjoFg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77V_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77WPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77WfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_IZ77WvAKEe6-4aaHZrjoFg" name="a_class_def" type="_IZ75zPAKEe6-4aaHZrjoFg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77W_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77XPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77XfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77XvAKEe6-4aaHZrjoFg" name="P_BMM_CONTAINER_TYPE" visibility="package">
+        <generalization xmi:id="_IZ77X_AKEe6-4aaHZrjoFg" general="_IZ77UfAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77YPAKEe6-4aaHZrjoFg" name="type_def" visibility="public" type="_IZ77UfAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77afAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77YfAKEe6-4aaHZrjoFg" name="container_type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77YvAKEe6-4aaHZrjoFg" name="type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77Y_AKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77ZPAKEe6-4aaHZrjoFg" name="type_ref" visibility="public">
+          <ownedParameter xmi:id="_IZ77ZfAKEe6-4aaHZrjoFg" type="_IZ77UfAKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77ZvAKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77Z_AKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77aPAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77afAKEe6-4aaHZrjoFg" memberEnd="_IZ77YPAKEe6-4aaHZrjoFg _IZ77avAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77avAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77XvAKEe6-4aaHZrjoFg" association="_IZ77afAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77a_AKEe6-4aaHZrjoFg" name="P_BMM_SIMPLE_TYPE" visibility="package" clientDependency="_IZ77bvAKEe6-4aaHZrjoFg">
+        <generalization xmi:id="_IZ77bPAKEe6-4aaHZrjoFg" general="_IZ77UfAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77bfAKEe6-4aaHZrjoFg" name="type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_IZ77bvAKEe6-4aaHZrjoFg" name="" supplier="_IZ77kfAKEe6-4aaHZrjoFg" client="_IZ77a_AKEe6-4aaHZrjoFg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77b_AKEe6-4aaHZrjoFg" name="P_BMM_SIMPLE_TYPE_OPEN" visibility="package">
+        <generalization xmi:id="_IZ77cPAKEe6-4aaHZrjoFg" general="_IZ77UfAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77cfAKEe6-4aaHZrjoFg" name="type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77cvAKEe6-4aaHZrjoFg" name="P_BMM_GENERIC_TYPE" visibility="package">
+        <generalization xmi:id="_IZ77c_AKEe6-4aaHZrjoFg" general="_IZ77UfAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77dPAKEe6-4aaHZrjoFg" name="generic_parameter_defs" visibility="public" type="_IZ77UfAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77evAKEe6-4aaHZrjoFg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77dfAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77dvAKEe6-4aaHZrjoFg" name="root_type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77d_AKEe6-4aaHZrjoFg" name="generic_parameters" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77ePAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77efAKEe6-4aaHZrjoFg" name="generic_parameter_refs" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77evAKEe6-4aaHZrjoFg" memberEnd="_IZ77dPAKEe6-4aaHZrjoFg _IZ77e_AKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77e_AKEe6-4aaHZrjoFg" visibility="private" type="_IZ77cvAKEe6-4aaHZrjoFg" association="_IZ77evAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77fPAKEe6-4aaHZrjoFg" name="P_BMM_PACKAGE" visibility="package">
+        <generalization xmi:id="_IZ77ffAKEe6-4aaHZrjoFg" general="_IZ77hvAKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77fvAKEe6-4aaHZrjoFg" name="name" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77f_AKEe6-4aaHZrjoFg" name="classes" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77gPAKEe6-4aaHZrjoFg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77gfAKEe6-4aaHZrjoFg" name="merge" visibility="public">
+          <ownedParameter xmi:id="_IZ77gvAKEe6-4aaHZrjoFg" name="other" type="_IZ77fPAKEe6-4aaHZrjoFg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77g_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77hPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77hfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77hvAKEe6-4aaHZrjoFg" name="P_BMM_PACKAGE_CONTAINER" visibility="package"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77h_AKEe6-4aaHZrjoFg" name="P_BMM_CONTAINER_PROPERTY" visibility="package">
+        <generalization xmi:id="_IZ77iPAKEe6-4aaHZrjoFg" general="_IZ77M_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77ifAKEe6-4aaHZrjoFg" name="type_def" visibility="public" type="_IZ77XvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77j_AKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77ivAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77i_AKEe6-4aaHZrjoFg" name="cardinality" visibility="public">
+          <eAnnotations xmi:id="_IZ77jPAKEe6-4aaHZrjoFg" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_IZ77jfAKEe6-4aaHZrjoFg" name="isNoType"/>
+          </eAnnotations>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77jvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77j_AKEe6-4aaHZrjoFg" memberEnd="_IZ77ifAKEe6-4aaHZrjoFg _IZ77kPAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77kPAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77h_AKEe6-4aaHZrjoFg" association="_IZ77j_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77kfAKEe6-4aaHZrjoFg" name="P_BMM_SINGLE_PROPERTY" visibility="package" clientDependency="_IZ77mvAKEe6-4aaHZrjoFg">
+        <generalization xmi:id="_IZ77kvAKEe6-4aaHZrjoFg" general="_IZ77M_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77k_AKEe6-4aaHZrjoFg" name="type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77lPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77lfAKEe6-4aaHZrjoFg" name="type_def" visibility="public">
+          <ownedParameter xmi:id="_IZ77lvAKEe6-4aaHZrjoFg" type="_IZ77a_AKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77l_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77mPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77mfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_IZ77mvAKEe6-4aaHZrjoFg" name="" supplier="_IZ77a_AKEe6-4aaHZrjoFg" client="_IZ77kfAKEe6-4aaHZrjoFg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77m_AKEe6-4aaHZrjoFg" name="P_BMM_SINGLE_PROPERTY_OPEN" visibility="package" clientDependency="_IZ77pvAKEe6-4aaHZrjoFg">
+        <generalization xmi:id="_IZ77nPAKEe6-4aaHZrjoFg" general="_IZ77M_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77nfAKEe6-4aaHZrjoFg" name="type_def" visibility="public" type="_IZ77b_AKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77p_AKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77nvAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IZ77n_AKEe6-4aaHZrjoFg" name="type" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77oPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IZ77ofAKEe6-4aaHZrjoFg" name="type_def" visibility="public">
+          <ownedParameter xmi:id="_IZ77ovAKEe6-4aaHZrjoFg" type="_IZ77b_AKEe6-4aaHZrjoFg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZ77o_AKEe6-4aaHZrjoFg" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77pPAKEe6-4aaHZrjoFg" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZ77pfAKEe6-4aaHZrjoFg" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_IZ77pvAKEe6-4aaHZrjoFg" name="" supplier="_IZ77b_AKEe6-4aaHZrjoFg" client="_IZ77m_AKEe6-4aaHZrjoFg"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77p_AKEe6-4aaHZrjoFg" memberEnd="_IZ77nfAKEe6-4aaHZrjoFg _IZ77qPAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77qPAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77m_AKEe6-4aaHZrjoFg" association="_IZ77p_AKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77qfAKEe6-4aaHZrjoFg" name="P_BMM_GENERIC_PROPERTY" visibility="package">
+        <generalization xmi:id="_IZ77qvAKEe6-4aaHZrjoFg" general="_IZ77M_AKEe6-4aaHZrjoFg"/>
+        <ownedAttribute xmi:id="_IZ77q_AKEe6-4aaHZrjoFg" name="type_def" visibility="public" type="_IZ77cvAKEe6-4aaHZrjoFg" aggregation="composite" association="_IZ77rfAKEe6-4aaHZrjoFg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZ77rPAKEe6-4aaHZrjoFg"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IZ77rfAKEe6-4aaHZrjoFg" memberEnd="_IZ77q_AKEe6-4aaHZrjoFg _IZ77rvAKEe6-4aaHZrjoFg">
+        <ownedEnd xmi:id="_IZ77rvAKEe6-4aaHZrjoFg" visibility="private" type="_IZ77qfAKEe6-4aaHZrjoFg" association="_IZ77rfAKEe6-4aaHZrjoFg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77r_AKEe6-4aaHZrjoFg" name="P_BMM_ENUMERATION_INTEGER" visibility="package" clientDependency="_IZ77svAKEe6-4aaHZrjoFg">
+        <templateBinding xmi:id="_IZ77sPAKEe6-4aaHZrjoFg" signature="_IZ77D_AKEe6-4aaHZrjoFg">
+          <parameterSubstitution xmi:id="_IZ77sfAKEe6-4aaHZrjoFg" formal="_IZ77EPAKEe6-4aaHZrjoFg"/>
+        </templateBinding>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_IZ77svAKEe6-4aaHZrjoFg" supplier="_IZ77DvAKEe6-4aaHZrjoFg" client="_IZ77r_AKEe6-4aaHZrjoFg">
+        <mapping xmi:id="_IZ77s_AKEe6-4aaHZrjoFg" name="Mapping">
+          <body></body>
+        </mapping>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IZ77tPAKEe6-4aaHZrjoFg" name="P_BMM_ENUMERATION_STRING" visibility="package" clientDependency="_IZ77t_AKEe6-4aaHZrjoFg">
+        <templateBinding xmi:id="_IZ77tfAKEe6-4aaHZrjoFg" signature="_IZ77D_AKEe6-4aaHZrjoFg">
+          <parameterSubstitution xmi:id="_IZ77tvAKEe6-4aaHZrjoFg" formal="_IZ77EPAKEe6-4aaHZrjoFg"/>
+        </templateBinding>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_IZ77t_AKEe6-4aaHZrjoFg" supplier="_IZ77DvAKEe6-4aaHZrjoFg" client="_IZ77tPAKEe6-4aaHZrjoFg">
+        <mapping xmi:id="_IZ77uPAKEe6-4aaHZrjoFg" name="Mapping">
+          <body></body>
+        </mapping>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IZ77ufAKEe6-4aaHZrjoFg" name="P_BMM_SCHEMA"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IZ77uvAKEe6-4aaHZrjoFg" name="T"/>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+//[[STARTEND]]
+package bmm2.core;
+
+abstract class BMM_TYPE {
+    abstract BMM_CLASS base_class();
+    abstract boolean has_type_substitutions();
+    abstract String type_substitutions();
+    String as_display_type_string();
+}
+
+abstract class BMM_CLASS extends BMM_TYPE {
+    BMM_CLASS ancestors;
+    BMM_PACKAGE package;
+    BMM_PROPERTY properties;
+    String name;
+    String source_schema_id;
+
+    String all_ancestors();
+    String all_descendants();
+    String suppliers();
+    String suppliers_non_primitive();
+    String supplier_closure();
+}
+
+class BMM_PROPERTY {
+    BMM_TYPE type;
+    String name;
+    boolean is_mandatory;
+    boolean is_computed;
+
+    MULTIPLICITY_INTERVAL existence();
+    String display_name();
+}
+
+class BMM_CONTAINER_TYPE extends BMM_TYPE {
+    BMM_CLASS container_class;
+    BMM_TYPE base_type;
+}
+
+class BMM_GENERIC_TYPE extends BMM_TYPE {
+    BMM_TYPE generic_parameters;
+    BMM_GENERIC_CLASS base_class;
+}
+
+class BMM_SIMPLE_TYPE extends BMM_TYPE {
+    BMM_CLASS base_class;
+}
+
+class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {
+    BMM_GENERIC_PARAMETER type;
+}
+
+class BMM_ENUMERATION extends BMM_CLASS {
+    <G> G;
+}
+
+class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {
+}
+
+class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {
+}
+
+class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {
+    BMM_CLASS classes;
+    String name;
+
+    BMM_CLASS root_classes();
+    String path();
+}
+
+class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {
+    BMM_CLASS conforms_to_type;
+    BMM_GENERIC_PARAMETER inheritance_precursor;
+    String name;
+
+    String flattened_conforms_to_type();
+}
+
+class BMM_CLASSIFIER {
+    abstract String type_category();
+    String as_conformance_type_string();
+    abstract String as_type_string();
+}
+
+class MULTIPLICITY_INTERVAL {
+}
+
+class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {
+    BMM_CONTAINER_TYPE type;
+    MULTIPLICITY_INTERVAL cardinality;
+
+    String display_name();
+}
+
+class BMM_SCHEMA extends BMM_SCHEMA_CORE {
+    BMM_CLASS class_definitions;
+
+    String primitive_types();
+    String enumeration_types();
+    BMM_CLASS class_definition(String a_name);
+    BMM_ENUMERATION enumeration(String a_name);
+    BMM_PROPERTY property_definition();
+    boolean ms_conformant_property_type();
+    BMM_PROPERTY property_definition_at_path();
+    String all_ancestor_classes(String a_class);
+    boolean type_conforms_to(String a_desc_type, String an_anc_type);
+}
+
+class BMM_SCHEMA_CORE {
+    String rm_publisher;
+    String rm_release;
+    String schema_name;
+    String schema_revision;
+    String schema_lifecycle_state;
+    String schema_author;
+    String schema_description;
+    String schema_contributors;
+    String archetype_parent_class;
+    String archetype_data_value_parent_class;
+    String archetype_rm_closure_packages;
+    String archetype_visualise_descendants_of;
+
+    String schema_id();
+}
+
+class BMM_PACKAGE_CONTAINER {
+    BMM_PACKAGE packages;
+
+    BMM_PACKAGE package_at_path();
+    void dp_recursive_packages(String action);
+}
+
+class BMM_GENERIC_CLASS extends BMM_CLASS {
+    BMM_GENERIC_PARAMETER generic_parameters;
+}
+//[[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The class BMM_Type is lacking an extends.
+The relation cardinality was not translated correctly for return value of function type_substitutions.
+The operation as_display_type_string is missing a definition.
+The class BMM_CLASS extends the wrong class.
+The class BMM_CLASS is missing an attribute.
+The relation cardinality was not translated correctly for the attribute properties.
+The relation cardinality was not translated correctly for the attribute ancestors.
+The relation cardinality was not translated correctly for return value of function all_ancestors.
+The relation cardinality was not translated correctly for return value of function all_descendants.
+The relation cardinality was not translated correctly for return value of function suppliers.
+The relation cardinality was not translated correctly for return value of function suppliers_non_primitive.
+The relation cardinality was not translated correctly for return value of function suppliers_closure.
+The operation all_ancestors is missing a definition.
+The operation all_descendants is missing a definition.
+The operation suppliers is missing a definition.
+The operation suppliers_non_primitive is missing a definition.
+The operation suppliers_closure is missing a definition.
+The operation existence is missing a definition.
+The operation display_name is missing a definition.
+The relation cardinality was not translated correctly for the attribute generic_parameters.
+The class BMM_PROPERTY is missing an attribute.
+The attribute G is faulty. 
+The relation cardinality was not translated correctly for the attribute classes.
+The operation root_classes is missing a definition.
+The operation path is missing a definition.
+The relation cardinality was not translated correctly for the attribute classes.
+The class BMM_GENERIC_PARAMETERS is missing an attribute.
+The operation flattened_conforms_to_type is missing a definition.
+The operation as_conformance_type_string is missing a definition.
+The variable cardinality has the wrong type.
+The operation display_name is missing a definition.
+The relation cardinality was not translated correctly for the attribute schema_contributors.
+The relation cardinality was not translated correctly for the attribute archetype_rm_closure_packages.
+The operation schema_id is missing a definition.
+The relation cardinality was not translated correctly for the attribute generic_parameters.
+The relation cardinality was not translated correctly for the attribute ancestors.
+The relation cardinality was not translated correctly for the attribute properties.
+The class P_BMM_CLASS is missing.
+The class P_BMM_ENUMERATION is missing.
+The class P_BMM_SCHEMA is missing.
+The class P_BMM_CLASSIFIER is missing.
+The class P_BMM_PROPERTY is missing.
+The class P_BMM_GENERIC_PARAMETER is missing.
+The class P_BMM_TYPE is missing.
+The class P_BMM_CONTAINER_TYPE is missing.
+The class P_BMM_SIMPLE_TYPE is missing.
+The class P_BMM_SIMPLE_TYPE_OPEN is missing.
+The class P_BMM_GENERIC_TYPE is missing.
+The class P_BMM_PACKAGE is missing.
+The class P_BMM_PACKAGE_CONTAINER is missing.
+The class P_BMM_SINGLE_PROPERTY is missing.
+The class P_BMM_SINGLE_PROPERTY_OPEN is missing.
+The class P_BMM_GENERIC_PROPERTY is missing.
+The class P_BMM_ENUMERATION_INTEGER is missing.
+The class P_BMM_ENUMERATION_STRING is missing.
+The class P_BMM_SCHEMA is missing.
+The class T is missing.
+
+
+
+
+
+
+
+
+
+
+ChatGPT
+java
+Copy code
+//[[STARTEND]]
+package bmm2.core;
+
+abstract class BMM_TYPE extends BMM_CLASSIFIER {
+    abstract BMM_CLASS base_class();
+    abstract boolean has_type_substitutions();
+    abstract String[] type_substitutions();
+    abstract String as_display_type_string();
+}
+
+class BMM_CLASS extends BMM_CLASSIFIER {
+    BMM_CLASS[] ancestors;
+    BMM_PACKAGE package;
+    BMM_PROPERTY[] properties;
+    String name;
+    String source_schema_id;
+
+    abstract String[] all_ancestors();
+    abstract String[] all_descendants();
+    abstract String[] suppliers();
+    abstract String[] suppliers_non_primitive();
+    abstract String[] supplier_closure();
+}
+
+class BMM_PROPERTY {
+    BMM_TYPE type;
+    String name;
+    boolean is_mandatory;
+    boolean is_computed;
+
+    abstract MULTIPLICITY_INTERVAL existence();
+    abstract String display_name();
+}
+
+class BMM_CONTAINER_TYPE extends BMM_TYPE {
+    BMM_CLASS container_class;
+    BMM_TYPE base_type;
+}
+
+class BMM_GENERIC_TYPE extends BMM_TYPE {
+    BMM_TYPE[] generic_parameters;
+    BMM_GENERIC_CLASS base_class;
+}
+
+class BMM_SIMPLE_TYPE extends BMM_TYPE {
+    BMM_CLASS base_class;
+}
+
+class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {
+    BMM_GENERIC_PARAMETER type;
+}
+
+class BMM_ENUMERATION extends BMM_CLASS {
+    <G> G;
+}
+
+class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {
+}
+
+class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {
+}
+
+class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {
+    BMM_CLASS[] classes;
+    String name;
+
+    abstract BMM_CLASS[] root_classes();
+    abstract String path();
+}
+
+class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {
+    BMM_CLASS conforms_to_type;
+    BMM_GENERIC_PARAMETER inheritance_precursor;
+    String name;
+
+    abstract String flattened_conforms_to_type();
+}
+
+abstract class BMM_CLASSIFIER {
+    abstract String type_category();
+    abstract String as_conformance_type_string();
+    abstract String as_type_string();
+}
+
+class MULTIPLICITY_INTERVAL {
+}
+
+class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {
+    BMM_CONTAINER_TYPE type;
+    MULTIPLICITY_INTERVAL cardinality;
+
+    abstract String display_name();
+}
+
+class BMM_SCHEMA extends BMM_SCHEMA_CORE {
+    BMM_CLASS[] class_definitions;
+
+    abstract String[] primitive_types();
+    abstract String[] enumeration_types();
+    abstract BMM_CLASS class_definition(String a_name);
+    abstract BMM_ENUMERATION enumeration(String a_name);
+    abstract BMM_PROPERTY property_definition();
+    abstract boolean ms_conformant_property_type();
+    abstract BMM_PROPERTY property_definition_at_path();
+    abstract String[] all_ancestor_classes(BMM_CLASS a_class);
+    abstract boolean type_conforms_to(BMM_CLASS a_desc_type, BMM_CLASS an_anc_type);
+}
+
+class BMM_SCHEMA_CORE {
+    String rm_publisher;
+    String rm_release;
+    String schema_name;
+    String schema_revision;
+    String schema_lifecycle_state;
+    String schema_author;
+    String schema_description;
+    String[] schema_contributors;
+    String archetype_parent_class;
+    String archetype_data_value_parent_class;
+    String[] archetype_rm_closure_packages;
+    String archetype_visualise_descendants_of;
+
+    abstract String schema_id();
+}
+
+class BMM_PACKAGE_CONTAINER {
+    BMM_PACKAGE[] packages;
+
+    abstract BMM_PACKAGE package_at_path();
+    abstract void dp_recursive_packages(String action);
+}
+
+class BMM_GENERIC_CLASS extends BMM_CLASS {
+    BMM_GENERIC_PARAMETER[] generic_parameters;
+}
+//[[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

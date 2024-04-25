@@ -1,23 +1,20 @@
 Total number of XMI we went through:
 2418
 
-Need to ask about: 
-8
-
 Working ones (excluding duplicates, issues, etc.):
-91
+93
 
 Done - First iteration: 
-66 (72.5%)
+66 
 
 Done - Second Iteration:
-17 (18.7%)
+17 
 
 Done - Third iteration:
-5 (5.5%)
+5 
 
 Fails - Third iteration:
-3 (3.3%)
+5
 
 Duplicates of working ones:
 47
@@ -28,12 +25,10 @@ Not class diagrams (but could be imported into Modelio):
 ---------------------------------------------------------------------------
 
 Ask about:
-1GRAAnnotationModel, GRAAnnotationModel, bmm --> too large, forced to click "continue generating" button. 
+1GRAAnnotationModel, GRAAnnotationModel, bmm, jrlib --> too large, forced to click "continue generating" button. 
 GPT would never be able to complete them, bug when forced to click the button, loses focus, doesn't save automatically.
 
 api --> below 200kb in size (the size we went for), but still too large for GPT (message too long)
-
-jrlib --> ???
 
 NIEM-Reference-common-nga --> unable to get GPT to follow instructions
 
@@ -67,18 +62,20 @@ The attribute X is missing an enum instance. - 1
 ---------------------------------------------------------------------------
 errors within the generation - Done after third iteration, second iteration:
 The parameter X of function Y has the wrong type. / The variable X has the wrong type - 3
-The function X has the wrong return type. / The return type for X is wrong. - 3
+The function X has the wrong return type. / The return type for X is wrong - 3
 The class X is missing. - 2
 The enum X can not extend another enum. - 2
 The function X is missing a parameter. - 2
 The relation cardinality was not translated correctly for the attribute X. - 1
 ---------------------------------------------------------------------------
 errors within the generation - Failed after third iteration, second iteration:
-The parameter X of function Y has the wrong type. / The variable X has the wrong type - 3
+The relation cardinality was not translated correctly for the attribute X. - 9
+The parameter X of function Y has the wrong type. / The variable X has the wrong type / The attribute X has the wrong type. - 7
 The class X is missing an attribute. - 2
-The class X is missing. - 1
+The class X is missing. - 8
 The attributes of several classes did not have their relation cardinality translated correctly. - 1
 Multiple classes are missing an extends. - 1
+The class EntityType is missing a class. - 1
 ---------------------------------------------------------------------------
 errors within the generation - Done after third iteration, third iteration:
 The class X has attributes not present within the XMI. - 1
@@ -99,11 +96,11 @@ The attribute X has the wrong name.  - 1
 
 
 Total list:
-The relation cardinality was not translated correctly for the attribute X. - 30
+The relation cardinality was not translated correctly for the attribute X. - 39
 The enum X is missing constants from Y. - 13
-The function X has the wrong return type. / The return type for X is wrong. - 11
+The function X has the wrong return type. / The return type for X is wrong. - 12
 The parameter X of function Y has the wrong type. / The variable X has the wrong type - 9
-The class X is missing. - 8
+The class X is missing. - 15
 The class X is missing an attribute. - 5
 The class X extends the wrong class. - 4
 The enum X can not extend another enum. - 2
@@ -111,14 +108,15 @@ The function X is missing a parameter. - 2
 The class X should not have an extends. - 1
 The class X is missing a constructor. - 1
 The attribute X is missing an enum instance. - 1
-The attributes of several classes did not have their relation cardinality translated correctly. - 1
 The class X has attributes not present within the XMI. - 1
 The relation cardinality was not translated correctly for the parameter type X. - 1
 The enum X is missing. - 1
 The class X is not meant to be a class. - 1
 The attribute X has the wrong name.  - 1
+The class EntityType is missing a class. - 1
 The class X is missing several attributes. - 1 ---------------------
 Multiple classes are missing an extends. - 1 ---------------------
+The attributes of several classes did not have their relation cardinality translated correctly. - 1 ----
 ---------------------------------------------------------------------------
 Total list - Second iteration:
 The enum X is missing constants from Y. - 12
@@ -133,7 +131,7 @@ The class X should not have an extends. - 1
 The class X is missing a constructor. - 1
 The attribute X is missing an enum instance. - 1
 The relation cardinality was not translated correctly for the attribute X. - 1
-The attributes of several classes did not have their relation cardinality translated correctly. - 1
+The attributes of several classes did not have their relation cardinality translated correctly. - 1 ----
 The class X is missing several attributes. - 1 ----------------
 Multiple classes are missing an extends. - 1 ----------------
 ---------------------------------------------------------------------------

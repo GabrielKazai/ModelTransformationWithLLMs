@@ -13,6 +13,7 @@ abstract class BMM_TYPE extends BMM_CLASSIFIER {
 
 }
 
+
 class BMM_CLASS extends BMM_CLASSIFIER {
     public String name;
 
@@ -53,6 +54,7 @@ class BMM_CLASS extends BMM_CLASSIFIER {
 
 }
 
+
 class BMM_PROPERTY {
     public String name;
 
@@ -77,6 +79,7 @@ class BMM_PROPERTY {
 
 }
 
+
 class BMM_CONTAINER_TYPE extends BMM_TYPE {
     public BMM_CLASS container_class;
 
@@ -84,22 +87,26 @@ class BMM_CONTAINER_TYPE extends BMM_TYPE {
 
 }
 
+
 class BMM_GENERIC_TYPE extends BMM_TYPE {
-    public List<BMM_TYPE> generic_parameters = new ArrayList<BMM_TYPE>();
+    public List<BMM_TYPE> generic_parameters = new ArrayList<BMM_TYPE> ();
 
     public BMM_GENERIC_CLASS base_class;
 
 }
+
 
 class BMM_SIMPLE_TYPE extends BMM_TYPE {
     public BMM_CLASS base_class;
 
 }
 
+
 class BMM_SIMPLE_TYPE_OPEN extends BMM_TYPE {
     public BMM_GENERIC_PARAMETER type;
 
 }
+
 
 class BMM_ENUMERATION extends BMM_CLASS {
     public void () {
@@ -107,16 +114,19 @@ class BMM_ENUMERATION extends BMM_CLASS {
 
 }
 
+
 class BMM_ENUMERATION_STRING extends BMM_ENUMERATION {
 }
+
 
 class BMM_ENUMERATION_INTEGER extends BMM_ENUMERATION {
 }
 
+
 class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {
     public String name;
 
-    public List<BMM_CLASS> classes = new ArrayList<BMM_CLASS>();
+    public List<BMM_CLASS> classes = new ArrayList<BMM_CLASS> ();
 
     public List<BMM_CLASS> root_classes() {
         // TODO Auto-generated return
@@ -129,6 +139,7 @@ class BMM_PACKAGE extends BMM_PACKAGE_CONTAINER {
     }
 
 }
+
 
 class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {
     public String name;
@@ -146,6 +157,7 @@ class BMM_GENERIC_PARAMETER extends BMM_CLASSIFIER {
 
 }
 
+
 abstract class BMM_CLASSIFIER {
     public abstract String type_category();
 
@@ -158,8 +170,10 @@ abstract class BMM_CLASSIFIER {
 
 }
 
+
 class MULTIPLICITY_INTERVAL {
 }
+
 
 class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {
     public MULTIPLICITY_INTERVAL cardinality;
@@ -172,6 +186,7 @@ class BMM_CONTAINER_PROPERTY extends BMM_PROPERTY {
     }
 
 }
+
 
 class BMM_SCHEMA_CORE {
     public String rm_publisher;
@@ -205,10 +220,12 @@ class BMM_SCHEMA_CORE {
 
 }
 
+
 class BMM_GENERIC_CLASS extends BMM_CLASS {
-    public List<BMM_GENERIC_PARAMETER> generic_parameters = new ArrayList<BMM_GENERIC_PARAMETER>();
+    public List<BMM_GENERIC_PARAMETER> generic_parameters = new ArrayList<BMM_GENERIC_PARAMETER> ();
 
 }
+
 
 class P_BMM_CLASS extends P_BMM_CLASSIFIER {
     public int uid;
@@ -223,9 +240,9 @@ class P_BMM_CLASS extends P_BMM_CLASSIFIER {
 
     public String source_schema_id;
 
-    public List<P_BMM_PROPERTY> properties = new ArrayList<P_BMM_PROPERTY>();
+    public List<P_BMM_PROPERTY> properties = new ArrayList<P_BMM_PROPERTY> ();
 
-    public List<P_BMM_GENERIC_PARAMETER> generic_parameter_defs = new ArrayList<P_BMM_GENERIC_PARAMETER>();
+    public List<P_BMM_GENERIC_PARAMETER> generic_parameter_defs = new ArrayList<P_BMM_GENERIC_PARAMETER> ();
 
     public boolean is_generic() {
         // TODO Auto-generated return
@@ -240,6 +257,7 @@ class P_BMM_CLASS extends P_BMM_CLASSIFIER {
 
 }
 
+
 class P_BMM_ENUMERATION extends P_BMM_CLASS {
     public String item_names;
 
@@ -250,6 +268,7 @@ class P_BMM_ENUMERATION extends P_BMM_CLASS {
 
 }
 
+
 class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
     public String bmm_version;
 
@@ -257,11 +276,11 @@ class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
 
     public BMM_SCHEMA bmm_schema;
 
-    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>();
+    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS> ();
 
-    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>();
+    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS> ();
 
-    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>();
+    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE> ();
 
     public void validate_created() {
     }
@@ -280,8 +299,10 @@ class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
 
 }
 
+
 abstract class P_BMM_CLASSIFIER {
 }
+
 
 abstract class P_BMM_PROPERTY {
     public String name;
@@ -302,6 +323,7 @@ abstract class P_BMM_PROPERTY {
 
 }
 
+
 class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {
     public String name;
 
@@ -316,12 +338,14 @@ class P_BMM_GENERIC_PARAMETER extends P_BMM_CLASSIFIER {
 
 }
 
+
 abstract class P_BMM_TYPE extends P_BMM_CLASSIFIER {
     public BMM_TYPE bmm_type;
 
     public abstract void create_bmm_type(final BMM_SCHEMA a_schema, final BMM_CLASS a_class_def);
 
 }
+
 
 class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {
     public String container_type;
@@ -337,27 +361,31 @@ class P_BMM_CONTAINER_TYPE extends P_BMM_TYPE {
 
 }
 
+
 class P_BMM_SIMPLE_TYPE extends P_BMM_TYPE {
     public String type;
 
 }
+
 
 class P_BMM_SIMPLE_TYPE_OPEN extends P_BMM_TYPE {
     public String type;
 
 }
 
+
 class P_BMM_GENERIC_TYPE extends P_BMM_TYPE {
     public String root_type;
 
     public String[] generic_parameters;
 
-    public List<P_BMM_TYPE> generic_parameter_defs = new ArrayList<P_BMM_TYPE>();
+    public List<P_BMM_TYPE> generic_parameter_defs = new ArrayList<P_BMM_TYPE> ();
 
     public void generic_parameter_refs() {
     }
 
 }
+
 
 class P_BMM_PACKAGE extends P_BMM_PACKAGE_CONTAINER {
     public String name;
@@ -369,8 +397,10 @@ class P_BMM_PACKAGE extends P_BMM_PACKAGE_CONTAINER {
 
 }
 
+
 class P_BMM_PACKAGE_CONTAINER {
 }
+
 
 class P_BMM_SINGLE_PROPERTY extends P_BMM_PROPERTY {
     public String type;
@@ -381,6 +411,7 @@ class P_BMM_SINGLE_PROPERTY extends P_BMM_PROPERTY {
     }
 
 }
+
 
 class P_BMM_SINGLE_PROPERTY_OPEN extends P_BMM_PROPERTY {
     public String type;
@@ -394,16 +425,20 @@ class P_BMM_SINGLE_PROPERTY_OPEN extends P_BMM_PROPERTY {
 
 }
 
+
 class P_BMM_GENERIC_PROPERTY extends P_BMM_PROPERTY {
     public P_BMM_GENERIC_TYPE type_def;
 
 }
 
+
 class P_BMM_ENUMERATION_INTEGER {
 }
 
+
 class P_BMM_ENUMERATION_STRING {
 }
+
 
 class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
     public String bmm_version;
@@ -412,11 +447,11 @@ class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
 
     public BMM_SCHEMA bmm_schema;
 
-    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS>();
+    public List<P_BMM_CLASS> primitive_types = new ArrayList<P_BMM_CLASS> ();
 
-    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS>();
+    public List<P_BMM_CLASS> class_definitions = new ArrayList<P_BMM_CLASS> ();
 
-    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE>();
+    public List<P_BMM_PACKAGE> canonical_packages = new ArrayList<P_BMM_PACKAGE> ();
 
     public void validate_created() {
     }
@@ -435,5 +470,7 @@ class P_BMM_SCHEMA extends P_BMM_PACKAGE_CONTAINER {
 
 }
 
+
 public class T {
 }
+

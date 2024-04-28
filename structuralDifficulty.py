@@ -13,6 +13,13 @@ Interfaces = []
 enumerations = []
 Associations = []
 
+
+#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\done
+#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\done
+#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\done
+#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\failed
+
+
 xmifile = open(sys.argv[1] + "/gpt/xmiforgpt/Model.xmi", "r")
 
 for line in xmifile:
@@ -27,12 +34,14 @@ for line in xmifile:
     elif(("<packagedElement" in line and 'xmi:type="uml:Association"' in line)):
         Associations.append(line)
 
+total = len(classes) + len(primtiveTypes) + len(enumerations) + len(Associations)
 f = open("difficulty.txt", "a")
 f.write("Classes: " + len(classes))
 f.write("Primitive types: " + len(primtiveTypes))
 f.write("Enumerations: " + len(enumerations))
 f.write("Interfaces: " + len(Interfaces))
 f.write("Associations: " + len(Associations))
+f.write("Total: " + total)
 f.close()
 
 

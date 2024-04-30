@@ -50,116 +50,45 @@ as well as not producing a comment for [[STARTEND]] completely.
 Formatting isn't perfect, beyond compare should be used in conjuction with the output files/XMI. 
 ---------------------------------------------------------------------------
 errors within the generation - Done after second iteration:
-The return type for X is wrong. / The function X has the wrong return type. - 7
-The relation cardinality was not translated correctly for the attribute X. - 6
-The class X is missing. - 12
-The enum X is missing constants from Y. - 4
-The class X is missing an attribute. - 3
-The class X is missing a constructor. - 1
-The class X should not have an extends. - 1
-The attribute X is missing an enum instance. - 1
-The class Element is missing several attributes. - 1
+
 ---------------------------------------------------------------------------
 errors within the generation - Done after third iteration, second iteration:
-The parameter X of function Y has the wrong type. - 3
-The function X has the wrong return type. - 3
-The enum X can not extend another enum. - 2
-The class X is missing. - 2
-The function achete is missing a parameter. - 2
-The relation cardinality was not translated correctly for the attribute X. - 1
+
 ---------------------------------------------------------------------------
 errors within the generation - Failed after third iteration, second iteration:
-The relation cardinality was not translated correctly for the attribute X. - 32
-The class X is missing. - 20
-The extends statement of X is incorrect. - 8
-The interface X is missing. - 5
-The attribute X has the wrong type. - 4
-The enum X is missing. - 3
-The class X is missing an attribute. - 2
-The attribute X has the wrong type. - 2
-The function X has the wrong return type. - 2
-The class X is missing a class. - 1
-The attributes of several classes did not have their relation cardinality translated correctly. - 1
-Multiple classes are missing an extends. - 1
-The class Participant extends the wrong class. - 1
+
 
 ---------------------------------------------------------------------------
 errors within the generation - Done after third iteration, third iteration:
-The class X has attributes not present within the XMI. - 1
-The relation cardinality was not translated correctly for the parameter type X. - 1
-The enum X is missing. - 1
-The class X is not meant to be a class. - 1
-The enum X is missing constants from Y. - 1
-The function X has the wrong return type. - 1
+
 
 ---------------------------------------------------------------------------
 errors within the generation - Failed after third iteration, third iteration:
-
+The variable X has the wrong type. / The attribute BindingCode has the wrong type. - 6
+The class X is missing. - 2
+The class X is missing a class. - 1
+The attribute X is missing an enum instance. - 3
+The relation cardinality was not translated correctly for the attribute X. - 27
+The class X extends the wrong class. - 6
+The attribute X has the wrong name. - 1
+The attribute X is missing an enum instance. - 3
+The function X has the wrong return type. - 2
+The extends statement of X is incorrect. - 8
 
 ---------------------------------------------------------------------------
 
 
 
 Total list:
-The relation cardinality was not translated correctly for the attribute X. - 39
-The class X is missing. - 34
-The return type for X is wrong. / The function X has the wrong return type. - 10
-The extends statement of X is incorrect. - 8
-The attribute X has the wrong type. - 6
-The interface X is missing. - 5
-The enum X is missing constants from Y. - 5
-The class X is missing an attribute. - 5
-The enum X is missing. - 4
-The parameter X of function Y has the wrong type. - 3
-The function X has the wrong return type. - 3
-The enum X can not extend another enum. - 2
-The function X is missing a parameter. - 2
-The class X is missing a constructor. - 1
-The class X should not have an extends. - 1
-The attribute X is missing an enum instance. - 1
-The class Element is missing several attributes. - 1
-The class X is missing a class. - 1
-The attributes of several classes did not have their relation cardinality translated correctly. - 1
-Multiple classes are missing an extends. - 1
-The class X extends the wrong class. - 1
-The class X has attributes not present within the XMI. - 1
-The relation cardinality was not translated correctly for the parameter type X. - 1
-The class X is not meant to be a class. - 1
 
 
 ---------------------------------------------------------------------------
 Total list - Second iteration:
-The relation cardinality was not translated correctly for the attribute X. - 39
-The class X is missing. - 34
-The extends statement of X is incorrect. - 8
-The return type for X is wrong. / The function X has the wrong return type. - 7
-The interface X is missing. - 5
-The enum X is missing constants from Y. - 4
-The attribute X has the wrong type. - 6
-The class X is missing an attribute. - 5
-The parameter X of function Y has the wrong type. - 3
-The function X has the wrong return type. - 3
-The enum X is missing. - 3
-The enum X can not extend another enum. - 2
-The function X is missing a parameter. - 2
-The function X has the wrong return type. - 2
-The class X is missing a constructor. - 1
-The class X should not have an extends. - 1
-The attribute X is missing an enum instance. - 1
-The class Element is missing several attributes. - 1
-The class X is missing a class. - 1
-The attributes of several classes did not have their relation cardinality translated correctly. - 1
-Multiple classes are missing an extends. - 1
-The class X extends the wrong class. - 1
+
 
 ---------------------------------------------------------------------------
 Total list - Third Iteration:
-The class X has attributes not present within the XMI. - 1
-The relation cardinality was not translated correctly for the parameter type X. - 1
-The enum X is missing. - 1
-The class X is not meant to be a class. - 1
-The enum X is missing constants from Y. - 1
-The function X has the wrong return type. - 1
+
 
 
 

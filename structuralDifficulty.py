@@ -42,13 +42,13 @@ def goThroughXMI(path, iteration, filename):
                 total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line)):
                 primtiveTypes.append(line)
-                total.append(line)
+                #total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Enumeration"' in line)):
                 enumerations.append(line)
-                total.append(line)
+                #total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Interface"' in line)):
                 Interfaces.append(line)
-                total.append(line)
+                #total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Association"' in line)):
                 Associations.append(line)
                 total.append(line)
@@ -62,19 +62,13 @@ def goThroughXMI(path, iteration, filename):
 #F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\done
 #F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\done
 #F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\failed
-#f = open("difficulty.csv", "a")
-#f.writelines("Classes, Primitive types, Enumerations, Interfaces, Associations, Total, Name, Iteration\n")
-#f.close()
-#goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\done", "First Iteration - done")
-#f = open("difficulty.csv", "a")
-#f.close()
-#goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\done", "Second Iteration - done")
-#f = open("difficulty.csv", "a")
-#f.close()
-#goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\thirdIteration\\done", "Third Iteration - done")
-#f = open("difficulty.csv", "a")
-#f.close()
-#goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\thirdIteration\\failed", "Third Iteration - failed")
+f = open("difficulty.csv", "a")
+f.writelines("Classes, Primitive types, Enumerations, Interfaces, Associations, Total, Name, Iteration\n")
+f.close()
+goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\done", "First Iteration - done", "difficulty.csv")
+goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\done", "Second Iteration - done", "difficulty.csv")
+goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\thirdIteration\\done", "Third Iteration - done", "difficulty.csv")
+goThroughXMI("F:\\Gabriel\\github_desktop\\ModelTransformationWithLLMs\\allXMI\\works\\secondIteration\\thirdIteration\\failed", "Third Iteration - failed", "difficulty.csv")
 #-----------------------------
 f = open("firstIterationDone.csv", "a")
 f.writelines("Classes, Primitive types, Enumerations, Interfaces, Associations, Total, Name, Iteration\n")

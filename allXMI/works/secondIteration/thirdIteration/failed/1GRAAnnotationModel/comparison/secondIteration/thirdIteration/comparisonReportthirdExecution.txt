@@ -1,0 +1,2 @@
+The attribute BindingCode has the wrong enum instance.
+

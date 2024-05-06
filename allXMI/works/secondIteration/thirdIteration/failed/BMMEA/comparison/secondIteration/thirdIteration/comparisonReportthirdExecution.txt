@@ -1,0 +1,18 @@
+The relation cardinality was not translated correctly for the attribute baseBusinessPolicy.
+The class BusinessRule extends the wrong class.
+The relation cardinality was not translated correctly for the attribute categorizingDesiredResultCategory.
+The class CourseOfAction extends the wrong class.
+The class DesiredResult extends the wrong class.
+The class Directive extends the wrong class.
+The class BusinessPolicy extends the wrong class.
+
+
+
+
+
+
+
+
+
+
+

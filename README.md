@@ -11,7 +11,7 @@ These instructions will get you a copy of pipeline up and running on your local 
 What things you need to install the software and how to install them
 
 ```
-Beyond Compare
+[AutoHotKey](https://www.autohotkey.com/)
 AutoHotKey
 Python
 Language Support for Java(TM) by Red Hat (or equivalent)
@@ -36,7 +36,7 @@ until finished
 
 ### Demo
 
-If everything was installed correctly a demo can be attempted by executing the file ```specificExecution.bat``` and specifying the name "demo". 
+If everything was installed correctly a demo can be attempted by executing the file ```specificExecution.bat``` and specifying the name ```demo```. 
 After a successful execution the results are saved within the subfolder ```/allXMI/works/demo```. 
 
 ## Built With

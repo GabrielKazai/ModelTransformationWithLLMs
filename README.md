@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of pipeline up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of pipeline running on your local machine for development and testing purposes.
 
 ### Prerequisites
 

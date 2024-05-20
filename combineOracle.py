@@ -13,8 +13,6 @@ for line in xmifile:
     if ("<packagedElement" in line and 'xmi:type="uml:Class"' in line) or ("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line) or ("<packagedElement" in line and 'xmi:type="uml:Enumeration"' in line) or ("<packagedElement" in line and 'xmi:type="uml:Interface"' in line):
         xmilist.append(line)
 
-#print(xmilist)
-
 namesofXMI = []
 for i in xmilist:
     x = i.find("name=")
@@ -26,12 +24,6 @@ pathForOracle = sys.argv[1] + "/oracle/"
 pathForOracleSave = sys.argv[1] + "/oracle/combinedOracle"
 
 pathForOracle = Path(pathForOracle)
-
-print("PATH FOR ORACLE")
-print(pathForOracle)
-
-print("test")
-print(os.listdir(pathForOracle))
 
 
 files = [f for f in os.listdir(pathForOracle) if os.path.isfile(os.path.join(pathForOracle, f))]
@@ -51,8 +43,6 @@ for i in content:
 
 p = pathForOracleSave + '/combined_oracle_not_cleaned.java'
 
-#print("THIS ONE")
-#print(p)
 file = open(p, 'w')
 file.write(data)
 file.close()

@@ -36,8 +36,8 @@ until finished
 
 ### Demo
 
-If everything was installed correctly a demo can be attempted by executing the file "specificExecution.bat" and specifying the name "demo". 
-After a successfull execution the results are saved within the subfolder "/allXMI/works/demo". 
+If everything was installed correctly a demo can be attempted by executing the file ```specificExecution.bat``` and specifying the name "demo". 
+After a successful execution the results are saved within the subfolder ```/allXMI/works/demo```. 
 
 ## Built With
 

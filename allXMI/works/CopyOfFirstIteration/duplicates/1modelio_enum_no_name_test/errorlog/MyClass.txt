@@ -1,2 +1,0 @@
-generation cancelled
-the type of the 'mySecondAttribute' of the 'MyClass must be be defined

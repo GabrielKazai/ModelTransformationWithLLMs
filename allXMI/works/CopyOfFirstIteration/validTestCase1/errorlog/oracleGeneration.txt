@@ -1,2 +1,0 @@
-Generation canceled
-Illegal visibility for "Class3": Only public & package are permitted.

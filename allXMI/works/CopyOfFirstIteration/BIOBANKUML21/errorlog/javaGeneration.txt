@@ -1,4 +1,0 @@
-Unable to generate classes:
-Identifiable
-Address
-Biobank

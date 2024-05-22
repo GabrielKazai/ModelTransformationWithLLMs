@@ -1,8 +1,0 @@
-public enum statusValues {
-    Actual, Exercise, System, Test
-}
-
-public enum typeValues {
-    Report, Update, Cancel, Request, Response, Dispatch, Ack, Error, SensorConfiguration, SensorControl, SensorStatus,
-    SensorDetection
-}public class valueListType {    // valueListUrn    // value}public class valueSchemeType {    // explicitAddressScheme    // explicitAddressValue}public class targetAreaType {    // circle    // polygon    // country    // subdivision    // locCodeUN}public class contentObjectType {    public choice_8 choice_8;    // any    // contentDescription    // contentKeyword    // incidentID    // incidentDescription    // originatorRole    // consumerRole    // confidentiality}public class choice_8 {    // nonXMLContent    // xmlContent}public class nonXMLContentType {    // mimeType    // size    // digest    // uri    // contentData}public class xmlContentType {    // keyXMLContent    // embeddedXMLContent}public class anyXMLType {    // any    // anyAttribute}public class NamespaceElementPropertyHolder {    public EDXLDistribution_._type EDXLDistribution;}public class EDXLDistribution_._type {    // distributionID    // senderID    // dateTimeSent    // distributionStatus    // distributionType    // combinedConfidentiality    // language    // senderRole    // recipientRole    // keyword    // distributionReference    // explicitAddress    // targetArea    // contentObject}public enum ContentKind {    Unspecified, Empty, Simple, Mixed, ElementOnly}public enum FeatureKind {    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group}public enum VisibilityKind {    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable}

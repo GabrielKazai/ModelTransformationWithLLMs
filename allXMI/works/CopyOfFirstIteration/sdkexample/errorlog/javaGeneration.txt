@@ -1,4 +1,0 @@
-Unable to generate classes:
-Address
-Organization
-Person

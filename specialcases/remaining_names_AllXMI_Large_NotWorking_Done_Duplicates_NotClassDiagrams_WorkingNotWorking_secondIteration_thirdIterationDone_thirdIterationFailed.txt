@@ -1,0 +1,19 @@
+0NIEM-Reference-common-icism --- unable to load into modelio
+0NIEM-Reference-common-edxl-have --- unable to load into modelio
+0NIEM-Reference-common-have-codes --- works 
+0NIEM-Reference-common-itis --- works
+0NIEM-Reference-common-edxl-de --- unable to load into modelio, loads eventually, contains 1 empty class
+0NIEM-Reference-common-fips_5-2 --- works 
+0NIEM-Reference-common-iso_4217 --- works 
+0NIEM-Reference-common-geospatial --- unable to load into modelio
+0NIEM-Reference-common-mn_offense --- works
+-----
+9 files:
+5 working ones
+4 not working ones (loads forever)
+not quite duplicates because they have different file sizes (XMI)
+
+--------
+Large:
+0api - grows in size when exporting, too large for gpt 
+

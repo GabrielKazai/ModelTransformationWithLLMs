@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_YEo_oBjpEe-H_ePpXJInJQ" name="Model">
+  <eAnnotations xmi:id="_YEo_oRjpEe-H_ePpXJInJQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_YEo_ohjpEe-H_ePpXJInJQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_YEo_oxjpEe-H_ePpXJInJQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YEo_pBjpEe-H_ePpXJInJQ" name="fips_5-2">
+    <packagedElement xmi:type="uml:Package" xmi:id="_YEo_pRjpEe-H_ePpXJInJQ" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YEo_phjpEe-H_ePpXJInJQ" name="fips_5-2">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_YEo_pxjpEe-H_ePpXJInJQ" name="USStateCodeSimpleType">
+          <ownedLiteral xmi:id="_YEo_qBjpEe-H_ePpXJInJQ" name="WA"/>
+          <ownedLiteral xmi:id="_YEo_qRjpEe-H_ePpXJInJQ" name="NE"/>
+          <ownedLiteral xmi:id="_YEo_qhjpEe-H_ePpXJInJQ" name="MI"/>
+          <ownedLiteral xmi:id="_YEo_qxjpEe-H_ePpXJInJQ" name="NM"/>
+          <ownedLiteral xmi:id="_YEo_rBjpEe-H_ePpXJInJQ" name="MD"/>
+          <ownedLiteral xmi:id="_YEo_rRjpEe-H_ePpXJInJQ" name="KY"/>
+          <ownedLiteral xmi:id="_YEo_rhjpEe-H_ePpXJInJQ" name="OR"/>
+          <ownedLiteral xmi:id="_YEo_rxjpEe-H_ePpXJInJQ" name="ID"/>
+          <ownedLiteral xmi:id="_YEo_sBjpEe-H_ePpXJInJQ" name="MT"/>
+          <ownedLiteral xmi:id="_YEo_sRjpEe-H_ePpXJInJQ" name="WV"/>
+          <ownedLiteral xmi:id="_YEo_shjpEe-H_ePpXJInJQ" name="UT"/>
+          <ownedLiteral xmi:id="_YEo_sxjpEe-H_ePpXJInJQ" name="CA"/>
+          <ownedLiteral xmi:id="_YEo_tBjpEe-H_ePpXJInJQ" name="AR"/>
+          <ownedLiteral xmi:id="_YEo_tRjpEe-H_ePpXJInJQ" name="NJ"/>
+          <ownedLiteral xmi:id="_YEo_thjpEe-H_ePpXJInJQ" name="VT"/>
+          <ownedLiteral xmi:id="_YEo_txjpEe-H_ePpXJInJQ" name="AL"/>
+          <ownedLiteral xmi:id="_YEo_uBjpEe-H_ePpXJInJQ" name="FL"/>
+          <ownedLiteral xmi:id="_YEo_uRjpEe-H_ePpXJInJQ" name="MS"/>
+          <ownedLiteral xmi:id="_YEo_uhjpEe-H_ePpXJInJQ" name="UM"/>
+          <ownedLiteral xmi:id="_YEo_uxjpEe-H_ePpXJInJQ" name="NY"/>
+          <ownedLiteral xmi:id="_YEo_vBjpEe-H_ePpXJInJQ" name="LA"/>
+          <ownedLiteral xmi:id="_YEo_vRjpEe-H_ePpXJInJQ" name="CT"/>
+          <ownedLiteral xmi:id="_YEo_vhjpEe-H_ePpXJInJQ" name="DE"/>
+          <ownedLiteral xmi:id="_YEo_vxjpEe-H_ePpXJInJQ" name="GU"/>
+          <ownedLiteral xmi:id="_YEo_wBjpEe-H_ePpXJInJQ" name="OH"/>
+          <ownedLiteral xmi:id="_YEo_wRjpEe-H_ePpXJInJQ" name="WI"/>
+          <ownedLiteral xmi:id="_YEo_whjpEe-H_ePpXJInJQ" name="AZ"/>
+          <ownedLiteral xmi:id="_YEo_wxjpEe-H_ePpXJInJQ" name="ME"/>
+          <ownedLiteral xmi:id="_YEo_xBjpEe-H_ePpXJInJQ" name="ND"/>
+          <ownedLiteral xmi:id="_YEo_xRjpEe-H_ePpXJInJQ" name="PA"/>
+          <ownedLiteral xmi:id="_YEo_xhjpEe-H_ePpXJInJQ" name="IN"/>
+          <ownedLiteral xmi:id="_YEo_xxjpEe-H_ePpXJInJQ" name="CO"/>
+          <ownedLiteral xmi:id="_YEo_yBjpEe-H_ePpXJInJQ" name="GA"/>
+          <ownedLiteral xmi:id="_YEo_yRjpEe-H_ePpXJInJQ" name="WY"/>
+          <ownedLiteral xmi:id="_YEo_yhjpEe-H_ePpXJInJQ" name="VI"/>
+          <ownedLiteral xmi:id="_YEo_yxjpEe-H_ePpXJInJQ" name="NH"/>
+          <ownedLiteral xmi:id="_YEo_zBjpEe-H_ePpXJInJQ" name="TX"/>
+          <ownedLiteral xmi:id="_YEo_zRjpEe-H_ePpXJInJQ" name="AK"/>
+          <ownedLiteral xmi:id="_YEo_zhjpEe-H_ePpXJInJQ" name="RI"/>
+          <ownedLiteral xmi:id="_YEo_zxjpEe-H_ePpXJInJQ" name="OK"/>
+          <ownedLiteral xmi:id="_YEo_0BjpEe-H_ePpXJInJQ" name="IL"/>
+          <ownedLiteral xmi:id="_YEo_0RjpEe-H_ePpXJInJQ" name="MN"/>
+          <ownedLiteral xmi:id="_YEo_0hjpEe-H_ePpXJInJQ" name="NC"/>
+          <ownedLiteral xmi:id="_YEo_0xjpEe-H_ePpXJInJQ" name="HI"/>
+          <ownedLiteral xmi:id="_YEo_1BjpEe-H_ePpXJInJQ" name="DC"/>
+          <ownedLiteral xmi:id="_YEo_1RjpEe-H_ePpXJInJQ" name="MP"/>
+          <ownedLiteral xmi:id="_YEo_1hjpEe-H_ePpXJInJQ" name="IA"/>
+          <ownedLiteral xmi:id="_YEo_1xjpEe-H_ePpXJInJQ" name="PR"/>
+          <ownedLiteral xmi:id="_YEo_2BjpEe-H_ePpXJInJQ" name="SD"/>
+          <ownedLiteral xmi:id="_YEo_2RjpEe-H_ePpXJInJQ" name="TN"/>
+          <ownedLiteral xmi:id="_YEo_2hjpEe-H_ePpXJInJQ" name="VA"/>
+          <ownedLiteral xmi:id="_YEo_2xjpEe-H_ePpXJInJQ" name="MO"/>
+          <ownedLiteral xmi:id="_YEo_3BjpEe-H_ePpXJInJQ" name="NV"/>
+          <ownedLiteral xmi:id="_YEo_3RjpEe-H_ePpXJInJQ" name="PW"/>
+          <ownedLiteral xmi:id="_YEo_3hjpEe-H_ePpXJInJQ" name="MH"/>
+          <ownedLiteral xmi:id="_YEo_3xjpEe-H_ePpXJInJQ" name="MA"/>
+          <ownedLiteral xmi:id="_YEo_4BjpEe-H_ePpXJInJQ" name="SC"/>
+          <ownedLiteral xmi:id="_YEo_4RjpEe-H_ePpXJInJQ" name="FM"/>
+          <ownedLiteral xmi:id="_YEo_4hjpEe-H_ePpXJInJQ" name="AS"/>
+          <ownedLiteral xmi:id="_YEo_4xjpEe-H_ePpXJInJQ" name="KS"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YEo_5BjpEe-H_ePpXJInJQ" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_YEo_5RjpEe-H_ePpXJInJQ" name="USStateCodeType">
+          <generalization xmi:id="_YEo_5hjpEe-H_ePpXJInJQ" general="_YEo_pxjpEe-H_ePpXJInJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_YEo_5xjpEe-H_ePpXJInJQ" name="USStateNumericCodeSimpleType">
+          <ownedLiteral xmi:id="_YEo_6BjpEe-H_ePpXJInJQ" name="05"/>
+          <ownedLiteral xmi:id="_YEo_6RjpEe-H_ePpXJInJQ" name="26"/>
+          <ownedLiteral xmi:id="_YEo_6hjpEe-H_ePpXJInJQ" name="71"/>
+          <ownedLiteral xmi:id="_YEo_6xjpEe-H_ePpXJInJQ" name="69"/>
+          <ownedLiteral xmi:id="_YEo_7BjpEe-H_ePpXJInJQ" name="01"/>
+          <ownedLiteral xmi:id="_YEo_7RjpEe-H_ePpXJInJQ" name="42"/>
+          <ownedLiteral xmi:id="_YEo_7hjpEe-H_ePpXJInJQ" name="21"/>
+          <ownedLiteral xmi:id="_YEo_7xjpEe-H_ePpXJInJQ" name="56"/>
+          <ownedLiteral xmi:id="_YEo_8BjpEe-H_ePpXJInJQ" name="35"/>
+          <ownedLiteral xmi:id="_YEo_8RjpEe-H_ePpXJInJQ" name="89"/>
+          <ownedLiteral xmi:id="_YEo_8hjpEe-H_ePpXJInJQ" name="51"/>
+          <ownedLiteral xmi:id="_YEo_8xjpEe-H_ePpXJInJQ" name="47"/>
+          <ownedLiteral xmi:id="_YEo_9BjpEe-H_ePpXJInJQ" name="25"/>
+          <ownedLiteral xmi:id="_YEo_9RjpEe-H_ePpXJInJQ" name="16"/>
+          <ownedLiteral xmi:id="_YEo_9hjpEe-H_ePpXJInJQ" name="49"/>
+          <ownedLiteral xmi:id="_YEo_9xjpEe-H_ePpXJInJQ" name="11"/>
+          <ownedLiteral xmi:id="_YEo_-BjpEe-H_ePpXJInJQ" name="72"/>
+          <ownedLiteral xmi:id="_YEo_-RjpEe-H_ePpXJInJQ" name="81"/>
+          <ownedLiteral xmi:id="_YEo_-hjpEe-H_ePpXJInJQ" name="76"/>
+          <ownedLiteral xmi:id="_YEo_-xjpEe-H_ePpXJInJQ" name="45"/>
+          <ownedLiteral xmi:id="_YEo__BjpEe-H_ePpXJInJQ" name="27"/>
+          <ownedLiteral xmi:id="_YEo__RjpEe-H_ePpXJInJQ" name="66"/>
+          <ownedLiteral xmi:id="_YEo__hjpEe-H_ePpXJInJQ" name="46"/>
+          <ownedLiteral xmi:id="_YEo__xjpEe-H_ePpXJInJQ" name="19"/>
+          <ownedLiteral xmi:id="_YEpAABjpEe-H_ePpXJInJQ" name="41"/>
+          <ownedLiteral xmi:id="_YEpAARjpEe-H_ePpXJInJQ" name="68"/>
+          <ownedLiteral xmi:id="_YEpAAhjpEe-H_ePpXJInJQ" name="18"/>
+          <ownedLiteral xmi:id="_YEpAAxjpEe-H_ePpXJInJQ" name="02"/>
+          <ownedLiteral xmi:id="_YEpABBjpEe-H_ePpXJInJQ" name="20"/>
+          <ownedLiteral xmi:id="_YEpABRjpEe-H_ePpXJInJQ" name="17"/>
+          <ownedLiteral xmi:id="_YEpABhjpEe-H_ePpXJInJQ" name="86"/>
+          <ownedLiteral xmi:id="_YEpABxjpEe-H_ePpXJInJQ" name="55"/>
+          <ownedLiteral xmi:id="_YEpACBjpEe-H_ePpXJInJQ" name="06"/>
+          <ownedLiteral xmi:id="_YEpACRjpEe-H_ePpXJInJQ" name="31"/>
+          <ownedLiteral xmi:id="_YEpAChjpEe-H_ePpXJInJQ" name="24"/>
+          <ownedLiteral xmi:id="_YEpACxjpEe-H_ePpXJInJQ" name="48"/>
+          <ownedLiteral xmi:id="_YEpADBjpEe-H_ePpXJInJQ" name="67"/>
+          <ownedLiteral xmi:id="_YEpADRjpEe-H_ePpXJInJQ" name="54"/>
+          <ownedLiteral xmi:id="_YEpADhjpEe-H_ePpXJInJQ" name="84"/>
+          <ownedLiteral xmi:id="_YEpADxjpEe-H_ePpXJInJQ" name="28"/>
+          <ownedLiteral xmi:id="_YEpAEBjpEe-H_ePpXJInJQ" name="09"/>
+          <ownedLiteral xmi:id="_YEpAERjpEe-H_ePpXJInJQ" name="12"/>
+          <ownedLiteral xmi:id="_YEpAEhjpEe-H_ePpXJInJQ" name="79"/>
+          <ownedLiteral xmi:id="_YEpAExjpEe-H_ePpXJInJQ" name="36"/>
+          <ownedLiteral xmi:id="_YEpAFBjpEe-H_ePpXJInJQ" name="64"/>
+          <ownedLiteral xmi:id="_YEpAFRjpEe-H_ePpXJInJQ" name="29"/>
+          <ownedLiteral xmi:id="_YEpAFhjpEe-H_ePpXJInJQ" name="32"/>
+          <ownedLiteral xmi:id="_YEpAFxjpEe-H_ePpXJInJQ" name="60"/>
+          <ownedLiteral xmi:id="_YEpAGBjpEe-H_ePpXJInJQ" name="08"/>
+          <ownedLiteral xmi:id="_YEpAGRjpEe-H_ePpXJInJQ" name="40"/>
+          <ownedLiteral xmi:id="_YEpAGhjpEe-H_ePpXJInJQ" name="70"/>
+          <ownedLiteral xmi:id="_YEpAGxjpEe-H_ePpXJInJQ" name="04"/>
+          <ownedLiteral xmi:id="_YEpAHBjpEe-H_ePpXJInJQ" name="30"/>
+          <ownedLiteral xmi:id="_YEpAHRjpEe-H_ePpXJInJQ" name="34"/>
+          <ownedLiteral xmi:id="_YEpAHhjpEe-H_ePpXJInJQ" name="53"/>
+          <ownedLiteral xmi:id="_YEpAHxjpEe-H_ePpXJInJQ" name="22"/>
+          <ownedLiteral xmi:id="_YEpAIBjpEe-H_ePpXJInJQ" name="95"/>
+          <ownedLiteral xmi:id="_YEpAIRjpEe-H_ePpXJInJQ" name="50"/>
+          <ownedLiteral xmi:id="_YEpAIhjpEe-H_ePpXJInJQ" name="78"/>
+          <ownedLiteral xmi:id="_YEpAIxjpEe-H_ePpXJInJQ" name="13"/>
+          <ownedLiteral xmi:id="_YEpAJBjpEe-H_ePpXJInJQ" name="33"/>
+          <ownedLiteral xmi:id="_YEpAJRjpEe-H_ePpXJInJQ" name="15"/>
+          <ownedLiteral xmi:id="_YEpAJhjpEe-H_ePpXJInJQ" name="10"/>
+          <ownedLiteral xmi:id="_YEpAJxjpEe-H_ePpXJInJQ" name="44"/>
+          <ownedLiteral xmi:id="_YEpAKBjpEe-H_ePpXJInJQ" name="37"/>
+          <ownedLiteral xmi:id="_YEpAKRjpEe-H_ePpXJInJQ" name="38"/>
+          <ownedLiteral xmi:id="_YEpAKhjpEe-H_ePpXJInJQ" name="23"/>
+          <ownedLiteral xmi:id="_YEpAKxjpEe-H_ePpXJInJQ" name="39"/>
+          <ownedLiteral xmi:id="_YEpALBjpEe-H_ePpXJInJQ" name="74"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_YEpALRjpEe-H_ePpXJInJQ" name="USStateNumericCodeType">
+          <generalization xmi:id="_YEpALhjpEe-H_ePpXJInJQ" general="_YEo_5xjpEe-H_ePpXJInJQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

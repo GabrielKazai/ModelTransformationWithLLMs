@@ -16,4 +16,5 @@ not quite duplicates because they have different file sizes (XMI)
 --------
 Large:
 0api - grows in size when exporting, too large for gpt 
+XMI/XML
 

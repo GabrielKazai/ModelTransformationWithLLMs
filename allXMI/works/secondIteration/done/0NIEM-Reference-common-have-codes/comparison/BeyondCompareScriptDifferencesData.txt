@@ -1,0 +1,108 @@
+Table Compare
+Produced: 2024-05-23 12:33:34
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-have-codes\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-have-codes\gpt\gptoutput\cleanGPT.java
+1:     2:                     3:                             4:      5: 6: 7: 8: 9:    1:     2:                    3:                             4:            5:                               6:           7:    8:              9:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    <>        Adequate,             Insufficient
+       Adequate,                                                                    <>
+       Insufficient;                                                                <>
+                                                                                    <>        MedicalSurgical,      AdultICU,                      PediatricICU, Pediatrics,                      Psychiatric, Burn, OtherIsolation, OperatingRooms,
+                                                                                    <>        NegativeFlowIsolation
+       ;                                                                            <>
+       MedicalSurgical,                                                             <>        VacantAvailable,      NotAvailable
+       AdultICU,                                                                    <>
+       PediatricICU,                                                                <>
+       Pediatrics,                                                                  <>        Level1,               Full,                          Normal,       Level2
+       Psychiatric,                                                                 <>
+       Burn,                                                                        <>
+       OtherIsolation,                                                              <>        Full,                 Open,                          Exceeded,     Inactive
+       OperatingRooms,                                                              <>
+       NegativeFlowIsolation;                                                       <>
+                                                                                    <>        Delayed,              Normal
+       ;                                                                            <>
+       VacantAvailable,                                                             <>        NotApplicable,        Closed,                        Normal,       Advisory
+       NotAvailable;                                                                <>
+       ;                                                                            <>        Inactive,             Active
+       Level1,                                                                      <>
+       Full,                                                                        <>        Inactive,             Active
+       Normal,                                                                      <>
+       Level2;                                                                      <>
+                                                                                    <>        Compromised,          Closed,                        Normal,       Evacuating
+       ;                                                                            <>
+       Full,                                                                        <>        Full,                 Exceeded,                      Open
+       Open,                                                                        <>
+       Exceeded,                                                                    <>
+       Inactive;                                                                    <>        Quarantine,           RestrictedAccess,              Elevated,     Normal,                          Lockdown
+       ;                                                                            +-
+                                                                                    +-
+       Delayed,                                                                     +-
+       Normal;                                                                      +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       NotApplicable,                                                               +-
+       Closed,                                                                      +-
+       Normal,                                                                      +-
+       Advisory;                                                                    +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       Inactive,                                                                    +-
+       Active;                                                                      +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       Inactive,                                                                    +-
+       Active;                                                                      +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       Compromised,                                                                 +-
+       Closed,                                                                      +-
+       Normal,                                                                      +-
+       Evacuating;                                                                  +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       Full,                                                                        +-
+       Exceeded,                                                                    +-
+       Open;                                                                        +-
+                                                                                    +-
+       ;                                                                            +-
+                                                                                    +-
+       Quarantine,                                                                  +-
+       RestrictedAccess,                                                            +-
+       Elevated,                                                                    +-
+       Normal,                                                                      +-
+       Lockdown;                                                                    +-
+                                                                                    +-
+       ;                                                                            +-
+}                                                                                   +-
+public class                  NamespaceElementPropertyHolder {                      <> public class                 AvailabilityStatusCodeType     extends       AvailabilityStatusCodeSimpleType {
+public enum                   AvailabilityStatusCodeType     extends {              <> public enum                  BedCategoryCodeSimpleType      {
+public enum                   BedCategoryCodeSimpleType      {                      <> public class                 BedCategoryCodeType            extends       BedCategoryCodeSimpleType        {
+public enum                   BedCategoryCodeType            extends {              <> public enum                  CapacityStatusCodeSimpleType   {
+public enum                   CapacityStatusCodeSimpleType   {                      <> public class                 CapacityStatusCodeType         extends       CapacityStatusCodeSimpleType     {
+public enum                   CapacityStatusCodeType         extends {              <> public enum                  ClinicalStatusCodeSimpleType   {
+public enum                   ClinicalStatusCodeSimpleType   {                      <> public class                 ClinicalStatusCodeType         extends       ClinicalStatusCodeSimpleType     {
+public enum                   ClinicalStatusCodeType         extends {              <> public enum                  DeconCapacityCodeSimpleType    {
+public enum                   DeconCapacityCodeSimpleType    {                      <> public class                 DeconCapacityCodeType          extends       DeconCapacityCodeSimpleType      {
+public enum                   DeconCapacityCodeType          extends {              <> public enum                  EMSOffloadStatusCodeSimpleType {
+public enum                   EMSOffloadStatusCodeSimpleType {                      <> public class                 EMSOffloadStatusCodeType       extends       EMSOffloadStatusCodeSimpleType   {
+public enum                   EMSOffloadStatusCodeType       extends {              <> public enum                  EMSTrafficStatusCodeSimpleType {
+public enum                   EMSTrafficStatusCodeSimpleType {                      <> public class                 EMSTrafficStatusCodeType       extends       EMSTrafficStatusCodeSimpleType   {
+public enum                   EMSTrafficStatusCodeType       extends {              <> public enum                  EOCPlanCodeSimpleType          {
+public enum                   EOCPlanCodeSimpleType          {                      <> public class                 EOCPlanCodeType                extends       EOCPlanCodeSimpleType            {
+public enum                   EOCPlanCodeType                extends {              <> public enum                  EOCStatusCodeSimpleType        {
+public enum                   EOCStatusCodeSimpleType        {                      <> public class                 EOCStatusCodeType              extends       EOCStatusCodeSimpleType          {
+public enum                   EOCStatusCodeType              extends {              <> public enum                  FacilityStatusCodeSimpleType   {
+public enum                   FacilityStatusCodeSimpleType   {                      <> public class                 FacilityStatusCodeType         extends       FacilityStatusCodeSimpleType     {
+public enum                   FacilityStatusCodeType         extends {              <> public enum                  MorgueCapacityCodeSimpleType   {
+public enum                   MorgueCapacityCodeSimpleType   {                      <> public class                 MorgueCapacityCodeType         extends       MorgueCapacityCodeSimpleType     {
+public enum                   MorgueCapacityCodeType         extends {              <> public enum                  SecurityStatusCodeSimpleType   {
+public enum                   SecurityStatusCodeSimpleType   {                      <> public class                 SecurityStatusCodeType         extends       SecurityStatusCodeSimpleType     {
+public enum                   SecurityStatusCodeType         extends {              +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

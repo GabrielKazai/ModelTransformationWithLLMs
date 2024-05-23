@@ -1,0 +1,2 @@
+The enum USStateCodeType is missing constants from USStateCodeSimpleType.
+The enum USStateNumericCodeype is missing constants from USStateNumericCodeSimpleype.

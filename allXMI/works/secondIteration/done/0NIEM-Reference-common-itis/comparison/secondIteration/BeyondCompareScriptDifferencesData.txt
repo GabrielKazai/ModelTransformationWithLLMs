@@ -1,0 +1,45 @@
+Table Compare
+Produced: 2024-05-23 15:09:38
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0NIEM-Reference-common-itis\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0NIEM-Reference-common-itis\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:     2:                         3:                        4:      5: 6: 7: 8: 9: 10:    1:     2:                3:                         4:                         5:             6:             7:                  8:                 9:          10:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                       <>        LIGHTING_UNKNOWN, ARTIFICIAL_INTERIOR_LIGHT, ARTIFICIAL_EXTERIOR_LIGHT, MOONLIGHT,     DUSK,          DAYLIGHT,           DARKNESS,          DAWN
+       lighting-unknown,                                                               <>
+       artificial-interior-light,                                                      <>
+       artificial-exterior-light,                                                      <>        LIGHTING_UNKNOWN, ARTIFICIAL_INTERIOR_LIGHT, ARTIFICIAL_EXTERIOR_LIGHT, MOONLIGHT,     DUSK,          DAYLIGHT,           DARKNESS,          DAWN
+       moonlight,                                                                      <>
+       dusk,                                                                           <>        UV_INDEX_LOW,     CLEAR_SKIES,               OVERCAST,                  DRY,           MOSTLY_CLOUDY, MOSTLY_SUNNY,       UV_INDEX_VERY_LOW, FAIR_SKIES, MOSTLY_CLEAR,
+       daylight,                                                                       <>        OZONE_ALERT,      UV_INDEX_MODERATE,         BAROMETRIC_PRESSURE,       PARTLY_CLOUDY, UV_INDEX_HIGH, UV_INDEX_VERY_HIGH, SUNNY,
+       darkness,                                                                       <>        PARTLY_SUNNY,     CLOUDY,                    MOSTLY_DRY
+       dawn;                                                                           <>
+                                                                                       <>        UV_INDEX_LOW,     CLEAR_SKIES,               OVERCAST,                  DRY,           MOSTLY_CLOUDY, MOSTLY_SUNNY,       UV_INDEX_VERY_LOW, FAIR_SKIES, MOSTLY_CLEAR,
+                                                                                       <>        OZONE_ALERT,      UV_INDEX_MODERATE,         BAROMETRIC_PRESSURE,       PARTLY_CLOUDY, UV_INDEX_HIGH, UV_INDEX_VERY_HIGH, SUNNY,
+       ;                                                                               <>        PARTLY_SUNNY,     CLOUDY,                    MOSTLY_DRY
+                                                                                       +-
+       uV-index-low,                                                                   +-
+       clear-skies,                                                                    +-
+       overcast,                                                                       +-
+       dry,                                                                            +-
+       mostly-cloudy,                                                                  +-
+       mostly-sunny,                                                                   +-
+       uV-index-very-low,                                                              +-
+       fair-skies,                                                                     +-
+       mostly-clear,                                                                   +-
+       ozone-alert,                                                                    +-
+       uV-index-moderate,                                                              +-
+       barometric-pressure,                                                            +-
+       partly-cloudy,                                                                  +-
+       uV-index-high,                                                                  +-
+       uV-index-very-high,                                                             +-
+       sunny,                                                                          +-
+       partly-sunny,                                                                   +-
+       cloudy,                                                                         +-
+       mostly-dry;                                                                     +-
+                                                                                       +-
+       ;                                                                               +-
+public enum                       LightingCodeType          extends {                  <> public enum              LightingCodeType           {
+public enum                       WeatherConditionsCodeType extends {                  <> public enum              WeatherConditionsCodeType  {
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+The enum LightingCodeType is missing constants from LightingCodeSimpleType.
+The enum WeatherConditionsCodeType is missing constants from WeatherConditionsCodeSimpleType.
+The enum WeatherConditionsCodeType can not extend another enum.
+The enum LightingCodeType can not extend another enum.

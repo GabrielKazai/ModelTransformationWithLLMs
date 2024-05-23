@@ -1,0 +1,308 @@
+﻿Chatthistorik
+
+
+ChatGPT
+ChatGPT
+Utforska GPT:er
+I dag
+Java Model Generation
+Java Classes from XMI
+Java Classes Creation
+Java Classes from UML
+Java Classes for UML
+Java Model Creation
+Java Class Generation
+Java Enums & Classes
+Model Java classes
+Java Code Classes
+Java UML Translation
+Java UML Kode Konversi
+Java Classes for Enums
+Java Class Enums
+Java Classlarının Oluşturulması
+Java Classes from UML
+Java Model Creation
+
+Java Class Generation
+Java Class from XMI
+Java Code Generation
+I går
+Remove Duplicate Names
+Python Script: File Comparison
+List and Save File Names
+Senaste 7 dagarna
+Pre-order Depth-First Traversal
+Read UML XML Model
+Senaste 30 dagarna
+Java Knowledge Validity Threat
+Validity Concerns in Research
+Mitigating Java Interpretation Risks
+Lägg till Team-arbetsyta
+Samarbeta med ett Team-abonnemang
+ChatGPT 4
+
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_tCOz4BjpEe-H_ePpXJInJQ" name="Model">
+  <eAnnotations xmi:id="_tCOz4RjpEe-H_ePpXJInJQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_tCOz4hjpEe-H_ePpXJInJQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tCOz4xjpEe-H_ePpXJInJQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tCOz5BjpEe-H_ePpXJInJQ" name="iso_4217">
+    <packagedElement xmi:type="uml:Package" xmi:id="_tCOz5RjpEe-H_ePpXJInJQ" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tCOz5hjpEe-H_ePpXJInJQ" name="iso_4217">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_tCOz5xjpEe-H_ePpXJInJQ" name="CurrencyCodeSimpleType">
+          <ownedLiteral xmi:id="_tCOz6BjpEe-H_ePpXJInJQ" name="BHD"/>
+          <ownedLiteral xmi:id="_tCOz6RjpEe-H_ePpXJInJQ" name="ZAR"/>
+          <ownedLiteral xmi:id="_tCOz6hjpEe-H_ePpXJInJQ" name="UAH"/>
+          <ownedLiteral xmi:id="_tCOz6xjpEe-H_ePpXJInJQ" name="ZWD"/>
+          <ownedLiteral xmi:id="_tCOz7BjpEe-H_ePpXJInJQ" name="LBP"/>
+          <ownedLiteral xmi:id="_tCOz7RjpEe-H_ePpXJInJQ" name="XFO"/>
+          <ownedLiteral xmi:id="_tCOz7hjpEe-H_ePpXJInJQ" name="BEF"/>
+          <ownedLiteral xmi:id="_tCOz7xjpEe-H_ePpXJInJQ" name="VND"/>
+          <ownedLiteral xmi:id="_tCOz8BjpEe-H_ePpXJInJQ" name="ATS"/>
+          <ownedLiteral xmi:id="_tCOz8RjpEe-H_ePpXJInJQ" name="SLL"/>
+          <ownedLiteral xmi:id="_tCOz8hjpEe-H_ePpXJInJQ" name="YUM"/>
+          <ownedLiteral xmi:id="_tCOz8xjpEe-H_ePpXJInJQ" name="AUD"/>
+          <ownedLiteral xmi:id="_tCOz9BjpEe-H_ePpXJInJQ" name="AFA"/>
+          <ownedLiteral xmi:id="_tCOz9RjpEe-H_ePpXJInJQ" name="KYD"/>
+          <ownedLiteral xmi:id="_tCOz9hjpEe-H_ePpXJInJQ" name="TJS"/>
+          <ownedLiteral xmi:id="_tCOz9xjpEe-H_ePpXJInJQ" name="JOD"/>
+          <ownedLiteral xmi:id="_tCOz-BjpEe-H_ePpXJInJQ" name="IDR"/>
+          <ownedLiteral xmi:id="_tCOz-RjpEe-H_ePpXJInJQ" name="BBD"/>
+          <ownedLiteral xmi:id="_tCOz-hjpEe-H_ePpXJInJQ" name="SHP"/>
+          <ownedLiteral xmi:id="_tCOz-xjpEe-H_ePpXJInJQ" name="MYR"/>
+          <ownedLiteral xmi:id="_tCOz_BjpEe-H_ePpXJInJQ" name="KMF"/>
+          <ownedLiteral xmi:id="_tCOz_RjpEe-H_ePpXJInJQ" name="KZT"/>
+          <ownedLiteral xmi:id="_tCOz_hjpEe-H_ePpXJInJQ" name="SAR"/>
+          <ownedLiteral xmi:id="_tCOz_xjpEe-H_ePpXJInJQ" name="PGK"/>
+          <ownedLiteral xmi:id="_tCO0ABjpEe-H_ePpXJInJQ" name="MMK"/>
+          <ownedLiteral xmi:id="_tCO0ARjpEe-H_ePpXJInJQ" name="MRO"/>
+          <ownedLiteral xmi:id="_tCO0AhjpEe-H_ePpXJInJQ" name="GYD"/>
+          <ownedLiteral xmi:id="_tCO0AxjpEe-H_ePpXJInJQ" name="XBB"/>
+          <ownedLiteral xmi:id="_tCO0BBjpEe-H_ePpXJInJQ" name="AOR"/>
+          <ownedLiteral xmi:id="_tCO0BRjpEe-H_ePpXJInJQ" name="XAF"/>
+          <ownedLiteral xmi:id="_tCO0BhjpEe-H_ePpXJInJQ" name="LSL"/>
+          <ownedLiteral xmi:id="_tCO0BxjpEe-H_ePpXJInJQ" name="MXN"/>
+          <ownedLiteral xmi:id="_tCO0CBjpEe-H_ePpXJInJQ" name="BWP"/>
+          <ownedLiteral xmi:id="_tCO0CRjpEe-H_ePpXJInJQ" name="PAB"/>
+          <ownedLiteral xmi:id="_tCO0ChjpEe-H_ePpXJInJQ" name="TND"/>
+          <ownedLiteral xmi:id="_tCO0CxjpEe-H_ePpXJInJQ" name="ZMK"/>
+          <ownedLiteral xmi:id="_tCO0DBjpEe-H_ePpXJInJQ" name="KGS"/>
+          <ownedLiteral xmi:id="_tCO0DRjpEe-H_ePpXJInJQ" name="EUR"/>
+          <ownedLiteral xmi:id="_tCO0DhjpEe-H_ePpXJInJQ" name="TWD"/>
+          <ownedLiteral xmi:id="_tCO0DxjpEe-H_ePpXJInJQ" name="UYU"/>
+          <ownedLiteral xmi:id="_tCO0EBjpEe-H_ePpXJInJQ" name="SCR"/>
+          <ownedLiteral xmi:id="_tCO0ERjpEe-H_ePpXJInJQ" name="KRW"/>
+          <ownedLiteral xmi:id="_tCO0EhjpEe-H_ePpXJInJQ" name="CLF"/>
+          <ownedLiteral xmi:id="_tCO0ExjpEe-H_ePpXJInJQ" name="ILS"/>
+          <ownedLiteral xmi:id="_tCO0FBjpEe-H_ePpXJInJQ" name="PHP"/>
+          <ownedLiteral xmi:id="_tCO0FRjpEe-H_ePpXJInJQ" name="TMM"/>
+          <ownedLiteral xmi:id="_tCO0FhjpEe-H_ePpXJInJQ" name="XDR"/>
+          <ownedLiteral xmi:id="_tCO0FxjpEe-H_ePpXJInJQ" name="CRC"/>
+          <ownedLiteral xmi:id="_tCO0GBjpEe-H_ePpXJInJQ" name="CZK"/>
+          <ownedLiteral xmi:id="_tCO0GRjpEe-H_ePpXJInJQ" name="DZD"/>
+          <ownedLiteral xmi:id="_tCO0GhjpEe-H_ePpXJInJQ" name="XOF"/>
+          <ownedLiteral xmi:id="_tCO0GxjpEe-H_ePpXJInJQ" name="SKK"/>
+          <ownedLiteral xmi:id="_tCO0HBjpEe-H_ePpXJInJQ" name="ZAL"/>
+          <ownedLiteral xmi:id="_tCO0HRjpEe-H_ePpXJInJQ" name="EEK"/>
+          <ownedLiteral xmi:id="_tCO0HhjpEe-H_ePpXJInJQ" name="GBP"/>
+          <ownedLiteral xmi:id="_tCO0HxjpEe-H_ePpXJInJQ" name="NIO"/>
+          <ownedLiteral xmi:id="_tCO0IBjpEe-H_ePpXJInJQ" name="BZD"/>
+          <ownedLiteral xmi:id="_tCO0IRjpEe-H_ePpXJInJQ" name="FRF"/>
+          <ownedLiteral xmi:id="_tCO0IhjpEe-H_ePpXJInJQ" name="THB"/>
+          <ownedLiteral xmi:id="_tCO0IxjpEe-H_ePpXJInJQ" name="XBD"/>
+          <ownedLiteral xmi:id="_tCO0JBjpEe-H_ePpXJInJQ" name="MDL"/>
+          <ownedLiteral xmi:id="_tCO0JRjpEe-H_ePpXJInJQ" name="MTL"/>
+          <ownedLiteral xmi:id="_tCO0JhjpEe-H_ePpXJInJQ" name="SOS"/>
+          <ownedLiteral xmi:id="_tCO0JxjpEe-H_ePpXJInJQ" name="MKD"/>
+          <ownedLiteral xmi:id="_tCO0KBjpEe-H_ePpXJInJQ" name="SBD"/>
+          <ownedLiteral xmi:id="_tCO0KRjpEe-H_ePpXJInJQ" name="SIT"/>
+          <ownedLiteral xmi:id="_tCO0KhjpEe-H_ePpXJInJQ" name="GRD"/>
+          <ownedLiteral xmi:id="_tCO0KxjpEe-H_ePpXJInJQ" name="XBC"/>
+          <ownedLiteral xmi:id="_tCO0LBjpEe-H_ePpXJInJQ" name="HUF"/>
+          <ownedLiteral xmi:id="_tCO0LRjpEe-H_ePpXJInJQ" name="MGF"/>
+          <ownedLiteral xmi:id="_tCO0LhjpEe-H_ePpXJInJQ" name="HNL"/>
+          <ownedLiteral xmi:id="_tCO0LxjpEe-H_ePpXJInJQ" name="KHR"/>
+          <ownedLiteral xmi:id="_tCO0MBjpEe-H_ePpXJInJQ" name="TOP"/>
+          <ownedLiteral xmi:id="_tCO0MRjpEe-H_ePpXJInJQ" name="ESP"/>
+          <ownedLiteral xmi:id="_tCO0MhjpEe-H_ePpXJInJQ" name="XAG"/>
+          <ownedLiteral xmi:id="_tCO0MxjpEe-H_ePpXJInJQ" name="SDD"/>
+          <ownedLiteral xmi:id="_tCO0NBjpEe-H_ePpXJInJQ" name="USS"/>
+          <ownedLiteral xmi:id="_tCO0NRjpEe-H_ePpXJInJQ" name="INR"/>
+          <ownedLiteral xmi:id="_tCO0NhjpEe-H_ePpXJInJQ" name="BMD"/>
+          <ownedLiteral xmi:id="_tCO0NxjpEe-H_ePpXJInJQ" name="MOP"/>
+          <ownedLiteral xmi:id="_tCO0OBjpEe-H_ePpXJInJQ" name="MWK"/>
+          <ownedLiteral xmi:id="_tCO0ORjpEe-H_ePpXJInJQ" name="UZS"/>
+          <ownedLiteral xmi:id="_tCO0OhjpEe-H_ePpXJInJQ" name="LKR"/>
+          <ownedLiteral xmi:id="_tCO0OxjpEe-H_ePpXJInJQ" name="MZM"/>
+          <ownedLiteral xmi:id="_tCO0PBjpEe-H_ePpXJInJQ" name="ERN"/>
+          <ownedLiteral xmi:id="_tCO0PRjpEe-H_ePpXJInJQ" name="CDF"/>
+          <ownedLiteral xmi:id="_tCO0PhjpEe-H_ePpXJInJQ" name="CVE"/>
+          <ownedLiteral xmi:id="_tCO0PxjpEe-H_ePpXJInJQ" name="XPF"/>
+          <ownedLiteral xmi:id="_tCO0QBjpEe-H_ePpXJInJQ" name="GNF"/>
+          <ownedLiteral xmi:id="_tCO0QRjpEe-H_ePpXJInJQ" name="XTS"/>
+          <ownedLiteral xmi:id="_tCO0QhjpEe-H_ePpXJInJQ" name="UGX"/>
+          <ownedLiteral xmi:id="_tCO0QxjpEe-H_ePpXJInJQ" name="MUR"/>
+          <ownedLiteral xmi:id="_tCO0RBjpEe-H_ePpXJInJQ" name="GTQ"/>
+          <ownedLiteral xmi:id="_tCO0RRjpEe-H_ePpXJInJQ" name="XAU"/>
+          <ownedLiteral xmi:id="_tCO0RhjpEe-H_ePpXJInJQ" name="NOK"/>
+          <ownedLiteral xmi:id="_tCO0RxjpEe-H_ePpXJInJQ" name="XCD"/>
+          <ownedLiteral xmi:id="_tCO0SBjpEe-H_ePpXJInJQ" name="WST"/>
+          <ownedLiteral xmi:id="_tCO0SRjpEe-H_ePpXJInJQ" name="PTE"/>
+          <ownedLiteral xmi:id="_tCO0ShjpEe-H_ePpXJInJQ" name="TPE"/>
+          <ownedLiteral xmi:id="_tCO0SxjpEe-H_ePpXJInJQ" name="LTL"/>
+          <ownedLiteral xmi:id="_tCO0TBjpEe-H_ePpXJInJQ" name="ISK"/>
+          <ownedLiteral xmi:id="_tCO0TRjpEe-H_ePpXJInJQ" name="CLP"/>
+          <ownedLiteral xmi:id="_tCO0ThjpEe-H_ePpXJInJQ" name="GMD"/>
+          <ownedLiteral xmi:id="_tCO0TxjpEe-H_ePpXJInJQ" name="ZRN"/>
+          <ownedLiteral xmi:id="_tCO0UBjpEe-H_ePpXJInJQ" name="DKK"/>
+          <ownedLiteral xmi:id="_tCO0URjpEe-H_ePpXJInJQ" name="KPW"/>
+          <ownedLiteral xmi:id="_tCO0UhjpEe-H_ePpXJInJQ" name="NLG"/>
+          <ownedLiteral xmi:id="_tCO0UxjpEe-H_ePpXJInJQ" name="ECV"/>
+          <ownedLiteral xmi:id="_tCO0VBjpEe-H_ePpXJInJQ" name="KWD"/>
+          <ownedLiteral xmi:id="_tCO0VRjpEe-H_ePpXJInJQ" name="DOP"/>
+          <ownedLiteral xmi:id="_tCO0VhjpEe-H_ePpXJInJQ" name="GEL"/>
+          <ownedLiteral xmi:id="_tCO0VxjpEe-H_ePpXJInJQ" name="ALL"/>
+          <ownedLiteral xmi:id="_tCO0WBjpEe-H_ePpXJInJQ" name="XFU"/>
+          <ownedLiteral xmi:id="_tCO0WRjpEe-H_ePpXJInJQ" name="ITL"/>
+          <ownedLiteral xmi:id="_tCO0WhjpEe-H_ePpXJInJQ" name="TTD"/>
+          <ownedLiteral xmi:id="_tCO0WxjpEe-H_ePpXJInJQ" name="GHC"/>
+          <ownedLiteral xmi:id="_tCO0XBjpEe-H_ePpXJInJQ" name="LUF"/>
+          <ownedLiteral xmi:id="_tCO0XRjpEe-H_ePpXJInJQ" name="OMR"/>
+          <ownedLiteral xmi:id="_tCO0XhjpEe-H_ePpXJInJQ" name="USN"/>
+          <ownedLiteral xmi:id="_tCO0XxjpEe-H_ePpXJInJQ" name="BTN"/>
+          <ownedLiteral xmi:id="_tCO0YBjpEe-H_ePpXJInJQ" name="HKD"/>
+          <ownedLiteral xmi:id="_tCO0YRjpEe-H_ePpXJInJQ" name="STD"/>
+          <ownedLiteral xmi:id="_tCO0YhjpEe-H_ePpXJInJQ" name="PEN"/>
+          <ownedLiteral xmi:id="_tCO0YxjpEe-H_ePpXJInJQ" name="RUB"/>
+          <ownedLiteral xmi:id="_tCO0ZBjpEe-H_ePpXJInJQ" name="VUV"/>
+          <ownedLiteral xmi:id="_tCO0ZRjpEe-H_ePpXJInJQ" name="YER"/>
+          <ownedLiteral xmi:id="_tCO0ZhjpEe-H_ePpXJInJQ" name="LVL"/>
+          <ownedLiteral xmi:id="_tCO0ZxjpEe-H_ePpXJInJQ" name="MNT"/>
+          <ownedLiteral xmi:id="_tCO0aBjpEe-H_ePpXJInJQ" name="BSD"/>
+          <ownedLiteral xmi:id="_tCO0aRjpEe-H_ePpXJInJQ" name="BDT"/>
+          <ownedLiteral xmi:id="_tCO0ahjpEe-H_ePpXJInJQ" name="DJF"/>
+          <ownedLiteral xmi:id="_tCO0axjpEe-H_ePpXJInJQ" name="AZM"/>
+          <ownedLiteral xmi:id="_tCO0bBjpEe-H_ePpXJInJQ" name="IEP"/>
+          <ownedLiteral xmi:id="_tCO0bRjpEe-H_ePpXJInJQ" name="ANG"/>
+          <ownedLiteral xmi:id="_tCO0bhjpEe-H_ePpXJInJQ" name="XXX"/>
+          <ownedLiteral xmi:id="_tCO0bxjpEe-H_ePpXJInJQ" name="EGP"/>
+          <ownedLiteral xmi:id="_tCO0cBjpEe-H_ePpXJInJQ" name="SYP"/>
+          <ownedLiteral xmi:id="_tCO0cRjpEe-H_ePpXJInJQ" name="TRL"/>
+          <ownedLiteral xmi:id="_tCO0chjpEe-H_ePpXJInJQ" name="LRD"/>
+          <ownedLiteral xmi:id="_tCO0cxjpEe-H_ePpXJInJQ" name="IRR"/>
+          <ownedLiteral xmi:id="_tCO0dBjpEe-H_ePpXJInJQ" name="GWP"/>
+          <ownedLiteral xmi:id="_tCO0dRjpEe-H_ePpXJInJQ" name="CUP"/>
+          <ownedLiteral xmi:id="_tCO0dhjpEe-H_ePpXJInJQ" name="TJR"/>
+          <ownedLiteral xmi:id="_tCO0dxjpEe-H_ePpXJInJQ" name="ARS"/>
+          <ownedLiteral xmi:id="_tCO0eBjpEe-H_ePpXJInJQ" name="GIP"/>
+          <ownedLiteral xmi:id="_tCO0eRjpEe-H_ePpXJInJQ" name="ROL"/>
+          <ownedLiteral xmi:id="_tCO0ehjpEe-H_ePpXJInJQ" name="BGN"/>
+          <ownedLiteral xmi:id="_tCO0exjpEe-H_ePpXJInJQ" name="TZS"/>
+          <ownedLiteral xmi:id="_tCO0fBjpEe-H_ePpXJInJQ" name="AWG"/>
+          <ownedLiteral xmi:id="_tCO0fRjpEe-H_ePpXJInJQ" name="JMD"/>
+          <ownedLiteral xmi:id="_tCO0fhjpEe-H_ePpXJInJQ" name="ADP"/>
+          <ownedLiteral xmi:id="_tCO0fxjpEe-H_ePpXJInJQ" name="CNY"/>
+          <ownedLiteral xmi:id="_tCO0gBjpEe-H_ePpXJInJQ" name="KES"/>
+          <ownedLiteral xmi:id="_tCO0gRjpEe-H_ePpXJInJQ" name="SEK"/>
+          <ownedLiteral xmi:id="_tCO0ghjpEe-H_ePpXJInJQ" name="BND"/>
+          <ownedLiteral xmi:id="_tCO0gxjpEe-H_ePpXJInJQ" name="AED"/>
+          <ownedLiteral xmi:id="_tCO0hBjpEe-H_ePpXJInJQ" name="PLN"/>
+          <ownedLiteral xmi:id="_tCO0hRjpEe-H_ePpXJInJQ" name="BIF"/>
+          <ownedLiteral xmi:id="_tCO0hhjpEe-H_ePpXJInJQ" name="HTG"/>
+          <ownedLiteral xmi:id="_tCO0hxjpEe-H_ePpXJInJQ" name="RUR"/>
+          <ownedLiteral xmi:id="_tCO0iBjpEe-H_ePpXJInJQ" name="QAR"/>
+          <ownedLiteral xmi:id="_tCO0iRjpEe-H_ePpXJInJQ" name="MXV"/>
+          <ownedLiteral xmi:id="_tCO0ihjpEe-H_ePpXJInJQ" name="CHF"/>
+          <ownedLiteral xmi:id="_tCO0ixjpEe-H_ePpXJInJQ" name="SVC"/>
+          <ownedLiteral xmi:id="_tCO0jBjpEe-H_ePpXJInJQ" name="MAD"/>
+          <ownedLiteral xmi:id="_tCO0jRjpEe-H_ePpXJInJQ" name="NPR"/>
+          <ownedLiteral xmi:id="_tCO0jhjpEe-H_ePpXJInJQ" name="FKP"/>
+          <ownedLiteral xmi:id="_tCO0jxjpEe-H_ePpXJInJQ" name="SZL"/>
+          <ownedLiteral xmi:id="_tCO0kBjpEe-H_ePpXJInJQ" name="NZD"/>
+          <ownedLiteral xmi:id="_tCO0kRjpEe-H_ePpXJInJQ" name="MVR"/>
+          <ownedLiteral xmi:id="_tCO0khjpEe-H_ePpXJInJQ" name="BRL"/>
+          <ownedLiteral xmi:id="_tCO0kxjpEe-H_ePpXJInJQ" name="AON"/>
+          <ownedLiteral xmi:id="_tCO0lBjpEe-H_ePpXJInJQ" name="XPT"/>
+          <ownedLiteral xmi:id="_tCO0lRjpEe-H_ePpXJInJQ" name="FJD"/>
+          <ownedLiteral xmi:id="_tCO0lhjpEe-H_ePpXJInJQ" name="CAD"/>
+          <ownedLiteral xmi:id="_tCO0lxjpEe-H_ePpXJInJQ" name="CYP"/>
+          <ownedLiteral xmi:id="_tCO0mBjpEe-H_ePpXJInJQ" name="AMD"/>
+          <ownedLiteral xmi:id="_tCO0mRjpEe-H_ePpXJInJQ" name="BAM"/>
+          <ownedLiteral xmi:id="_tCO0mhjpEe-H_ePpXJInJQ" name="BGL"/>
+          <ownedLiteral xmi:id="_tCO0mxjpEe-H_ePpXJInJQ" name="XBA"/>
+          <ownedLiteral xmi:id="_tCO0nBjpEe-H_ePpXJInJQ" name="PYG"/>
+          <ownedLiteral xmi:id="_tCO0nRjpEe-H_ePpXJInJQ" name="XPD"/>
+          <ownedLiteral xmi:id="_tCO0nhjpEe-H_ePpXJInJQ" name="HRK"/>
+          <ownedLiteral xmi:id="_tCO0nxjpEe-H_ePpXJInJQ" name="SRG"/>
+          <ownedLiteral xmi:id="_tCO0oBjpEe-H_ePpXJInJQ" name="IQD"/>
+          <ownedLiteral xmi:id="_tCO0oRjpEe-H_ePpXJInJQ" name="FIM"/>
+          <ownedLiteral xmi:id="_tCO0ohjpEe-H_ePpXJInJQ" name="LYD"/>
+          <ownedLiteral xmi:id="_tCO0oxjpEe-H_ePpXJInJQ" name="DEM"/>
+          <ownedLiteral xmi:id="_tCO0pBjpEe-H_ePpXJInJQ" name="ECS"/>
+          <ownedLiteral xmi:id="_tCO0pRjpEe-H_ePpXJInJQ" name="LAK"/>
+          <ownedLiteral xmi:id="_tCO0phjpEe-H_ePpXJInJQ" name="COP"/>
+          <ownedLiteral xmi:id="_tCO0pxjpEe-H_ePpXJInJQ" name="ETB"/>
+          <ownedLiteral xmi:id="_tCO0qBjpEe-H_ePpXJInJQ" name="VEB"/>
+          <ownedLiteral xmi:id="_tCO0qRjpEe-H_ePpXJInJQ" name="BYR"/>
+          <ownedLiteral xmi:id="_tCO0qhjpEe-H_ePpXJInJQ" name="USD"/>
+          <ownedLiteral xmi:id="_tCO0qxjpEe-H_ePpXJInJQ" name="RWF"/>
+          <ownedLiteral xmi:id="_tCO0rBjpEe-H_ePpXJInJQ" name="JPY"/>
+          <ownedLiteral xmi:id="_tCO0rRjpEe-H_ePpXJInJQ" name="PKR"/>
+          <ownedLiteral xmi:id="_tCO0rhjpEe-H_ePpXJInJQ" name="NGN"/>
+          <ownedLiteral xmi:id="_tCO0rxjpEe-H_ePpXJInJQ" name="SGD"/>
+          <ownedLiteral xmi:id="_tCO0sBjpEe-H_ePpXJInJQ" name="NAD"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tCO0sRjpEe-H_ePpXJInJQ" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_tCO0shjpEe-H_ePpXJInJQ" name="CurrencyCodeType">
+          <generalization xmi:id="_tCO0sxjpEe-H_ePpXJInJQ" general="_tCOz5xjpEe-H_ePpXJInJQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Kopiera kod
+//[[STARTEND]]
+public enum CurrencyCodeSimpleType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum CurrencyCodeType {
+}
+//[[STARTEND]]
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The enum CurrencyCodeType is missing constants from CurrencyCodeSimpleType.
+ChatGPT
+java
+Kopiera kod
+//[[STARTEND]]
+public enum CurrencyCodeSimpleType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum CurrencyCodeType {
+    BHD, ZAR, UAH, ZWD, LBP, XFO, BEF, VND, ATS, SLL, YUM, AUD, AFA, KYD, TJS, JOD, IDR, BBD, SHP, MYR, KMF, KZT, SAR, PGK, MMK, MRO, GYD, XBB, AOR, XAF, LSL, MXN, BWP, PAB, TND, ZMK, KGS, EUR, TWD, UYU, SCR, KRW, CLF, ILS, PHP, TMM, XDR, CRC, CZK, DZD, XOF, SKK, ZAL, EEK, GBP, NIO, BZD, FRF, THB, XBD, MDL, MTL, SOS, MKD, SBD, SIT, GRD, XBC, HUF, MGF, HNL, KHR, TOP, ESP, XAG, SDD, USS, INR, BMD, MOP, MWK, UZS, LKR, MZM, ERN, CDF, CVE, XPF, GNF, XTS, UGX, MUR, GTQ, XAU, NOK, XCD, WST, PTE, TPE, LTL, ISK, CLP, GMD, ZRN, DKK, KPW, NLG, ECV, KWD, DOP, GEL, ALL, XFU, ITL, TTD, GHC, LUF, OMR, USN, BTN, HKD, STD, PEN, RUB, VUV, YER, LVL, MNT, BSD, BDT, DJF, AZM, IEP, ANG, XXX, EGP, SYP, TRL, LRD, IRR, GWP, CUP, TJR, ARS, GIP, ROL, BGN, TZS, AWG, JMD, ADP, CNY, KES, SEK, BND, AED, PLN, BIF, HTG, RUR, QAR, MXV, CHF, SVC, MAD, NPR, FKP, SZL, NZD, MVR, BRL, AON, XPT, FJD, CAD, CYP, AMD, BAM, BGL, XBA, PYG, XPD, HRK, SRG, IQD, FIM, LYD, DEM, ECS, LAK, COP, ETB, VEB, BYR, USD, RWF, JPY, PKR, NGN, SGD, NAD
+}
+//[[STARTEND]]
+
+
+
+
+
+
+Skicka ett meddelande till ChatGPT
+
+ChatGPT kan begå misstag. Kontrollera viktig information.
+?

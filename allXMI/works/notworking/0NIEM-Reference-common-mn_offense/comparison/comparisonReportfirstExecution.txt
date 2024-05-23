@@ -1,0 +1,6 @@
+The class NamespaceElementPropertyHolder is missing.
+The enum OffenseCodeType is missing.
+The enum OffenseLevelCodeSimpleType is missing.
+The enum OffenseLevelCodeType is missing.
+The enum StatuteCategoryCodeSimpleType is missing.
+The enum StatuteCategoryCodeType is missing.

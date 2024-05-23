@@ -42,13 +42,13 @@ def goThroughXMI(path, iteration, filename):
                 total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:PrimitiveType"' in line)):
                 primtiveTypes.append(line)
-                #total.append(line)
+                total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Enumeration"' in line)):
                 enumerations.append(line)
-                #total.append(line)
+                total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Interface"' in line)):
                 Interfaces.append(line)
-                #total.append(line)
+                total.append(line)
             elif(("<packagedElement" in line and 'xmi:type="uml:Association"' in line)):
                 Associations.append(line)
                 total.append(line)
@@ -58,10 +58,6 @@ def goThroughXMI(path, iteration, filename):
         f.close()
 
 
-#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\done
-#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\done
-#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\done
-#F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\failed
 f = open("difficulty.csv", "a")
 f.writelines("Classes, Primitive types, Enumerations, Interfaces, Associations, Total, Name, Iteration\n")
 f.close()

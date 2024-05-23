@@ -1,0 +1,80 @@
+﻿Chatthistorik
+
+
+ChatGPT
+ChatGPT
+Utforska GPT:er
+I dag
+Java Class Generation
+
+Java Class from XMI
+Java Code Generation
+I går
+Remove Duplicate Names
+Python Script: File Comparison
+List and Save File Names
+Senaste 7 dagarna
+Pre-order Depth-First Traversal
+Read UML XML Model
+Senaste 30 dagarna
+Java Knowledge Validity Threat
+Validity Concerns in Research
+Mitigating Java Interpretation Risks
+Expertise Bias in Research
+Research Pipeline Contribution: ChatGPT
+Refer Sections with \ref
+Design Science in Software.
+Design Science in Software
+Design Science in Software
+Design Science in Software
+Scientific Approaches and Methods
+Overleaf 2x12 table creation.
+Refined file anomalies addressed
+UML and XMI Benefits
+LLMs: Learning Paradigms and Tasks
+Eclipse: Development Environment
+LLMs: Performance in Transformations
+Latex Table Creation
+LateX Table Creation
+Zeros in 94.
+Lägg till Team-arbetsyta
+Samarbeta med ett Team-abonnemang
+ChatGPT 4
+
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_6qoYsBjoEe-H_ePpXJInJQ" name="Model">
+  <eAnnotations xmi:id="_6qoYsRjoEe-H_ePpXJInJQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_6qoYshjoEe-H_ePpXJInJQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_6qoYsxjoEe-H_ePpXJInJQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtBjoEe-H_ePpXJInJQ" name="external"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtRjoEe-H_ePpXJInJQ" name="edxl-de">
+    <packagedElement xmi:type="uml:Package" xmi:id="_6qoYthjoEe-H_ePpXJInJQ" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtxjoEe-H_ePpXJInJQ" name="edxl-de">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6qoYuBjoEe-H_ePpXJInJQ" name="DistributionElementAdapterType"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Kopiera kod
+// [[STARTEND]]
+public class DistributionElementAdapterType {
+}
+// [[STARTEND]]
+
+
+
+
+
+
+Skicka ett meddelande till ChatGPT
+
+ChatGPT kan begå misstag. Kontrollera viktig information.
+?
+ChatGPT

@@ -1,0 +1,11 @@
+Text Compare
+Produced: 2024-05-23 12:02:45
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl-de\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0NIEM-Reference-common-edxl-de\gpt\gptoutput\cleanGPT.java
+                                              +-
+----------------------------------------------------------------------------------------------
+public class DistributionElementAdapterType { =  public class DistributionElementAdapterType {
+}                                                }
+----------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 filepathGPT := A_Args[1]
 
-Run, "code" %filepathGPT%
+Run, "C:\Users\Gabriel\AppData\Local\Programs\Microsoft VS Code\Code.exe" %filepathGPT%
 sleep 15000
 
 Send, {ctrl down}{s down}

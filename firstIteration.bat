@@ -66,7 +66,7 @@ formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanG
 
 "python" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT.java
 
-"%scriptpath%\Beyond Compare 4" "@%1\comparison\bScripts.txt"
+"%scriptpath%\Beyond Compare 4.lnk" "@%1\comparison\bScripts.txt"
 
 @echo Comparison done
 

@@ -1,3 +1,48 @@
+﻿Chatthistorik
+
+
+ChatGPT
+ChatGPT
+Utforska GPT:er
+I dag
+Java Classes from UML
+
+UML to Java Translation
+Java Classes from XMI
+Java Classes From UML
+Java Code From UML
+Java Models from UML
+Java UML Model Generation
+Java Classes from UML
+Java Classes From XMI
+Java Code from XMI
+Java Code Generation
+Java UML Conversion
+Java Classes from XMI
+Java Models UML Translation
+Java Code Generation
+Java Classes from XMI
+I går
+Java Classes from UML
+Java Code from XMI
+Java Classes from XMI.
+Java Models Corresponding
+Senaste 7 dagarna
+UML to Java Code
+Java UML Conversion
+Java class from XMI.
+Java Code Generation
+Java OffenseCodeSimpleType Enum
+Java Classes for UML
+Java Class Offense Codes
+Java Code Generation
+Lägg till Team-arbetsyta
+Samarbeta med ett Team-abonnemang
+ChatGPT 4
+
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
   <uml:Model name="testUML" xmi:id="_4Ekh4cQkEe6JLNXTscXVnQ">
@@ -38,3 +83,43 @@
     <packagedElement name="PrimitiveTypes" xmi:id="_4ElwEsQkEe6JLNXTscXVnQ" xmi:type="uml:Package"/>
   </uml:Model>
 </xmi:XMI>
+ChatGPT
+[[STARTEND]]
+// City.java
+public class City {
+private Houses[] houses;
+}
+
+// Houses.java
+public class Houses {
+private Family family;
+}
+
+// Family.java
+public class Family {
+private Father father;
+private Mother mother;
+private Child[] children;
+}
+
+// Father.java
+public class Father {}
+
+// Mother.java
+public class Mother {}
+
+// Child.java
+public class Child {}
+[[STARTEND]]
+
+
+
+
+
+
+
+Skicka ett meddelande till ChatGPT
+
+ChatGPT kan begå misstag. Kontrollera viktig information.
+?
+ChatGPT

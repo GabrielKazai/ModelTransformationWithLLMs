@@ -4,7 +4,7 @@ set scriptpath=%~dp0
 set counter=0
 set /p iter= How many iterations do you want to run (NR or ALL): 
 
-for /d %%i in ("F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\*") do call :FIND %%i
+for /d %%i in ("%scriptpath%\allXMI\works\secondIteration\thirdIteration\*") do call :FIND %%i
 goto End
 
 :FIND
@@ -44,7 +44,7 @@ runGPTSecondIteration.ahk %1\comparison\secondIteration\comparisonReportsecondEx
 
 @echo GPT execution done
 
-"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPTThirdIteration.py" %1\gpt\gptoutput\OutputFromGPT_ThirdIteration.txt  %1\gpt\gptoutput\cleanGPT_ThirdIteration.java 
+"python" "%scriptpath%\cleanGPTThirdIteration.py" %1\gpt\gptoutput\OutputFromGPT_ThirdIteration.txt  %1\gpt\gptoutput\cleanGPT_ThirdIteration.java 
 
 @echo Clean GPT done
 
@@ -52,9 +52,9 @@ formatJava_SecondIteration.ahk %1\gpt\gptoutput\cleanGPT_ThirdIteration.java
 
 @echo Format done
 
-"C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\beyondCompareGenerateParameters_ThirdIteration.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT_ThirdIteration.java
+"python" "%scriptpath%\beyondCompareGenerateParameters_ThirdIteration.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT_ThirdIteration.java
 
-"F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%1\comparison\secondIteration\thirdIteration\bScripts.txt"
+"%scriptpath%\Beyond Compare 4.lnk" "@%1\comparison\secondIteration\thirdIteration\bScripts.txt"
 
 @echo Comparison done
 

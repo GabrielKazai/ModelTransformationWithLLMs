@@ -1,0 +1,35 @@
+Text Compare
+Produced: 2024-05-28 14:48:41
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\demo\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\demo\gpt\gptoutput\cleanGPT.java
+                                                               <> // City.javapublic class City {private Houses[] houses;}// Houses.javapublic class Houses {private Family family;}// Family.javapublic class Family {private Father father;private Mother mother;private Child[] children;}// Father.javapublic class Father {}// Mother.javapublic class Mother {}// Child.javapublic class Child {}
+public class City {
+    private List<Houses> DemoString = new ArrayList<Houses>();
+
+}
+
+public class Houses {
+    private Family family;
+
+}
+
+public class Family {
+    private Father Father;
+
+    private Mother Mother;
+
+    private Child[] Children;
+
+}
+
+public class Father {
+}
+
+public class Mother {
+}
+
+public class Child {
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

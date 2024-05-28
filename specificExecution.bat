@@ -27,6 +27,7 @@ runGPT.ahk %path%\gpt\xmiforgpt\Model.xmi %path%\gpt\gptoutput\OutputFromGPT.txt
 "C:\Users\Gabriel\AppData\Local\Programs\Python\Python312\python.exe" "%scriptpath%\cleanGPT.py" %path%\gpt\gptoutput\OutputFromGPT.txt %path%\gpt\gptoutput\cleanGPT.java 
 
 @echo Clean GPT done
+@echo This is the path: %path%\oracle\combinedOracle\cleanOracle.java
 
 formatJava.ahk %path%\oracle\combinedOracle\cleanOracle.java %path%\gpt\gptoutput\cleanGPT.java 
 

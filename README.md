@@ -13,6 +13,7 @@ The following programs are required to execute the pipeline:
 * [Beyond Compare](https://www.scootersoftware.com/)
 * [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 * [Python](https://www.python.org/)
+* [Visual Studio Code] (https://code.visualstudio.com/)
 
 ### Installing
 
@@ -27,11 +28,9 @@ Settings --> Command Palette --> Preferences: Configure Language Specific Settin
 Specifying paths:
 
 ```
-The paths within the following files need to be specified:
-firstIteration.bat
-secondIteration.bat
-thirdIteration.bat
-specificExecution.bat
+Your executable path for VS Code has to be specified in the following files:
+formatJava.ahk
+formatJava_SecondIteration.ahk
 
 ```
 

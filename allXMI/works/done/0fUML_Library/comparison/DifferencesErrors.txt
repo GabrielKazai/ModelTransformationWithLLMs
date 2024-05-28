@@ -1,4 +1,0 @@
-The class readUnlimitedNatural has the wrong return type
-You did not generate the class unlimitedNatural
-
-

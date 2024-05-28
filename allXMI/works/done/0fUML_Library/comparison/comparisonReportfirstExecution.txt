@@ -1,2 +1,0 @@
-0fUML_Library --> unlimitedNatural, is it equivalent to return 0 and int
-respect primitive types, would return null work for the type --x

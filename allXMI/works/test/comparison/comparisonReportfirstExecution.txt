@@ -1,4 +1,0 @@
-The relation cardinality was not translated correctly for the attribute jobAssigne.
-The relation cardinality was not translated correctly for the attribute jobAFaire.
-The relation cardinality was not translated correctly for the attribute faaOne.
-The relation cardinality was not translated correctly for the attribute faaTwo.

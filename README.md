@@ -83,7 +83,7 @@ Examples of the file structure can be found within ```./allXMI/works/secondItera
 Previously executed files have their names saved within  ```previousExecutions.txt```, ```previousExecutions_SecondIteration.txt``` and ```previousExecutions_ThirdIteration.txt``` respectively.
 
 ## Index
-###.
+The following is an index and description of the files present within the repository.
 ```allXMI.txt``` - text
 ```beyondCompareGenerateParameters.py``` - text
 

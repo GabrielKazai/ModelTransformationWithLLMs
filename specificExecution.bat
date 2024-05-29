@@ -39,7 +39,7 @@ formatJava.ahk %path%\oracle\combinedOracle\cleanOracle.java %path%\gpt\gptoutpu
 
 @echo replacement of custom string done
 
-"F:\Gabriel\Beyond Compare 4\BCompare.exe" "@%path%\comparison\bScripts.txt"
+"%scriptpath%\Beyond Compare 4.lnk" "@%path%\comparison\bScripts.txt"
 
 @echo Comparison done
 

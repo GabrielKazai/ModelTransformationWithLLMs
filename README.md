@@ -53,11 +53,9 @@ A shortcut to Beyond Compare has to be placed in the root directory.
 ### Execution
 For a correct execution to transpire some conditions have to be met. While rare, it is possible for ChatGPT to missunderstand the given instruction in the prompts:
 
-```The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. 
-Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. 
-Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.``` 
+```The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.``` 
 
-If this happens, while still executing, the output within Beyond Compare might not be correctly formatted. While possible to look at the raw output files, in cases where this happens, it is recommended to re-execute
+If this happens, while still executing, the output within Beyond Compare might not be correctly formatted. While possible to look at the raw output files, in cases where this happens, it is recommended to re-execute. 
 
 ### Demo
 

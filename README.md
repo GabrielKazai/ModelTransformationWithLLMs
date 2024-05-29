@@ -45,15 +45,6 @@ specificExecution.bat - 15, 23, 27, 36, 38
 ```
 
 ```
-Your executable path for Python has to be specified in the following files:
-firstIteration.bat - 51, 55, 63
-secondIteration.bat - 47, 55
-thirdIteration.bat - 47, 55
-specificExecution.bat - 15, 23, 27, 36, 38
-
-```
-
-```
 A shortcut to Beyond Compare has to be placed in the root directory. 
 
 ```
@@ -62,14 +53,16 @@ A shortcut to Beyond Compare has to be placed in the root directory.
 
 If everything was installed correctly a demo can be attempted by executing the file ```specificExecution.bat``` and specifying the name ```demo```. 
 After a successful execution the results are saved within the subfolder ```./allXMI/works/demo```
-Within this folder the oracle is saved within "oracle", ChatGPT's output as well as the XMI sent to it is within "gpt", and the comparison can be found within "comparison".
-For additional iterations, a file by the name of "comparisonReportfirstExecution" has to be created and be placed within the "comparison" folder. 
-Furthermore, a subfolder within "comparison" by the name of "secondIteration" has to be created, this is where the new result will be saved.
+Within this folder the oracle is saved within ```oracle```, ChatGPT's output as well as the XMI sent to it is within ```gpt```, and the comparison can be found within ```comparison```.
+For additional iterations, a file by the name of ```comparisonReportfirstExecution``` has to be created and be placed within the ```comparison``` folder. 
+Furthermore, a subfolder within ```comparison``` by the name of "secondIteration" has to be created, this is where the new result will be saved.
 
-To execute an additional iteration, move the entire project (in this case "demo") to ./allXMI/works/secondIteration and execute the file "secondIteration.bat". 
-For a third iteration, move the entire project to ./allXMI/works/secondIteration/thirdIteration and within the subfolder "secondIteration" (for the project) create a file by the name of "comparisonReportsecondExecution".
-Furthermore, create a subfolder within "secondIteration" with the name "thirdIteration", this is where the new comparison will be saved.
-Lastly, execute the file "thirdIteration.bat"
+To execute an additional iteration, move the entire project (in this case ```demo```) to ```./allXMI/works/secondIteration``` and execute the file ```secondIteration.bat```. 
+For a third iteration, move the entire project to ```./allXMI/works/secondIteration/thirdIteration```, and within the subfolder ```secondIteration``` (for the project) create a file by the name of ```comparisonReportsecondExecution```.
+Furthermore, create a subfolder within ```secondIteration``` with the name ```thirdIteration```, this is where the new comparison will be saved.
+Lastly, execute the file ```thirdIteration.bat```
+
+Examples of the file structure can be found within ```./allXMI/works/secondIteration``` and ```./allXMI/works/secondIteration/thirdIteration``` respectively.
 
 Previously executed files have their names saved within  ```previousExecutions.txt```, ```previousExecutions_SecondIteration.txt``` and ```previousExecutions_ThirdIteration.txt``` respectively.
 
@@ -79,7 +72,8 @@ Previously executed files have their names saved within  ```previousExecutions.t
 * [AutoHotKey](https://www.autohotkey.com/) - Automating the pipeline
 * [Beyond Compare](https://www.scootersoftware.com/) - Creation of comparison reports
 * [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) - Formatting
-
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Python](https://www.python.org/)
 
 ## License
 

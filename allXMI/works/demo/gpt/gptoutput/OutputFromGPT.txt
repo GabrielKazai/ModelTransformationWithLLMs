@@ -5,8 +5,9 @@ ChatGPT
 ChatGPT
 Utforska GPT:er
 I dag
-Java Classes from UML
+Java Code Generation
 
+Java Classes from UML
 UML to Java Translation
 Java Classes from XMI
 Java Classes From UML
@@ -35,7 +36,6 @@ Java Code Generation
 Java OffenseCodeSimpleType Enum
 Java Classes for UML
 Java Class Offense Codes
-Java Code Generation
 Lägg till Team-arbetsyta
 Samarbeta med ett Team-abonnemang
 ChatGPT 4
@@ -84,34 +84,32 @@ The following is an XMI file based on a UML diagram. Please write corresponding 
   </uml:Model>
 </xmi:XMI>
 ChatGPT
-[[STARTEND]]
-// City.java
+java
+Kopiera kod
+// [[STARTEND]]
 public class City {
-private Houses[] houses;
+    private Houses[] houses;
 }
 
-// Houses.java
 public class Houses {
-private Family family;
+    private Family family;
 }
 
-// Family.java
 public class Family {
-private Father father;
-private Mother mother;
-private Child[] children;
+    private Father father;
+    private Mother mother;
+    private Child[] children;
 }
 
-// Father.java
-public class Father {}
+public class Father {
+}
 
-// Mother.java
-public class Mother {}
+public class Mother {
+}
 
-// Child.java
-public class Child {}
-[[STARTEND]]
-
+public class Child {
+}
+// [[STARTEND]]
 
 
 

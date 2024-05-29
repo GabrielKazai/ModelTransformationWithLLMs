@@ -40,7 +40,7 @@ if not %iter%==ALL (
 	set /A counter=counter+1
 )
 
-"python" "%scriptpath%combineOracle.py" %1
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%combineOracle.py" %1
 
 @echo Combine done
 
@@ -48,11 +48,11 @@ runGPT.ahk %1\gpt\xmiforgpt\Model.xmi %1\gpt\gptoutput\OutputFromGPT.txt %1\gpt\
 
 @echo GPT execution done
 
-"python" "%scriptpath%\cleanOracle.py" %1\oracle\combinedOracle\combined_oracle_not_cleaned.java %1\oracle\combinedOracle\cleanOracle.java
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\cleanOracle.py" %1\oracle\combinedOracle\combined_oracle_not_cleaned.java %1\oracle\combinedOracle\cleanOracle.java
 
 @echo Clean Oracle done
 
-"python" "%scriptpath%\cleanGPT.py" %1\gpt\gptoutput\OutputFromGPT.txt  %1\gpt\gptoutput\cleanGPT.java 
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\cleanGPT.py" %1\gpt\gptoutput\OutputFromGPT.txt  %1\gpt\gptoutput\cleanGPT.java 
 
 @echo Clean GPT done
 
@@ -60,11 +60,11 @@ formatJava.ahk %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanG
 
 @echo Format done
 
-"python" "%scriptpath%\removeAddedString.py" %1\oracle\combinedOracle\cleanOracle.java
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\removeAddedString.py" %1\oracle\combinedOracle\cleanOracle.java
 
 @echo replacement of custom string done
 
-"python" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT.java
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\beyondCompareGenerateParameters.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT.java
 
 "%scriptpath%\Beyond Compare 4.lnk" "@%1\comparison\bScripts.txt"
 

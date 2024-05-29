@@ -44,7 +44,7 @@ runGPTSecondIteration.ahk %1\comparison\comparisonReportfirstExecution.txt %1\gp
 
 @echo GPT execution done
 
-"python" "%scriptpath%\cleanGPTSecondIteration.py" %1\gpt\gptoutput\OutputFromGPT_SecondIteration.txt  %1\gpt\gptoutput\cleanGPT_SecondIteration.java 
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\cleanGPTSecondIteration.py" %1\gpt\gptoutput\OutputFromGPT_SecondIteration.txt  %1\gpt\gptoutput\cleanGPT_SecondIteration.java 
 
 @echo Clean GPT done
 
@@ -52,7 +52,7 @@ formatJava_SecondIteration.ahk %1\gpt\gptoutput\cleanGPT_SecondIteration.java
 
 @echo Format done
 
-"python" "%scriptpath%\beyondCompareGenerateParameters_SecondIteration.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT_SecondIteration.java
+"[[YOURPYTHONPATHHERE]]" "%scriptpath%\beyondCompareGenerateParameters_SecondIteration.py" %1 %1\oracle\combinedOracle\cleanOracle.java %1\gpt\gptoutput\cleanGPT_SecondIteration.java
 
 "%scriptpath%\Beyond Compare 4.lnk" "@%1\comparison\secondIteration\bScripts.txt"
 

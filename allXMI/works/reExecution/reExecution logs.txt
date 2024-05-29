@@ -1,0 +1,62 @@
+bug in code --> fixed--------------------------------------------------------
+example --> name not found with find
+0otherEntityFieldOM --> oracle did not execute
+test_constraint --> Oracle did not execute
+0user_entity_test --> Oracle did not execute
+result2 --> did not execute
+NIEM-Reference-common-edxl-cap --> did not execute
+XSDataFit2Dv1_0 --> unable to generate any oracle code
+
+user error --> fixed -------------------------------------------------------
+0modelio_user_class_test --> Missing file structure in github
+1fUML_Library --> missing file structure in github
+
+beyond our control -------------------------------------------------------
+Model --> Russian, undefined characters
+Use%20Cases --> unable to create beyond compare report
+
+PrimitiveTypes -------------------------------------------------------
+0PrimitiveTypes --> PrimitiveTypes (if theyre used, they should be generated, if not, we dont care)
+
+Too large -------------------------------------------------------
+jrlib --> Took too long for GPT to generate
+api --> too large for GPT
+BMMEA --> Took too long for GPT to generate
+1GRAAnnotationModel --> incorrect file structure in github/Too large (forced to press generate again)
+orm_test1 --> Took too long for GPT to generate/Lack of interface
+NIEM-Reference-common-nga - need to press generate
+NIEM-Reference-common-mn_offense - takes too long
+NIEM-Reference-common-atf - takes too long
+NIEM-Reference-common-sar --> lack of interfaces/takes too long
+
+Interfaces (bug in code), missing variable names -------------------------------------------------------
+0modelio_no_attribute_name_test --> missing variable name, [[GabrielRonnie]] added
+example3 --> lack of interfaces
+etudiant --> (lack of interfaces), missing variable names, [[GabrielRonnie]] added
+16test --> oracle output broken (https://i.imgur.com/3NYv3K5.png) (lack of interfaces)
+5fUML_Library --> missing class name, [[GabrielRonnie]] added
+4fUML_Library --> missing class name, [[GabrielRonnie]] added
+xmlParsingTest --> missing class/variable name, [[GabrielRonnie]] added
+uptypes_1.2--> lack of interfaces
+NIEM-Reference-common-have-codes --> lack of interfaces
+DemoUnityMas --> lack of inferfaces
+
+---
+**comments within comparison:**
+XSDDataTypes.library
+NIEM-Reference-external-de
+NIEM-Reference-common-ut_offender-tracking-misc
+NIEM-Reference-common-ucr - takes too long
+NIEM-Reference-common-sar - takes too long
+NIEM-Reference-common-iso_4217
+NIEM-Reference-common-edxl 
+bmm --> Took too long for GPT to generate x2
+ClockTower --> missing variable names, [[GabrielRonnie]] added
+3fUML_Library
+2fUML_Library
+1fUML_Library
+0otherEntityFieldMM
+---
+
+
+

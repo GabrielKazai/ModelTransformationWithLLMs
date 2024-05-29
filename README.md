@@ -95,6 +95,8 @@ The following is an index and description of the files present within the reposi
 * [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) - Formatting
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Python](https://www.python.org/)
+* [Language Support for Java(TM) by Red Hat 1.28.1](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+* [Modelio 4.1](https://www.modelio.org/index.htm)
 
 ## License
 

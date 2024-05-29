@@ -1,4 +1,0 @@
-The class X has attributes not present within the XMI. 
-The attribute X has the wrong name. 
-The enum X is missing.
-The type boolean of X is wrong.

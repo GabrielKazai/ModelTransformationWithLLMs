@@ -96,7 +96,6 @@ The following is an index and description of important files and folders present
 ```./allXMI/works/duplicates``` - duplicate files of working XMIs.\
 ```./allXMI/works/NotClassDiagrams``` - While working (imported into Modelio), these XMIs are not class diagrams.\
 ```./allXMI/works/notworking``` - Files that we could not use during the experiment.\
-```./allXMI/works/notworking/```
 
 ```./allXMI/works/done``` - The XMIs that finished after the first iteration.\
 ```./allXMI/works/secondIteration/done``` - The XMIs that finished after the second iteration.\

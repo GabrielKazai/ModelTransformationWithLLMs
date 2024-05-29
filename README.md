@@ -84,7 +84,7 @@ Previously executed files have their names saved within  ```previousExecutions.t
 
 ## Index
 The following is an index and description of the files present within the repository.\
-```allXMI.txt``` - text\
+```allXMI.txt``` - A list of XMIs from the Lindholmen dataset\
 ```beyondCompareGenerateParameters.py``` - text
 
 
@@ -92,11 +92,11 @@ The following is an index and description of the files present within the reposi
 
 * [AutoHotKey](https://www.autohotkey.com/) - Automating the pipeline
 * [Beyond Compare](https://www.scootersoftware.com/) - Creation of comparison reports
-* [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) - Formatting
+* [Language Support for Java(TM) by Red Hat 1.28.1](https://marketplace.visualstudio.com/items?itemName=redhat.java) - Formatting
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Python](https://www.python.org/)
-* [Language Support for Java(TM) by Red Hat 1.28.1](https://marketplace.visualstudio.com/items?itemName=redhat.java)
-* [Modelio 4.1](https://www.modelio.org/index.htm)
+* [Modelio 4.1](https://www.modelio.org/index.htm) 
+* [The Lindholmen Dataset (an index of UML in OSS)](http://models-db.com/)
 
 ## License
 

@@ -57,6 +57,13 @@ For a correct execution to transpire some conditions have to be met. While rare,
 
 If this happens, while still executing, the output within Beyond Compare might not be correctly formatted. While it is possible to look at the raw output files, in cases where this happens, it is recommended to re-execute if a report is desired. 
 
+Depending on the hardware used, as well as the files being executed, the timer for AutoHotKey to save the response from ChatGPT can be changed to either be longer or shorter.
+To do this, go into ```runGPT.ahk``` and ```runGPTSecondIteration.ahk``` and modify the loops seen on line 22 and 24 respectively. The default value is 700 which is equivalent to 70 seconds. 
+
+When first executing the pipeline, it is recommended to either have no browser open, or to manually open ChatGPT and have the text bar in focus. 
+Furthermore, while the pipeline is executing, keep your mouse in focus on the ChatGPT window and do not click anything while it is executing. Following these steps will avoid issues related to AutoHotKey inputting the prompt in any location it shouldn't.
+
+
 ### Demo
 
 If everything was installed correctly a demo can be attempted by executing the file ```specificExecution.bat``` and specifying the name ```demo```. 

@@ -89,18 +89,18 @@ The following is an index and description of important files and folders present
 ```firstIteration.bat``` - Executes the first iteration.\
 ```previousExecutions.txt``` - The files previously executed in the first iteration.\
 ```previousExecutions_SecondIteration.txt``` - The files previously executed in the second iteration.\
-```previousExecutions_ThirdIteration.txt``` - The files previously executed in the third iteration.\
+```previousExecutions_ThirdIteration.txt``` - The files previously executed in the third iteration.
 
 ```./allXMI/works``` - The folder where the experiment was conducted.\
 ```./allXMI/works/demo``` - Demo for any new user.\
 ```./allXMI/works/duplicates``` - duplicate files of working XMIs.\
 ```./allXMI/works/NotClassDiagrams``` - While working (imported into Modelio), these XMIs are not class diagrams.\
-```./allXMI/works/notworking``` - Files that we could not use during the experiment.\
+```./allXMI/works/notworking``` - Files that we could not use during the experiment.
 
 ```./allXMI/works/done``` - The XMIs that finished after the first iteration.\
 ```./allXMI/works/secondIteration/done``` - The XMIs that finished after the second iteration.\
 ```./allXMI/works/secondIteration/thirdIteration/done``` - The XMIs that finished after the third iteration.\
-```./allXMI/works/secondIteration/thirdIteration/failed``` - The XMIs that failed after the thirditeration.\
+```./allXMI/works/secondIteration/thirdIteration/failed``` - The XMIs that failed after the thirditeration.
 
 
 ## Built With

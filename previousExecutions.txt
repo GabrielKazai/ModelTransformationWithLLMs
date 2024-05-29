@@ -1,0 +1,6 @@
+done
+duplicates
+NotClassDiagrams
+notworking
+reExecution
+secondIteration

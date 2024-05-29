@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_6qoYsBjoEe-H_ePpXJInJQ" name="Model">
+  <eAnnotations xmi:id="_6qoYsRjoEe-H_ePpXJInJQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_6qoYshjoEe-H_ePpXJInJQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_6qoYsxjoEe-H_ePpXJInJQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtBjoEe-H_ePpXJInJQ" name="external"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtRjoEe-H_ePpXJInJQ" name="edxl-de">
+    <packagedElement xmi:type="uml:Package" xmi:id="_6qoYthjoEe-H_ePpXJInJQ" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6qoYtxjoEe-H_ePpXJInJQ" name="edxl-de">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6qoYuBjoEe-H_ePpXJInJQ" name="DistributionElementAdapterType"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

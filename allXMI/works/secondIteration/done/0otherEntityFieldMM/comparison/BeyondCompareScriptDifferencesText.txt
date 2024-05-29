@@ -1,0 +1,12 @@
+Text Compare
+Produced: 2024-04-09 09:59:24
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldMM\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0otherEntityFieldMM\gpt\gptoutput\cleanGPT.java
+                                                                             +-
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+    public List<NotOwner> notOwner(otherOwner) = new ArrayList<NotOwner> (); +-
+
+--------------------------------------------------------------------------------

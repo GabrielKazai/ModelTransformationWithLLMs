@@ -1,0 +1,54 @@
+Text Compare
+Produced: 2024-03-19 10:18:52
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0mappedby_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0mappedby_test\gpt\gptoutput\cleanGPT.java
+                                                            +-
+-------------------------------------------------------------------------------------------
+public class Employee {                                     =  public class Employee {
+-------------------------------------------------------------------------------------------
+                                                            <>     public Job jobAssigne;
+                                                                   public Job jobAFaire;
+    public String Attribute;                                       public Object Attribute;
+
+    public List<Job> jobAssigne = new ArrayList<Job>();
+
+    public List<Job> jobAFaire = new ArrayList<Job>();
+
+-------------------------------------------------------------------------------------------
+}                                                           =  }
+
+public class Job {                                             public class Job {
+-------------------------------------------------------------------------------------------
+    public String Attribute;                                <>     public Object Attribute;
+
+-------------------------------------------------------------------------------------------
+}                                                           =  }
+
+public class ManyFoo {                                         public class ManyFoo {
+-------------------------------------------------------------------------------------------
+    public List<ManyFaa> faaOne = new ArrayList<ManyFaa>(); <>     public ManyFaa faaOne;
+                                                                   public ManyFaa faaTwo;
+    public List<ManyFaa> faaTwo = new ArrayList<ManyFaa>();
+
+-------------------------------------------------------------------------------------------
+}                                                           =  }
+
+public class ManyFaa {                                         public class ManyFaa {
+}                                                              }
+
+public class OneFoo {                                          public class OneFoo {
+    public OneFaa firstFaa;                                        public OneFaa firstFaa;
+-------------------------------------------------------------------------------------------
+                                                            +-
+-------------------------------------------------------------------------------------------
+    public OneFaa faaSecond;                                =      public OneFaa faaSecond;
+-------------------------------------------------------------------------------------------
+                                                            +-
+-------------------------------------------------------------------------------------------
+}                                                           =  }
+
+public class OneFaa {                                          public class OneFaa {
+}                                                              }
+-------------------------------------------------------------------------------------------

@@ -1,0 +1,1 @@
+The enum TargetSectorCodeType can not extend another enum.

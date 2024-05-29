@@ -1,0 +1,268 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Class Generation
+
+
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Java UML Model Classes
+Yesterday
+Java Class Creation
+Java Code from XMI
+Java Code Generation
+Generate Java Classes: UML to Code
+Java Class Modelling
+Generate Java Classes
+Java Code Generation
+Java Code Generation
+Java Models Response
+UML Class to Java
+Java Enumları Oluşturma
+Java Code Generation
+Previous 7 Days
+Java Classes from XMI
+Previous 30 Days
+History: No conversation retention.
+Java Classes for XMI.
+Java Classes from XMI.
+Java Code XML Models
+Java Code Generation
+Java Classes from XMI.
+Java UML Response
+Java Models from XMI
+Java UML Code Conversion
+Java Code Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_PSbRYOg8Ee6kRoTl7NwnWA" name="Model">
+  <eAnnotations xmi:id="_PSbRYeg8Ee6kRoTl7NwnWA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_PSbRYug8Ee6kRoTl7NwnWA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PSbRY-g8Ee6kRoTl7NwnWA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:id="_PSbRZOg8Ee6kRoTl7NwnWA" name="required" constrainedElement="_PSbRaug8Ee6kRoTl7NwnWA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_PSbRZeg8Ee6kRoTl7NwnWA" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRZug8Ee6kRoTl7NwnWA" name="JobHistory">
+    <ownedAttribute xmi:id="_PSbRZ-g8Ee6kRoTl7NwnWA" name="job" visibility="private" type="_PSbRc-g8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRbeg8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRaOg8Ee6kRoTl7NwnWA" name="department" visibility="private" type="_PSbRf-g8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRb-g8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRaeg8Ee6kRoTl7NwnWA" name="employee" visibility="private" type="_PSbRi-g8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRceg8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRaug8Ee6kRoTl7NwnWA" name="startDate" visibility="private" type="_PSbRtug8Ee6kRoTl7NwnWA" isUnique="false">
+      <eAnnotations xmi:id="_PSbRa-g8Ee6kRoTl7NwnWA" source="Objing"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRbOg8Ee6kRoTl7NwnWA" name="endDate" visibility="private" type="_PSbRtug8Ee6kRoTl7NwnWA" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRbeg8Ee6kRoTl7NwnWA" memberEnd="_PSbRZ-g8Ee6kRoTl7NwnWA _PSbRbug8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRbug8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRZug8Ee6kRoTl7NwnWA" association="_PSbRbeg8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRb-g8Ee6kRoTl7NwnWA" memberEnd="_PSbRaOg8Ee6kRoTl7NwnWA _PSbRcOg8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRcOg8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRZug8Ee6kRoTl7NwnWA" association="_PSbRb-g8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRceg8Ee6kRoTl7NwnWA" memberEnd="_PSbRaeg8Ee6kRoTl7NwnWA _PSbRcug8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRcug8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRZug8Ee6kRoTl7NwnWA" association="_PSbRceg8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRc-g8Ee6kRoTl7NwnWA" name="Job">
+    <ownedAttribute xmi:id="_PSbRdOg8Ee6kRoTl7NwnWA" name="task" visibility="private" type="_PSbRsug8Ee6kRoTl7NwnWA" aggregation="shared" association="_PSbRe-g8Ee6kRoTl7NwnWA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PSbRdeg8Ee6kRoTl7NwnWA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRdug8Ee6kRoTl7NwnWA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRd-g8Ee6kRoTl7NwnWA" name="jobId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbReOg8Ee6kRoTl7NwnWA" name="jobTitle" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbReeg8Ee6kRoTl7NwnWA" name="minSalary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbReug8Ee6kRoTl7NwnWA" name="maxSalary" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRe-g8Ee6kRoTl7NwnWA" memberEnd="_PSbRdOg8Ee6kRoTl7NwnWA _PSbRfOg8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRfOg8Ee6kRoTl7NwnWA" name="job" visibility="private" type="_PSbRc-g8Ee6kRoTl7NwnWA" association="_PSbRe-g8Ee6kRoTl7NwnWA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PSbRfeg8Ee6kRoTl7NwnWA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRfug8Ee6kRoTl7NwnWA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRf-g8Ee6kRoTl7NwnWA" name="Department">
+    <ownedAttribute xmi:id="_PSbRgOg8Ee6kRoTl7NwnWA" name="location" visibility="private" type="_PSbRoOg8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRhug8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRgeg8Ee6kRoTl7NwnWA" name="employee" visibility="public" type="_PSbRi-g8Ee6kRoTl7NwnWA" aggregation="shared" association="_PSbRiOg8Ee6kRoTl7NwnWA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PSbRgug8Ee6kRoTl7NwnWA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRg-g8Ee6kRoTl7NwnWA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRhOg8Ee6kRoTl7NwnWA" name="departmentId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRheg8Ee6kRoTl7NwnWA" name="departmentName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRhug8Ee6kRoTl7NwnWA" memberEnd="_PSbRgOg8Ee6kRoTl7NwnWA _PSbRh-g8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRh-g8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRf-g8Ee6kRoTl7NwnWA" association="_PSbRhug8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRiOg8Ee6kRoTl7NwnWA" memberEnd="_PSbRgeg8Ee6kRoTl7NwnWA _PSbRieg8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRieg8Ee6kRoTl7NwnWA" visibility="public" type="_PSbRf-g8Ee6kRoTl7NwnWA" association="_PSbRiOg8Ee6kRoTl7NwnWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRiug8Ee6kRoTl7NwnWA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRi-g8Ee6kRoTl7NwnWA" name="Employee">
+    <ownedAttribute xmi:id="_PSbRjOg8Ee6kRoTl7NwnWA" name="job" visibility="private" type="_PSbRc-g8Ee6kRoTl7NwnWA" aggregation="shared" association="_PSbRmeg8Ee6kRoTl7NwnWA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PSbRjeg8Ee6kRoTl7NwnWA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRjug8Ee6kRoTl7NwnWA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRj-g8Ee6kRoTl7NwnWA" name="manager" visibility="public" type="_PSbRi-g8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRnOg8Ee6kRoTl7NwnWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRkOg8Ee6kRoTl7NwnWA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRkeg8Ee6kRoTl7NwnWA" name="employeeId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRkug8Ee6kRoTl7NwnWA" name="firstName" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_PSbRk-g8Ee6kRoTl7NwnWA" name="lastName" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_PSbRlOg8Ee6kRoTl7NwnWA" name="email" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbRleg8Ee6kRoTl7NwnWA" name="phoneNumber" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbRlug8Ee6kRoTl7NwnWA" name="hireDate" visibility="private" type="_PSbRtug8Ee6kRoTl7NwnWA" isUnique="false"/>
+    <ownedAttribute xmi:id="_PSbRl-g8Ee6kRoTl7NwnWA" name="salary" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRmOg8Ee6kRoTl7NwnWA" name="commissionPct" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRmeg8Ee6kRoTl7NwnWA" memberEnd="_PSbRjOg8Ee6kRoTl7NwnWA _PSbRmug8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRmug8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRi-g8Ee6kRoTl7NwnWA" association="_PSbRmeg8Ee6kRoTl7NwnWA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRm-g8Ee6kRoTl7NwnWA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRnOg8Ee6kRoTl7NwnWA" memberEnd="_PSbRj-g8Ee6kRoTl7NwnWA _PSbRneg8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRneg8Ee6kRoTl7NwnWA" visibility="public" type="_PSbRi-g8Ee6kRoTl7NwnWA" association="_PSbRnOg8Ee6kRoTl7NwnWA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PSbRnug8Ee6kRoTl7NwnWA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PSbRn-g8Ee6kRoTl7NwnWA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRoOg8Ee6kRoTl7NwnWA" name="Location">
+    <ownedAttribute xmi:id="_PSbRoeg8Ee6kRoTl7NwnWA" name="country" visibility="private" type="_PSbRqeg8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRp-g8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRoug8Ee6kRoTl7NwnWA" name="locationId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRo-g8Ee6kRoTl7NwnWA" name="streetAddress" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbRpOg8Ee6kRoTl7NwnWA" name="postalCode" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbRpeg8Ee6kRoTl7NwnWA" name="city" visibility="private"/>
+    <ownedAttribute xmi:id="_PSbRpug8Ee6kRoTl7NwnWA" name="stateProvince" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRp-g8Ee6kRoTl7NwnWA" memberEnd="_PSbRoeg8Ee6kRoTl7NwnWA _PSbRqOg8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRqOg8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRoOg8Ee6kRoTl7NwnWA" association="_PSbRp-g8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRqeg8Ee6kRoTl7NwnWA" name="Country">
+    <ownedAttribute xmi:id="_PSbRqug8Ee6kRoTl7NwnWA" name="region" visibility="private" type="_PSbRr-g8Ee6kRoTl7NwnWA" aggregation="composite" association="_PSbRreg8Ee6kRoTl7NwnWA"/>
+    <ownedAttribute xmi:id="_PSbRq-g8Ee6kRoTl7NwnWA" name="countryId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRrOg8Ee6kRoTl7NwnWA" name="countryName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PSbRreg8Ee6kRoTl7NwnWA" memberEnd="_PSbRqug8Ee6kRoTl7NwnWA _PSbRrug8Ee6kRoTl7NwnWA">
+    <ownedEnd xmi:id="_PSbRrug8Ee6kRoTl7NwnWA" visibility="private" type="_PSbRqeg8Ee6kRoTl7NwnWA" association="_PSbRreg8Ee6kRoTl7NwnWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRr-g8Ee6kRoTl7NwnWA" name="Region">
+    <ownedAttribute xmi:id="_PSbRsOg8Ee6kRoTl7NwnWA" name="regionId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRseg8Ee6kRoTl7NwnWA" name="regionName" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PSbRsug8Ee6kRoTl7NwnWA" name="Task" isAbstract="true">
+    <ownedAttribute xmi:id="_PSbRs-g8Ee6kRoTl7NwnWA" name="taskId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PSbRtOg8Ee6kRoTl7NwnWA" name="title" visibility="private" isUnique="false"/>
+    <ownedAttribute xmi:id="_PSbRteg8Ee6kRoTl7NwnWA" name="description" visibility="private" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_PSbRtug8Ee6kRoTl7NwnWA" name="zonedDateTime"/>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class JobHistory {
+    private Job job;
+    private Department department;
+    private Employee employee;
+    private ZonedDateTime startDate;
+    private ZonedDateTime endDate;
+}
+
+public class Job {
+    private List<Task> tasks = new ArrayList<>();
+    private long jobId;
+    private String jobTitle;
+    private long minSalary;
+    private long maxSalary;
+}
+
+public class Department {
+    private Location location;
+    private List<Employee> employees = new ArrayList<>();
+    private long departmentId;
+    private String departmentName;
+}
+
+public class Employee {
+    private List<Job> jobs = new ArrayList<>();
+    private Employee manager;
+    private long employeeId;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String phoneNumber;
+    private ZonedDateTime hireDate;
+    private long salary;
+    private long commissionPct;
+}
+
+public class Location {
+    private Country country;
+    private long locationId;
+    private String streetAddress;
+    private String postalCode;
+    private String city;
+    private String stateProvince;
+}
+
+public class Country {
+    private Region region;
+    private String countryId;
+    private String countryName;
+}
+
+public class Region {
+    private long regionId;
+    private String regionName;
+}
+
+public abstract class Task {
+    private long taskId;
+    private String title;
+    private String description;
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

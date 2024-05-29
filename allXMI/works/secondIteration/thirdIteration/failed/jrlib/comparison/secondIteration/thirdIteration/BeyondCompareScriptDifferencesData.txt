@@ -1,0 +1,250 @@
+Table Compare
+Produced: 2024-04-25 13:01:05
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\jrlib\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\jrlib\gpt\gptoutput\cleanGPT_ThirdIteration.java
+1:                                                                                                                       2:    1: 2:
+------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+                                                                                                                            +-
+// Automatically generated method. Please delete this comment before entering                                               +-
+// Automatically generated method. Please delete this comment before entering                                               +-
+// specific code.                                                                                                           +-
+// specific code.                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+{                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+}                                                                                                                           +-
+boolean containsKey(Object key)                                                                                             +-
+boolean containsValue(Object value)                                                                                         +-
+boolean equals(Object o)                                                                                                    +-
+boolean isEmpty()                                                                                                           +-
+class ChangeEvent {                                                                                                         +-
+class Object {                                                                                                              +-
+Collection<V> values()                                                                                                      +-
+default boolean equals(Object o) {                                                                                          +-
+default int hashCode() {                                                                                                    +-
+double getfWeight(final int accident, final int development)                                                                +-
+double getMackAlpha()                                                                                                       +-
+double getMackAlpha(final int development)                                                                                  +-
+double getValue(final int accident, final int development)                                                                  +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getValue(final int development)                                                                                      +-
+double getWeight(final int accident, final int development)                                                                 +-
+double[] toArray()                                                                                                          +-
+double[] toArray()                                                                                                          +-
+double[] toArray()                                                                                                          +-
+double[][] toArray()                                                                                                        +-
+extends LinkRatioScale,MethodSelection<T,M extends SelectableMethod<T>>                                                     +-
+FactorTriangle getSourceFactors()                                                                                           +-
+FactorTriangle getSourceFactors()                                                                                           +-
+if (this == obj)                                                                                                            +-
+if (this.getClass() != obj.getClass())                                                                                      +-
+int getAccidentCount()                                                                                                      +-
+int getDevelopmentCount()                                                                                                   +-
+int getDevelopmentCount()                                                                                                   +-
+int getDevelopmentCount()                                                                                                   +-
+int getDevelopmentCount()                                                                                                   +-
+int getDevelopmentCount(final int accident)                                                                                 +-
+int hashCode()                                                                                                              +-
+int result = super.hashCode()                                                                                               +-
+int size()                                                                                                                  +-
+interface Collection {                                                                                                      +-
+interface Entry {                                                                                                           +-
+interface Set {                                                                                                             +-
+K getKey()                                                                                                                  +-
+LinkRatio getSourceLinkRatios()                                                                                             +-
+LinkRatio getSourceLinkRatios()                                                                                             +-
+LinkRatioScale getSourceLRScales()                                                                                          +-
+public class double[]                                                                                                       +-
+public class double[][]                                                                                                     +-
+public class int                                                                                                            +-
+public class K {                                                                                                            +-
+public class M {                                                                                                            +-
+public class T {                                                                                                            +-
+public class V {                                                                                                            +-
+public class void                                                                                                           +-
+public interface CalculationData extends Changeable {                                                                       +-
+public interface Changeable {                                                                                               +-
+public interface ChangeListener extends EventListener {                                                                     +-
+public interface EventListener {                                                                                            +-
+public interface FactorTriangle extends Triangle {                                                                          +-
+public interface LinkRatio extends CalculationData {                                                                        +-
+public interface LinkRatioFunction extends SelectableMethod<T> {                                                            +-
+public interface LinkRatioMethod extends SelectableMethod<T> {                                                              +-
+public interface LinkRatioScale extends CalculationData {                                                                   +-
+public interface LinkRatioScaleEstimator extends SelectableMethod<T> {                                                      +-
+public interface LinkRatioScaleSelection                                                                                    +-
+public interface LinkRatioSE extends CalculationData {                                                                      +-
+public interface LinkRatioSEFunction extends SelectableMethod<T> {                                                          +-
+public interface LinkRatioSelection extends LinkRatio,MethodSelection<T,M extends SelectableMethod<T>>                      +-
+public interface LinkRatioSESelection extends LinkRatioSE,MethodSelection<T,M extends SelectableMethod<T>>                  +-
+public interface LinkRatioSmoothing extends LinkRatio {                                                                     +-
+public interface LinkRatioSmoothingSelection extends MethodSelection<T,M extends SelectableMethod<T>>,LinkRatioSmoothing    +-
+public interface Map {                                                                                                      +-
+public interface ModifiedFactorTriangle extends FactorTriangle {                                                            +-
+public interface ModifiedTriangle extends Triangle {                                                                        +-
+public interface Triangle extends CalculationData {                                                                         +-
+return false                                                                                                                +-
+return result                                                                                                               +-
+return true                                                                                                                 +-
+return true                                                                                                                 +-
+Set<K> keySet()                                                                                                             +-
+Set<Map.Entry<K, V>> entrySet()                                                                                             +-
+Triangle getSourceTriangle()                                                                                                +-
+Triangle getSourceTriangle()                                                                                                +-
+V get(Object key)                                                                                                           +-
+V getValue()                                                                                                                +-
+V put(K key, V value)                                                                                                       +-
+V remove(Object key)                                                                                                        +-
+V setValue(V value)                                                                                                         +-
+void addChangeListener(final ChangeListener listener)                                                                       +-
+void clear()                                                                                                                +-
+void detach()                                                                                                               +-
+void fit(final FactorTriangle factors)                                                                                      +-
+void fit(final LinkRatio lr)                                                                                                +-
+void fit(final LinkRatioScale scales)                                                                                       +-
+void fit(final LinkRatioSE ses)                                                                                             +-
+void putAll(Map<? extends K m, ? extends V> Map m)                                                                          +-
+void recalculate()                                                                                                          +-
+void removeChangeListener(final ChangeListener listener)                                                                    +-
+void setDevelopmentCount(final int developments)                                                                            +-
+void stateChanged(ChangeEvent e)                                                                                            +-
+------------------------------------------------------------------------------------------------------------------------------------

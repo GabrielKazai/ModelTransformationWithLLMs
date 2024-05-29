@@ -1,0 +1,36 @@
+Text Compare
+Produced: 2024-04-09 09:05:28
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\etudiant\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\etudiant\gpt\gptoutput\cleanGPT.java
+                                                              <>
+class Etudiant extends Personne {                                class Personne {
+    private List<Universite>  = new ArrayList<Universite> ();        private String nomPersonne;
+
+    public void reviser(final String matiere) {                      private String prenomPersonne;
+        // TODO Auto-generated return
+        return null;
+    }
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+                                                              -+     private Etudiant[] etudiants;
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+                                                              +-
+    private List<Etudiant>  = new ArrayList<Etudiant> ();
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+class Personne {                                              <> class Etudiant extends Personne {
+    private String nomPersonne;                                      private Universite universite;
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+    private String prenomPersonne;                            <>     public void reviser(String matiere) {
+                                                                     }
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+                                                              +-
+public class void{}
+----------------------------------------------------------------------------------------------------------

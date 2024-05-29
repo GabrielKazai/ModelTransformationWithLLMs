@@ -1,0 +1,152 @@
+﻿Chatthistorik
+
+
+ChatGPT
+ChatGPT
+Utforska GPT:er
+I dag
+Java Classes from XMI
+
+Java Class Creation
+Java Classes for UML
+Java Classes for UML
+Java Classes for UML
+Java Classes Model Creation
+Java Code for UML
+Java Models: Enums Creation
+Java Enum Class
+Java Classes for Models
+Java Classes Generation
+Java Classes from XMI
+Java code for UML.
+Java UML Translation
+Java Model Creation
+Java Model Generation
+Java Classes from XMI
+Java Classes Creation
+Java Classes from UML
+Java Classes for UML
+Java Model Creation
+Java Class Generation
+Java Enums & Classes
+Model Java classes
+Java Code Classes
+Java UML Kode Konversi
+Java Classes for Enums
+Java Class Enums
+Lägg till Team-arbetsyta
+Samarbeta med ett Team-abonnemang
+ChatGPT 4
+
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Zol7IBjoEe-H_ePpXJInJQ" name="Model">
+  <eAnnotations xmi:id="_Zol7IRjoEe-H_ePpXJInJQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Zol7IhjoEe-H_ePpXJInJQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Zol7IxjoEe-H_ePpXJInJQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Zol7JBjoEe-H_ePpXJInJQ" name="itis">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Zol7JRjoEe-H_ePpXJInJQ" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Zol7JhjoEe-H_ePpXJInJQ" name="itis">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Zol7JxjoEe-H_ePpXJInJQ" name="LightingCodeSimpleType">
+          <ownedLiteral xmi:id="_Zol7KBjoEe-H_ePpXJInJQ" name="lighting-unknown"/>
+          <ownedLiteral xmi:id="_Zol7KRjoEe-H_ePpXJInJQ" name="artificial-interior-light"/>
+          <ownedLiteral xmi:id="_Zol7KhjoEe-H_ePpXJInJQ" name="artificial-exterior-light"/>
+          <ownedLiteral xmi:id="_Zol7KxjoEe-H_ePpXJInJQ" name="moonlight"/>
+          <ownedLiteral xmi:id="_Zol7LBjoEe-H_ePpXJInJQ" name="dusk"/>
+          <ownedLiteral xmi:id="_Zol7LRjoEe-H_ePpXJInJQ" name="daylight"/>
+          <ownedLiteral xmi:id="_Zol7LhjoEe-H_ePpXJInJQ" name="darkness"/>
+          <ownedLiteral xmi:id="_Zol7LxjoEe-H_ePpXJInJQ" name="dawn"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Zol7MBjoEe-H_ePpXJInJQ" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Zol7MRjoEe-H_ePpXJInJQ" name="LightingCodeType">
+          <generalization xmi:id="_Zol7MhjoEe-H_ePpXJInJQ" general="_Zol7JxjoEe-H_ePpXJInJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Zol7MxjoEe-H_ePpXJInJQ" name="WeatherConditionsCodeSimpleType">
+          <ownedLiteral xmi:id="_Zol7NBjoEe-H_ePpXJInJQ" name="uV-index-low"/>
+          <ownedLiteral xmi:id="_Zol7NRjoEe-H_ePpXJInJQ" name="clear-skies"/>
+          <ownedLiteral xmi:id="_Zol7NhjoEe-H_ePpXJInJQ" name="overcast"/>
+          <ownedLiteral xmi:id="_Zol7NxjoEe-H_ePpXJInJQ" name="dry"/>
+          <ownedLiteral xmi:id="_Zol7OBjoEe-H_ePpXJInJQ" name="mostly-cloudy"/>
+          <ownedLiteral xmi:id="_Zol7ORjoEe-H_ePpXJInJQ" name="mostly-sunny"/>
+          <ownedLiteral xmi:id="_Zol7OhjoEe-H_ePpXJInJQ" name="uV-index-very-low"/>
+          <ownedLiteral xmi:id="_Zol7OxjoEe-H_ePpXJInJQ" name="fair-skies"/>
+          <ownedLiteral xmi:id="_Zol7PBjoEe-H_ePpXJInJQ" name="mostly-clear"/>
+          <ownedLiteral xmi:id="_Zol7PRjoEe-H_ePpXJInJQ" name="ozone-alert"/>
+          <ownedLiteral xmi:id="_Zol7PhjoEe-H_ePpXJInJQ" name="uV-index-moderate"/>
+          <ownedLiteral xmi:id="_Zol7PxjoEe-H_ePpXJInJQ" name="barometric-pressure"/>
+          <ownedLiteral xmi:id="_Zol7QBjoEe-H_ePpXJInJQ" name="partly-cloudy"/>
+          <ownedLiteral xmi:id="_Zol7QRjoEe-H_ePpXJInJQ" name="uV-index-high"/>
+          <ownedLiteral xmi:id="_Zol7QhjoEe-H_ePpXJInJQ" name="uV-index-very-high"/>
+          <ownedLiteral xmi:id="_Zol7QxjoEe-H_ePpXJInJQ" name="sunny"/>
+          <ownedLiteral xmi:id="_Zol7RBjoEe-H_ePpXJInJQ" name="partly-sunny"/>
+          <ownedLiteral xmi:id="_Zol7RRjoEe-H_ePpXJInJQ" name="cloudy"/>
+          <ownedLiteral xmi:id="_Zol7RhjoEe-H_ePpXJInJQ" name="mostly-dry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Zol7RxjoEe-H_ePpXJInJQ" name="WeatherConditionsCodeType">
+          <generalization xmi:id="_Zol7SBjoEe-H_ePpXJInJQ" general="_Zol7MxjoEe-H_ePpXJInJQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Kopiera kod
+// [[STARTEND]]
+public enum LightingCodeSimpleType {
+    LIGHTING_UNKNOWN,
+    ARTIFICIAL_INTERIOR_LIGHT,
+    ARTIFICIAL_EXTERIOR_LIGHT,
+    MOONLIGHT,
+    DUSK,
+    DAYLIGHT,
+    DARKNESS,
+    DAWN
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+public enum LightingCodeType extends LightingCodeSimpleType {
+}
+
+public enum WeatherConditionsCodeSimpleType {
+    UV_INDEX_LOW,
+    CLEAR_SKIES,
+    OVERCAST,
+    DRY,
+    MOSTLY_CLOUDY,
+    MOSTLY_SUNNY,
+    UV_INDEX_VERY_LOW,
+    FAIR_SKIES,
+    MOSTLY_CLEAR,
+    OZONE_ALERT,
+    UV_INDEX_MODERATE,
+    BAROMETRIC_PRESSURE,
+    PARTLY_CLOUDY,
+    UV_INDEX_HIGH,
+    UV_INDEX_VERY_HIGH,
+    SUNNY,
+    PARTLY_SUNNY,
+    CLOUDY,
+    MOSTLY_DRY
+}
+
+public enum WeatherConditionsCodeType extends WeatherConditionsCodeSimpleType {
+}
+// [[STARTEND]]
+
+
+
+
+
+
+Skicka ett meddelande till ChatGPT
+
+ChatGPT kan begå misstag. Kontrollera viktig information.
+?
+ChatGPT

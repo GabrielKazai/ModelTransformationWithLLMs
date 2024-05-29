@@ -1,0 +1,50 @@
+Text Compare
+Produced: 2024-03-29 17:46:54
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\sdkexample\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\sdkexample\gpt\gptoutput\cleanGPT.java
+                                      <>
+public class Patient extends Person {    public class Address {
+                                             private String addressLine1;
+                                             private String addressLine2;
+                                             private String city;
+                                             private int identifier;
+                                             private String state;
+    private Organization hospital;           private String zipcode;
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+public class Boolean {                <> public class Organization {
+                                             public int identifier;
+                                             public String name;
+                                             public String postalAddress;
+                                             public String statusCode;
+                                             public String telecomAddress;
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+public class Character {              <> public class Patient extends Person {
+                                             private Organization hospital;
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+public class Double {                 <> public class Person {
+}                                            public Organization worksFor;
+                                             public java.util.Date birthDate;
+                                             public int identifier;
+                                             public String name;
+public class Float {                         public String postalAddress;
+}
+
+public class Integer {                       public String raceCode;
+}                                            public String sexCode;
+
+public class Long {                          public String statusCode;
+}                                            public String telecomAddress;
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+public class String {                 <>     public String getNickName() {
+                                                 return "";
+}                                            }
+
+public class Date {
+------------------------------------------------------------------------------

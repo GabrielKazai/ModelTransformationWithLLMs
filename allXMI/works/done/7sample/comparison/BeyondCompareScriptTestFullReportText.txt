@@ -1,0 +1,36 @@
+Text Compare
+Produced: 2024-04-02 13:03:43
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\7sample\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\7sample\gpt\gptoutput\cleanGPT.java
+                                      +-
+--------------------------------------------------------------------
+public class A {                      =  public class A {
+    private B attribute1;                    private B attribute1;
+
+    public void Request() {                  public void Request() {
+    }                                        }
+
+    public void handle1() {                  public void handle1() {
+    }                                        }
+
+    public void handle2() {                  public void handle2() {
+    }                                        }
+--------------------------------------------------------------------
+                                      +-
+--------------------------------------------------------------------
+}                                     =  }
+
+abstract class B {                       abstract class B {
+    public A answer() {                      public A answer() {
+--------------------------------------------------------------------
+        // TODO Auto-generated return +-
+--------------------------------------------------------------------
+        return null;                  =          return null;
+    }                                        }
+--------------------------------------------------------------------
+                                      +-
+--------------------------------------------------------------------
+}                                     =  }
+--------------------------------------------------------------------

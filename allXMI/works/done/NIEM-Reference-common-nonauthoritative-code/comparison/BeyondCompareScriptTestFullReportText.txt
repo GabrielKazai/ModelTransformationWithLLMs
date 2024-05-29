@@ -1,0 +1,132 @@
+Text Compare
+Produced: 2024-03-29 17:25:43
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nonauthoritative-code\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-nonauthoritative-code\gpt\gptoutput\cleanGPT.java
+                                                 +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum FamilyKinshipCodeSimpleType {        =  public enum FamilyKinshipCodeSimpleType {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    foster,                                      <>     foster, biological, marriage, adoption
+    biological,
+    marriage,
+    adoption;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public class NamespaceElementPropertyHolder {    <>
+}
+
+public enum FamilyKinshipCodeType extends {         public enum FamilyKinshipCodeType {
+    ;                                                   foster, biological, marriage, adoption
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum ImagePoseCodeSimpleType {               public enum ImagePoseCodeSimpleType {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Oblique,                                     <>     Oblique, Frontal, Side
+    Frontal,
+    Side;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum ImagePoseCodeType extends {          <> public enum ImagePoseCodeType {
+    ;                                                   Oblique, Frontal, Side
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum MarriageCategoryCodeSimpleType {        public enum MarriageCategoryCodeSimpleType {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 <>     civil_union, unknown, common_law, married
+    civil union,
+    unknown,
+    common
+    law,
+    married;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum MarriageCategoryCodeType extends {   <> public enum MarriageCategoryCodeType {
+    ;                                                   civil_union, unknown, common_law, married
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum MarriageStatusCodeSimpleType {          public enum MarriageStatusCodeSimpleType {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    unknown,                                     <>     unknown, separated, married, widowed, divorced
+    separated,
+    married,
+    widowed,
+    divorced;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum MarriageStatusCodeType extends {     <> public enum MarriageStatusCodeType {
+    ;                                                   unknown, separated, married, widowed, divorced
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum PersonNameCategoryCodeSimpleType {      public enum PersonNameCategoryCodeSimpleType {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    handle,                                      <>     handle, aka, dba, moniker, call_sign, pseudonym, nickname, user_id, alias, other, provided, fka, unknown
+    aka,
+    dba,
+    moniker,
+
+    call sign,
+    pseudonym,
+    nickname,
+    user id,
+    alias,
+    other,
+    provided,
+    fka,
+    unknown;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum PersonNameCategoryCodeType extends { <> public enum PersonNameCategoryCodeType {
+    ;                                                   handle, aka, dba, moniker, call_sign, pseudonym, nickname, user_id, alias, other, provided, fka, unknown
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum ContentKind {                           public enum ContentKind {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                                 <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum FeatureKind {                           public enum FeatureKind {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                                 <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum VisibilityKind {                        public enum VisibilityKind {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                                 <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                    }
+    None,
+    ReadOnly,                                       public class NamespaceElementPropertyHolder {
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                                =  }
+----------------------------------------------------------------------------------------------------------------------------------------------------------------

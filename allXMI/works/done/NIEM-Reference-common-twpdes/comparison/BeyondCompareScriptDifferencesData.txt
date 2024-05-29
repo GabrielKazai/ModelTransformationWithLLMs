@@ -1,0 +1,113 @@
+Table Compare
+Produced: 2024-03-29 17:29:34
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-twpdes\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-twpdes\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                                4:      5: 6: 7: 8: 9: 10: 11: 12: 13: 14: 15:    1:     2:           3:                                4:          5:                 6:                  7:                  8:        9:         10:       11:        12:       13:      14:       15:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                             <>        Unknown,     Exact,                            Circa
+       Unknown,                                                                                              <>
+       Exact,                                                                                                <>
+       Circa;                                                                                                <>        Unknown,     Exact,                            Circa
+                                                                                                             <>        Variant,     Transliterated,                   Original,   Normalized
+       ;                                                                                                     <>
+                                                                                                             <>        Variant,     Transliterated,                   Original,   Normalized
+       Variant,                                                                                              <>
+       Transliterated,                                                                                       <>        Deseret,     Greek,                            Hangul,     CanadianSyllabics, Gothic,             Tibetan,            Katakana, Telugu,    Arabic,   OldItalic, Ethiopic,
+       Original,                                                                                             <>        Malayalam,   Myanmar,                          Lao,        Syriac,            Yi,                 Armenian,           Runic,    Bengali,   Shavian,  Latin,     Ugaritic, Thaana,  Han,      LinearB,
+       Normalized;                                                                                           <>        TaiLe,       Cherokee,                         Sinhala,    Cypriot,           Tagalog,            Khmer,              Gurmukhi, Osmanya,   Bopomofo, Kannada,   Thai,     Ogham,   Georgian,
+                                                                                                             <>        Hiragana,    Oriya,                            Devanagari, Buhid,             Tagbanwa,           Limbu,              Hebrew,   Mongolian, Tamil,    Hanunoo,   Cyrillic, Gujarati
+       ;                                                                                                     <>
+                                                                                                             <>        Deseret,     Greek,                            Hangul,     CanadianSyllabics, Gothic,             Tibetan,            Katakana, Telugu,    Arabic,   OldItalic, Ethiopic,
+       Deseret,                                                                                              <>        Malayalam,   Myanmar,                          Lao,        Syriac,            Yi,                 Armenian,           Runic,    Bengali,   Shavian,  Latin,     Ugaritic, Thaana,  Han,      LinearB,
+       Greek,                                                                                                <>        TaiLe,       Cherokee,                         Sinhala,    Cypriot,           Tagalog,            Khmer,              Gurmukhi, Osmanya,   Bopomofo, Kannada,   Thai,     Ogham,   Georgian,
+       Hangul,                                                                                               <>        Hiragana,    Oriya,                            Devanagari, Buhid,             Tagbanwa,           Limbu,              Hebrew,   Mongolian, Tamil,    Hanunoo,   Cyrillic, Gujarati
+       CanadianSyllabics,                                                                                    <>
+       Gothic,                                                                                               <>        Arabic,      Hindi,                            Urdu
+       Tibetan,                                                                                              <>
+       Katakana,                                                                                             <>        Arabic,      Hindi,                            Urdu
+       Telugu,                                                                                               <>
+       Arabic,                                                                                               <>        Low,         High,                             Medium
+       OldItalic,                                                                                            <>
+       Ethiopic,                                                                                             <>        Low,         High,                             Medium
+       Malayalam,                                                                                            <>
+       Myanmar,                                                                                              <>        Unspecified, Empty,                            Simple,     Mixed,             ElementOnly
+       Lao,                                                                                                  <>
+       Syriac,                                                                                               <>        Unspecified, Simple,                           Attribute,  Element,           AttributeWildcard,  ElementWildcard,    Group
+       Yi,                                                                                                   <>
+       Armenian,                                                                                             <>        Unspecified, None,                             ReadOnly,   ReadWrite,         ReadOnlyUnsettable, ReadWriteUnsettable
+       Runic,                                                                                                +-
+       Bengali,                                                                                              +-
+       Shavian,                                                                                              +-
+       Latin,                                                                                                +-
+       Ugaritic,                                                                                             +-
+       Thaana,                                                                                               +-
+       Han,                                                                                                  +-
+       LinearB,                                                                                              +-
+       TaiLe,                                                                                                +-
+       Cherokee,                                                                                             +-
+       Sinhala,                                                                                              +-
+       Cypriot,                                                                                              +-
+       Tagalog,                                                                                              +-
+       Khmer,                                                                                                +-
+       Gurmukhi,                                                                                             +-
+       Osmanya,                                                                                              +-
+       Bopomofo,                                                                                             +-
+       Kannada,                                                                                              +-
+       Thai,                                                                                                 +-
+       Ogham,                                                                                                +-
+       Georgian,                                                                                             +-
+       Hiragana,                                                                                             +-
+       Oriya,                                                                                                +-
+       Devanagari,                                                                                           +-
+       Buhid,                                                                                                +-
+       Tagbanwa,                                                                                             +-
+       Limbu,                                                                                                +-
+       Hebrew,                                                                                               +-
+       Mongolian,                                                                                            +-
+       Tamil,                                                                                                +-
+       Hanunoo,                                                                                              +-
+       Cyrillic,                                                                                             +-
+       Gujarati;                                                                                             +-
+                                                                                                             +-
+       ;                                                                                                     +-
+                                                                                                             +-
+       Arabic,                                                                                               +-
+       Hindi,                                                                                                +-
+       Urdu;                                                                                                 +-
+                                                                                                             +-
+       ;                                                                                                     +-
+                                                                                                             +-
+       Low,                                                                                                  +-
+       High,                                                                                                 +-
+       Medium;                                                                                               +-
+                                                                                                             +-
+       ;                                                                                                     +-
+                                                                                                             +-
+       Unspecified,                                                                                          +-
+       Empty,                                                                                                +-
+       Simple,                                                                                               +-
+       Mixed,                                                                                                +-
+       ElementOnly;                                                                                          +-
+                                                                                                             +-
+       Unspecified,                                                                                          +-
+       Simple,                                                                                               +-
+       Attribute,                                                                                            +-
+       Element,                                                                                              +-
+       AttributeWildcard,                                                                                    +-
+       ElementWildcard,                                                                                      +-
+       Group;                                                                                                +-
+                                                                                                             +-
+       Unspecified,                                                                                          +-
+       None,                                                                                                 +-
+       ReadOnly,                                                                                             +-
+       ReadWrite,                                                                                            +-
+       ReadOnlyUnsettable,                                                                                   +-
+       ReadWriteUnsettable;                                                                                  +-
+public enum                 DateAccuracyIndicatorCodeType     extends {                                      <> public enum         DateAccuracyIndicatorCodeType     {
+public enum                 ProperNameFormCategoryCodeType    extends {                                      <> public enum         ProperNameFormCategoryCodeType    {
+public enum                 ProperNameScriptCodeType          extends {                                      <> public enum         ProperNameScriptCodeType          {
+public enum                 ProperNameTransliterationCodeType extends {                                      <> public enum         ProperNameTransliterationCodeType {
+public enum                 QualityValidityCategoryCodeType   extends {                                      <> public enum         QualityValidityCategoryCodeType   {
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

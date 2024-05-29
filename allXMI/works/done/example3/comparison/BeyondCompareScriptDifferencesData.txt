@@ -1,0 +1,26 @@
+Table Compare
+Produced: 2024-04-09 08:57:47
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example3\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example3\gpt\gptoutput\cleanGPT.java
+1:     2:        3:                      4:         5:                     6:         7:                 8:    1:                                                                               2: 3: 4: 5: 6: 7: 8:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            -+ }
+                                                                                                            -+ IAvgResponseTimeMonitor monitorablePort
+                                                                                                            -+ IMaxClientsControl controllablePort
+                                                                                                            -+ MaxClientsControl classTypedPort
+public interface IMaxClientsControl      {                                                                  +-
+public interface IAvgResponseTimeMonitor {                                                                  +-
+public interface IBaseProvidedInterface  {                                                                  +-
+public interface IBaseRequiredInterface  {                                                                  +-
+public class     MaxClientsControl       extends    BaseClass              implements IMaxClientsControl {  +-
+public class     BaseClass               implements IBaseProvidedInterface {                                +-
+                                                                                                            -+ public class BaseClass implements IBaseProvidedInterface {
+                                                                                                            -+ public class MaxClientsControl extends BaseClass implements IMaxClientsControl {
+                                                                                                            -+ public class WebServer {
+                                                                                                            -+ public interface IAvgResponseTimeMonitor {
+                                                                                                            -+ public interface IBaseProvidedInterface {
+                                                                                                            -+ public interface IBaseRequiredInterface {
+                                                                                                            -+ public interface IMaxClientsControl {
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+The relation cardinality was not translated correctly for the attribute produit.
+The function achete is missing a parameter.
+The function achete has the wrong return type.
+The class IAction is missing.
+The function getId has the wrong return type.
+The function getId is missing a parameter.

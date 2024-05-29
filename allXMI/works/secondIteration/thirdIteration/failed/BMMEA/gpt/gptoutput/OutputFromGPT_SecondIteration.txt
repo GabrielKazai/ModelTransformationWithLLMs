@@ -1,0 +1,989 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes from UML
+Java Classes from UML
+Java Classes Generation
+Java Classes UML Code
+Java Code Generation
+Java Code Generation
+New chat
+New chat
+New chat
+Java Classes Based on XMI
+New chat
+New chat
+New chat
+Java Code from XMI
+Yesterday
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ZpFiwPAJEe6-4aaHZrjoFg" name="Model">
+  <eAnnotations xmi:id="_ZpGJ0PAJEe6-4aaHZrjoFg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_ZpGJ0fAJEe6-4aaHZrjoFg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZpGJ0vAJEe6-4aaHZrjoFg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZpGJ0_AJEe6-4aaHZrjoFg" name="BMM">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGJ1PAJEe6-4aaHZrjoFg" name="Assessment">
+      <generalization xmi:id="_ZpGJ1fAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGJ1vAJEe6-4aaHZrjoFg" name="assessingOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ5vAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGJ1_AJEe6-4aaHZrjoFg" name="categorizingAssessmentCategory" visibility="public" type="_ZpGJ7vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ5_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ2PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ2fAJEe6-4aaHZrjoFg" name="usingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6PAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ2vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ2_AJEe6-4aaHZrjoFg" name="affectedMeans" visibility="public" type="_ZpGKvPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ3PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ3fAJEe6-4aaHZrjoFg" name="motivatedDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ3vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ3_AJEe6-4aaHZrjoFg" name="affectedEnd" visibility="public" type="_ZpGKdvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ4PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ4fAJEe6-4aaHZrjoFg" name="usedAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6PAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ4vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ4_AJEe6-4aaHZrjoFg" name="judgedInfluencer" visibility="public" type="_ZpGKj_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ7PAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGJ5PAJEe6-4aaHZrjoFg" name="identifiedPotentialImpact" visibility="public" type="_ZpGLAPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ7fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ5fAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ5vAJEe6-4aaHZrjoFg" name="OrganizationUnitMakesAssessment" memberEnd="_ZpGJ1vAJEe6-4aaHZrjoFg _ZpGK7fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ5_AJEe6-4aaHZrjoFg" name="AssessmentCategoryCategorizesAssessment" memberEnd="_ZpGJ1_AJEe6-4aaHZrjoFg _ZpGJ8PAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ6PAJEe6-4aaHZrjoFg" name="UsingAssessmentUsesUsedAssessment" memberEnd="_ZpGJ2fAJEe6-4aaHZrjoFg _ZpGJ4fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ6fAJEe6-4aaHZrjoFg" name="AssessmentAffectsEmploymentOfMeans" memberEnd="_ZpGJ2_AJEe6-4aaHZrjoFg _ZpGKvvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ6vAJEe6-4aaHZrjoFg" name="AssessmentProvidesImpetusForDirective" memberEnd="_ZpGJ3fAJEe6-4aaHZrjoFg _ZpGKZvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ6_AJEe6-4aaHZrjoFg" name="AssessmentAffectsAchievementOfEnd" memberEnd="_ZpGJ3_AJEe6-4aaHZrjoFg _ZpGKePAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ7PAJEe6-4aaHZrjoFg" name="AssessmentIsJudgmentOfInfluencer" memberEnd="_ZpGJ4_AJEe6-4aaHZrjoFg _ZpGKkfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ7fAJEe6-4aaHZrjoFg" name="AssessmentIdentifiesPotentialImpact" memberEnd="_ZpGJ5PAJEe6-4aaHZrjoFg _ZpGLAvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGJ7vAJEe6-4aaHZrjoFg" name="AssessmentCategory">
+      <generalization xmi:id="_ZpGJ7_AJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGJ8PAJEe6-4aaHZrjoFg" name="categorizedAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ5_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ8fAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ8vAJEe6-4aaHZrjoFg" name="broaderAssessmentCategory" visibility="public" type="_ZpGJ7vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ9vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ8_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ9PAJEe6-4aaHZrjoFg" name="narrowerAssessmentCategory" visibility="public" type="_ZpGJ7vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ9vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ9fAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGJ9vAJEe6-4aaHZrjoFg" name="BroaderAssessmentCategoryCategorizesNarrowerAssessmentCategory" memberEnd="_ZpGJ8vAJEe6-4aaHZrjoFg _ZpGJ9PAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGJ9_AJEe6-4aaHZrjoFg" name="Asset">
+      <generalization xmi:id="_ZpGJ-PAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGJ-fAJEe6-4aaHZrjoFg" name="deliveredOffering" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKAfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ-vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ-_AJEe6-4aaHZrjoFg" name="responsibleOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKAvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ_PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ_fAJEe6-4aaHZrjoFg" name="governingDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKA_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGJ_vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGJ__AJEe6-4aaHZrjoFg" name="deployingCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKBPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKAPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKAfAJEe6-4aaHZrjoFg" name="BusinessProcessManagesAsset" memberEnd="_ZpGJ-fAJEe6-4aaHZrjoFg _ZpGKFPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKAvAJEe6-4aaHZrjoFg" name="OrganizationUnitIsResponsibleForAsset" memberEnd="_ZpGJ-_AJEe6-4aaHZrjoFg _ZpGK7_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKA_AJEe6-4aaHZrjoFg" name="DirectiveGovernsUseOfAsset" memberEnd="_ZpGJ_fAJEe6-4aaHZrjoFg _ZpGKaPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKBPAJEe6-4aaHZrjoFg" name="CourseOfActionDeploysAsset" memberEnd="_ZpGJ__AJEe6-4aaHZrjoFg _ZpGKL_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKBfAJEe6-4aaHZrjoFg" name="BusinessPolicy">
+      <generalization xmi:id="_ZpGKBvAJEe6-4aaHZrjoFg" general="_ZpGKZPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKB_AJEe6-4aaHZrjoFg" name="broaderBusinessPolicy" visibility="public" type="_ZpGKBfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKD_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKCPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKCfAJEe6-4aaHZrjoFg" name="derivedBusinessRule" visibility="public" type="_ZpGKJPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKEPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKCvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKC_AJEe6-4aaHZrjoFg" name="moreSpecificBusinessPolicy" visibility="public" type="_ZpGKBfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKD_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKDPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKDfAJEe6-4aaHZrjoFg" name="governedBusinessProcess" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKEfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKDvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKD_AJEe6-4aaHZrjoFg" name="BroaderBusinessPolicyIncludesMoreSpecificBusinessPolicy" memberEnd="_ZpGKB_AJEe6-4aaHZrjoFg _ZpGKC_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKEPAJEe6-4aaHZrjoFg" name="BusinessPolicyIsBasisOfBusinessRule" memberEnd="_ZpGKCfAJEe6-4aaHZrjoFg _ZpGKJvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKEfAJEe6-4aaHZrjoFg" name="BusinessPolicyGovernsBusinessProcess" memberEnd="_ZpGKDfAJEe6-4aaHZrjoFg _ZpGKFvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKEvAJEe6-4aaHZrjoFg" name="BusinessProcess">
+      <generalization xmi:id="_ZpGKE_AJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKFPAJEe6-4aaHZrjoFg" name="managedAsset" visibility="public" type="_ZpGJ9_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKAfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKFfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKFvAJEe6-4aaHZrjoFg" name="governingBusinessPolicy" visibility="public" type="_ZpGKBfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKEfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKF_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKGPAJEe6-4aaHZrjoFg" name="guidingBusinessRule" visibility="public" type="_ZpGKJPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKGfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKGvAJEe6-4aaHZrjoFg" name="responsibleOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKG_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKHPAJEe6-4aaHZrjoFg" name="realizedCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKHfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKHvAJEe6-4aaHZrjoFg" name="deliveredOffering" visibility="public" type="_ZpGK1_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKI_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKH_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKIPAJEe6-4aaHZrjoFg" name="BusinessRuleGuidesBusinessProcess" memberEnd="_ZpGKGPAJEe6-4aaHZrjoFg _ZpGKKPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKIfAJEe6-4aaHZrjoFg" name="OrganizationUnitIsResponsibleForBusinessProcess" memberEnd="_ZpGKGvAJEe6-4aaHZrjoFg _ZpGK8fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKIvAJEe6-4aaHZrjoFg" name="BusinessProcessRealizesCourseOfAction" memberEnd="_ZpGKHPAJEe6-4aaHZrjoFg _ZpGKMfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKI_AJEe6-4aaHZrjoFg" name="BusinessProcessDeliversOffering" memberEnd="_ZpGKHvAJEe6-4aaHZrjoFg _ZpGK2fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKJPAJEe6-4aaHZrjoFg" name="BusinessRule">
+      <generalization xmi:id="_ZpGKJfAJEe6-4aaHZrjoFg" general="_ZpGKZPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKJvAJEe6-4aaHZrjoFg" name="baseBusinessPolicy" visibility="public" type="_ZpGKBfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKEPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKJ_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKKPAJEe6-4aaHZrjoFg" name="guidedBusinessProcess" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKKfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKKvAJEe6-4aaHZrjoFg" name="effectingTactic" visibility="public" type="_ZpGLIPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKLPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKK_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKLPAJEe6-4aaHZrjoFg" name="TacticEffectsEnforcementLevelOfBusinessRule" memberEnd="_ZpGKKvAJEe6-4aaHZrjoFg _ZpGLIvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKLfAJEe6-4aaHZrjoFg" name="CourseOfAction">
+      <generalization xmi:id="_ZpGKLvAJEe6-4aaHZrjoFg" general="_ZpGKvPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKL_AJEe6-4aaHZrjoFg" name="deployedAsset" visibility="public" type="_ZpGJ9_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKBPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKMPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKMfAJEe6-4aaHZrjoFg" name="realizingBusinessProcess" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKMvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKM_AJEe6-4aaHZrjoFg" name="governingDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKRfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKNPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKNfAJEe6-4aaHZrjoFg" name="enablingCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKRvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKNvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKN_AJEe6-4aaHZrjoFg" name="broaderCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKR_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKOPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKOfAJEe6-4aaHZrjoFg" name="baseDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKOvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKO_AJEe6-4aaHZrjoFg" name="supportedDesiredResult" visibility="public" type="_ZpGKTPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKPPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKPfAJEe6-4aaHZrjoFg" name="enabledCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKRvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKPvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKP_AJEe6-4aaHZrjoFg" name="dischargedLiability" visibility="public" type="_ZpGKsvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKQPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKQfAJEe6-4aaHZrjoFg" name="definedOffering" visibility="public" type="_ZpGK1_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKS_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKQvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKQ_AJEe6-4aaHZrjoFg" name="moreSpecificCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKR_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKRPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKRfAJEe6-4aaHZrjoFg" name="DirectiveGovernsCourseOfAction" memberEnd="_ZpGKM_AJEe6-4aaHZrjoFg _ZpGKavAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKRvAJEe6-4aaHZrjoFg" name="EnablingCourseOfActionEnablesEnabledCourseOfAction" memberEnd="_ZpGKNfAJEe6-4aaHZrjoFg _ZpGKPfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKR_AJEe6-4aaHZrjoFg" name="BroaderCourseOfActionIncludesMoreSpecificCourseOfAction" memberEnd="_ZpGKN_AJEe6-4aaHZrjoFg _ZpGKQ_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKSPAJEe6-4aaHZrjoFg" name="CourseOfActionIsFormulatedBasedOnDirective" memberEnd="_ZpGKOfAJEe6-4aaHZrjoFg _ZpGKbPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKSfAJEe6-4aaHZrjoFg" name="CourseOfActionChannelsEffortsTowardsDesiredResult" memberEnd="_ZpGKO_AJEe6-4aaHZrjoFg _ZpGKTvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKSvAJEe6-4aaHZrjoFg" name="CourseOfActionDischargesLiability" memberEnd="_ZpGKP_AJEe6-4aaHZrjoFg _ZpGKtPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKS_AJEe6-4aaHZrjoFg" name="CourseOfActionDefinesOffering" memberEnd="_ZpGKQfAJEe6-4aaHZrjoFg _ZpGK2_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKTPAJEe6-4aaHZrjoFg" name="DesiredResult">
+      <generalization xmi:id="_ZpGKTfAJEe6-4aaHZrjoFg" general="_ZpGKdvAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKTvAJEe6-4aaHZrjoFg" name="supportingCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKT_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKUPAJEe6-4aaHZrjoFg" name="broaderDesiredResult" visibility="public" type="_ZpGKTPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKUfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKUvAJEe6-4aaHZrjoFg" name="supportingDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKU_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKVPAJEe6-4aaHZrjoFg" name="categorizingDesiredResultCategory" visibility="public" type="_ZpGKW_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKVfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKVvAJEe6-4aaHZrjoFg" name="moreSpecficDesiredResult" visibility="public" type="_ZpGKTPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKV_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKWPAJEe6-4aaHZrjoFg" name="BroaderDesiredResultIncludesMoreSpecificDesiredResult" memberEnd="_ZpGKUPAJEe6-4aaHZrjoFg _ZpGKVvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKWfAJEe6-4aaHZrjoFg" name="DirectiveSupportsAchievementOfDesiredResult" memberEnd="_ZpGKUvAJEe6-4aaHZrjoFg _ZpGKbvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKWvAJEe6-4aaHZrjoFg" name="DesiredResultCategoryCategorizesDesiredResult" memberEnd="_ZpGKVPAJEe6-4aaHZrjoFg _ZpGKXfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKW_AJEe6-4aaHZrjoFg" name="DesiredResultCategory">
+      <generalization xmi:id="_ZpGKXPAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKXfAJEe6-4aaHZrjoFg" name="categorizedDesiredResult" visibility="public" type="_ZpGKTPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKXvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKX_AJEe6-4aaHZrjoFg" name="broaderDesiredResultCategory" visibility="public" type="_ZpGKW_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKY_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKYPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKYfAJEe6-4aaHZrjoFg" name="moreSpecificDesiredResultCategory" visibility="public" type="_ZpGKW_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKY_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKYvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKY_AJEe6-4aaHZrjoFg" name="BroaderDesiredCategoryCategorizesMoreSpecificDesiredResultCategory" memberEnd="_ZpGKX_AJEe6-4aaHZrjoFg _ZpGKYfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKZPAJEe6-4aaHZrjoFg" name="Directive">
+      <generalization xmi:id="_ZpGKZfAJEe6-4aaHZrjoFg" general="_ZpGKvPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKZvAJEe6-4aaHZrjoFg" name="motivatingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKZ_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKaPAJEe6-4aaHZrjoFg" name="governedAsset" visibility="public" type="_ZpGJ9_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKA_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKafAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKavAJEe6-4aaHZrjoFg" name="governedCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKRfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKa_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKbPAJEe6-4aaHZrjoFg" name="derivedCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKbfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKbvAJEe6-4aaHZrjoFg" name="supportedDesiredResult" visibility="public" type="_ZpGKTPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKWfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKb_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKcPAJEe6-4aaHZrjoFg" name="motivatingPotentialImpact" visibility="public" type="_ZpGLAPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKdPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKcfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKcvAJEe6-4aaHZrjoFg" name="directiveRegulation" visibility="public" type="_ZpGLCPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKdfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKc_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKdPAJEe6-4aaHZrjoFg" name="PotentialImpactProvidesImpetursForDirective" memberEnd="_ZpGKcPAJEe6-4aaHZrjoFg _ZpGLBPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKdfAJEe6-4aaHZrjoFg" name="DirectiveActsAsRegulation" memberEnd="_ZpGKcvAJEe6-4aaHZrjoFg _ZpGLCvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKdvAJEe6-4aaHZrjoFg" name="End">
+      <generalization xmi:id="_ZpGKd_AJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKePAJEe6-4aaHZrjoFg" name="judgingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKefAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKevAJEe6-4aaHZrjoFg" name="definingOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKe_AJEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKe_AJEe6-4aaHZrjoFg" name="OrganizationUnitDefinesEnd" memberEnd="_ZpGKevAJEe6-4aaHZrjoFg _ZpGK8_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKfPAJEe6-4aaHZrjoFg" name="ExternalInfluencer">
+      <generalization xmi:id="_ZpGKffAJEe6-4aaHZrjoFg" general="_ZpGKj_AJEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKfvAJEe6-4aaHZrjoFg" name="FixedAsset">
+      <generalization xmi:id="_ZpGKf_AJEe6-4aaHZrjoFg" general="_ZpGJ9_AJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKgPAJEe6-4aaHZrjoFg" name="usingOffering" visibility="public" type="_ZpGK1_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKhPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKgfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKgvAJEe6-4aaHZrjoFg" name="providedResource" visibility="public" type="_ZpGLDfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKhfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKg_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKhPAJEe6-4aaHZrjoFg" name="OfferingUsesFixedAsset" memberEnd="_ZpGKgPAJEe6-4aaHZrjoFg _ZpGK3fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKhfAJEe6-4aaHZrjoFg" name="FixedAssetProvidesResource" memberEnd="_ZpGKgvAJEe6-4aaHZrjoFg _ZpGLD_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKhvAJEe6-4aaHZrjoFg" name="Goal">
+      <generalization xmi:id="_ZpGKh_AJEe6-4aaHZrjoFg" general="_ZpGKTPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKiPAJEe6-4aaHZrjoFg" name="quantifyingObjective" visibility="public" type="_ZpGK0_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKjfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKifAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKivAJEe6-4aaHZrjoFg" name="amplifiedVision" visibility="public" type="_ZpGLJvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKjvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKi_AJEe6-4aaHZrjoFg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZpGKjPAJEe6-4aaHZrjoFg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKjfAJEe6-4aaHZrjoFg" name="ObjectiveQuantitiesGoal" memberEnd="_ZpGKiPAJEe6-4aaHZrjoFg _ZpGK1fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKjvAJEe6-4aaHZrjoFg" name="GoalAmplifiesVision" memberEnd="_ZpGKivAJEe6-4aaHZrjoFg _ZpGLKPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKj_AJEe6-4aaHZrjoFg" name="Influencer">
+      <generalization xmi:id="_ZpGKkPAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKkfAJEe6-4aaHZrjoFg" name="judgingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ7PAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKkvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKk_AJEe6-4aaHZrjoFg" name="categorizingInfluencerCategory" visibility="public" type="_ZpGKnPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKmfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKlPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKlfAJEe6-4aaHZrjoFg" name="recognizingOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKmvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKlvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKl_AJEe6-4aaHZrjoFg" name="sourceInfluencingOrganization" visibility="public" type="_ZpGKpfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKm_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKmPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKmfAJEe6-4aaHZrjoFg" name="InfluencerCategoryCategorizesInfluencer" memberEnd="_ZpGKk_AJEe6-4aaHZrjoFg _ZpGKnvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKmvAJEe6-4aaHZrjoFg" name="OrganizationUnitRecognizesInfluencer" memberEnd="_ZpGKlfAJEe6-4aaHZrjoFg _ZpGK9fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKm_AJEe6-4aaHZrjoFg" name="InfluencingOrganizationIsSourceofInfluencer" memberEnd="_ZpGKl_AJEe6-4aaHZrjoFg _ZpGKp_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKnPAJEe6-4aaHZrjoFg" name="InfluencerCategory">
+      <generalization xmi:id="_ZpGKnfAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKnvAJEe6-4aaHZrjoFg" name="categorizedInfluencer" visibility="public" type="_ZpGKj_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKmfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKn_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKoPAJEe6-4aaHZrjoFg" name="broaderInfluencerCategory" visibility="public" type="_ZpGKnPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKpPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKofAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKovAJEe6-4aaHZrjoFg" name="narrowerInfluencerCategory" visibility="public" type="_ZpGKnPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKpPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKo_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKpPAJEe6-4aaHZrjoFg" name="BroaderInfluencerCategorizesNarrowerInfluencerCategory" memberEnd="_ZpGKoPAJEe6-4aaHZrjoFg _ZpGKovAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKpfAJEe6-4aaHZrjoFg" name="InfluencingOrganization">
+      <generalization xmi:id="_ZpGKpvAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKp_AJEe6-4aaHZrjoFg" name="providedInfluencer" visibility="public" type="_ZpGKj_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKm_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKqPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKqfAJEe6-4aaHZrjoFg" name="categorizingOrganizationCategory" visibility="public" type="_ZpGK4vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKrvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKqvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKq_AJEe6-4aaHZrjoFg" name="influencingOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKr_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKrPAJEe6-4aaHZrjoFg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZpGKrfAJEe6-4aaHZrjoFg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKrvAJEe6-4aaHZrjoFg" name="OrganizationCategoryCategorizesInfluencingOrganization" memberEnd="_ZpGKqfAJEe6-4aaHZrjoFg _ZpGK5PAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKr_AJEe6-4aaHZrjoFg" name="OrganizationUnitActsAsInfluencingOrganization" memberEnd="_ZpGKq_AJEe6-4aaHZrjoFg _ZpGK9_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKsPAJEe6-4aaHZrjoFg" name="InternalInfluencer">
+      <generalization xmi:id="_ZpGKsfAJEe6-4aaHZrjoFg" general="_ZpGKj_AJEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKsvAJEe6-4aaHZrjoFg" name="Liability">
+      <generalization xmi:id="_ZpGKs_AJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKtPAJEe6-4aaHZrjoFg" name="dischargingCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKSvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKtfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKtvAJEe6-4aaHZrjoFg" name="responsibleOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKuvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKt_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKuPAJEe6-4aaHZrjoFg" name="claimedResource" visibility="public" type="_ZpGLDfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKu_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKufAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKuvAJEe6-4aaHZrjoFg" name="OrganizationUnitIsResponsibleForLiability" memberEnd="_ZpGKtvAJEe6-4aaHZrjoFg _ZpGK-fAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKu_AJEe6-4aaHZrjoFg" name="LiabilityClaimsResource" memberEnd="_ZpGKuPAJEe6-4aaHZrjoFg _ZpGLEfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKvPAJEe6-4aaHZrjoFg" name="Means">
+      <generalization xmi:id="_ZpGKvfAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKvvAJEe6-4aaHZrjoFg" name="judgingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ6fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKv_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKwPAJEe6-4aaHZrjoFg" name="establishingOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKwvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKwfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKwvAJEe6-4aaHZrjoFg" name="OrganizationUnitEstablishesMeans" memberEnd="_ZpGKwPAJEe6-4aaHZrjoFg _ZpGK-_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKw_AJEe6-4aaHZrjoFg" name="Mission">
+      <generalization xmi:id="_ZpGKxPAJEe6-4aaHZrjoFg" general="_ZpGKvPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGKxfAJEe6-4aaHZrjoFg" name="missionComponent" visibility="public" type="_ZpGLF_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKyvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKxvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGKx_AJEe6-4aaHZrjoFg" name="operativeVision" visibility="public" type="_ZpGLJvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKy_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGKyPAJEe6-4aaHZrjoFg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZpGKyfAJEe6-4aaHZrjoFg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKyvAJEe6-4aaHZrjoFg" name="StrategyIsAComponentfOfThe PlanForMIssion" memberEnd="_ZpGKxfAJEe6-4aaHZrjoFg _ZpGLGfAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGKy_AJEe6-4aaHZrjoFg" name="MissionMakesOperativeVision" memberEnd="_ZpGKx_AJEe6-4aaHZrjoFg _ZpGLKvAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGKzPAJEe6-4aaHZrjoFg" name="MotivationElement">
+      <ownedAttribute xmi:id="_ZpGKzfAJEe6-4aaHZrjoFg" name="name" visibility="private">
+        <eAnnotations xmi:id="_ZpGKzvAJEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_ZpGKz_AJEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK0PAJEe6-4aaHZrjoFg" name="description" visibility="private">
+        <eAnnotations xmi:id="_ZpGK0fAJEe6-4aaHZrjoFg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_ZpGK0vAJEe6-4aaHZrjoFg" name="isNoType"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGK0_AJEe6-4aaHZrjoFg" name="Objective">
+      <generalization xmi:id="_ZpGK1PAJEe6-4aaHZrjoFg" general="_ZpGKTPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGK1fAJEe6-4aaHZrjoFg" name="quantifiedGoal" visibility="public" type="_ZpGKhvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKjfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK1vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGK1_AJEe6-4aaHZrjoFg" name="Offering">
+      <generalization xmi:id="_ZpGK2PAJEe6-4aaHZrjoFg" general="_ZpGKfvAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGK2fAJEe6-4aaHZrjoFg" name="deliveringBusinessProcess" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKI_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK2vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK2_AJEe6-4aaHZrjoFg" name="definingCourseOfAction" visibility="public" type="_ZpGKLfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKS_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK3PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK3fAJEe6-4aaHZrjoFg" name="usedFixedAsset" visibility="public" type="_ZpGKfvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKhPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK3vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK3_AJEe6-4aaHZrjoFg" name="requiredResource" visibility="public" type="_ZpGLDfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK4fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK4PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGK4fAJEe6-4aaHZrjoFg" name="OfferingRequiresResource" memberEnd="_ZpGK3_AJEe6-4aaHZrjoFg _ZpGLE_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGK4vAJEe6-4aaHZrjoFg" name="OrganizationCategory">
+      <generalization xmi:id="_ZpGK4_AJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGK5PAJEe6-4aaHZrjoFg" name="categorizedInfluencingOrganization" visibility="public" type="_ZpGKpfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKrvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK5fAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK5vAJEe6-4aaHZrjoFg" name="broaderOrganizationCategory" visibility="public" type="_ZpGK4vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK6vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK5_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK6PAJEe6-4aaHZrjoFg" name="narrowerOrganizationCategory" visibility="public" type="_ZpGK4vAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK6vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK6fAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGK6vAJEe6-4aaHZrjoFg" name="BroaderOrganizationCategoryCategorizesNarrowerOrganizationCategory" memberEnd="_ZpGK5vAJEe6-4aaHZrjoFg _ZpGK6PAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGK6_AJEe6-4aaHZrjoFg" name="OrganizationUnit">
+      <generalization xmi:id="_ZpGK7PAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGK7fAJEe6-4aaHZrjoFg" name="madeAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ5vAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK7vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK7_AJEe6-4aaHZrjoFg" name="managedAsset" visibility="public" type="_ZpGJ9_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKAvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK8PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK8fAJEe6-4aaHZrjoFg" name="managedBusinessProcess" visibility="public" type="_ZpGKEvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKIfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK8vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK8_AJEe6-4aaHZrjoFg" name="definedEnd" visibility="public" type="_ZpGKdvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKe_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK9PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK9fAJEe6-4aaHZrjoFg" name="recognizedInfluencer" visibility="public" type="_ZpGKj_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKmvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK9vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK9_AJEe6-4aaHZrjoFg" name="internalInfluencingOrganization" visibility="public" type="_ZpGKpfAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKr_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK-PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK-fAJEe6-4aaHZrjoFg" name="managedLiability" visibility="public" type="_ZpGKsvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKuvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK-vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK-_AJEe6-4aaHZrjoFg" name="establishedMeans" visibility="public" type="_ZpGKvPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKwvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK_PAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGK_fAJEe6-4aaHZrjoFg" name="determiningStrategy" visibility="public" type="_ZpGLF_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK__AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGK_vAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGK__AJEe6-4aaHZrjoFg" name="StrategyDeterminesOrganizationUnit" memberEnd="_ZpGK_fAJEe6-4aaHZrjoFg _ZpGLG_AJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLAPAJEe6-4aaHZrjoFg" name="PotentialImpact">
+      <generalization xmi:id="_ZpGLAfAJEe6-4aaHZrjoFg" general="_ZpGKzPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLAvAJEe6-4aaHZrjoFg" name="identifyingAssessment" visibility="public" type="_ZpGJ1PAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGJ7fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLA_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLBPAJEe6-4aaHZrjoFg" name="motivatedDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKdPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLBfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLBvAJEe6-4aaHZrjoFg" name="PotentialReward">
+      <generalization xmi:id="_ZpGLB_AJEe6-4aaHZrjoFg" general="_ZpGLAPAJEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLCPAJEe6-4aaHZrjoFg" name="Regulation">
+      <generalization xmi:id="_ZpGLCfAJEe6-4aaHZrjoFg" general="_ZpGKfPAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLCvAJEe6-4aaHZrjoFg" name="regulatingDirective" visibility="public" type="_ZpGKZPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKdfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLC_AJEe6-4aaHZrjoFg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZpGLDPAJEe6-4aaHZrjoFg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLDfAJEe6-4aaHZrjoFg" name="Resource">
+      <generalization xmi:id="_ZpGLDvAJEe6-4aaHZrjoFg" general="_ZpGJ9_AJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLD_AJEe6-4aaHZrjoFg" name="providingFixedAsset" visibility="public" type="_ZpGKfvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKhfAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLEPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLEfAJEe6-4aaHZrjoFg" name="claimingLiability" visibility="public" type="_ZpGKsvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKu_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLEvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLE_AJEe6-4aaHZrjoFg" name="requiringOffering" visibility="public" type="_ZpGK1_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK4fAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLFPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLFfAJEe6-4aaHZrjoFg" name="Risk">
+      <generalization xmi:id="_ZpGLFvAJEe6-4aaHZrjoFg" general="_ZpGLAPAJEe6-4aaHZrjoFg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLF_AJEe6-4aaHZrjoFg" name="Strategy">
+      <generalization xmi:id="_ZpGLGPAJEe6-4aaHZrjoFg" general="_ZpGKLfAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLGfAJEe6-4aaHZrjoFg" name="plannedMission" visibility="public" type="_ZpGKw_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKyvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLGvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLG_AJEe6-4aaHZrjoFg" name="determinedOrganizationUnit" visibility="public" type="_ZpGK6_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGK__AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLHPAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLHfAJEe6-4aaHZrjoFg" name="implementingTactic" visibility="public" type="_ZpGLIPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGLH_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLHvAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZpGLH_AJEe6-4aaHZrjoFg" name="TacticImplementsStrategy" memberEnd="_ZpGLHfAJEe6-4aaHZrjoFg _ZpGLJPAJEe6-4aaHZrjoFg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLIPAJEe6-4aaHZrjoFg" name="Tactic">
+      <generalization xmi:id="_ZpGLIfAJEe6-4aaHZrjoFg" general="_ZpGKLfAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLIvAJEe6-4aaHZrjoFg" name="enforcedBusinessRule" visibility="public" type="_ZpGKJPAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKLPAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLI_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLJPAJEe6-4aaHZrjoFg" name="implementedStrategy" visibility="public" type="_ZpGLF_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGLH_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLJfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZpGLJvAJEe6-4aaHZrjoFg" name="Vision">
+      <generalization xmi:id="_ZpGLJ_AJEe6-4aaHZrjoFg" general="_ZpGKdvAJEe6-4aaHZrjoFg"/>
+      <ownedAttribute xmi:id="_ZpGLKPAJEe6-4aaHZrjoFg" name="amplifyingGoal" visibility="public" type="_ZpGKhvAJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKjvAJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLKfAJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZpGLKvAJEe6-4aaHZrjoFg" name="deliveringMission" visibility="public" type="_ZpGKw_AJEe6-4aaHZrjoFg" isReadOnly="true" association="_ZpGKy_AJEe6-4aaHZrjoFg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZpGLK_AJEe6-4aaHZrjoFg" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+//[[STARTEND]]
+public class Assessment {
+    public OrganizationUnit assessingOrganizationUnit;
+    public AssessmentCategory categorizingAssessmentCategory;
+    public Assessment usingAssessment;
+    public Means affectedMeans;
+    public Directive motivatedDirective;
+    public End affectedEnd;
+    public Assessment usedAssessment;
+    public Influencer judgedInfluencer;
+    public PotentialImpact identifiedPotentialImpact;
+}
+
+public class AssessmentCategory {
+    public Assessment categorizedAssessment;
+    public AssessmentCategory broaderAssessmentCategory;
+    public AssessmentCategory narrowerAssessmentCategory;
+}
+
+public class Asset {
+    public Offering deliveredOffering;
+    public OrganizationUnit responsibleOrganizationUnit;
+    public Directive governingDirective;
+    public CourseOfAction deployingCourseOfAction;
+}
+
+public class BusinessPolicy {
+    public BusinessPolicy broaderBusinessPolicy;
+    public BusinessRule derivedBusinessRule;
+    public BusinessPolicy moreSpecificBusinessPolicy;
+    public BusinessProcess governedBusinessProcess;
+}
+
+public class BusinessProcess {
+    public Asset managedAsset;
+    public BusinessPolicy governingBusinessPolicy;
+    public BusinessRule guidingBusinessRule;
+    public OrganizationUnit responsibleOrganizationUnit;
+    public CourseOfAction realizedCourseOfAction;
+    public Offering deliveredOffering;
+}
+
+public class BusinessRule {
+    public BusinessPolicy baseBusinessPolicy;
+    public BusinessProcess guidedBusinessProcess;
+    public Tactic effectingTactic;
+}
+
+public class CourseOfAction {
+    public Asset deployedAsset;
+    public BusinessProcess realizingBusinessProcess;
+    public Directive governingDirective;
+    public CourseOfAction enablingCourseOfAction;
+    public CourseOfAction broaderCourseOfAction;
+    public Directive baseDirective;
+    public DesiredResult supportedDesiredResult;
+    public CourseOfAction enabledCourseOfAction;
+    public Liability dischargedLiability;
+    public Offering definedOffering;
+    public CourseOfAction moreSpecificCourseOfAction;
+}
+
+public class DesiredResult {
+    public CourseOfAction supportingCourseOfAction;
+    public DesiredResult broaderDesiredResult;
+    public Directive supportingDirective;
+    public DesiredResultCategory categorizingDesiredResultCategory;
+    public DesiredResult moreSpecficDesiredResult;
+}
+
+public class DesiredResultCategory {
+    public DesiredResult categorizedDesiredResult;
+    public DesiredResultCategory broaderDesiredResultCategory;
+    public DesiredResultCategory moreSpecificDesiredResultCategory;
+}
+
+public class Directive {
+    public Assessment motivatingAssessment;
+    public Asset governedAsset;
+    public CourseOfAction governedCourseOfAction;
+    public CourseOfAction derivedCourseOfAction;
+    public DesiredResult supportedDesiredResult;
+    public PotentialImpact motivatingPotentialImpact;
+    public Regulation directiveRegulation;
+}
+
+public class End {
+    public Assessment judgingAssessment;
+    public OrganizationUnit definingOrganizationUnit;
+}
+
+public class ExternalInfluencer extends Influencer {
+}
+
+public class FixedAsset extends Asset {
+    public Offering usingOffering;
+    public Resource providedResource;
+}
+
+public class Goal extends DesiredResult {
+    public Objective quantifyingObjective;
+    public Vision amplifiedVision;
+}
+
+public class Influencer {
+    public Assessment judgingAssessment;
+    public InfluencerCategory categorizingInfluencerCategory;
+    public OrganizationUnit recognizingOrganizationUnit;
+    public InfluencingOrganization sourceInfluencingOrganization;
+}
+
+public class InfluencerCategory {
+    public Influencer categorizedInfluencer;
+    public InfluencerCategory broaderInfluencerCategory;
+    public InfluencerCategory narrowerInfluencerCategory;
+}
+
+public class InfluencingOrganization {
+    public Influencer providedInfluencer;
+    public OrganizationCategory categorizingOrganizationCategory;
+    public OrganizationUnit influencingOrganizationUnit;
+}
+
+public class InternalInfluencer extends Influencer {
+}
+
+public class Liability {
+    public CourseOfAction dischargingCourseOfAction;
+    public OrganizationUnit responsibleOrganizationUnit;
+    public Resource claimedResource;
+}
+
+public class Means {
+    public Assessment judgingAssessment;
+    public OrganizationUnit establishingOrganizationUnit;
+}
+
+public class Mission extends Means {
+    public Strategy missionComponent;
+    public Vision operativeVision;
+}
+
+public class MotivationElement {
+    private String name;
+    private String description;
+}
+
+public class Objective extends DesiredResult {
+    public Goal quantifiedGoal;
+}
+
+public class Offering extends FixedAsset {
+    public BusinessProcess deliveringBusinessProcess;
+    public CourseOfAction definingCourseOfAction;
+    public FixedAsset usedFixedAsset;
+    public Resource requiredResource;
+}
+
+public class OrganizationCategory {
+    public InfluencingOrganization categorizedInfluencingOrganization;
+    public OrganizationCategory broaderOrganizationCategory;
+    public OrganizationCategory narrowerOrganizationCategory;
+}
+
+public class OrganizationUnit {
+    public Assessment madeAssessment;
+    public Asset managedAsset;
+    public BusinessProcess managedBusinessProcess;
+    public End definedEnd;
+    public Influencer recognizedInfluencer;
+    public InfluencingOrganization internalInfluencingOrganization;
+    public Liability managedLiability;
+    public Means establishedMeans;
+    public Strategy determiningStrategy;
+}
+
+public class PotentialImpact extends MotivationElement {
+    public Assessment identifyingAssessment;
+    public Directive motivatedDirective;
+}
+
+public class PotentialReward extends PotentialImpact {
+}
+
+public class Regulation extends ExternalInfluencer {
+    public Directive regulatingDirective;
+}
+
+public class Resource {
+    public FixedAsset providingFixedAsset;
+    public Liability claimingLiability;
+    public Offering requiringOffering;
+}
+
+public class Risk extends PotentialImpact {
+}
+
+public class Strategy extends CourseOfAction {
+    public Mission plannedMission;
+    public OrganizationUnit determinedOrganizationUnit;
+    public Tactic implementingTactic;
+}
+
+public class Tactic extends CourseOfAction {
+    public BusinessRule enforcedBusinessRule;
+    public Strategy implementedStrategy;
+}
+
+public class Vision extends End {
+    public Goal amplifyingGoal;
+    public Mission deliveringMission;
+}
+//[[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The attributes of several classes did not have their relation cardinality translated correctly.
+Multiple classes are missing an extends.
+ChatGPT
+java
+Copy code
+//[[STARTEND]]
+public class Assessment extends MotivationElement {
+    public OrganizationUnit assessingOrganizationUnit;
+    public AssessmentCategory[] categorizingAssessmentCategory;
+    public Assessment[] usingAssessment;
+    public Means[] affectedMeans;
+    public Directive[] motivatedDirective;
+    public End[] affectedEnd;
+    public Assessment[] usedAssessment;
+    public Influencer[] judgedInfluencer;
+    public PotentialImpact[] identifiedPotentialImpact;
+}
+
+public class AssessmentCategory extends MotivationElement {
+    public Assessment[] categorizedAssessment;
+    public AssessmentCategory broaderAssessmentCategory;
+    public AssessmentCategory[] narrowerAssessmentCategory;
+}
+
+public class Asset extends Means {
+    public Offering[] deliveredOffering;
+    public OrganizationUnit responsibleOrganizationUnit;
+    public Directive governingDirective;
+    public CourseOfAction deployingCourseOfAction;
+}
+
+public class BusinessPolicy extends Directive {
+    public BusinessPolicy broaderBusinessPolicy;
+    public BusinessRule[] derivedBusinessRule;
+    public BusinessPolicy[] moreSpecificBusinessPolicy;
+    public BusinessProcess[] governedBusinessProcess;
+}
+
+public class BusinessProcess extends MotivationElement {
+    public Asset[] managedAsset;
+    public BusinessPolicy[] governingBusinessPolicy;
+    public BusinessRule[] guidingBusinessRule;
+    public OrganizationUnit responsibleOrganizationUnit;
+    public CourseOfAction[] realizedCourseOfAction;
+    public Offering[] deliveredOffering;
+}
+
+public class BusinessRule extends Directive {
+    public BusinessPolicy baseBusinessPolicy;
+    public BusinessProcess[] guidedBusinessProcess;
+    public Tactic[] effectingTactic;
+}
+
+public class CourseOfAction extends MotivationElement {
+    public Asset[] deployedAsset;
+    public BusinessProcess[] realizingBusinessProcess;
+    public Directive[] governingDirective;
+    public CourseOfAction enablingCourseOfAction;
+    public CourseOfAction broaderCourseOfAction;
+    public Directive baseDirective;
+    public DesiredResult[] supportedDesiredResult;
+    public CourseOfAction[] enabledCourseOfAction;
+    public Liability[] dischargedLiability;
+    public Offering[] definedOffering;
+    public CourseOfAction[] moreSpecificCourseOfAction;
+}
+
+public class DesiredResult extends MotivationElement {
+    public CourseOfAction[] supportingCourseOfAction;
+    public DesiredResult broaderDesiredResult;
+    public Directive[] supportingDirective;
+    public DesiredResultCategory categorizingDesiredResultCategory;
+    public DesiredResult[] moreSpecficDesiredResult;
+}
+
+public class DesiredResultCategory extends MotivationElement {
+    public DesiredResult[] categorizedDesiredResult;
+    public DesiredResultCategory broaderDesiredResultCategory;
+    public DesiredResultCategory[] moreSpecificDesiredResultCategory;
+}
+
+public class Directive extends MotivationElement {
+    public Assessment[] motivatingAssessment;
+    public Asset[] governedAsset;
+    public CourseOfAction[] governedCourseOfAction;
+    public CourseOfAction[] derivedCourseOfAction;
+    public DesiredResult[] supportedDesiredResult;
+    public PotentialImpact[] motivatingPotentialImpact;
+    public Regulation[] directiveRegulation;
+}
+
+public class End extends MotivationElement {
+    public Assessment[] judgingAssessment;
+    public OrganizationUnit definingOrganizationUnit;
+}
+
+public class ExternalInfluencer extends Influencer {
+}
+
+public class FixedAsset extends Asset {
+    public Offering[] usingOffering;
+    public Resource[] providedResource;
+}
+
+public class Goal extends DesiredResult {
+    public Objective[] quantifyingObjective;
+    public Vision[] amplifiedVision;
+}
+
+public class Influencer extends MotivationElement {
+    public Assessment[] judgingAssessment;
+    public InfluencerCategory categorizingInfluencerCategory;
+    public OrganizationUnit[] recognizingOrganizationUnit;
+    public InfluencingOrganization sourceInfluencingOrganization;
+}
+
+public class InfluencerCategory extends MotivationElement {
+    public Influencer[] categorizedInfluencer;
+    public InfluencerCategory broaderInfluencerCategory;
+    public InfluencerCategory[] narrowerInfluencerCategory;
+}
+
+public class InfluencingOrganization extends MotivationElement {
+    public Influencer[] providedInfluencer;
+    public OrganizationCategory categorizingOrganizationCategory;
+    public OrganizationUnit influencingOrganizationUnit;
+}
+
+public class InternalInfluencer extends Influencer {
+}
+
+public class Liability extends MotivationElement {
+    public CourseOfAction[] dischargingCourseOfAction;
+    public OrganizationUnit[] responsibleOrganizationUnit;
+    public Resource[] claimedResource;
+}
+
+public class Means extends MotivationElement {
+    public Assessment[] judgingAssessment;
+    public OrganizationUnit establishingOrganizationUnit;
+}
+
+public class Mission extends Means {
+    public Strategy[] missionComponent;
+    public Vision[] operativeVision;
+}
+
+public class MotivationElement {
+    protected String name;
+    protected String description;
+}
+
+public class Objective extends DesiredResult {
+    public Goal[] quantifiedGoal;
+}
+
+public class Offering extends FixedAsset {
+    public BusinessProcess[] deliveringBusinessProcess;
+    public CourseOfAction[] definingCourseOfAction;
+    public FixedAsset[] usedFixedAsset;
+    public Resource[] requiredResource;
+}
+
+public class OrganizationCategory extends MotivationElement {
+    public InfluencingOrganization[] categorizedInfluencingOrganization;
+    public OrganizationCategory broaderOrganizationCategory;
+    public OrganizationCategory[] narrowerOrganizationCategory;
+}
+
+public class OrganizationUnit extends MotivationElement {
+    public Assessment[] madeAssessment;
+    public Asset[] managedAsset;
+    public BusinessProcess[] managedBusinessProcess;
+    public End[] definedEnd;
+    public Influencer[] recognizedInfluencer;
+    public InfluencingOrganization internalInfluencingOrganization;
+    public Liability[] managedLiability;
+    public Means[] establishedMeans;
+    public Strategy[] determiningStrategy;
+}
+
+public class PotentialImpact extends MotivationElement {
+    public Assessment[] identifyingAssessment;
+    public Directive[] motivatedDirective;
+}
+
+public class PotentialReward extends PotentialImpact {
+}
+
+public class Regulation extends ExternalInfluencer {
+    public Directive regulatingDirective;
+}
+
+public class Resource extends Asset {
+    public FixedAsset[] providingFixedAsset;
+    public Liability[] claimingLiability;
+    public Offering[] requiringOffering;
+}
+
+public class Risk extends PotentialImpact {
+}
+
+public class Strategy extends CourseOfAction {
+    public Mission[] plannedMission;
+    public OrganizationUnit determinedOrganizationUnit;
+    public Tactic[] implementingTactic;
+}
+
+public class Tactic extends CourseOfAction {
+    public BusinessRule[] enforcedBusinessRule;
+    public Strategy[] implementedStrategy;
+}
+
+public class Vision extends End {
+    public Goal[] amplifyingGoal;
+    public Mission[] deliveringMission;
+}
+//[[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

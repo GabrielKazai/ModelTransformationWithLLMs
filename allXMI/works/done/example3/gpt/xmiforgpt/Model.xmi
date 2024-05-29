@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_b8b3sPAEEe6i4a0QcJFHYQ" name="Model">
+  <eAnnotations xmi:id="_b8b3sfAEEe6i4a0QcJFHYQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_b8b3svAEEe6i4a0QcJFHYQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_b8b3s_AEEe6i4a0QcJFHYQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Node" xmi:id="_b8b3tPAEEe6i4a0QcJFHYQ" name="Node"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_b8b3tfAEEe6i4a0QcJFHYQ" name="WebServer">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_b8b3tvAEEe6i4a0QcJFHYQ" name="monitorablePort" type="_b8b3uvAEEe6i4a0QcJFHYQ"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_b8b3t_AEEe6i4a0QcJFHYQ" name="controllablePort" type="_b8b3ufAEEe6i4a0QcJFHYQ"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_b8b3uPAEEe6i4a0QcJFHYQ" name="classTypedPort" type="_b8b3vfAEEe6i4a0QcJFHYQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_b8b3ufAEEe6i4a0QcJFHYQ" name="IMaxClientsControl" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_b8b3uvAEEe6i4a0QcJFHYQ" name="IAvgResponseTimeMonitor" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_b8b3u_AEEe6i4a0QcJFHYQ" name="IBaseProvidedInterface" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_b8b3vPAEEe6i4a0QcJFHYQ" name="IBaseRequiredInterface" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b8b3vfAEEe6i4a0QcJFHYQ" name="MaxClientsControl" clientDependency="_b8b3v_AEEe6i4a0QcJFHYQ">
+    <generalization xmi:id="_b8b3vvAEEe6i4a0QcJFHYQ" general="_b8b3wPAEEe6i4a0QcJFHYQ"/>
+    <interfaceRealization xmi:id="_b8b3v_AEEe6i4a0QcJFHYQ" supplier="_b8b3ufAEEe6i4a0QcJFHYQ" client="_b8b3vfAEEe6i4a0QcJFHYQ" contract="_b8b3ufAEEe6i4a0QcJFHYQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b8b3wPAEEe6i4a0QcJFHYQ" name="BaseClass" clientDependency="_b8b3wfAEEe6i4a0QcJFHYQ">
+    <interfaceRealization xmi:id="_b8b3wfAEEe6i4a0QcJFHYQ" supplier="_b8b3u_AEEe6i4a0QcJFHYQ" client="_b8b3wPAEEe6i4a0QcJFHYQ" contract="_b8b3u_AEEe6i4a0QcJFHYQ"/>
+  </packagedElement>
+</uml:Model>

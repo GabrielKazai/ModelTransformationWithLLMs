@@ -1,0 +1,30 @@
+Table Compare
+Produced: 2024-04-09 09:13:12
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\ClockTower\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\ClockTower\gpt\gptoutput\cleanGPT.java
+1:                            2:    1:                             2:
+---------------------------------------------------------------------
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+                                 +-
+}                                +-
+                                 -+ package ClockTower.Environment
+private Clock                    +-
+private Clock                    +-
+                                 -+ private Clock clock
+private ClockTower               +-
+                                 -+ private ClockTower clockTower
+                                 -+ private int currentMinute
+private int currentMinute = 0    +-
+                                 -+ public int currentHour
+public int currentHour = 0       +-
+public void Clock() {            +-
+---------------------------------------------------------------------

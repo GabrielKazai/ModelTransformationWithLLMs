@@ -1,0 +1,12 @@
+The class AvailabilityStatusCodeType is not meant to be a class.
+The class BedCategoryCodeType is not meant to be a class.
+The class CapacityStatusCodeType is not meant to be a class.
+The class ClinicalStatusCodeType is not meant to be a class.
+The class DeconCapacityCodeType is not meant to be a class.
+The class EMSOffloadStatusCodeType is not meant to be a class.
+The class EMSTrafficStatusCodeType is not meant to be a class.
+The class EOCPlanCodeType is not meant to be a class.
+The class EOCStatusCodeType is not meant to be a class.
+The class FacilityStatusCodeType is not meant to be a class.
+The class MorgueCapacityCodeType is not meant to be a class.
+The class SecurityStatusCodeType is not meant to be a class.

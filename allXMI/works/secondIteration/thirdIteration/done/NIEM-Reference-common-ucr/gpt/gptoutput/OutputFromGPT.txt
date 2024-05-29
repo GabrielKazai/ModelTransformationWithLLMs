@@ -1,0 +1,262 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Classes Generation
+
+
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+Java Classes from UML
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+Java Code Generation
+New chat
+New chat
+New chat
+New chat
+Java Code from XMI
+Java Code Generation
+New chat
+New chat
+New chat
+New chat
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_9VdUQO3HEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_9VdUQe3HEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_9VdUQu3HEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9VdUQ-3HEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9VdURO3HEe6yiIkslZcBIA" name="ucr">
+    <packagedElement xmi:type="uml:Package" xmi:id="_9VdURe3HEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9VdURu3HEe6yiIkslZcBIA" name="ucr">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_9VdUR-3HEe6yiIkslZcBIA" name="OffenseCodeSimpleType">
+          <ownedLiteral xmi:id="_9VdUSO3HEe6yiIkslZcBIA" name="240"/>
+          <ownedLiteral xmi:id="_9VdUSe3HEe6yiIkslZcBIA" name="36A"/>
+          <ownedLiteral xmi:id="_9VdUSu3HEe6yiIkslZcBIA" name="26E"/>
+          <ownedLiteral xmi:id="_9VdUS-3HEe6yiIkslZcBIA" name="510"/>
+          <ownedLiteral xmi:id="_9VdUTO3HEe6yiIkslZcBIA" name="11C"/>
+          <ownedLiteral xmi:id="_9VdUTe3HEe6yiIkslZcBIA" name="90H"/>
+          <ownedLiteral xmi:id="_9VdUTu3HEe6yiIkslZcBIA" name="220"/>
+          <ownedLiteral xmi:id="_9VdUT-3HEe6yiIkslZcBIA" name="23F"/>
+          <ownedLiteral xmi:id="_9VdUUO3HEe6yiIkslZcBIA" name="13A"/>
+          <ownedLiteral xmi:id="_9VdUUe3HEe6yiIkslZcBIA" name="23C"/>
+          <ownedLiteral xmi:id="_9VdUUu3HEe6yiIkslZcBIA" name="26B"/>
+          <ownedLiteral xmi:id="_9VdUU-3HEe6yiIkslZcBIA" name="200"/>
+          <ownedLiteral xmi:id="_9VdUVO3HEe6yiIkslZcBIA" name="100"/>
+          <ownedLiteral xmi:id="_9VdUVe3HEe6yiIkslZcBIA" name="290"/>
+          <ownedLiteral xmi:id="_9VdUVu3HEe6yiIkslZcBIA" name="09C"/>
+          <ownedLiteral xmi:id="_9VdUV-3HEe6yiIkslZcBIA" name="23G"/>
+          <ownedLiteral xmi:id="_9VdUWO3HEe6yiIkslZcBIA" name="90G"/>
+          <ownedLiteral xmi:id="_9VdUWe3HEe6yiIkslZcBIA" name="23D"/>
+          <ownedLiteral xmi:id="_9VdUWu3HEe6yiIkslZcBIA" name="39D"/>
+          <ownedLiteral xmi:id="_9VdUW-3HEe6yiIkslZcBIA" name="90D"/>
+          <ownedLiteral xmi:id="_9VdUXO3HEe6yiIkslZcBIA" name="250"/>
+          <ownedLiteral xmi:id="_9VdUXe3HEe6yiIkslZcBIA" name="90B"/>
+          <ownedLiteral xmi:id="_9VdUXu3HEe6yiIkslZcBIA" name="90Z"/>
+          <ownedLiteral xmi:id="_9VdUX-3HEe6yiIkslZcBIA" name="26C"/>
+          <ownedLiteral xmi:id="_9VdUYO3HEe6yiIkslZcBIA" name="23A"/>
+          <ownedLiteral xmi:id="_9VdUYe3HEe6yiIkslZcBIA" name="09A"/>
+          <ownedLiteral xmi:id="_9VdUYu3HEe6yiIkslZcBIA" name="23E"/>
+          <ownedLiteral xmi:id="_9VdUY-3HEe6yiIkslZcBIA" name="90J"/>
+          <ownedLiteral xmi:id="_9VdUZO3HEe6yiIkslZcBIA" name="270"/>
+          <ownedLiteral xmi:id="_9VdUZe3HEe6yiIkslZcBIA" name="35A"/>
+          <ownedLiteral xmi:id="_9VdUZu3HEe6yiIkslZcBIA" name="520"/>
+          <ownedLiteral xmi:id="_9VdUZ-3HEe6yiIkslZcBIA" name="36B"/>
+          <ownedLiteral xmi:id="_9VdUaO3HEe6yiIkslZcBIA" name="39B"/>
+          <ownedLiteral xmi:id="_9VdUae3HEe6yiIkslZcBIA" name="23B"/>
+          <ownedLiteral xmi:id="_9VdUau3HEe6yiIkslZcBIA" name="40A"/>
+          <ownedLiteral xmi:id="_9VdUa-3HEe6yiIkslZcBIA" name="13C"/>
+          <ownedLiteral xmi:id="_9VdUbO3HEe6yiIkslZcBIA" name="90C"/>
+          <ownedLiteral xmi:id="_9VdUbe3HEe6yiIkslZcBIA" name="210"/>
+          <ownedLiteral xmi:id="_9VdUbu3HEe6yiIkslZcBIA" name="11B"/>
+          <ownedLiteral xmi:id="_9VdUb-3HEe6yiIkslZcBIA" name="40B"/>
+          <ownedLiteral xmi:id="_9VdUcO3HEe6yiIkslZcBIA" name="35B"/>
+          <ownedLiteral xmi:id="_9VdUce3HEe6yiIkslZcBIA" name="90I"/>
+          <ownedLiteral xmi:id="_9VdUcu3HEe6yiIkslZcBIA" name="280"/>
+          <ownedLiteral xmi:id="_9VdUc-3HEe6yiIkslZcBIA" name="13B"/>
+          <ownedLiteral xmi:id="_9VdUdO3HEe6yiIkslZcBIA" name="26A"/>
+          <ownedLiteral xmi:id="_9VdUde3HEe6yiIkslZcBIA" name="23H"/>
+          <ownedLiteral xmi:id="_9VdUdu3HEe6yiIkslZcBIA" name="90F"/>
+          <ownedLiteral xmi:id="_9VdUd-3HEe6yiIkslZcBIA" name="26D"/>
+          <ownedLiteral xmi:id="_9VdUeO3HEe6yiIkslZcBIA" name="90E"/>
+          <ownedLiteral xmi:id="_9VdUee3HEe6yiIkslZcBIA" name="09B"/>
+          <ownedLiteral xmi:id="_9VdUeu3HEe6yiIkslZcBIA" name="39A"/>
+          <ownedLiteral xmi:id="_9VdUe-3HEe6yiIkslZcBIA" name="370"/>
+          <ownedLiteral xmi:id="_9VdUfO3HEe6yiIkslZcBIA" name="90A"/>
+          <ownedLiteral xmi:id="_9VdUfe3HEe6yiIkslZcBIA" name="120"/>
+          <ownedLiteral xmi:id="_9VdUfu3HEe6yiIkslZcBIA" name="11D"/>
+          <ownedLiteral xmi:id="_9VdUf-3HEe6yiIkslZcBIA" name="11A"/>
+          <ownedLiteral xmi:id="_9VdUgO3HEe6yiIkslZcBIA" name="39C"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9VdUge3HEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_9VdUgu3HEe6yiIkslZcBIA" name="OffenseCodeType">
+          <generalization xmi:id="_9VdUg-3HEe6yiIkslZcBIA" general="_9VdUR-3HEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9VdUhO3HEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9VdUhe3HEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_9VdUhu3HEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9VdUh-3HEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_9VdUiO3HEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_9VdUie3HEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_9VdUiu3HEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9VdUi-3HEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_9VdUjO3HEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9VdUje3HEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_9VdUju3HEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_9VdUj-3HEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_9VdUkO3HEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_9VdUke3HEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_9VdUku3HEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_9VdUk-3HEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_9VdUlO3HEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_9VdUle3HEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_9VdUlu3HEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_9VdUl-3HEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_9VdUmO3HEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_9VdUme3HEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum OffenseCodeSimpleType {
+    _240,
+    _36A,
+    _26E,
+    _510,
+    _11C,
+    _90H,
+    _220,
+    _23F,
+    _13A,
+    _23C,
+    _26B,
+    _200,
+    _100,
+    _290,
+    _09C,
+    _23G,
+    _90G,
+    _23D,
+    _39D,
+    _90D,
+    _250,
+    _90B,
+    _90Z,
+    _26C,
+    _23A,
+    _09A,
+    _23E,
+    _90J,
+    _270,
+    _35A,
+    _520,
+    _36B,
+    _39B,
+    _23B,
+    _40A,
+    _13C,
+    _90C,
+    _210,
+    _11B,
+    _40B,
+    _35B,
+    _90I,
+    _280,
+    _13B,
+    _26A,
+    _23H,
+    _90F,
+    _26D,
+    _90E,
+    _09B,
+    _39A,
+    _370,
+    _90A,
+    _120,
+    _11D,
+    _11A,
+    _39C
+}
+
+public enum OffenseCodeType extends OffenseCodeSimpleType {
+}
+
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable
+}
+
+public class NamespaceElementPropertyHolder {
+}
+// [[STARTEND]]
+
+
+
+
+Is this conversation helpful so far?
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

@@ -1,0 +1,19 @@
+Text Compare
+Produced: 2024-04-09 08:57:47
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example3\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\example3\gpt\gptoutput\cleanGPT.java
+                                                           +-
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+                                                           -+ public class BaseClass implements IBaseProvidedInterface {
+                                                              }
+
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+public class BaseClass implements IBaseProvidedInterface { <> public class WebServer {
+                                                                  IAvgResponseTimeMonitor monitorablePort;
+                                                                  IMaxClientsControl controllablePort;
+                                                                  MaxClientsControl classTypedPort;
+------------------------------------------------------------------------------------------------------------------------

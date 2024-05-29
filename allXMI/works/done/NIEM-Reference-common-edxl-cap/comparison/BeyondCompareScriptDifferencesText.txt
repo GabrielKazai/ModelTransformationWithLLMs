@@ -1,0 +1,42 @@
+Text Compare
+Produced: 2024-04-05 12:10:09
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-cap\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-cap\gpt\gptoutput\cleanGPT.java
+                                              +-
+public class AlertAdapterType {
+}
+
+public class NamespaceElementPropertyHolder {
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Empty, Simple, Mixed, ElementOnly
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+    Unspecified,                              <>     Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                                 }
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,                          class AlertAdapterType {
+    ReadWriteUnsettable;                         }
+
+                                                 class NamespaceElementPropertyHolder {
+                                                     private AlertAdapterType AlertAdapter;
+---------------------------------------------------------------------------------------------------------------------------------------

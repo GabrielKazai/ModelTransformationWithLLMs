@@ -1,0 +1,38 @@
+Table Compare
+Produced: 2024-04-05 12:10:09
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-cap\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\NIEM-Reference-common-edxl-cap\gpt\gptoutput\cleanGPT.java
+1:     2:                   3:                             4: 5: 6: 7: 8:    1:     2:                             3:               4:            5:         6:                  7:                  8:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                          <>        Unspecified,                   Empty,           Simple,       Mixed,     ElementOnly
+                                                                          <>        Unspecified,                   Simple,          Attribute,    Element,   AttributeWildcard,  ElementWildcard,    Group
+       Unspecified,                                                       <>
+       Empty,                                                             <>        Unspecified,                   None,            ReadOnly,     ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+       Simple,                                                            <>
+       Mixed,                                                             <>
+       ElementOnly;                                                       <>        private                        AlertAdapterType AlertAdapter;
+                                                                          +-
+       Unspecified,                                                       +-
+       Simple,                                                            +-
+       Attribute,                                                         +-
+       Element,                                                           +-
+       AttributeWildcard,                                                 +-
+       ElementWildcard,                                                   +-
+       Group;                                                             +-
+                                                                          +-
+       Unspecified,                                                       +-
+       None,                                                              +-
+       ReadOnly,                                                          +-
+       ReadWrite,                                                         +-
+       ReadOnlyUnsettable,                                                +-
+       ReadWriteUnsettable;                                               +-
+                                                                          -+ class  AlertAdapterType               {
+                                                                          -+ class  NamespaceElementPropertyHolder {
+public class                AlertAdapterType               {              <> public enum                           ContentKind      {
+public class                NamespaceElementPropertyHolder {              <> public enum                           FeatureKind      {
+public enum                 ContentKind                    {              <> public enum                           VisibilityKind   {
+public enum                 FeatureKind                    {              +-
+public enum                 VisibilityKind                 {              +-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

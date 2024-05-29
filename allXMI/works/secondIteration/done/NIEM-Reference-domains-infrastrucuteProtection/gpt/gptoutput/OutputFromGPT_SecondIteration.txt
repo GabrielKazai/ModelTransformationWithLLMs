@@ -1,0 +1,421 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java code from XMI.
+Java Code Generation
+Java Classes from XMI
+Java Enums from XMI
+Java Class Modeling
+Yesterday
+Java Code XML Models
+Java Code from XMI.
+Java Code Generation
+Java Classes for UML
+Java Code for UML
+Java Classes: UML Conversion
+Java Model from UML
+Java Class Generation
+Java Class Generation
+Java Class Generation
+Java Classes: UML to Code
+Java Code Generation
+Java Class Creation
+Java Model Classes
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Classes for UML
+UML to Java Code
+Java Classes from XMI
+Java Classes from UML
+UML Java conversion.
+Previous 7 Days
+UML Java Code Creation
+Java Classes from XMI
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_YLWqkO3GEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_YLWqke3GEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_YLWqku3GEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_YLWqk-3GEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YLWqlO3GEe6yiIkslZcBIA" name="domains">
+    <packagedElement xmi:type="uml:Package" xmi:id="_YLWqle3GEe6yiIkslZcBIA" name="infrastructureProtection">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YLWqlu3GEe6yiIkslZcBIA" name="2.1">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YLWql-3GEe6yiIkslZcBIA" name="infrastructureProtection">
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWqmO3GEe6yiIkslZcBIA" name="AssetCategoryType">
+            <ownedAttribute xmi:id="_YLWqme3GEe6yiIkslZcBIA" name="Asset" visibility="public" type="_YLWqse3GEe6yiIkslZcBIA" aggregation="composite" association="_YLWqqO3GEe6yiIkslZcBIA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqmu3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqm-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqnO3GEe6yiIkslZcBIA" name="AssetCategoryName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqne3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqnu3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqn-3GEe6yiIkslZcBIA" name="AssetCategoryID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqoO3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqoe3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqou3GEe6yiIkslZcBIA" name="SubSegmentName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqo-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqpO3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqpe3GEe6yiIkslZcBIA" name="AssetCategoryDescriptionText" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqpu3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqp-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_YLWqqO3GEe6yiIkslZcBIA" memberEnd="_YLWqme3GEe6yiIkslZcBIA _YLWqqe3GEe6yiIkslZcBIA">
+            <ownedEnd xmi:id="_YLWqqe3GEe6yiIkslZcBIA" visibility="public" type="_YLWqmO3GEe6yiIkslZcBIA" isUnique="false" association="_YLWqqO3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWqqu3GEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder">
+            <ownedAttribute xmi:id="_YLWqq-3GEe6yiIkslZcBIA" name="SubSegmentName" aggregation="composite"/>
+            <ownedAttribute xmi:id="_YLWqrO3GEe6yiIkslZcBIA" name="SectorName" aggregation="composite"/>
+            <ownedAttribute xmi:id="_YLWqre3GEe6yiIkslZcBIA" name="SubSectorName" aggregation="composite"/>
+            <ownedAttribute xmi:id="_YLWqru3GEe6yiIkslZcBIA" name="SegmentName" aggregation="composite"/>
+            <ownedAttribute xmi:id="_YLWqr-3GEe6yiIkslZcBIA" name="AssetCategoryName" aggregation="composite"/>
+            <ownedAttribute xmi:id="_YLWqsO3GEe6yiIkslZcBIA" name="Sector" type="_YLWqx-3GEe6yiIkslZcBIA" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWqse3GEe6yiIkslZcBIA" name="AssetType">
+            <ownedAttribute xmi:id="_YLWqsu3GEe6yiIkslZcBIA" name="AssetName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqs-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqtO3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqte3GEe6yiIkslZcBIA" name="AssetID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqtu3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqt-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWquO3GEe6yiIkslZcBIA" name="AssetAliasName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWque3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWquu3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqu-3GEe6yiIkslZcBIA" name="AssetStatusCode" type="_YLWqwe3GEe6yiIkslZcBIA" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqvO3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqve3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqvu3GEe6yiIkslZcBIA" name="AssetCategoryName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqv-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqwO3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_YLWqwe3GEe6yiIkslZcBIA" name="AssetStatusCodeType">
+            <generalization xmi:id="_YLWqwu3GEe6yiIkslZcBIA" general="_YLWqw-3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_YLWqw-3GEe6yiIkslZcBIA" name="AssetStatusCodeSimpleType">
+            <ownedLiteral xmi:id="_YLWqxO3GEe6yiIkslZcBIA" name="3"/>
+            <ownedLiteral xmi:id="_YLWqxe3GEe6yiIkslZcBIA" name="2"/>
+            <ownedLiteral xmi:id="_YLWqxu3GEe6yiIkslZcBIA" name="1"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWqx-3GEe6yiIkslZcBIA" name="SectorType">
+            <ownedAttribute xmi:id="_YLWqyO3GEe6yiIkslZcBIA" name="SubSector" visibility="public" type="_YLWq1u3GEe6yiIkslZcBIA" aggregation="composite" association="_YLWq1O3GEe6yiIkslZcBIA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqye3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqyu3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqy-3GEe6yiIkslZcBIA" name="SectorName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqzO3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWqze3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWqzu3GEe6yiIkslZcBIA" name="SectorTaxonomyID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWqz-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq0O3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq0e3GEe6yiIkslZcBIA" name="SectorTaxonomyDescriptionText" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq0u3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq0-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_YLWq1O3GEe6yiIkslZcBIA" memberEnd="_YLWqyO3GEe6yiIkslZcBIA _YLWq1e3GEe6yiIkslZcBIA">
+            <ownedEnd xmi:id="_YLWq1e3GEe6yiIkslZcBIA" visibility="public" type="_YLWqx-3GEe6yiIkslZcBIA" isUnique="false" association="_YLWq1O3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWq1u3GEe6yiIkslZcBIA" name="SubsectorType">
+            <ownedAttribute xmi:id="_YLWq1-3GEe6yiIkslZcBIA" name="Segment" visibility="public" type="_YLWq6O3GEe6yiIkslZcBIA" aggregation="composite" association="_YLWq5u3GEe6yiIkslZcBIA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq2O3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq2e3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq2u3GEe6yiIkslZcBIA" name="SubSectorName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq2-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq3O3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq3e3GEe6yiIkslZcBIA" name="SubSectorTaxonomyID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq3u3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq3-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq4O3GEe6yiIkslZcBIA" name="SectorName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq4e3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq4u3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq4-3GEe6yiIkslZcBIA" name="SubSectorTaxonomyDescriptionText" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq5O3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq5e3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_YLWq5u3GEe6yiIkslZcBIA" memberEnd="_YLWq1-3GEe6yiIkslZcBIA _YLWq5-3GEe6yiIkslZcBIA">
+            <ownedEnd xmi:id="_YLWq5-3GEe6yiIkslZcBIA" visibility="public" type="_YLWq1u3GEe6yiIkslZcBIA" isUnique="false" association="_YLWq5u3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWq6O3GEe6yiIkslZcBIA" name="SegmentType">
+            <ownedAttribute xmi:id="_YLWq6e3GEe6yiIkslZcBIA" name="SubSegment" visibility="public" type="_YLWq-u3GEe6yiIkslZcBIA" aggregation="composite" association="_YLWq-O3GEe6yiIkslZcBIA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq6u3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq6-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq7O3GEe6yiIkslZcBIA" name="SegmentName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq7e3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq7u3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq7-3GEe6yiIkslZcBIA" name="SegmentTaxonomyID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq8O3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq8e3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq8u3GEe6yiIkslZcBIA" name="SubSectorName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq8-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq9O3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq9e3GEe6yiIkslZcBIA" name="SegmentTaxonomyDescriptionText" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq9u3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq9-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_YLWq-O3GEe6yiIkslZcBIA" memberEnd="_YLWq6e3GEe6yiIkslZcBIA _YLWq-e3GEe6yiIkslZcBIA">
+            <ownedEnd xmi:id="_YLWq-e3GEe6yiIkslZcBIA" visibility="public" type="_YLWq6O3GEe6yiIkslZcBIA" isUnique="false" association="_YLWq-O3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YLWq-u3GEe6yiIkslZcBIA" name="SubsegmentType">
+            <ownedAttribute xmi:id="_YLWq--3GEe6yiIkslZcBIA" name="AssetCategory" visibility="public" type="_YLWqmO3GEe6yiIkslZcBIA" aggregation="composite" association="_YLWrCu3GEe6yiIkslZcBIA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq_O3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWq_e3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWq_u3GEe6yiIkslZcBIA" name="SubSegmentName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWq_-3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWrAO3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWrAe3GEe6yiIkslZcBIA" name="SubSegmentTaxonomyID" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWrAu3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWrA-3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWrBO3GEe6yiIkslZcBIA" name="SegmentName" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWrBe3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWrBu3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_YLWrB-3GEe6yiIkslZcBIA" name="SubSegmentDescriptionText" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YLWrCO3GEe6yiIkslZcBIA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YLWrCe3GEe6yiIkslZcBIA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_YLWrCu3GEe6yiIkslZcBIA" memberEnd="_YLWq--3GEe6yiIkslZcBIA _YLWrC-3GEe6yiIkslZcBIA">
+            <ownedEnd xmi:id="_YLWrC-3GEe6yiIkslZcBIA" visibility="public" type="_YLWq-u3GEe6yiIkslZcBIA" isUnique="false" association="_YLWrCu3GEe6yiIkslZcBIA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YLWrDO3GEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_YLWrDe3GEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_YLWrDu3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_YLWrD-3GEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_YLWrEO3GEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_YLWrEe3GEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_YLWrEu3GEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_YLWrE-3GEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_YLWrFO3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_YLWrFe3GEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_YLWrFu3GEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_YLWrF-3GEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_YLWrGO3GEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_YLWrGe3GEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_YLWrGu3GEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_YLWrG-3GEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_YLWrHO3GEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_YLWrHe3GEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_YLWrHu3GEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_YLWrH-3GEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_YLWrIO3GEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_YLWrIe3GEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class AssetCategoryType {
+    public AssetType Asset;
+    public String AssetCategoryName;
+    public String AssetCategoryID;
+    public String SubSegmentName;
+    public String AssetCategoryDescriptionText;
+}
+
+public class NamespaceElementPropertyHolder {
+    public String SubSegmentName;
+    public String SectorName;
+    public String SubSectorName;
+    public String SegmentName;
+    public String AssetCategoryName;
+    public SectorType Sector;
+}
+
+public class AssetType {
+    public String AssetName;
+    public String AssetID;
+    public String AssetAliasName;
+    public AssetStatusCodeType AssetStatusCode;
+    public String AssetCategoryName;
+}
+
+public enum AssetStatusCodeType {
+    _3, _2, _1
+}
+
+public enum AssetStatusCodeSimpleType {
+    _3, _2, _1
+}
+
+public class SectorType {
+    public SubsectorType SubSector;
+    public String SectorName;
+    public String SectorTaxonomyID;
+    public String SectorTaxonomyDescriptionText;
+}
+
+public class SubsectorType {
+    public SegmentType Segment;
+    public String SubSectorName;
+    public String SubSectorTaxonomyID;
+    public String SectorName;
+    public String SubSectorTaxonomyDescriptionText;
+}
+
+public class SegmentType {
+    public SubsegmentType SubSegment;
+    public String SegmentName;
+    public String SegmentTaxonomyID;
+    public String SubSectorName;
+    public String SegmentTaxonomyDescriptionText;
+}
+
+public class SubsegmentType {
+    public AssetCategoryType AssetCategory;
+    public String SubSegmentName;
+    public String SubSegmentTaxonomyID;
+    public String SegmentName;
+    public String SubSegmentDescriptionText;
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The relation cardinality was not translated correctly for the attribute Asset.
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class AssetCategoryType {
+    public List<AssetType> Asset;
+    public String AssetCategoryName;
+    public String AssetCategoryID;
+    public String SubSegmentName;
+    public String AssetCategoryDescriptionText;
+}
+
+public class NamespaceElementPropertyHolder {
+    public String SubSegmentName;
+    public String SectorName;
+    public String SubSectorName;
+    public String SegmentName;
+    public String AssetCategoryName;
+    public SectorType Sector;
+}
+
+public class AssetType {
+    public String AssetName;
+    public String AssetID;
+    public String AssetAliasName;
+    public AssetStatusCodeType AssetStatusCode;
+    public String AssetCategoryName;
+}
+
+public enum AssetStatusCodeType {
+    _3, _2, _1
+}
+
+public enum AssetStatusCodeSimpleType {
+    _3, _2, _1
+}
+
+public class SectorType {
+    public SubsectorType SubSector;
+    public String SectorName;
+    public String SectorTaxonomyID;
+    public String SectorTaxonomyDescriptionText;
+}
+
+public class SubsectorType {
+    public SegmentType Segment;
+    public String SubSectorName;
+    public String SubSectorTaxonomyID;
+    public String SectorName;
+    public String SubSectorTaxonomyDescriptionText;
+}
+
+public class SegmentType {
+    public SubsegmentType SubSegment;
+    public String SegmentName;
+    public String SegmentTaxonomyID;
+    public String SubSectorName;
+    public String SegmentTaxonomyDescriptionText;
+}
+
+public class SubsegmentType {
+    public AssetCategoryType AssetCategory;
+    public String SubSegmentName;
+    public String SubSegmentTaxonomyID;
+    public String SegmentName;
+    public String SubSegmentDescriptionText;
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

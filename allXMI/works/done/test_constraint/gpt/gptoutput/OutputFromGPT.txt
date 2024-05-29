@@ -1,0 +1,113 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Class Contrainte Model
+
+
+Java Class Modeling
+Java Classes from UML
+Java Code from UML
+Java Model: XMI to Code
+Java Code Generation
+Yesterday
+Java Code from XMI.
+AI Assistance Available!
+Java Classes from XMI
+User Request: Title Creation
+Previous 7 Days
+New chat
+Java UML Class Generation
+Java Class Modeling Request
+Java Classes Based UML
+UML to Java Conversion
+ERRORINTHISONE
+Java UML Modeling Request
+Java UML Classes Creation
+Java UML Models
+Java UML Models
+Modelagem de Classes UML
+Java Code From XMI
+Java Code Generation
+Java UML Class Conversion
+Java UML Class Model
+Java Code Generation
+Java Classes From XMI
+Java Code Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_zQBO8O2_Ee6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_zQBO8e2_Ee6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_zQBO8u2_Ee6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_zQBO8-2_Ee6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:id="_zQBO9O2_Ee6yiIkslZcBIA" name="required" constrainedElement="_zQB2Au2_Ee6yiIkslZcBIA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_zQBO9e2_Ee6yiIkslZcBIA" value=""/>
+  </ownedRule>
+  <ownedRule xmi:id="_zQBO9u2_Ee6yiIkslZcBIA" name="minlength" constrainedElement="_zQB2Au2_Ee6yiIkslZcBIA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_zQBO9-2_Ee6yiIkslZcBIA" value="4"/>
+  </ownedRule>
+  <ownedRule xmi:id="_zQBO-O2_Ee6yiIkslZcBIA" name="maxlength" constrainedElement="_zQB2BO2_Ee6yiIkslZcBIA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_zQBO-e2_Ee6yiIkslZcBIA" value="10"/>
+  </ownedRule>
+  <ownedRule xmi:id="_zQBO-u2_Ee6yiIkslZcBIA" name="required" constrainedElement="_zQB2Bu2_Ee6yiIkslZcBIA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_zQB2AO2_Ee6yiIkslZcBIA" value="&lt;Enter constraint text here>"/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zQB2Ae2_Ee6yiIkslZcBIA" name="Contrainte">
+    <ownedAttribute xmi:id="_zQB2Au2_Ee6yiIkslZcBIA" name="notTooSmall" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_zQB2A-2_Ee6yiIkslZcBIA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zQB2BO2_Ee6yiIkslZcBIA" name="notTooBig" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_zQB2Be2_Ee6yiIkslZcBIA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zQB2Bu2_Ee6yiIkslZcBIA" name="onlyRequired" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_zQB2B-2_Ee6yiIkslZcBIA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zQB2CO2_Ee6yiIkslZcBIA" name="noConstraint" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Contrainte {
+    public String notTooSmall;
+    public String notTooBig;
+    public String onlyRequired;
+    public String noConstraint;
+}
+// [[STARTEND]]
+
+
+
+
+Is this conversation helpful so far?
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

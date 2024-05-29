@@ -1,0 +1,62 @@
+Table Compare
+Produced: 2024-04-14 13:52:32
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0modelio_wrong_typename\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0modelio_wrong_typename\gpt\gptoutput\cleanGPT_SecondIteration.java
+1:                                                           2:    1:                           2:
+--------------------------------------------------------------------------------------------------
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                +-
+                                                                -+ }
+private dateTime endDate                                        +-
+                                                                -+ private DateTime endDate
+private dateTime hireDate                                       +-
+                                                                -+ private DateTime hireDate
+private dateTime startDate                                      +-
+                                                                -+ private DateTime startDate
+                                                                -+ private Employee[] employees
+private List<Employee> employees = new ArrayList<Employee>()    +-
+private List<Task> tasks = new ArrayList<Task>()                +-
+                                                                -+ private long taskId
+                                                                -+ private String description
+                                                                -+ private String title
+                                                                -+ private Task[] tasks
+                                                                -+ public abstract class Task {
+public class dateTime {                                         +-
+                                                                -+ public class DateTime {
+--------------------------------------------------------------------------------------------------

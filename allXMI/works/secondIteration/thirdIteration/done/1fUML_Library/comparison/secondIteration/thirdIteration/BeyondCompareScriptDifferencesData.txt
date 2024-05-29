@@ -1,0 +1,54 @@
+Table Compare
+Produced: 2024-04-17 14:32:16
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\1fUML_Library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\thirdIteration\1fUML_Library\gpt\gptoutput\cleanGPT_ThirdIteration.java
+1:                                                2:    1:                                                               2:
+---------------------------------------------------------------------------------------------------------------------------
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+                                                     -+
+}                                                    +-
+}                                                    +-
+                                                     -+ public abstract boolean hasMore()
+                                                     -+ public abstract boolean isFull()
+                                                     -+ public abstract class InputChannel extends Channel {
+public abstract class Listener {                     +-
+                                                     -+ public abstract class OutputChannel extends Channel {
+                                                     -+ public abstract class TextInputChannel extends InputChannel {
+                                                     -+ public abstract class TextOutputChannel extends OutputChannel {
+                                                     -+ public abstract void peek(String[] value, Status errorStatus)
+                                                     -+ public abstract void read(String[] value, Status errorStatus)
+                                                     -+ public abstract void write(String value, Status errorStatus)
+                                                     -+ public abstract void writeNewLine(Status errorStatus)
+                                                     -+ public boolean readBoolean(Status errorStatus)
+public class Status {                                +-
+public class unlimitedNatural {                      +-
+                                                     -+ public double readReal(Status errorStatus)
+public int code                                      +-
+                                                     -+ public int readInteger(Status errorStatus)
+                                                     -+ public int readUnlimitedNatural(Status errorStatus)
+public String context                                +-
+public String description                            +-
+                                                     -+ public String peekCharacter(Status errorStatus)
+                                                     -+ public String readCharacter(Status errorStatus)
+                                                     -+ public String readLine(Status errorStatus)
+public void Notification() {                         +-
+public void register(final Listener listener) {      +-
+                                                     -+ public void register(Listener listener)
+public void unregister(final Listener listener) {    +-
+                                                     -+ public void unregister(Listener listener)
+                                                     -+ public void writeBoolean(boolean value, Status errorStatus)
+                                                     -+ public void writeInteger(int value, Status errorStatus)
+                                                     -+ public void writeLine(String value, Status errorStatus)
+                                                     -+ public void writeReal(double value, Status errorStatus)
+                                                     -+ public void writeString(String value, Status errorStatus)
+                                                     -+ public void writeUnlimitedNatural(int value, Status errorStatus)
+---------------------------------------------------------------------------------------------------------------------------

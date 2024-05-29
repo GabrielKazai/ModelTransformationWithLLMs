@@ -1,0 +1,37 @@
+Text Compare
+Produced: 2024-04-03 12:08:51
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_enum_no_value_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\modelio_enum_no_value_test\gpt\gptoutput\cleanGPT.java
+                                                 +-
+----------------------------------------------------------------------------------------------------
+public class MyClass {                           =  public class MyClass {
+    public String myAttribute;                          public String myAttribute;
+----------------------------------------------------------------------------------------------------
+                                                 +-
+----------------------------------------------------------------------------------------------------
+    public MyEnumeration mySecondAttribute;      =      public MyEnumeration mySecondAttribute;
+----------------------------------------------------------------------------------------------------
+                                                 +-
+----------------------------------------------------------------------------------------------------
+    public MySecondEnumeration myThirdAttribute; =      public MySecondEnumeration myThirdAttribute;
+----------------------------------------------------------------------------------------------------
+                                                 +-
+----------------------------------------------------------------------------------------------------
+    public MyEnumeration myFourthAttribute;      =      public MyEnumeration myFourthAttribute;
+----------------------------------------------------------------------------------------------------
+                                                 +-
+----------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum MyEnumeration {                         public enum MyEnumeration {
+----------------------------------------------------------------------------------------------------
+    ;                                            +-
+----------------------------------------------------------------------------------------------------
+}                                                =  }
+
+public enum MySecondEnumeration {                   public enum MySecondEnumeration {
+    VALUE_A;                                            VALUE_A;
+}                                                   }
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,257 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+Java Classes from XMI
+Java Enums from XMI
+Java Class Modeling
+Yesterday
+Java Code XML Models
+Java Code from XMI.
+Java Code Generation
+Java Classes for UML
+Java Code for UML
+Java Classes: UML Conversion
+Java Model from UML
+Java Class Generation
+Java Class Generation
+Java Class Generation
+Java Classes: UML to Code
+Java Code Generation
+Java Class Creation
+Java Model Classes
+Java Klasse für XMI-UML.
+Java Code from XMI
+Java Classes for UML
+UML to Java Code
+Java Classes from XMI
+Java Classes from UML
+UML Java conversion.
+Previous 7 Days
+UML Java Code Creation
+Java Classes from XMI
+Java UML Model Creation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_40SZsO3IEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_40SZse3IEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_40SZsu3IEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_40SZs-3IEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_40SZtO3IEe6yiIkslZcBIA" name="sar">
+    <packagedElement xmi:type="uml:Package" xmi:id="_40SZte3IEe6yiIkslZcBIA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_40SZtu3IEe6yiIkslZcBIA" name="sar">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZt-3IEe6yiIkslZcBIA" name="TargetSectorCodeSimpleType">
+          <ownedLiteral xmi:id="_40SZuO3IEe6yiIkslZcBIA" name="EMRG"/>
+          <ownedLiteral xmi:id="_40SZue3IEe6yiIkslZcBIA" name="TELCM"/>
+          <ownedLiteral xmi:id="_40SZuu3IEe6yiIkslZcBIA" name="SPCFXN"/>
+          <ownedLiteral xmi:id="_40SZu-3IEe6yiIkslZcBIA" name="LIVSTK"/>
+          <ownedLiteral xmi:id="_40SZvO3IEe6yiIkslZcBIA" name="OTHR"/>
+          <ownedLiteral xmi:id="_40SZve3IEe6yiIkslZcBIA" name="WATR"/>
+          <ownedLiteral xmi:id="_40SZvu3IEe6yiIkslZcBIA" name="EDU"/>
+          <ownedLiteral xmi:id="_40SZv-3IEe6yiIkslZcBIA" name="COMM"/>
+          <ownedLiteral xmi:id="_40SZwO3IEe6yiIkslZcBIA" name="AGRI"/>
+          <ownedLiteral xmi:id="_40SZwe3IEe6yiIkslZcBIA" name="HAZMAT"/>
+          <ownedLiteral xmi:id="_40SZwu3IEe6yiIkslZcBIA" name="CHEM"/>
+          <ownedLiteral xmi:id="_40SZw-3IEe6yiIkslZcBIA" name="CORR"/>
+          <ownedLiteral xmi:id="_40SZxO3IEe6yiIkslZcBIA" name="NATRL"/>
+          <ownedLiteral xmi:id="_40SZxe3IEe6yiIkslZcBIA" name="CSTL"/>
+          <ownedLiteral xmi:id="_40SZxu3IEe6yiIkslZcBIA" name="PRSN"/>
+          <ownedLiteral xmi:id="_40SZx-3IEe6yiIkslZcBIA" name="TACTCP"/>
+          <ownedLiteral xmi:id="_40SZyO3IEe6yiIkslZcBIA" name="HLTH"/>
+          <ownedLiteral xmi:id="_40SZye3IEe6yiIkslZcBIA" name="GVTBLDG"/>
+          <ownedLiteral xmi:id="_40SZyu3IEe6yiIkslZcBIA" name="MAIL"/>
+          <ownedLiteral xmi:id="_40SZy-3IEe6yiIkslZcBIA" name="RETL"/>
+          <ownedLiteral xmi:id="_40SZzO3IEe6yiIkslZcBIA" name="ENTMT"/>
+          <ownedLiteral xmi:id="_40SZze3IEe6yiIkslZcBIA" name="CULTR"/>
+          <ownedLiteral xmi:id="_40SZzu3IEe6yiIkslZcBIA" name="TRANS"/>
+          <ownedLiteral xmi:id="_40SZz-3IEe6yiIkslZcBIA" name="NCLR"/>
+          <ownedLiteral xmi:id="_40SZ0O3IEe6yiIkslZcBIA" name="MNMT"/>
+          <ownedLiteral xmi:id="_40SZ0e3IEe6yiIkslZcBIA" name="POP"/>
+          <ownedLiteral xmi:id="_40SZ0u3IEe6yiIkslZcBIA" name="FIN"/>
+          <ownedLiteral xmi:id="_40SZ0-3IEe6yiIkslZcBIA" name="DFNSE"/>
+          <ownedLiteral xmi:id="_40SZ1O3IEe6yiIkslZcBIA" name="DAMS"/>
+          <ownedLiteral xmi:id="_40SZ1e3IEe6yiIkslZcBIA" name="ENRG"/>
+          <ownedLiteral xmi:id="_40SZ1u3IEe6yiIkslZcBIA" name="IT"/>
+          <ownedLiteral xmi:id="_40SZ1-3IEe6yiIkslZcBIA" name="MASS"/>
+          <ownedLiteral xmi:id="_40SZ2O3IEe6yiIkslZcBIA" name="MFG"/>
+          <ownedLiteral xmi:id="_40SZ2e3IEe6yiIkslZcBIA" name="UTL"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_40SZ2u3IEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ2-3IEe6yiIkslZcBIA" name="TargetSectorCodeType">
+          <generalization xmi:id="_40SZ3O3IEe6yiIkslZcBIA" general="_40SZt-3IEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ3e3IEe6yiIkslZcBIA" name="TipClassCodeSimpleType">
+          <ownedLiteral xmi:id="_40SZ3u3IEe6yiIkslZcBIA" name="FUND"/>
+          <ownedLiteral xmi:id="_40SZ3-3IEe6yiIkslZcBIA" name="CYBER"/>
+          <ownedLiteral xmi:id="_40SZ4O3IEe6yiIkslZcBIA" name="SPCSSBST"/>
+          <ownedLiteral xmi:id="_40SZ4e3IEe6yiIkslZcBIA" name="BIO"/>
+          <ownedLiteral xmi:id="_40SZ4u3IEe6yiIkslZcBIA" name="FRAUD"/>
+          <ownedLiteral xmi:id="_40SZ4-3IEe6yiIkslZcBIA" name="HATE"/>
+          <ownedLiteral xmi:id="_40SZ5O3IEe6yiIkslZcBIA" name="CNTFTG"/>
+          <ownedLiteral xmi:id="_40SZ5e3IEe6yiIkslZcBIA" name="INFRA"/>
+          <ownedLiteral xmi:id="_40SZ5u3IEe6yiIkslZcBIA" name="SPCSA"/>
+          <ownedLiteral xmi:id="_40SZ5-3IEe6yiIkslZcBIA" name="VRUS"/>
+          <ownedLiteral xmi:id="_40SZ6O3IEe6yiIkslZcBIA" name="SPCSP"/>
+          <ownedLiteral xmi:id="_40SZ6e3IEe6yiIkslZcBIA" name="EXPL"/>
+          <ownedLiteral xmi:id="_40SZ6u3IEe6yiIkslZcBIA" name="CTMN"/>
+          <ownedLiteral xmi:id="_40SZ6-3IEe6yiIkslZcBIA" name="INCEND"/>
+          <ownedLiteral xmi:id="_40SZ7O3IEe6yiIkslZcBIA" name="NCLR"/>
+          <ownedLiteral xmi:id="_40SZ7e3IEe6yiIkslZcBIA" name="LAUND"/>
+          <ownedLiteral xmi:id="_40SZ7u3IEe6yiIkslZcBIA" name="CHEM"/>
+          <ownedLiteral xmi:id="_40SZ7-3IEe6yiIkslZcBIA" name="THRTPUB"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ8O3IEe6yiIkslZcBIA" name="TipClassCodeType">
+          <generalization xmi:id="_40SZ8e3IEe6yiIkslZcBIA" general="_40SZ3e3IEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ8u3IEe6yiIkslZcBIA" name="TipDomainCodeSimpleType">
+          <ownedLiteral xmi:id="_40SZ8-3IEe6yiIkslZcBIA" name="G"/>
+          <ownedLiteral xmi:id="_40SZ9O3IEe6yiIkslZcBIA" name="D"/>
+          <ownedLiteral xmi:id="_40SZ9e3IEe6yiIkslZcBIA" name="F"/>
+          <ownedLiteral xmi:id="_40SZ9u3IEe6yiIkslZcBIA" name="H"/>
+          <ownedLiteral xmi:id="_40SZ9-3IEe6yiIkslZcBIA" name="E"/>
+          <ownedLiteral xmi:id="_40SZ-O3IEe6yiIkslZcBIA" name="A"/>
+          <ownedLiteral xmi:id="_40SZ-e3IEe6yiIkslZcBIA" name="B"/>
+          <ownedLiteral xmi:id="_40SZ-u3IEe6yiIkslZcBIA" name="C"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ--3IEe6yiIkslZcBIA" name="TipDomainCodeType">
+          <generalization xmi:id="_40SZ_O3IEe6yiIkslZcBIA" general="_40SZ8u3IEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_40SZ_e3IEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SZ_u3IEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_40SZ_-3IEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_40SaAO3IEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_40SaAe3IEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_40SaAu3IEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_40SaA-3IEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SaBO3IEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_40SaBe3IEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_40SaBu3IEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_40SaB-3IEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_40SaCO3IEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_40SaCe3IEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_40SaCu3IEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_40SaC-3IEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_40SaDO3IEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_40SaDe3IEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_40SaDu3IEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_40SaD-3IEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_40SaEO3IEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_40SaEe3IEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_40SaEu3IEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum TargetSectorCodeSimpleType {
+    EMRG, TELCM, SPCFXN, LIVSTK, OTHR, WATR, EDU, COMM, AGRI, HAZMAT, CHEM, CORR, NATRL, CSTL, PRSN, TACTCP, HLTH, GVTBLDG, MAIL, RETL, ENTMT, CULTR, TRANS, NCLR, MNMT, POP, FIN, DFNSE, DAMS, ENRG, IT, MASS, MFG, UTL
+}
+
+public enum TargetSectorCodeType extends TargetSectorCodeSimpleType {
+}
+
+public enum TipClassCodeSimpleType {
+    FUND, CYBER, SPCSSBST, BIO, FRAUD, HATE, CNTFTG, INFRA, SPCSA, VRUS, SPCSP, EXPL, CTMN, INCEND, NCLR, LAUND, CHEM, THRTPUB
+}
+
+public enum TipClassCodeType extends TipClassCodeSimpleType {
+}
+
+public enum TipDomainCodeSimpleType {
+    G, D, F, H, E, A, B, C
+}
+
+public enum TipDomainCodeType extends TipDomainCodeSimpleType {
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+
+class NamespaceElementPropertyHolder {
+}
+// [[STARTEND]]
+User
+In your previous iteration, the following errors were discovered. Please regenerate the response fixing the listed errors:
+The enum TargetSectorCodeType can not extend another enum.
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum TargetSectorCodeSimpleType {
+    EMRG, TELCM, SPCFXN, LIVSTK, OTHR, WATR, EDU, COMM, AGRI, HAZMAT, CHEM, CORR, NATRL, CSTL, PRSN, TACTCP, HLTH, GVTBLDG, MAIL, RETL, ENTMT, CULTR, TRANS, NCLR, MNMT, POP, FIN, DFNSE, DAMS, ENRG, IT, MASS, MFG, UTL
+}
+
+public enum TipClassCodeSimpleType {
+    FUND, CYBER, SPCSSBST, BIO, FRAUD, HATE, CNTFTG, INFRA, SPCSA, VRUS, SPCSP, EXPL, CTMN, INCEND, NCLR, LAUND, CHEM, THRTPUB
+}
+
+public enum TipClassCodeType {
+    FUND, CYBER, SPCSSBST, BIO, FRAUD, HATE, CNTFTG, INFRA, SPCSA, VRUS, SPCSP, EXPL, CTMN, INCEND, NCLR, LAUND, CHEM, THRTPUB
+}
+
+public enum TipDomainCodeSimpleType {
+    G, D, F, H, E, A, B, C
+}
+
+public enum TipDomainCodeType {
+    G, D, F, H, E, A, B, C
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+
+class NamespaceElementPropertyHolder {
+}
+// [[STARTEND]]
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?

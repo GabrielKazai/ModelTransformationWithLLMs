@@ -1,0 +1,509 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Code Generation
+
+
+New chat
+New chat
+New chat
+New chat
+Java Code from XMI
+Java Code Generation
+New chat
+New chat
+New chat
+New chat
+Java Classes from XMI
+New chat
+New chat
+New chat
+Java Classes from XMI
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+New chat
+Java Classes from UML
+New chat
+New chat
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_DKiJ4O3LEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_DKiJ4e3LEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_DKiJ4u3LEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DKiJ4-3LEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DKiJ5O3LEe6yiIkslZcBIA" name="mn_offense">
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKiJ5e3LEe6yiIkslZcBIA" name="2.0">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKiJ5u3LEe6yiIkslZcBIA" name="mn_offense">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiJ5-3LEe6yiIkslZcBIA" name="OffenseCodeSimpleType">
+          <ownedLiteral xmi:id="_DKiJ6O3LEe6yiIkslZcBIA" name="611"/>
+          <ownedLiteral xmi:id="_DKiJ6e3LEe6yiIkslZcBIA" name="260.011"/>
+          <ownedLiteral xmi:id="_DKiJ6u3LEe6yiIkslZcBIA" name="160"/>
+          <ownedLiteral xmi:id="_DKiJ6-3LEe6yiIkslZcBIA" name="999"/>
+          <ownedLiteral xmi:id="_DKiJ7O3LEe6yiIkslZcBIA" name="920"/>
+          <ownedLiteral xmi:id="_DKiJ7e3LEe6yiIkslZcBIA" name="300.12"/>
+          <ownedLiteral xmi:id="_DKiJ7u3LEe6yiIkslZcBIA" name="419"/>
+          <ownedLiteral xmi:id="_DKiJ7-3LEe6yiIkslZcBIA" name="941"/>
+          <ownedLiteral xmi:id="_DKiJ8O3LEe6yiIkslZcBIA" name="662"/>
+          <ownedLiteral xmi:id="_DKiJ8e3LEe6yiIkslZcBIA" name="912"/>
+          <ownedLiteral xmi:id="_DKiJ8u3LEe6yiIkslZcBIA" name="550"/>
+          <ownedLiteral xmi:id="_DKiJ8-3LEe6yiIkslZcBIA" name="263"/>
+          <ownedLiteral xmi:id="_DKiJ9O3LEe6yiIkslZcBIA" name="120.2"/>
+          <ownedLiteral xmi:id="_DKiJ9e3LEe6yiIkslZcBIA" name="902"/>
+          <ownedLiteral xmi:id="_DKiJ9u3LEe6yiIkslZcBIA" name="153"/>
+          <ownedLiteral xmi:id="_DKiJ9-3LEe6yiIkslZcBIA" name="202"/>
+          <ownedLiteral xmi:id="_DKiJ-O3LEe6yiIkslZcBIA" name="400.04"/>
+          <ownedLiteral xmi:id="_DKiJ-e3LEe6yiIkslZcBIA" name="665"/>
+          <ownedLiteral xmi:id="_DKiJ-u3LEe6yiIkslZcBIA" name="161"/>
+          <ownedLiteral xmi:id="_DKiJ--3LEe6yiIkslZcBIA" name="970.03"/>
+          <ownedLiteral xmi:id="_DKiJ_O3LEe6yiIkslZcBIA" name="541"/>
+          <ownedLiteral xmi:id="_DKiJ_e3LEe6yiIkslZcBIA" name="239"/>
+          <ownedLiteral xmi:id="_DKiJ_u3LEe6yiIkslZcBIA" name="932"/>
+          <ownedLiteral xmi:id="_DKiJ_-3LEe6yiIkslZcBIA" name="260.003"/>
+          <ownedLiteral xmi:id="_DKiKAO3LEe6yiIkslZcBIA" name="160.2"/>
+          <ownedLiteral xmi:id="_DKiKAe3LEe6yiIkslZcBIA" name="953.01"/>
+          <ownedLiteral xmi:id="_DKiKAu3LEe6yiIkslZcBIA" name="900"/>
+          <ownedLiteral xmi:id="_DKiKA-3LEe6yiIkslZcBIA" name="102"/>
+          <ownedLiteral xmi:id="_DKiKBO3LEe6yiIkslZcBIA" name="403.01"/>
+          <ownedLiteral xmi:id="_DKiKBe3LEe6yiIkslZcBIA" name="221.3"/>
+          <ownedLiteral xmi:id="_DKiKBu3LEe6yiIkslZcBIA" name="401.02"/>
+          <ownedLiteral xmi:id="_DKiKB-3LEe6yiIkslZcBIA" name="160.1"/>
+          <ownedLiteral xmi:id="_DKiKCO3LEe6yiIkslZcBIA" name="931.2"/>
+          <ownedLiteral xmi:id="_DKiKCe3LEe6yiIkslZcBIA" name="404.02"/>
+          <ownedLiteral xmi:id="_DKiKCu3LEe6yiIkslZcBIA" name="110.4"/>
+          <ownedLiteral xmi:id="_DKiKC-3LEe6yiIkslZcBIA" name="235"/>
+          <ownedLiteral xmi:id="_DKiKDO3LEe6yiIkslZcBIA" name="402.06"/>
+          <ownedLiteral xmi:id="_DKiKDe3LEe6yiIkslZcBIA" name="910"/>
+          <ownedLiteral xmi:id="_DKiKDu3LEe6yiIkslZcBIA" name="210.3"/>
+          <ownedLiteral xmi:id="_DKiKD-3LEe6yiIkslZcBIA" name="909"/>
+          <ownedLiteral xmi:id="_DKiKEO3LEe6yiIkslZcBIA" name="221"/>
+          <ownedLiteral xmi:id="_DKiKEe3LEe6yiIkslZcBIA" name="913"/>
+          <ownedLiteral xmi:id="_DKiKEu3LEe6yiIkslZcBIA" name="414"/>
+          <ownedLiteral xmi:id="_DKiKE-3LEe6yiIkslZcBIA" name="491"/>
+          <ownedLiteral xmi:id="_DKiKFO3LEe6yiIkslZcBIA" name="901"/>
+          <ownedLiteral xmi:id="_DKiKFe3LEe6yiIkslZcBIA" name="991.01"/>
+          <ownedLiteral xmi:id="_DKiKFu3LEe6yiIkslZcBIA" name="971.02"/>
+          <ownedLiteral xmi:id="_DKiKF-3LEe6yiIkslZcBIA" name="260.013"/>
+          <ownedLiteral xmi:id="_DKiKGO3LEe6yiIkslZcBIA" name="210.4"/>
+          <ownedLiteral xmi:id="_DKiKGe3LEe6yiIkslZcBIA" name="400.07"/>
+          <ownedLiteral xmi:id="_DKiKGu3LEe6yiIkslZcBIA" name="221.1"/>
+          <ownedLiteral xmi:id="_DKiKG-3LEe6yiIkslZcBIA" name="219"/>
+          <ownedLiteral xmi:id="_DKiKHO3LEe6yiIkslZcBIA" name="300.4"/>
+          <ownedLiteral xmi:id="_DKiKHe3LEe6yiIkslZcBIA" name="493"/>
+          <ownedLiteral xmi:id="_DKiKHu3LEe6yiIkslZcBIA" name="625"/>
+          <ownedLiteral xmi:id="_DKiKH-3LEe6yiIkslZcBIA" name="103.03"/>
+          <ownedLiteral xmi:id="_DKiKIO3LEe6yiIkslZcBIA" name="402.08"/>
+          <ownedLiteral xmi:id="_DKiKIe3LEe6yiIkslZcBIA" name="971"/>
+          <ownedLiteral xmi:id="_DKiKIu3LEe6yiIkslZcBIA" name="952"/>
+          <ownedLiteral xmi:id="_DKiKI-3LEe6yiIkslZcBIA" name="130"/>
+          <ownedLiteral xmi:id="_DKiKJO3LEe6yiIkslZcBIA" name="403.02"/>
+          <ownedLiteral xmi:id="_DKiKJe3LEe6yiIkslZcBIA" name="400.08"/>
+          <ownedLiteral xmi:id="_DKiKJu3LEe6yiIkslZcBIA" name="109"/>
+          <ownedLiteral xmi:id="_DKiKJ-3LEe6yiIkslZcBIA" name="660"/>
+          <ownedLiteral xmi:id="_DKiKKO3LEe6yiIkslZcBIA" name="974.02"/>
+          <ownedLiteral xmi:id="_DKiKKe3LEe6yiIkslZcBIA" name="401.07"/>
+          <ownedLiteral xmi:id="_DKiKKu3LEe6yiIkslZcBIA" name="406.02"/>
+          <ownedLiteral xmi:id="_DKiKK-3LEe6yiIkslZcBIA" name="100.1"/>
+          <ownedLiteral xmi:id="_DKiKLO3LEe6yiIkslZcBIA" name="200.3"/>
+          <ownedLiteral xmi:id="_DKiKLe3LEe6yiIkslZcBIA" name="400.05"/>
+          <ownedLiteral xmi:id="_DKiKLu3LEe6yiIkslZcBIA" name="990"/>
+          <ownedLiteral xmi:id="_DKiKL-3LEe6yiIkslZcBIA" name="914"/>
+          <ownedLiteral xmi:id="_DKiKMO3LEe6yiIkslZcBIA" name="580"/>
+          <ownedLiteral xmi:id="_DKiKMe3LEe6yiIkslZcBIA" name="405.04"/>
+          <ownedLiteral xmi:id="_DKiKMu3LEe6yiIkslZcBIA" name="922"/>
+          <ownedLiteral xmi:id="_DKiKM-3LEe6yiIkslZcBIA" name="141.1"/>
+          <ownedLiteral xmi:id="_DKiKNO3LEe6yiIkslZcBIA" name="260.007"/>
+          <ownedLiteral xmi:id="_DKiKNe3LEe6yiIkslZcBIA" name="290"/>
+          <ownedLiteral xmi:id="_DKiKNu3LEe6yiIkslZcBIA" name="400.02"/>
+          <ownedLiteral xmi:id="_DKiKN-3LEe6yiIkslZcBIA" name="170.01"/>
+          <ownedLiteral xmi:id="_DKiKOO3LEe6yiIkslZcBIA" name="103.01"/>
+          <ownedLiteral xmi:id="_DKiKOe3LEe6yiIkslZcBIA" name="233"/>
+          <ownedLiteral xmi:id="_DKiKOu3LEe6yiIkslZcBIA" name="129"/>
+          <ownedLiteral xmi:id="_DKiKO-3LEe6yiIkslZcBIA" name="229"/>
+          <ownedLiteral xmi:id="_DKiKPO3LEe6yiIkslZcBIA" name="170.04"/>
+          <ownedLiteral xmi:id="_DKiKPe3LEe6yiIkslZcBIA" name="300.42"/>
+          <ownedLiteral xmi:id="_DKiKPu3LEe6yiIkslZcBIA" name="261"/>
+          <ownedLiteral xmi:id="_DKiKP-3LEe6yiIkslZcBIA" name="400.03"/>
+          <ownedLiteral xmi:id="_DKiKQO3LEe6yiIkslZcBIA" name="243"/>
+          <ownedLiteral xmi:id="_DKiKQe3LEe6yiIkslZcBIA" name="179"/>
+          <ownedLiteral xmi:id="_DKiKQu3LEe6yiIkslZcBIA" name="970"/>
+          <ownedLiteral xmi:id="_DKiKQ-3LEe6yiIkslZcBIA" name="979"/>
+          <ownedLiteral xmi:id="_DKiKRO3LEe6yiIkslZcBIA" name="404"/>
+          <ownedLiteral xmi:id="_DKiKRe3LEe6yiIkslZcBIA" name="520"/>
+          <ownedLiteral xmi:id="_DKiKRu3LEe6yiIkslZcBIA" name="645"/>
+          <ownedLiteral xmi:id="_DKiKR-3LEe6yiIkslZcBIA" name="170"/>
+          <ownedLiteral xmi:id="_DKiKSO3LEe6yiIkslZcBIA" name="103"/>
+          <ownedLiteral xmi:id="_DKiKSe3LEe6yiIkslZcBIA" name="300.52"/>
+          <ownedLiteral xmi:id="_DKiKSu3LEe6yiIkslZcBIA" name="972.01"/>
+          <ownedLiteral xmi:id="_DKiKS-3LEe6yiIkslZcBIA" name="661"/>
+          <ownedLiteral xmi:id="_DKiKTO3LEe6yiIkslZcBIA" name="170.03"/>
+          <ownedLiteral xmi:id="_DKiKTe3LEe6yiIkslZcBIA" name="110.2"/>
+          <ownedLiteral xmi:id="_DKiKTu3LEe6yiIkslZcBIA" name="405.07"/>
+          <ownedLiteral xmi:id="_DKiKT-3LEe6yiIkslZcBIA" name="590"/>
+          <ownedLiteral xmi:id="_DKiKUO3LEe6yiIkslZcBIA" name="403.04"/>
+          <ownedLiteral xmi:id="_DKiKUe3LEe6yiIkslZcBIA" name="401.05"/>
+          <ownedLiteral xmi:id="_DKiKUu3LEe6yiIkslZcBIA" name="920.01"/>
+          <ownedLiteral xmi:id="_DKiKU-3LEe6yiIkslZcBIA" name="300"/>
+          <ownedLiteral xmi:id="_DKiKVO3LEe6yiIkslZcBIA" name="201"/>
+          <ownedLiteral xmi:id="_DKiKVe3LEe6yiIkslZcBIA" name="260.015"/>
+          <ownedLiteral xmi:id="_DKiKVu3LEe6yiIkslZcBIA" name="260.006"/>
+          <ownedLiteral xmi:id="_DKiKV-3LEe6yiIkslZcBIA" name="650"/>
+          <ownedLiteral xmi:id="_DKiKWO3LEe6yiIkslZcBIA" name="499"/>
+          <ownedLiteral xmi:id="_DKiKWe3LEe6yiIkslZcBIA" name="976"/>
+          <ownedLiteral xmi:id="_DKiKWu3LEe6yiIkslZcBIA" name="300.22"/>
+          <ownedLiteral xmi:id="_DKiKW-3LEe6yiIkslZcBIA" name="402.01"/>
+          <ownedLiteral xmi:id="_DKiKXO3LEe6yiIkslZcBIA" name="401"/>
+          <ownedLiteral xmi:id="_DKiKXe3LEe6yiIkslZcBIA" name="409"/>
+          <ownedLiteral xmi:id="_DKiKXu3LEe6yiIkslZcBIA" name="931.1"/>
+          <ownedLiteral xmi:id="_DKiKX-3LEe6yiIkslZcBIA" name="230"/>
+          <ownedLiteral xmi:id="_DKiKYO3LEe6yiIkslZcBIA" name="251"/>
+          <ownedLiteral xmi:id="_DKiKYe3LEe6yiIkslZcBIA" name="997"/>
+          <ownedLiteral xmi:id="_DKiKYu3LEe6yiIkslZcBIA" name="402.04"/>
+          <ownedLiteral xmi:id="_DKiKY-3LEe6yiIkslZcBIA" name="969"/>
+          <ownedLiteral xmi:id="_DKiKZO3LEe6yiIkslZcBIA" name="903"/>
+          <ownedLiteral xmi:id="_DKiKZe3LEe6yiIkslZcBIA" name="429"/>
+          <ownedLiteral xmi:id="_DKiKZu3LEe6yiIkslZcBIA" name="974.01"/>
+          <ownedLiteral xmi:id="_DKiKZ-3LEe6yiIkslZcBIA" name="953.02"/>
+          <ownedLiteral xmi:id="_DKiKaO3LEe6yiIkslZcBIA" name="951"/>
+          <ownedLiteral xmi:id="_DKiKae3LEe6yiIkslZcBIA" name="420"/>
+          <ownedLiteral xmi:id="_DKiKau3LEe6yiIkslZcBIA" name="231"/>
+          <ownedLiteral xmi:id="_DKiKa-3LEe6yiIkslZcBIA" name="111"/>
+          <ownedLiteral xmi:id="_DKiKbO3LEe6yiIkslZcBIA" name="664"/>
+          <ownedLiteral xmi:id="_DKiKbe3LEe6yiIkslZcBIA" name="510"/>
+          <ownedLiteral xmi:id="_DKiKbu3LEe6yiIkslZcBIA" name="933"/>
+          <ownedLiteral xmi:id="_DKiKb-3LEe6yiIkslZcBIA" name="269"/>
+          <ownedLiteral xmi:id="_DKiKcO3LEe6yiIkslZcBIA" name="961"/>
+          <ownedLiteral xmi:id="_DKiKce3LEe6yiIkslZcBIA" name="300.3"/>
+          <ownedLiteral xmi:id="_DKiKcu3LEe6yiIkslZcBIA" name="234"/>
+          <ownedLiteral xmi:id="_DKiKc-3LEe6yiIkslZcBIA" name="199"/>
+          <ownedLiteral xmi:id="_DKiKdO3LEe6yiIkslZcBIA" name="241"/>
+          <ownedLiteral xmi:id="_DKiKde3LEe6yiIkslZcBIA" name="300.11"/>
+          <ownedLiteral xmi:id="_DKiKdu3LEe6yiIkslZcBIA" name="402.07"/>
+          <ownedLiteral xmi:id="_DKiKd-3LEe6yiIkslZcBIA" name="630"/>
+          <ownedLiteral xmi:id="_DKiKeO3LEe6yiIkslZcBIA" name="209"/>
+          <ownedLiteral xmi:id="_DKiKee3LEe6yiIkslZcBIA" name="970.04"/>
+          <ownedLiteral xmi:id="_DKiKeu3LEe6yiIkslZcBIA" name="405.05"/>
+          <ownedLiteral xmi:id="_DKiKe-3LEe6yiIkslZcBIA" name="221.2"/>
+          <ownedLiteral xmi:id="_DKiKfO3LEe6yiIkslZcBIA" name="200.2"/>
+          <ownedLiteral xmi:id="_DKiKfe3LEe6yiIkslZcBIA" name="242"/>
+          <ownedLiteral xmi:id="_DKiKfu3LEe6yiIkslZcBIA" name="403"/>
+          <ownedLiteral xmi:id="_DKiKf-3LEe6yiIkslZcBIA" name="966"/>
+          <ownedLiteral xmi:id="_DKiKgO3LEe6yiIkslZcBIA" name="415"/>
+          <ownedLiteral xmi:id="_DKiKge3LEe6yiIkslZcBIA" name="240"/>
+          <ownedLiteral xmi:id="_DKiKgu3LEe6yiIkslZcBIA" name="977"/>
+          <ownedLiteral xmi:id="_DKiKg-3LEe6yiIkslZcBIA" name="163.01"/>
+          <ownedLiteral xmi:id="_DKiKhO3LEe6yiIkslZcBIA" name="666"/>
+          <ownedLiteral xmi:id="_DKiKhe3LEe6yiIkslZcBIA" name="610"/>
+          <ownedLiteral xmi:id="_DKiKhu3LEe6yiIkslZcBIA" name="291"/>
+          <ownedLiteral xmi:id="_DKiKh-3LEe6yiIkslZcBIA" name="200.1"/>
+          <ownedLiteral xmi:id="_DKiKiO3LEe6yiIkslZcBIA" name="220"/>
+          <ownedLiteral xmi:id="_DKiKie3LEe6yiIkslZcBIA" name="299"/>
+          <ownedLiteral xmi:id="_DKiKiu3LEe6yiIkslZcBIA" name="230.31"/>
+          <ownedLiteral xmi:id="_DKiKi-3LEe6yiIkslZcBIA" name="260.004"/>
+          <ownedLiteral xmi:id="_DKiKjO3LEe6yiIkslZcBIA" name="501.1"/>
+          <ownedLiteral xmi:id="_DKiKje3LEe6yiIkslZcBIA" name="973"/>
+          <ownedLiteral xmi:id="_DKiKju3LEe6yiIkslZcBIA" name="930"/>
+          <ownedLiteral xmi:id="_DKiKj-3LEe6yiIkslZcBIA" name="100.5"/>
+          <ownedLiteral xmi:id="_DKiKkO3LEe6yiIkslZcBIA" name="923"/>
+          <ownedLiteral xmi:id="_DKiKke3LEe6yiIkslZcBIA" name="530"/>
+          <ownedLiteral xmi:id="_DKiKku3LEe6yiIkslZcBIA" name="501"/>
+          <ownedLiteral xmi:id="_DKiKk-3LEe6yiIkslZcBIA" name="911"/>
+          <ownedLiteral xmi:id="_DKiKlO3LEe6yiIkslZcBIA" name="161.2"/>
+          <ownedLiteral xmi:id="_DKiKle3LEe6yiIkslZcBIA" name="300.21"/>
+          <ownedLiteral xmi:id="_DKiKlu3LEe6yiIkslZcBIA" name="929"/>
+          <ownedLiteral xmi:id="_DKiKl-3LEe6yiIkslZcBIA" name="249"/>
+          <ownedLiteral xmi:id="_DKiKmO3LEe6yiIkslZcBIA" name="293"/>
+          <ownedLiteral xmi:id="_DKiKme3LEe6yiIkslZcBIA" name="931.3"/>
+          <ownedLiteral xmi:id="_DKiKmu3LEe6yiIkslZcBIA" name="404.04"/>
+          <ownedLiteral xmi:id="_DKiKm-3LEe6yiIkslZcBIA" name="200"/>
+          <ownedLiteral xmi:id="_DKiKnO3LEe6yiIkslZcBIA" name="110.1"/>
+          <ownedLiteral xmi:id="_DKiKne3LEe6yiIkslZcBIA" name="121.1"/>
+          <ownedLiteral xmi:id="_DKiKnu3LEe6yiIkslZcBIA" name="961.02"/>
+          <ownedLiteral xmi:id="_DKiKn-3LEe6yiIkslZcBIA" name="410"/>
+          <ownedLiteral xmi:id="_DKiKoO3LEe6yiIkslZcBIA" name="132"/>
+          <ownedLiteral xmi:id="_DKiKoe3LEe6yiIkslZcBIA" name="668"/>
+          <ownedLiteral xmi:id="_DKiKou3LEe6yiIkslZcBIA" name="937"/>
+          <ownedLiteral xmi:id="_DKiKo-3LEe6yiIkslZcBIA" name="402.05"/>
+          <ownedLiteral xmi:id="_DKiKpO3LEe6yiIkslZcBIA" name="100.2"/>
+          <ownedLiteral xmi:id="_DKiKpe3LEe6yiIkslZcBIA" name="972"/>
+          <ownedLiteral xmi:id="_DKiKpu3LEe6yiIkslZcBIA" name="916"/>
+          <ownedLiteral xmi:id="_DKiKp-3LEe6yiIkslZcBIA" name="938"/>
+          <ownedLiteral xmi:id="_DKiKqO3LEe6yiIkslZcBIA" name="161.1"/>
+          <ownedLiteral xmi:id="_DKiKqe3LEe6yiIkslZcBIA" name="260.008"/>
+          <ownedLiteral xmi:id="_DKiKqu3LEe6yiIkslZcBIA" name="230.2"/>
+          <ownedLiteral xmi:id="_DKiKq-3LEe6yiIkslZcBIA" name="560"/>
+          <ownedLiteral xmi:id="_DKiKrO3LEe6yiIkslZcBIA" name="413"/>
+          <ownedLiteral xmi:id="_DKiKre3LEe6yiIkslZcBIA" name="500"/>
+          <ownedLiteral xmi:id="_DKiKru3LEe6yiIkslZcBIA" name="210.1"/>
+          <ownedLiteral xmi:id="_DKiKr-3LEe6yiIkslZcBIA" name="170.02"/>
+          <ownedLiteral xmi:id="_DKiKsO3LEe6yiIkslZcBIA" name="252"/>
+          <ownedLiteral xmi:id="_DKiKse3LEe6yiIkslZcBIA" name="412"/>
+          <ownedLiteral xmi:id="_DKiKsu3LEe6yiIkslZcBIA" name="100"/>
+          <ownedLiteral xmi:id="_DKiKs-3LEe6yiIkslZcBIA" name="141.2"/>
+          <ownedLiteral xmi:id="_DKiKtO3LEe6yiIkslZcBIA" name="392"/>
+          <ownedLiteral xmi:id="_DKiKte3LEe6yiIkslZcBIA" name="965"/>
+          <ownedLiteral xmi:id="_DKiKtu3LEe6yiIkslZcBIA" name="663"/>
+          <ownedLiteral xmi:id="_DKiKt-3LEe6yiIkslZcBIA" name="975"/>
+          <ownedLiteral xmi:id="_DKiKuO3LEe6yiIkslZcBIA" name="612"/>
+          <ownedLiteral xmi:id="_DKiKue3LEe6yiIkslZcBIA" name="406"/>
+          <ownedLiteral xmi:id="_DKiKuu3LEe6yiIkslZcBIA" name="120.3"/>
+          <ownedLiteral xmi:id="_DKiKu-3LEe6yiIkslZcBIA" name="260.002"/>
+          <ownedLiteral xmi:id="_DKiKvO3LEe6yiIkslZcBIA" name="172"/>
+          <ownedLiteral xmi:id="_DKiKve3LEe6yiIkslZcBIA" name="140"/>
+          <ownedLiteral xmi:id="_DKiKvu3LEe6yiIkslZcBIA" name="599"/>
+          <ownedLiteral xmi:id="_DKiKv-3LEe6yiIkslZcBIA" name="601"/>
+          <ownedLiteral xmi:id="_DKiKwO3LEe6yiIkslZcBIA" name="141"/>
+          <ownedLiteral xmi:id="_DKiKwe3LEe6yiIkslZcBIA" name="162.3"/>
+          <ownedLiteral xmi:id="_DKiKwu3LEe6yiIkslZcBIA" name="100.3"/>
+          <ownedLiteral xmi:id="_DKiKw-3LEe6yiIkslZcBIA" name="112"/>
+          <ownedLiteral xmi:id="_DKiKxO3LEe6yiIkslZcBIA" name="300.2"/>
+          <ownedLiteral xmi:id="_DKiKxe3LEe6yiIkslZcBIA" name="949"/>
+          <ownedLiteral xmi:id="_DKiKxu3LEe6yiIkslZcBIA" name="163"/>
+          <ownedLiteral xmi:id="_DKiKx-3LEe6yiIkslZcBIA" name="160.3"/>
+          <ownedLiteral xmi:id="_DKiKyO3LEe6yiIkslZcBIA" name="260.005"/>
+          <ownedLiteral xmi:id="_DKiKye3LEe6yiIkslZcBIA" name="540"/>
+          <ownedLiteral xmi:id="_DKiKyu3LEe6yiIkslZcBIA" name="402"/>
+          <ownedLiteral xmi:id="_DKiKy-3LEe6yiIkslZcBIA" name="960"/>
+          <ownedLiteral xmi:id="_DKiKzO3LEe6yiIkslZcBIA" name="101"/>
+          <ownedLiteral xmi:id="_DKiKze3LEe6yiIkslZcBIA" name="964"/>
+          <ownedLiteral xmi:id="_DKiKzu3LEe6yiIkslZcBIA" name="254"/>
+          <ownedLiteral xmi:id="_DKiKz-3LEe6yiIkslZcBIA" name="962"/>
+          <ownedLiteral xmi:id="_DKiK0O3LEe6yiIkslZcBIA" name="292"/>
+          <ownedLiteral xmi:id="_DKiK0e3LEe6yiIkslZcBIA" name="162.1"/>
+          <ownedLiteral xmi:id="_DKiK0u3LEe6yiIkslZcBIA" name="300.5"/>
+          <ownedLiteral xmi:id="_DKiK0-3LEe6yiIkslZcBIA" name="131"/>
+          <ownedLiteral xmi:id="_DKiK1O3LEe6yiIkslZcBIA" name="300.53"/>
+          <ownedLiteral xmi:id="_DKiK1e3LEe6yiIkslZcBIA" name="404.03"/>
+          <ownedLiteral xmi:id="_DKiK1u3LEe6yiIkslZcBIA" name="139"/>
+          <ownedLiteral xmi:id="_DKiK1-3LEe6yiIkslZcBIA" name="992"/>
+          <ownedLiteral xmi:id="_DKiK2O3LEe6yiIkslZcBIA" name="391"/>
+          <ownedLiteral xmi:id="_DKiK2e3LEe6yiIkslZcBIA" name="405"/>
+          <ownedLiteral xmi:id="_DKiK2u3LEe6yiIkslZcBIA" name="300.54"/>
+          <ownedLiteral xmi:id="_DKiK2-3LEe6yiIkslZcBIA" name="253"/>
+          <ownedLiteral xmi:id="_DKiK3O3LEe6yiIkslZcBIA" name="103.02"/>
+          <ownedLiteral xmi:id="_DKiK3e3LEe6yiIkslZcBIA" name="411"/>
+          <ownedLiteral xmi:id="_DKiK3u3LEe6yiIkslZcBIA" name="110.5"/>
+          <ownedLiteral xmi:id="_DKiK3-3LEe6yiIkslZcBIA" name="171"/>
+          <ownedLiteral xmi:id="_DKiK4O3LEe6yiIkslZcBIA" name="640"/>
+          <ownedLiteral xmi:id="_DKiK4e3LEe6yiIkslZcBIA" name="150"/>
+          <ownedLiteral xmi:id="_DKiK4u3LEe6yiIkslZcBIA" name="970.02"/>
+          <ownedLiteral xmi:id="_DKiK4-3LEe6yiIkslZcBIA" name="399"/>
+          <ownedLiteral xmi:id="_DKiK5O3LEe6yiIkslZcBIA" name="232"/>
+          <ownedLiteral xmi:id="_DKiK5e3LEe6yiIkslZcBIA" name="260.009"/>
+          <ownedLiteral xmi:id="_DKiK5u3LEe6yiIkslZcBIA" name="264"/>
+          <ownedLiteral xmi:id="_DKiK5-3LEe6yiIkslZcBIA" name="162"/>
+          <ownedLiteral xmi:id="_DKiK6O3LEe6yiIkslZcBIA" name="200.4"/>
+          <ownedLiteral xmi:id="_DKiK6e3LEe6yiIkslZcBIA" name="151"/>
+          <ownedLiteral xmi:id="_DKiK6u3LEe6yiIkslZcBIA" name="300.41"/>
+          <ownedLiteral xmi:id="_DKiK6-3LEe6yiIkslZcBIA" name="915"/>
+          <ownedLiteral xmi:id="_DKiK7O3LEe6yiIkslZcBIA" name="405.03"/>
+          <ownedLiteral xmi:id="_DKiK7e3LEe6yiIkslZcBIA" name="210"/>
+          <ownedLiteral xmi:id="_DKiK7u3LEe6yiIkslZcBIA" name="954"/>
+          <ownedLiteral xmi:id="_DKiK7-3LEe6yiIkslZcBIA" name="230.3"/>
+          <ownedLiteral xmi:id="_DKiK8O3LEe6yiIkslZcBIA" name="260.017"/>
+          <ownedLiteral xmi:id="_DKiK8e3LEe6yiIkslZcBIA" name="300.32"/>
+          <ownedLiteral xmi:id="_DKiK8u3LEe6yiIkslZcBIA" name="961.01"/>
+          <ownedLiteral xmi:id="_DKiK8-3LEe6yiIkslZcBIA" name="939"/>
+          <ownedLiteral xmi:id="_DKiK9O3LEe6yiIkslZcBIA" name="121.2"/>
+          <ownedLiteral xmi:id="_DKiK9e3LEe6yiIkslZcBIA" name="390"/>
+          <ownedLiteral xmi:id="_DKiK9u3LEe6yiIkslZcBIA" name="260"/>
+          <ownedLiteral xmi:id="_DKiK9-3LEe6yiIkslZcBIA" name="921"/>
+          <ownedLiteral xmi:id="_DKiK-O3LEe6yiIkslZcBIA" name="494"/>
+          <ownedLiteral xmi:id="_DKiK-e3LEe6yiIkslZcBIA" name="169"/>
+          <ownedLiteral xmi:id="_DKiK-u3LEe6yiIkslZcBIA" name="402.02"/>
+          <ownedLiteral xmi:id="_DKiK--3LEe6yiIkslZcBIA" name="400.06"/>
+          <ownedLiteral xmi:id="_DKiK_O3LEe6yiIkslZcBIA" name="110.3"/>
+          <ownedLiteral xmi:id="_DKiK_e3LEe6yiIkslZcBIA" name="406.01"/>
+          <ownedLiteral xmi:id="_DKiK_u3LEe6yiIkslZcBIA" name="152"/>
+          <ownedLiteral xmi:id="_DKiK_-3LEe6yiIkslZcBIA" name="934"/>
+          <ownedLiteral xmi:id="_DKiLAO3LEe6yiIkslZcBIA" name="100.4"/>
+          <ownedLiteral xmi:id="_DKiLAe3LEe6yiIkslZcBIA" name="400"/>
+          <ownedLiteral xmi:id="_DKiLAu3LEe6yiIkslZcBIA" name="162.2"/>
+          <ownedLiteral xmi:id="_DKiLA-3LEe6yiIkslZcBIA" name="300.1"/>
+          <ownedLiteral xmi:id="_DKiLBO3LEe6yiIkslZcBIA" name="210.2"/>
+          <ownedLiteral xmi:id="_DKiLBe3LEe6yiIkslZcBIA" name="405.06"/>
+          <ownedLiteral xmi:id="_DKiLBu3LEe6yiIkslZcBIA" name="400.01"/>
+          <ownedLiteral xmi:id="_DKiLB-3LEe6yiIkslZcBIA" name="100.41"/>
+          <ownedLiteral xmi:id="_DKiLCO3LEe6yiIkslZcBIA" name="230.1"/>
+          <ownedLiteral xmi:id="_DKiLCe3LEe6yiIkslZcBIA" name="998"/>
+          <ownedLiteral xmi:id="_DKiLCu3LEe6yiIkslZcBIA" name="991"/>
+          <ownedLiteral xmi:id="_DKiLC-3LEe6yiIkslZcBIA" name="699"/>
+          <ownedLiteral xmi:id="_DKiLDO3LEe6yiIkslZcBIA" name="918"/>
+          <ownedLiteral xmi:id="_DKiLDe3LEe6yiIkslZcBIA" name="490"/>
+          <ownedLiteral xmi:id="_DKiLDu3LEe6yiIkslZcBIA" name="119"/>
+          <ownedLiteral xmi:id="_DKiLD-3LEe6yiIkslZcBIA" name="953"/>
+          <ownedLiteral xmi:id="_DKiLEO3LEe6yiIkslZcBIA" name="260.012"/>
+          <ownedLiteral xmi:id="_DKiLEe3LEe6yiIkslZcBIA" name="416"/>
+          <ownedLiteral xmi:id="_DKiLEu3LEe6yiIkslZcBIA" name="110"/>
+          <ownedLiteral xmi:id="_DKiLE-3LEe6yiIkslZcBIA" name="163.02"/>
+          <ownedLiteral xmi:id="_DKiLFO3LEe6yiIkslZcBIA" name="402.03"/>
+          <ownedLiteral xmi:id="_DKiLFe3LEe6yiIkslZcBIA" name="970.01"/>
+          <ownedLiteral xmi:id="_DKiLFu3LEe6yiIkslZcBIA" name="149"/>
+          <ownedLiteral xmi:id="_DKiLF-3LEe6yiIkslZcBIA" name="259"/>
+          <ownedLiteral xmi:id="_DKiLGO3LEe6yiIkslZcBIA" name="171.01"/>
+          <ownedLiteral xmi:id="_DKiLGe3LEe6yiIkslZcBIA" name="260.001"/>
+          <ownedLiteral xmi:id="_DKiLGu3LEe6yiIkslZcBIA" name="974"/>
+          <ownedLiteral xmi:id="_DKiLG-3LEe6yiIkslZcBIA" name="403.03"/>
+          <ownedLiteral xmi:id="_DKiLHO3LEe6yiIkslZcBIA" name="294"/>
+          <ownedLiteral xmi:id="_DKiLHe3LEe6yiIkslZcBIA" name="405.02"/>
+          <ownedLiteral xmi:id="_DKiLHu3LEe6yiIkslZcBIA" name="971.01"/>
+          <ownedLiteral xmi:id="_DKiLH-3LEe6yiIkslZcBIA" name="667"/>
+          <ownedLiteral xmi:id="_DKiLIO3LEe6yiIkslZcBIA" name="931"/>
+          <ownedLiteral xmi:id="_DKiLIe3LEe6yiIkslZcBIA" name="260.01"/>
+          <ownedLiteral xmi:id="_DKiLIu3LEe6yiIkslZcBIA" name="265"/>
+          <ownedLiteral xmi:id="_DKiLI-3LEe6yiIkslZcBIA" name="401.06"/>
+          <ownedLiteral xmi:id="_DKiLJO3LEe6yiIkslZcBIA" name="190"/>
+          <ownedLiteral xmi:id="_DKiLJe3LEe6yiIkslZcBIA" name="950"/>
+          <ownedLiteral xmi:id="_DKiLJu3LEe6yiIkslZcBIA" name="120"/>
+          <ownedLiteral xmi:id="_DKiLJ-3LEe6yiIkslZcBIA" name="250"/>
+          <ownedLiteral xmi:id="_DKiLKO3LEe6yiIkslZcBIA" name="405.01"/>
+          <ownedLiteral xmi:id="_DKiLKe3LEe6yiIkslZcBIA" name="230.4"/>
+          <ownedLiteral xmi:id="_DKiLKu3LEe6yiIkslZcBIA" name="940"/>
+          <ownedLiteral xmi:id="_DKiLK-3LEe6yiIkslZcBIA" name="262"/>
+          <ownedLiteral xmi:id="_DKiLLO3LEe6yiIkslZcBIA" name="919"/>
+          <ownedLiteral xmi:id="_DKiLLe3LEe6yiIkslZcBIA" name="421"/>
+          <ownedLiteral xmi:id="_DKiLLu3LEe6yiIkslZcBIA" name="300.51"/>
+          <ownedLiteral xmi:id="_DKiLL-3LEe6yiIkslZcBIA" name="173"/>
+          <ownedLiteral xmi:id="_DKiLMO3LEe6yiIkslZcBIA" name="260.014"/>
+          <ownedLiteral xmi:id="_DKiLMe3LEe6yiIkslZcBIA" name="959"/>
+          <ownedLiteral xmi:id="_DKiLMu3LEe6yiIkslZcBIA" name="120.1"/>
+          <ownedLiteral xmi:id="_DKiLM-3LEe6yiIkslZcBIA" name="401.04"/>
+          <ownedLiteral xmi:id="_DKiLNO3LEe6yiIkslZcBIA" name="924"/>
+          <ownedLiteral xmi:id="_DKiLNe3LEe6yiIkslZcBIA" name="121"/>
+          <ownedLiteral xmi:id="_DKiLNu3LEe6yiIkslZcBIA" name="492"/>
+          <ownedLiteral xmi:id="_DKiLN-3LEe6yiIkslZcBIA" name="255"/>
+          <ownedLiteral xmi:id="_DKiLOO3LEe6yiIkslZcBIA" name="260.016"/>
+          <ownedLiteral xmi:id="_DKiLOe3LEe6yiIkslZcBIA" name="404.01"/>
+          <ownedLiteral xmi:id="_DKiLOu3LEe6yiIkslZcBIA" name="159"/>
+          <ownedLiteral xmi:id="_DKiLO-3LEe6yiIkslZcBIA" name="963"/>
+          <ownedLiteral xmi:id="_DKiLPO3LEe6yiIkslZcBIA" name="422"/>
+          <ownedLiteral xmi:id="_DKiLPe3LEe6yiIkslZcBIA" name="300.31"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DKiLPu3LEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLP-3LEe6yiIkslZcBIA" name="OffenseCodeType">
+          <generalization xmi:id="_DKiLQO3LEe6yiIkslZcBIA" general="_DKiJ5-3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLQe3LEe6yiIkslZcBIA" name="OffenseLevelCodeSimpleType">
+          <ownedLiteral xmi:id="_DKiLQu3LEe6yiIkslZcBIA" name="P"/>
+          <ownedLiteral xmi:id="_DKiLQ-3LEe6yiIkslZcBIA" name="M"/>
+          <ownedLiteral xmi:id="_DKiLRO3LEe6yiIkslZcBIA" name="F"/>
+          <ownedLiteral xmi:id="_DKiLRe3LEe6yiIkslZcBIA" name="G"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLRu3LEe6yiIkslZcBIA" name="OffenseLevelCodeType">
+          <generalization xmi:id="_DKiLR-3LEe6yiIkslZcBIA" general="_DKiLQe3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLSO3LEe6yiIkslZcBIA" name="StatuteCategoryCodeSimpleType">
+          <ownedLiteral xmi:id="_DKiLSe3LEe6yiIkslZcBIA" name="D"/>
+          <ownedLiteral xmi:id="_DKiLSu3LEe6yiIkslZcBIA" name="B"/>
+          <ownedLiteral xmi:id="_DKiLS-3LEe6yiIkslZcBIA" name="N"/>
+          <ownedLiteral xmi:id="_DKiLTO3LEe6yiIkslZcBIA" name="P"/>
+          <ownedLiteral xmi:id="_DKiLTe3LEe6yiIkslZcBIA" name="J"/>
+          <ownedLiteral xmi:id="_DKiLTu3LEe6yiIkslZcBIA" name="C"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLT-3LEe6yiIkslZcBIA" name="StatuteCategoryCodeType">
+          <generalization xmi:id="_DKiLUO3LEe6yiIkslZcBIA" general="_DKiLSO3LEe6yiIkslZcBIA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DKiLUe3LEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLUu3LEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_DKiLU-3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_DKiLVO3LEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_DKiLVe3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_DKiLVu3LEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_DKiLV-3LEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLWO3LEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_DKiLWe3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_DKiLWu3LEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_DKiLW-3LEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_DKiLXO3LEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_DKiLXe3LEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_DKiLXu3LEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_DKiLX-3LEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_DKiLYO3LEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_DKiLYe3LEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_DKiLYu3LEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_DKiLY-3LEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_DKiLZO3LEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_DKiLZe3LEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_DKiLZu3LEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum OffenseCodeSimpleType {
+    _611, _260_011, _160, _999, _920, _300_12, _419, _941, _662, _912, _550, _263, _120_2, _902, _153, _202, _400_04, _665, _161, _970_03, _541, _239, _932, _260_003, _160_2, _953_01, _900, _102, _403_01, _221_3, _401_02, _160_1, _931_2, _404_02, _110_4, _235, _402_06, _910, _210_3, _909, _221, _913, _414, _491, _901, _991_01, _971_02, _260_013, _210_4, _400_07, _221_1, _219, _300_4, _493, _625, _103_03, _402_08, _971, _952, _130, _403_02, _400_08, _109, _660, _974_02, _401_07, _406_02, _100_1, _200_3, _400_05, _990, _914, _580, _405_04, _922, _141_1, _260_007, _290, _400_02, _170_01, _103_01, _233, _129, _229, _170_04, _300_42, _261, _400_03, _243, _179, _970, _979, _404, _520, _645, _170, _103, _300_52, _972_01, _661, _170_03, _110_2, _405_07, _590, _403_04, _401_05, _920_01, _300, _201, _260_015, _260_006, _650, _499, _976, _300_22, _402_01, _401, _409, _931_1, _230, _251, _997, _402_04, _969, _903, _429, _974_01, _953_02, _951, _420, _231, _111, _664, _510, _933, _269, _961, _300_3, _234, _199, _241, _300_11, _402_07, _630, _209, _970_04, _405_05, _221_2, _200_2, _242, _403, _966, _415, _240, _977, _163_01, _666, _610, _291, _200_1, _220, _299, _230_31, _260_004, _501_1, _973, _930, _100_5, _923, _530, _501, _911, _161_2, _300_21, _929, _249, _293, _931_3, _404_04, _200, _110_1, _121_1, _961_02, _410, _132, _668, _937, _402_05, _100_2, _972, _916, _938, _161_1, _260_008, _230_2, _560, _413, _500, _210_1, _170_02, _252, _412, _100, _141_2, _392, _965, _663, _975, _612, _406, _120_3, _260_002, _172, _140, _599, _601, _141, _162_3, _100_3, _112, _300_2, _949, _163, _160_3, _260_005, _540, _402, _960, _101, _964, _254, _962, _292, _162_1, _300_5, _131, _300_53, _404_03, _139, _992, _391, _405, _300_54, _253, _103_02, _411, _110_5, _171, _640, _150, _970_02, _399, _232, _260_009, _264, _162, _200_4, _151, _300_41, _915, _405_03, _210, _954, _230_3, _260_017, _300_32, _961_01, _939, _121_2, _390, _260, _921, _494, _169, _402_02, _400_06, _110_3, _406_01, _152, _934, _100_4, _400, _162_2, _300_1, _210_2, _405_06, _400_01, _100_41, _230_1, _998, _991, _699, _918, _490, _119, _953, _260_012, _416, _110, _163_02, _402_03, _970_01, _149, _259, _171_01, _260_001, _974, _403_03, _294, _405_02, _971_01, _667, _931, _260_01, _265, _401_06, _190, _950, _120, _250, _405_01, _230_4, _940, _262, _919, _421, _300_51, _173, _260_014, _959, _120_1, _401_04, _924, _121, _492, _255, _260_016, _404_01, _159, _963, _422, _300_31;
+}
+public class NamespaceElementPropertyHolder {
+}
+
+public enum OffenseCodeType {
+    P, M, F, G;
+}
+
+public enum OffenseLevelCodeSimpleType {
+    P, M, F, G;
+}
+
+public enum OffenseLevelCodeType {
+    P, M, F, G;
+}
+
+public enum StatuteCategoryCodeSimpleType {
+    D, B, N, P, J, C;
+}
+
+public enum StatuteCategoryCodeType {
+    D, B, N, P, J, C;
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly;
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group;
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable;
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

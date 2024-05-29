@@ -1,0 +1,47 @@
+The operation as_display_type_string is missing a definition.
+The operation all_ancestors is missing a definition.
+The operation all_descendants is missing a definition.
+The operation suppliers is missing a definition.
+The operation suppliers_non_primitive is missing a definition.
+The operation suppliers_closure is missing a definition.
+The operation existence is missing a definition.
+The operation display_name is missing a definition.
+The class BMM_PROPERTY is missing an attribute.
+The attribute G is faulty. 
+The operation root_classes is missing a definition.
+The operation path is missing a definition.
+The class BMM_GENERIC_PARAMETER is missing an attribute.
+The operation flattened_conforms_to_type is missing a definition.
+The operation as_conformance_type_string is missing a definition.
+The operation display_name is missing a definition.
+The operation schema_id is missing a definition.
+The class P_BMM_CLASS is missing.
+The class P_BMM_ENUMERATION is missing.
+The class P_BMM_SCHEMA is missing.
+The class P_BMM_CLASSIFIER is missing.
+The class P_BMM_PROPERTY is missing.
+The class P_BMM_GENERIC_PARAMETER is missing.
+The class P_BMM_TYPE is missing.
+The class P_BMM_CONTAINER_TYPE is missing.
+The class P_BMM_SIMPLE_TYPE is missing.
+The class P_BMM_SIMPLE_TYPE_OPEN is missing.
+The class P_BMM_GENERIC_TYPE is missing.
+The class P_BMM_PACKAGE is missing.
+The class P_BMM_PACKAGE_CONTAINER is missing.
+The class P_BMM_SINGLE_PROPERTY is missing.
+The class P_BMM_SINGLE_PROPERTY_OPEN is missing.
+The class P_BMM_GENERIC_PROPERTY is missing.
+The class P_BMM_ENUMERATION_INTEGER is missing.
+The class P_BMM_ENUMERATION_STRING is missing.
+The class P_BMM_SCHEMA is missing.
+The class T is missing.
+
+
+
+
+
+
+
+
+
+

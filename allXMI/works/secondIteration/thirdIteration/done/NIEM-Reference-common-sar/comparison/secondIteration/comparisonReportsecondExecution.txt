@@ -1,0 +1,2 @@
+The enum TargetSectorCodeType is missing.
+

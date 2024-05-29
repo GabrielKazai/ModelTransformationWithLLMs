@@ -1,0 +1,144 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java Class Generation
+
+
+Java Class Generation
+Java XMI to Code
+UML to Java Conversion
+Java Classes UML Model
+Yesterday
+Java Classes from XMI
+Java Code Generation
+Java Classes for UML
+UML to Java
+Java Classes from XMI
+Java Class Generation
+Java Class Contrainte
+Java Classes from XMI
+Java Class Generation
+Java Classes from XMI
+UML to Java Conversion
+Java UML to Code
+Java UML Model Classes
+Previous 7 Days
+Java Class Creation
+Java Code from XMI
+Java Code Generation
+Generate Java Classes: UML to Code
+Java Class Modelling
+Generate Java Classes
+Java Code Generation
+Java Code Generation
+Java Models Response
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_xjalYO3OEe6yiIkslZcBIA" name="Model">
+  <eAnnotations xmi:id="_xjalYe3OEe6yiIkslZcBIA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_xjalYu3OEe6yiIkslZcBIA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_xjalY-3OEe6yiIkslZcBIA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_xjalZO3OEe6yiIkslZcBIA" name="external"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_xjalZe3OEe6yiIkslZcBIA" name="edxl-have">
+    <packagedElement xmi:type="uml:Package" xmi:id="_xjalZu3OEe6yiIkslZcBIA" name="2.1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_xjalZ-3OEe6yiIkslZcBIA" name="edxl-have">
+        <packagedElement xmi:type="uml:Class" xmi:id="_xjalaO3OEe6yiIkslZcBIA" name="HaveAdapterType"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xjalae3OEe6yiIkslZcBIA" name="NamespaceElementPropertyHolder">
+          <ownedAttribute xmi:id="_xjalau3OEe6yiIkslZcBIA" name="HaveAdapter" type="_xjalaO3OEe6yiIkslZcBIA" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_xjala-3OEe6yiIkslZcBIA" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_xjalbO3OEe6yiIkslZcBIA" name="ContentKind">
+      <ownedLiteral xmi:id="_xjalbe3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_xjalbu3OEe6yiIkslZcBIA" name="Empty"/>
+      <ownedLiteral xmi:id="_xjalb-3OEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_xjalcO3OEe6yiIkslZcBIA" name="Mixed"/>
+      <ownedLiteral xmi:id="_xjalce3OEe6yiIkslZcBIA" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_xjalcu3OEe6yiIkslZcBIA" name="FeatureKind">
+      <ownedLiteral xmi:id="_xjalc-3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_xjaldO3OEe6yiIkslZcBIA" name="Simple"/>
+      <ownedLiteral xmi:id="_xjalde3OEe6yiIkslZcBIA" name="Attribute"/>
+      <ownedLiteral xmi:id="_xjaldu3OEe6yiIkslZcBIA" name="Element"/>
+      <ownedLiteral xmi:id="_xjald-3OEe6yiIkslZcBIA" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_xjaleO3OEe6yiIkslZcBIA" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_xjalee3OEe6yiIkslZcBIA" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_xjaleu3OEe6yiIkslZcBIA" name="VisibilityKind">
+      <ownedLiteral xmi:id="_xjale-3OEe6yiIkslZcBIA" name="Unspecified"/>
+      <ownedLiteral xmi:id="_xjalfO3OEe6yiIkslZcBIA" name="None"/>
+      <ownedLiteral xmi:id="_xjalfe3OEe6yiIkslZcBIA" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_xjalfu3OEe6yiIkslZcBIA" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_xjalf-3OEe6yiIkslZcBIA" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_xjalgO3OEe6yiIkslZcBIA" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable
+}
+
+class HaveAdapterType {
+}
+
+class NamespaceElementPropertyHolder {
+    private HaveAdapterType HaveAdapter;
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

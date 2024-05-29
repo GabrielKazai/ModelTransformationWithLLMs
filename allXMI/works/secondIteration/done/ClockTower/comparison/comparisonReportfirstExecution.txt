@@ -1,0 +1,2 @@
+The class Clock is missing a constructor.
+The class Hand is missing an attribute.

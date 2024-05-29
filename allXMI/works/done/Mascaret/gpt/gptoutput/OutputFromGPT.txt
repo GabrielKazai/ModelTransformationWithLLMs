@@ -1,0 +1,398 @@
+﻿Chat history
+ChatGPT
+ChatGPT
+
+Explore GPTs
+Today
+Java UML Models Creation
+
+
+Java Models Translation
+Java Classes for UML
+GPT-4 Assisting User Request
+Yesterday
+Java Classes UML
+Java Code for UML.
+Java code generation
+Assist with user request.
+Java Code from XMI.
+Java Code Classes
+Java Code from XMI
+Java Class Model Generation
+Java Enums: UML Conversion
+Java Code Generation
+Java Classes from XMI
+Java Kode for UML
+Java Classes From XMI
+Java Classes: UML Conversion
+Java Class Models
+Java Classes Creation
+Java Code Generation
+Java Models Without Comments
+Java Code Generation
+Java UML Conversion
+Java Model Generation
+Add Team workspace
+Collaborate on a Team plan
+
+User
+ThesisMDUGPT
+
+Close sidebar
+ChatGPT 4
+
+User
+The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_llDxEO__Ee6i4a0QcJFHYQ" name="Model">
+  <eAnnotations xmi:id="_llDxEe__Ee6i4a0QcJFHYQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_llDxEu__Ee6i4a0QcJFHYQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxE-__Ee6i4a0QcJFHYQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_llDxFO__Ee6i4a0QcJFHYQ" name="VEHA">
+    <packagedElement xmi:type="uml:Package" xmi:id="_llDxFe__Ee6i4a0QcJFHYQ" name="Kernel">
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxFu__Ee6i4a0QcJFHYQ" name="Environment"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxF-__Ee6i4a0QcJFHYQ" name="Model"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxGO__Ee6i4a0QcJFHYQ" name="Package">
+        <generalization xmi:id="_llDxGe__Ee6i4a0QcJFHYQ" general="_llDxO-__Ee6i4a0QcJFHYQ"/>
+        <ownedAttribute xmi:id="_llDxGu__Ee6i4a0QcJFHYQ" name="packages" visibility="public" type="_llDxGO__Ee6i4a0QcJFHYQ" isReadOnly="true" aggregation="composite" association="_llDxLu__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxG-__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxHO__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxHe__Ee6i4a0QcJFHYQ" name="parentPackage" visibility="public" type="_llDxGO__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxLu__Ee6i4a0QcJFHYQ"/>
+        <ownedAttribute xmi:id="_llDxHu__Ee6i4a0QcJFHYQ" name="classes" visibility="public" type="_llDxMu__Ee6i4a0QcJFHYQ" isReadOnly="true" aggregation="composite" association="_llDxL-__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxH-__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxIO__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxIe__Ee6i4a0QcJFHYQ" name="signals" visibility="public" type="_llDxje__Ee6i4a0QcJFHYQ" isReadOnly="true" aggregation="composite" association="_llDxMO__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxIu__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxI-__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_llDxJO__Ee6i4a0QcJFHYQ" name="Package" visibility="public">
+          <ownedParameter xmi:id="_llDxJe__Ee6i4a0QcJFHYQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxJu__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxJ-__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxKO__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_llDxKe__Ee6i4a0QcJFHYQ" name="getFullName" visibility="public">
+          <ownedParameter xmi:id="_llDxKu__Ee6i4a0QcJFHYQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxK-__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxLO__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxLe__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxLu__Ee6i4a0QcJFHYQ" memberEnd="_llDxGu__Ee6i4a0QcJFHYQ _llDxHe__Ee6i4a0QcJFHYQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxL-__Ee6i4a0QcJFHYQ" memberEnd="_llDxHu__Ee6i4a0QcJFHYQ _llDxNO__Ee6i4a0QcJFHYQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxMO__Ee6i4a0QcJFHYQ" memberEnd="_llDxIe__Ee6i4a0QcJFHYQ _llDxMe__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxMe__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxGO__Ee6i4a0QcJFHYQ" association="_llDxMO__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxMu__Ee6i4a0QcJFHYQ" name="Class">
+        <generalization xmi:id="_llDxM-__Ee6i4a0QcJFHYQ" general="_llDxRu__Ee6i4a0QcJFHYQ"/>
+        <ownedAttribute xmi:id="_llDxNO__Ee6i4a0QcJFHYQ" name="package" visibility="public" type="_llDxGO__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxL-__Ee6i4a0QcJFHYQ"/>
+        <ownedOperation xmi:id="_llDxNe__Ee6i4a0QcJFHYQ" name="Class" visibility="public">
+          <ownedParameter xmi:id="_llDxNu__Ee6i4a0QcJFHYQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxN-__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxOO__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxOe__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_llDxOu__Ee6i4a0QcJFHYQ" name="getFullName" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxO-__Ee6i4a0QcJFHYQ" name="Element">
+        <ownedAttribute xmi:id="_llDxPO__Ee6i4a0QcJFHYQ" name="name" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxPe__Ee6i4a0QcJFHYQ" name="description" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxPu__Ee6i4a0QcJFHYQ" name="summary" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxP-__Ee6i4a0QcJFHYQ" name="id" visibility="public" type="_llDxRe__Ee6i4a0QcJFHYQ" isUnique="false" isReadOnly="true"/>
+        <ownedOperation xmi:id="_llDxQO__Ee6i4a0QcJFHYQ" name="Element" visibility="public">
+          <ownedParameter xmi:id="_llDxQe__Ee6i4a0QcJFHYQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxQu__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxQ-__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxRO__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_llDxRe__Ee6i4a0QcJFHYQ" name="ID"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxRu__Ee6i4a0QcJFHYQ" name="Classifier">
+        <generalization xmi:id="_llDxR-__Ee6i4a0QcJFHYQ" general="_llDxO-__Ee6i4a0QcJFHYQ"/>
+        <ownedAttribute xmi:id="_llDxSO__Ee6i4a0QcJFHYQ" name="chidren" visibility="public" type="_llDxRu__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxYO__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxSe__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxSu__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxS-__Ee6i4a0QcJFHYQ" name="parents" visibility="public" type="_llDxRu__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxYO__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxTO__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxTe__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxTu__Ee6i4a0QcJFHYQ" name="ownedBehavior" visibility="public" type="_llDxj-__Ee6i4a0QcJFHYQ" isReadOnly="true" aggregation="composite" association="_llDxYe__Ee6i4a0QcJFHYQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxT-__Ee6i4a0QcJFHYQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxUO__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxUe__Ee6i4a0QcJFHYQ" name="isAbstract" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_llDxUu__Ee6i4a0QcJFHYQ" name="isA" visibility="public">
+          <ownedParameter xmi:id="_llDxU-__Ee6i4a0QcJFHYQ" name="classifier" type="_llDxRu__Ee6i4a0QcJFHYQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxVO__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxVe__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxVu__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_llDxV-__Ee6i4a0QcJFHYQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxWO__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxWe__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxWu__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_llDxW-__Ee6i4a0QcJFHYQ" name="Classifier" visibility="public">
+          <ownedParameter xmi:id="_llDxXO__Ee6i4a0QcJFHYQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxXe__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxXu__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxX-__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxYO__Ee6i4a0QcJFHYQ" memberEnd="_llDxSO__Ee6i4a0QcJFHYQ _llDxS-__Ee6i4a0QcJFHYQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxYe__Ee6i4a0QcJFHYQ" memberEnd="_llDxTu__Ee6i4a0QcJFHYQ _llDxYu__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxYu__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxRu__Ee6i4a0QcJFHYQ" association="_llDxYe__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxY-__Ee6i4a0QcJFHYQ" name="Feature">
+        <generalization xmi:id="_llDxZO__Ee6i4a0QcJFHYQ" general="_llDxO-__Ee6i4a0QcJFHYQ"/>
+        <ownedOperation xmi:id="_llDxZe__Ee6i4a0QcJFHYQ" name="Feature" visibility="public">
+          <ownedParameter xmi:id="_llDxZu__Ee6i4a0QcJFHYQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llDxZ-__Ee6i4a0QcJFHYQ" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxaO__Ee6i4a0QcJFHYQ" value="1"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_llDxae__Ee6i4a0QcJFHYQ" value=""/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxau__Ee6i4a0QcJFHYQ" name="Property">
+        <generalization xmi:id="_llDxa-__Ee6i4a0QcJFHYQ" general="_llDxY-__Ee6i4a0QcJFHYQ"/>
+        <ownedAttribute xmi:id="_llDxbO__Ee6i4a0QcJFHYQ" name="type" visibility="public" type="_llDxRu__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxfu__Ee6i4a0QcJFHYQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxbe__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxbu__Ee6i4a0QcJFHYQ" name="classifier" visibility="public" type="_llDxRu__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxgO__Ee6i4a0QcJFHYQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxb-__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxcO__Ee6i4a0QcJFHYQ" name="opposite" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxgu__Ee6i4a0QcJFHYQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxce__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxcu__Ee6i4a0QcJFHYQ" name="defaultValue" visibility="public" type="_llDxiO__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxhO__Ee6i4a0QcJFHYQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxc-__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxdO__Ee6i4a0QcJFHYQ" name="domain" visibility="public" type="_llDxie__Ee6i4a0QcJFHYQ" isReadOnly="true" association="_llDxhu__Ee6i4a0QcJFHYQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llDxde__Ee6i4a0QcJFHYQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxdu__Ee6i4a0QcJFHYQ" name="isComposite" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxd-__Ee6i4a0QcJFHYQ" name="isNavigable" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxeO__Ee6i4a0QcJFHYQ" name="isReadOnly" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxee__Ee6i4a0QcJFHYQ" name="isDerived" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxeu__Ee6i4a0QcJFHYQ" name="isOrdered" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxe-__Ee6i4a0QcJFHYQ" name="isUnique" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxfO__Ee6i4a0QcJFHYQ" name="minimumNumber" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_llDxfe__Ee6i4a0QcJFHYQ" name="maximumNumber" visibility="public" isUnique="false" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxfu__Ee6i4a0QcJFHYQ" memberEnd="_llDxbO__Ee6i4a0QcJFHYQ _llDxf-__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxf-__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" association="_llDxfu__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxgO__Ee6i4a0QcJFHYQ" memberEnd="_llDxbu__Ee6i4a0QcJFHYQ _llDxge__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxge__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" association="_llDxgO__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxgu__Ee6i4a0QcJFHYQ" memberEnd="_llDxcO__Ee6i4a0QcJFHYQ _llDxg-__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxg-__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" association="_llDxgu__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxhO__Ee6i4a0QcJFHYQ" memberEnd="_llDxcu__Ee6i4a0QcJFHYQ _llDxhe__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxhe__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" association="_llDxhO__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_llDxhu__Ee6i4a0QcJFHYQ" memberEnd="_llDxdO__Ee6i4a0QcJFHYQ _llDxh-__Ee6i4a0QcJFHYQ">
+        <ownedEnd xmi:id="_llDxh-__Ee6i4a0QcJFHYQ" visibility="public" type="_llDxau__Ee6i4a0QcJFHYQ" association="_llDxhu__Ee6i4a0QcJFHYQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxiO__Ee6i4a0QcJFHYQ" name="ValueSpecification"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_llDxie__Ee6i4a0QcJFHYQ" name="DomainSpecification"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_llDxiu__Ee6i4a0QcJFHYQ" name="Entity"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_llDxi-__Ee6i4a0QcJFHYQ" name="Behavior">
+      <packagedElement xmi:type="uml:Package" xmi:id="_llDxjO__Ee6i4a0QcJFHYQ" name="Common">
+        <packagedElement xmi:type="uml:Class" xmi:id="_llDxje__Ee6i4a0QcJFHYQ" name="Signal">
+          <generalization xmi:id="_llDxju__Ee6i4a0QcJFHYQ" general="_llDxMu__Ee6i4a0QcJFHYQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_llDxj-__Ee6i4a0QcJFHYQ" name="Behavior"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_llDxkO__Ee6i4a0QcJFHYQ" name="external">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_llDxke__Ee6i4a0QcJFHYQ" name="ContentKind">
+      <ownedLiteral xmi:id="_llDxku__Ee6i4a0QcJFHYQ" name="Unspecified"/>
+      <ownedLiteral xmi:id="_llDxk-__Ee6i4a0QcJFHYQ" name="Empty"/>
+      <ownedLiteral xmi:id="_llDxlO__Ee6i4a0QcJFHYQ" name="Simple"/>
+      <ownedLiteral xmi:id="_llDxle__Ee6i4a0QcJFHYQ" name="Mixed"/>
+      <ownedLiteral xmi:id="_llDxlu__Ee6i4a0QcJFHYQ" name="ElementOnly"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_llDxl-__Ee6i4a0QcJFHYQ" name="FeatureKind">
+      <ownedLiteral xmi:id="_llDxmO__Ee6i4a0QcJFHYQ" name="Unspecified"/>
+      <ownedLiteral xmi:id="_llDxme__Ee6i4a0QcJFHYQ" name="Simple"/>
+      <ownedLiteral xmi:id="_llDxmu__Ee6i4a0QcJFHYQ" name="Attribute"/>
+      <ownedLiteral xmi:id="_llDxm-__Ee6i4a0QcJFHYQ" name="Element"/>
+      <ownedLiteral xmi:id="_llDxnO__Ee6i4a0QcJFHYQ" name="AttributeWildcard"/>
+      <ownedLiteral xmi:id="_llDxne__Ee6i4a0QcJFHYQ" name="ElementWildcard"/>
+      <ownedLiteral xmi:id="_llDxnu__Ee6i4a0QcJFHYQ" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_llDxn-__Ee6i4a0QcJFHYQ" name="VisibilityKind">
+      <ownedLiteral xmi:id="_llDxoO__Ee6i4a0QcJFHYQ" name="Unspecified"/>
+      <ownedLiteral xmi:id="_llDxoe__Ee6i4a0QcJFHYQ" name="None"/>
+      <ownedLiteral xmi:id="_llDxou__Ee6i4a0QcJFHYQ" name="ReadOnly"/>
+      <ownedLiteral xmi:id="_llDxo-__Ee6i4a0QcJFHYQ" name="ReadWrite"/>
+      <ownedLiteral xmi:id="_llDxpO__Ee6i4a0QcJFHYQ" name="ReadOnlyUnsettable"/>
+      <ownedLiteral xmi:id="_llDxpe__Ee6i4a0QcJFHYQ" name="ReadWriteUnsettable"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
+
+ChatGPT
+java
+Copy code
+// [[STARTEND]]
+public class Environment {
+}
+
+public class Model {
+}
+
+public class Package {
+    public Package[] packages;
+    public Package parentPackage;
+    public Class[] classes;
+    public Signal[] signals;
+
+    public Package(String name) {
+    }
+
+    public String getFullName() {
+        return "";
+    }
+}
+
+public class Class extends Classifier {
+    public Package package;
+
+    public Class(String name) {
+    }
+
+    public String getFullName() {
+        return "";
+    }
+}
+
+public abstract class Element {
+    public String name;
+    public String description;
+    public String summary;
+    public ID id;
+
+    public Element(String name) {
+    }
+}
+
+public class ID {
+}
+
+public abstract class Classifier extends Element {
+    public Classifier[] chidren;
+    public Classifier[] parents;
+    public Behavior[] ownedBehavior;
+    public boolean isAbstract;
+
+    public boolean isA(Classifier classifier) {
+        return false;
+    }
+
+    public Classifier(String name) {
+    }
+}
+
+public class Feature extends Element {
+    public Feature(String name) {
+    }
+}
+
+public class Property extends Feature {
+    public Classifier type;
+    public Classifier classifier;
+    public Property opposite;
+    public ValueSpecification defaultValue;
+    public DomainSpecification domain;
+    public boolean isComposite;
+    public boolean isNavigable;
+    public boolean isReadOnly;
+    public boolean isDerived;
+    public boolean isOrdered;
+    public boolean isUnique;
+    public int minimumNumber;
+    public int maximumNumber;
+}
+
+public class ValueSpecification {
+}
+
+public class DomainSpecification {
+}
+
+public class Signal extends Class {
+}
+
+public class Behavior {
+}
+
+public enum ContentKind {
+    Unspecified, Empty, Simple, Mixed, ElementOnly
+}
+
+public enum FeatureKind {
+    Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+}
+
+public enum VisibilityKind {
+    Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+}
+// [[STARTEND]]
+
+
+
+
+
+Message ChatGPT…
+
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT

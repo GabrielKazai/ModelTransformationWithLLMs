@@ -1,0 +1,60 @@
+Text Compare
+Produced: 2024-04-09 09:13:12
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\ClockTower\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\ClockTower\gpt\gptoutput\cleanGPT.java
+                                   -+ package ClockTower.Environment;
+------------------------------------------------------------------------
+                                   =
+class ClockTower {                    class ClockTower {
+    private Clock clock;                  private Clock clock;
+------------------------------------------------------------------------
+                                   +-
+------------------------------------------------------------------------
+}                                  =  }
+
+class Clock {                         class Clock {
+------------------------------------------------------------------------
+    public int currentHour = 0;    <>
+
+    private int currentMinute = 0;
+
+    private ClockTower ;                  private ClockTower clockTower;
+
+------------------------------------------------------------------------
+    private Hand hourHand;         =      private Hand hourHand;
+------------------------------------------------------------------------
+                                   +-
+------------------------------------------------------------------------
+    private Hand minuteHand;       =      private Hand minuteHand;
+------------------------------------------------------------------------
+                                   -+     public int currentHour;
+                                          private int currentMinute;
+------------------------------------------------------------------------
+                                   =
+    public void updateHands() {           public void updateHands() {
+    }                                     }
+
+    public void addOneHour() {            public void addOneHour() {
+    }                                     }
+
+    public void addOneMinute() {          public void addOneMinute() {
+    }                                     }
+------------------------------------------------------------------------
+                                   +-
+    public void Clock() {
+    }
+
+------------------------------------------------------------------------
+}                                  =  }
+
+class Hand {                          class Hand {
+------------------------------------------------------------------------
+    private Clock ;                <>     private Clock clock;
+
+    private Clock ;
+
+------------------------------------------------------------------------
+}                                  =  }
+------------------------------------------------------------------------

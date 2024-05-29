@@ -1,0 +1,14 @@
+Table Compare
+Produced: 2024-04-05 13:48:24
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_attribute_name_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_no_attribute_name_test\gpt\gptoutput\cleanGPT.java
+1:           2:    1:                          2:
+-------------------------------------------------
+                +-
+                +-
+                +-
+public Class    +-
+                -+ public Class classAttribute
+-------------------------------------------------

@@ -1,0 +1,4 @@
+The parameter errorStatus of function open has the wrong type.
+The parameter errorStatus of function close has the wrong type.
+The parameter errorStatus of function open has the wrong type.
+The function getStatus has the wrong return type.

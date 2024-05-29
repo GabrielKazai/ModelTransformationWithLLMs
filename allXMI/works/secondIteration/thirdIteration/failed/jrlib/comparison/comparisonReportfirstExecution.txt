@@ -1,0 +1,21 @@
+The function getSourceLRScales has the wrong return type.
+The function toArray has the wrong return type.
+The extends statement of LinkRatioSESelection is incorrect.
+The extends statement of LinkRatioSESFunction is incorrect.
+The extends statement of LinkRatioFunction is incorrect.
+The extends statement of LinkRatioSmoothingSelection is incorrect.
+The extends statement of LinkRatioSelection is incorrect.
+The extends statement of LinkRatioMethod is incorrect.
+The extends statement of LinKRatioScaleEstimator is incorrect.
+The extends statement of LinkRatioScaleSelection is incorrect.
+The interface EventListener is missing.
+The interface Map is missing.
+The interface Entry is missing.
+The interface Set is missing.
+The interface Collection is missing.
+The class Object is missing.
+The class K is missing.
+The class M is missing.
+The class T is missing.
+The class V is missing.
+

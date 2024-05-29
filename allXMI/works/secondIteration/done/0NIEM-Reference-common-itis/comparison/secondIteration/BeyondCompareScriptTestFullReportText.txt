@@ -1,0 +1,62 @@
+Text Compare
+Produced: 2024-05-23 15:09:38
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0NIEM-Reference-common-itis\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\secondIteration\0NIEM-Reference-common-itis\gpt\gptoutput\cleanGPT_SecondIteration.java
+                                                +-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum LightingCodeSimpleType {            =  public enum LightingCodeSimpleType {
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    lighting-unknown,                           <>     LIGHTING_UNKNOWN, ARTIFICIAL_INTERIOR_LIGHT, ARTIFICIAL_EXTERIOR_LIGHT, MOONLIGHT, DUSK, DAYLIGHT, DARKNESS, DAWN
+    artificial-interior-light,
+    artificial-exterior-light,
+    moonlight,
+    dusk,
+    daylight,
+    darkness,
+    dawn;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                               =  }
+
+public class NamespaceElementPropertyHolder {      public class NamespaceElementPropertyHolder {
+}                                                  }
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum LightingCodeType extends {          <> public enum LightingCodeType {
+    ;                                                  LIGHTING_UNKNOWN, ARTIFICIAL_INTERIOR_LIGHT, ARTIFICIAL_EXTERIOR_LIGHT, MOONLIGHT, DUSK, DAYLIGHT, DARKNESS, DAWN
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                               =  }
+
+public enum WeatherConditionsCodeSimpleType {      public enum WeatherConditionsCodeSimpleType {
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    uV-index-low,                               <>     UV_INDEX_LOW, CLEAR_SKIES, OVERCAST, DRY, MOSTLY_CLOUDY, MOSTLY_SUNNY, UV_INDEX_VERY_LOW, FAIR_SKIES, MOSTLY_CLEAR,
+    clear-skies,                                       OZONE_ALERT, UV_INDEX_MODERATE, BAROMETRIC_PRESSURE, PARTLY_CLOUDY, UV_INDEX_HIGH, UV_INDEX_VERY_HIGH, SUNNY,
+    overcast,                                          PARTLY_SUNNY, CLOUDY, MOSTLY_DRY
+    dry,
+    mostly-cloudy,
+    mostly-sunny,
+    uV-index-very-low,
+    fair-skies,
+    mostly-clear,
+    ozone-alert,
+    uV-index-moderate,
+    barometric-pressure,
+    partly-cloudy,
+    uV-index-high,
+    uV-index-very-high,
+    sunny,
+    partly-sunny,
+    cloudy,
+    mostly-dry;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                               =  }
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public enum WeatherConditionsCodeType extends { <> public enum WeatherConditionsCodeType {
+    ;                                                  UV_INDEX_LOW, CLEAR_SKIES, OVERCAST, DRY, MOSTLY_CLOUDY, MOSTLY_SUNNY, UV_INDEX_VERY_LOW, FAIR_SKIES, MOSTLY_CLEAR,
+                                                       OZONE_ALERT, UV_INDEX_MODERATE, BAROMETRIC_PRESSURE, PARTLY_CLOUDY, UV_INDEX_HIGH, UV_INDEX_VERY_HIGH, SUNNY,
+                                                       PARTLY_SUNNY, CLOUDY, MOSTLY_DRY
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}                                               =  }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------

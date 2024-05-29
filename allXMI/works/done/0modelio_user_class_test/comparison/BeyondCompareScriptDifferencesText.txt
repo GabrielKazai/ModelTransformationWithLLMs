@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2024-04-05 13:01:22
+
+Mode:  Differences
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_user_class_test\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\0modelio_user_class_test\gpt\gptoutput\cleanGPT.java
+ +-
+----

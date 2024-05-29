@@ -1,0 +1,2 @@
+The attributes of several classes did not have their relation cardinality translated correctly.
+Multiple classes are missing an extends.

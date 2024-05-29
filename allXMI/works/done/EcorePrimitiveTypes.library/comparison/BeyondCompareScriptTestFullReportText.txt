@@ -1,0 +1,166 @@
+Text Compare
+Produced: 2024-04-16 12:18:38
+
+Mode:  All
+Left file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\EcorePrimitiveTypes.library\oracle\combinedOracle\cleanOracle.java
+Right file: F:\Gabriel\github_desktop\ModelTransformationWithLLMs\allXMI\works\EcorePrimitiveTypes.library\gpt\gptoutput\cleanGPT.java
+                                          -+ public enum ContentKind {
+                                                 Unspecified, Empty, Simple, Mixed, ElementOnly
+                                             }
+
+                                             public enum FeatureKind {
+                                                 Unspecified, Simple, Attribute, Element, AttributeWildcard, ElementWildcard, Group
+                                             }
+
+                                             public enum VisibilityKind {
+                                                 Unspecified, None, ReadOnly, ReadWrite, ReadOnlyUnsettable, ReadWriteUnsettable
+                                             }
+-----------------------------------------------------------------------------------------------------------------------------------
+                                          =
+public class EBigDecimal {                   public class EBigDecimal {
+}                                            }
+
+public class EBigInteger {                   public class EBigInteger {
+}                                            }
+
+public class EBoolean {                      public class EBoolean {
+}                                            }
+
+public class EBooleanObject {                public class EBooleanObject {
+}                                            }
+
+public class EByte {                         public class EByte {
+}                                            }
+
+public class EByteArray {                    public class EByteArray {
+}                                            }
+
+public class EByteObject {                   public class EByteObject {
+}                                            }
+
+public class EChar {                         public class EChar {
+}                                            }
+
+public class ECharacterObject {              public class ECharacterObject {
+}                                            }
+
+public class EDate {                         public class EDate {
+}                                            }
+
+public class EDiagnosticChain {              public class EDiagnosticChain {
+}                                            }
+
+public class EDouble {                       public class EDouble {
+}                                            }
+
+public class EDoubleObject {                 public class EDoubleObject {
+}                                            }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+public class EEList {                     <> public class EEList<E> {
+    public void () {
+    }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+}                                         =  }
+
+public class EEnumerator {                   public class EEnumerator {
+}                                            }
+
+public class EFeatureMap {                   public class EFeatureMap {
+}                                            }
+
+public class EFeatureMapEntry {              public class EFeatureMapEntry {
+}                                            }
+
+public class EFloat {                        public class EFloat {
+}                                            }
+
+public class EFloatObject {                  public class EFloatObject {
+}                                            }
+
+public class EInt {                          public class EInt {
+}                                            }
+
+public class EIntegerObject {                public class EIntegerObject {
+}                                            }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+public class EJavaClass {                 <> public class EJavaClass<T> {
+    public void () {
+    }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+}                                         =  }
+
+public class EJavaObject {                   public class EJavaObject {
+}                                            }
+
+public class ELong {                         public class ELong {
+}                                            }
+
+public class ELongObject {                   public class ELongObject {
+}                                            }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+public class EMap {                       <> public class EMap<K, V> {
+    public <,> void () {
+    }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+}                                         =  }
+
+public class EResource {                     public class EResource {
+}                                            }
+
+public class EResourceSet {                  public class EResourceSet {
+}                                            }
+
+public class EShort {                        public class EShort {
+}                                            }
+
+public class EShortObject {                  public class EShortObject {
+}                                            }
+
+public class EString {                       public class EString {
+}                                            }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+public class ETreeIterator {              <> public class ETreeIterator<E> {
+    public void () {
+    }
+
+-----------------------------------------------------------------------------------------------------------------------------------
+}                                         =  }
+
+public class EInvocationTargetException {    public class EInvocationTargetException {
+}                                            }
+-----------------------------------------------------------------------------------------------------------------------------------
+                                          +-
+public enum ContentKind {
+    Unspecified,
+    Empty,
+    Simple,
+    Mixed,
+    ElementOnly;
+}
+
+public enum FeatureKind {
+    Unspecified,
+    Simple,
+    Attribute,
+    Element,
+    AttributeWildcard,
+    ElementWildcard,
+    Group;
+}
+
+public enum VisibilityKind {
+    Unspecified,
+    None,
+    ReadOnly,
+    ReadWrite,
+    ReadOnlyUnsettable,
+    ReadWriteUnsettable;
+}
+-----------------------------------------------------------------------------------------------------------------------------------

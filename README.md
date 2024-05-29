@@ -84,7 +84,7 @@ Previously executed files have their names saved within  ```previousExecutions.t
 
 ## Index
 The following is an index and description of the files present within the repository.
-```allXMI.txt``` - text__
+```allXMI.txt``` - text\
 ```beyondCompareGenerateParameters.py``` - text
 
 

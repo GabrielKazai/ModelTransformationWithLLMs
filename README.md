@@ -15,6 +15,7 @@ The following programs are required to execute the pipeline:
 * [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java), version 1.28.1 
 * [Python](https://www.python.org/)
 * [ChatGPT 4.0](https://chatgpt.com/)
+* [Google Chrome](https://www.google.com/chrome/)
 
 ### Installing
 
@@ -95,7 +96,7 @@ The following is an index and description of important files and folders present
 ```./allXMI/works/demo``` - Demo for any new user.\
 ```./allXMI/works/duplicates``` - duplicate files of working XMIs.\
 ```./allXMI/works/NotClassDiagrams``` - While working (imported into Modelio), these XMIs are not class diagrams.\
-```./allXMI/works/notworking``` - Files that we could not use during the experiment.
+```./allXMI/works/notworking``` - Files that could not be used during the experiment.
 
 ```./allXMI/works/done``` - The XMIs that finished after the first iteration.\
 ```./allXMI/works/secondIteration/done``` - The XMIs that finished after the second iteration.\

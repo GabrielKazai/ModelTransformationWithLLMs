@@ -1,15 +1,10 @@
 # Model Transformation With LLMs
 *Model-driven engineering envisions an enhancement of software
-engineering by promoting automation through model transforma-
-tions. However, the effective use of MDE tools often requires sig-
-nificant expertise due to their reliance on custom domain-specific
+engineering by promoting automation through model transformations. However, the effective use of MDE tools often requires significant expertise due to their reliance on custom domain-specific
 languages for transformations. This expertise gap, combined with
 challenges like inadequate tool support and the need for additional
-training, has meant that model-driven engineering sometimes strug-
-gles to reduce, and can even increase, accidental complexity.
-This work investigates the use of large language models, specifi-
-cally ChatGPT-4, to reduce accidental complexity in model transfor-
-mation processes within model-driven engineering. We conducted a
+training, has meant that model-driven engineering sometimes struggles to reduce, and can even increase, accidental complexity.
+This work investigates the use of large language models, specifically ChatGPT-4, to reduce accidental complexity in model transformation processes within model-driven engineering. We conducted a
 systematic literature review and designed an experiment to explore
 ChatGPT-4’s efficacy in performing model transformations out-of-
 the-box. Using a semi-automated pipeline, we applied ChatGPT-4

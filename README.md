@@ -9,6 +9,7 @@ These instructions will get you a copy of pipeline running on your local machine
 
 The following programs are required to execute the pipeline:
 
+* [Windows](https://www.microsoft.com/sv-se/software-download)
 * [AutoHotKey](https://www.autohotkey.com/), version 2.0 and 1.1
 * [Beyond Compare](https://www.scootersoftware.com/)
 * [Visual Studio Code](https://code.visualstudio.com/)

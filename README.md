@@ -53,11 +53,11 @@ A shortcut to Beyond Compare has to be placed in the root directory.
 ```
 
 ### Execution
-For a correct execution to transpire some conditions have to be met. While rare, it is possible for ChatGPT to missunderstand the given instruction in the prompts:
+For a correct execution to transpire some conditions have to be met. It is possible for ChatGPT to missunderstand the given instruction in the prompts, the reason for this not entirely certain, but it might have to do with the prompt itself or the XMI sent:
 
 ```The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.``` 
 
-If this happens, while still executing, the output within Beyond Compare might not be correctly formatted. While it is possible to look at the raw output files, in cases where this happens, it is recommended to re-execute if a report is desired. 
+If this happens, while still executing, the output within the Beyond Compare report might not be correctly formatted. While it is possible to look at the raw output files, in cases where this happens, it is recommended to re-execute if a report is desired. 
 
 Depending on the hardware used, as well as the files being executed, the timer for AutoHotKey to save the response from ChatGPT can be changed to either be longer or shorter.
 To do this, go into ```runGPT.ahk``` and ```runGPTSecondIteration.ahk``` and modify the loops seen on line 22 and 24 respectively. The default value is 700 which is equivalent to 70 seconds. 

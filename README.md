@@ -18,8 +18,7 @@ comparing them with ground truth programs created by a state-of-
 the-art modelling tool. Our findings indicate a cumulative success
 rate of 94% after three iterations, with most generation errors being
 resolved during the process. However, complex models presented a
-significant challenge, with a cumulative success rate of only 17%
-* 
+significant challenge, with a cumulative success rate of only 17%* 
 
 ## Getting Started
 

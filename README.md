@@ -1,7 +1,5 @@
 # Model Transformation With LLMs
-*Model-driven engineering envisions an enhancement of software engineering by promoting automation through model transformations. However, the effective use of MDE tools often requires significant expertise due to their reliance on custom domain-specific languages for transformations. 
-his expertise gap, combined with challenges like inadequate tool support and the need for additional training, has meant that model-driven engineering sometimes struggles to reduce, and can even increase, accidental complexity.
-This work investigates the use of large language models, specifically ChatGPT-4, to reduce accidental complexity in model transformation processes within model-driven engineering. We conducted a systematic literature review and designed an experiment to explore ChatGPT-4’s efficacy in performing model transformations out-of-the-box. Using a semi-automated pipeline, we applied ChatGPT-4 to 99 UML class diagram models, generating Java programs and comparing them with ground truth programs created by a state-of-the-art modelling tool. Our findings indicate a cumulative success rate of 94% after three iterations, with most generation errors being resolved during the process. However, complex models presented a significant challenge, with a cumulative success rate of only 17%.* 
+*Large Language Models such as ChatGPT have recently received significant traction in software development. Many papers are dedicated to investigating and understanding the capabilities and shortcomings of Large Language Models in code generation. However, the same cannot be said for its use within the domain of software modeling. The exploration of leveraging Large Language Models for software modeling tasks is yet to be analyzed further. In this paper, we explore the abilities of ChatGPT in conducting Text-to-Text model transformations, focusing on translating Unified Modeling Language class diagrams encoded in XML Metadata Interchange format to object-oriented code. In conducting the experiment, we developed a pipeline to evaluate the performance of ChatGPT to handle model transformations based on different complexity levels. Our results indicate that while Large Language Models like ChatGPT currently prove to be effective in handling very simple to intermediate model transformations, its performance declines with the increased complexity of the models, resulting in errors like missing classes and misclassified types, among others.* 
 
 ## Getting Started
 
@@ -55,7 +53,7 @@ A shortcut to Beyond Compare has to be placed in the root directory.
 ```
 
 ### Execution
-For a correct execution to transpire some conditions have to be met. It is possible for ChatGPT to missunderstand the given instruction in the prompts, the reason for this not entirely certain, but it might have to do with the prompt itself or the XMI sent:
+For a correct execution to transpire some conditions have to be met. It is possible for ChatGPT to missunderstand the given instruction in the prompts. The reason for this not entirely certain, but it might have to do with the prompt itself or the utilized XMI:
 
 ```The following is an XMI file based on a UML diagram. Please write corresponding Java code without adding any explanatory text before or after. Also, do not Implement get/set functions and do not add comments in the code. Generate the classes as if they were in separate files. Furthermore, start and end the response with the tag [[STARTEND]] as a java comment.``` 
 

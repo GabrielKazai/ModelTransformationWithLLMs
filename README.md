@@ -112,6 +112,7 @@ The following is an index and description of important files and folders present
 
 ## Replication
 It is possible to replicate the experiment by utilizing the XMI files found in the iteration folders and then executing the pipeline with those files.
+Importantly, the file structure present will have to be followed for the pipeline to execute correctly. For the correct structure, refer to the demo. 
 
 ## Built With
 

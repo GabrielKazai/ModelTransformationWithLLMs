@@ -104,6 +104,11 @@ The following is an index and description of important files and folders present
 ```./allXMI/works/secondIteration/thirdIteration/done``` - The XMIs that finished after the third iteration.\
 ```./allXMI/works/secondIteration/thirdIteration/failed``` - The XMIs that failed after the thirditeration.
 
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/comparison``` - The comparison between the oracle and ChatGPT as well as the error logs used in further iterations (comparisonReportfirstExecution.txt, comparisonReportsecondExecution.txt, comparisonReportthirdExecution.txt).\
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/errorlog``` - Errors discovered during the experiment or while utilizing Modelio.\
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/gpt``` - ChatGPT's response as well as the XMI sent to it.\
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/oracle``` - The oracle produced by Modelio.\
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/[[XMIFILE]]``` - The original XMI file from the Lindholmen dataset.\
 
 ## Built With
 

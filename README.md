@@ -108,7 +108,10 @@ The following is an index and description of important files and folders present
 ```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/errorlog``` - Errors discovered during the experiment or while utilizing Modelio.\
 ```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/gpt``` - ChatGPT's response as well as the XMI sent to it.\
 ```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/oracle``` - The oracle produced by Modelio.\
-```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/[[XMIFILE]]``` - The original XMI file from the Lindholmen dataset.\
+```./allXMI/works/[[ITERATION]]/[[SPECIFICFILE]]/[[XMIFILE]]``` - The original XMI file from the Lindholmen dataset.
+
+## Replication
+It is possible to replicate the experiment by utilizing the XMI files found in the iteration folders and then executing the pipeline with those files.
 
 ## Built With
 
